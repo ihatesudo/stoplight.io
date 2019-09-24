@@ -1,5 +1,5 @@
 banners:
-  - ends: 1567932664533
+  - ends: 1609430400000
     markdown: >-
       Announcing Stoplight Studio, our most powerful API Designer yet, now with OpenAPI v3 support! <u class='ml-1'>**[Learn More](https://stoplight.io/studio)**</u>
     starts: 1565815331394
