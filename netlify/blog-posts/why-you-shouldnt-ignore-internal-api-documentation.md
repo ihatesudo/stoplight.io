@@ -6,6 +6,7 @@ tags:
 relatedTags:
   - blog-documentation
 publishedDate: 2019-09-25T17:12:53.176Z
+author: Adam DuVander
 title: Why You Shouldn't Ignore Internal API Documentation
 subtitle: Enable your teams to move faster and collaborate efficiently
 image: /images/whiteboard-collaboration.jpg
