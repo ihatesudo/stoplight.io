@@ -34,15 +34,15 @@ meta:
 ## Platform v1.1.5
 
 ### Features
-- Added "View in Docs" button to explorer read panel [#419](https://github.com/stoplightio/app-gen3/pull/419)
-- Docs endpoint pages now display the method and path [#419](https://github.com/stoplightio/app-gen3/pull/419)
-- Navigating between docs pages will now scroll you to the top of the page [#56](https://github.com/stoplightio/elements/pull/56)
-- Docs page table of contents is displayed as a popover on smaller screens [#51](https://github.com/stoplightio/elements/pull/51)
+- Added "View in Docs" button to explorer read panel 
+- Docs endpoint pages now display the method and path 
+- Navigating between docs pages will now scroll you to the top of the page 
+- Docs page table of contents is displayed as a popover on smaller screens
 
 ### Fixes
-- Images in docs now point directly to the original repository, rather than to jsdeliver [#408](https://github.com/stoplightio/app-gen3/pull/408)
-- Parameters with long names no longer overflow into their type [#55](https://github.com/stoplightio/elements/pull/55)
-- Correctly shows how your docs will look on mobile screens in the docs preview [#48](https://github.com/stoplightio/elements/pull/48)
+- Images in docs now point directly to the original repository, rather than to jsdeliver
+- Parameters with long names no longer overflow into their type 
+- Correctly shows how your docs will look on mobile screens in the docs preview 
 
 ## Studio v1.1.4
 
