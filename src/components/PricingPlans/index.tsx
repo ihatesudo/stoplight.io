@@ -62,7 +62,7 @@ export const PricingPlan: React.FunctionComponent<IPricingPlan> = ({
 
         {button && (
           <div className="-mx-10 -mb-10">
-            <Button {...button} />
+            <Button className="w-full" {...button} />
           </div>
         )}
       </div>

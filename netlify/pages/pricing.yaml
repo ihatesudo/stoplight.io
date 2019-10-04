@@ -126,10 +126,10 @@ docPlans:
     - price: Free
       title: Basic
     - domains: '1 Domain'
-      price: $69 / mo
+      price: $79 / mo
       title: Standard
     - domains: '10 Domains'
-      price: $159 / mo
+      price: $179 / mo
       title: Pro
     - domains: 'Unlimited Domains'
       price: Contact Us
