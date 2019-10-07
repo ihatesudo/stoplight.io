@@ -1,4 +1,5 @@
 import React from 'react';
+import CMS from 'netlify-cms-app';
 
 import { About } from 'src/templates/About';
 import { Form } from 'src/templates/Form';
@@ -12,7 +13,7 @@ import { convertMarkdownToHTML } from 'src/utils/markdown';
 
 import { config } from './config';
 
-import appStyles from '!css-loader!./styles.css';
+import previewStyles from '!css-loader!./styles.css';
 
 const templates = {
   settings: Settings,
@@ -33,42 +34,24 @@ const templates = {
 
 export default () => {
   React.useEffect(() => {
-    if (typeof window === 'undefined') {
-      return;
-    }
+    console.log(`CMS [${process.env.NODE_ENV}]`, CMS);
 
-    import(`netlify-cms-app`).then(({ default: CMS }) => {
-      CMS.registerPreviewStyle(appStyles.toString(), { raw: true });
+    CMS.registerPreviewStyle(previewStyles, { raw: true });
 
-      Object.keys(templates).forEach(collectionName => {
-        const Template = templates[collectionName];
+    Object.keys(templates).forEach(collectionName => {
+      const Template = templates[collectionName];
 
-        if (Template) {
-          CMS.registerPreviewTemplate(collectionName, ({ entry }) => {
-            const props = entry.getIn(['data']).toJS();
+      if (Template) {
+        CMS.registerPreviewTemplate(collectionName, ({ entry }) => {
+          const props = entry.getIn(['data']).toJS();
 
-            return <Template {...convertMarkdownToHTML(props, { includeToc: props.includeToc })} />;
-          });
-        }
-      });
-
-      CMS.init({ config });
+          return <Template {...convertMarkdownToHTML(props, { includeToc: props.includeToc })} />;
+        });
+      }
     });
 
-    import(`netlify-identity-widget`).then(({ default: netlifyIdentityWidget }) => {
-      netlifyIdentityWidget.on(`init`, user => {
-        if (!user) {
-          netlifyIdentityWidget.open('login'); // open the modal to the login tab
-
-          netlifyIdentityWidget.on(`login`, () => {
-            document.location.href = '/admin/';
-          });
-        }
-      });
-
-      netlifyIdentityWidget.init();
-    });
+    CMS.init({ config });
   }, []);
 
-  return <div />;
+  return <div id="nc-root" />;
 };
