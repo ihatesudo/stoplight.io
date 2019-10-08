@@ -31,6 +31,10 @@ hero:
       icon: ['fab', 'linux']
       color: green
       filename: studio-linux
+    - color: indigo
+      href: 'https://stoplight.io/p/docs/gh/stoplightio/studio'
+      title: Read the Docs
+      icon: ['fad', 'book-open']
 featureSection:
   actionBar:
     ctas:
