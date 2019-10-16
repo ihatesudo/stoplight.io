@@ -6,6 +6,7 @@ tags:
 relatedTags:
   - blog-design
 publishedDate: 2019-10-16T20:12:09.426Z
+author: Kyle Lange
 title: 'OpenAPI and JSON Schema: When to Use Which'
 subtitle: Behind the divergence in data formats and how you can solve it
 color: black
