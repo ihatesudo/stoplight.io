@@ -2,7 +2,8 @@ import metaTags from 'src/components/MetaTags/config';
 import actionBar from 'src/components/ActionBar/config';
 import pagination from 'src/components/Pagination/config';
 
-import { addFields, colors } from 'src/utils/netlify';
+import { addFields } from '../../utils/netlify';
+console.log(addFields);
 
 export const ListsConfig = {
   label: 'Lists',
@@ -36,8 +37,7 @@ export const ListsConfig = {
     {
       label: 'Color',
       name: 'color',
-      widget: 'select',
-      options: colors,
+      widget: 'string',
       default: 'black',
       required: false,
     },

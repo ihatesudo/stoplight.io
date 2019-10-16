@@ -1,4 +1,3 @@
-import { colors } from 'src/utils/netlify';
 import submit from '../Submit/config';
 
 export default {
@@ -17,8 +16,7 @@ export default {
     {
       label: 'Color',
       name: 'color',
-      widget: 'select',
-      options: colors,
+      widget: 'string',
       default: 'black',
       required: false,
     },
