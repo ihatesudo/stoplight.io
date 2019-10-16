@@ -9,6 +9,7 @@ publishedDate: 2019-10-16T20:12:09.426Z
 author: Kyle Lange
 title: 'OpenAPI and JSON Schema: When to Use Which'
 subtitle: Behind the divergence in data formats and how you can solve it
+image: /images/converging-car-lights.jpg
 color: black
 includeToc: true
 disqus:
@@ -30,9 +31,11 @@ meta:
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
   title: 'OpenAPI and JSON Schema: When to Use Which | Stoplight API Corner'
+  image: /images/converging-car-lights.jpg
   twitter:
     description: Behind the divergence in data formats and how you can solve it
     title: 'OpenAPI and JSON Schema: When to Use Which | Stoplight API Corner'
+    image: /images/converging-car-lights.jpg
 ---
 OpenAPI v3.0 was a big step forward for the API design community. It expanded on and improved design-first processes and automation. It simplified definitions for more reusability, while supporting more security schemes. Among the largest additions were components. While these components improved upon previous JSON Schema support, OpenAPI v3.0 still leaves developers to cover for its incompatibilities.
 
