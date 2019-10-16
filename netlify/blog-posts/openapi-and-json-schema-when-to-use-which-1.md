@@ -104,7 +104,7 @@ Keep in mind that this package was based on [JSON Schema v5.0](http://json-schem
 There’s more detail behind this solution in [Phil's original post](https://apisyouwonthate.com/blog/solving-openapi-and-json-schema-divergence) on the APIs You Won’t Hate blog.
 ### The Future of Compatibility
 
-OpenAPI v3.0 has continued to befuddle devs by being both a subset of JSON Schema Draft 5 and a superset. Stoplight aims to work with the community on fixing this problem. As of Stoplight’s [PR #1977] (https://github.com/OAI/OpenAPI-Specification/pull/1977), the specification is leaning into the making OpenAPI v3.1 _only_ a superset of JSON Schema. 
+OpenAPI v3.0 has continued to befuddle devs by being both a subset of JSON Schema Draft 5 and a superset. Stoplight aims to work with the community on fixing this problem. As of Stoplight’s [PR #1977](https://github.com/OAI/OpenAPI-Specification/pull/1977), the specification is leaning into the making OpenAPI v3.1 _only_ a superset of JSON Schema. 
 
 In other words, the future still has divergence, but it’s getting closer. Here are JSON Schema 2019-09 keywords that still need support in OpenAPI v3.1, according to discussion within the pull request above:
 
