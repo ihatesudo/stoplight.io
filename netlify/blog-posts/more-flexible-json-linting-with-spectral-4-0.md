@@ -78,7 +78,7 @@ You can also now run multiple rulesets like this:
 spectral lint foo.yaml --ruleset=path/to/company-ruleset.yaml --ruleset=http://example.com/common-ruleset.yaml
 ```
 
-You can read more on how to write your rules in YAML [on the documentation page](https://github.com/stoplightio/spectral/blob/master/docs/rulesets.md).
+You can read more on how to write your rules in YAML [on the documentation page](https://stoplight.io/p/docs/gh/stoplightio/spectral/docs/getting-started/rulesets.md).
 
 ## New syntax for rulesets, including overriding rules and extending rulesets
 
