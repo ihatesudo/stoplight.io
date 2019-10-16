@@ -24,6 +24,7 @@ export const config = {
       deleteMedia: 'Delete “{{path}}”',
     },
   },
+  show_preview_links: true,
   publish_mode: 'editorial_workflow',
   media_folder: 'public/images',
   public_folder: '/images',

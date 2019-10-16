@@ -2,7 +2,6 @@ import hero from 'src/components/Hero/config';
 import metaTags from 'src/components/MetaTags/config';
 import pricingPlans from 'src/components/PricingPlans/config';
 import docPlans from 'src/components/DocPlans/config';
-import { colors } from 'src/utils/netlify';
 
 export default {
   label: 'Pricing',
@@ -17,8 +16,7 @@ export default {
     {
       label: 'Color',
       name: 'color',
-      widget: 'select',
-      options: colors,
+      widget: 'string',
       default: 'black',
       required: false,
     },
