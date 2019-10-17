@@ -3,7 +3,6 @@ import actionBar from 'src/components/ActionBar/config';
 import hubspot from 'src/components/HubSpotForm/config';
 import collage from 'src/components/Collage/config';
 import testimonials from 'src/components/Testimonials/config';
-import { colors } from 'src/utils/netlify';
 
 export default {
   label: 'Forms',
@@ -40,8 +39,7 @@ export default {
     {
       label: 'Color',
       name: 'color',
-      widget: 'select',
-      options: colors,
+      widget: 'string',
       default: 'black',
     },
     hubspot,

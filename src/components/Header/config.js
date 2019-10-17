@@ -1,5 +1,3 @@
-import { colors } from 'src/utils/netlify';
-
 export default {
   name: 'header',
   label: 'Header',
@@ -107,8 +105,7 @@ export default {
           name: 'altBg',
           label: 'Alternate Background Color',
           hint: 'Background color shown after scrolling the page. (Only valid for buttons)',
-          widget: 'select',
-          options: colors,
+          widget: 'string',
           default: 'green',
           required: false,
         },

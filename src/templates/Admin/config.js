@@ -10,8 +10,10 @@ import { ListsConfig, AuthorConfig } from 'src/templates/Lists/config';
 import { SubpageConfig, BlogPostConfig, CaseStudyConfig } from 'src/templates/Subpage/config';
 
 export const config = {
+  load_config_file: false,
   backend: {
-    name: 'git-gateway',
+    name: 'github',
+    repo: 'stoplightio/stoplight.io',
     branch: 'develop',
     squash_merges: true,
     commit_messages: {
@@ -22,6 +24,7 @@ export const config = {
       deleteMedia: 'Delete “{{path}}”',
     },
   },
+  show_preview_links: true,
   publish_mode: 'editorial_workflow',
   media_folder: 'public/images',
   public_folder: '/images',

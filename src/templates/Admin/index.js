@@ -1,74 +1,60 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
+import CMS from 'netlify-cms-app';
+import { Portal } from '../../components/Portal';
 
-import { About } from 'src/templates/About';
-import { Form } from 'src/templates/Form';
-import { Home } from 'src/templates/Home';
-import { Landing } from 'src/templates/Landing';
-import { Pricing } from 'src/templates/Pricing';
-import { Subpage } from 'src/templates/Subpage';
-import { List } from 'src/templates/Lists';
-import Settings from 'src/components/Settings';
-import { convertMarkdownToHTML } from 'src/utils/markdown';
+// import { About } from 'src/templates/About';
+// import { Form } from 'src/templates/Form';
+// import { Home } from 'src/templates/Home';
+// import { Landing } from 'src/templates/Landing';
+// import { Pricing } from 'src/templates/Pricing';
+// import { Subpage } from 'src/templates/Subpage';
+// import { List } from 'src/templates/Lists';
+// import Settings from 'src/components/Settings';
+// import { convertMarkdownToHTML } from 'src/utils/markdown';
 
 import { config } from './config';
 
-import appStyles from '!css-loader!./styles.css';
+// import previewStyles from '!css-loader!./styles.css';
 
-const templates = {
-  settings: Settings,
+// const templates = {
+//   settings: Settings,
 
-  form: Form,
-  about: About,
-  home: Home,
-  pricing: Pricing,
+//   form: Form,
+//   about: About,
+//   home: Home,
+//   pricing: Pricing,
 
-  lists: List,
-  author: List,
-  landings: Landing,
+//   lists: List,
+//   author: List,
+//   landings: Landing,
 
-  subpage: Subpage,
-  caseStudy: Subpage,
-  blogPost: Subpage,
-};
+//   subpage: Subpage,
+//   caseStudy: Subpage,
+//   blogPost: Subpage,
+// };
 
 export default () => {
   React.useEffect(() => {
-    if (typeof window === 'undefined') {
-      return;
-    }
+    console.log(`CMS [${process.env.NODE_ENV}]`, CMS, config);
 
-    import(`netlify-cms-app`).then(({ default: CMS }) => {
-      CMS.registerPreviewStyle(appStyles.toString(), { raw: true });
+    // CMS.registerPreviewStyle(previewStyles, { raw: true });
 
-      Object.keys(templates).forEach(collectionName => {
-        const Template = templates[collectionName];
+    // Object.keys(templates).forEach(collectionName => {
+    //   const Template = templates[collectionName];
 
-        if (Template) {
-          CMS.registerPreviewTemplate(collectionName, ({ entry }) => {
-            const props = entry.getIn(['data']).toJS();
+    //   if (Template) {
+    //     CMS.registerPreviewTemplate(collectionName, ({ entry }) => {
+    //       const props = entry.getIn(['data']).toJS();
 
-            return <Template {...convertMarkdownToHTML(props, { includeToc: props.includeToc })} />;
-          });
-        }
-      });
+    //       return <Template {...convertMarkdownToHTML(props, { includeToc: props.includeToc })} />;
+    //     });
+    //   }
+    // });
+    // ReactDOM.createPortal(<div id="nc-root"></div>, document.getElementById('root'));
 
-      CMS.init({ config });
-    });
-
-    import(`netlify-identity-widget`).then(({ default: netlifyIdentityWidget }) => {
-      netlifyIdentityWidget.on(`init`, user => {
-        if (!user) {
-          netlifyIdentityWidget.open('login'); // open the modal to the login tab
-
-          netlifyIdentityWidget.on(`login`, () => {
-            document.location.href = '/admin/';
-          });
-        }
-      });
-
-      netlifyIdentityWidget.init();
-    });
+    CMS.init({ config });
   }, []);
 
-  return <div />;
+  return null;
 };
