@@ -46,9 +46,9 @@ export const SubpageConfig = {
       label: 'Author',
       name: 'author',
       widget: 'relation',
-      collection: 'authors',
-      searchFields: ['name'],
-      valueField: 'name',
+      collection: 'author',
+      searchFields: ['title'],
+      valueField: 'title',
       required: false,
     },
     {
@@ -73,7 +73,7 @@ export const SubpageConfig = {
     {
       label: 'Image',
       name: 'image',
-      widget: 'file',
+      widget: 'image',
       required: false,
     },
     {
@@ -153,7 +153,8 @@ export const BlogPostConfig = {
   label_singular: 'Blog Post',
   name: 'blogPost',
   folder: 'netlify/blog-posts',
-  fields: addFields(SubpageConfig.fields, SubpageConfig.fields.length - 3, [
+  fields: [
+    ...SubpageConfig.fields,
     {
       name: 'disqus',
       widget: 'object',
@@ -167,5 +168,5 @@ export const BlogPostConfig = {
         },
       ],
     },
-  ]),
+  ],
 };
