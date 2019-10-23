@@ -9,7 +9,7 @@ title: Intro to Stoplight Studio OpenAPI Designer | Stoplight Webinar
 subtitle: Take a look at Studio with Founder & CEO Marc MacLeod
 image: /images/studio-desktop.png
 color: blue
-includeToc: true
+includeToc: false
 actionBar:
   ctas:
     - title: Subscribe to our YouTube Channel
@@ -17,7 +17,9 @@ actionBar:
       href: 'https://www.youtube.com/channel/UCQMe84IAmmkU0FYw_jFtw6w/featured'
       submit:
         button:
-          color: ''
+          href: 'https://www.youtube.com/channel/UCQMe84IAmmkU0FYw_jFtw6w/featured'
+          title: Subscribe to our YouTube Channel
+          color: purple
         input:
           type: ''
       type: link
