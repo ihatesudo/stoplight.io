@@ -50,4 +50,4 @@ meta:
     image: /images/api-testing.jpeg
     username: '@stoplightio'
 ---
-<style>.markdown-body { max-width: 100% !important; } </style><iframe width="100%" height="678" src="https://www.youtube.com/embed/jLRDAYRKqTg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<style>.markdown-body { max-width: 100% !important; } </style><iframe width="100%" height="400" src="https://www.youtube.com/embed/jLRDAYRKqTg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
