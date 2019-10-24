@@ -7,7 +7,7 @@ relatedTags:
   - video
   - case-study
 publishedDate: 2019-10-24T15:31:24.486Z
-title: Zoom
+title: Zoom Video Testimonial | Stoplight
 subtitle: >-
   Zoom Video Communications provides remote conferencing services using cloud
   computing. Zoom offers communications software that combines video
@@ -15,11 +15,10 @@ subtitle: >-
   Slagle, Manager of Developer Advocacy at Zoom, how they leverage Stoplight to
   save several hundred hours of developer time per year. 
 listSubtitle: >-
-  Zoom Video Communications provides remote conferencing services using cloud
-  computing. Zoom offers communications software that combines video
-  conferencing, online meetings, chat, and mobile collaboration. Learn from Tim
-  Slagle, Manager of Developer Advocacy at Zoom, how they leverage Stoplight to
-  save several hundred hours of developer time per year. 
+  Zoom Video Communications provides remote conferencing services. They offer
+  software that combines video conferencing, online meetings, chat, and mobile.
+  Learn from Tim Slagle, Manager of Developer Advocacy, how they leverage
+  Stoplight to save developers several hundred man-hours each year. 
 image: /images/api-testing.jpeg
 color: blue
 includeToc: false
