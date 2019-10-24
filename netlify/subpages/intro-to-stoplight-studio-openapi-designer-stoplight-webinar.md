@@ -12,17 +12,9 @@ color: blue
 includeToc: false
 actionBar:
   ctas:
-    - title: Subscribe to our YouTube Channel
-      color: purple
+    - color: purple
       href: 'https://www.youtube.com/channel/UCQMe84IAmmkU0FYw_jFtw6w/featured'
-      submit:
-        button:
-          href: 'https://www.youtube.com/channel/UCQMe84IAmmkU0FYw_jFtw6w/featured'
-          title: Subscribe to our YouTube Channel
-          color: purple
-        input:
-          type: ''
-      type: link
+      title: 'Subscribe to our YouTube channel'
   enabled: true
   text: Want to watch more API design content?
 meta:
