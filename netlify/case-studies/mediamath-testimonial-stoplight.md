@@ -14,13 +14,13 @@ subtitle: >-
   activates data, automates execution, and optimizes advertising interactions
   across addressable media. The company's technology determines in real-time how
   to best support marketers' goals to deliver better outcomes for their
-  business. Learn from Felix Sargent, Director of API Services, how they used
-  Stoplight to save time, reduce support questions, and speak with a unified
-  voice in their API documentation.
+  business. Learn from Felix Sargent, Director of Engineering and API Services,
+  how MediaMath used Stoplight to save time, reduce support questions, and speak
+  with a unified voice in their API documentation.
 listSubtitle: >-
-  Felix Sargent, Director of API Services at MediaMath, explains how they used
-  Stoplight to save time, reduce support questions, and speak with a unified
-  voice in their API documentation.
+  Felix Sargent, Director of Engineering and API Services at MediaMath, explains
+  how they used Stoplight to save time, reduce support questions, and speak with
+  a unified voice in their API documentation.
 image: /images/documentation-team.jpg
 color: blue
 includeToc: false
@@ -36,24 +36,24 @@ sidebar:
         team to develop a compliant API with minimal difficulty. Other tools
         don't provide the same details, guard rails, and error validation that
         Stoplight provides.
-      role: Director of API Services
+      role: Director of Engineering and API Services
 actionBar:
   ctas: []
   enabled: false
 meta:
   description: >-
-    Felix Sargent, Director of API Services at MediaMath, explains how they used
-    Stoplight to save time, reduce support questions, and speak with a unified
-    voice in their API documentation.
+    Felix Sargent, Director of Engineering and API Services at MediaMath,
+    explains how they used Stoplight to save time, reduce support questions, and
+    speak with a unified voice in their API documentation.
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
   title: MediaMath Testimonial | Stoplight
   image: /images/documentation-team.jpg
   twitter:
     description: >-
-      Felix Sargent, Director of API Services at MediaMath, explains how they
-      used Stoplight to save time, reduce support questions, and speak with a
-      unified voice in their API documentation.
+      Felix Sargent, Director of Engineering and API Services at MediaMath,
+      explains how they used Stoplight to save time, reduce support questions,
+      and speak with a unified voice in their API documentation.
     title: MediaMath Testimonial | Stoplight
     username: '@stoplightio'
 ---
