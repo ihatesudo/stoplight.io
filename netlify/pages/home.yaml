@@ -1,54 +1,54 @@
 hero:
   particles: true
   skew: rounded
-  title: The best APIs start with Stoplight
   subtitle: >-
-    The API design management platform powering the world’s leading API first companies.
-  # ctas:
-  #   - title: Get Started
-  #     icon: ['fad', 'rocket']
-  #     large: true
-  #     rightIcon: ['fad', 'arrow-right']
-  #     href: '/start'
+    The API design management platform powering the world’s leading API first
+    companies.
+  title: The best APIs start with Stoplight
 testimonials:
   actionBar:
     ctas:
       - color: white
         href: /demo
-        title: Book a Demo
         outlined: true
+        title: Book a Demo
       - color: purple
-        href: '/start'
+        href: /start
         title: Get Started
     enabled: true
     text: Getting started is easy. Be up and running in minutes.
   testimonials:
-    - author: Kin Lane
-      image: /images/testimonials/kin_lane.jpeg
+    - author: Felix Sargent
+      company: MediaMath
+      image: /images/felix_s.jpg
       quote: >-
-        I feel like Stoplight has the potential to shift the landscape pretty
-        significantly, something I haven't seen any API service provider do in a
-        while.
-      role: API Evangelist
-    - author: 'Carlos Lozano'
+        Stoplight provides a clean user interface and enables an engineering
+        team to develop a compliant API with minimal difficulty. Other tools
+        don't provide the same details, guard rails, and error validation that
+        Stoplight provides.
+      role: Director of Engineering
+    - author: Carlos Lozano
+      company: GFT Group
       image: /images/carlos_testimonial.jpeg
       quote: >-
         When it comes to specification markup and documentation, the order of
         magnitude has gone from days to hours.
-      role: 'Senior Enterprise Architect, GFT Group'
+      role: Senior Enterprise Architect
     - author: John Vajda
+      company: JumpCloud
       image: /images/testimonials/john_vajda.jpeg
       quote: >-
         Stoplight has been a serious game changer for JumpCloud’s API
         development! We love all the rich design, documentation and testing
         features, which has enabled us to design awesome APIs for our customers.
-      role: 'Product Manager, JumpCloud'
+      role: Product Manager
     - author: Gil Barbara
+      company: AMARO
       image: /images/testimonials/gil.jpeg
       quote: >-
         Stoplight provides a centralized, testable and reliable source for our
         APIs.
-      role: 'Frontend Engineer, AMARO'
+      role: Frontend Engineer
 meta:
   description: >-
     Using Stoplight you can create OpenAPI descriptions, documentation, mock
