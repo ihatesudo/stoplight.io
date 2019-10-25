@@ -15,6 +15,7 @@ subtitle: >-
   Here are some answers to your questions that we weren't able to cover in our
   live webinar earlier this month.
 listSubtitle: Answers to your questions from the October '19 Stoplight Studio Webinar.
+image: /images/studio-desktop.png
 color: blue-darkest
 includeToc: true
 actionBar:
