@@ -33,7 +33,7 @@ API modeling is part of the API design process. Accurate API modeling and design
 
 ## The API Modeling and Design Process
 
-The API modeling process begins with tasks similar to requirement gathering and user story creation. Identify who will interact with your API, what they will do and what they want to achieve, and the specific steps they will take. Based on that information, you can outline your API methods and endpoints and validate the API with test scenarios.
+The API modeling process begins with goals similar to requirements gathering and user story creation. Identify who will interact with your API, what they will do and what they want to achieve, and the specific steps they will take. Based on that information, you can outline your API methods and endpoints and validate the API with test scenarios.
 
 The API model forms the basis of the API design process. Knowing your users’ goals and actions, you can make informed decisions about the structure of your API, including resource grouping and relationships. You can also design documentation for key use cases, and even feed this information into marketing materials, ensuring you reach potential users.
 
@@ -63,4 +63,4 @@ Here is where a REST API modeling tool can help. Stoplight Studio provides a gra
 
 The Open API spec integrates documentation into the modeling process with the endpoint description field. Stoplight Studio can take the descriptions from your API paths and auto-generate documentation. This is useful through the entire API design and creation process, providing support to both your developers and end-users.
 
-To see the todo list example in action, create a new project in Stoplight Studio, and select the option to include tutorial files. Take a look at the GUI editor on the APIs tab, and dive into the Files tab to review the generated spec file.
+To see the todo list example in action, create a new project in Stoplight Studio, and select the option to include tutorial files. Take a look at the GUI editor on the APIs tab, and dive into the Files tab to review the generated spec file. [Studio Getting Started Documentation can be found here, with everything you need to, well, get started.](https://stoplight.io/p/docs/gh/stoplightio/studio/docs/01-getting-started.md)
