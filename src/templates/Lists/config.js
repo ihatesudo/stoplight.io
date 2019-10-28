@@ -2,9 +2,6 @@ import metaTags from 'src/components/MetaTags/config';
 import actionBar from 'src/components/ActionBar/config';
 import pagination from 'src/components/Pagination/config';
 
-import { addFields } from '../../utils/netlify';
-console.log(addFields);
-
 export const ListsConfig = {
   label: 'Lists',
   label_singular: 'List',
@@ -65,12 +62,34 @@ export const ListsConfig = {
 };
 
 export const AuthorConfig = {
-  ...ListsConfig,
   label: 'Authors',
   label_singular: 'Author',
   name: 'author',
   folder: 'netlify/authors',
-  fields: addFields(ListsConfig.fields, 4, [
+  create: true,
+  delete: true,
+  slug: '{{slug}}',
+  extension: 'yaml',
+  fields: [
+    {
+      label: 'URL Path',
+      name: 'path',
+      widget: 'string',
+    },
+    {
+      label: 'Tag',
+      name: 'tag',
+      widget: 'string',
+    },
+    {
+      name: 'title',
+      widget: 'string',
+    },
+    {
+      name: 'subtitle',
+      widget: 'string',
+      required: false,
+    },
     {
       label: 'Author Title',
       name: 'pageName',
@@ -80,7 +99,34 @@ export const AuthorConfig = {
     {
       label: 'Image',
       name: 'image',
-      widget: 'file',
+      widget: 'image',
     },
-  ]),
+    {
+      label: 'Color',
+      name: 'color',
+      widget: 'string',
+      default: 'black',
+      required: false,
+    },
+    {
+      name: 'tabs',
+      widget: 'list',
+      required: false,
+      fields: [
+        {
+          name: 'title',
+          widget: 'string',
+          required: false,
+        },
+        {
+          name: 'href',
+          widget: 'string',
+          required: false,
+        },
+      ],
+    },
+    actionBar,
+    metaTags,
+    pagination,
+  ],
 };

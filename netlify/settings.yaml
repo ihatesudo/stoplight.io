@@ -18,20 +18,20 @@ info:
       test, and build web APIs.
     email: hello@stoplight.io
     name: Stoplight.io
-    postalCode: '78704'
-    streetAddress: 1100 S 1st St
+    postalCode: '78741'
+    streetAddress: 1834 E Oltorf St, Suite 200
   email: sales@stoplight.io
 header:
   items:
     - links:
-        - href: 'http://docs.stoplight.io/'
+        - href: 'https://support.stoplight.io'
           icon: ['fad', 'book-open']
           subtitle: Learn how to use Stoplight
           title: Help Center
           titleColor: blue
         - href: 'https://community.stoplight.io/'
           icon: ['fad', 'users']
-          subtitle: Join the Stoplight community
+          subtitle: Join the Stoplight Community
           title: Forum
           titleColor: orange
         - href: /case-studies
@@ -111,7 +111,7 @@ footer:
           title: API Mocking
       title: Use Cases
     - links:
-        - href: 'https://docs.stoplight.io'
+        - href: 'https://support.stoplight.io'
           title: Help Center
         - href: /blog
           title: Blog
