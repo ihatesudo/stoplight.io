@@ -8,51 +8,45 @@ tags:
 relatedTags:
   - blog-design
   - blog-studio
-publishedDate: 2019-10-25T22:15:58.693Z
+publishedDate: 2019-10-28T22:15:58.693Z
 author: Chris Lott
-title: Your Studio Webinar Questions Answered
+title: Using Studio OpenAPI GUI Designer - Your Webinar Questions Answered
 subtitle: >-
-  Here are some answers to your questions that we weren't able to cover in our
-  live webinar earlier this month.
-listSubtitle: Answers to your questions from the October '19 Stoplight Studio Webinar.
+  Answers to your questions that we weren't able to cover in our live webinar
+  earlier this month.
+listSubtitle: >-
+  Answers to your questions from the October '19 Webinar on Stoplight Studio
+  OpenAPI GUI Designer.
 image: /images/studio-desktop.png
 color: blue-darkest
+tabs: []
 includeToc: true
 actionBar:
-  ctas:
-    - color: black
-      href: 'https://next.stoplight.io'
-      submit:
-        button:
-          color: purple
-          type: link
-        input:
-          type: email
-      type: link
+  ctas: []
   enabled: false
 meta:
   description: >-
-    Here are some answers to your questions that we weren't able to cover in our
-    live webinar earlier this month.
+    Answers to your questions from the October '19 Webinar on Stoplight Studio
+    OpenAPI GUI Designer.
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
-  title: Your Studio Webinar Questions Answered | Stoplight
+  title: Using Studio OpenAPI GUI Designer - Your Webinar Questions Answered
   image: /images/studio-desktop.png
   twitter:
     description: >-
-      Here are some answers to your questions that we weren't able to cover in
-      our live webinar earlier this month.
-    title: Your Studio Webinar Questions Answered | Stoplight
+      Answers to your questions from the October '19 Webinar on Stoplight Studio
+      OpenAPI GUI Designer.
+    title: Using Studio OpenAPI GUI Designer - Your Webinar Questions Answered
     image: /images/studio-desktop.png
     username: '@stoplightio'
 ---
-At the beginning of October, the Stoplight team hosted a webinar covering Stoplight Studio. If you haven't already, you can [watch it here](https://stoplight.io/video/studio-webinar).
+At the beginning of October, the Stoplight team hosted a webinar covering Stoplight Studio, the latest generation of our OpenAPI GUI designer. If you haven't already, you can [watch it here](https://stoplight.io/video/studio-webinar).
 
 Some attendee questions were answered live, but time ran too short to answer everything. Here are some answers to your questions that we weren't able to cover live. 
 
-## Is there a way to extend the mock server with custom steps (like the Scenarios in Stoplight Next)?
+## Is there a way to extend the mock server with custom steps?
 
-You sent in feedback that Prism v2 was a bit confusing. With  help and input from Prism users, we’ve stripped it back and are planning out features . Scenarios, as it is, is staying in Next for the time being, but we’re not baking it into Prism just yet, we’re seeing how far we can get solving problems for people without it. 
+You sent in feedback that Prism v2 was a bit confusing. With  help and input from Prism users, we’ve stripped it back and are planning out features.
 
 The Proxy Server should hopefully solve most of the contract testing needs: <https://github.com/stoplightio/prism/issues/473>
 
@@ -60,15 +54,15 @@ And figuring out how custom middlewares can be enabled should also solve many cu
 
 As for other more general testing, there are tools designed for that sort of thing, which are pretty great, like Strest. <https://github.com/eykrehbein/strest>
 
-## In Stoplight Next I can export an API with resolved references. Do you plan to support this feature in Studio as well?
+## In the previous generation of Stoplight, I can export an API with resolved references. Do you plan to support this feature in Studio as well?
 
-Absolutely! [Vote for it on our roadmap here.](https://bit.ly/2pU1PFc)
+Absolutely! At the time of publishing this piece, it's a planned item on our roadmap. [Click here to vote for it](https://bit.ly/2pU1PFc).  More votes = higher priority for our product team. Keep an eye on our roadmap and change log to stay informed on features as they're released. 
 
 ## Do you have any recommendations for Code Gen? Both Swagger API Gen and OpenAPI Spec Generator “kinda” work, but in different ways.
 
 There are quite a few floating around, check out OpenAPI.Tools <https://openapi.tools/#sdk>
 
-## Do you have a recommendation for keeping endpoint documentation “close” to the codebase so that the docs and implementation don’t get out of sync without lots of developer overhead?
+## Do you have a recommendation for keeping endpoint documentation “close” to the codebase so that the docs and implementation don’t get out of sync, without lots of developer overhead?
 
 There are a few ways you can go about this. One is to implement tooling which double-checks your docs, things like Dredd can help: <https://apisyouwonthate.com/blog/keeping-documentation-honest>
 
@@ -84,7 +78,7 @@ The demo was showing off the markdown articles, which can have code samples and 
 
 Check it out: <https://stoplight.io/docs/>
 
-## What is Studio’s pricing model? Currently it’s free, but probably not forever?
+## What is the pricing model for the Studio OpenAPI Designer? Currently it’s free, but probably not forever?
 
 Stand-alone Studio is free, forever! Our paid Platform incorporates Studio with other tools, and unlocks the collaboration and governance that companies typically need. That being said, if the free Studio designer plan meets your company's needs, you're welcome to use it.
 
@@ -94,4 +88,4 @@ Still have questions? We're here to help!
 
 * [Add a feature request to our roadmap](https://stoplight.io/p/roadmap) - other users can upvote your requests, which helps us maintain user-driven development.
 * Check out our [Community Forum](https://community.stoplight.io) - the same question might have already been asked, or could benefit future users down the line.
-* [Visit our support page](https://support.stoplight.io) or shoot a support message to [support@stoplight.io ](support@stoplight.io)
+* [Visit our support page](https://support.stoplight.io).
