@@ -11,10 +11,10 @@ title: Nutanix Testimonial | Stoplight
 subtitle: >-
   Nutanix is an enterprise cloud platform that offers server virtualization,
   unified communication, and virtual data center infrastructure solutions. Learn
-  from Ben Colborn, Direct of Technical Publications, how Nutanix used Stoplight
-  to scale the number of services that they could support.
+  from Ben Colborn, Director of Technical Publications, how Nutanix used
+  Stoplight to scale the number of services that they could support.
 listSubtitle: >-
-  Learn from Ben Colborn, Direct of Technical Publications, how Nutanix used
+  Learn from Ben Colborn, Director of Technical Publications, how Nutanix used
   Stoplight to scale the number of services that they could support.
 image: /images/writing-docs-part-two.jpeg
 color: orange
@@ -39,7 +39,7 @@ actionBar:
   enabled: false
 meta:
   description: >-
-    Learn from Ben Colborn, Direct of Technical Publications, how Nutanix used
+    Learn from Ben Colborn, Director of Technical Publications, how Nutanix used
     Stoplight to scale the number of services that they could support.
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
@@ -47,8 +47,8 @@ meta:
   image: /images/writing-docs-part-two.jpeg
   twitter:
     description: >-
-      Learn from Ben Colborn, Direct of Technical Publications, how Nutanix used
-      Stoplight to scale the number of services that they could support.
+      Learn from Ben Colborn, Director of Technical Publications, how Nutanix
+      used Stoplight to scale the number of services that they could support.
     title: Nutanix Testimonial | Stoplight
     image: /images/writing-docs-part-two.jpeg
     username: '@stoplightio'
