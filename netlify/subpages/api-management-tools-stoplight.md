@@ -31,15 +31,11 @@ meta:
 
 API management refers to a range of tasks, including:
 
-●    API design
-
-●    Publishing
-
-●    Enforcing usage policies and controlling access
-
-●    Monitoring usage and performance
-
-●    Supporting the user community. 
+- API Design
+- Publishing
+- Enforcing usage policies and controlling access
+- Monitoring usage and performance
+- Supporting the user community. 
 
 It covers the entire life-cycle of an API, from planning through deployment to on-boarding users.
 
@@ -59,7 +55,7 @@ Resilient traffic management is essential: you don’t want a sudden spike in us
 
 Your documentation and learning materials support existing users, reducing the time it takes to get started with the API. They also act as marketing materials, reassuring potential users that they have everything they need to learn your API, and allowing them to preview its functionality.
 
-## API Lifecycle Management
+## API Life-cycle Management
 
 API life-cycle management signals a holistic approach to API project management. It covers all the stages described above, as well as maintaining the API, and if needed managing its retirement.
 
