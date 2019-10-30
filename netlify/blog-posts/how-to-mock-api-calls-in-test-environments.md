@@ -6,6 +6,7 @@ tags:
 relatedTags:
   - blog-mocking
 publishedDate: 2019-10-30T14:43:28.876Z
+author: Matt Groberg
 title: How to Mock API Calls in Test Environments
 subtitle: Comparing Jasmine and Jest for Node mock APIs
 color: black
@@ -23,8 +24,23 @@ actionBar:
       type: link
   enabled: false
 meta:
+  description: Comparing Jasmine and Jest for Node mock APIs
+  favicon: /images/mark_light_bg.png
+  robots: 'index, follow'
+  title: 'How to Mock API Calls in Test Environments | Stoplight API Corner'
+  image: /images/jasmine-jester.jpg
+  twitter:
+    description: Comparing Jasmine and Jest for Node mock APIs
+    title: 'How to Mock API Calls in Test Environments | Stoplight API Corner'
+    image: /images/jasmine-jester.jpg
   robots: 'index, follow'
 ---
+Automated testing is a great way to ensure the quality of your software. It helps you identify what behaviors you expect to see, and gives you an explicit statement about what went wrong if you encounter a bug. These days, APIs are everywhere, but [integrating APIs into unit tests](https://stoplight.io/blog/the-fundamentals-of-http-api-unit-testing-2c55cd0c7634/) can be a little tricky. However, whether your API is still in development, or you are working on new features, testing expected behaviors systematically can save a lot of time and make it easier to identify problems. Developing mock API calls can help you use valuable unit tests, without the problems associated with calling a live API.
+
+Node.js offers several different automated testing environments for behavior-driven JavaScript, including two popular frameworks Jest and Jasmine, which we’ll be comparing in this post. First, we’ll talk about best practices for behavior driven development with an API.  Then we’ll go over how to set up and run tests for your API in Jasmine or Jest. Finally, we’ll compare the two frameworks to help you decide which is best for your needs.
+
+## Why Mock API Calls
+
 Maybe you are reading this thinking: testing is great and everything, but why not test the actual API? You could use a library, like axios, to make HTTP requests from the network. If you are developing an API, it can help you plan locally before deploying. And if your API is already deployed, but you are adding new features, you don’t want to be pushing untested code to the live version. Also, you might want to test an API that charges for overuse, or has a non-deterministic outcome (like dynamic data from a database). Mocking an API call gives you control in these situations, and speeds up development down the line.
 The first step to behavior-driven development is making a list of everything your API should do when it is functioning properly. Each item should be specific, measurable, and deterministic. If you have well-written documentation, this could be your starting point. If you are just getting started, this initial planning could turn into your documentation. 
 
