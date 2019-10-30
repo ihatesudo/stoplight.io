@@ -9,6 +9,7 @@ publishedDate: 2019-10-30T14:43:28.876Z
 author: Matt Groberg
 title: How to Mock API Calls in Test Environments
 subtitle: Comparing Jasmine and Jest for Node mock APIs
+image: /images/jasmine-jester.jpg
 color: black
 includeToc: true
 actionBar:
