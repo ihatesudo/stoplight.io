@@ -25,7 +25,16 @@ actionBar:
       type: link
   enabled: false
 meta:
+  description: Comparing Jasmine and Jest for Node mock APIs
+  favicon: /images/mark_light_bg.png
   robots: 'index, follow'
+  title: How to Mock API Calls in Test Environments | Stoplight API Corner
+  image: /images/jasmine-jester.jpg
+  twitter:
+    description: Comparing Jasmine and Jest for Node mock APIs
+    title: How to Mock API Calls in Test Environments | Stoplight API Corner
+    image: /images/jasmine-jester.jpg
+    username: '@stoplightio'
 ---
 Automated testing is a great way to ensure the quality of your software. It helps you identify what behaviors you expect to see, and gives you an explicit statement about what went wrong if you encounter a bug. These days, APIs are everywhere, but [integrating APIs into unit tests](https://stoplight.io/blog/the-fundamentals-of-http-api-unit-testing-2c55cd0c7634/) can be a little tricky. However, whether your API is still in development, or you are working on new features, testing expected behaviors systematically can save a lot of time and make it easier to identify problems. Developing mock API calls can help you use valuable unit tests, without the problems associated with calling a live API.
 
