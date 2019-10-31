@@ -6,7 +6,7 @@ tags:
 relatedTags:
   - video
   - case-study
-publishedDate: 2019-10-24T15:31:24.486Z
+publishedDate: 2019-10-31T15:31:24.486Z
 title: Zoom Video Testimonial | Stoplight
 subtitle: >-
   Zoom Video Communications provides remote conferencing services using cloud
