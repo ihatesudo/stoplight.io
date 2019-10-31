@@ -1,16 +1,36 @@
 path: /demo
 title: Request a Demo
 subtitle: >-
-  On average, adopting Stoplight results in a 36% gain in API development efficiency, and increases API quality by 30%.
+  On average, adopting Stoplight results in a 36% gain in API development
+  efficiency, and increases API quality by 30%.
 color: black
 hubspot:
   formId: 7ae2bb42-67a6-4ee3-9ac5-ff21d87812ea
   portalId: '4892910'
+leftContent:
+  description: >-
+    <div style="background: #2690ce; height:377px; position: relative;
+    width:220px; border: solid 1px #ccc;;"> <div
+    id="g2-widg-stoplight-12686"></div> <a
+    onmouseover="this.style.textDecoration='underline';"
+    onmouseout="this.style.textDecoration='none';"
+    href="https://www.g2.com/products/stoplight/reviews?utm_campaign=widget_embed&amp;utm_medium=riblets&amp;utm_source=read_more"
+    style="display: block; position: absolute; bottom: 6px; left: 0; color:
+    #333; font-size: 10px; font-weight: 600; width: 220px; text-align: center;">
+    Read more stoplight reviews </a> </div> <script> (function (w) { w._g2load =
+    true; function p(i, s) { i =
+    document.getElementById("g2-widg-stoplight-12686"); s =
+    "https://www.g2.com/products/widget.embed?id=12686&amp;max=4&amp;product_id=stoplight&amp;version=2&amp;wid=1572537011&text_style=text-dark";
+    i.innerHTML = "<iframe src='" + s + "'width='100%' height='377px'
+    frameBorder=0 scrolling='no'></iframe>"; w._g2load = true; } if (w._g2load)
+    p(); w.addEventListener ? w.addEventListener("load", p, false) :
+    w.attachEvent("onload", p); }(window)); </script>
+  title: Read our reviews on G2
 collage:
   cta:
+    title: Read the Case Studies
     color: green
     href: /case-studies
-    title: Read the Case Studies
   images:
     - alt: EA
       src: /images/ea.png
@@ -37,32 +57,37 @@ collage:
     workflow
 testimonials:
   testimonials:
-    - author: Kin Lane
-      image: /images/testimonials/kin_lane.jpeg
+    - author: Felix Sargent
+      company: MediaMath
+      image: /images/felix_s.jpg
       quote: >-
-        I feel like Stoplight has the potential to shift the landscape pretty
-        significantly, something I haven't seen any API service provider do in a
-        while.
-      role: API Evangelist
+        Stoplight provides a clean user interface and enables an engineering
+        team to develop a compliant API with minimal difficulty. Other tools
+        don't provide the same details, guard rails, and error validation that
+        Stoplight provides.
+      role: Director of Engineering
     - author: 'Carlos Lozano '
+      company: GFT Group
       image: /images/carlos_testimonial.jpeg
       quote: >-
         When it comes to specification markup and documentation, the order of
         magnitude has gone from days to hours.
-      role: 'Senior Enterprise Architect, GFT Group'
+      role: Senior Enterprise Architect
     - author: John Vajda
+      company: JumpCloud
       image: /images/testimonials/john_vajda.jpeg
       quote: >-
         Stoplight has been a serious game changer for JumpCloud’s API
         development! We love all the rich design, documentation and testing
         features, which has enabled us to design awesome APIs for our customers.
-      role: 'Product Manager, JumpCloud'
+      role: Product Manager
     - author: Gil Barbara
+      company: AMARO
       image: /images/testimonials/gil.jpeg
       quote: >-
         Stoplight provides a centralized, testable and reliable source for our
         APIs.
-      role: 'Frontend Engineer, AMARO'
+      role: Frontend Engineer
 meta:
   description: >-
     Want to see how we could help your company and organization with our API
@@ -70,4 +95,9 @@ meta:
   favicon: /images/mark_light_bg.png
   title: Get a demo of our API Toolkit | Stoplight
   twitter:
+    description: >-
+      Want to see how we could help your company and organization with our API
+      Toolkit? Click here to request a demo and find out what we can do for you.
+    image: /images/stoplight-studio.png
     title: Get a demo of our API Toolkit | Stoplight
+    username: '@stoplightio'
