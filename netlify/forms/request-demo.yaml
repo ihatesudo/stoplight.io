@@ -9,7 +9,7 @@ hubspot:
   portalId: '4892910'
 leftContent:
   description: >-
-    <div style="width: 100%; height: 100%;"><script> (function () { var on =
+    <div style="width:auto; height: 600px;"><script> (function () { var on =
     window.addEventListener ? function (m,c) {
     window.addEventListener(m,c,false); } : function (m,c) {
     window.attachEvent('on'+m,c); } , r = function (e) { if (e.origin !==
