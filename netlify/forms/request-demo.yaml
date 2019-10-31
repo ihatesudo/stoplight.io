@@ -17,7 +17,7 @@ leftContent:
     document.getElementById('g2-crowd-widget-testimonial-13474');
     if(d){d.style.height = e.data}; r = function () {}; } ; on('message', r);
     }()); </script><iframe frameborder="0" height="100%"
-    id="g2-crowd-widget-testimonial-13474" scrolling="no"
+    id="g2-crowd-widget-testimonial-13474" scrolling="yes"
     src="https://www.g2.com/products/stoplight/testimonials/13474.embed"
     style="width:100%;min-height:100%;overflow:hidden;" width="100%"></iframe><a
     style="font-size: 12px; color: #446273; float: right;"
