@@ -9,22 +9,20 @@ hubspot:
   portalId: '4892910'
 leftContent:
   description: >-
-    <div style="background: #2690ce; height:377px; position: relative;
-    width:220px; border: solid 1px #ccc;;"> <div
-    id="g2-widg-stoplight-12686"></div> <a
-    onmouseover="this.style.textDecoration='underline';"
-    onmouseout="this.style.textDecoration='none';"
-    href="https://www.g2.com/products/stoplight/reviews?utm_campaign=widget_embed&amp;utm_medium=riblets&amp;utm_source=read_more"
-    style="display: block; position: absolute; bottom: 6px; left: 0; color:
-    #333; font-size: 10px; font-weight: 600; width: 220px; text-align: center;">
-    Read more stoplight reviews </a> </div> <script> (function (w) { w._g2load =
-    true; function p(i, s) { i =
-    document.getElementById("g2-widg-stoplight-12686"); s =
-    "https://www.g2.com/products/widget.embed?id=12686&amp;max=4&amp;product_id=stoplight&amp;version=2&amp;wid=1572537011&text_style=text-dark";
-    i.innerHTML = "<iframe src='" + s + "'width='100%' height='377px'
-    frameBorder=0 scrolling='no'></iframe>"; w._g2load = true; } if (w._g2load)
-    p(); w.addEventListener ? w.addEventListener("load", p, false) :
-    w.attachEvent("onload", p); }(window)); </script>
+    <div style="width: 100%; height: 100%;"><script> (function () { var on =
+    window.addEventListener ? function (m,c) {
+    window.addEventListener(m,c,false); } : function (m,c) {
+    window.attachEvent('on'+m,c); } , r = function (e) { if (e.origin !==
+    "https://my.g2.com") { return; } var d =
+    document.getElementById('g2-crowd-widget-testimonial-13474');
+    if(d){d.style.height = e.data}; r = function () {}; } ; on('message', r);
+    }()); </script><iframe frameborder="0" height="100%"
+    id="g2-crowd-widget-testimonial-13474" scrolling="no"
+    src="https://www.g2.com/products/stoplight/testimonials/13474.embed"
+    style="width:100%;min-height:100%;overflow:hidden;" width="100%"></iframe><a
+    style="font-size: 12px; color: #446273; float: right;"
+    href="https://www.g2.com/products/stoplight/reviews?utm_campaign=testimonials_embed&amp;utm_medium=testimonials&amp;utm_source=Stoplight">Stoplight
+    reviews sourced by G2</a></div>
   title: Read our reviews on G2
 collage:
   cta:
