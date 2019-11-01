@@ -76,9 +76,6 @@ team:
   - image: /images/wallach_headshot.png
     name: Robert Wallach
     role: Content & Support
-  - image: /images/mateusz_wit_headshot.png
-    name: Mateusz Wit
-    role: Software Engineer
   - image: /images/harrison-yeager-headshot.jpg
     name: Harrison Yeager
     role: Ops
@@ -117,21 +114,20 @@ businesses:
   title: Businesses Are Loving Stoplight
 pressSection:
   articles:
-    - date: 'October, 2019'
+    - date: 'October, 2018'
       description: >-
-        Stoplight Launches API Visual Editor Aimed at Driving Scalable API
-        Design-First Development
+        Software startup raises more than $3M in round led by former Austin
+        Ventures bigwig
       href: >-
-        https://www.businesswire.com/news/home/20190820005232/en/Stoplight-Launches-API-Visual-Editor-Aimed-Driving
-      image: /images/stoplight-studio.png
-      publication: Business Wire
-    - date: 'May, 2019'
-      description: >-
-        Stoplight has been named in Gartner’s “Cool Vendor in Application
-        Development and Platforms” 2019 report.
-      href: 'https://stoplight.io/blog/gartner-cool-vendor/'
-      image: /images/gartner_cv_2019_rgb.png
-      publication: Gartner
+        https://www.bizjournals.com/austin/news/2018/10/03/software-startup-raises-more-than-3m-in-round-led.html
+      image: /images/logo_austin_bj.png
+      publication: Austin Business Journal
+    - date: 'October, 2018'
+      description: Austin startup Stoplight raises more than $3 million.
+      href: >-
+        https://www.statesman.com/news/20181003/austin-startup-stoplight-raises-more-than-3-million
+      image: /images/logo_statesman.png
+      publication: Austin-American Statesmen
     - date: 'October, 2018'
       description: 'To Help Developers Get A Grip On APIs, Stoplight Raises $3.25M'
       href: >-
