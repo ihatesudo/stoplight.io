@@ -1,35 +1,16 @@
 path: /demo
 title: Request a Demo
 subtitle: >-
-  Learn how to create consistency, enable collaboration, and eliminate
-  unnecessary duplication. On average, adopting Stoplight results in a 36% gain
-  in API development efficiency, and increases API quality by 30%.
+  On average, adopting Stoplight results in a 36% gain in API development efficiency, and increases API quality by 30%.
 color: black
 hubspot:
   formId: 7ae2bb42-67a6-4ee3-9ac5-ff21d87812ea
   portalId: '4892910'
-leftContent:
-  description: >-
-    <div style="width:auto; height: 600px;"><script> (function () { var on =
-    window.addEventListener ? function (m,c) {
-    window.addEventListener(m,c,false); } : function (m,c) {
-    window.attachEvent('on'+m,c); } , r = function (e) { if (e.origin !==
-    "https://my.g2.com") { return; } var d =
-    document.getElementById('g2-crowd-widget-testimonial-13474');
-    if(d){d.style.height = e.data}; r = function () {}; } ; on('message', r);
-    }()); </script><iframe frameborder="0" height="100%"
-    id="g2-crowd-widget-testimonial-13474" scrolling="yes"
-    src="https://www.g2.com/products/stoplight/testimonials/13474.embed"
-    style="width:100%;min-height:100%;overflow:hidden;" width="100%"></iframe><a
-    style="font-size: 12px; color: #446273; float: right;"
-    href="https://www.g2.com/products/stoplight/reviews?utm_campaign=testimonials_embed&amp;utm_medium=testimonials&amp;utm_source=Stoplight">Stoplight
-    reviews sourced by G2</a></div>
-  title: Read our reviews on G2
 collage:
   cta:
-    title: Read the Case Studies
     color: green
     href: /case-studies
+    title: Read the Case Studies
   images:
     - alt: EA
       src: /images/ea.png
@@ -56,37 +37,32 @@ collage:
     workflow
 testimonials:
   testimonials:
-    - author: Felix Sargent
-      company: MediaMath
-      image: /images/felix_s.jpg
+    - author: Kin Lane
+      image: /images/testimonials/kin_lane.jpeg
       quote: >-
-        Stoplight provides a clean user interface and enables an engineering
-        team to develop a compliant API with minimal difficulty. Other tools
-        don't provide the same details, guard rails, and error validation that
-        Stoplight provides.
-      role: Director of Engineering
+        I feel like Stoplight has the potential to shift the landscape pretty
+        significantly, something I haven't seen any API service provider do in a
+        while.
+      role: API Evangelist
     - author: 'Carlos Lozano '
-      company: GFT Group
       image: /images/carlos_testimonial.jpeg
       quote: >-
         When it comes to specification markup and documentation, the order of
         magnitude has gone from days to hours.
-      role: Senior Enterprise Architect
+      role: 'Senior Enterprise Architect, GFT Group'
     - author: John Vajda
-      company: JumpCloud
       image: /images/testimonials/john_vajda.jpeg
       quote: >-
         Stoplight has been a serious game changer for JumpCloud’s API
         development! We love all the rich design, documentation and testing
         features, which has enabled us to design awesome APIs for our customers.
-      role: Product Manager
+      role: 'Product Manager, JumpCloud'
     - author: Gil Barbara
-      company: AMARO
       image: /images/testimonials/gil.jpeg
       quote: >-
         Stoplight provides a centralized, testable and reliable source for our
         APIs.
-      role: Frontend Engineer
+      role: 'Frontend Engineer, AMARO'
 meta:
   description: >-
     Want to see how we could help your company and organization with our API
@@ -94,9 +70,4 @@ meta:
   favicon: /images/mark_light_bg.png
   title: Get a demo of our API Toolkit | Stoplight
   twitter:
-    description: >-
-      Want to see how we could help your company and organization with our API
-      Toolkit? Click here to request a demo and find out what we can do for you.
-    image: /images/stoplight-studio.png
     title: Get a demo of our API Toolkit | Stoplight
-    username: '@stoplightio'
