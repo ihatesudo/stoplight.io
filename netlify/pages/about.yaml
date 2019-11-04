@@ -2,11 +2,12 @@ path: /about
 hero:
   particles: true
   subtitle: >-
-    Headquartered in Austin, Texas, our team hails from across the US and Europe, and is united by our passion for APIs.
-    From skeeball champions to rock climbers, tough mudders to restaurateurs, each and every member
-    brings their own unique perspectives and experiences to the table. Thinking
-    out of the box is our purpose - the weirder the better - and challenging the
-    status quo is our culture.
+    Headquartered in Austin, Texas, our team hails from across the US and
+    Europe, and is united by our passion for APIs. From skeeball champions to
+    rock climbers, tough mudders to restaurateurs, each and every member brings
+    their own unique perspectives and experiences to the table. Thinking out of
+    the box is our purpose - the weirder the better - and challenging the status
+    quo is our culture.
   title: About Us
 team:
   - image: /images/andoni-alanis-cue.jpeg
@@ -46,8 +47,8 @@ team:
     name: Marc MacLeod
     role: Founder & CEO
   - image: /images/mcdonald_headshot.png
-    name: Ross Mcdonald
-    role: Sales Engineer
+    name: Ross McDonald
+    role: Customer Success
   - image: /images/chris-miaskowski-headshot.jpg
     name: Chris Miaskowski
     role: Software Engineer
@@ -57,6 +58,9 @@ team:
   - image: /images/pytleski_headshot.png
     name: Thomas Pytleski
     role: Software Engineer
+  - image: /images/dave-headshot.jpg
+    name: Dave Roberts
+    role: Sales Engineering
   - image: /images/tonia-roberts-headshot.jpg
     name: Tonia Roberts
     role: Enterprise Account Executive
@@ -69,18 +73,12 @@ team:
   - image: /images/phil-sturgeon-headshot2.png
     name: Phil Sturgeon
     role: Software Architect
-  - image: /images/kristen-surratt-headshot.jpg
+  - image: /images/surratt-headshot.jpg
     name: Kristen Surratt
     role: Customer Advocate
-  - image: /images/tharp_headshot.png
-    name: Duane Tharp
-    role: Sales & Partnerships
   - image: /images/wallach_headshot.png
     name: Robert Wallach
     role: Content & Support
-  - image: /images/mateusz_wit_headshot.png
-    name: Mateusz Wit
-    role: Software Engineer
   - image: /images/harrison-yeager-headshot.jpg
     name: Harrison Yeager
     role: Ops
@@ -120,12 +118,6 @@ businesses:
 pressSection:
   articles:
     - date: 'October, 2018'
-      description: 'To Help Developers Get A Grip On APIs, Stoplight Raises $3.25M'
-      href: >-
-        https://news.crunchbase.com/news/to-help-developers-get-a-grip-on-apis-stoplight-raises-3-25m
-      image: /images/logo_crunchbase.png
-      publication: crunchbase news
-    - date: 'October, 2018'
       description: >-
         Software startup raises more than $3M in round led by former Austin
         Ventures bigwig
@@ -134,6 +126,18 @@ pressSection:
       image: /images/logo_austin_bj.png
       publication: Austin Business Journal
     - date: 'October, 2018'
+      description: Austin startup Stoplight raises more than $3 million.
+      href: >-
+        https://www.statesman.com/news/20181003/austin-startup-stoplight-raises-more-than-3-million
+      image: /images/logo_statesman.png
+      publication: Austin-American Statesmen
+    - date: 'October, 2018'
+      description: 'To Help Developers Get A Grip On APIs, Stoplight Raises $3.25M'
+      href: >-
+        https://news.crunchbase.com/news/to-help-developers-get-a-grip-on-apis-stoplight-raises-3-25m
+      image: /images/logo_crunchbase.png
+      publication: crunchbase news
+    - date: 'October, 2018'
       description: >-
         Stoplight Lands $3.25M of Seed Funding to Lead Evolution of Enterprise
         API Lifecycle Management
@@ -141,12 +145,6 @@ pressSection:
         https://venturebeat.com/2018/10/03/stoplight-lands-3-25m-of-seed-funding-to-lead-evolution-of-enterprise-api-lifecycle-management
       image: /images/logo_venturebeat.png
       publication: VentureBeat
-    - date: 'OCTOBER, 2018'
-      description: Austin startup Stoplight raises more than $3 million
-      href: >-
-        https://www.statesman.com/news/20181003/austin-startup-stoplight-raises-more-than-3-million
-      image: /images/logo_statesman.png
-      publication: Austin-American Statesman
   cta:
     color: grey-darkest
     href: 'https://press.stoplight.io/company'
