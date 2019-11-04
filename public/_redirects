@@ -5,6 +5,7 @@ https://stoplightio.netlify.com/* https://stoplight.io/:splat 301!
 # External redirects
 /login https://next.stoplight.io/login
 /join https://next.stoplight.io/join
+/forum https://community.stoplight.io
 /register https://next.stoplight.io/join
 /twitter https://twitter.com/stoplightio
 

@@ -14,7 +14,7 @@ export const config = {
   backend: {
     name: 'github',
     repo: 'stoplightio/stoplight.io',
-    branch: 'develop',
+    branch: 'master',
     squash_merges: true,
     commit_messages: {
       create: 'Create {{collection}} “{{slug}}”',

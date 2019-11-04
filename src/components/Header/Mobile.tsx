@@ -99,7 +99,7 @@ export const Mobile = () => {
                 title="Resources"
                 links={[
                   {
-                    to: 'http://docs.stoplight.io/',
+                    to: 'https://support.stoplight.io',
                     title: 'Help Center',
                   },
                   {
@@ -107,7 +107,7 @@ export const Mobile = () => {
                     title: 'Blog',
                   },
                   {
-                    to: '/forum',
+                    to: 'https://community.stoplight.io',
                     title: 'Forum',
                   },
                   {
