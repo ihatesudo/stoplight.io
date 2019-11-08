@@ -16,7 +16,7 @@ hero:
           href: '/demo/'
         input:
           type: email
-          placeholder: Your work email...
+          placeholder: Your business email...
         formId: 'a5fb939e-7da2-4a9e-9784-338f92a71e41'
 gartnerCoolVendor:
   cta:

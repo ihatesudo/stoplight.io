@@ -42,10 +42,18 @@ export const Submit: React.FunctionComponent<ISubmit> = ({ button, className, in
 
   return (
     <div
-      className={cn(className, 'flex flex-col max-w-2xl sm:max-w-full sm:flex-col sm:justify-center sm:items-between')}
+      className={cn(
+        className,
+        'flex flex-col items-center max-w-2xl sm:max-w-full sm:flex-col sm:justify-center sm:items-between',
+      )}
     >
       {response.success ? (
-        <div className="successMessage" dangerouslySetInnerHTML={{ __html: response.success }} />
+        <div
+          className="successMessage"
+          dangerouslySetInnerHTML={{
+            __html: response.success,
+          }}
+        />
       ) : (
         <div className="flex sm:flex-wrap sm:justify-center sm:py-4">
           <Input autoFocus {...input} value={value} onChange={setValue} onEnter={handleSubmit} />
@@ -55,7 +63,14 @@ export const Submit: React.FunctionComponent<ISubmit> = ({ button, className, in
           </div>
         </div>
       )}
-      {response.error && <div className="text-left pt-2" dangerouslySetInnerHTML={{ __html: response.error }} />}
+      {response.error && (
+        <div
+          className="flex mt-3 sm:w-2/3 text-red w-3/5 whitespace-normal"
+          dangerouslySetInnerHTML={{
+            __html: response.error,
+          }}
+        />
+      )}
     </div>
   );
 };

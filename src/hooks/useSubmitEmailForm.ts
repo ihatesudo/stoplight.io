@@ -18,7 +18,11 @@ export const useSubmitEmailForm = (
   const submitForm = React.useCallback(
     (fields: IField[]) => {
       if (!validateEmail(fields[0].value)) {
-        return setResponse({ success: '', error: 'Please enter your work email' });
+        const blockedEmail = fields[0].value.split('@')[1];
+        return setResponse({
+          success: '',
+          error: `Please enter your business email address. This form does not accept addresses from ${blockedEmail}.`,
+        });
       }
 
       setLoading(true);
