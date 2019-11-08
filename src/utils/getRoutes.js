@@ -85,6 +85,10 @@ export async function getRoutes() {
       path: '/start',
       template: 'src/templates/Start',
     },
+    {
+      path: '/_admin',
+      template: 'src/templates/Admin',
+    },
 
     ...createRoutes('src/templates/Landing', landings, allPages, null),
     ...createListRoutes('src/templates/Lists', lists, allPages),
@@ -94,20 +98,6 @@ export async function getRoutes() {
     ...createRoutes('src/templates/Subpage', other, allPages),
     ...createRoutes('src/templates/Form', forms, allPages),
   ];
-
-  // Don't include admin route in production
-  if (!IS_PRODUCTION) {
-    routes.push({
-      path: '/admin',
-      template: 'src/templates/Admin',
-      getData: () => {
-        return {
-          header: null,
-          footer: null,
-        };
-      },
-    });
-  }
 
   return routes;
 }
