@@ -22,9 +22,9 @@ export const Content: React.FunctionComponent<IContent> = ({ sidebar, includeToc
 
   return (
     <>
-      {!sidebar && (
+      {!sidebar && includeToc ? (
         <div
-          className="sticky flex flex-col items-end -mr-20 -mb-40 z-10 md:-mr-6"
+          className="sticky flex flex-col items-end -mr-20 -mb-40 z-10 md:-mr-6 m-auto w-1/6"
           style={{ top: isBannerShowing ? 140 : 80 }}
         >
           <div className="bg-grey-light p-4 rounded-lg shadow-md md:hidden">
@@ -40,7 +40,7 @@ export const Content: React.FunctionComponent<IContent> = ({ sidebar, includeToc
             <p className="text-sm italic ml-8 mt-4">Free. Runs everywhere.</p>
           </div>
         </div>
-      )}
+      ) : null}
 
       <div className={cn('markdown-body pt-10 md:mt-20', { 'has-banner': isBannerShowing })}>
         <div
