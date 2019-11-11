@@ -70,9 +70,9 @@ meta:
   description: Accelerate API development with realistic mock servers powered by API descriptions
   favicon: /images/mark_light_bg.png
   image: /images/prism_example.png
-  title: Prism - Open Source HTTP Mock Server | Stoplight
+  title: Prism Open Source HTTP Mock Server | Mock HTTP Server
   twitter:
     description: Accelerate API development with realistic mock servers powered by API descriptions
     image: /images/prism_example.png
-    title: Prism - Open Source HTTP Mock Server | Stoplight
+    title: Prism Open Source HTTP Mock Server | Mock HTTP Server
     username: '@stoplightio'

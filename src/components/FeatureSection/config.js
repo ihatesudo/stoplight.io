@@ -43,6 +43,7 @@ export default {
           name: 'href',
           label: 'Link',
           widget: 'string',
+          required: false,
         },
       ],
     },
