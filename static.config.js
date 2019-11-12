@@ -21,7 +21,6 @@ export default {
     'react-static-plugin-monaco',
     'react-static-plugin-sitemap',
     'react-static-plugin-robots',
-    'react-static-plugin-sharp',
   ],
 
   getSiteData: () => getFile(`${NETLIFY_PATH}/settings.yaml`),

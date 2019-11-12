@@ -80,7 +80,7 @@ export const Subpage: React.FunctionComponent<IPage> = ({
   let showDisqus = disqus && disqus.enabled;
   if (typeof window !== 'undefined') {
     url = window.location.origin + path;
-    showDisqus = showDisqus && window.location.pathname !== '/admin';
+    showDisqus = showDisqus && !/^\/_admin/.test(window.location.pathname);
   }
 
   return (

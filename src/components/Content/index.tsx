@@ -1,10 +1,11 @@
 import cn from 'classnames';
 import * as React from 'react';
-import { IInfo } from 'src/components/Info';
-import { IQuote } from 'src/components/Quote';
-import { convertMarkdownToHTML } from 'src/utils/markdown/index.js';
+
 import { useBanner } from '../../hooks/useBanner';
+import { convertMarkdownToHTML } from '../../utils/markdown/index.js';
 import { CallToAction } from '../CallToAction';
+import { IInfo } from '../Info';
+import { IQuote } from '../Quote';
 
 export interface IContent {
   body: string;

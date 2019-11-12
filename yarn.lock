@@ -1586,6 +1586,13 @@
   resolved "https://registry.npmjs.org/@stoplight/path/-/path-1.0.3.tgz#2b891c263ab0796b1ef96b11beb878056ff005ca"
   integrity sha512-YZOn9PjMbtdHrn/6xxvwk+JGCHRORohbIfQLgjveO+jMhHWnK4E/gg5/Q4f7724F7jTZD3AS/jaQiQG77sV/Ow==
 
+"@stoplight/react-error-boundary@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@stoplight/react-error-boundary/-/react-error-boundary-1.0.0.tgz#758dbee1ae3afa8f2cc42f6fc82aefc9d4efaa67"
+  integrity sha512-UH5ZyNqzQp8w/fm8cpq0tmsc63xtMBFmfp7g6ZYW4+/Bhnm/T1RhRpG/5d7/3ZkMLiJ7avsoslbHJ2JU6geEDQ==
+  dependencies:
+    "@stoplight/types" "^11.1.0"
+
 "@stoplight/scripts@^7.0.2":
   version "7.0.2"
   resolved "https://registry.npmjs.org/@stoplight/scripts/-/scripts-7.0.2.tgz#7ff1a6c7a1de4961e6bba3894236c7708d73910e"
@@ -1639,6 +1646,13 @@
     strip-ansi "^5.2"
     text-table "^0.2"
     typescript-json-schema "~0.38"
+
+"@stoplight/types@^11.1.0":
+  version "11.2.0"
+  resolved "https://registry.yarnpkg.com/@stoplight/types/-/types-11.2.0.tgz#1f9c9c6dcf481f21e68a01cfa6e81b1ea41d4faa"
+  integrity sha512-c4zMAaf+NusHxcfruYDnzBwX3VJ8h1E6KYW/11QqmtsmE+ua3tKYL3PNbrzWh7nz/Vmv0U8zoYMw42F1XxylaA==
+  dependencies:
+    "@types/json-schema" "^7.0.3"
 
 "@stoplight/types@^9.1.2":
   version "9.1.2"
