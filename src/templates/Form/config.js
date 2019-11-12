@@ -52,10 +52,12 @@ export default {
         {
           name: 'title',
           widget: 'markdown',
+          required: false,
         },
         {
           name: 'description',
           widget: 'markdown',
+          required: false,
         },
       ],
     },
