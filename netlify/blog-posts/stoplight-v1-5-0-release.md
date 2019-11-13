@@ -37,6 +37,10 @@ To download the latest version of Studio Desktop, visit the download page [here]
 
 ### Features Included in this Release
 
+**Export OpenAPI Files with References Included**
+
+Right-clicking on an API in the sidebar now includes the **Export OpenAPI** option, which copies a version of the API with JSON Schema references resolved to your clipboard. This allows you to quickly retrieve your API in a single, self-contained file, which you can then use for other purposes (code generation, gateway integration, etc). ([\#126](https://github.com/stoplightio/studio/issues/126))
+
 **"Try It" Tab Now Supports Multiple Servers**
 
 The "Try It" tabs in Studio's Read view now support server selection, allowing users to send requests to any of the servers included in the API description. ([\#242](https://github.com/stoplightio/studio/issues/242))
