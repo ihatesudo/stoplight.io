@@ -1,4 +1,4 @@
-# path: /pricing
+path: /pricing
 color: blue
 hero:
   skew: '-7deg'
@@ -137,6 +137,7 @@ docPlans:
       link: '/enterprise-contact/'
   title: Documentation Add-On
 meta:
+  robots: 'noindex, follow'
   description: >-
     Read up and learn about Stoplight’s flexible and simple pricing structures,
     from personal to enterprise use, right here.
