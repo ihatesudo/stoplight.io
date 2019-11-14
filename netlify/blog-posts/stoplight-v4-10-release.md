@@ -13,8 +13,6 @@ image: /images/changelog-stock.jpg
 color: black
 tabs: []
 includeToc: false
-disqus:
-  enabled: true
 actionBar:
   ctas:
     - color: purple
@@ -24,14 +22,17 @@ meta:
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
   title: v4.10 Release | Stoplight API Corner
+  image: /images/changelog-stock.jpg
   twitter:
     description: 'LDAP SSO Support, Powershell Code Generation, Enhancements & Fixes'
     title: v4.10 Release | Stoplight API Corner
     image: /images/changelog-stock.jpg
     username: '@stoplightio'
+disqus:
+  enabled: true
 ---
 
-# Stoplight v4.10.0 Release
+## Stoplight v4.10.0 Release
 
 [Release files on GitHub](https://github.com/stoplightio/desktop/releases/tag/v4.10.2)
 
