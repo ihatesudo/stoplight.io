@@ -1,6 +1,4 @@
-import * as path from 'path';
 import * as React from 'react';
-import { getConfigVar } from 'src/utils/config';
 
 export interface IImage {
   src: string;
@@ -23,12 +21,6 @@ export const Image: React.FunctionComponent<IImage> = ({
   background,
   useDiv,
 }) => {
-  // Transform image urls in production to match the processed images
-  // if (getConfigVar('RELEASE_STAGE') === 'production' && src && path.isAbsolute(src) && size) {
-  //   const extname = path.extname(src);
-  //   src = `${src.replace(extname, '')}-${size}${extname}`;
-  // }
-
   if (background || useDiv) {
     style = {
       backgroundImage: src ? `url(${src})` : 'none',

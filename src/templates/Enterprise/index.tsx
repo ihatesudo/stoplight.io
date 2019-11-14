@@ -31,7 +31,7 @@ export const Enterprise: React.FunctionComponent<IEnterprise> = ({
 }) => {
   return (
     <Layout>
-      <Hero bgColor={color} {...hero} aligned="center" />
+      <Hero bgColor={color} {...hero} aligned="center" image={hero.image && { ...hero.image, shadow: false }} />
 
       <Section>
         <Container>

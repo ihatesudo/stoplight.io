@@ -9,16 +9,17 @@ import { VideoPlayerModal } from '../VideoPlayerModal';
 export interface IHeroImage extends IImage {
   className?: string;
   video?: string;
+  shadow?: boolean;
 }
 
-export const HeroImage: React.FunctionComponent<IHeroImage> = ({ className, video, src, alt }) => {
+export const HeroImage: React.FunctionComponent<IHeroImage> = ({ className, video, src, alt, shadow = true }) => {
   if (!src) {
     return null;
   }
   return (
     <Container className={className}>
       <div
-        className="relative text-center shadow-lg-intense -mb-1 rounded-t-lg overflow-hidden"
+        className={cn('relative text-center -mb-1 rounded-t-lg overflow-hidden', { 'shadow-lg-intense': shadow })}
         style={{ height: 430, borderBottom: 'none' }}
       >
         {video && (
