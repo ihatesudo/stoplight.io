@@ -8,28 +8,27 @@ tags:
 relatedTags:
   - blog-studio
   - blog-design
-publishedDate: 2019-08-21
+publishedDate: 2019-08-21T00:00:00.000Z
 author: Marc MacLeod
-title: Announcing Stoplight Studio, Our Next Gen API Designer
-subtitle: Written from scratch with the modern development workflow in mind. Now with OpenAPI v3 support, and options to use your own version control system.
-listImage: /images/studio/blog-list.png
+title: 'Announcing Stoplight Studio, Our Next Gen API Designer'
+subtitle: >-
+  Written from scratch with the modern development workflow in mind. Now with
+  OpenAPI v3 support, and options to use your own version control system.
+  listImage: /images/studio/blog-list.png
 includeToc: false
 actionBar:
   enabled: false
 meta:
   favicon: /images/mark_light_bg.png
-  title: Announcing Stoplight Studio, Our Next Gen API Designer
+  title: 'Announcing Stoplight Studio, Our Next Gen API Designer'
   image: /images/studio/blog.png
   robots: 'index, follow'
   twitter:
-    title: Announcing Stoplight Studio, Our Next Gen API Designer
+    title: 'Announcing Stoplight Studio, Our Next Gen API Designer'
     image: /images/studio/blog.png
     username: '@stoplightio'
   url: 'https://stoplight.io/blog/studio'
 ---
-
-# Announcing Stoplight Studio, Our Next Gen API Designer
-
 Today we are thrilled to share [Stoplight Studio](https://stoplight.io/studio/), our new free API designer, built with the modern development workflow in mind.
 
 Previous versions of Stoplight required you to keep your API description documents on our servers, but Stoplight Studio includes first class git support (yes, even in the browser!), which allows you to use your existing version control system. We analyze git repositories to find relevant files, and give you a beautiful visual editor to create your API designs. When ready, you can commit the changes directly to your git repository (GitHub, Bitbucket, GitLab, etc). This makes integration with your own PR workflows and build pipelines easy, and means your API descriptions and docs can now live right alongside your code.
@@ -46,7 +45,7 @@ We’ll share a lot more about Stoplight Studio over the coming weeks, but here�
 
 Stoplight Studio is completely free for individuals - you don't even need an account to use it. We want everyone to have access to the best API design tooling, without compromises or vendor lock-in. For four years, that’s been our goal, and we believe Studio is a huge step towards delivering on that promise. Before going further, let's take a quick walk through Stoplight's evolution over the years.
 
-![](/images/studio/blog.png)
+![Screenshot of Stoplight Studio](/images/studio/blog.png)
 
 ## First Visual API Designer for API Descriptions, Circa 2015
 
