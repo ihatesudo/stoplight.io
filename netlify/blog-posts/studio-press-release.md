@@ -5,28 +5,35 @@ tags:
   - blog-general
 relatedTags:
   - blog-general
-publishedDate: 2019-08-20
+publishedDate: 2019-08-20T00:00:00.000Z
 author: Robert Wallach
-title: Stoplight Launches API Visual Editor Aimed at Driving Scalable API Design-First Development
-subtitle: Stoplight, the enterprise API Design Management company, today announced the release of Stoplight Studio, a powerful new API visual editor.
+title: >-
+  Stoplight Launches API Visual Editor Aimed at Driving Scalable API
+  Design-First Development
+subtitle: >-
+  Stoplight, the enterprise API Design Management company, today announced the
+  release of Stoplight Studio, a powerful new API visual editor.
 image: /images/microphone.jpg
 includeToc: false
 actionBar:
   enabled: false
 meta:
+  description: >-
+    Stoplight, the enterprise API Design Management company, today announced the
+    release of Stoplight Studio, a powerful new API visual editor.
   favicon: /images/mark_light_bg.png
-  title: Stoplight Launches API Visual Editor Aimed at Driving Scalable API Design-First Development
-  description: Stoplight, the enterprise API Design Management company, today announced the release of Stoplight Studio, a powerful new API visual editor.
-  image: /images/microphone.jpg
   robots: 'index, follow'
+  title: >-
+    Stoplight Launches API Visual Editor Aimed at Driving Scalable API
+    Design-First Development
+  image: /images/microphone.jpg
   twitter:
-    title: Stoplight Launches API Visual Editor Aimed at Driving Scalable API Design-First Development
+    title: >-
+      Stoplight Launches API Visual Editor Aimed at Driving Scalable API
+      Design-First Development
     image: /images/microphone.jpg
     username: '@stoplightio'
 ---
-
-# Stoplight Launches API Visual Editor Aimed at Driving Scalable API Design-First Development
-
 Stoplight, the enterprise API Design Management company, today announced the release of Stoplight Studio, a powerful new API visual editor enabling faster, more collaborative and efficient OpenAPI (formerly Swagger) development for software teams.
 
 > With Stoplight Studio, we’re providing modern organizations with the tools they need to approach API development in a truly cohesive and unified way.
