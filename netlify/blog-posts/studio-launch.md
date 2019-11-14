@@ -14,7 +14,7 @@ title: 'Announcing Stoplight Studio, Our Next Gen API Designer'
 subtitle: >-
   Written from scratch with the modern development workflow in mind. Now with
   OpenAPI v3 support, and options to use your own version control system.
-  listImage: /images/studio/blog-list.png
+image: /images/studio-desktop.png
 includeToc: false
 actionBar:
   enabled: false
