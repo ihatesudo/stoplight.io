@@ -42,13 +42,12 @@ testimonials:
         development! We love all the rich design, documentation and testing
         features, which has enabled us to design awesome APIs for our customers.
       role: Product Manager
-    - author: Gil Barbara
-      company: AMARO
-      image: /images/testimonials/gil.jpeg
+    - author: Tim Slagle
+      company: Zoom
+      image: /images/testimonials/tim_s.jpg
       quote: >-
-        Stoplight provides a centralized, testable and reliable source for our
-        APIs.
-      role: Frontend Engineer
+        Our team roughly saves 15-20 hours a week. It makes it quicker to write, and the review process is quicker as well because we can go in and everybody can see the edits.  We're pretty impressed with Stoplight as a whole.
+      role: Manager of Developer Advocacy
 meta:
   description: >-
     Using Stoplight you can create OpenAPI descriptions, documentation, mock
