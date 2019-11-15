@@ -88,7 +88,7 @@ export const Subpage: React.FunctionComponent<IPage> = ({
       <Hero {...heroProps} tabs={tabs} />
 
       <Section noPadding>
-        <Container className="mx-auto my-24 sm:-mb-1">
+        <Container className="mx-auto my-10 sm:-mb-1">
           <div className="relative">
             {sidebar && (
               <div className="-mt-32 ml-12 mb-12 w-1/3 sm:mt-0 sm:ml-0 sm:mb-24 sm:w-full float-right sm:float-none">
