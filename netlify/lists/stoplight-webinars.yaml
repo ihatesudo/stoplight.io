@@ -1,11 +1,11 @@
 path: /video
 tag: video
-title: Stoplight Webinars
+title: Stoplight API Corner Video Content
 subtitle: Watch & Learn
 color: purple
 tabs:
   - href: /video
-    title: Webinars
+    title: Videos
   - href: /video/subscribe
     title: Subscribe
 actionBar:
@@ -18,9 +18,9 @@ meta:
   description: Watch & Learn
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
-  title: Webinars | Stoplight
+  title: Videos and Webinars | Stoplight
   twitter:
     description: Watch & Learn
-    title: Webinars | Stoplight
+    title: Videos and Webinars | Stoplight
 pagination:
   enabled: true

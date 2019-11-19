@@ -41,6 +41,7 @@ meta:
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
   title: Zoom Video Testimonial | Stoplight
+  image:
   twitter:
     description: >-
       Learn from Tim Slagle, Manager of Developer Advocacy at Zoom, how they
