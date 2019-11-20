@@ -27,15 +27,15 @@ export const CustomerSection: React.FunctionComponent<ICustomerSection> = ({
   }
 
   return (
-    <Section {...sectionProps}>
+    <Section id="customers" {...sectionProps}>
       <Container
         chips={{
           className: 'justify-center mb-10',
-          segments: [{ color: 'indigo', length: 2 }, { color: 'indigo-lighter' }],
+          segments: [{ color: 'indigo-light', length: 2 }, { color: 'indigo-dark', length: 3 }, { color: 'indigo' }],
         }}
       >
         <div className="uppercase text-grey-dark font-semibold text-center text-lg">
-          Stoplight powers some of the worlds leading API first companies
+          Stoplight powers some of the world's leading API first companies
         </div>
 
         <div className="flex justify-between flex-wrap items-center sm:justify-center mt-14">

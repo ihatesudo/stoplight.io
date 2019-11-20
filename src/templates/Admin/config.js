@@ -3,6 +3,7 @@ import SettingsConfig from 'src/components/Settings/config';
 import AboutConfig from 'src/templates/About/config';
 import HomeConfig from 'src/templates/Home/config';
 import PricingConfig from 'src/templates/Pricing/config';
+import EnterpriseConfig from 'src/templates/Enterprise/config';
 
 import FormConfig from 'src/templates/Form/config';
 import LandingConfig from 'src/templates/Landing/config';
@@ -37,7 +38,7 @@ export const config = {
       label_singular: 'Page',
       name: 'pages',
       delete: false,
-      files: [AboutConfig, HomeConfig, PricingConfig],
+      files: [AboutConfig, HomeConfig, PricingConfig, EnterpriseConfig],
     },
     FormConfig,
     LandingConfig,

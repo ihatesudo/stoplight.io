@@ -10,6 +10,7 @@ import { Landing } from 'src/templates/Landing';
 import { List } from 'src/templates/Lists';
 import { Pricing } from 'src/templates/Pricing';
 import { Subpage } from 'src/templates/Subpage';
+import { Enterprise } from '../Enterprise';
 
 import { convertMarkdownToHTML } from '../../utils/markdown/index.js';
 
@@ -27,6 +28,7 @@ const templates = {
   about: About,
   home: Home,
   pricing: Pricing,
+  enterprise: Enterprise,
 
   lists: List,
   author: List,

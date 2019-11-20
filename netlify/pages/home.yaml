@@ -5,6 +5,29 @@ hero:
     The API design management platform powering the world’s leading API first
     companies.
   title: The best APIs start with Stoplight
+features:
+  - name: API Design
+    summary: >-
+      Quickly model your APIs using visual tools on top of open standards.
+    href: /design
+    icon: 'pencil-ruler'
+    iconStyle:
+      '--fa-primary-color': 'dodgerblue'
+      '--fa-secondary-color': 'limegreen'
+  - name: API Documentation
+    summary: Increase customer adoption with beautiful, functional documentation.
+    href: /documentation
+    icon: 'book'
+    iconStyle:
+      '--fa-primary-color': 'tomato'
+      '--fa-secondary-color': 'tomato'
+  - name: API Mocking
+    summary: Easily mock web services and run scenarios from the command line.
+    href: /mocking
+    icon: 'server'
+    iconStyle:
+      '--fa-primary-color': 'slategray'
+      '--fa-secondary-color': 'slategray'
 testimonials:
   actionBar:
     ctas:
