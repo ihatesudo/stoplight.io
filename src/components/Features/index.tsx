@@ -34,18 +34,18 @@ export const Features: React.FunctionComponent<IFeatures> = ({ features, classNa
 export const Feature: React.FunctionComponent<IFeature> = ({ name, summary, icon, href, iconStyle }) => {
   return (
     <div className="w-80 text-center px-5 mt-14 sm:pt-14">
-      <Icon icon={['fad', icon]} size="3x" style={iconStyle} />
-      <div className="font-bold text-xl mt-5">{name}</div>
-      <div className="text-grey-dark font-medium my-2 leading-loose">{summary}</div>
+      <Link to={href}>
+        <Icon icon={['fad', icon]} size="3x" style={iconStyle} />
+        <div className="font-bold text-grey-darkest text-xl mt-5">{name}</div>
+        <div className="text-grey-dark font-medium my-2 leading-loose">{summary}</div>
 
-      {href && (
-        <div className="items-center">
-          <Link className="font-semibold" to={href}>
+        {href && (
+          <div className="items-center font-semibold">
             Learn More
             <Icon className="pl-2" size="lg" icon={['fad', 'arrow-right']} />
-          </Link>
-        </div>
-      )}
+          </div>
+        )}
+      </Link>
     </div>
   );
 };
