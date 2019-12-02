@@ -9,6 +9,7 @@ import FormConfig from 'src/templates/Form/config';
 import LandingConfig from 'src/templates/Landing/config';
 import { ListsConfig, AuthorConfig } from 'src/templates/Lists/config';
 import { SubpageConfig, BlogPostConfig, CaseStudyConfig } from 'src/templates/Subpage/config';
+import { CLOUDINARY_API_KEY, CLOUDINARY_CLOUD_NAME } from 'src/utils/settings';
 
 export const config = {
   load_config_file: false,
@@ -48,4 +49,11 @@ export const config = {
     CaseStudyConfig,
     BlogPostConfig,
   ],
+  media_library: {
+    name: 'cloudinary',
+    config: {
+      cloud_name: CLOUDINARY_CLOUD_NAME,
+      api_key: CLOUDINARY_API_KEY,
+    },
+  },
 };

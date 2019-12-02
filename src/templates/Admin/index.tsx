@@ -1,5 +1,6 @@
 import { ErrorBoundary } from '@stoplight/react-error-boundary';
 import CMS from 'netlify-cms-app';
+import cloudinary from 'netlify-cms-media-library-cloudinary';
 import React from 'react';
 
 import Settings from 'src/components/Settings';
@@ -20,6 +21,7 @@ import { config } from './config';
 import previewStyles from '!css-loader!./styles.css';
 
 CMS.registerPreviewStyle(previewStyles, { raw: true });
+CMS.registerMediaLibrary(cloudinary);
 
 const templates = {
   settings: Settings,

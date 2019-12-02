@@ -2,7 +2,7 @@
 
 [stoplight.io](https://stoplight.io), Best in class API Design, Docs, Mocking, and Testing.
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/dce90519-4481-4982-b239-afe64fd2f01a/deploy-status)](https://app.netlify.com/sites/stoplightio/deploys) [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/dce90519-4481-4982-b239-afe64fd2f01a/deploy-status)](https://app.netlify.com/sites/stoplightio/deploys)
 
 ## Features
 
@@ -15,47 +15,70 @@
 
 ## Project Structure
 
-- [netlify](./netlify): content files created in NetlifyCMS that power the [src/templates](./src/templates).
-- [public](./public): static files that are copied into `dist` at build time
-- [src/templates](./src/templates): A page template that receives data from the files in [netlify](./netlify) and renders
-- [src/components](./src/components): React components that are rendered by [src/templates](./src/templates)
-- [src/utils](./src/utils): Utility functions
-- [static.config.js](./static.config.js): react-static configuration file
+- [netlify](./netlify): Content files created in NetlifyCMS that power the [src/templates](./src/templates)
+- [public](./public): Static files that are copied into `dist` at build time such as images
+- [src/templates](./src/templates): Templates receive data from content files in [/netlify](./netlify) and are rendered into static HTML pages
+- [src/components](./src/components): Reusable React components that are used by [src/templates](./src/templates)
+- [src/utils](./src/utils): Utility functions used by components and the build process
+- [static.config.js](./static.config.js): The [react-static](https://github.com/nozzle/react-static) configuration file used to build the site
 
 ## Getting Started
 
 ### Installation
 
-1. Run `yarn install`
-2. Run `yarn start`
+1. Run `yarn install` to install the sites dependencies
+2. Run `yarn start` to start the local development server
 3. Go to http://localhost:3000
 
-### Add a route
+### Create a Route
+
+A route is a combination of a content file in [./netlify](./netlify), a template in [./src/templates](./src/templates), and a browser path.
 
 1. Read the react-static docs on [adding a route](https://github.com/nozzle/react-static/blob/master/docs/config.md#getroutes).
 2. Add a route to [getRoutes function](./src/utils/getRoutes.js).
 
-### Add a page container
+Here's an example:
+
+```ts
+{
+  path: '/enterprise', // Creates a route for /enterprise
+  template: 'src/templates/Enterprise', // Loads the Enterprise template whenever a user lands on /enterprise
+  getData: () => getFile(`./netlify/pages/enterprise.yaml`), // Reads the file data from the enterprise.yaml file and passes it into the Template
+},
+```
+
+### Create a Template
 
 1. Create a new folder in `src/templates/{page name}`.
 2. Add an `index.tsx` file that default exports a React component.
 3. Add a `config.js` that exports the [NetlifyCMS configuration](https://www.netlifycms.org/docs/configuration-options/#collections) for the page.
 
-### Other Commands
+### Useful Commands
 
 ```bash
-# build for staging
+# starts the local development server
+yarn start
+
+# build for a staging environment
 yarn build
 
-# build for production
+# build the production environment
 yarn build.production
 
-# serve a build
+# outputs an analysis of the build
+yarn build.analyze
+
+# starts a local server running a build in /dist
 yarn serve
 
-# format using prettier
-yarn format
+# runs the typescript linter
+yarn lint
 ```
+
+### Environment Variables
+
+- `RELEASE_STAGE`: determines which environment to run: development, staging or production
+- `CLOUDINARY_API_KEY`: used by the admin portal for uploading images to [Cloudinary](https://cloudinary.com/)
 
 ### License
 

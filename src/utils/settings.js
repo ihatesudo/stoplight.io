@@ -5,3 +5,5 @@ export const IS_PRODUCTION = process.env.RELEASE_STAGE === 'production';
 export const DEFAULT_PAGINATION_PAGE_SIZE = 10;
 export const SITE_ROOT = IS_PRODUCTION ? 'https://stoplight.io' : '';
 export const RELATED_PAGES_LIMIT = 3;
+export const CLOUDINARY_API_KEY = process.env.CLOUDINARY_API_KEY;
+export const CLOUDINARY_CLOUD_NAME = 'stoplight';
