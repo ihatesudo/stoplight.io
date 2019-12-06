@@ -125,6 +125,8 @@ footer:
     - links:
         - href: /about
           title: About Us
+        - href: /careers
+          title: Careers
         - href: https://stoplight.io/p/roadmap
           title: Roadmap
         - href: 'https://press.stoplight.io'

@@ -100,7 +100,7 @@ collage:
     - alt: Zendesk
       src: /images/logo_zendesk.png
 testimonials:
-  title: 'Here are what some enterprise architects are saying:'
+  title: 'Here is what some enterprise architects are saying:'
   testimonials:
     - author: '- Software Architect'
       quote: >-
