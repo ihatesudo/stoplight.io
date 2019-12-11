@@ -69,6 +69,8 @@ header:
       isButton: true
       title: Book a Demo
       altBg: purple
+    - href: /about
+      title: About
     - href: /start
       isButton: true
       title: Start
