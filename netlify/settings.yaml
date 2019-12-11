@@ -168,8 +168,6 @@ customers:
       src: /images/ea.png
     - alt: Deutsche Bank
       src: /images/deutsche_bank.png
-    - alt: quicken
-      src: /images/customers/quicken.png
     - alt: Sendgrid
       src: /images/logo-sendgrid.png
     - alt: TiVo
