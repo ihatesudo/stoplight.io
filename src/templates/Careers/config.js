@@ -18,11 +18,15 @@ export default {
       widget: 'string',
     },
     {
+      name: 'href',
+      label: 'href',
+      widget: 'string',
+    },
+    {
       label: 'Tags',
       name: 'tags',
       widget: 'list',
-      required: false,
-      field: { label: 'tag', name: 'tag', widget: 'string', required: false },
+      field: { label: 'tag', name: 'tag', widget: 'string' },
     },
     {
       label: 'Related Tags',

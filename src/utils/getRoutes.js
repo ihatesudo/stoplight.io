@@ -27,7 +27,7 @@ export async function getRoutes() {
     getFile(`${NETLIFY_PATH}/pages/about.yaml`),
     getFile(`${NETLIFY_PATH}/pages/enterprise.yaml`),
     getFiles(`${NETLIFY_PATH}/forms`),
-    getFiles(`${NETLIFY_PATH}/careers`, ['.md']),
+    getFiles(`${NETLIFY_PATH}/careers`),
 
     getFiles(`${NETLIFY_PATH}/lists`),
     getFiles(`${NETLIFY_PATH}/authors`),
@@ -121,7 +121,7 @@ function filterPages(allPages, filter) {
       listSubtitle: page.listSubtitle,
       image: page.image,
       listImage: page.listImage,
-      href: page.path,
+      href: page.href || page.path,
       tags: page.tags, // used to show which tag matches the search
       author: page.author,
       publishedDate: formatDate(page.publishedDate),
