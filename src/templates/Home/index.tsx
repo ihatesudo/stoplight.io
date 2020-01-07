@@ -34,7 +34,7 @@ export const Home: React.FunctionComponent<IHome> = ({ color, hero, customers, t
               segments: [{ color: 'blue-lighter', length: 2 }, { color: 'blue' }],
             }}
           >
-            <div className="uppercase text-grey-dark font-semibold text-center text-lg">
+            <div className="text-lg font-semibold text-center uppercase text-grey-dark">
               Quality APIs Don't Just Happen
             </div>
             <Features features={features} />
@@ -60,7 +60,7 @@ const ProductCards = ({ className }: { className?: string }) => {
         description="Stoplight Studio turns you into an API Design superhero. Create OpenAPI 10x faster, with no prior knowledge and fewer mistakes."
         color="blue"
         icon={['fad', 'paint-brush-alt']}
-        className="bg-grey-lightest bg-white w-1/2 mx-3 sm:w-full sm:mb-6"
+        className="w-1/2 mx-3 bg-white bg-grey-lightest sm:w-full sm:mb-6"
         href="/studio"
         image="/images/studio-glimpse.png"
       />
@@ -72,7 +72,7 @@ const ProductCards = ({ className }: { className?: string }) => {
         description="The Stoplight Platform increases consistency, visibility, and quality across your internal and external APIs."
         color="orange"
         icon={['fad', 'chart-network']}
-        className="bg-white w-1/2 mx-3 sm:w-full"
+        className="w-1/2 mx-3 bg-white sm:w-full"
         href="/enterprise"
         image="/images/platform-glimpse.png"
       />
