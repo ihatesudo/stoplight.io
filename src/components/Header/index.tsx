@@ -47,6 +47,7 @@ export interface IHeader {
   color?: string;
   banners: IBanner[];
   path: string;
+  pinnedColor?: string;
 }
 
 export const Header: React.FunctionComponent<IHeader> = props => {
@@ -55,7 +56,7 @@ export const Header: React.FunctionComponent<IHeader> = props => {
   const onUnpin = React.useCallback(() => setUnpinned(true), [setUnpinned]);
   const onUnfix = React.useCallback(() => setUnpinned(false), [setUnpinned]);
 
-  const { header, meta, color, banners } = props;
+  const { header, meta, color, banners, pinnedColor } = props;
   const headerItems = (header && header.items) || [];
 
   let banner;
@@ -79,6 +80,7 @@ export const Header: React.FunctionComponent<IHeader> = props => {
           key="header"
           className={cn('z-50 sticky pin-t pin-l pin-r', {
             [`shadow-md bg-${color || 'black'}`]: unpinned,
+            [`shadow-md bg-${pinnedColor}`]: pinnedColor,
           })}
         >
           <div className="relative">
