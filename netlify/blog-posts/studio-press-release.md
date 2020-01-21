@@ -34,6 +34,8 @@ meta:
     image: /images/microphone.jpg
     username: '@stoplightio'
 ---
+
+
 Stoplight, the enterprise API Design Management company, today announced the release of Stoplight Studio, a powerful new API visual editor enabling faster, more collaborative and efficient OpenAPI (formerly Swagger) development for software teams.
 
 > With Stoplight Studio, we’re providing modern organizations with the tools they need to approach API development in a truly cohesive and unified way.
@@ -50,9 +52,13 @@ Improving the API design and development process will be especially fundamental 
 
 The release of Stoplight Studio comes on the heels of Stoplight’s [$3.25 million seed funding round](https://cts.businesswire.com/ct/CT?id=smartlink&url=https%3A%2F%2Fwww.businesswire.com%2Fnews%2Fhome%2F20181003005211%2Fen%2FStoplight-Lands-3.25M-Seed-Funding-Lead-Evolution&esheet=52081290&newsitemid=20190820005232&lan=en-US&anchor=%243.25+million+seed+funding+round&index=3&md5=0df05767ba2b132a6f9aa7deaa48a540), and its first high-profile market validation this past May when it was named a [Gartner Cool Vendor in Application Development and Platforms](/blog/gartner-cool-vendor).
 
+<a style="background-color:#0d65d3;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:13px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://www.flickr.com/photos/156466858@N02/" title="See More Photos from Gavin Whitner on Flickr"><span style="display:inline-block;padding:2px 3px"></i>Photo by Gavin Whitner</span></a>
+
 ---
 
 ## About Stoplight
 
 Stoplight’s mission is to enable all stakeholders working with APIs to be more productive. Stoplight’s API Design Management software platform provides a suite of products that cover the entire preproduction API life cycle. Stoplight’s customers include companies in the Fortune 1000. Stoplight’s products provide a means for design-first microservice application development. Developing good design-first practices will minimize future costs, speed up your time to market and lead to more consistent, higher quality microservice and IoT applications. You can learn more about Stoplight and Stoplight Studio at https://stoplight.io or connect with Stoplight on Twitter @Stoplightio.
+
+---
 
