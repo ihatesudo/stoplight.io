@@ -5,6 +5,7 @@ import { Image } from 'src/components/Image';
 import { ISection, Section } from 'src/components/Section';
 
 export interface IQuote {
+  company: string;
   image: string;
   quote: string;
   author: string;

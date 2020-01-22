@@ -2,47 +2,135 @@ import cn from 'classnames';
 import * as React from 'react';
 import { withRouteData, withSiteData } from 'react-static';
 
+import { IconName } from '@fortawesome/fontawesome-common-types';
+import { Chips } from 'src/components/Chip';
+import { Icon } from 'src/components/Icon';
+import { SimpleCardBody } from 'src/components/SimpleCard/SimpleCardBody';
+import { SimpleCardBottom } from 'src/components/SimpleCard/SimpleCardBottom';
+import { SimpleCardTag } from 'src/components/SimpleCard/SimpleCardTag';
+import { SimpleCardTitle } from 'src/components/SimpleCard/SimpleCardTitle';
+import { SimpleCardTop } from 'src/components/SimpleCard/SimpleCardTop';
 import { ActionBar, IActionBar } from '../../components/ActionBar';
-import { Container } from '../../components/Container';
-import { CustomerSection } from '../../components/CustomerSection';
-import { Features, IFeature } from '../../components/Features';
+import { Container, IContainer } from '../../components/Container';
 import { GartnerCoolVendor, IGartnerCoolVendor } from '../../components/GartnerCoolVendor';
 import { Hero, IHero } from '../../components/Hero';
-import { IImage } from '../../components/Image';
+import { IImage, Image } from '../../components/Image';
 import { Layout } from '../../components/Layout';
-import { Section } from '../../components/Section';
+import { ISection, Section } from '../../components/Section';
+import { SimpleCard } from '../../components/SimpleCard';
 
 export interface IEnterprise {
-  customers?: {
-    images: IImage[];
-  };
   color: string;
+  customers: ICustomerSection;
   hero: IHero;
   gartnerCoolVendor: IGartnerCoolVendor;
-  actionBar?: IActionBar;
   features: IFeature[];
+  caseStudies?: ICaseStudyCard[];
+  actionBar?: IActionBar;
+}
+
+interface ICustomerSection extends ISection {
+  images: IImage[];
+  title?: IContainer['title'];
+  cta?: IContainer['cta'];
+  cardBg?: string;
+}
+
+interface ICaseStudyCard {
+  href: string;
+  company: string;
+  image: string;
+  tag: string;
+  description: string;
+  color: string;
+}
+
+interface IFeature {
+  name: string;
+  icon: IconName;
+  iconStyle: {
+    '--fa-primary-color': string;
+    '--fa-secondary-color': string;
+  };
+  description: string;
+  href?: string;
 }
 
 export const Enterprise: React.FunctionComponent<IEnterprise> = ({
   color,
   hero,
-  customers,
+  caseStudies,
   gartnerCoolVendor,
   actionBar,
   features,
+  customers,
+  ...sectionProps
 }) => {
   return (
     <Layout>
       <Hero bgColor={color} {...hero} aligned="center" image={hero.image && { ...hero.image, shadow: false }} />
+
       {features && (
         <Section id="features" className="pt-32 sm:pt-0" noPadding>
-          <Container>
-            <Features features={features} className="mt-2 sm:mt-6" />
+          <Container className="flex flex-wrap justify-around">
+            {features.map((feature, index) => (
+              <SimpleCard key={index} className="items-center px-5 text-center w-80 mt-14 sm:pt-14">
+                <Icon icon={['fad', feature.icon]} className="text-center" size="3x" style={feature.iconStyle} />
+                <SimpleCardTop className="mt-5 text-xl font-bold text-grey-darkest">
+                  <SimpleCardTitle title={feature.name} />
+                </SimpleCardTop>
+                <SimpleCardBody
+                  className="my-2 font-medium leading-loose text-grey-dark"
+                  description={feature.description}
+                />
+              </SimpleCard>
+            ))}
           </Container>
         </Section>
       )}
 
-      {customers && <CustomerSection className="pt-32" noPadding images={customers.images} cardBg="white" />}
+      {caseStudies && (
+        <Section id="case-studies" {...sectionProps} noPaddingB>
+          <Chips
+            className="justify-center mb-10"
+            segments={[{ color: 'indigo-light', length: 2 }, { color: 'indigo-dark', length: 3 }, { color: 'indigo' }]}
+          />
+          <div className="text-lg font-semibold text-center uppercase text-grey-dark">
+            Stoplight powers some of the world's leading API first companies
+          </div>
+          <Container className="flex flex-wrap justify-between md:justify-center mt-14">
+            {caseStudies.map((caseStudy, index) => (
+              <SimpleCard key={index} className="p-8 m-8 bg-white w-96 h-80" hoverable href={caseStudy.href}>
+                <SimpleCardTop>
+                  <div>
+                    <Image
+                      src={caseStudy.image}
+                      title={`${caseStudy.company} Logo`}
+                      alt={caseStudy.company}
+                      className="h-10"
+                    />
+                  </div>
+                </SimpleCardTop>
+                <SimpleCardBody description={caseStudy.description} className="mt-4 leading-loose text-grey-darker" />
+                <SimpleCardBottom className="flex items-center mt-6 mb-3 border-t">
+                  <div className="flex items-center flex-1 mt-8 text-blue">
+                    Read <Icon icon={['fad', 'arrow-right']} className="ml-3" />
+                  </div>
+
+                  <SimpleCardTag tag={caseStudy.tag} color={caseStudy.color} className="mt-8" />
+                </SimpleCardBottom>
+              </SimpleCard>
+            ))}
+          </Container>
+          <div className="container flex flex-wrap justify-between px-20 mt-10">
+            {customers.images.map((image, key) => (
+              <div key={key} className="py-8 sm:w-1/2 sm:p-6">
+                <Image className="h-8" src={image.src} title={`${image.alt} Logo`} alt={image.alt} />
+              </div>
+            ))}
+          </div>
+        </Section>
+      )}
 
       {gartnerCoolVendor && <GartnerCoolVendor className="pt-32" noPadding {...gartnerCoolVendor} />}
 
