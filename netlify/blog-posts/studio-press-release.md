@@ -52,7 +52,7 @@ Improving the API design and development process will be especially fundamental 
 
 The release of Stoplight Studio comes on the heels of Stoplight’s [$3.25 million seed funding round](https://cts.businesswire.com/ct/CT?id=smartlink&url=https%3A%2F%2Fwww.businesswire.com%2Fnews%2Fhome%2F20181003005211%2Fen%2FStoplight-Lands-3.25M-Seed-Funding-Lead-Evolution&esheet=52081290&newsitemid=20190820005232&lan=en-US&anchor=%243.25+million+seed+funding+round&index=3&md5=0df05767ba2b132a6f9aa7deaa48a540), and its first high-profile market validation this past May when it was named a [Gartner Cool Vendor in Application Development and Platforms](/blog/gartner-cool-vendor).
 
-<a style="background-color:#0d65d3;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:13px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://www.flickr.com/photos/156466858@N02/" title="See More Photos from Gavin Whitner on Flickr"><span style="display:inline-block;padding:2px 3px"></i>Photo by Gavin Whitner</span></a>
+<a style="background-color:#7886D7;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:13px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://musicoomph.com/" title="Photo by Gavin Whitner"><span style="display:inline-block;padding:2px 3px"></i>Photo by Gavin Whitner</span></a>
 
 ---
 
