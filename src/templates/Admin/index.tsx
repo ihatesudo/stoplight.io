@@ -5,7 +5,7 @@ import React from 'react';
 
 import Settings from 'src/components/Settings';
 import { About } from 'src/templates/About';
-import { Form } from 'src/templates/Form';
+import { Form } from 'src/templates/Form/';
 import { Home } from 'src/templates/Home';
 import { Landing } from 'src/templates/Landing';
 import { List } from 'src/templates/Lists';

@@ -1,0 +1,96 @@
+path: /demo
+hero:
+  particles: true
+color: black
+hubspot:
+  formId: 7ae2bb42-67a6-4ee3-9ac5-ff21d87812ea
+  portalId: '4892910'
+collage:
+  cta:
+    color: green
+    href: /case-studies
+    title: Read the Case Studies
+  images:
+    - alt: EA
+      src: /images/ea.png
+    - alt: Arkea
+      src: /images/logo_arkea_transparent.png
+    - alt: Chargify
+      src: /images/chargify-new-logo.png
+    - alt: Deutsche Bank
+      src: /images/deutsche_bank.png
+    - alt: Sendgrid
+      src: /images/logo-sendgrid.png
+    - alt: Shopgate
+      src: /images/shopgate.png
+    - alt: Spotify
+      src: /images/spotify.png
+    - alt: TiVo
+      src: /images/tivo.png
+    - alt: Zendesk
+      src: /images/logo_zendesk.png
+  title: >-
+    Thousands of companies use Stoplight to streamline their API & Microservices
+    workflow
+badges:
+  - alt: G2
+    src: https://images.g2crowd.com/uploads/report_medal/image/887/medal.svg
+  - alt: OpenAPI
+    src: https://www.openapis.org/wp-content/uploads/sites/3/2018/02/OpenAPI_Logo_Pantone-1.png
+  - alt: Gartner
+    src: /images/gartner_cv_2019_rgb.png
+features:
+  - name: API Design
+    summary: Learn how to model APIs 10x faster in open standards
+    icon: 'arrow-right'
+    iconStyle:
+      '--fa-primary-color': 'blue'
+      '--fa-secondary-color': 'blue'
+  - name: Visibility
+    summary: Increase consistency and visibility of your team's APIs
+    icon: 'arrow-right'
+    iconStyle:
+      '--fa-primary-color': 'blue'
+      '--fa-secondary-color': 'blue'
+  - name: API Mocking
+    summary: Enable front and back end to develop in parallel
+    icon: 'arrow-right'
+    iconStyle:
+      '--fa-primary-color': 'blue'
+      '--fa-secondary-color': 'blue'
+testimonials:
+  testimonials:
+    - author: Felix Sargent
+      image: /images/felix_s.jpg
+      quote: >-
+        Stoplight provides a clean user interface and enables an engineering
+        team to develop a compliant API with minimal difficulty. Other tools
+        don't provide the same details, guard rails, and error validation that
+        Stoplight provides.
+      role: Director of Engineering, Media Math
+    - author: Carlos Lozano
+      image: /images/carlos_testimonial.jpeg
+      quote: >-
+        When it comes to specification markup and documentation, the order of
+        magnitude has gone from days to hours.
+      role: Senior Enterprise Architect, GFT Group
+    - author: John Vajda
+      image: /images/testimonials/john_vajda.jpeg
+      quote: >-
+        Stoplight has been a serious game changer for JumpCloud’s API
+        development! We love all the rich design, documentation and testing
+        features, which has enabled us to design awesome APIs for our customers.
+      role: Product Manager, JumpCloud
+    - author: Tim Slagle
+      image: /images/testimonials/tim_s.jpg
+      quote: >-
+        Our team roughly saves 15-20 hours a week. It makes it quicker to write, and the review process is quicker as well because we can go in and everybody can see the edits.  We're pretty impressed with Stoplight as a whole.
+      role: Manager of Developer Advocacy, Zoom
+meta:
+  description: >-
+    Want to see how we could help your company and organization with our API
+    Toolkit? Click here to request a demo and find out what we can do for you.
+  favicon: /images/mark_light_bg.png
+  title: Get a demo of our API Toolkit | Stoplight
+  twitter:
+    title: Get a demo of our API Toolkit | Stoplight

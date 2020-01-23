@@ -12,6 +12,7 @@ export async function getRoutes() {
     about,
     enterprise,
     forms = [],
+    demoForm,
     careers = [],
 
     lists = [],
@@ -27,6 +28,7 @@ export async function getRoutes() {
     getFile(`${NETLIFY_PATH}/pages/about.yaml`),
     getFile(`${NETLIFY_PATH}/pages/enterprise.yaml`),
     getFiles(`${NETLIFY_PATH}/forms`),
+    getFile(`${NETLIFY_PATH}/demo-form/request-demo.yaml`),
     getFiles(`${NETLIFY_PATH}/careers`),
 
     getFiles(`${NETLIFY_PATH}/lists`),
@@ -42,21 +44,23 @@ export async function getRoutes() {
   caseStudies = caseStudies.map(caseStudy => ({ ...caseStudy, backgroundSize: 'contain' }));
 
   // add author to pages and remove pages without a path
-  const allPages = [...landings, ...caseStudies, ...blogPosts, ...careers, ...forms, ...other].filter(page => {
-    if (page.path && !page.redirect) {
-      const authorPage = authors.find(author => author.title === page.author);
+  const allPages = [...landings, ...caseStudies, ...blogPosts, ...careers, ...forms, demoForm, ...other].filter(
+    page => {
+      if (page.path && !page.redirect) {
+        const authorPage = authors.find(author => author.title === page.author);
 
-      if (authorPage) {
-        page.author = {
-          name: authorPage.title,
-          path: authorPage.path,
-          image: authorPage.image,
-        };
+        if (authorPage) {
+          page.author = {
+            name: authorPage.title,
+            path: authorPage.path,
+            image: authorPage.image,
+          };
+        }
+
+        return page.path;
       }
-
-      return page.path;
     }
-  });
+  );
 
   const routes = [
     {
@@ -88,8 +92,14 @@ export async function getRoutes() {
       template: 'src/templates/Start',
     },
     {
+      path: '/demo',
+      template: 'src/templates/DemoFormLeft',
+      getData: () => demoForm,
+    },
+    {
       path: '/_admin',
       template: 'src/templates/Admin',
+      getData: () => home,
     },
 
     ...createRoutes('src/templates/Landing', landings, allPages, null),

@@ -48,13 +48,13 @@ export const Career: React.FunctionComponent<ICareer> = ({
       <Hero {...heroProps} />
 
       <Section noPadding>
-        <Container className="flex relative z-20 py-24 md:flex-wrap-reverse">
-          <div className="w-2/3 pr-4 md:w-full md:pr-0 flex-1">
+        <Container className="relative z-20 flex py-24 md:flex-wrap-reverse">
+          <div className="flex-1 w-2/3 pr-4 md:w-full md:pr-0">
             <div className="markdown-body" dangerouslySetInnerHTML={{ __html: html }} />
           </div>
 
           {hubspot && (
-            <div className={'z-10 relative md:w-full'}>
+            <div className={'z-10 relative md:w-full shadow-lg'}>
               <HubSpotForm
                 className={'p-8 w-128 sm:w-auto sticky'}
                 portalId={hubspot.portalId}

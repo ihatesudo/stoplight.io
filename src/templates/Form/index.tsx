@@ -59,9 +59,9 @@ export const Form: React.FunctionComponent<IForm> = ({
         {...hero}
       />
 
-      <Container className="flex relative z-20 py-24 md:flex-wrap-reverse">
+      <Container className="relative z-20 flex py-24 md:flex-wrap-reverse">
         {hasLeftContent && (
-          <div className="w-2/3 pr-4 md:w-full md:pr-0 flex-1">
+          <div className="flex-1 w-2/3 pr-4 md:w-full md:pr-0">
             {leftContent && leftContent.title && (
               <div className="text-3xl" dangerouslySetInnerHTML={{ __html: leftContent.title }} />
             )}
@@ -76,7 +76,7 @@ export const Form: React.FunctionComponent<IForm> = ({
         )}
 
         {hasCenterContent && (
-          <div className="flex md:pr-0 md:w-full mx-auto">
+          <div className="flex mx-auto md:pr-0 md:w-full">
             {centerContent && centerContent.description && (
               <div className={'markdown-body mt-10'} dangerouslySetInnerHTML={{ __html: centerContent.description }} />
             )}
@@ -84,9 +84,9 @@ export const Form: React.FunctionComponent<IForm> = ({
         )}
 
         {hubspot && hasLeftContent && (
-          <div className={'z-10 relative md:w-full'}>
+          <div className={'z-10 relative md:w-full '}>
             <HubSpotForm
-              className={'p-8 w-128 sm:w-auto sticky'}
+              className={'p-8 w-128 sm:w-auto sticky shadow-lg'}
               portalId={hubspot.portalId}
               formId={hubspot.formId}
               style={{ top: 100 }}
@@ -97,7 +97,7 @@ export const Form: React.FunctionComponent<IForm> = ({
         {hubspot && !hasLeftContent && !hasCenterContent && (
           <div className={'flex-1 -mt-40'}>
             <HubSpotForm
-              className={'p-8 sticky'}
+              className={'p-8 sticky shadow-lg'}
               portalId={hubspot.portalId}
               formId={hubspot.formId}
               style={{ top: 100 }}

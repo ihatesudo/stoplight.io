@@ -67,15 +67,17 @@ export class HubSpotForm extends React.Component<IHubSpotForm, IHubSpotFormState
   };
 
   public render() {
-    const { className, style } = this.props;
+    const { className, style, children } = this.props;
     const { isLoaded } = this.state;
 
     return (
       <div
         id="hubspot-form"
-        className={cn('bg-white shadow-lg rounded-md mx-auto md:overflow-hidden', className)}
+        className={cn('bg-white  rounded-md mx-auto md:overflow-hidden', className)}
         style={{ display: isLoaded ? 'block' : 'none', maxWidth: 800, ...style }}
-      />
+      >
+        {children}
+      </div>
     );
   }
 }
