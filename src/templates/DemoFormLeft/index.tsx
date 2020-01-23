@@ -1,9 +1,9 @@
 import * as React from 'react';
 import { withRouteData } from 'react-static';
 
+import { IconName } from '@fortawesome/fontawesome-common-types';
 import { Chips } from 'src/components/Chip';
 import { Container } from 'src/components/Container';
-import { IFeature } from 'src/components/Features';
 import { Icon } from 'src/components/Icon';
 import { Section } from 'src/components/Section';
 import { Collage, ICollage } from '../../components/Collage';
@@ -11,6 +11,17 @@ import { Hero, IHero } from '../../components/Hero';
 import { HubSpotForm, IHubSpotForm } from '../../components/HubSpotForm';
 import { Layout } from '../../components/Layout';
 import { ITestimonials, Testimonial } from '../../components/Testimonials';
+
+interface IFeature {
+  name: string;
+  icon: IconName;
+  iconStyle: {
+    '--fa-primary-color': string;
+    '--fa-secondary-color': string;
+  };
+  summary: string;
+  href?: string;
+}
 
 export interface IDemoFormLeft {
   hubspot: IHubSpotForm;
