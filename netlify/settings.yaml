@@ -71,7 +71,7 @@ header:
       altBg: purple
     - href: /about
       title: About
-    - href: /start
+    - href: /studio
       isButton: true
       title: Start
       icon: ['fad', 'arrow-right']

@@ -54,7 +54,7 @@ testimonials:
         outlined: true
         title: Book a Demo
       - color: purple
-        href: /start
+        href: /studio
         title: Get Started
     enabled: true
     text: Getting started is easy. Be up and running in minutes.
