@@ -135,10 +135,14 @@ export const About: React.FunctionComponent<IAbout> = ({
             className="flex max-w-lg mx-auto mb-20 text-lg leading-loose text-center"
             dangerouslySetInnerHTML={{ __html: team.description }}
           />
+          <Image
+            src={team.image}
+            className="mb-40 bg-cover rounded-lg shadow sm:hidden"
+            useDiv
+            style={{ height: 500 }}
+          />
 
-          <Image src={team.image} className="mb-40 bg-cover rounded-lg shadow" useDiv style={{ height: 500 }} />
-
-          <div className="flex flex-wrap">
+          <div className="flex flex-wrap sm:mt-32 sm:justify-around">
             {team.members.map((member, index) => (
               <Member
                 key={index}
