@@ -90,10 +90,10 @@ A single result in JSON might look like this:
 
 ```
 {
-  id: "cat",
-  name: "House cat",
-  genus: "Felis",
-  img: "https://cdn2.thecatapi.com/images/MTYxNTQ5Mg.jpg"
+  "id": "cat",
+  "name": "House cat",
+  "genus": "Felis",
+  "img": "https://cdn2.thecatapi.com/images/MTYxNTQ5Mg.jpg"
 }
 ```
 
