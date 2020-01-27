@@ -13,7 +13,7 @@ title: >-
   REST API Standards: Do They Even Exist?
 subtitle: >-
   A Look at API Architecture and Best Practices
-image: /images/mendar-bouchali-dragon-unsplash.jpg
+image: /images/mendar-bouchali-dragon-unsplash.png
 includeToc: false
 actionBar:
   enabled: false
@@ -24,11 +24,11 @@ meta:
   robots: 'index, follow'
   title: >-
     REST API Standards: Do They Even Exist?
-  image: /images/mendar-bouchali-dragon-unsplash.jpg
+  image: /images/mendar-bouchali-dragon-unsplash.png
   twitter:
     title: >-
       Stoplight Blog: REST API Standards: Do They Even Exist?
-    image: /images/mendar-bouchali-dragon-unsplash.jpg
+    image: /images/mendar-bouchali-dragon-unsplash.png
     username: '@stoplightio'
 ---
 
