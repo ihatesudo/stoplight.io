@@ -1,5 +1,5 @@
 ---
-path: /blog/the-evolution-of-a-javascript-function-994ebd95d941
+path: /blog/the-evolution-of-a-js-function-994ebd95d941
 tags:
   - blog-general
   - blog
