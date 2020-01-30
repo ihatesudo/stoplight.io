@@ -5,7 +5,6 @@ import { IconName } from '@fortawesome/fontawesome-common-types';
 import { Chips } from 'src/components/Chip';
 import { Container } from 'src/components/Container';
 import { Icon } from 'src/components/Icon';
-import { Section } from 'src/components/Section';
 import { Collage, ICollage } from '../../components/Collage';
 import { Hero, IHero } from '../../components/Hero';
 import { HubSpotForm, IHubSpotForm } from '../../components/HubSpotForm';
@@ -68,45 +67,43 @@ export const DemoFormLeft: React.FunctionComponent<IDemoFormLeft> = ({
           />
         )}
       </div>
-      <Section id="value-props" noPaddingT>
-        <div className="container mt-16 md:mx-14 md:w-80 sm:inline">
-          <h2 className="mb-10 text-4xl sm:text-center"> Talk to a Solutions Engineer</h2>
-          {features &&
-            features.map((feature, index) => (
-              <div className="flex flex-row mb-10 sm:mx-10" key={index}>
-                <Icon icon={['fad', feature.icon]} size="lg" style={feature.iconStyle} className="mt-1" />
-                <h3 className="ml-4">{feature.summary}</h3>
-              </div>
+      <div className="container mt-16 md:mx-14 md:w-80 sm:inline">
+        <h2 className="mb-10 text-4xl sm:text-center"> Talk to a Solutions Engineer</h2>
+        {features &&
+          features.map((feature, index) => (
+            <div className="flex flex-row mb-10 sm:mx-10" key={index}>
+              <Icon icon={['fad', feature.icon]} size="lg" style={feature.iconStyle} className="mt-1" />
+              <h3 className="ml-4">{feature.summary}</h3>
+            </div>
+          ))}
+      </div>
+      <Chips
+        className="justify-center my-32 md:mb-20"
+        segments={[
+          { color: 'orange-light', length: 2 },
+          { color: 'orange-dark', length: 3 },
+        ]}
+      />
+      <Container title="API First Companies Love Us">
+        <div className="flex flex-wrap">
+          {testimonials &&
+            testimonials.testimonials.map((testimonial, index) => (
+              <Testimonial
+                key={index}
+                image={testimonial.image}
+                author={testimonial.author}
+                company={testimonial.company}
+                quote={testimonial.quote}
+                role={testimonial.role}
+              />
             ))}
         </div>
-        <Chips
-          className="justify-center my-32 md:mb-20"
-          segments={[
-            { color: 'orange-light', length: 2 },
-            { color: 'orange-dark', length: 3 },
-          ]}
-        />
-        <Container title="API First Companies Love Us">
-          <div className="flex flex-wrap">
-            {testimonials &&
-              testimonials.testimonials.map((testimonial, index) => (
-                <Testimonial
-                  key={index}
-                  image={testimonial.image}
-                  author={testimonial.author}
-                  company={testimonial.company}
-                  quote={testimonial.quote}
-                  role={testimonial.role}
-                />
-              ))}
-          </div>
-        </Container>
-        <Chips
-          className="justify-center pt-28"
-          segments={[{ color: 'blue-light', length: 2 }, { color: 'blue-dark', length: 4 }, { color: 'blue' }]}
-        />
-        <Collage id="customers" {...collage} />>
-      </Section>
+      </Container>
+      <Chips
+        className="justify-center pt-28"
+        segments={[{ color: 'blue-light', length: 2 }, { color: 'blue-dark', length: 4 }, { color: 'blue' }]}
+      />
+      <Collage id="customers" {...collage} />
     </Layout>
   );
 };
