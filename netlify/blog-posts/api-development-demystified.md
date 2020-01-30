@@ -76,7 +76,7 @@ When designing an API, you’ll need to keep teams on the same page about the de
 
 [Stoplight Studio](https://stoplight.io/studio/) is a visual API design editor, which helps you quickly produce OpenAPI documents without memorizing syntax or writing any code. By describing an API during the design phase, teams can make important decisions about reusable data models, which HTTP methods to support, and how to handle error conditions.
 
-OpenAPI is a machine-readable format that can help you in the later phases of your API development, as well. As you build your API, you can [generate mock servers](https://stoplight.io/blog/prism-v3/) using your OpenAPI document as the source of truth for decisions made during design. These definitions can also create documentation and serve as a central object when discussing updates to your APIs.
+OpenAPI is a machine-readable format that can help you in the later phases of your API development, as well. As you build your API, you can [generate mock servers](https://stoplight.io/p/docs/gh/stoplightio/prism/docs/guides/01-mocking.md) using your OpenAPI document as the source of truth for decisions made during design. These definitions can also create documentation and serve as a central object when discussing updates to your APIs.
 
 [Get started with API design](https://stoplight.io/studio/) and create your first OpenAPI document or start with an existing repository. You’ll build and run better APIs as a result.
 
