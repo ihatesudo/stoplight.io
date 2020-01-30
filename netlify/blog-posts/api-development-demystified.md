@@ -30,6 +30,12 @@ meta:
       Stoplight Blog: API Development Demystified
     image: /images/sasha-stories-unsplash-resized.png
     username: '@stoplightio'
+  og:
+    title: >-
+      Stoplight Blog: API Development Demystified
+    image: /images/sasha-stories-unsplash-resized.png
+    description: In this post, we’ll look at the benefits of a forward-thinking API approach and how it is impacted across the full lifecycle.
+    url: https://stoplight.io/blog/api-development-demystified/
 ---
 
 It’s clear that APIs are an important part of modern software. Companies frequently develop APIs to share data, functionality, and business processes. However, it’s not always clear where the backend API development ends and work begins on the website, app, or other clients to use the API.
