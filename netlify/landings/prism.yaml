@@ -1,11 +1,11 @@
 path: /open-source/prism
-title: Prism - Open Source HTTP Mock Server | Stoplight
+title: Prism - Open-Source HTTP Mock & Proxy Server | Stoplight
 color: purple-darker
 relatedTags:
   - blog-mocking
 hero:
-  subtitle: Accelerate API development with realistic mock servers, powered by your OpenAPI documents.
-  title: Prism, an Open Source HTTP Mock Server
+  subtitle: Accelerate API development with realistic mock servers, powered by OpenAPI documents.
+  title: Prism, an Open-Source HTTP Mock & Proxy Server
   particles: true
   ctas:
     - color: green
@@ -24,14 +24,14 @@ hero:
 featureSection:
   actionBar:
     ctas:
-      - href: 'https://stoplight.io/p/docs/gh/stoplightio/prism/docs/getting-started/installation.md'
+      - href: 'https://stoplight.io/p/docs/gh/stoplightio/prism'
         title: Get Started with Prism
     enabled: true
     text: Do you want to mock your API in minutes?
 
   title: Work with your API before you write any code
   description: >-
-    Prism is an open source HTTP mock server that can mimic your API's behavior as if you already built it. Mock HTTP servers are generated from your OpenAPI v2/v3 (formerly known as Swagger) documents.
+    Prism is an open-source HTTP mock server that can mimic your API's behavior as if you already built it. Mock HTTP servers are generated from your OpenAPI v2/v3 (formerly known as Swagger) documents.
   features:
     - description: >-
         The waterfall model does not work well for building APIs. Learning at the very end what your
@@ -58,20 +58,32 @@ featureSection:
       shortName: Validation
       title: Validate input and output
 
-    - description: >-
-        In case you're wondering why Prism has responded to a request in such way,
-        the logs show you the entire negotiation process, so you can modify the spec
-        or your code quickly.
-      image: /images/prism_logging.png
-      shortName: Logging
-      title: Extensive logging
+    - description: >
+        Requests and responses take care of a lot of API interactions, but what 
+        about callbacks? OpenAPI v3.0 allows API designers to define callbacks, 
+        and construct a URL to fire a payload at, so Prism will too. Notice HTTP
+        callbacks coming in, allowing you to attempt to integrate them before the
+        API has even been built.
+      image: /images/callbacks.jpg
+      shortName: Callbacks
+      title: Mocking Callbacks
+
+    - description: >
+        Identify discrepancies between the OpenAPI document and target API to
+        help frontend developers integrating with your API. The proxy can also
+        be enabled in staging or any other pre-production environment, to ensure
+        OpenAPI documents and code stay in sync.
+      image: /images/prism_science.jpg
+      shortName: Proxy
+      title: Validation Proxy
+      
 meta:
   description: Accelerate API development with realistic mock servers powered by API descriptions
   favicon: /images/mark_light_bg.png
   image: /images/prism_example.png
-  title: Prism Open Source HTTP Mock Server | Mock HTTP Server
+  title: Prism | Open-Source HTTP Mock and Proxy Server
   twitter:
     description: Accelerate API development with realistic mock servers powered by API descriptions
     image: /images/prism_example.png
-    title: Prism Open Source HTTP Mock Server | Mock HTTP Server
+    title: Prism | Open-Source HTTP Mock and Proxy Server
     username: '@stoplightio'
