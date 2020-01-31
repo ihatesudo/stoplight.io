@@ -15,8 +15,6 @@ tabs:
     title: API Documentation
   - href: /blog/api-testing
     title: API Testing
-  - href: /blog/changelog
-    title: Changelog
 actionBar:
   enabled: false
 meta:

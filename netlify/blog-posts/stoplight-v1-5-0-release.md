@@ -1,10 +1,6 @@
 ---
 path: /blog/stoplight-v1-5-0-release
 tags:
-  - blog-changelog
-  - blog
-relatedTags:
-  - blog-changelog
   - blog
 publishedDate: 2019-11-12T19:26:13.173Z
 author: Robert Wallach

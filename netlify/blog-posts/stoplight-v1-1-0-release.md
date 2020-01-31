@@ -2,10 +2,7 @@
 path: >-
   /blog/stoplight-v1-1-0-studio-release
 tags:
-  - blog-changelog
   - blog
-relatedTags:
-  - blog-changelog
 publishedDate: 2019-09-09T14:00:00.059Z
 author: Robert Wallach
 title: Stoplight v1.1.0 Release

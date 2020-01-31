@@ -1,10 +1,7 @@
 ---
 path: /blog/stoplight-v1-4-0-release
 tags:
-  - blog-changelog
   - blog
-relatedTags:
-  - blog-changelog
 publishedDate: 2019-10-31T21:09:50.335Z
 author: Robert Wallach
 title: Stoplight v1.4.0 Release
@@ -66,7 +63,8 @@ To download the latest version of Stoplight Platform with Docker, use the "1.4.0
 
 Project Visibility Settings
 
-A visibility toggle is now present under the project settings, allowing users to make documentation public. Previously this would require updating the permissions on the VCS project itself.
+A visibility toggle is now present under the project settings, allowing users to make documentation public. Previously this would require updating the permissions on the VCS project itself.
+
 
 ### Fixes Included in this Release
 
