@@ -184,26 +184,25 @@ businesses:
 press:
   title: In The Press
   articles:
-    - date: 'October, 2018'
+    - date: 'February, 2020'
+      description: Marc MacLeod on The Unanticipated Consequences of Containerization
+      href: >-
+        https://insidebigdata.com/2020/02/01/the-unanticipated-consequences-of-containerization/
+      image: /images/logo_inside_big_data.png
+      publication: insideBIGDATA
+    - date: 'January, 2020'
       description: >-
-        Software startup raises more than $3M in round led by former Austin
-        Ventures bigwig
+        Austin-Based Stoplight Raises $6M To Build New Category Of API Design Management
       href: >-
-        https://www.bizjournals.com/austin/news/2018/10/03/software-startup-raises-more-than-3m-in-round-led.html
-      image: /images/logo_austin_bj.png
-      publication: Austin Business Journal
-    - date: 'October, 2018'
-      description: Austin startup Stoplight raises more than $3 million.
-      href: >-
-        https://www.statesman.com/news/20181003/austin-startup-stoplight-raises-more-than-3-million
-      image: /images/logo_statesman.png
-      publication: Austin-American Statesmen
-    - date: 'October, 2018'
-      description: 'To Help Developers Get A Grip On APIs, Stoplight Raises $3.25M'
-      href: >-
-        https://news.crunchbase.com/news/to-help-developers-get-a-grip-on-apis-stoplight-raises-3-25m
+        https://news.crunchbase.com/news/stoplight-raises-6m-to-help-developers-get-a-grip-on-apis/
       image: /images/logo_crunchbase.png
-      publication: crunchbase news
+      publication: Crunchbase News
+    - date: 'August, 2019'
+      description: Stoplight Launches API Visual Editor Aimed at Driving Scalable API Design-First Development
+      href: >-
+        https://www.aithority.com/news/stoplight-launches-api-visual-editor-aimed-at-driving-scalable-api-design-first-development/
+      image: /images/logo_aithority.png
+      publication: AIthority
     - date: 'October, 2018'
       description: >-
         Stoplight Lands $3.25M of Seed Funding to Lead Evolution of Enterprise
