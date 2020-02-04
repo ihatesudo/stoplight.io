@@ -18,6 +18,7 @@ includeToc: false
 actionBar:
   enabled: false
 meta:
+  url: https://stoplight.io/blog/api-development-demystified/
   description: >-
     In this post, we’ll look at the benefits of a forward-thinking API approach and how it is impacted across the full lifecycle.
   favicon: /images/mark_light_bg.png
