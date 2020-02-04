@@ -34,15 +34,9 @@ meta:
       Stoplight Blog: Open Source Mock Server Gets Smarter
     image: /images/prism-zetong-li-unsplash.jpg
     username: '@stoplightio'
-  og:
-    title: >-
-      Stoplight Blog: Open Source Mock Server Gets Smarter
-    image: /images/prism-zetong-li-unsplash.jpg
-    description: Stoplight's Prism supports callbacks, proxies, and even more validations.
-    url: https://stoplight.io/blog/prism-open-source-mock-server-gets-smarter
 ---
 
-Generated mock servers are an integral part of [API design](https://stoplight.io/design/). API Consumers can interact with your API before you build it, catching issues before you've invested a lot of time writing code.
+Generated mock servers are an integral part of [API design](https://stoplight.io/design/). API consumers can interact with your API before you build it, catching issues before you've invested a lot of time writing code.
 
 Near the end of 2019, we made some major improvements to our [open source mock server](https://stoplight.io/open-source/prism/), Prism. You can now use a proxy server to validate requests and responses, allowing for contract testing against live APIs. In addition, webhook support and live reloading features allow you to mock more APIs even faster.
 
@@ -73,7 +67,7 @@ The mismatches it detects may be subtle, such as a minor schema difference (expe
 
 Returned data: 3.2
 
-or the issue could cause a major error, like a missing fields in the expected payload:
+or the issue could cause a major error, like a missing field in the expected payload:
 
 ```json
 {
@@ -103,7 +97,7 @@ Here is the warning you would see in Prism:
 
 ## Support Webhooks in Your Mock Servers
 
-In addition to validating requests and proxy servers, Prism added support for Webhooks, which aren't always easy to test. An API follows instructions when you make a request. Similarly, webhooks or web callbacks fire a request to a URL you specify. The request occurs when a defined state is met, such as a new record added to a system.
+In addition to validating requests and proxy servers, Prism added support for webhooks, which aren't always easy to test. An API follows instructions when you make a request. Similarly, webhooks or web callbacks fire a request to a URL you specify. The request occurs when a defined state is met, such as a new record added to a system.
 
 Creating and using webhooks in APIs has become a common practice, so community members flagged an issue for callback/webhook support in Prism. The Stoplight team built it into the 3.2 release. Here's an example of how this might work when building an API to handle payment requests:
 
