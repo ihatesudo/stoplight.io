@@ -46,6 +46,7 @@ meta:
     Automated Style Guides for REST, GraphQL and gRPC by Phil Sturegon |
     Stoplight Blog
   image: /images/rules-regulations.png
+  url: https://stoplight.io/blog/style-guides-rest-graphql-grpc/
   twitter:
     description: >-
       Ask 100 developers where a semicolon should go, and you'll either get 100

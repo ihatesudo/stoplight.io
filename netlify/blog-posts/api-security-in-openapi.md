@@ -24,6 +24,7 @@ meta:
   robots: 'index, follow'
   title: API Security in OpenAPI | Stoplight API Corner
   image: /images/api-security.jpeg
+  url: https://stoplight.io/blog/api-security-in-openapi-b105ae725a08/
   twitter:
     description: 'An Introduction to API Security with the OpenAPI Specification '
     title: API Security in OpenAPI | Stoplight API Corner

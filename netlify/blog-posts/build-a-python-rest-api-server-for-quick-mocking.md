@@ -25,6 +25,7 @@ meta:
   robots: 'index, follow'
   title: Build a Python REST API Server for Quick Mocking | Stoplight API Corner
   image: /images/python-snake.jpg
+  url: https://stoplight.io/blog/python-rest-api/
   twitter:
     description: Use Flask or Falcon to serve API requests
     title: Build a Python REST API Server for Quick Mocking | Stoplight API Corner

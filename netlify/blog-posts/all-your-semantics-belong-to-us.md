@@ -24,6 +24,7 @@ meta:
   robots: 'index, follow'
   title: All Your Semantics Belong to Us | Stoplight API Corner
   image: /images/semantics-belong-to-us.jpeg
+  url: https://stoplight.io/blog/all-your-semantics-belong-to-us-6f0253e58f6/
   twitter:
     description: Where hacking words is a time honored tradition
     title: All Your Semantics Belong to Us | Stoplight API Corner

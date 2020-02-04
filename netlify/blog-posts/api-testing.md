@@ -24,6 +24,7 @@ meta:
   robots: 'index, follow'
   title: Achieving Quick and Easy Service Virtualization | Stoplight API Corner
   image: /images/api-testing.jpeg
+  url: https://stoplight.io/blog/api-testing-achieving-quick-and-easy-service-virtualization-with-stoplight-a590f20a414f/
   twitter:
     description: How to use Service Virtualization to test APIs with Stoplight
     title: Achieving Quick and Easy Service Virtualization | Stoplight API Corner

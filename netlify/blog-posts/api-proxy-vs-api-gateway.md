@@ -25,6 +25,7 @@ meta:
   robots: 'index, follow'
   title: API Proxy vs API Gateway | Stoplight API Corner
   image: /images/api-proxy-header.jpeg
+  url: https://stoplight.io/blog/api-proxy-vs-api-gateway-c008c942a02d/
   twitter:
     description: 'A breakdown of functions, ecosystem, and use-cases'
     title: API Proxy vs API Gateway | Stoplight API Corner

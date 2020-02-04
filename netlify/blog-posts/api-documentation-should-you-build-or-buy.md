@@ -24,6 +24,7 @@ meta:
   robots: 'index, follow'
   title: 'API Documentation: Should You Build or Buy? | Stoplight API Corner'
   image: /images/barn-construction.jpg
+  url: https://stoplight.io/blog/api-documentation-build-buy/
   twitter:
     description: What it Takes to Build and Maintain Great Docs
     title: 'API Documentation: Should You Build or Buy? | Stoplight API Corner'
