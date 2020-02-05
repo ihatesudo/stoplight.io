@@ -79,6 +79,9 @@ team:
     - image: /images/chianese_headshot.png
       name: Vincenzo Chianese
       role: Software Engineer
+    - image: /images/costa_headshot.png
+      name: Filipe Costa
+      role: Software Engineer
     - image: /images/faust_headshot.png
       name: Scott Faust
       role: Growth
@@ -112,6 +115,9 @@ team:
     - image: /images/chris-miaskowski-headshot.jpg
       name: Chris Miaskowski
       role: Software Engineer
+    - image: /images/miaskowski_michael_headshot.png
+      name: Michael Miaskowski
+      role: Software Engineer
     - image: /images/team/vazha-omanashvili.png
       name: Vazha Omanashvili
       role: Software Engineer
@@ -142,6 +148,9 @@ team:
     - image: /images/surratt-headshot.jpg
       name: Kristen Surratt
       role: Customer Advocate
+    - image: /images/toth_headshot.jpg
+      name: Marcell Toth
+      role: Software Engineer
     - image: /images/team/paula-tulis.jpg
       name: Paula Tulis
       role: Software Engineer
