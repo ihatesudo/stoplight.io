@@ -19,6 +19,7 @@ actionBar:
   enabled: false
 meta:
   description: ' A Primer on How Service Virtualization Can Help You'
+  url: https://stoplight.io/blog/using-service-virtualization-api-mocking-to-unblock-teams-2914843cf56e/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
   title: Using API Mocking to Unblock Teams | Stoplight API Corner

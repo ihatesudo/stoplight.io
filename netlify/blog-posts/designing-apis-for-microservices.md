@@ -22,6 +22,7 @@ actionBar:
   enabled: false
 meta:
   description: How to Gain the Benefits of Microservice Architecture in API Design
+  url: https://stoplight.io/blog/designing-apis-for-microservices/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
   title: Designing APIs for Microservices | Stoplight API Corner

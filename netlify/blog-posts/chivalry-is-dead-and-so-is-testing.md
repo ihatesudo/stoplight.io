@@ -19,6 +19,7 @@ actionBar:
   enabled: false
 meta:
   description: Best Practices for API Testing with Stoplight
+  url: https://stoplight.io/blog/chivalry-is-dead-and-so-is-testing-8e9103251f15/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
   title: 'Chivalry is dead, and so is testing | Stoplight API Corner'

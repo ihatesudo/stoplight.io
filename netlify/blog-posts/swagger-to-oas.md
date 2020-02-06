@@ -21,6 +21,7 @@ actionBar:
   enabled: false
 meta:
   description: The Evolution of an API Specification
+  url: https://stoplight.io/blog/swagger-to-oas/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
   title: Swagger to OAS  | Stoplight API Corner

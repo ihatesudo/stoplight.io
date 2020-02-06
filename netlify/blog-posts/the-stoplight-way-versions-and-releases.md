@@ -19,6 +19,7 @@ actionBar:
   enabled: false
 meta:
   description: 'An integral part of any teams workflow, is version control'
+  url: https://stoplight.io/blog/the-stoplight-way-versions-and-releases-ba7009e51bab/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
   title: 'The Stoplight Way: Versions and Releases | Stoplight API Corner'

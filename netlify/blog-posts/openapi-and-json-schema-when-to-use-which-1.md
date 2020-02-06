@@ -28,6 +28,7 @@ actionBar:
   enabled: false
 meta:
   description: Behind the divergence in data formats and how you can solve it
+  url: https://stoplight.io/blog/openapi-json-schema/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
   title: 'OpenAPI and JSON Schema: When to Use Which | Stoplight API Corner'

@@ -21,6 +21,7 @@ actionBar:
   enabled: false
 meta:
   description: Create random JSON and host it on a mock server
+  url: https://stoplight.io/blog/mock-json-generator/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
   title: 'Mock API Data Generator | Dummy JSON Data Generator For Mock API '

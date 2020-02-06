@@ -26,6 +26,7 @@ actionBar:
   enabled: false
 meta:
   description: Enable your teams to move faster and collaborate efficiently
+  url: https://stoplight.io/blog/internal-api-documentation/
   robots: 'index, follow'
   title: Why You Shouldn't Ignore Internal API Documentation | Stoplight API Corner
   image: /images/whiteboard-collaboration.jpg

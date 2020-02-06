@@ -15,6 +15,7 @@ actionBar:
   enabled: false
 meta:
   description: 'November 8, 2019 Releases for Stoplight Studio and Platform'
+  url: https://stoplight.io/blog/stoplight-v1-5-0-release/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
   title: Studio and Platform v1.5.0 Releases | Stoplight API Corner

@@ -19,6 +19,7 @@ actionBar:
   enabled: false
 meta:
   description: A fun prank calling app made with the latest Stoplight product — Scenarios
+  url: https://stoplight.io/blog/trump-rolling-to-make-apis-great-again-a80678766564/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
   title: Trump Rolling to Make APIs Great Again | Stoplight API Corner

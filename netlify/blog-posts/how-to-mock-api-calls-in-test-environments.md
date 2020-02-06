@@ -26,6 +26,7 @@ actionBar:
   enabled: false
 meta:
   description: Comparing Jasmine and Jest for Node mock APIs
+  url: https://stoplight.io/blog/mock-api-test/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
   title: How to Mock API Calls in Test Environments | Stoplight API Corner

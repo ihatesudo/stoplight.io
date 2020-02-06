@@ -21,6 +21,7 @@ actionBar:
   enabled: false
 meta:
   description: 'The Relationship between APIs, Microservices, and Containers'
+  url: https://stoplight.io/blog/stop-calling-your-apis-microservices-e165a80eba9d/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
   title: Stop Calling Your APIs Microservices | Stoplight API Corner

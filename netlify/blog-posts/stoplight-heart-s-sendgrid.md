@@ -19,6 +19,7 @@ actionBar:
   enabled: false
 meta:
   description: A valentine's day letter for SendGrid
+  url: https://stoplight.io/blog/stoplight-s-sendgrid-c7f87e47aa0c/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
   title: "Stoplight \U0001F496 SendGrid | Stoplight API Corner"

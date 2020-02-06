@@ -28,6 +28,7 @@ meta:
   description: >-
     Answers to your questions from the October '19 Webinar on Stoplight Studio
     OpenAPI GUI Designer.
+  url: https://stoplight.io/blog/studio-webinar-q-a/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
   title: Using Studio OpenAPI GUI Designer - Your Webinar Questions Answered

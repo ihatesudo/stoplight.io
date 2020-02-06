@@ -17,6 +17,7 @@ actionBar:
   enabled: false
 meta:
   description: 'Path Parameters, Download Project, Spectral'
+  url: https://stoplight.io/blog/stoplight-v1-1-0-studio-release/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
   title: Stoplight v1.1.0 Release| Stoplight API Corner

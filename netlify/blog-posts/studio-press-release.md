@@ -21,6 +21,7 @@ meta:
   description: >-
     Stoplight, the enterprise API Design Management company, today announced the
     release of Stoplight Studio, a powerful new API visual editor.
+  url: https://stoplight.io/blog/studio-press-release/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
   title: >-

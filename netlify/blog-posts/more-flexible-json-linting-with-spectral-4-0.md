@@ -26,6 +26,7 @@ actionBar:
   text: Do you want feedback on your API descriptions right now?
 meta:
   description: Ruleset improvements and more CLI focus provide a better experience
+  url: https://stoplight.io/blog/spectral-v4/
   robots: 'index, follow'
   title: More Flexible JSON Linting with Spectral 4.0 | Stoplight API Corner
   image: /images/dayne-topkin-cxruh7pmmsu-unsplash.jpg

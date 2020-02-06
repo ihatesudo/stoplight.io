@@ -19,6 +19,7 @@ actionBar:
   enabled: false
 meta:
   description: ' The role of developer experience in Open Banking'
+  url: https://stoplight.io/blog/value-of-mocking-open-banking-72b3e4a7d212/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
   title: Value of Mocking — Open Banking | Stoplight API Corner

@@ -20,6 +20,7 @@ actionBar:
 meta:
   description: >-
     In this post, we’ll cover the REST architectural style (REST is not a standard), some REST API design conventions, and introduce a standard related to REST that can bring a standard-like rigor to your APIs.
+  url: https://stoplight.io/blog/REST-API-standards-do-they-even-exist/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
   title: >-

@@ -19,6 +19,7 @@ actionBar:
   text: How Your Audience Changes Your API Developer Experience
 meta:
   description: 'There are different needs for internal, partner, and public APIs'
+  url: https://stoplight.io/blog/api-audience-experience/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
   title: >-

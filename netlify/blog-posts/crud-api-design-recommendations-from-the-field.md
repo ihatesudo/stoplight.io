@@ -20,6 +20,7 @@ actionBar:
   enabled: false
 meta:
   description: 'When and how it makes sense to create, read, update, and delete in your API'
+  url: https://stoplight.io/blog/crud-api-design/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
   title: CRUD API Design Recommendations From the Field | Stoplight API Corner

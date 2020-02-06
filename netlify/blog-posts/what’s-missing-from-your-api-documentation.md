@@ -21,6 +21,7 @@ actionBar:
   enabled: false
 meta:
   description: 'How to build out high-quality API documentation '
+  url: https://stoplight.io/blog/missing-api-documentation/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
   title: What’s Missing From Your API Documentation | Stoplight API Corner

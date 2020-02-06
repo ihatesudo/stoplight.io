@@ -17,6 +17,7 @@ actionBar:
   enabled: false
 meta:
   description: Design Web APIs for Humans & Machines
+  url: https://stoplight.io/blog/making-the-most-of-your-api-specification-a45d21bcb0e8/
   favicon: /images/mark_light_bg.png
   title: Making the Most of Your API Specification | Stoplight API Corner
   twitter:

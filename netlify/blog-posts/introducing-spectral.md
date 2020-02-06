@@ -26,6 +26,7 @@ meta:
   description: >-
     An open source, flexible JSON linter with out of the box support for the
     OpenAPI Specification
+  url: https://stoplight.io/blog/introducing-spectral/
   robots: 'index, follow'
   title: Introducing Spectral | Stoplight API Corner
   image: /images/sharon-mccutcheon-663633-unsplash.jpg

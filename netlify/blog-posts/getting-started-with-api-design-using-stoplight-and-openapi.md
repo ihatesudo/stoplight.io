@@ -20,6 +20,7 @@ actionBar:
   enabled: false
 meta:
   description: So you've got a new project!
+  url: https://stoplight.io/blog/getting-started-with-api-design-using-stoplight-and-openapi-90fc8f37ac2e/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
   title: Getting Started with API Design | Stoplight API Corner

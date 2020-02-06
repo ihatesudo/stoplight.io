@@ -25,6 +25,7 @@ actionBar:
   enabled: false
 meta:
   description: The State of Open Banking in 2019
+  url: https://stoplight.io/blog/open-banking-guide/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
   title: 'Open Banking, Regulation, and API Design | Stoplight API Corner'

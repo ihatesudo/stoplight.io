@@ -22,6 +22,7 @@ actionBar:
   enabled: false
 meta:
   description: What to include and how to keep your APIs consistent
+  url: https://stoplight.io/blog/api-style-guide/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
   title: Enforce an API Style Guide in Your Organization | Stoplight API Corner

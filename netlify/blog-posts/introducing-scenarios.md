@@ -19,6 +19,7 @@ actionBar:
   enabled: false
 meta:
   description: 'The lean, mean, API testing machine'
+  url: https://stoplight.io/blog/introducing-scenarios-3b88242cf9cc/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
   title: Introducing Scenarios | Stoplight API Corner

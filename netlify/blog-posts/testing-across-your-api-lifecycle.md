@@ -21,6 +21,7 @@ actionBar:
   text: Stoplight
 meta:
   description: Adopt real use cases for better API testing
+  url: https://stoplight.io/blog/api-integration-testing/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
   title: Testing Across Your API Lifecycle | Stoplight API Corner

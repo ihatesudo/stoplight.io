@@ -19,6 +19,7 @@ actionBar:
   enabled: false
 meta:
   description: 'Announcing our partnership with the OpenAPI Initiative '
+  url: https://stoplight.io/blog/stoplight--the-openapi-initiative-def9db056eaf/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
   title: "Stoplight \U0001F496 the OpenAPI Initiative | Stoplight API Corner"

@@ -25,6 +25,7 @@ meta:
   description: >-
     How do people actually read documentation and how to write documentation and
     code samples to maximize developer success
+  url: https://stoplight.io/blog/writing-documentation-when-you-arent-a-technical-writer-part-one-ef08a09870d1/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
   title: >-

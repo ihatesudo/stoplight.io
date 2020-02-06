@@ -23,6 +23,7 @@ actionBar:
   enabled: false
 meta:
   description: Strategies for battle hardening your API development process
+  url: https://stoplight.io/blog/qualities-of-great-apis/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
   title: Qualities of Great APIs | Stoplight API Corner

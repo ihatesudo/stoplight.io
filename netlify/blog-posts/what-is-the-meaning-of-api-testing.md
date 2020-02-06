@@ -21,6 +21,7 @@ actionBar:
   enabled: false
 meta:
   description: How and why to use OpenAPI contract testing for your API
+  url: https://stoplight.io/blog/what-is-api-testing/
   robots: 'index, follow'
   title: What is the Meaning of API Testing? | Stoplight API Corner
   image: /images/formulas-and-equations.jpg

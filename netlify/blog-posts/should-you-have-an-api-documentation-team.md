@@ -23,6 +23,7 @@ actionBar:
   enabled: false
 meta:
   title: Should You Have an API Documentation Team? | Stoplight API Corner
+  url: https://stoplight.io/blog/api-documentation-team/
   description: Build API documentation that keeps up
   robots: 'index, follow'
   twitter:

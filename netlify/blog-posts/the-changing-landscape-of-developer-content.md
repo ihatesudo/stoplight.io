@@ -17,6 +17,7 @@ actionBar:
   enabled: false
 meta:
   description: ' Creating continuously valuable ways to keep developers successful through content'
+  url: https://stoplight.io/blog/the-changing-landscape-of-developer-content-a33bf9202989/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
   title: The Changing Landscape of Developer Content | Stoplight API Corner

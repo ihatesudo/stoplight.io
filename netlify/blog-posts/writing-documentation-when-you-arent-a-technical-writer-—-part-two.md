@@ -26,6 +26,7 @@ meta:
   description: >-
     Avoiding oversimplification, writing good error messages, and having better
     word choice
+  url: https://stoplight.io/blog/writing-documentation-when-you-arent-a-technical-writer-part-two-59997587cc2a/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
   title: >-

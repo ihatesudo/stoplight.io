@@ -21,6 +21,7 @@ actionBar:
   enabled: false
 meta:
   description: Work collaboratively to get your API from rehearsal to production
+  url: https://stoplight.io/blog/api-design-choreography/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
   title: What API Design Can Learn from Choreography | Stoplight API Corner

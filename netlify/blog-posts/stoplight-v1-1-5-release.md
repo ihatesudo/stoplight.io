@@ -17,6 +17,7 @@ actionBar:
   enabled: false
 meta:
   description: 'Platform, Studio, and Prism'
+  url: https://stoplight.io/blog/stoplight-v1-1-5-release/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
   title: Stoplight v1.1.5 Release| Stoplight API Corner

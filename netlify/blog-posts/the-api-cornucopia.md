@@ -22,6 +22,7 @@ actionBar:
   enabled: false
 meta:
   description: Defining and describing APIs and their ecosystem
+  url: https://stoplight.io/blog/the-api-cornucopia-7ba7efb22185/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
   title: The API Cornucopia | Stoplight API Corner

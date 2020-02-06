@@ -19,6 +19,7 @@ actionBar:
   enabled: false
 meta:
   description: ' A hypothetical (but realistic) example of how an ordinary JavaScript function can evolve over time'
+  url: https://stoplight.io/blog/the-evolution-of-a-js-function-994ebd95d941/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
   title: The Evolution of a JavaScript Function | Stoplight API Corner

@@ -21,6 +21,7 @@ actionBar:
   enabled: false
 meta:
   description: Implementing design-time security definitions using OpenAPI
+  url: https://stoplight.io/blog/rest-api-security/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
   title: REST API Security Design | Stoplight API Corner

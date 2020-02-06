@@ -19,6 +19,7 @@ actionBar:
   enabled: false
 meta:
   description: "Let's face it — documentation is critical to API success "
+  url: https://stoplight.io/blog/components-of-killer-api-docs-ebbf41c13450/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
   title: Components of Killer API Docs | Stoplight API Corner

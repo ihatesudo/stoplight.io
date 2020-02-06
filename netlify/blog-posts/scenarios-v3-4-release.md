@@ -16,6 +16,7 @@ actionBar:
   enabled: false
 meta:
   description: 'Changelog, updates, fixes, & roadmap'
+  url: https://stoplight.io/blog/scenarios-v3-4-release-2eff3345918/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
   title: Scenarios v3.4 Release | Stoplight API Corner

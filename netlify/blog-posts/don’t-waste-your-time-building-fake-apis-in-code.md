@@ -22,6 +22,7 @@ actionBar:
   enabled: false
 meta:
   description: 'Compare OpenAPI mock servers to writing Java, PHP, and C#'
+  url: https://stoplight.io/blog/dont-code-fake-apis/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
   title: Don’t Waste Your Time Building Fake APIs in Code | Stoplight API Corner

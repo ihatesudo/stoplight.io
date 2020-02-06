@@ -28,6 +28,7 @@ actionBar:
   enabled: false
 meta:
   description: Streamlining The API Documentation Process
+  url: https://stoplight.io/blog/rest-api-documentation-templates/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
   title: 'REST API Documentation Templates | Stoplight API Corner'

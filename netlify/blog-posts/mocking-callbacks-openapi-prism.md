@@ -26,6 +26,7 @@ actionBar:
   enabled: false
 meta:
   canonical: https://11sigma.com/blog/2019-11-22--mocking-callbacks/#how-to-set-up-callbacks-with-openapi-and-prism
+  url: https://stoplight.io/blog/mocking-callbacks-openapi-prism/
   description: What are callback, why use them, and how to set them up using OpenAPI and Prism.
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'

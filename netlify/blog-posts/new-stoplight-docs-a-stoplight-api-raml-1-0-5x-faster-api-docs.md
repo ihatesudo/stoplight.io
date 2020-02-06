@@ -15,6 +15,7 @@ actionBar:
   enabled: false
 meta:
   description: 'New features, releases, & roadmaps'
+  url: https://stoplight.io/blog/new-stoplight-docs-a-stoplight-api-raml-1-0-5x-faster-api-docs-b90cfcfff517/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
   title: New Stoplight Docs | Stoplight API Corner

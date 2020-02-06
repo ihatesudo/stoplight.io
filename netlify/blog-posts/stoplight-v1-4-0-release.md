@@ -15,6 +15,7 @@ actionBar:
   enabled: false
 meta:
   description: October 31st Studio and Platform Releases | Stoplight API Corner
+  url: https://stoplight.io/blog/stoplight-v1-4-0-release/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
   title: Stoplight v1.4.0 Release | Stoplight API Corner

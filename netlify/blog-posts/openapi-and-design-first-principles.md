@@ -20,6 +20,7 @@ actionBar:
   enabled: false
 meta:
   description: Why API Design is critical and how the OpenAPI Specification can help
+  url: https://stoplight.io/blog/openapi-and-design-first-principles-96e7c4b2aec1/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
   title: OpenAPI and Design-First Principles | Stoplight API Corner
