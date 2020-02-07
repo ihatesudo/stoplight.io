@@ -7,6 +7,7 @@ import EnterpriseConfig from 'src/templates/Enterprise/config';
 import CareersConfig from 'src/templates/Careers/config';
 
 import FormConfig from 'src/templates/Form/config';
+import DemoFormLeftConfig from 'src/templates/DemoFormLeft/config';
 
 import LandingConfig from 'src/templates/Landing/config';
 import { ListsConfig, AuthorConfig } from 'src/templates/Lists/config';
@@ -42,6 +43,13 @@ export const config = {
       name: 'pages',
       delete: false,
       files: [AboutConfig, HomeConfig, PricingConfig, EnterpriseConfig],
+    },
+    {
+      label: 'Demo Form',
+      label_singular: 'Demo Form',
+      name: 'demo-form',
+      delete: false,
+      files: [DemoFormLeftConfig],
     },
     FormConfig,
     LandingConfig,

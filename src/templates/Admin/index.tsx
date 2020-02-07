@@ -5,6 +5,7 @@ import React from 'react';
 
 import Settings from 'src/components/Settings';
 import { About } from 'src/templates/About';
+import { DemoFormLeft } from 'src/templates/DemoFormLeft';
 import { Form } from 'src/templates/Form/';
 import { Home } from 'src/templates/Home';
 import { Landing } from 'src/templates/Landing';
@@ -27,6 +28,7 @@ const templates = {
   settings: Settings,
 
   form: Form,
+  demoForm: DemoFormLeft,
   about: About,
   home: Home,
   pricing: Pricing,
