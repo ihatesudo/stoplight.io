@@ -57,7 +57,8 @@ Indeed, empowering partnerships is a major benefit to public APIs. However, inte
 
 Depending on the terminology you use, API development may refer to the entire lifecycle of an API or one phase within it. Either way, you’ll want to understand each phase and how they work together. While APIs help you move faster as an organization, that doesn’t mean you should create APIs without a thoughtful process. Plus, even hurried APIs will go through the API lifecycle, possibly with more headaches along the way.
 
-![API Lifecycle](/images/api-lifecycle.png)
+<img src="/images/api-lifecycle.png" alt="API Lifecycle"
+title="API Lifecycle" style="box-shadow: none; background-color: transparent"/>
 
 Gartner defines the API development process as three major phases: Design, Build, and Run. Too often, teams will think of API development as only the build phase. It’s a natural misconception because that’s when the bulk of the code is written. However, that skips over the important design phase. There’s a lot more than code that goes into developing an API for the long term.
 
