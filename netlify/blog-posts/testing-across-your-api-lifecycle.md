@@ -21,7 +21,6 @@ actionBar:
   text: Stoplight
 meta:
   description: Adopt real use cases for better API testing
-  url: https://stoplight.io/blog/api-integration-testing/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
   title: Testing Across Your API Lifecycle | Stoplight API Corner
@@ -52,7 +51,8 @@ During the design phase we map out how services interact and we utilize mocking 
 
 Next, it’s onto the building stage where testing becomes even more important. As we build out the API, we must continually test to ensure the code is aligning with the spec along the way. A commitment to thorough testing while in pre-production is the easiest and most efficient way to create a great API.
 
-![API lifecycle: design, build, run, maintain, support, update](/images/api-lifecycle.png)
+<img src="/images/api-lifecycle.png" alt="API Lifecycle"
+title="API Lifecycle" style="box-shadow: none; background-color: transparent"/>
 
 Finally, when it’s time to run your API in production, you want to ensure your tests still pass. Of course, diligence in earlier phases should lead to lower stress deploys, but the API story doesn’t end when it’s deployed. We believe there are three more important phases to that development lifecycle: Maintain, Support, and Update.
 
