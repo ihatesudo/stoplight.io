@@ -29,6 +29,8 @@ export interface IHeaderItem {
   links?: IHeaderLink[];
   width?: number;
   icon?: IconProp;
+  redirect?: string;
+  altHref?: string;
   content?: () => React.ReactElement;
 }
 
@@ -57,6 +59,7 @@ export const Header: React.FunctionComponent<IHeader> = props => {
   const onUnfix = React.useCallback(() => setUnpinned(false), [setUnpinned]);
 
   const { header, meta, color, banners, pinnedColor } = props;
+
   const headerItems = (header && header.items) || [];
 
   let banner;
@@ -67,6 +70,13 @@ export const Header: React.FunctionComponent<IHeader> = props => {
 
       return new Date(Number(b.starts)).getTime() <= time && new Date(Number(b.ends)).getTime() >= time;
     });
+  }
+  const redirectItem = headerItems.find(item => item.redirect);
+
+  if (redirectItem && props.path === redirectItem.href) {
+    redirectItem.href = redirectItem.redirect;
+  } else if (redirectItem && props.path !== redirectItem.redirect) {
+    redirectItem.href = redirectItem.altHref;
   }
 
   return (

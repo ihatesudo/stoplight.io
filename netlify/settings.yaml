@@ -72,6 +72,8 @@ header:
     - href: /about
       title: About
     - href: /studio
+      redirect: 'https://stoplight.io/p/studio'
+      altHref: /studio
       isButton: true
       title: Start
       icon: ['fad', 'arrow-right']
