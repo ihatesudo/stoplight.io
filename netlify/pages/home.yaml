@@ -2,9 +2,9 @@ hero:
   particles: true
   skew: rounded
   subtitle: >-
-    The API design management platform powering the world’s leading API first
+    The API Design Management Platform powering the world's leading API first
     companies.
-  title: The best APIs start with Stoplight
+  title: The Best APIs Start with Stoplight
 features:
   - name: API Design
     description: Quickly model your APIs using visual tools on top of open standards.
