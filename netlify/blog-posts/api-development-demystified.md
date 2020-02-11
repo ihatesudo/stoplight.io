@@ -66,8 +66,6 @@ As discussed in [testing across your API lifecycle](https://stoplight.io/blog/ap
 
 As you look to update an API, you end up back where any API development should start: with API design.
 
-<div class="convertful-26074"></div>
-
 ## Design-First API Development
 
 In the [API design guide](https://stoplight.io/api-design-guide/basics/) we discuss the “design-second oxymoron.” It’s during the design phase that important decisions are made about how your API works and what it makes possible. Good API development practices will start with a collaborative design phase.
