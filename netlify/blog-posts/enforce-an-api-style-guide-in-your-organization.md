@@ -32,7 +32,6 @@ meta:
     title: Enforce an API Style Guide in Your Organization | Stoplight API Corner
     image: /images/design-color-swatch.png
     username: '@stoplightio'
-  url: 'https://stoplight.io/blog/api-style-guide'
 ---
 
 The software your company creates is made up of many APIs and microservices. While each has its own purpose, it should not have its own style. Yet, with different teams working in tandem on many projects, divergence is natural. It's also confusing to developers using your APIs when endpoints are named differently and field names use different formats.
