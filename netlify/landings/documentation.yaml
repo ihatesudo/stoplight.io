@@ -11,12 +11,6 @@ hero:
       icon:
         - fad
         - book-open
-    - title: Branded Company Docs
-      color: orange
-      href: /hubs
-      icon:
-        - fad
-        - book
   image:
     alt: Documentation
     src: /images/hubs/hero.png

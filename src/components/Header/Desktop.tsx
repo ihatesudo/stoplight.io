@@ -152,28 +152,6 @@ const ProductLinks = () => {
           tag="docs"
         />
       </div>
-
-      <div className="uppercase font-medium text-grey-darker ml-2 mt-6">For Teams & Companies</div>
-
-      <div className="flex mt-3">
-        <ProductLink
-          name="Stoplight Hubs"
-          description="Custom branded documentation portals, hosted at your domain."
-          className="mr-2"
-          color="orange"
-          href="/hubs"
-          tag="docs"
-        />
-
-        <ProductLink
-          name="Stoplight Enterprise"
-          description="API docs & design management at scale for large organizations."
-          className="ml-2"
-          color="indigo"
-          href="/enterprise"
-          tag="scale"
-        />
-      </div>
     </div>
   );
 };

@@ -35,10 +35,6 @@ export const Mobile = () => {
                     title: 'Stoplight Docs',
                   },
                   {
-                    to: '/hubs',
-                    title: 'Stoplight Hubs',
-                  },
-                  {
                     to: '/enterprise',
                     title: 'Stoplight Enterprise',
                   },

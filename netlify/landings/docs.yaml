@@ -17,11 +17,6 @@ hero:
       title: Author in Studio
       icon: ['fad', 'pencil-alt']
       rightIcon: ['fad', 'arrow-right']
-    - title: Use Hubs for Company Docs
-      href: /hubs
-      color: orange
-      icon: ['fad', 'book-open']
-      rightIcon: ['fad', 'arrow-right']
 
 featureSection:
   title: Built for Personal and Open Source projects
