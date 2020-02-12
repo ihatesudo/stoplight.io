@@ -61,8 +61,6 @@ When OpenAPI emerged as the industry choice, we wanted our design editor to full
 
 Our customers build and update many APIs, which brings a versioning challenge. We attempted to solve the problem with a tool well known for branching and merging. Our new editor was built atop a Gitlab server that we host, which allowed for tracking revisions and defining versions. Any team member could use the editor, add comments, make updates, and see all the changes. Our customers love the experience and insight it gives them into their API design and development process. Plus, we gave them tools to share their API beyond the immediate team.
 
-Every API needs documentation, so we created a flexible docs generator from OpenAPI. Though Stoplight Studio supersedes the editor, this documentation product will remain at [Stoplight Hubs](/hubs) (as will all of our "next" based tooling) for the foreseeable future. Add your own styles, generate API references, and add additional documentation pages. A consumer’s complete experience of your API includes understanding how it works, what is possible, and how to get started. Hubs help you educate developers, whether external or internal, while ensuring that documentation is automatically updated along with your OpenAPI document.
-
 ## No Compromise API Design Management, Circa Now
 
 Our API design application had solved many of our customer’s problems, but we inadvertently created yet another walled garden. The Gitlab that we run to power many of the git features became the source of truth for our customer's design assets. Customers could not leverage their existing version control systems, and in order to get the maximum benefit, everyone in their organization needed to store their design assets on our servers.
