@@ -131,7 +131,7 @@ const ProductLink = ({
 const ProductLinks = () => {
   return (
     <div className="p-6">
-      <div className="uppercase font-medium text-grey-darker ml-2">For Developers & Technical Writers</div>
+      <div className="uppercase font-medium text-grey-darker ml-2">Collaborative API Design For Everyone</div>
 
       <div className="flex mt-3">
         <ProductLink
