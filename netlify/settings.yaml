@@ -154,6 +154,8 @@ footer:
       icon: ['fab', 'linkedin']
     - href: 'https://www.github.com/stoplightio'
       icon: ['fab', 'github']
+    - href: 'https://www.stoplight.com/rss'
+      icon: ['fad', 'rss']
 meta:
   description: API Design Management for Teams and Enterprise | Stoplight
   favicon: /favicons/favicon.ico

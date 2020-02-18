@@ -97,6 +97,11 @@ export async function getRoutes() {
       getData: () => demoForm,
     },
     {
+      path: '/rss',
+      template: 'src/templates/RSS',
+      getData: () => blogPosts,
+    },
+    {
       path: '/_admin',
       template: 'src/templates/Admin',
       getData: () => home,
