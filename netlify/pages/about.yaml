@@ -117,7 +117,7 @@ team:
       role: Software Engineer
     - image: /images/miaskowski_michael_headshot.png
       name: Michael Miaskowski
-      role: Software Engineer
+      role: QA Engineer
     - image: /images/team/vazha-omanashvili.png
       name: Vazha Omanashvili
       role: Software Engineer
@@ -132,10 +132,10 @@ team:
       role: Software Engineer
     - image: /images/dave-headshot.jpg
       name: Dave Roberts
-      role: Sales Engineering
+      role: Customer Solutions
     - image: /images/tonia-roberts-headshot.jpg
       name: Tonia Roberts
-      role: Enterprise Account Executive
+      role: Senior Sales Director
     - image: /images/jakub-rozek-headshot.jpg
       name: Jakub Rozek
       role: Software Engineer
@@ -144,10 +144,10 @@ team:
       role: Software Engineer
     - image: /images/phil-sturgeon-headshot2.png
       name: Phil Sturgeon
-      role: Software Architect
+      role: Developer Advocate
     - image: /images/surratt-headshot.jpg
       name: Kristen Surratt
-      role: Customer Advocate
+      role: Growth
     - image: /images/toth_headshot.jpg
       name: Marcell Toth
       role: Software Engineer
@@ -159,10 +159,10 @@ team:
       role: Content & Support
     - image: /images/harrison-yeager-headshot.jpg
       name: Harrison Yeager
-      role: Ops
+      role: Operations
     - image: /images/team/tamina-zaheri.png
       name: Tamina Zaheri
-      role: Product Advocate
+      role: Sales Development Rep
 businesses:
   title: Businesses Love Stoplight
   quotes:
@@ -174,22 +174,18 @@ businesses:
         and integrating it nicely along the entire CI/CD workflow process has
         been extremely helpful for us.
       role: Cloud Architect
-    - author: Josh Flyer
-      company: AppointmentPlus
-      image: /images/appointment_plus_logo.png
+    - author: Felix Sargent
+      company: MediaMath
+      image: /images/logo_MediaMath.png
       description: >-
-        We really enjoy the modeling feature, helping us define our API before
-        even writing code. Also, the way the modeling feature inherits models
-        from other Projects. Hubs integrates with OAS files, both partials or
-        the entire schema, which is rad.
-      role: Lead Developer
-    - author: Carlos Lozano
-      company: GFT Group
-      image: /images/gft_group_logo.jpg
+        Stoplight provides a clean user interface and enables an engineering team to develop a compliant API with minimal difficulty. Other tools don't provide the same details, guard rails, and error validation that Stoplight provides.
+      role: Director of Engineering
+    - author: Tim Slagle
+      company: Zoom
+      image: /images/zoom_logo.png
       description: >-
-        Stoplight is getting better all the time. Big leap from [Stoplight]
-        Classic.
-      role: Senior Enterprise Architect
+        Our team roughly saves 15-20 hours a week. It makes it quicker to write, and the review process is quicker as well because we can go in and everybody can see the edits. We're pretty impressed with Stoplight as a whole.
+      role: Manager of Developer Advocacy
 press:
   title: In The Press
   articles:
