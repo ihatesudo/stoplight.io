@@ -10,7 +10,7 @@ hero:
   subtitle: >-
     Build first-class APIs with a collaborative, powerful, visual editor that
     allows you to prototype and share your API within minutes
-  title: 'API Design, Planning & Modeling Tool'
+  title: 'REST API Design Tool For Planning & Modeling'
   ctas:
     - href: '/studio'
       title: Try Studio
@@ -81,11 +81,11 @@ meta:
     allows you to prototype and share your API within minutes
   favicon: /images/mark_light_bg.png
   image: /images/design_feature_3.png
-  title: REST API Design & Planning Tool | Standard REST API Modeling Tool
+  title: REST API Design & Planning Tool | REST API Modeling & Designer Tool
   twitter:
     description: >-
       Build first-class APIs with a collaborative, powerful, visual editor that
       allows you to prototype and share your API within minutes
     image: /images/design_feature_3.png
-    title: REST API Design & Planning Tool | Standard REST API Modeling Tool
+    title: REST API Design & Planning Tool | REST API Modeling & Designer Tool
     username: '@stoplightio'

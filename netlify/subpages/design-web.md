@@ -25,13 +25,13 @@ meta:
   description: >-
     Our cloud-based API design tooling allows anyone with little experience to
     create consistent and standardized REST APIs for their organization
-  title: Design Web and REST APIs Using Our Tool | Stoplight
+  title: Design Web API and REST APIs Using Stoplights Tool | Web API Designer
   twitter:
     description: >-
       Our cloud-based API design tooling allows anyone with little experience to
       create consistent and standardized REST APIs for their organization
     image: /images/mark_light_bg.png
-    title: Design Web and REST APIs Using Our Tool | Stoplight
+    title: Design Web API and REST APIs Using Stoplights Tool | Web API Designer
     username: '@stoplightio'
 ---
 

@@ -5,7 +5,7 @@ tags:
 relatedTags:
   - ''
 publishedDate: 'Jan 23, 2019'
-title: Automatic API Documentation
+title: Automatic API & REST API Documentation
 subtitle: Automate your API Documentation Workflow
 color: green
 tabs:
@@ -25,12 +25,12 @@ meta:
   description: >-
     Autogenerate your API documentation easily and within a matter of minutes
     using our Stoplight Docs software and instantly publish to the web
-  title: Automate Your API Documentation | REST API Automation
+  title: Automate API & REST API Documentation | REST API Documentation Automation
   twitter:
     description: >-
       Autogenerate your API documentation easily and within a matter of minutes
       using our Stoplight Docs software and instantly publish to the web
-    title: Automate Your API Documentation | REST API Automation
+    title: Automate API & REST API Documentation | REST API Documentation Automation
     username: '@stoplightio'
 ---
 

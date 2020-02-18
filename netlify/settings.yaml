@@ -137,8 +137,6 @@ footer:
           title: Press
         - href: /contact-us
           title: Contact Us
-        - href: 'https://app.stoplight.io/login'
-          title: Classic Login
       title: Company
   legal:
     - href: /privacy

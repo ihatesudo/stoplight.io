@@ -41,9 +41,9 @@ meta:
     yet easy to understand guide, written by our very own engineers.
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
-  title: API Design Tooling Guide & Support | OpenAPI Design Tools
+  title: API Design Tooling Guide & Support | API Design & Description Tools
   twitter:
-    title: API Design Tooling Guide & Support | OpenAPI Design Tools
+    title: API Design Tooling Guide & Support | API Design & Description Tools
     image: /images/mark_light_bg.png
     username: '@stoplightio'
 ---
