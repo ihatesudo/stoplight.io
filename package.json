@@ -28,6 +28,7 @@
     "@stoplight/monaco": "^4.4.0",
     "@stoplight/react-error-boundary": "^1.0.0",
     "@stoplight/spectral": "^4.0.0",
+    "@types/rss": "^0.0.28",
     "axios": "^0.19.2",
     "classnames": "2.2.x",
     "disqus-react": "^1.0.7",
@@ -51,7 +52,8 @@
     "react-static": "7.2.3",
     "react-static-plugin-react-router": "^7.2.3",
     "react-static-plugin-sass": "^7.2.2",
-    "react-static-plugin-sitemap": "^7.2.3"
+    "react-static-plugin-sitemap": "^7.2.3",
+    "rss": "^1.2.2"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-common-types": "^0.2.26",
