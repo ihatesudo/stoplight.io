@@ -7,7 +7,7 @@ relatedTags:
   - api-design
 publishedDate: 2019-02-06T03:07:38.734Z
 author: ''
-title: Basic API Design Guide & Best Practices
+title: Basic API Design Guide, Best Practices & Principles
 subtitle: Learn all there is about API Design through our comprehensive guide
 color: blue
 tabs:
@@ -41,12 +41,12 @@ meta:
     guides, including the basics, API tooling, and OpenAPI Specification.
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
-  title: API Design Guide | Basic API Design Guidelines & Best Practices
+  title: API Design Guide | Basic API Design Guidelines, Best Practices & How Tos
   twitter:
     description: >-
       Learn all there is to know about our API designs through our comprehensive
       guides, including the basics, API tooling, and OpenAPI Specification.
-    title: API Design Guide | Basic API Design Guidelines & Best Practices
+    title: API Design Guide | Basic API Design Guidelines, Best Practices & How Tos
     image: /images/mark_light_bg.png
     username: '@stoplightio'
 ---

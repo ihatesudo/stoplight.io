@@ -6,7 +6,7 @@ tags:
 relatedTags:
   - api-design
 publishedDate: 'Jan 23, 2019'
-title: OpenAPI Design Guide & Specification
+title: OpenAPI Design Guide & OpenAPI Specification
 subtitle: Learn all there is about API Design through our comprehensive guide
 color: orange
 tabs:
@@ -39,9 +39,9 @@ meta:
     Get to know the intricate details of the all-important OpenAPI with
     Stoplight’s comprehensive and technical guide.
   robots: 'index, follow'
-  title: OpenAPI Design Guide & OpenAPI Specification | OpenAPI
+  title: OpenAPI Design Guide & OpenAPI Specification | OpenAPI Spec
   twitter:
-    title: OpenAPI Design Guide & OpenAPI Specification | OpenAPI
+    title: OpenAPI Design Guide & OpenAPI Specification | OpenAPI Spec
     image: /images/mark_light_bg.png
     username: '@stoplightio'
 ---

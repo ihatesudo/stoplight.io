@@ -5,7 +5,7 @@ tags:
 relatedTags:
   - ''
 publishedDate: 'Jan 23, 2019'
-title: API Prototype & Modeling Tool
+title: API Prototype Documentation Template & Modeling Tool
 subtitle: >-
   Quickly build web APIs in a collaborative, powerful, visual editor that allows
   you to prototype and share your API within minutes
@@ -27,13 +27,13 @@ meta:
   description: >-
     Build web APIs using our collaborative, powerful, and quick visual editor
     that allows for speedy creation and sharing within a matter of minutes
-  title: API Design Prototype Tool & Modeling Template | Stoplight
+  title: API Design Prototype Tool & Modeling Template | Prototype Documentation
   image: /images/mark_light_bg.png
   twitter:
     description: >-
       Build web APIs using our collaborative, powerful, and quick visual editor
       that allows for speedy creation and sharing within a matter of minutes
-    title: API Design Prototype Tool & Modeling Template | Stoplight
+    title: API Design Prototype Tool & Modeling Template | Prototype Documentation
     image: /images/mark_light_bg.png
     username: '@stoplightio'
 ---
