@@ -22,12 +22,12 @@ meta:
   description: 'An Introduction to API Security with the OpenAPI Specification '
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
-  title: API Security in OpenAPI | Stoplight API Corner
+  title: API Security in OpenAPI | Stoplight API Intersection
   image: /images/api-security.jpeg
   url: https://stoplight.io/blog/api-security-in-openapi-b105ae725a08/
   twitter:
     description: 'An Introduction to API Security with the OpenAPI Specification '
-    title: API Security in OpenAPI | Stoplight API Corner
+    title: API Security in OpenAPI | Stoplight API Intersection
     image: /images/api-security.jpeg
     username: '@stoplightio'
 ---

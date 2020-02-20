@@ -25,11 +25,11 @@ meta:
   url: https://stoplight.io/blog/api-style-guide/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
-  title: Enforce an API Style Guide in Your Organization | Stoplight API Corner
+  title: Enforce an API Style Guide in Your Organization | Stoplight API Intersection
   image: /images/design-color-swatch.png
   twitter:
     description: What to include and how to keep your APIs consistent
-    title: Enforce an API Style Guide in Your Organization | Stoplight API Corner
+    title: Enforce an API Style Guide in Your Organization | Stoplight API Intersection
     image: /images/design-color-swatch.png
     username: '@stoplightio'
 ---

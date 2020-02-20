@@ -18,10 +18,10 @@ meta:
   url: https://stoplight.io/blog/new-stoplight-docs-a-stoplight-api-raml-1-0-5x-faster-api-docs-b90cfcfff517/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
-  title: New Stoplight Docs | Stoplight API Corner
+  title: New Stoplight Docs | Stoplight API Intersection
   twitter:
     description: 'New features, releases, & roadmaps'
-    title: New Stoplight Docs | Stoplight API Corner
+    title: New Stoplight Docs | Stoplight API Intersection
     image: /images/new-stoplight-docs.png
     username: '@stoplightio'
 ---

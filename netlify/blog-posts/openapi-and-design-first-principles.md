@@ -23,11 +23,11 @@ meta:
   url: https://stoplight.io/blog/openapi-and-design-first-principles-96e7c4b2aec1/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
-  title: OpenAPI and Design-First Principles | Stoplight API Corner
+  title: OpenAPI and Design-First Principles | Stoplight API Intersection
   image: /images/openapi-design-first.jpeg
   twitter:
     description: Why API Design is critical and how the OpenAPI Specification can help
-    title: OpenAPI and Design-First Principles | Stoplight API Corner
+    title: OpenAPI and Design-First Principles | Stoplight API Intersection
     image: /images/openapi-design-first.jpeg
     username: '@stoplightio'
 ---

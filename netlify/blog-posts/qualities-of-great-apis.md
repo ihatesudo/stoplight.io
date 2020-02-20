@@ -26,11 +26,11 @@ meta:
   url: https://stoplight.io/blog/qualities-of-great-apis/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
-  title: Qualities of Great APIs | Stoplight API Corner
+  title: Qualities of Great APIs | Stoplight API Intersection
   image: /images/tabea-damm-579138-unsplash-1-.jpg
   twitter:
     description: Strategies for battle hardening your API development process
-    title: Qualities of Great APIs | Stoplight API Corner
+    title: Qualities of Great APIs | Stoplight API Intersection
     image: /images/tabea-damm-579138-unsplash-1-.jpg
     username: '@stoplightio'
 ---

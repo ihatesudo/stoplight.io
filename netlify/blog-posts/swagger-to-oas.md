@@ -24,11 +24,11 @@ meta:
   url: https://stoplight.io/blog/swagger-to-oas/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
-  title: Swagger to OAS  | Stoplight API Corner
+  title: Swagger to OAS  | Stoplight API Intersection
   image: /images/1_ezedkaglnrkx2vw-qv1rpw.jpeg
   twitter:
     description: The Evolution of an API Specification
-    title: Swagger to OAS  | Stoplight API Corner
+    title: Swagger to OAS  | Stoplight API Intersection
     image: /images/1_ezedkaglnrkx2vw-qv1rpw.jpeg
     username: '@stoplightio'
 ---

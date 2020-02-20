@@ -31,11 +31,11 @@ meta:
   url: https://stoplight.io/blog/openapi-json-schema/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
-  title: 'OpenAPI and JSON Schema: When to Use Which | Stoplight API Corner'
+  title: 'OpenAPI and JSON Schema: When to Use Which | Stoplight API Intersection'
   image: /images/converging-car-lights.jpg
   twitter:
     description: Behind the divergence in data formats and how you can solve it
-    title: 'OpenAPI and JSON Schema: When to Use Which | Stoplight API Corner'
+    title: 'OpenAPI and JSON Schema: When to Use Which | Stoplight API Intersection'
     image: /images/converging-car-lights.jpg
 ---
 OpenAPI v3.0 was a big step forward for the API design community. It expanded on and improved design-first processes and automation. It simplified definitions for more reusability, while supporting more security schemes. Among the largest additions were components. While these components improved upon previous JSON Schema support, OpenAPI v3.0 still leaves developers to cover for its incompatibilities.
@@ -67,8 +67,6 @@ In contrast to JSON Schema, an OpenAPI document is a definition for an entire AP
 You can use JSON Schema to describe data objects for both requests and responses. However, OpenAPI includes _how_ those requests and responses are formatted. Similarly, you can mock API responses with JSON Schema, but you need something like OpenAPI to generate an entire mock server.
 
 For more on complete API descriptions, see the Stoplight [API design guide to OpenAPI](https://stoplight.io/api-design-guide/openapi/).
-
-<div class="convertful-26074"></div>
 
 ## How to Use OpenAPI and JSON Schema Together
 

@@ -25,11 +25,11 @@ meta:
   url: https://stoplight.io/blog/designing-apis-for-microservices/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
-  title: Designing APIs for Microservices | Stoplight API Corner
+  title: Designing APIs for Microservices | Stoplight API Intersection
   image: /images/ash-edmonds-636863-unsplash.jpg
   twitter:
     description: How to Gain the Benefits of Microservice Architecture in API Design
-    title: Designing APIs for Microservices | Stoplight API Corner
+    title: Designing APIs for Microservices | Stoplight API Intersection
     image: /images/ash-edmonds-636863-unsplash.jpg
     username: '@stoplightio'
 ---

@@ -22,11 +22,11 @@ meta:
   url: https://stoplight.io/blog/introducing-scenarios-3b88242cf9cc/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
-  title: Introducing Scenarios | Stoplight API Corner
+  title: Introducing Scenarios | Stoplight API Intersection
   image: /images/introducing-scenarios.png
   twitter:
     description: 'The lean, mean, API testing machine'
-    title: Introducing Scenarios | Stoplight API Corner
+    title: Introducing Scenarios | Stoplight API Intersection
     image: /images/introducing-scenarios.png
     username: '@stoplightio'
 ---

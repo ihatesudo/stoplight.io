@@ -31,11 +31,11 @@ meta:
   url: https://stoplight.io/blog/rest-api-documentation-templates/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
-  title: 'REST API Documentation Templates | Stoplight API Corner'
+  title: 'REST API Documentation Templates | Stoplight API Intersection'
   image: /images/documentation-team.jpg
   twitter:
     description: Streamlining The API Documentation Process
-    title: 'REST API Documentation Templates | Stoplight API Corner'
+    title: 'REST API Documentation Templates | Stoplight API Intersection'
     image: /images/documentation-team.jpg
 ---
 Documentation can be time-consuming to create from scratch. In many cases, it’s an afterthought. You’ve already designed and built the API. Now you need to figure out how to tell others how to use it. Whether it’s internal or external API consumers, they’ll want to know about authentication, the endpoints, and what response data to expect. Once you collect all the information, then you need to figure out how to present it.
@@ -69,8 +69,6 @@ While not required, you should consider whether your API templates can include t
 - Case studies or a gallery of existing solutions
 
 These various requirements of great documentation can be overwhelming, especially when you’re trying to quickly communicate what’s possible to API consumers. As you continue to build the API, it’s even harder to keep the documentation updated with what’s new. Wherever possible, look to automate as much of your API documentation as is reasonable. In the next section, we’ll look at methods to generate complete API references.
-
-<div class="convertful-26074"></div>
 
 ## Generate API Documentation
 

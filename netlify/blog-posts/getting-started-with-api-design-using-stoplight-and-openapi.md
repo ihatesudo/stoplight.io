@@ -23,11 +23,11 @@ meta:
   url: https://stoplight.io/blog/getting-started-with-api-design-using-stoplight-and-openapi-90fc8f37ac2e/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
-  title: Getting Started with API Design | Stoplight API Corner
+  title: Getting Started with API Design | Stoplight API Intersection
   image: /images/api-design-stoplight-openapi.jpeg
   twitter:
     description: So you've got a new project!
-    title: Getting Started with API Design | Stoplight API Corner
+    title: Getting Started with API Design | Stoplight API Intersection
     image: /images/api-design-stoplight-openapi.jpeg
     username: '@stoplightio'
 ---

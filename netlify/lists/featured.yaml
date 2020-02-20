@@ -29,9 +29,9 @@ actionBar:
 meta:
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
-  title: Featured | Stoplight API Corner
+  title: Featured | Stoplight API Intersection
   twitter:
-    title: Featured | Stoplight API Corner
+    title: Featured | Stoplight API Intersection
     username: '@stoplightio'
 pagination:
   enabled: true

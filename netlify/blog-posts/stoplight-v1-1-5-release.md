@@ -20,11 +20,11 @@ meta:
   url: https://stoplight.io/blog/stoplight-v1-1-5-release/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
-  title: Stoplight v1.1.5 Release| Stoplight API Corner
+  title: Stoplight v1.1.5 Release| Stoplight API Intersection
   image: /images/changelog-stock.jpg
   twitter:
     description: 'Platform, Studio, and Prism'
-    title: Stoplight v1.1.5 Release | Stoplight API Corner
+    title: Stoplight v1.1.5 Release | Stoplight API Intersection
     image: /images/changelog-stock.jpg
     username: '@stoplightio'
 ---
@@ -32,15 +32,17 @@ meta:
 ## Platform v1.1.5
 
 ### Features
-- Added "View in Docs" button to explorer read panel 
-- Docs endpoint pages now display the method and path 
-- Navigating between docs pages will now scroll you to the top of the page 
+
+- Added "View in Docs" button to explorer read panel
+- Docs endpoint pages now display the method and path
+- Navigating between docs pages will now scroll you to the top of the page
 - Docs page table of contents is displayed as a popover on smaller screens
 
 ### Fixes
+
 - Images in docs now point directly to the original repository, rather than to jsdeliver
-- Parameters with long names no longer overflow into their type 
-- Correctly shows how your docs will look on mobile screens in the docs preview 
+- Parameters with long names no longer overflow into their type
+- Correctly shows how your docs will look on mobile screens in the docs preview
 
 ## Studio v1.1.4
 

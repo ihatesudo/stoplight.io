@@ -20,11 +20,11 @@ meta:
   url: https://stoplight.io/blog/stoplight-v1-1-0-studio-release/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
-  title: Stoplight v1.1.0 Release| Stoplight API Corner
+  title: Stoplight v1.1.0 Release| Stoplight API Intersection
   image: /images/changelog-stock.jpg
   twitter:
     description: 'Path Parameters, Download Project, Spectral'
-    title: Stoplight v1.1.0 Release | Stoplight API Corner
+    title: Stoplight v1.1.0 Release | Stoplight API Intersection
     image: /images/changelog-stock.jpg
     username: '@stoplightio'
 ---
@@ -32,6 +32,7 @@ meta:
 ## Studio v1.1.0
 
 ### Features
+
 - Path parameters are now exposed in the Forms view for OpenAPI v2/v3 endpoints [#3](https://github.com/stoplightio/studio/issues/3)
 - Spectral rules can now be toggled and customized using a ‘.spectral.yml’ configuration file located in the root of the project repository
 - Can now download a zip file of the project contents in Studio Web
@@ -40,6 +41,7 @@ meta:
 - Improved overall Git pull performance
 
 ### Bug Fixes
+
 - Model-to-model JSON references not displaying properly in Read view [#79](https://github.com/stoplightio/studio/issues/79)
 - Array types not displaying properly in Read view [#70](https://github.com/stoplightio/studio/issues/70)
 - Would receive error “Author Name cannot be empty” when pushing to git remote [#74](https://github.com/stoplightio/studio/issues/74)
@@ -56,6 +58,7 @@ meta:
 ## Platform v1.1.0
 
 ### Bug Fixes
+
 - “Reset Password” functionality would not always work
 - Fixed an issue when connecting to a Bitbucket service that included a base path in its URL
 - Signing up with Github now defaults to using your username, previously it would use your email address as your username

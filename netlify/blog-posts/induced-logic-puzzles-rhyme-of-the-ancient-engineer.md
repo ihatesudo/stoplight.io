@@ -24,7 +24,7 @@ meta:
   url: https://stoplight.io/blog/induced-logic-puzzles-rhyme-of-the-ancient-engineer-d3bcf0685b8d/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
-  title: Induced Logic Puzzles | Stoplight API Corner
+  title: Induced Logic Puzzles | Stoplight API Intersection
   image: /images/logic-puzzles.jpeg
   twitter:
     description: An Ode to Engineers

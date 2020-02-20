@@ -28,11 +28,11 @@ meta:
   url: https://stoplight.io/blog/open-banking-guide/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
-  title: 'Open Banking, Regulation, and API Design | Stoplight API Corner'
+  title: 'Open Banking, Regulation, and API Design | Stoplight API Intersection'
   image: /images/pexels-photo-164474-1-.jpeg
   twitter:
     description: The State of Open Banking in 2019
-    title: 'Open Banking, Regulation, and API Design | Stoplight API Corner'
+    title: 'Open Banking, Regulation, and API Design | Stoplight API Intersection'
     image: /images/pexels-photo-164474-1-.jpeg
     username: '@stoplightio'
 ---

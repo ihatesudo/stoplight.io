@@ -22,11 +22,11 @@ meta:
   url: https://stoplight.io/blog/chivalry-is-dead-and-so-is-testing-8e9103251f15/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
-  title: 'Chivalry is dead, and so is testing | Stoplight API Corner'
+  title: 'Chivalry is dead, and so is testing | Stoplight API Intersection'
   image: /images/general-stock-1-.jpeg
   twitter:
     description: Best Practices for API Testing with Stoplight
-    title: 'Chivalry is dead, and so is testing | Stoplight API Corner'
+    title: 'Chivalry is dead, and so is testing | Stoplight API Intersection'
     image: /images/general-stock-1-.jpeg
     username: '@stoplightio'
 ---

@@ -28,11 +28,11 @@ meta:
   description: "Prism now has a version 3: it's open source, faster, has OpenAPI 3 support, and more!"
   url: https://stoplight.io/blog/prism-v3/
   robots: 'index, follow'
-  title: Prism v3 Adds OpenAPI 3.0 and Goes Open Source | Stoplight API Corner
+  title: Prism v3 Adds OpenAPI 3.0 and Goes Open Source | Stoplight API Intersection
   image: /images/apurv-das-H63k7kYljbY-unsplash.jpg
   twitter:
     description: "Prism now has a version 3: it's open source, faster, has OpenAPI 3 support, and more!"
-    title: Prism v3 Adds OpenAPI 3.0 and Goes Open Source | Stoplight API Corner
+    title: Prism v3 Adds OpenAPI 3.0 and Goes Open Source | Stoplight API Intersection
     image: /images/apurv-das-H63k7kYljbY-unsplash.jpg
     username: '@stoplightio'
 ---

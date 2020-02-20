@@ -22,11 +22,11 @@ meta:
   url: https://stoplight.io/blog/stoplight--the-openapi-initiative-def9db056eaf/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
-  title: "Stoplight \U0001F496 the OpenAPI Initiative | Stoplight API Corner"
+  title: "Stoplight \U0001F496 the OpenAPI Initiative | Stoplight API Intersection"
   image: /images/openapi.jpeg
   twitter:
     description: 'Announcing our partnership with the OpenAPI Initiative '
-    title: "Stoplight \U0001F496 the OpenAPI Initiative | Stoplight API Corner"
+    title: "Stoplight \U0001F496 the OpenAPI Initiative | Stoplight API Intersection"
     image: /images/openapi.jpeg
     username: '@stoplightio'
 ---
@@ -37,16 +37,16 @@ We are proud to announce a partnership with the OpenAPI Initiative (OAI). In 201
 
 Here at Stoplight, everything begins with your specification. Once you have [created an OpenAPI specification in Stoplight](https://stoplight.io), you can leverage the spec to drive your entire API development process. Rapidly create contract tests, set up mock servers, publish API documentation with a click, and much more.
 
-**OAS in the Wild**
+## **OAS in the Wild**
 
 We like OAS so much that we can’t seem to stop talking about it. You’ll find us at several conferences over the next few months. Come say hello and enjoy a talk given by our esteemed community engineer, Taylor Barnett.
 
-**Upcoming Talks**
+## **Upcoming Talks**
 
 DevXcon, San Francisco, CA (June 4–5, 2018): [Going to Infinity and Beyond Documentation with OpenAPI](https://2018.devxcon.com/taylor-barnett/)
 
 OSCON, Portland, OR (July 18–19, 2018): [Better API Testing with the OpenAPI Specification](https://conferences.oreilly.com/oscon/oscon-or/public/schedule/detail/67652)
 
-**Upcoming Conferences**
+## **Upcoming Conferences**
 
 [Nordic APIs Austin API Summit](https://nordicapis.com/events/austin-api-summit-2018/), Austin, TX (June 11–13, 2018)

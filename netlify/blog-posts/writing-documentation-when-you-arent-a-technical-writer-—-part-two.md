@@ -31,7 +31,7 @@ meta:
   robots: 'index, follow'
   title: >-
     Writing Documentation When You Aren't A Technical Writer — Part Two |
-    Stoplight API Corner
+    Stoplight API Intersection
   image: /images/writing-docs-part-two.jpeg
   twitter:
     description: >-
@@ -39,7 +39,7 @@ meta:
       better word choice
     title: >-
       Writing Documentation When You Aren't A Technical Writer — Part Two |
-      Stoplight API Corner
+      Stoplight API Intersection
     image: /images/writing-docs-part-two.jpeg
     username: '@stoplightio'
 ---

@@ -22,11 +22,11 @@ meta:
   url: https://stoplight.io/blog/components-of-killer-api-docs-ebbf41c13450/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
-  title: Components of Killer API Docs | Stoplight API Corner
+  title: Components of Killer API Docs | Stoplight API Intersection
   image: /images/pexels-photo-272980.jpeg
   twitter:
     description: "Let's face it — documentation is critical to API success "
-    title: Components of Killer API Docs | Stoplight API Corner
+    title: Components of Killer API Docs | Stoplight API Intersection
     image: /images/pexels-photo-272980.jpeg
     username: '@stoplightio'
 ---
@@ -51,7 +51,7 @@ Organizing API documentation can be almost as tough as designing the hierarchy o
 
 _Strava API Documentation_
 
-Take the[ Strava API documentation](https://strava.github.io/api/), for example. It is organized in a way that separates API endpoints (called “resources”) from other important API information like rate limiting and conventions. This ensures that developers can quickly and easily find information about both the API design, and information about the API as a whole.
+Take the [Strava API documentation](https://strava.github.io/api/), for example. It is organized in a way that separates API endpoints (called “resources”) from other important API information like rate limiting and conventions. This ensures that developers can quickly and easily find information about both the API design, and information about the API as a whole.
 
 ## Accurate
 
@@ -65,7 +65,7 @@ In writing, it is often said that less is more. Why use a paragraph when a sente
 
 _Plaid API Documentation_
 
-The[ Plaid API documentation](https://plaid.com/docs/api/) does an excellent job of providing detailed resource documentation. Every endpoint is clearly outlined and, more importantly, every possible parameter is defined in detail. Because of this level of detail, there is no question as to what each parameter does, whether it is optional or required, and what its expected format is.
+The [Plaid API documentation](https://plaid.com/docs/api/) does an excellent job of providing detailed resource documentation. Every endpoint is clearly outlined and, more importantly, every possible parameter is defined in detail. Because of this level of detail, there is no question as to what each parameter does, whether it is optional or required, and what its expected format is.
 
 ## Unambiguous
 

@@ -23,12 +23,12 @@ meta:
     portable, and integrated
   url: https://stoplight.io/blog/the-evolution-of-api-documentation-at-stoplight-d567aeba07e/
   favicon: /images/mark_light_bg.png
-  title: The Evolution of API Documentation at Stoplight | Stoplight API Corner
+  title: The Evolution of API Documentation at Stoplight | Stoplight API Intersection
   twitter:
     description: >-
       How we are evolving documentation at Stoplight to be performant,
       accessible, portable, and integrated
-    title: The Evolution of API Documentation at Stoplight | Stoplight API Corner
+    title: The Evolution of API Documentation at Stoplight | Stoplight API Intersection
     username: '@stoplightio'
 ---
 

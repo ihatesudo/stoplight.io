@@ -23,11 +23,11 @@ meta:
   description: Three ways to make your documentation come alive
   url: https://stoplight.io/blog/beyond-static-documentation/
   robots: 'index, follow'
-  title: Take Your API Beyond Static Documentation | Stoplight API Corner
+  title: Take Your API Beyond Static Documentation | Stoplight API Intersection
   image: /images/quino-al-121406-unsplash.jpg
   twitter:
     description: Three ways to make your documentation come alive
-    title: Take Your API Beyond Static Documentation | Stoplight API Corner
+    title: Take Your API Beyond Static Documentation | Stoplight API Intersection
     image: /images/quino-al-121406-unsplash.jpg
 ---
 

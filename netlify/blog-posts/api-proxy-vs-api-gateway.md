@@ -23,12 +23,12 @@ meta:
   description: 'A breakdown of functions, ecosystem, and use-cases'
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
-  title: API Proxy vs API Gateway | Stoplight API Corner
+  title: API Proxy vs API Gateway | Stoplight API Intersection
   image: /images/api-proxy-header.jpeg
   url: https://stoplight.io/blog/api-proxy-vs-api-gateway-c008c942a02d/
   twitter:
     description: 'A breakdown of functions, ecosystem, and use-cases'
-    title: API Proxy vs API Gateway | Stoplight API Corner
+    title: API Proxy vs API Gateway | Stoplight API Intersection
     image: /images/api-proxy-header.jpeg
     username: '@stoplightio'
 ---
@@ -91,8 +91,6 @@ If you have different microservices with a set of shared common features, such a
 * [Zuul Gateway](https://github.com/Netflix/zuul) (Open Source)
 
 * [Tyk Gateway](https://github.com/TykTechnologies/tyk) (Open Source)
-
-<div class="convertful-26074"></div>
 
 ## Why use an API Proxy over an API Gateway?
 

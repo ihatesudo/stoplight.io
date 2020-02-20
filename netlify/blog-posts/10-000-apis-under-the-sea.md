@@ -21,12 +21,12 @@ meta:
   description: 'An Exploration of API Directories '
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
-  title: '10,000 APIs Under the Sea | Stoplight API Corner'
+  title: '10,000 APIs Under the Sea | Stoplight API Intersection'
   image: /images/apis-under-sea.jpeg
   url: https://stoplight.io/blog/10-000-apis-under-the-sea-28a3db17666f/
   twitter:
     description: 'An Exploration of API Directories '
-    title: '10,000 APIs Under the Sea | Stoplight API Corner'
+    title: '10,000 APIs Under the Sea | Stoplight API Intersection'
     image: /images/apis-under-sea.jpeg
     username: '@stoplightio'
 ---

@@ -127,8 +127,6 @@ Since REST APIs depend upon HTTP standards, each request’s status is used to c
 
 There are more, of course, including 300-level redirection and 500-level server errors. You’ll want to use the right status code for the appropriate situation as you design your REST API.
 
-<div class="convertful-26074"></div>
-
 ## OpenAPI Lets You Set Your Own “Standard”
 
 While REST is not a standard, there are many other standards often associated with REST. For example, OAuth covers third-party authorization for resources and JSON PATCH describes a standard approach to the HTTP PATCH method for the JSON data format. An important standard as you design your own APIs is the OpenAPI specification.

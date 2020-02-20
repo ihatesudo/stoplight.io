@@ -21,12 +21,12 @@ meta:
   description: From Security to Orchestration
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
-  title: API Microgateways | Stoplight API Corner
+  title: API Microgateways | Stoplight API Intersection
   image: /images/api-microgateways.jpeg
   url: https://stoplight.io/blog/api-microgateways-55d656950d6c/
   twitter:
     description: From Security to Orchestration
-    title: API Microgateways | Stoplight API Corner
+    title: API Microgateways | Stoplight API Intersection
     image: /images/api-microgateways.jpeg
     username: '@stoplightio'
 ---

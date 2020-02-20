@@ -24,11 +24,11 @@ meta:
   url: https://stoplight.io/blog/reuse-openapi-descriptions/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
-  title: Reusing Definitions Across Methods in OpenAPI | Stoplight API Corner
+  title: Reusing Definitions Across Methods in OpenAPI | Stoplight API Intersection
   image: /images/rubber-stamp-cloning.jpg
   twitter:
     description: Bring schemas into your API descriptions and don’t repeat yourself
-    title: Reusing Definitions Across Methods in OpenAPI | Stoplight API Corner
+    title: Reusing Definitions Across Methods in OpenAPI | Stoplight API Intersection
     image: /images/rubber-stamp-cloning.jpg
     username: '@stoplightio'
 ---
