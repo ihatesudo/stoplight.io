@@ -91,13 +91,3 @@ A prerequisite to generating any meaningful documentation is an OpenAPI document
 ![Screenshot of Documentation](/images/stoplight-studio.png)
 
 Finally, click the Publish button within Stoplight Studio to generate the documentation for your API reference. You can also add Markdown files to cover other areas of your documentation, such as getting started guides, samples, and tutorials.
-
-## Style and Publish Your Documentation Templates
-
-There’s a single, simple template within Stoplight Studio. You may want to have more control over the navigation, custom CSS, and use your own domain to host your docs. Especially for public documentation, you will want to include templates that match the theme of the rest of your website. In that sort of situation, [Stoplight Hubs](https://stoplight.io/hubs/) can help you create documentation that flows seamlessly with the rest of your online presence.
-
-![Screenshot of Hubs Theming](/images/hubs-theming.gif)
-
-Once you have an OpenAPI definition, you can add it to [Stoplight Hubs](https://stoplight.io/hubs/) for completely customized documentation experience. Change colors, add your own JavaScript and CSS, and even export your documentation as a static site.
-
-Most importantly, when you generate your docs with Stoplight, you’ll cover all the important elements of the API templates checklist. You’ll give the developers consuming your API a great experience. Generate your documentation to save time and ensure your docs remain accurate over the long term.
