@@ -21,9 +21,9 @@ hero:
 featureSection:
   actionBar:
     ctas:
-      - title: Get Started Now
+      - title: Get Started With Studio
         color: accent
-        href: 'https://next.stoplight.io/'
+        href: 'https://stoplight.io/studio'
     enabled: true
     text: Ready to Publish?
   description: >-

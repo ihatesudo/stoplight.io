@@ -39,11 +39,15 @@ export const Landing: React.FunctionComponent<ILanding> = ({
 
       <ImageCallout {...imageCallout} />
 
-      <Section noPadding>
-        <FeatureStrip features={featureSection.features} />
-      </Section>
+      {featureSection && (
+        <Section noPadding>
+          <FeatureStrip features={featureSection.features} />
+        </Section>
+      )}
 
-      <FeatureSection color={color} {...featureSection} />
+      {featureSection && (
+        <FeatureSection color={color} {...featureSection} />
+      )}
 
       <Collage className="md:px-0 py-6 md:py-6" noPadding {...collage} />
 
@@ -80,7 +84,7 @@ export const Landing: React.FunctionComponent<ILanding> = ({
         </Section>
       )}
 
-      {relatedPages && relatedPages.length ? <RelatedPages pages={relatedPages} /> : null}
+      {featureSection && relatedPages && relatedPages.length ? <RelatedPages pages={relatedPages} /> : null}
     </Layout>
   );
 };

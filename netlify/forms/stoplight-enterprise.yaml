@@ -67,8 +67,8 @@ testimonials:
       role: 'Senior Enterprise Architect, GFT Group'
   actionBar:
     ctas:
-      - href: 'https://next.stoplight.io/join'
-        title: Try Stoplight Now
+      - href: 'https://stoplight.io/studio'
+        title: Get Started With Studio
     enabled: true
 actionBar:
   ctas: []
