@@ -21,9 +21,9 @@ actionBar:
   enabled: false
 meta:
   favicon: /images/mark_light_bg.png
-  title: API Testing | Stoplight API Corner
+  title: API Testing | Stoplight API Intersection
   twitter:
-    title: API Testing | Stoplight API Corner
+    title: API Testing | Stoplight API Intersection
     username: '@stoplightio'
 pagination:
   enabled: true

@@ -20,11 +20,11 @@ meta:
   description: 'Where should open source documentation live? README or on a static site?'
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
-  title: Where the Wild Docs Are | Stoplight API Corner
+  title: Where the Wild Docs Are | Stoplight API Intersection
   image: /images/aaron-burden-nz2slpcvw1y-unsplash.jpg
   twitter:
     description: 'Where should open source documentation live? README or on a static site?'
-    title: Where the Wild Docs Are | Stoplight API Corner
+    title: Where the Wild Docs Are | Stoplight API Intersection
     image: /images/aaron-burden-nz2slpcvw1y-unsplash.jpg
     username: '@stoplightio'
   url: 'https://stoplight.io/blog/open-source-documentation'
@@ -100,16 +100,15 @@ This is why I propose a hybrid approach. It’s what we are actually moving towa
 
 ![Preview of Spectral's future README](/images/spectral_readme_preview.png)
 
-We will include an introduction, basic installation instructions, and more resources in the repo, but it will link out to our static site. As [Jeremy mentioned](https://twitter.com/IAmJerdog/status/1093122859092901888), it is also important to support users where they find the project. The site will also have the same introduction and expanded installation instructions for users that find the project through our website. 
+We will include an introduction, basic installation instructions, and more resources in the repo, but it will link out to our static site. As [Jeremy mentioned](https://twitter.com/IAmJerdog/status/1093122859092901888), it is also important to support users where they find the project. The site will also have the same introduction and expanded installation instructions for users that find the project through our website.
 
-[Jessica Parsons said](https://twitter.com/VeryThorough/status/1092836194470121472): 
+[Jessica Parsons said](https://twitter.com/VeryThorough/status/1092836194470121472):
 > "Also, if I'm honest, I trust a project a little less when it doesn't have a docs site, because in my experience, projects that take the "all the docs you need are right here in the repo" approach often have poorer quality docs."
 
 It's interesting that some automatically see a project with a static site as higher quality. What are you going to pick, an open source project with a decent static docs site or one where everything is in the README? It has more of an effect that you may believe. (Unrelated: Having a logo can also impress people.)
 
 One concern is, what happens when content is repeated? That’s alright, as [Conrad said](https://twitter.com/beardaway/status/1093123452595326976), "not a failure in developer experience provided that both sources are up to date and are linked properly."
 
-I’d recommend writing most of your documentation in Markdown in the repo and use a content management system (CMS) or static site generator (i.e. [Gatsby](https://www.gatsbyjs.org/), [Hugo](https://gohugo.io/), [Jekyll](https://jekyllrb.com/)) that allows you to render that Markdown with styling on a static site. Just make sure to keep any documentation in the README up-to-date when changes are made to the documentation that is on the static site. 
+I’d recommend writing most of your documentation in Markdown in the repo and use a content management system (CMS) or static site generator (i.e. [Gatsby](https://www.gatsbyjs.org/), [Hugo](https://gohugo.io/), [Jekyll](https://jekyllrb.com/)) that allows you to render that Markdown with styling on a static site. Just make sure to keep any documentation in the README up-to-date when changes are made to the documentation that is on the static site.
 
 As with many things, the best choice here is not black and white. We found a good balance with the hybrid approach: We will rely on the README for what it does best and will be pulling in docs to our static site for a complete experience.
-

@@ -13,7 +13,7 @@ hero:
   title: 'Stoplight Studio'
   ctas:
     - title: On the Web
-      href: 'https://stoplight.io/p/studio'
+      href: 'https://stoplight.io/p/studio?utm_source=studio_hero&utm_medium=web_button&utm_campaign=studio_landing'
       icon: ['fad', 'browser']
       color: purple
     - title: Mac App

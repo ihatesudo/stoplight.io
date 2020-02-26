@@ -19,18 +19,18 @@ meta:
   url: https://stoplight.io/blog/scenarios-v3-4-release-2eff3345918/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
-  title: Scenarios v3.4 Release | Stoplight API Corner
+  title: Scenarios v3.4 Release | Stoplight API Intersection
   image: /images/changelog-stock.jpg
   twitter:
     description: 'Changelog, updates, fixes, & roadmap'
-    title: Scenarios v3.4 Release | Stoplight API Corner
+    title: Scenarios v3.4 Release | Stoplight API Intersection
     image: /images/changelog-stock.jpg
     username: '@stoplightio'
 ---
 
 Today, we are happy to announce the release of Scenarios v3.4! This release includes several highly requested features, as well as a slew of bug fixes. You can check all of this out now at [https://scenarios.stoplight.io](https://scenarios.stoplight.io).
 
-### v3.4 highlights:
+### v3.4 Highlights
 
 1. Tagging & Filtering
 

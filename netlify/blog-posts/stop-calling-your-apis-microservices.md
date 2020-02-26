@@ -24,11 +24,11 @@ meta:
   url: https://stoplight.io/blog/stop-calling-your-apis-microservices-e165a80eba9d/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
-  title: Stop Calling Your APIs Microservices | Stoplight API Corner
+  title: Stop Calling Your APIs Microservices | Stoplight API Intersection
   image: /images/dil-679756-unsplash.jpg
   twitter:
     description: 'The Relationship between APIs, Microservices, and Containers'
-    title: Stop Calling Your APIs Microservices | Stoplight API Corner
+    title: Stop Calling Your APIs Microservices | Stoplight API Intersection
     image: /images/dil-679756-unsplash.jpg
     username: '@stoplightio'
 ---
@@ -46,7 +46,7 @@ The abbreviation API stands for Application Programming Interface. Wikipedia sta
 
 > That is one of the things that make APIs so exciting because developers of all kinds can tap into infrastructure built and exposed by others to enhance their applications with additional functionality.
 
-When people talk about APIs these days, they are more often than not describing remote interfaces exposed through HTTP endpoints, and these APIs are what [Stoplight’s API Corner](http://blog.stoplight.io) is all about. To differentiate these remote APIs from the local system APIs mentioned above, I like using the term “Web API” now and then. (Although some people use that term for local APIs in the browser — confusing, right?)
+When people talk about APIs these days, they are more often than not describing remote interfaces exposed through HTTP endpoints, and these APIs are what [Stoplight’s API Intersection](http://blog.stoplight.io) is all about. To differentiate these remote APIs from the local system APIs mentioned above, I like using the term “Web API” now and then. (Although some people use that term for local APIs in the browser — confusing, right?)
 
 We further categorize remote APIs, or Web APIs, by either their underlying design paradigms, such as query, RPC or RESTful, or protocols, like SOAP, gRPC or GraphQL. Apart from that, we also differentiate APIs by their target audience and call them public, partner, or private/internal APIs.
 

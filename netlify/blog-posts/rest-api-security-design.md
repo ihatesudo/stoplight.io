@@ -24,11 +24,11 @@ meta:
   url: https://stoplight.io/blog/rest-api-security/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
-  title: REST API Security Design | Stoplight API Corner
+  title: REST API Security Design | Stoplight API Intersection
   image: /images/many-padlocks.jpg
   twitter:
     description: Implementing design-time security definitions using OpenAPI
-    title: REST API Security Design | Stoplight API Corner
+    title: REST API Security Design | Stoplight API Intersection
     image: /images/many-padlocks.jpg
     username: '@stoplightio'
 ---

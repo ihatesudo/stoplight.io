@@ -22,11 +22,11 @@ meta:
   url: https://stoplight.io/blog/the-evolution-of-a-js-function-994ebd95d941/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
-  title: The Evolution of a JavaScript Function | Stoplight API Corner
+  title: The Evolution of a JavaScript Function | Stoplight API Intersection
   image: /images/evolution-javascript.jpeg
   twitter:
     description: ' A hypothetical (but realistic) example of how an ordinary JavaScript function can evolve over time'
-    title: The Evolution of a JavaScript Function | Stoplight API Corner
+    title: The Evolution of a JavaScript Function | Stoplight API Intersection
     image: /images/evolution-javascript.jpeg
     username: '@stoplightio'
 ---

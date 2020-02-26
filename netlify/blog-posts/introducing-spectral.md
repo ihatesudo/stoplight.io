@@ -28,13 +28,13 @@ meta:
     OpenAPI Specification
   url: https://stoplight.io/blog/introducing-spectral/
   robots: 'index, follow'
-  title: Introducing Spectral | Stoplight API Corner
+  title: Introducing Spectral | Stoplight API Intersection
   image: /images/sharon-mccutcheon-663633-unsplash.jpg
   twitter:
     description: >-
       An open source, flexible JSON linter with out of the box support for the
       OpenAPI Specification
-    title: Introducing Spectral | Stoplight API Corner
+    title: Introducing Spectral | Stoplight API Intersection
     image: /images/sharon-mccutcheon-663633-unsplash.jpg
 ---
 

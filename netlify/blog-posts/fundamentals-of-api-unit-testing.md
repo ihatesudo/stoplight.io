@@ -19,11 +19,11 @@ actionBar:
 meta:
   description: The Fundamentals of HTTP API Unit Testing
   url: https://stoplight.io/blog/the-fundamentals-of-http-api-unit-testing-2c55cd0c7634/
-  title: ' HTTP API Unit Testing | Stoplight API Corner'
+  title: ' HTTP API Unit Testing | Stoplight API Intersection'
   image: /images/aaa_blog_example.png
   twitter:
     description: The Fundamentals of HTTP API Unit Testing
-    title: ' HTTP API Unit Testing | Stoplight API Corner'
+    title: ' HTTP API Unit Testing | Stoplight API Intersection'
     image: /images/aaa_blog_example.png
     username: '@stoplightio'
 ---

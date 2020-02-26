@@ -19,11 +19,11 @@ meta:
   url: https://stoplight.io/blog/scenarios-v3-3-update-e2e7f7b39603/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
-  title: Scenarios v3.3 Update | Stoplight API Corner
+  title: Scenarios v3.3 Update | Stoplight API Intersection
   image: /images/changelog-stock.jpg
   twitter:
     description: 'Changelog, updates, fixes, & roadmap'
-    title: Scenarios v3.3 Update | Stoplight API Corner
+    title: Scenarios v3.3 Update | Stoplight API Intersection
     image: /images/changelog-stock.jpg
     username: '@stoplightio'
 ---

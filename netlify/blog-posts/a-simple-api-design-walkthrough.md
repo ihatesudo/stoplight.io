@@ -23,12 +23,12 @@ meta:
   description: How to prototype an API before you code
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
-  title: A Simple API Design Walkthrough | Stoplight API Corner
+  title: A Simple API Design Walkthrough | Stoplight API Intersection
   image: /images/architect-designing.jpg
   url: https://stoplight.io/blog/api-design-example/
   twitter:
     description: How to prototype an API before you code
-    title: A Simple API Design Walkthrough | Stoplight API Corner
+    title: A Simple API Design Walkthrough | Stoplight API Intersection
     image: /images/architect-designing.jpg
     username: '@stoplightio'
 ---

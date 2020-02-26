@@ -24,11 +24,11 @@ meta:
   description: The similarities and differences of these two modeling languages
   url: https://stoplight.io/blog/raml-vs-yaml/
   robots: 'index, follow'
-  title: RAML vs YAML for API Specifications | Stoplight API Corner
+  title: RAML vs YAML for API Specifications | Stoplight API Intersection
   image: /images/two-camels.png
   twitter:
     description: The similarities and differences of these two modeling languages
-    title: RAML vs YAML for API Specifications | Stoplight API Corner
+    title: RAML vs YAML for API Specifications | Stoplight API Intersection
     image: /images/two-camels.png
 ---
 

@@ -23,13 +23,13 @@ meta:
   url: https://stoplight.io/blog/crud-api-design/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
-  title: CRUD API Design Recommendations From the Field | Stoplight API Corner
+  title: CRUD API Design Recommendations From the Field | Stoplight API Intersection
   image: /images/create-wall.jpg
   twitter:
     description: >-
       When and how it makes sense to create, read, update, and delete in your
       API
-    title: CRUD API Design Recommendations From the Field | Stoplight API Corner
+    title: CRUD API Design Recommendations From the Field | Stoplight API Intersection
     image: /images/create-wall.jpg
     username: '@stoplightio'
 ---
@@ -87,8 +87,6 @@ The four words create, read, update, delete don't necessarily suffice to describ
 It is often possible to map these to update actions, for example, updating a user with a status attribute set to _suspended_, but in other instances, this could feel clunky and forced.
 
 In those cases, it makes sense to include actions as resources and place them at URLs such as `/users/{ID}/actions/suspend`. It's a great idea to denote them clearly, e.g., by prefixing them with `/actions`, although the use of a verb (like "suspend") already gives it away that we're breaking away from pure CRUD for better developer experience.
-
-<div class="convertful-26074"></div>
 
 ## The HTTP Verbs
 

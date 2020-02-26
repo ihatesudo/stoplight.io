@@ -6,7 +6,7 @@ publishedDate: 2019-10-31T21:09:50.335Z
 author: Robert Wallach
 title: Stoplight v1.4.0 Release
 subtitle: Studio and Platform
-listSubtitle: October 31st Studio and Platform Releases | Stoplight API Corner
+listSubtitle: October 31st Studio and Platform Releases | Stoplight API Intersection
 image: /images/changelog-stock.jpg
 color: black
 includeToc: true
@@ -14,15 +14,15 @@ actionBar:
   ctas: []
   enabled: false
 meta:
-  description: October 31st Studio and Platform Releases | Stoplight API Corner
+  description: October 31st Studio and Platform Releases | Stoplight API Intersection
   url: https://stoplight.io/blog/stoplight-v1-4-0-release/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
-  title: Stoplight v1.4.0 Release | Stoplight API Corner
+  title: Stoplight v1.4.0 Release | Stoplight API Intersection
   image: /images/changelog-stock.jpg
   twitter:
-    description: October 31st Studio and Platform Releases | Stoplight API Corner
-    title: Stoplight v1.4.0 Release | Stoplight API Corner
+    description: October 31st Studio and Platform Releases | Stoplight API Intersection
+    title: Stoplight v1.4.0 Release | Stoplight API Intersection
     image: /images/changelog-stock.jpg
     username: '@stoplightio'
 disqus:
@@ -52,8 +52,6 @@ An issue where using the "Discard all changes" button to discard project changes
 
 An issue where switching Git branches would not remove empty directories has been resolved ([\#14](https://github.com/stoplightio/studio/issues/14))
 
-
-
 ## Platform v1.4.0
 
 Stoplight v1.4.0 is now available! Included in this release are improvements to project permissions and several bug fixes. Read more below.
@@ -65,7 +63,6 @@ To download the latest version of Stoplight Platform with Docker, use the "1.4.0
 Project Visibility Settings
 
 A visibility toggle is now present under the project settings, allowing users to make documentation public. Previously this would require updating the permissions on the VCS project itself.
-
 
 ### Fixes Included in this Release
 

@@ -22,11 +22,11 @@ meta:
   url: https://stoplight.io/blog/want-people-to-use-your-api-documentation-5-expert-tips-92d094f252f0/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
-  title: Want People to Use Your API Documentation? | Stoplight API Corner
+  title: Want People to Use Your API Documentation? | Stoplight API Intersection
   image: /images/want-people-to-use-docs.jpeg
   twitter:
     description: ' 5 tips and tricks to help make your API documentation more reliable, accessible, and comprehensive'
-    title: Want People to Use Your API Documentation? | Stoplight API Corner
+    title: Want People to Use Your API Documentation? | Stoplight API Intersection
     image: /images/want-people-to-use-docs.jpeg
     username: '@stoplightio'
 ---

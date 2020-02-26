@@ -22,7 +22,7 @@ meta:
   url: https://stoplight.io/blog/create-flawless-api-documentation-with-stoplights-hubs-f2e23ffeb58a/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
-  title: Create Flawless API Documentation with Stoplight Hubs | Stoplight API Corner
+  title: Create Flawless API Documentation with Stoplight Hubs | Stoplight API Intersection
   image: /images/flawless-hubs.png
   twitter:
     description: How to create beautiful documentation with Hubs

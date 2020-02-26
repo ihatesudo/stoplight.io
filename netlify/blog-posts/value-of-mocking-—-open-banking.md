@@ -22,11 +22,11 @@ meta:
   url: https://stoplight.io/blog/value-of-mocking-open-banking-72b3e4a7d212/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
-  title: Value of Mocking — Open Banking | Stoplight API Corner
+  title: Value of Mocking — Open Banking | Stoplight API Intersection
   image: /images/mocking-open-banking.jpeg
   twitter:
     description: ' The role of developer experience in Open Banking'
-    title: Value of Mocking — Open Banking | Stoplight API Corner
+    title: Value of Mocking — Open Banking | Stoplight API Intersection
     image: /images/mocking-open-banking.jpeg
     username: '@stoplightio'
 ---

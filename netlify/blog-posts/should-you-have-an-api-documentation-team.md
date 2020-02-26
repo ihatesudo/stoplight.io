@@ -22,13 +22,13 @@ actionBar:
     - color: purple
   enabled: false
 meta:
-  title: Should You Have an API Documentation Team? | Stoplight API Corner
+  title: Should You Have an API Documentation Team? | Stoplight API Intersection
   url: https://stoplight.io/blog/api-documentation-team/
   description: Build API documentation that keeps up
   robots: 'index, follow'
   twitter:
     description: Build API documentation that keeps up
-    title: Should You Have an API Documentation Team? | Stoplight API Corner
+    title: Should You Have an API Documentation Team? | Stoplight API Intersection
     username: '@stoplightio'
 ---
 

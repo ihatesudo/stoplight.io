@@ -25,11 +25,11 @@ meta:
   url: https://stoplight.io/blog/dont-code-fake-apis/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
-  title: Don’t Waste Your Time Building Fake APIs in Code | Stoplight API Corner
+  title: Don’t Waste Your Time Building Fake APIs in Code | Stoplight API Intersection
   image: /images/countdown-clock.jpg
   twitter:
     description: 'Compare OpenAPI mock servers to writing Java, PHP, and C#'
-    title: Don’t Waste Your Time Building Fake APIs in Code | Stoplight API Corner
+    title: Don’t Waste Your Time Building Fake APIs in Code | Stoplight API Intersection
     image: /images/countdown-clock.jpg
     username: '@stoplightio'
 ---

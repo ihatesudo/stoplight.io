@@ -23,11 +23,11 @@ meta:
   description: Adopt real use cases for better API testing
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
-  title: Testing Across Your API Lifecycle | Stoplight API Corner
+  title: Testing Across Your API Lifecycle | Stoplight API Intersection
   image: /images/api-lifecycle.png
   twitter:
     description: Adopt real use cases for better API testing
-    title: Testing Across Your API Lifecycle | Stoplight API Corner
+    title: Testing Across Your API Lifecycle | Stoplight API Intersection
     image: /images/api-lifecycle.png
     username: '@stoplightio'
   url: 'https://stoplight.io/blog/api-integration-testing'

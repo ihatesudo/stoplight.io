@@ -22,12 +22,12 @@ meta:
   description: How to use Service Virtualization to test APIs with Stoplight
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
-  title: Achieving Quick and Easy Service Virtualization | Stoplight API Corner
+  title: Achieving Quick and Easy Service Virtualization | Stoplight API Intersection
   image: /images/api-testing.jpeg
   url: https://stoplight.io/blog/api-testing-achieving-quick-and-easy-service-virtualization-with-stoplight-a590f20a414f/
   twitter:
     description: How to use Service Virtualization to test APIs with Stoplight
-    title: Achieving Quick and Easy Service Virtualization | Stoplight API Corner
+    title: Achieving Quick and Easy Service Virtualization | Stoplight API Intersection
     image: /images/api-testing.jpeg
     username: '@stoplightio'
 ---

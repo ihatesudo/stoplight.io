@@ -6,7 +6,7 @@ publishedDate: 2019-11-12T19:26:13.173Z
 author: Robert Wallach
 title: Stoplight v1.5.0 Release
 subtitle: Studio and Platform
-listSubtitle: Studio and Platform v1.5.0 Releases | Stoplight API Corner
+listSubtitle: Studio and Platform v1.5.0 Releases | Stoplight API Intersection
 image: /images/changelog-stock.jpg
 color: black
 includeToc: true
@@ -18,17 +18,17 @@ meta:
   url: https://stoplight.io/blog/stoplight-v1-5-0-release/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
-  title: Studio and Platform v1.5.0 Releases | Stoplight API Corner
+  title: Studio and Platform v1.5.0 Releases | Stoplight API Intersection
   image: /images/changelog-stock.jpg
   twitter:
     description: 'November 8, 2019 Releases for Stoplight Studio and Platform'
-    title: Studio and Platform v1.5.0 Releases | Stoplight API Corner
+    title: Studio and Platform v1.5.0 Releases | Stoplight API Intersection
     image: /images/changelog-stock.jpg
     username: '@stoplightio'
 ---
 ## Studio v1.5.0
 
-Stoplight Studio v1.5.0 is now available! Included in this release are several bug fixes. 
+Stoplight Studio v1.5.0 is now available! Included in this release are several bug fixes.
 
 To download the latest version of Studio Desktop, visit the download page [here](https://github.com/stoplightio/studio/releases). Studio Web is included in the latest release of Stoplight Platform.
 
@@ -50,7 +50,7 @@ The "Try It" tabs in Studio's Read view now support server selection, allowing u
 
 ## Platform v1.5.0
 
-Stoplight v1.5.0 is now available! Included in this release are a few minor improvements and enhancements. 
+Stoplight v1.5.0 is now available! Included in this release are a few minor improvements and enhancements.
 
 To download the latest version of Stoplight Platform with Docker, use the "1.5.0" image tag. Stoplight's production and managed environments are automatically upgraded to the latest release.
 

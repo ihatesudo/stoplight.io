@@ -29,11 +29,11 @@ meta:
   url: https://stoplight.io/blog/mock-api-test/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
-  title: How to Mock API Calls in Test Environments | Stoplight API Corner
+  title: How to Mock API Calls in Test Environments | Stoplight API Intersection
   image: /images/jasmine-jester.jpg
   twitter:
     description: Comparing Jasmine and Jest for Node mock APIs
-    title: How to Mock API Calls in Test Environments | Stoplight API Corner
+    title: How to Mock API Calls in Test Environments | Stoplight API Intersection
     image: /images/jasmine-jester.jpg
     username: '@stoplightio'
 ---
@@ -84,8 +84,6 @@ In order to test these behaviors without going to a network, you should have thi
   })
 }
 ```
-
-<div class="convertful-26074"></div>
 
 ## Create a Mock API with Jasmine
 

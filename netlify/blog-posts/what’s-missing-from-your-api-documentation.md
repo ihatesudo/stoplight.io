@@ -24,11 +24,11 @@ meta:
   url: https://stoplight.io/blog/missing-api-documentation/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
-  title: What’s Missing From Your API Documentation | Stoplight API Corner
+  title: What’s Missing From Your API Documentation | StoplighAPI Intersectioner
   image: /images/missing-docs.jpeg
   twitter:
     description: 'How to build out high-quality API documentation '
-    title: What’s Missing From Your API Documentation | Stoplight API Corner
+    title: What’s Missing From Your API Documentation | StoplighAPI Intersectioner
     image: /images/missing-docs.jpeg
 ---
 

@@ -34,7 +34,7 @@ meta:
   url: https://stoplight.io/blog/gartner-cool-vendor/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
-  title: Stoplight Named a Cool Vendor by Gartner | Stoplight API Corner
+  title: Stoplight Named a Cool Vendor by Gartner | Stoplight API Intersection
   image: /images/gartner_cv_2019_rgb.png
   twitter:
     description: >-
@@ -42,7 +42,7 @@ meta:
       wave of modern microservice and IoT application architectures, has been
       named in Gartner’s “Cool Vendor in Application Development and Platforms”
       2019 report.
-    title: Stoplight Named a Cool Vendor by Gartner | Stoplight API Corner
+    title: Stoplight Named a Cool Vendor by Gartner | Stoplight API Intersection
     image: /images/gartner_cv_2019_rgb.png
     username: '@stoplightio'
 ---

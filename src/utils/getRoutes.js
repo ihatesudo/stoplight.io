@@ -8,7 +8,6 @@ import get from 'lodash.get';
 export async function getRoutes() {
   let [
     home,
-    pricing,
     about,
     enterprise,
     forms = [],
@@ -24,7 +23,6 @@ export async function getRoutes() {
     other = [],
   ] = await Promise.all([
     getFile(`${NETLIFY_PATH}/pages/home.yaml`),
-    getFile(`${NETLIFY_PATH}/pages/pricing.yaml`),
     getFile(`${NETLIFY_PATH}/pages/about.yaml`),
     getFile(`${NETLIFY_PATH}/pages/enterprise.yaml`),
     getFiles(`${NETLIFY_PATH}/forms`),
@@ -71,11 +69,6 @@ export async function getRoutes() {
     {
       path: '404',
       template: 'src/templates/404',
-    },
-    {
-      path: pricing.path,
-      template: 'src/templates/Pricing',
-      getData: () => pricing,
     },
     {
       path: about.path,

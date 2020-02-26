@@ -23,12 +23,12 @@ meta:
   description: Use Flask or Falcon to serve API requests
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
-  title: Build a Python REST API Server for Quick Mocking | Stoplight API Corner
+  title: Build a Python REST API Server for Quick Mocking | Stoplight API Intersection
   image: /images/python-snake.jpg
   url: https://stoplight.io/blog/python-rest-api/
   twitter:
     description: Use Flask or Falcon to serve API requests
-    title: Build a Python REST API Server for Quick Mocking | Stoplight API Corner
+    title: Build a Python REST API Server for Quick Mocking | Stoplight API Intersection
     image: /images/python-snake.jpg
     username: '@stoplightio'
 ---

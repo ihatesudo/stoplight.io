@@ -24,11 +24,11 @@ meta:
   url: https://stoplight.io/blog/api-design-choreography/
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
-  title: What API Design Can Learn from Choreography | Stoplight API Corner
+  title: What API Design Can Learn from Choreography | Stoplight API Intersection
   image: /images/choreography-stage.jpg
   twitter:
     description: Work collaboratively to get your API from rehearsal to production
-    title: What API Design Can Learn from Choreography | Stoplight API Corner
+    title: What API Design Can Learn from Choreography | Stoplight API Intersection
     image: /images/choreography-stage.jpg
     username: '@stoplightio'
 ---

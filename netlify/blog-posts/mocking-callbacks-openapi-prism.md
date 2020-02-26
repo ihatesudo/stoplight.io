@@ -34,7 +34,7 @@ meta:
   image: /images/rotary-phone.jpg
   twitter:
     description: What are callback, why use them, and how to set them up using OpenAPI and Prism.
-    title: Mocking Callbacks with OpenAPI and Prism | Stoplight API Corner
+    title: Mocking Callbacks with OpenAPI and Prism | Stoplight API Intersection
     image: /images/rotary-phone.jpg
     username: '@stoplightio'
 ---
