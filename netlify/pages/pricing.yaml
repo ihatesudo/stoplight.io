@@ -1,0 +1,258 @@
+path: /about
+hero:
+  particles: true
+  title: Pricing
+plans:
+  - title: Free
+    description: 'placeholder subtitle text if we want it'
+    price:
+      title: $0/user
+    features:
+      - name: Up to 5 users
+      - name: Up to 5 projects
+      - name: Private/Public projects
+  - title: Team
+    description: 'placeholder subtitle text if we want it'
+    price:
+      title: $19/user
+    features:
+      - name: Up to 10 users
+      - name: Up to 20 projects
+      - name: Private/Public projects
+  - title: Enterprise
+    description: 'placeholder subtitle text if we want it'
+    price:
+      title: Contact Us
+      button:
+        color: purple
+        title: Contact Us
+        href: '/demo/'
+    features:
+      - name: Up to ? users
+      - name: Unlimited projects
+      - name: Private/Public projects
+collage:
+  images:
+    - alt: EA
+      src: /images/ea.png
+    - alt: Arkea
+      src: /images/logo_arkea_transparent.png
+    - alt: Chargify
+      src: /images/chargify-new-logo.png
+    - alt: Deutsche Bank
+      src: /images/deutsche_bank.png
+    - alt: Sendgrid
+      src: /images/logo-sendgrid.png
+    - alt: Shopgate
+      src: /images/shopgate.png
+    - alt: Spotify
+      src: /images/spotify.png
+    - alt: TiVo
+      src: /images/tivo.png
+    - alt: Zendesk
+      src: /images/logo_zendesk.png
+  title: >-
+    Thousands of companies use Stoplight to streamline their API & Microservices
+    workflow
+faq:
+  title: Frequently Asked Questions
+  questions:
+    - question: Here's a frequently asked question
+      answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+docPlans:
+  title: Features
+  features:
+    - title: Design
+      bold: true
+    - title: Create Unlimited APIs, Models, Endpoints, Articles, & Images
+      plans:
+        - Free
+        - Team
+        - Enterprise
+    - title: OpenAPI 3 form support
+      hoverable: true
+      plans:
+        - Free
+        - Team
+        - Enterprise
+    - title: Native git integration
+      plans:
+        - Free
+        - Team
+        - Enterprise
+    - title: Create and switch between branches
+      plans:
+        - Free
+        - Team
+        - Enterprise
+    - title: Create projects from an existing directory/folder on your computer
+      plans:
+        - Free
+        - Team
+        - Enterprise
+    - title: Powerful search
+      plans:
+        - Free
+        - Team
+        - Enterprise
+    - title: Dark theme
+      plans:
+        - Free
+        - Team
+        - Enterprise
+    - title: Private share links
+      plans:
+        - Free
+        - Team
+        - Enterprise
+    - title: Style guides
+      plans:
+        - Team
+        - Enterprise
+    - title: Design library
+      plans:
+        - Enterprise
+    - title: Design library model masking
+      plans:
+        - Enterprise
+    - title: Design, Visbility & Governance
+      bold: true
+    - title: Git repo analysis & Auto discovery
+      plans:
+        - Free
+        - Team
+        - Enterprise
+    - title: Data filters
+      plans:
+        - Free
+        - Team
+        - Enterprise
+    - title: Project search
+      plans:
+        - Free
+        - Team
+        - Enterprise
+    - title: Workspace search
+      plans:
+        - Free
+        - Team
+        - Enterprise
+    - title: OpenAPI linter
+      plans:
+        - Free
+        - Team
+        - Enterprise
+    - title: Dependency graph - inbound & outbound relationships
+      plans:
+        - Enterprise
+    - title: Docs
+      bold: true
+    - title: Unlimited published APIs
+      plans:
+        - Free
+        - Team
+        - Enterprise
+    - title: Integrated 'Try it out' API console
+      plans:
+        - Free
+        - Team
+        - Enterprise
+    - title: Rich, markdown powered docs
+      plans:
+        - Free
+        - Team
+        - Enterprise
+    - title: Export support
+      plans:
+        - Free
+        - Team
+        - Enterprise
+    - title: Versioning support
+      plans:
+        - Free
+        - Team
+        - Enterprise
+    - title: Complex JSON support
+      plans:
+        - Free
+        - Team
+        - Enterprise
+    - title: Unlimited pageviews
+      plans:
+        - Free
+        - Team
+        - Enterprise
+    - title: Build history and instant rollbacks
+      plans:
+        - Free
+        - Team
+        - Enterprise
+    - title: Custom domains
+      plans:
+        - Team
+        - Enterprise
+    - title: Theming
+      plans:
+        - Team
+        - Enterprise
+    - title: Custom branding
+      plans:
+        - Team
+        - Enterprise
+    - title: White labeled
+      plans:
+        - Enterprise
+    - title: Guest access
+      plans:
+        - Enterprise
+    - title: Mocking
+      bold: true
+    - title: Hosted mocking
+      plans:
+        - Free
+        - Team
+        - Enterprise
+    - title: Integrated mocking support within API console
+      plans:
+        - Free
+        - Team
+        - Enterprise
+    - title: Validate inputs, responses, webhooks & callbacks
+      plans:
+        - Free
+        - Team
+        - Enterprise
+    - title: Automatic reload
+      plans:
+        - Free
+        - Team
+        - Enterprise
+    - title: Support
+      bold: true
+    - title: Dedicated customer success manager
+      plans:
+        - Enterprise
+    - title: Invoicing options
+      plans:
+        - Enterprise
+    - title: Bulk/scalable pricing
+      plans:
+        - Enterprise
+    - title: Admin
+      bold: true
+    - title: SAML
+      plans:
+        - Enterprise
+    - title: LDAP
+      plans:
+        - Enterprise
+    - title: Domain capture
+      plans:
+        - Enterprise
+    - title: On Premise
+      plans:
+        - Enterprise
+  plans:
+    - title: Free
+    - title: Team
+    - title: Enterprise

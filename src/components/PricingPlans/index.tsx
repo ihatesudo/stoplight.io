@@ -1,33 +1,37 @@
+import cn from 'classnames';
 import * as React from 'react';
 
 import { Button, IButton } from '../Button';
 import { Container } from '../Container';
 import { Icon } from '../Icon';
+import { Link } from '../Link';
 
 export interface IPlanFeature {
-  color: string;
   name: string;
 }
 
 export interface IPricingPlan {
   title: string;
   description: string;
-  price: string;
+  price: IPrice;
   unit: string;
-  features: Array<IPlanFeature['name']>;
+  features: IPlanFeature[];
   titleColor: string;
   button: IButton;
 }
-
+export interface IPrice {
+  title: string;
+  button?: IButton;
+}
 export interface IPricingPlans {
   color: string;
   plans: IPricingPlan[];
 }
 
-export const PlanFeature: React.FunctionComponent<IPlanFeature> = ({ color, name }) => {
+export const PlanFeature: React.FunctionComponent<IPlanFeature> = ({ name }) => {
   return (
     <div className="flex items-center py-2">
-      <Icon icon={['fad', 'check-circle']} className={`mr-3 text-lg text-${color}`} /> <div>{name}</div>
+      <Icon icon={['fad', 'check-circle']} className={`mr-3 text-lg text-blue`} /> <div>{name}</div>
     </div>
   );
 };
@@ -37,26 +41,35 @@ export const PricingPlan: React.FunctionComponent<IPricingPlan> = ({
   description,
   price,
   unit,
-  features = [],
+  features,
   titleColor,
   button,
 }) => {
   return (
     <div className="flex-1 mx-6 md:my-6 md:flex-auto md:w-full">
-      <div className="bg-white p-10 shadow-lg rounded">
-        <div className="mb-10 bg-grey-lightest px-8 py-8 -mt-10 -mx-10">
-          <div className={`font-bold pb-3 uppercase text-${titleColor || 'grey-darkest'}`}>{title}</div>
-          <div className="leading-loose" dangerouslySetInnerHTML={{ __html: description }} />
+      <div className="p-10 bg-white rounded shadow-lg">
+        <div className="px-8 py-8 mb-10 -mx-10 -mt-10 bg-grey-lightest">
+          <div className="flex items-center mb-2 text-3xl font-bold">{title}</div>
+          {price.button ? (
+            <>
+              <Link className="text-xl font-bold leading-loose" to={price.button.href}>
+                <Icon icon={['fad', 'arrow-right']} className="mr-4 text-blue" />
+
+                {price.title}
+              </Link>
+            </>
+          ) : (
+            <div className="text-xl leading-loose">{price.title}</div>
+          )}
         </div>
 
-        <div className="font-bold mb-4 text-xl flex items-center">
-          {price}
-          {unit && <span className="font-default text-base ml-3">{unit}</span>}
+        <div className="flex items-center mb-4 text-xl font-bold">
+          {unit && <span className="ml-3 text-base font-default">{unit}</span>}
         </div>
 
         <div className="mb-10">
           {features.map((feature, key) => (
-            <PlanFeature key={key} name={feature} color="green" />
+            <PlanFeature key={key} name={feature.name} />
           ))}
         </div>
 
@@ -76,8 +89,8 @@ export const PricingPlans: React.FunctionComponent<IPricingPlans> = ({ color, pl
   }
 
   return (
-    <Container className="-mt-40 z-5 relative">
-      <div className="flex flex-wrap md:mx-0 -mx-6">
+    <Container className="relative -mt-40 z-5">
+      <div className="flex flex-wrap -mx-6 md:mx-0">
         {plans.map((pricingPlan, key) => (
           <PricingPlan key={key} titleColor={color} {...pricingPlan} />
         ))}

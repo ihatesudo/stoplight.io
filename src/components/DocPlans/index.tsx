@@ -7,7 +7,13 @@ import { Section } from '../Section';
 
 export interface IDocPlanFeature {
   title: string;
-  plans: Array<IDocPlan['title']>;
+  bold?: boolean;
+  plans?: Array<IDocPlan['title']>;
+}
+
+export interface ITitle {
+  bold?: boolean;
+  hoverable?: boolean;
 }
 
 export interface IDocPlan {
@@ -37,16 +43,16 @@ export const DocPlans: React.FunctionComponent<IDocPlans> = ({
   return (
     <Section id="docPlans">
       <Container className="mx-auto">
-        <div className="text-center mb-20">
+        <div className="mb-20 text-center">
           <div className="text-4xl font-bold">{title}</div>
           <div
-            className="mt-10 text-xl mx-auto opacity-50 max-w-lg leading-loose"
+            className="max-w-lg mx-auto mt-10 text-xl leading-loose opacity-50"
             dangerouslySetInnerHTML={{ __html: description }}
           />
         </div>
 
-        <div className="shadow-lg">
-          <table className="hubs-table bg-white">
+        <div className="container w-3/4 bg-white shadow-lg">
+          <table className="bg-white hubs-table">
             <thead>
               <tr>
                 <th />
@@ -54,9 +60,9 @@ export const DocPlans: React.FunctionComponent<IDocPlans> = ({
                   plans.length > 0 &&
                   plans.map((plan, index) => (
                     <th key={index}>
-                      <div className="flex flex-col">
-                        <p className="text-accent font-bold">{plan.title}</p>
-                        <Link className="flex-1 font-bold mt-2 text-lg" to={plan.link}>
+                      <div className="flex flex-col pb-0">
+                        <p className="text-2xl font-bold text-accent">{plan.title}</p>
+                        <Link className="flex-1 mt-2 text-lg font-bold" to={plan.link}>
                           {plan.price}
                         </Link>
                         <p className="mt-2">{plan.domains}</p>
@@ -72,12 +78,16 @@ export const DocPlans: React.FunctionComponent<IDocPlans> = ({
                 features.map((feature, index) => {
                   return (
                     <tr key={index}>
-                      <td>{feature.title}</td>
+                      {feature.bold ? (
+                        <h3 className="pt-10 pl-6 font-xl">{feature.title}</h3>
+                      ) : (
+                        <td>{feature.title}</td>
+                      )}
 
                       {plans.map((plan, planIndex) => {
                         return (
                           <td key={planIndex}>
-                            {feature.plans.includes(plan.title) && (
+                            {feature.plans && feature.plans.includes(plan.title) && (
                               <Icon className="text-green" icon="check-circle" size="lg" />
                             )}
                           </td>
@@ -88,17 +98,6 @@ export const DocPlans: React.FunctionComponent<IDocPlans> = ({
                 })}
             </tbody>
           </table>
-
-          <div>
-            <Link
-              to={buttonUrl}
-              title={buttonText}
-              className="block py-6 bg-green hover:bg-green-light font-bold text-center text-xl text-white hover:text-white"
-            >
-              {buttonText}
-              <Icon icon="arrow-right" className="ml-3" />
-            </Link>
-          </div>
         </div>
       </Container>
     </Section>
