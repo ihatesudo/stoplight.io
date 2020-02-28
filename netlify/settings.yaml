@@ -71,6 +71,8 @@ header:
       altBg: purple
     - href: /about
       title: About
+    - href: /pricing
+      title: Pricing
     - href: /studio
       redirect: 'https://stoplight.io/p/studio?utm_source=studio_landing&utm_medium=start_button&utm_campaign=dynamic_start'
       altHref: /studio
