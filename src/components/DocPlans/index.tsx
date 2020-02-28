@@ -8,12 +8,8 @@ import { Section } from '../Section';
 export interface IDocPlanFeature {
   title: string;
   bold?: boolean;
+  toolTip?: string;
   plans?: Array<IDocPlan['title']>;
-}
-
-export interface ITitle {
-  bold?: boolean;
-  hoverable?: boolean;
 }
 
 export interface IDocPlan {
@@ -81,7 +77,14 @@ export const DocPlans: React.FunctionComponent<IDocPlans> = ({
                       {feature.bold ? (
                         <h3 className="pt-10 pl-6 font-xl">{feature.title}</h3>
                       ) : (
-                        <td>{feature.title}</td>
+                        <td>
+                          <p className="tooltip">
+                            <div className="tooltip-box">
+                              <span className="tooltip-text">{feature.toolTip}</span>
+                            </div>
+                          </p>
+                          {feature.title}
+                        </td>
                       )}
 
                       {plans.map((plan, planIndex) => {

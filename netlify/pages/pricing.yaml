@@ -65,12 +65,13 @@ docPlans:
     - title: Design
       bold: true
     - title: Create Unlimited APIs, Models, Endpoints, Articles, & Images
+      toolTip: Here's more information about this feature in a tool tip
       plans:
         - Free
         - Team
         - Enterprise
     - title: OpenAPI 3 form support
-      hoverable: true
+      toolTip: Here's more information about the OpenAPI 3 form support in a tool tip
       plans:
         - Free
         - Team

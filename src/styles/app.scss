@@ -168,11 +168,40 @@ ul {
   td {
     padding: 10px;
     font-weight: normal;
+
     &:nth-child(n + 2) {
       text-align: center;
     }
     &:nth-child(n + 1) {
       padding-left: 20px;
+      text-decoration: underline;
+      &:hover {
+        .tooltip {
+          position: static;
+          float: right;
+          max-width: 50%;
+        }
+        .tooltip-box {
+          visibility: visible;
+        }
+        .tooltip-text {
+          visibility: visible;
+        }
+      }
+    }
+    .tooltip {
+      visibility: hidden;
+      text-align: center;
+      padding: -10px -60px;
+      position: absolute;
+      z-index: 100;
+      word-wrap: break-word;
+    }
+    .tooltip-box {
+      visibility: hidden;
+      box-sizing: content-box;
+      background-color: white;
+      opacity: 80%;
     }
   }
 }
