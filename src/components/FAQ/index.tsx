@@ -17,7 +17,7 @@ export interface IQuestion {
 export const FAQ: React.FunctionComponent<IFAQ> = ({ title, questions, className }) => {
   const [showAnswer, setShowAnswer] = React.useState(false);
   return (
-    <Section>
+    <Section noPaddingT>
       <Container className="mx-auto">
         <div className="mb-20">
           {title && <div className="text-4xl font-bold text-center">{title}</div>}

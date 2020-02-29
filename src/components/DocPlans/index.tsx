@@ -37,7 +37,7 @@ export const DocPlans: React.FunctionComponent<IDocPlans> = ({
   buttonText,
 }) => {
   return (
-    <Section id="docPlans">
+    <Section id="docPlans" noPaddingT>
       <Container className="mx-auto">
         <div className="mb-20 text-center">
           <div className="text-4xl font-bold">{title}</div>
@@ -51,17 +51,17 @@ export const DocPlans: React.FunctionComponent<IDocPlans> = ({
           <table className="bg-white hubs-table">
             <thead>
               <tr>
-                <th />
+                <th>
+                  <div className="flex flex-col pb-0 pl-5 text-left">
+                    <p className="text-xl font-bold text-accent">Features</p>
+                  </div>
+                </th>
                 {plans &&
                   plans.length > 0 &&
                   plans.map((plan, index) => (
                     <th key={index}>
                       <div className="flex flex-col pb-0">
-                        <p className="text-2xl font-bold text-accent">{plan.title}</p>
-                        <Link className="flex-1 mt-2 text-lg font-bold" to={plan.link}>
-                          {plan.price}
-                        </Link>
-                        <p className="mt-2">{plan.domains}</p>
+                        <p className="text-xl font-bold text-accent">{plan.title}</p>
                       </div>
                     </th>
                   ))}
@@ -78,12 +78,14 @@ export const DocPlans: React.FunctionComponent<IDocPlans> = ({
                         <h3 className="pt-10 pl-6 font-xl">{feature.title}</h3>
                       ) : (
                         <td>
+                          {feature.title}
+
+                          <Icon icon="question-circle" size="sm" className="ml-2" />
                           <p className="tooltip">
                             <div className="tooltip-box">
                               <span className="tooltip-text">{feature.toolTip}</span>
                             </div>
                           </p>
-                          {feature.title}
                         </td>
                       )}
 
@@ -91,7 +93,7 @@ export const DocPlans: React.FunctionComponent<IDocPlans> = ({
                         return (
                           <td key={planIndex}>
                             {feature.plans && feature.plans.includes(plan.title) && (
-                              <Icon className="text-green" icon="check-circle" size="lg" />
+                              <Icon className="text-green" icon="check" size="lg" />
                             )}
                           </td>
                         );
