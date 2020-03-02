@@ -77,16 +77,28 @@ export const DocPlans: React.FunctionComponent<IDocPlans> = ({
                       {feature.bold ? (
                         <h3 className="pt-10 pl-6 font-xl">{feature.title}</h3>
                       ) : (
-                        <td>
-                          {feature.title}
-
-                          <Icon icon="question-circle" size="sm" className="ml-2" />
-                          <p className="tooltip">
-                            <div className="tooltip-box">
-                              <span className="tooltip-text">{feature.toolTip}</span>
+                        <div className="flex flex-row">
+                          <td>
+                            <div className="tooltip">
+                              <div className="relative mx-2">
+                                <div className="right-0 px-4 py-1 text-xs text-white bg-black rounded bottom-full">
+                                  {feature.toolTip || 'Tooltip left'}
+                                  <svg
+                                    className="absolute right-0 h-2 ml-3 text-black top-full"
+                                    x="0px"
+                                    y="0px"
+                                    viewBox="0 0 255 255"
+                                  >
+                                    <polygon className="fill-current" points="0,0 127.5,127.5 255,0" />
+                                  </svg>
+                                </div>
+                              </div>
                             </div>
-                          </p>
-                        </td>
+                            {feature.title}
+
+                            <Icon icon="question-circle" size="sm" className="ml-2" />
+                          </td>
+                        </div>
                       )}
 
                       {plans.map((plan, planIndex) => {
