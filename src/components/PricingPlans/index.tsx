@@ -20,7 +20,7 @@ export interface IPricingPlan {
   button: IButton;
 }
 export interface IPrice {
-  title: string;
+  title?: string;
   button?: IButton;
 }
 export interface IPricingPlans {
@@ -31,7 +31,7 @@ export interface IPricingPlans {
 export const PlanFeature: React.FunctionComponent<IPlanFeature> = ({ name }) => {
   return (
     <div className="flex items-center py-2">
-      <Icon icon={['fad', 'check-circle']} className={`mr-3 text-lg text-blue`} /> <div>{name}</div>
+      <Icon icon={['fad', 'check-circle']} className={`mr-3 text-xl text-blue`} /> <div className="text-xl">{name}</div>
     </div>
   );
 };
@@ -46,20 +46,20 @@ export const PricingPlan: React.FunctionComponent<IPricingPlan> = ({
   button,
 }) => {
   return (
-    <div className="flex-1 mx-6 md:my-6 md:flex-auto md:w-full ">
-      <div className="p-10 bg-white rounded-lg shadow-md">
+    <div className={`flex-1 mx-6 rounded-lg md:my-6 md:flex-auto md:w-full bg-${titleColor}`}>
+      <div className="p-10 mt-2 bg-white rounded-lg shadow-md">
         <div className="px-8 py-8 mb-10 -mx-10 -mt-10 bg-grey-lightest ">
-          <div className="flex items-center mb-2 text-3xl font-bold">{title}</div>
+          <div className="flex items-center mb-2 text-3xl font-extrabold">{title}</div>
           {price.button ? (
             <>
-              <Link className="text-xl font-bold leading-loose" to={price.button.href}>
+              <Link className="text-xl leading-loose" to={price.button.href}>
                 <Icon icon={['fad', 'arrow-right']} className="mr-4 text-blue" />
 
                 {price.title}
               </Link>
             </>
           ) : (
-            <div className="text-xl leading-loose">{price.title}</div>
+            <div className="text-xl font-bold leading-loose">{price.title}</div>
           )}
         </div>
 

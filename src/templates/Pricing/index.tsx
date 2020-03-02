@@ -25,7 +25,6 @@ export const Pricing: React.FunctionComponent<IPricing> = ({ color, hero, plans,
       <Collage id="investors" {...collage} />
       <DocPlans {...docPlans} />
       <FAQ {...faq} />
-      <G2Widget />
     </Layout>
   );
 };

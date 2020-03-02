@@ -1,3 +1,4 @@
+import cn from 'classnames';
 import * as React from 'react';
 
 import { Container } from '../Container';
@@ -41,6 +42,7 @@ export const DocPlans: React.FunctionComponent<IDocPlans> = ({
       <Container className="mx-auto">
         <div className="mb-20 text-center">
           <div className="text-4xl font-bold">{title}</div>
+
           <div
             className="max-w-lg mx-auto mt-10 text-xl leading-loose opacity-50"
             dangerouslySetInnerHTML={{ __html: description }}
@@ -51,17 +53,21 @@ export const DocPlans: React.FunctionComponent<IDocPlans> = ({
           <table className="bg-white hubs-table">
             <thead>
               <tr>
-                <th>
-                  <div className="flex flex-col pb-0 pl-5 text-left">
-                    <p className="text-xl font-bold text-accent">Features</p>
-                  </div>
-                </th>
+                <th></th>
                 {plans &&
                   plans.length > 0 &&
                   plans.map((plan, index) => (
                     <th key={index}>
-                      <div className="flex flex-col pb-0">
-                        <p className="text-xl font-bold text-accent">{plan.title}</p>
+                      <div className="sticky flex flex-col pb-0 bg-white">
+                        <p
+                          className={cn({
+                            'text-xl font-bold text-green ': plan.title === 'Free',
+                            'text-xl font-bold text-indigo': plan.title === 'Team',
+                            'text-xl font-bold text-purple': plan.title === 'Enterprise',
+                          })}
+                        >
+                          {plan.title}
+                        </p>
                       </div>
                     </th>
                   ))}
@@ -79,24 +85,27 @@ export const DocPlans: React.FunctionComponent<IDocPlans> = ({
                       ) : (
                         <div className="flex flex-row">
                           <td>
-                            <div className="tooltip">
-                              <div className="relative mx-2">
-                                <div className="right-0 px-4 py-1 text-xs text-white bg-black rounded bottom-full">
-                                  {feature.toolTip || 'Tooltip left'}
-                                  <svg
-                                    className="absolute right-0 h-2 ml-3 text-black top-full"
-                                    x="0px"
-                                    y="0px"
-                                    viewBox="0 0 255 255"
-                                  >
-                                    <polygon className="fill-current" points="0,0 127.5,127.5 255,0" />
-                                  </svg>
+                            {feature.toolTip && (
+                              <>
+                                <div className="tooltip">
+                                  <div className="relative mx-2">
+                                    <div className="right-0 px-4 py-1 text-sm text-white bg-black rounded bottom-full">
+                                      {feature.toolTip}
+                                      <svg
+                                        className="absolute left-0 w-full h-2 text-black top-full"
+                                        x="0px"
+                                        y="0px"
+                                        viewBox="0 0 255 255"
+                                      >
+                                        <polygon className="fill-current" points="0,0 127.5,127.5 255,0" />
+                                      </svg>
+                                    </div>
+                                  </div>
                                 </div>
-                              </div>
-                            </div>
+                              </>
+                            )}
                             {feature.title}
-
-                            <Icon icon="question-circle" size="sm" className="ml-2" />
+                            {feature.toolTip && <Icon icon="question-circle" size="sm" className="ml-2" />}
                           </td>
                         </div>
                       )}

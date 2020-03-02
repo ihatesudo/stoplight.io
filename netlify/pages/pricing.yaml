@@ -4,7 +4,12 @@ hero:
   title: Pricing
 plans:
   - title: Free
+    titleColor: green
     description: 'placeholder subtitle text if we want it'
+    button:
+      color: green
+      title: CTA
+      href: '/demo/'
     price:
       title: $0/user
     features:
@@ -12,7 +17,12 @@ plans:
       - name: Up to 5 projects
       - name: Private/Public projects
   - title: Team
+    titleColor: indigo
     description: 'placeholder subtitle text if we want it'
+    button:
+      color: indigo
+      title: CTA
+      href: '/demo/'
     price:
       title: $19/user
     features:
@@ -20,13 +30,18 @@ plans:
       - name: Up to 20 projects
       - name: Private/Public projects
   - title: Enterprise
+    titleColor: purple
     description: 'placeholder subtitle text if we want it'
-    price:
+    button:
+      color: purple
       title: Contact Us
-      button:
-        color: purple
-        title: Contact Us
-        href: '/demo/'
+      href: '/demo/'
+    price:
+      title: Custom Pricing
+      # button:
+      #   color: purple
+      #   title: Contact Us
+      #   href: '/demo/'
     features:
       - name: Up to ? users
       - name: Unlimited projects
@@ -58,7 +73,45 @@ faq:
   title: Frequently Asked Questions
   questions:
     - question: Here's a frequently asked question
-      answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+      answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+      nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+      reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
+      mollit anim id est laborum.'
+    - question: Here's a frequently asked question
+      answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+      nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+      reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
+      mollit anim id est laborum.'
+    - question: Here's a frequently asked question
+      answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+      nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+      reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
+      mollit anim id est laborum.'
+    - question: Here's a frequently asked question
+      answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+      nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+      reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
+      mollit anim id est laborum.'  
+    - question: Here's a frequently asked question
+      answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+      nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+      reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
+      mollit anim id est laborum.'  
 docPlans:
   title: What's Included
   features:

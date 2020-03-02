@@ -157,6 +157,9 @@ ul {
   th {
     padding-top: 20px;
     font-weight: normal;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 90px;
     &:nth-child(n + 2) {
       // text-align: right;
     }
@@ -190,7 +193,7 @@ ul {
     .tooltip {
       visibility: hidden;
       word-wrap: break-word;
-      width: 80%;
+      width: 100%;
     }
   }
 }

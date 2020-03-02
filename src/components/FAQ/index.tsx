@@ -21,33 +21,15 @@ export const FAQ: React.FunctionComponent<IFAQ> = ({ title, questions, className
       <Container className="mx-auto">
         <div className="mb-20">
           {title && <div className="text-4xl font-bold text-center">{title}</div>}
-          {questions &&
-            questions.map(q => (
-              <div className="pt-10 markdown-body md:mt-20">
-                <div
-                  className="flex flex-row cursor-pointer"
-                  onClick={() => {
-                    setShowAnswer(!showAnswer);
-                  }}
-                >
-                  <Icon
-                    icon={!showAnswer ? ['fad', 'angle-right'] : ['fad', 'angle-down']}
-                    size="2x"
-                    className="mt-3 mr-4 text-blue"
-                  />
-                  <div className="text-4xl" dangerouslySetInnerHTML={{ __html: q.question }} />
+          <div className="flex flex-wrap justify-between">
+            {questions &&
+              questions.map(q => (
+                <div className="w-2/5 pt-10 mx-4 markdown-body md:mt-20">
+                  <div className="text-3xl font-bold" dangerouslySetInnerHTML={{ __html: q.question }} />
+                  <div className="" dangerouslySetInnerHTML={{ __html: q.answer }} />
                 </div>
-
-                {showAnswer && (
-                  <div
-                    onClick={() => {
-                      setShowAnswer(false);
-                    }}
-                    dangerouslySetInnerHTML={{ __html: q.answer }}
-                  />
-                )}
-              </div>
-            ))}
+              ))}
+          </div>
         </div>
       </Container>
     </Section>
