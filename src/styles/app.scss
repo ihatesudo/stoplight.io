@@ -149,19 +149,20 @@ ul {
     transform: rotate(192deg);
   }
 }
-
+.sticky-pricing {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 90px;
+}
 .hubs-table {
-  border-spacing: 0;
-  border: 0 none;
   width: 100%;
   th {
-    padding-top: 20px;
     font-weight: normal;
     position: sticky;
     position: -webkit-sticky;
     top: 90px;
+
     &:nth-child(n + 2) {
-      // text-align: right;
     }
     &:nth-child(n + 1) {
       padding-bottom: 0;
@@ -169,11 +170,11 @@ ul {
   }
 
   td {
-    padding: 20px;
+    padding: 5px;
     font-weight: normal;
 
     &:nth-child(n + 2) {
-      text-align: left;
+      text-align: center;
     }
     &:nth-child(n + 1) {
       padding-left: 20px;

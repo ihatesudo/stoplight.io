@@ -39,38 +39,51 @@ export const DocPlans: React.FunctionComponent<IDocPlans> = ({
 }) => {
   return (
     <Section id="docPlans" noPaddingT>
-      <Container className="mx-auto">
+      <Container className="mx-auto ">
         <div className="mb-20 text-center">
           <div className="text-4xl font-bold">{title}</div>
-
-          <div
-            className="max-w-lg mx-auto mt-10 text-xl leading-loose opacity-50"
-            dangerouslySetInnerHTML={{ __html: description }}
-          />
         </div>
 
-        <div className="container w-3/4 bg-white shadow-lg">
+        <div className="sticky-pricing">
+          <div className="container flex flex-row justify-end w-3/4 h-32 bg-white border-b-2 rounded-lg shadow-lg">
+            {plans &&
+              plans.length > 0 &&
+              plans.map((p, index) => (
+                <div
+                  key={index}
+                  className={cn('text-2xl uppercase font-bold py-12', {
+                    'text-green px-10': p.title === 'Free',
+                    'text-indigo px-10': p.title === 'Team',
+                    'text-purple pl-10': p.title === 'Enterprise',
+                  })}
+                >
+                  {p.title}
+                </div>
+              ))}
+          </div>
+        </div>
+        <div className="container w-3/4 bg-white rounded-lg shadow-lg">
           <table className="bg-white hubs-table">
             <thead>
               <tr>
-                <th></th>
-                {plans &&
+                <th className="w-1/2"></th>
+                {/* {plans &&
                   plans.length > 0 &&
                   plans.map((plan, index) => (
                     <th key={index}>
-                      <div className="sticky flex flex-col pb-0 bg-white">
-                        <p
-                          className={cn({
-                            'text-xl font-bold text-green ': plan.title === 'Free',
-                            'text-xl font-bold text-indigo': plan.title === 'Team',
-                            'text-xl font-bold text-purple': plan.title === 'Enterprise',
+                      <div className="py-12 bg-white ">
+                        <div
+                          className={cn('text-2xl uppercase font-bold text-green border-b', {
+                            'border-r ': plan.title === 'Free',
+                            'border-r': plan.title === 'Team',
+                            'border-b': plan.title === 'Enterprise',
                           })}
                         >
                           {plan.title}
-                        </p>
+                        </div>
                       </div>
                     </th>
-                  ))}
+                  ))} */}
               </tr>
             </thead>
 
@@ -79,16 +92,16 @@ export const DocPlans: React.FunctionComponent<IDocPlans> = ({
                 features.length > 0 &&
                 features.map((feature, index) => {
                   return (
-                    <tr key={index}>
+                    <tr key={index} className="">
                       {feature.bold ? (
                         <h3 className="pt-10 pl-6 font-xl">{feature.title}</h3>
                       ) : (
-                        <div className="flex flex-row">
+                        <div className="">
                           <td>
                             {feature.toolTip && (
                               <>
                                 <div className="tooltip">
-                                  <div className="relative mx-2">
+                                  <div className="relative">
                                     <div className="right-0 px-4 py-1 text-sm text-white bg-black rounded bottom-full">
                                       {feature.toolTip}
                                       <svg

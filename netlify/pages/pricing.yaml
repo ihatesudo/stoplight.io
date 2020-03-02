@@ -117,7 +117,7 @@ docPlans:
   features:
     - title: Design
       bold: true
-    - title: Create Unlimited APIs, Models, Endpoints, Articles, & Images
+    - title: Unlimited APIs, Models, Endpoints, Articles, & Images
       toolTip: Here's more information about this feature in a tool tip
       plans:
         - Free
@@ -130,16 +130,19 @@ docPlans:
         - Team
         - Enterprise
     - title: Native git integration
+      toolTip: Here's more information about this feature in a tool tip
       plans:
         - Free
         - Team
         - Enterprise
     - title: Create and switch between branches
+      toolTip: Here's more information about this feature in a tool tip
       plans:
         - Free
         - Team
         - Enterprise
     - title: Create projects from an existing directory/folder on your computer
+      toolTip: Here's more information about this feature in a tool tip
       plans:
         - Free
         - Team
@@ -150,11 +153,13 @@ docPlans:
         - Team
         - Enterprise
     - title: Dark theme
+      toolTip: Here's more information about this feature in a tool tip
       plans:
         - Free
         - Team
         - Enterprise
     - title: Private share links
+      toolTip: Here's more information about this feature in a tool tip
       plans:
         - Free
         - Team
