@@ -41,20 +41,20 @@ export const DocPlans: React.FunctionComponent<IDocPlans> = ({
     <Section id="docPlans" noPaddingT>
       <Container className="mx-auto ">
         <div className="mb-20 text-center">
-          <div className="text-4xl font-bold">{title}</div>
+          <div className="text-3xl font-bold">{title}</div>
         </div>
 
         <div className="sticky-pricing">
-          <div className="container flex flex-row justify-end w-3/4 h-32 bg-white border-b-2 rounded-lg shadow-lg">
+          <div className="container flex flex-row justify-end w-3/4 h-32 bg-white border-b-8 rounded-lg shadow-md">
             {plans &&
               plans.length > 0 &&
               plans.map((p, index) => (
                 <div
                   key={index}
-                  className={cn('text-2xl uppercase font-bold py-12', {
+                  className={cn('text-2xl py-12', {
                     'text-green px-10': p.title === 'Free',
                     'text-indigo px-10': p.title === 'Team',
-                    'text-purple pl-10': p.title === 'Enterprise',
+                    'text-purple pl-0': p.title === 'Enterprise',
                   })}
                 >
                   {p.title}
@@ -96,13 +96,15 @@ export const DocPlans: React.FunctionComponent<IDocPlans> = ({
                       {feature.bold ? (
                         <h3 className="pt-10 pl-6 font-xl">{feature.title}</h3>
                       ) : (
-                        <div className="">
+                        <>
+                          <td>{feature.title}</td>
+
                           <td>
                             {feature.toolTip && (
                               <>
                                 <div className="tooltip">
-                                  <div className="relative">
-                                    <div className="right-0 px-4 py-1 text-sm text-white bg-black rounded bottom-full">
+                                  <div className="absolute">
+                                    <div className="py-2 text-white bg-black rounded-xl bottom-full">
                                       {feature.toolTip}
                                       <svg
                                         className="absolute left-0 w-full h-2 text-black top-full"
@@ -110,17 +112,16 @@ export const DocPlans: React.FunctionComponent<IDocPlans> = ({
                                         y="0px"
                                         viewBox="0 0 255 255"
                                       >
-                                        <polygon className="fill-current" points="0,0 127.5,127.5 255,0" />
+                                        {/* <polygon className="fill-current" points="0,0 127.5,127.5 255,0" /> */}
                                       </svg>
                                     </div>
                                   </div>
                                 </div>
+                                <Icon icon="question-circle" size="sm" />
                               </>
                             )}
-                            {feature.title}
-                            {feature.toolTip && <Icon icon="question-circle" size="sm" className="ml-2" />}
                           </td>
-                        </div>
+                        </>
                       )}
 
                       {plans.map((plan, planIndex) => {

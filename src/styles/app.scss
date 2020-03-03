@@ -170,7 +170,7 @@ ul {
   }
 
   td {
-    padding: 5px;
+    padding-top: 10px;
     font-weight: normal;
 
     &:nth-child(n + 2) {
@@ -185,20 +185,19 @@ ul {
         }
       }
     }
-    .top-full {
-      top: 100%;
-    }
-    .bottom-full {
-      bottom: 100%;
-    }
-    .tooltip {
-      visibility: hidden;
-      word-wrap: break-word;
-      width: 100%;
-    }
   }
 }
+.tooltip {
+  visibility: hidden;
+  width: 50%;
 
+  .top-full {
+    top: 100%;
+  }
+  .bottom-full {
+    bottom: 100%;
+  }
+}
 .markdown-body {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;

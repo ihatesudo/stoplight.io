@@ -1,4 +1,4 @@
-path: /about
+path: /pricing
 hero:
   particles: true
   title: Pricing
@@ -8,27 +8,35 @@ plans:
     description: 'placeholder subtitle text if we want it'
     button:
       color: green
-      title: CTA
-      href: '/demo/'
+      title: Get Started
+      href: 'https://stoplight.io/p/studio?utm_source=studio_landing&utm_medium=start_button&utm_campaign=dynamic_start'
+
     price:
-      title: $0/user
+      title: $0
     features:
-      - name: Up to 5 users
+      - name: Up to 10 users
       - name: Up to 5 projects
-      - name: Private/Public projects
+      - name: Native Git Sync
+      - name: Private & Public Project Access
+      - name: OAS3 Visual Designer
+      - name: Hosted Mocking
+      - name: JSON/YAML Linter
   - title: Team
     titleColor: indigo
     description: 'placeholder subtitle text if we want it'
     button:
       color: indigo
-      title: CTA
-      href: '/demo/'
+      title: Get Started
+      href: 'https://stoplight.io/p/studio?utm_source=studio_landing&utm_medium=start_button&utm_campaign=dynamic_start'
     price:
-      title: $19/user
+      title: $19
     features:
-      - name: Up to 10 users
+      - name: Unlimited users
       - name: Up to 20 projects
-      - name: Private/Public projects
+      - name: Team Style Guides
+      - name: Custom Domains
+      - name: Theming
+      - name: Custom Branding
   - title: Enterprise
     titleColor: purple
     description: 'placeholder subtitle text if we want it'
@@ -38,14 +46,20 @@ plans:
       href: '/demo/'
     price:
       title: Custom Pricing
-      # button:
-      #   color: purple
-      #   title: Contact Us
-      #   href: '/demo/'
+      button:
+        color: purple
+        title: Contact Us
+        href: '/demo/'
     features:
-      - name: Up to ? users
-      - name: Unlimited projects
-      - name: Private/Public projects
+      - name: Unlimited Users
+      - name: Unlimited Projects
+      - name: White Label Docs
+      - name: Organizational Design Library
+      - name: Design Library Model Masking
+      - name: Inbound & Outbound Dependency Graph
+      - name: On-Premise Support
+      - name: SSO & Authentication
+      - name: Enterprise Terms & Support
 collage:
   images:
     - alt: EA
@@ -112,6 +126,13 @@ faq:
       reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
       Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
       mollit anim id est laborum.'  
+actionBar:
+    ctas:
+      - color: accent
+        href: '/demo'
+        title: Get in touch
+    enabled: true
+    text: Don't see your question? Talk to a solutions engineer.     
 docPlans:
   title: What's Included
   features:

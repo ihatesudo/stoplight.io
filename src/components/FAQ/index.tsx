@@ -20,7 +20,7 @@ export const FAQ: React.FunctionComponent<IFAQ> = ({ title, questions, className
     <Section noPaddingT>
       <Container className="mx-auto">
         <div className="mb-20">
-          {title && <div className="text-4xl font-bold text-center">{title}</div>}
+          {title && <div className="text-3xl font-bold text-center">{title}</div>}
           <div className="flex flex-wrap justify-between">
             {questions &&
               questions.map(q => (
