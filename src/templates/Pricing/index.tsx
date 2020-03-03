@@ -7,6 +7,7 @@ import { FAQ, IFAQ } from '../../components/FAQ';
 import { Hero, IHero } from '../../components/Hero';
 import { Layout } from '../../components/Layout';
 import { IPricingPlan, PricingPlans } from '../../components/PricingPlans';
+import { Section } from '../../components/Section';
 
 export interface IPricing {
   color: string;
@@ -29,10 +30,14 @@ export const Pricing: React.FunctionComponent<IPricing> = ({
 }) => {
   return (
     <Layout>
-      <Hero bgColor={color} {...hero} skew="10deg" containerClassName="pb-64" />
+      <Hero bgColor={color} {...hero} containerClassName="pb-64" />
       <PricingPlans color={color} plans={plans} />
+
       <Collage {...collage} />
+      <div className="container w-3/4 border-b"></div>
       <DocPlans {...docPlans} />
+      <div className="container w-3/4 border-b"></div>
+
       <FAQ {...faq} />
       {actionBar && (
         <div className="pb-24">

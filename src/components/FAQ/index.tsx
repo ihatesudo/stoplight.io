@@ -6,6 +6,7 @@ import { Section } from '../Section';
 
 export interface IFAQ {
   title: string;
+  description: string;
   questions?: IQuestion[];
   className?: string;
 }
@@ -14,13 +15,18 @@ export interface IQuestion {
   question: string;
   answer: string;
 }
-export const FAQ: React.FunctionComponent<IFAQ> = ({ title, questions, className }) => {
+export const FAQ: React.FunctionComponent<IFAQ> = ({ title, questions, className, description }) => {
   const [showAnswer, setShowAnswer] = React.useState(false);
   return (
-    <Section noPaddingT>
+    <Section>
       <Container className="mx-auto">
         <div className="mb-20">
-          {title && <div className="text-3xl font-bold text-center">{title}</div>}
+          {title && <div className="pb-16 text-3xl font-bold text-center">{title}</div>}
+          <div
+            className="max-w-lg pb-16 mx-auto text-lg leading-loose text-center"
+            dangerouslySetInnerHTML={{ __html: description }}
+          />
+
           <div className="flex flex-wrap justify-between">
             {questions &&
               questions.map(q => (

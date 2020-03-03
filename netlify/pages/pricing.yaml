@@ -10,7 +10,6 @@ plans:
       color: green
       title: Get Started
       href: 'https://stoplight.io/p/studio?utm_source=studio_landing&utm_medium=start_button&utm_campaign=dynamic_start'
-
     price:
       title: $0
     features:
@@ -37,6 +36,8 @@ plans:
       - name: Custom Domains
       - name: Theming
       - name: Custom Branding
+      - name: Another thing
+      - name: One more thing
   - title: Enterprise
     titleColor: purple
     description: 'placeholder subtitle text if we want it'
@@ -51,12 +52,11 @@ plans:
         title: Contact Us
         href: '/demo/'
     features:
-      - name: Unlimited Users
       - name: Unlimited Projects
       - name: White Label Docs
       - name: Organizational Design Library
       - name: Design Library Model Masking
-      - name: Inbound & Outbound Dependency Graph
+      - name: In & Outbound Dependency Graph
       - name: On-Premise Support
       - name: SSO & Authentication
       - name: Enterprise Terms & Support
@@ -85,56 +85,55 @@ collage:
     workflow
 faq:
   title: Frequently Asked Questions
+  description: Don't see your question? [Talk to a solutions engineer](https://stoplight.io/demo).
+
   questions:
-    - question: Here's a frequently asked question
-      answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-      nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-      reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
-      mollit anim id est laborum.'
-    - question: Here's a frequently asked question
-      answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-      nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-      reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
-      mollit anim id est laborum.'
-    - question: Here's a frequently asked question
-      answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-      nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-      reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
-      mollit anim id est laborum.'
-    - question: Here's a frequently asked question
-      answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-      nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-      reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
-      mollit anim id est laborum.'  
-    - question: Here's a frequently asked question
-      answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-      nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-      reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
-      mollit anim id est laborum.'  
+    - question: How is usage calculated?
+      answer: >-
+        In Stoplight, APIs are organized into workspaces. Each workspace is associated with a user account's billing profile.
+        Your usage is the sum of the users and resources across all of the workspaces connected to your billing profile.
+    - question: What happens if I go over my limits?
+      answer: >-
+        Nothing will be disabled or changed immediately. You will receive an email asking you to updating your billing, or lower your usage.
+        If, after 7 days, you have not updated your billing, the associated workspaces will be disabled until your account is back in good standing.
+    - question: How many APIs can I publish with the Standard and PRO plans?
+      answer: >-
+        No limits! As long as you are within your 2,500 free resources, you can publish as many APIs as you like. We do not charge for anything on a per api basis - see the FAQ below for our rationale.
+    - question: What is counted as a user?
+      answer: >-
+        Anyone invited to your workspaces in the Stoplight app is considered a user of that workspace. Only unique users are counted 
+        towards your billing profile. If you invite the same user to multiple workspaces, it still counts as one user. 
+        Users with the guest role are counted and applied to your limits.
+    - question: Can I transfer a workspace to another billing account?
+      answer: >-
+        Absolutely, just head over to the billing section of the workspace in question, and then scroll down to the transfer section.
+    - question: Is my credit card information secure?
+      answer: >-
+        Yes. All credit card processing is handled through Stripe, and your card information is never sent to, or stored on, our servers.
+    - question: What is a "Resource"?
+      answer: >-
+        All the different parts that make up your API design and tests are considered resources.
+    - question: I'm working on an open source, education, or non-profit project. Is there a discount?
+      answer: >-
+        Let's chat! Please send an email to customer@stoplight.io.
+    - question: Why not measure usage on a per API basis?
+      answer: >-
+        Many other tools price on a per API basis, instead of per resource. 
+        We believe that a resource based model is more flexible and fair, particularly as the industry moves towards 
+        smaller and smaller services (microservices). One 1000 endpoint API should be priced the same as one hundred 10 endpoint APIs
+    - question: Is there a free trial?
+      answer: >-
+        Yes. Every new account gets 14 days to try all of our tools, without limits.
+
 actionBar:
-    ctas:
-      - color: accent
-        href: '/demo'
-        title: Get in touch
-    enabled: true
-    text: Don't see your question? Talk to a solutions engineer.     
+  ctas:
+    - color: accent
+      href: '/demo'
+      title: Book a Demo
+  enabled: true
+  text: Need help picking a plan? Speak with a Solutions Architect.
 docPlans:
-  title: What's Included
+  title: Feature Breakdown by Plan
   features:
     - title: Design
       bold: true

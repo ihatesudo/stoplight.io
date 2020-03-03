@@ -38,23 +38,23 @@ export const DocPlans: React.FunctionComponent<IDocPlans> = ({
   buttonText,
 }) => {
   return (
-    <Section id="docPlans" noPaddingT>
+    <Section id="docPlans">
       <Container className="mx-auto ">
         <div className="mb-20 text-center">
           <div className="text-3xl font-bold">{title}</div>
         </div>
-
+        <div className="container w-3/4 h-2 rounded-t-lg shadow-md bg-blue"></div>
         <div className="sticky-pricing">
-          <div className="container flex flex-row justify-end w-3/4 h-32 bg-white border-b-8 rounded-lg shadow-md">
+          <div className="container flex justify-end w-3/4 h-32 bg-white border-b-8 shadow-md">
             {plans &&
               plans.length > 0 &&
               plans.map((p, index) => (
                 <div
                   key={index}
-                  className={cn('text-2xl py-12', {
-                    'text-green px-10': p.title === 'Free',
-                    'text-indigo px-10': p.title === 'Team',
-                    'text-purple pl-0': p.title === 'Enterprise',
+                  className={cn('text-2xl py-12 font-bold', {
+                    'pr-0': p.title === 'Enterprise',
+                    'pr-8': p.title === 'Team',
+                    'pr-14': p.title === 'Free',
                   })}
                 >
                   {p.title}
@@ -62,6 +62,7 @@ export const DocPlans: React.FunctionComponent<IDocPlans> = ({
               ))}
           </div>
         </div>
+
         <div className="container w-3/4 bg-white rounded-lg shadow-lg">
           <table className="bg-white hubs-table">
             <thead>
@@ -86,7 +87,6 @@ export const DocPlans: React.FunctionComponent<IDocPlans> = ({
                   ))} */}
               </tr>
             </thead>
-
             <tbody>
               {features &&
                 features.length > 0 &&
@@ -137,6 +137,7 @@ export const DocPlans: React.FunctionComponent<IDocPlans> = ({
                   );
                 })}
             </tbody>
+            <div className="h-10"></div>
           </table>
         </div>
       </Container>
