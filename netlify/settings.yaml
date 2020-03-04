@@ -24,42 +24,79 @@ info:
 header:
   items:
     - links:
-        - href: 'https://support.stoplight.io'
-          icon: ['fad', 'book-open']
-          subtitle: Learn how to use Stoplight
-          title: Help Center
+        - href: '/design'
+          icon: ['fad', 'pencil-paintbrush']
+          title: API Design
           titleColor: blue
-        - href: 'https://community.stoplight.io/'
-          icon: ['fad', 'users']
-          subtitle: Join the Stoplight Community
-          title: Forum
+        - href: '/open-source/prism'
+          icon: ['fad', 'ruler']
+          title: API Development
           titleColor: orange
+        - href: /mocking
+          icon: ['fad', 'microscope']
+          title: API Mocking
+          titleColor: indigo
+        - href: /docs
+          icon: ['fad', 'book-open']
+          title: API Documentation
+          titleColor: yellow
+        - href: /visibility
+          icon: ['fad', 'glasses']
+          title: API Visibility
+          titleColor: red
+        - href: /governance
+          icon: ['fad', 'balance-scale']
+          title: API Governance
+          titleColor: purple
+        - href: /consistency
+          icon: ['fad', 'ruler-combined']
+          title: API Consistency
+          titleColor: green
+        - href: /collaboration
+          icon: ['fad', 'user-friends']
+          title: API Collaboration
+          titleColor: yellow
+        - divider: true
         - href: /case-studies
           icon: ['fad', 'graduation-cap']
           title: Case Studies
           titleColor: indigo
-        - href: /video
-          icon: ['fad', 'video']
-          subtitle: Learn how to design with Stoplight
-          title: Webinars
-          titleColor: yellow
-        - divider: true
         - href: /api-design-guide/basics
           icon: ['fad', 'paint-brush']
-          subtitle: Learn API Design Best Practices
           title: API Design Guide
           titleColor: green
         - href: /mock-api-guide/basics
           icon: ['fad', 'database']
-          subtitle: Create mock API servers
           title: API Mocking Guide
           titleColor: blue
         - href: /api-documentation-guide/basics
           icon: ['fad', 'bookmark']
-          subtitle: Learn API Documentation Best Practices
           title: API Documentation Guide
           titleColor: purple
-      title: Resources
+      title: Solutions
+      width: 300
+    - aboutLinks:
+        - href: '/about'
+          icon: ['fad', 'robot']
+          title: About Us
+          titleColor: blue
+        - href: '/careers'
+          icon: ['fad', 'toolbox']
+          title: Careers
+          titleColor: orange
+        - href: 'https://support.stoplight.io'
+          icon: ['fad', 'book-open']
+          title: Help Center
+          titleColor: blue
+        - href: 'https://community.stoplight.io/'
+          icon: ['fad', 'users']
+          title: Forum
+          titleColor: orange
+        - href: /video
+          icon: ['fad', 'video']
+          title: Webinars
+          titleColor: yellow
+      title: About
       width: 300
     - href: /blog
       title: Blog
@@ -69,8 +106,6 @@ header:
       isButton: true
       title: Book a Demo
       altBg: purple
-    - href: /about
-      title: About
     - href: /studio
       redirect: 'https://stoplight.io/p/studio?utm_source=studio_landing&utm_medium=start_button&utm_campaign=dynamic_start'
       altHref: /studio
@@ -125,7 +160,7 @@ footer:
           title: Case Studies
         - href: /api-types
           title: API Types
-      title: Resources
+      title: Solutions
     - links:
         - href: /about
           title: About Us

@@ -27,6 +27,7 @@ export interface IHeaderItem {
   hideMobile?: boolean;
   className?: string;
   links?: IHeaderLink[];
+  aboutLinks?: IHeaderLink[];
   width?: number;
   icon?: IconProp;
   redirect?: string;
