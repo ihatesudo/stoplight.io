@@ -18,8 +18,11 @@ plans:
       - name: Native Git Sync
       - name: Private & Public Project Access
       - name: OAS3 Visual Designer
-      - name: Hosted Mocking
+      - name: Hosted Mocking (1000)
       - name: JSON/YAML Linter
+      - name: Project Style Guides
+      - name: Technical Knowledge Base (Explorer)
+      - name: Changelog
   - title: Team
     titleColor: indigo
     description: 'placeholder subtitle text if we want it'
@@ -30,14 +33,15 @@ plans:
     price:
       title: $19
     features:
-      - name: Unlimited users
+      - name: Up to 100 users
       - name: Up to 20 projects
-      - name: Team Style Guides
       - name: Custom Domains
       - name: Theming
       - name: Custom Branding
-      - name: Another thing
-      - name: One more thing
+      - name: Single Design Library
+      - name: Guest Role
+      - name: Hosted Mocking
+      - name: Multi-Branch
   - title: Enterprise
     titleColor: purple
     description: 'placeholder subtitle text if we want it'
@@ -52,14 +56,18 @@ plans:
         title: Contact Us
         href: '/demo/'
     features:
-      - name: Unlimited Projects
-      - name: White Label Docs
-      - name: Organizational Design Library
-      - name: Design Library Model Masking
-      - name: In & Outbound Dependency Graph
-      - name: On-Premise Support
+      - name: Unlimited users
+      - name: Unlimited projects
+      - name: Model Masking
+      - name: Inbound & Outbound API Dependency Graph
+      - name: Multiple Design Libraries
+      - name: On-Premise Deployment
       - name: SSO & Authentication
       - name: Enterprise Terms & Support
+      - name: Security Forms
+      - name: Hubs project filters
+      - name: Static IPs
+      - name: Multiple Node Versions
 collage:
   images:
     - alt: EA
@@ -135,9 +143,9 @@ actionBar:
 docPlans:
   title: Feature Breakdown by Plan
   features:
-    - title: Design
+    - sectionTitle: Design
       bold: true
-    - title: Unlimited APIs, Models, Endpoints, Articles, & Images
+    - title: Create unlimited APIs, Models, Endpoints, Articles, & Images
       toolTip: Here's more information about this feature in a tool tip
       plans:
         - Free
@@ -194,9 +202,9 @@ docPlans:
     - title: Design library model masking
       plans:
         - Enterprise
-    - title: Design, Visbility & Governance
+    - sectionTitle: Design, Visbility & Governance
       bold: true
-    - title: Git repo analysis & Auto discovery
+    - title: Git repo analysis & auto discovery
       plans:
         - Free
         - Team
@@ -224,14 +232,14 @@ docPlans:
     - title: Dependency graph - inbound & outbound relationships
       plans:
         - Enterprise
-    - title: Docs
+    - sectionTitle: Docs
       bold: true
     - title: Unlimited published APIs
       plans:
         - Free
         - Team
         - Enterprise
-    - title: Integrated 'Try it out' API console
+    - title: Integrated 'Try it Out' API console
       plans:
         - Free
         - Team
@@ -284,7 +292,7 @@ docPlans:
     - title: Guest access
       plans:
         - Enterprise
-    - title: Mocking
+    - sectionTitle: Mocking
       bold: true
     - title: Hosted mocking
       plans:
@@ -306,7 +314,7 @@ docPlans:
         - Free
         - Team
         - Enterprise
-    - title: Support
+    - sectionTitle: Support
       bold: true
     - title: Dedicated customer success manager
       plans:
@@ -317,8 +325,11 @@ docPlans:
     - title: Bulk/scalable pricing
       plans:
         - Enterprise
-    - title: Admin
+    - sectionTitle: Admin
       bold: true
+    - title: Private & public project access
+      plans:
+        - Enterprise
     - title: SAML
       plans:
         - Enterprise
@@ -328,7 +339,53 @@ docPlans:
     - title: Domain capture
       plans:
         - Enterprise
+    - sectionTitle: Installation
+      bold: true
     - title: On Premise
+      plans:
+        - Enterprise
+    - sectionTitle: One Supported Integration
+      bold: true
+    - title: GitHub
+      plans:
+        - Free
+        - Team
+        - Enterprise
+    - title: Gitlab
+      plans:
+        - Free
+        - Team
+        - Enterprise
+    - title: Gitea
+      plans:
+        - Free
+        - Team
+        - Enterprise
+    - title: Bitbucket
+      plans:
+        - Free
+        - Team
+        - Enterprise
+    - title: Azure
+      plans:
+        - Free
+        - Team
+        - Enterprise
+    - sectionTitle: Unlimited Supported Integrations
+      bold: true
+    - title: GitHub
+      plans:
+        - Enterprise
+    - title: Gitlab
+      plans:
+        - Enterprise
+    - title: Gitea
+      plans:
+        - Enterprise
+    - title: Bitbucket
+      plans:
+        - Enterprise
+    - title: Azure
       plans:
         - Enterprise
   plans:

@@ -156,6 +156,9 @@ ul {
 }
 .hubs-table {
   width: 100%;
+  // .feature-title {
+  //   background-color: white;
+  // }
   th {
     font-weight: normal;
     position: sticky;
@@ -168,7 +171,11 @@ ul {
       padding-bottom: 0;
     }
   }
-
+  tr {
+    &:nth-child(even) {
+      background-color: #f5f7f9;
+    }
+  }
   td {
     padding-top: 10px;
     font-weight: normal;
@@ -192,6 +199,7 @@ ul {
     }
   }
 }
+
 .tooltip {
   visibility: hidden;
   width: 50%;

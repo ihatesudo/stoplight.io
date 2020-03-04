@@ -9,6 +9,7 @@ import { Section } from '../Section';
 export interface IDocPlanFeature {
   title: string;
   bold?: boolean;
+  sectionTitle?: string;
   toolTip?: string;
   plans?: Array<IDocPlan['title']>;
 }
@@ -93,14 +94,14 @@ export const DocPlans: React.FunctionComponent<IDocPlans> = ({
                 features.map((feature, index) => {
                   return (
                     <tr key={index} className="">
-                      {feature.bold ? (
-                        <h3 className="pt-10 pl-6 font-xl">{feature.title}</h3>
+                      {feature.sectionTitle ? (
+                        <h3 className="pt-10 pl-6 bg-white font-xl feature-title">{feature.sectionTitle}</h3>
                       ) : (
                         <>
                           <td>{feature.title}</td>
 
                           <td>
-                            {feature.toolTip && (
+                            {feature.toolTip ? (
                               <>
                                 <div className="tooltip">
                                   <div className="absolute">
@@ -119,6 +120,8 @@ export const DocPlans: React.FunctionComponent<IDocPlans> = ({
                                 </div>
                                 <Icon icon="question-circle" size="sm" />
                               </>
+                            ) : (
+                              <div></div>
                             )}
                           </td>
                         </>
@@ -127,8 +130,10 @@ export const DocPlans: React.FunctionComponent<IDocPlans> = ({
                       {plans.map((plan, planIndex) => {
                         return (
                           <td key={planIndex}>
-                            {feature.plans && feature.plans.includes(plan.title) && (
+                            {feature.plans && feature.plans.includes(plan.title) ? (
                               <Icon className="text-green" icon="check" size="lg" />
+                            ) : (
+                              <div className="bg-white"></div>
                             )}
                           </td>
                         );
