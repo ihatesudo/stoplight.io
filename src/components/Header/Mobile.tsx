@@ -77,8 +77,8 @@ export const Mobile = () => {
                     title: 'Governance',
                   },
                   {
-                    to: '/consistency',
-                    title: 'Consistency',
+                    to: '/quality',
+                    title: 'Quality',
                   },
                   {
                     to: '/collaboration',
