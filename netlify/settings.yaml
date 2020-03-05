@@ -87,11 +87,11 @@ header:
         - href: 'https://support.stoplight.io'
           icon: ['fad', 'book-open']
           title: Help Center
-          titleColor: blue
+          titleColor: purple
         - href: 'https://community.stoplight.io/'
           icon: ['fad', 'users']
           title: Forum
-          titleColor: orange
+          titleColor: green
         - href: /video
           icon: ['fad', 'video']
           title: Webinars
