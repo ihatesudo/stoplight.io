@@ -74,7 +74,7 @@ featureSection:
         expert to create first-class API designs. Describe endpoints, headers,
         bodies, multiple responses, query string parameters, shared models, and
         examples, and much more for complex APIs.
-      image: /images/studio_editor.png
+      image: /images/studio/hero.png
       shortName: OpenAPI Visual Editor
       title: 'A Powerful OpenAPI v2 & v3 Visual Editor'
 
@@ -87,7 +87,8 @@ featureSection:
         With Offline File Support, open an existing OpenAPI document on your local
         machine or start from scratch with a new API, zero coding required. You can
         also share your OpenAPI document where ever you want.
-      image: /images/studio_git_local_files.png
+      image: /images/studio/hero.png
+      overlayImage: true
       shortName: Git & Offline Support
       title: Git Integration for Collaboration and Offline File Support
 
@@ -100,7 +101,7 @@ featureSection:
         <br><br>
         Increase efficiency by allowing your frontend teams to start
         implementation while the backend team develops the API.
-      image: /images/studio-mocking.png
+      image: /images/studio/hero.png
       shortName: Mock Servers
       title: 'Instant Mock Servers'
 
@@ -108,7 +109,7 @@ featureSection:
         Create API documentation in minutes. Combine OpenAPI documents with
         Markdown to create robust, searchable, internal and external
         [API documentation](/api-documentation-guide/basics) for your organization.
-      image: /images/studio_docs.png
+      image: /images/studio/hero.png
       shortName: Markdown Documentation
       title: Generate API Documentation with OpenAPI and Markdown
 
@@ -119,7 +120,7 @@ featureSection:
         <br><br>
         With built-in linting and API style guides, powered by [Spectral](/spectral), Stoplight
         Studio can improve the quality of your API. You can use the default style guide, extend it, or write one to match your organization's style guide (coming soon in Studio).
-      image: /images/studio_linting.png
+      image: /images/studio/hero.png
       shortName: Linting
       title: OpenAPI Linting and API Style Guides
 
