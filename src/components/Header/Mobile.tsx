@@ -8,7 +8,7 @@ export const Mobile = () => {
   const [showMenu, setShowMenu] = React.useState(false);
 
   return (
-    <div className="hidden sm:flex flex-1 justify-end">
+    <div className="justify-end flex-1 hidden sm:flex">
       <div onClick={() => setShowMenu(!showMenu)}>
         <div className={cn('cursor-pointer ml-3 text-white', { hidden: !showMenu })}>
           <Icon icon={['fad', 'times']} size="2x" />
@@ -20,9 +20,9 @@ export const Mobile = () => {
       </div>
 
       {showMenu && (
-        <div className="fixed pin mt-16 z-50 flex flex-col overflow-y-auto">
+        <div className="fixed z-50 flex flex-col mt-16 overflow-y-auto pin">
           <div className="relative m-4 bg-white rounded shadow-md" onClick={() => setShowMenu(false)}>
-            <div className="pt-10 pl-10 flex flex-wrap">
+            <div className="flex flex-wrap pt-10 pl-10">
               <Section
                 title="Products"
                 links={[
@@ -35,6 +35,14 @@ export const Mobile = () => {
                     title: 'Stoplight Docs',
                   },
                   {
+                    to: '/explorer',
+                    title: 'Stoplight Explorer',
+                  },
+                  {
+                    to: '/mocking',
+                    title: 'Stoplight Mocking',
+                  },
+                  {
                     to: '/enterprise',
                     title: 'Stoplight Enterprise',
                   },
@@ -42,19 +50,39 @@ export const Mobile = () => {
               />
 
               <Section
-                title="Use Cases"
+                title="Solutions"
                 links={[
                   {
                     to: '/design',
                     title: 'Design',
                   },
                   {
-                    to: '/documentation',
-                    title: 'Documentation',
+                    to: '/development',
+                    title: 'Development',
                   },
                   {
                     to: '/mocking',
                     title: 'Mocking',
+                  },
+                  {
+                    to: '/docs',
+                    title: 'Documentation',
+                  },
+                  {
+                    to: '/visibility',
+                    title: 'Visibility',
+                  },
+                  {
+                    to: '/governance',
+                    title: 'Governance',
+                  },
+                  {
+                    to: '/consistency',
+                    title: 'Consistency',
+                  },
+                  {
+                    to: '/collaboration',
+                    title: 'Collaboration',
                   },
                 ]}
               />
@@ -116,9 +144,22 @@ export const Mobile = () => {
                   },
                 ]}
               />
+              <Section
+                title="About"
+                links={[
+                  {
+                    to: '/about',
+                    title: 'About Us',
+                  },
+                  {
+                    to: '/careers',
+                    title: 'Careers',
+                  },
+                ]}
+              />
             </div>
 
-            <Link to="/demo" className="w-full p-4 bg-primary text-white block text-center font-bold mt-10">
+            <Link to="/demo" className="block w-full p-4 mt-10 font-bold text-center text-white bg-primary">
               Book a Demo
             </Link>
           </div>
@@ -132,8 +173,8 @@ export const Mobile = () => {
 
 const Section = ({ title, links }) => {
   return (
-    <div className="flex-1 flex flex-col mr-10 mb-10" style={{ minWidth: 125 }}>
-      <div className="pb-2 uppercase font-bold text-grey-darker border-b">{title}</div>
+    <div className="flex flex-col flex-1 mb-10 mr-10" style={{ minWidth: 125 }}>
+      <div className="pb-2 font-bold uppercase border-b text-grey-darker">{title}</div>
 
       {links.map((link, key) => (
         <Link key={key} className="block mt-4 font-medium text-grey-darker" to={link.to}>

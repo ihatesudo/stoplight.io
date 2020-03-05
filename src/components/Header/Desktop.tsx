@@ -212,7 +212,7 @@ export const Desktop: React.FunctionComponent<{ items: IHeaderItem[]; unpinned: 
   if (!items || !items.length) return null;
 
   const aboutMenu = items.filter(i => i.aboutLinks);
-  const nonButtons = items.filter(i => !i.isButton);
+  const nonButtons = items.filter(i => !i.isButton && i.title !== 'About');
   const buttons = items.filter(i => i.isButton);
 
   const nonButtonElems = nonButtons.map((item, index) => {

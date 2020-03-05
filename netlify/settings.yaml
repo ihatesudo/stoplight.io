@@ -28,7 +28,7 @@ header:
           icon: ['fad', 'pencil-paintbrush']
           title: API Design
           titleColor: blue
-        - href: '/open-source/prism'
+        - href: '/development'
           icon: ['fad', 'ruler']
           title: API Development
           titleColor: orange
@@ -36,7 +36,7 @@ header:
           icon: ['fad', 'microscope']
           title: API Mocking
           titleColor: indigo
-        - href: /docs
+        - href: /documentation
           icon: ['fad', 'book-open']
           title: API Documentation
           titleColor: yellow
@@ -127,12 +127,34 @@ footer:
   columns:
     - links:
         - href: /studio
-          title: Design Studio
+          title: Stoplight Studio
         - href: /docs
-          title: Free Docs
+          title: Stoplight Docs
+        - href: /explorer
+          title: Stoplight Explorer
+        - href: /mocking
+          title: Stoplight Mocking
         - href: /enterprise
           title: Enterprise
       title: Products
+    - links:
+        - href: '/design'
+          title: API Design
+        - href: /development
+          title: API Development
+        - href: '/mocking'
+          title: API Mocking
+        - href: /documentation
+          title: API Documentation
+        - href: /visibility
+          title: API Visibility
+        - href: /governance
+          title: API Governance
+        - href: /consistency
+          title: API Consistency
+        - href: /collaboration
+          title: API Collaboration
+      title: Solutions
     - links:
         - href: /open-source/spectral/
           title: Spectral
@@ -160,7 +182,7 @@ footer:
           title: Case Studies
         - href: /api-types
           title: API Types
-      title: Solutions
+      title: Resources
     - links:
         - href: /about
           title: About Us
@@ -172,7 +194,7 @@ footer:
           title: Press
         - href: /contact-us
           title: Contact Us
-      title: Company
+      title: About
   legal:
     - href: /privacy
       title: Privacy
