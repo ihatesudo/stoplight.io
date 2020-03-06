@@ -103,20 +103,13 @@ export const DocPlans: React.FunctionComponent<IDocPlans> = ({
                           <td>
                             {feature.toolTip ? (
                               <>
-                                <div className="tooltip">
-                                  <div className="absolute">
-                                    <div className="py-2 text-white bg-black rounded-xl bottom-full">
-                                      {feature.toolTip}
-                                      <svg
-                                        className="absolute left-0 w-full h-2 text-black top-full"
-                                        x="0px"
-                                        y="0px"
-                                        viewBox="0 0 255 255"
-                                      >
-                                        {/* <polygon className="fill-current" points="0,0 127.5,127.5 255,0" /> */}
-                                      </svg>
-                                    </div>
+                                <div className="absolute z-50 w-1/6 -ml-24 -mt-14 tooltip">
+                                  <div className="px-2 py-2 text-white bg-black rounded-xl bottom-full">
+                                    {feature.toolTip}
                                   </div>
+                                  <svg className="left-0 h-4 text-green top-full" x="0px" y="0px" viewBox="0 0 255 255">
+                                    <polygon className="fill-current" points="0,0 127.5,127.5 255,0" />
+                                  </svg>
                                 </div>
                                 <Icon icon="question-circle" size="sm" />
                               </>
