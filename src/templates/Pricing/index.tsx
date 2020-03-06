@@ -36,6 +36,9 @@ export const Pricing: React.FunctionComponent<IPricing> = ({
       <Collage {...collage} />
       <div className="container w-3/4 border-b"></div>
       <DocPlans {...docPlans} />
+      <div className="pb-24">
+        <ActionBar text={actionBar.text} ctas={actionBar.ctas} enabled={actionBar.enabled} />
+      </div>
       <div className="container w-3/4 border-b"></div>
 
       <FAQ {...faq} />

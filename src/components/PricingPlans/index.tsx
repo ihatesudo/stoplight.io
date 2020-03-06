@@ -30,7 +30,7 @@ export interface IPricingPlans {
 
 export const PlanFeature: React.FunctionComponent<IPlanFeature> = ({ name }) => {
   return (
-    <div className="flex items-center py-4">
+    <div className="flex items-center py-2">
       <Icon icon={['fad', 'check-circle']} className={`mr-3 text-blue`} /> <div className="text-lg">{name}</div>
     </div>
   );
@@ -48,7 +48,7 @@ export const PricingPlan: React.FunctionComponent<IPricingPlan> = ({
   return (
     <div className={`flex-1 flex flex-col h-full mx-3 rounded-lg md:my-6 md:flex-auto md:w-full bg-${titleColor}`}>
       <div className="items-start flex-1 p-10 mt-2 bg-white shadow-md ">
-        <div className="px-8 py-8 mb-10 -mx-10 -mt-10 bg-grey-lightest ">
+        <div className="px-8 py-8 mb-10 -mx-10 -mt-10 border-b bg-grey-lightest">
           <div className="items-center mb-2 text-3xl font-extrabold text-center">{title}</div>
           {price.button ? (
             <div className="pb-8 text-center">
@@ -58,7 +58,7 @@ export const PricingPlan: React.FunctionComponent<IPricingPlan> = ({
             <div className="text-6xl font-bold leading-loose text-center ">
               <div className="flex justify-center">
                 {price.title}
-                <div className="flex flex-col mt-4 ml-1 text-lg font-normal text-left">
+                <div className="flex flex-col mt-6 ml-1 text-lg font-normal leading-tight text-left">
                   <p>per user</p>
                   <p>per month</p>
                 </div>

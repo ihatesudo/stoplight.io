@@ -49,7 +49,7 @@ export const DocPlans: React.FunctionComponent<IDocPlans> = ({
         </div>
         <div className="container w-3/4 h-2 rounded-t-lg shadow-md bg-blue"></div>
         <div className="sticky-pricing">
-          <div className="container flex justify-end w-3/4 h-32 bg-white border-b-8 shadow-md">
+          <div className="container flex justify-end w-3/4 h-32 bg-white border-b-8 ">
             {plans &&
               plans.length > 0 &&
               plans.map((p, index) => (
@@ -57,8 +57,8 @@ export const DocPlans: React.FunctionComponent<IDocPlans> = ({
                   key={index}
                   className={cn('text-2xl py-12 font-bold', {
                     'pr-0': p.title === 'Enterprise',
-                    'pr-8': p.title === 'Team',
-                    'pr-14': p.title === 'Free',
+                    'pr-20': p.title === 'Team',
+                    'pr-24': p.title === 'Free',
                   })}
                 >
                   {p.title}
@@ -84,31 +84,31 @@ export const DocPlans: React.FunctionComponent<IDocPlans> = ({
 
                       {c.features &&
                         c.features.map((f, i) => {
-                          console.log(f.plans);
                           return (
                             <tr className="cat-tr">
-                              {f.featureTitle ? <td>{f.featureTitle}</td> : <td></td>}
-
-                              {f.tooltip ? (
-                                <td>
+                              {f.featureTitle && f.tooltip ? (
+                                <td className="underline">
+                                  {f.featureTitle}
                                   <div className="absolute z-50 w-1/6 -ml-24 -mt-14 tooltip">
                                     <div className="px-2 py-2 text-white bg-black rounded-xl bottom-full">
                                       {f.tooltip}
                                     </div>
-                                    <svg
-                                      className="left-0 h-4 text-green top-full"
-                                      x="0px"
-                                      y="0px"
-                                      viewBox="0 0 255 255"
-                                    >
+                                    <svg className="left-0 h-4 top-full" x="0px" y="0px" viewBox="0 0 255 255">
                                       <polygon className="fill-current" points="0,0 127.5,127.5 255,0" />
                                     </svg>
                                   </div>
-                                  <Icon icon="question-circle" size="sm" />
                                 </td>
                               ) : (
                                 <td></td>
                               )}
+
+                              {/* {f.tooltip ? (
+                                <td>
+                                  <Icon icon="question-circle" size="sm" />
+                                </td>
+                              ) : (
+                                <td></td>
+                              )} */}
 
                               {plans.map((plan, planIndex) => {
                                 return (
