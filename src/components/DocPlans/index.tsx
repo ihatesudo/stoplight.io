@@ -7,10 +7,8 @@ import { Link } from '../Link';
 import { Section } from '../Section';
 
 export interface IDocPlanFeature {
-  title: string;
-  bold?: boolean;
-  sectionTitle?: string;
-  toolTip?: string;
+  featureTitle: string;
+  tooltip?: string;
   plans?: Array<IDocPlan['title']>;
 }
 
@@ -28,8 +26,12 @@ export interface IDocPlans {
   plans: IDocPlan[];
   buttonUrl: string;
   buttonText: string;
+  categories?: ICategory[];
 }
-
+export interface ICategory {
+  category: string;
+  features: IDocPlanFeature[];
+}
 export const DocPlans: React.FunctionComponent<IDocPlans> = ({
   title,
   description,
@@ -37,6 +39,7 @@ export const DocPlans: React.FunctionComponent<IDocPlans> = ({
   plans,
   buttonUrl,
   buttonText,
+  categories,
 }) => {
   return (
     <Section id="docPlans">
@@ -69,69 +72,61 @@ export const DocPlans: React.FunctionComponent<IDocPlans> = ({
             <thead>
               <tr>
                 <th className="w-1/2"></th>
-                {/* {plans &&
-                  plans.length > 0 &&
-                  plans.map((plan, index) => (
-                    <th key={index}>
-                      <div className="py-12 bg-white ">
-                        <div
-                          className={cn('text-2xl uppercase font-bold text-green border-b', {
-                            'border-r ': plan.title === 'Free',
-                            'border-r': plan.title === 'Team',
-                            'border-b': plan.title === 'Enterprise',
-                          })}
-                        >
-                          {plan.title}
-                        </div>
-                      </div>
-                    </th>
-                  ))} */}
               </tr>
             </thead>
             <tbody>
-              {features &&
-                features.length > 0 &&
-                features.map((feature, index) => {
+              {categories &&
+                categories.length > 0 &&
+                categories.map((c, index) => {
                   return (
-                    <tr key={index} className="">
-                      {feature.sectionTitle ? (
-                        <h3 className="pt-10 pl-6 bg-white font-xl feature-title">{feature.sectionTitle}</h3>
-                      ) : (
-                        <>
-                          <td>{feature.title}</td>
+                    <>
+                      <h3 className="pt-10 pl-6 bg-white font-xl">{c.category}</h3>
 
-                          <td>
-                            {feature.toolTip ? (
-                              <>
-                                <div className="absolute z-50 w-1/6 -ml-24 -mt-14 tooltip">
-                                  <div className="px-2 py-2 text-white bg-black rounded-xl bottom-full">
-                                    {feature.toolTip}
+                      {c.features &&
+                        c.features.map((f, i) => {
+                          console.log(f.plans);
+                          return (
+                            <tr className="cat-tr">
+                              {f.featureTitle ? <td>{f.featureTitle}</td> : <td></td>}
+
+                              {f.tooltip ? (
+                                <td>
+                                  <div className="absolute z-50 w-1/6 -ml-24 -mt-14 tooltip">
+                                    <div className="px-2 py-2 text-white bg-black rounded-xl bottom-full">
+                                      {f.tooltip}
+                                    </div>
+                                    <svg
+                                      className="left-0 h-4 text-green top-full"
+                                      x="0px"
+                                      y="0px"
+                                      viewBox="0 0 255 255"
+                                    >
+                                      <polygon className="fill-current" points="0,0 127.5,127.5 255,0" />
+                                    </svg>
                                   </div>
-                                  <svg className="left-0 h-4 text-green top-full" x="0px" y="0px" viewBox="0 0 255 255">
-                                    <polygon className="fill-current" points="0,0 127.5,127.5 255,0" />
-                                  </svg>
-                                </div>
-                                <Icon icon="question-circle" size="sm" />
-                              </>
-                            ) : (
-                              <div></div>
-                            )}
-                          </td>
-                        </>
-                      )}
+                                  <Icon icon="question-circle" size="sm" />
+                                </td>
+                              ) : (
+                                <td></td>
+                              )}
 
-                      {plans.map((plan, planIndex) => {
-                        return (
-                          <td key={planIndex}>
-                            {feature.plans && feature.plans.includes(plan.title) ? (
-                              <Icon className="text-green" icon="check" size="lg" />
-                            ) : (
-                              <div className="bg-white"></div>
-                            )}
-                          </td>
-                        );
-                      })}
-                    </tr>
+                              {plans.map((plan, planIndex) => {
+                                return (
+                                  <>
+                                    {f.plans && f.plans.includes(plan.title) ? (
+                                      <td key={planIndex}>
+                                        <Icon className="text-green" icon="check" size="lg" />
+                                      </td>
+                                    ) : (
+                                      <td></td>
+                                    )}
+                                  </>
+                                );
+                              })}
+                            </tr>
+                          );
+                        })}
+                    </>
                   );
                 })}
             </tbody>

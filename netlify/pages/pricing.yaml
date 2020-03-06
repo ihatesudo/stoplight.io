@@ -142,253 +142,548 @@ actionBar:
   text: Need help picking a plan? Speak with a Solutions Architect.
 docPlans:
   title: Feature Breakdown by Plan
-  features:
-    - sectionTitle: Design
-      bold: true
-    - title: Create unlimited APIs, Models, Endpoints, Articles, & Images
-      toolTip: Here's more information about this feature in a tool tip
-      plans:
-        - Free
-        - Team
-        - Enterprise
-    - title: OpenAPI 3 form support
-      toolTip: Here's more information about the OpenAPI 3 form support in a tool tip
-      plans:
-        - Free
-        - Team
-        - Enterprise
-    - title: Native git integration
-      toolTip: Here's more information about this feature in a tool tip
-      plans:
-        - Free
-        - Team
-        - Enterprise
-    - title: Create and switch between branches
-      toolTip: Here's more information about this feature in a tool tip
-      plans:
-        - Free
-        - Team
-        - Enterprise
-    - title: Create projects from an existing directory/folder on your computer
-      toolTip: Here's more information about this feature in a tool tip
-      plans:
-        - Free
-        - Team
-        - Enterprise
-    - title: Powerful search
-      plans:
-        - Free
-        - Team
-        - Enterprise
-    - title: Dark theme
-      toolTip: Here's more information about this feature in a tool tip
-      plans:
-        - Free
-        - Team
-        - Enterprise
-    - title: Private share links
-      toolTip: Here's more information about this feature in a tool tip
-      plans:
-        - Free
-        - Team
-        - Enterprise
-    - title: Style guides
-      plans:
-        - Team
-        - Enterprise
-    - title: Design library
-      plans:
-        - Enterprise
-    - title: Design library model masking
-      plans:
-        - Enterprise
-    - sectionTitle: Design, Visbility & Governance
-      bold: true
-    - title: Git repo analysis & auto discovery
-      plans:
-        - Free
-        - Team
-        - Enterprise
-    - title: Data filters
-      plans:
-        - Free
-        - Team
-        - Enterprise
-    - title: Project search
-      plans:
-        - Free
-        - Team
-        - Enterprise
-    - title: Workspace search
-      plans:
-        - Free
-        - Team
-        - Enterprise
-    - title: OpenAPI linter
-      plans:
-        - Free
-        - Team
-        - Enterprise
-    - title: Dependency graph - inbound & outbound relationships
-      plans:
-        - Enterprise
-    - sectionTitle: Docs
-      bold: true
-    - title: Unlimited published APIs
-      plans:
-        - Free
-        - Team
-        - Enterprise
-    - title: Integrated 'Try it Out' API console
-      plans:
-        - Free
-        - Team
-        - Enterprise
-    - title: Rich, markdown powered docs
-      plans:
-        - Free
-        - Team
-        - Enterprise
-    - title: Export support
-      plans:
-        - Free
-        - Team
-        - Enterprise
-    - title: Versioning support
-      plans:
-        - Free
-        - Team
-        - Enterprise
-    - title: Complex JSON support
-      plans:
-        - Free
-        - Team
-        - Enterprise
-    - title: Unlimited pageviews
-      plans:
-        - Free
-        - Team
-        - Enterprise
-    - title: Build history and instant rollbacks
-      plans:
-        - Free
-        - Team
-        - Enterprise
-    - title: Custom domains
-      plans:
-        - Team
-        - Enterprise
-    - title: Theming
-      plans:
-        - Team
-        - Enterprise
-    - title: Custom branding
-      plans:
-        - Team
-        - Enterprise
-    - title: White labeled
-      plans:
-        - Enterprise
-    - title: Guest access
-      plans:
-        - Enterprise
-    - sectionTitle: Mocking
-      bold: true
-    - title: Hosted mocking
-      plans:
-        - Free
-        - Team
-        - Enterprise
-    - title: Integrated mocking support within API console
-      plans:
-        - Free
-        - Team
-        - Enterprise
-    - title: Validate inputs, responses, webhooks & callbacks
-      plans:
-        - Free
-        - Team
-        - Enterprise
-    - title: Automatic reload
-      plans:
-        - Free
-        - Team
-        - Enterprise
-    - sectionTitle: Support
-      bold: true
-    - title: Dedicated customer success manager
-      plans:
-        - Enterprise
-    - title: Invoicing options
-      plans:
-        - Enterprise
-    - title: Bulk/scalable pricing
-      plans:
-        - Enterprise
-    - sectionTitle: Admin
-      bold: true
-    - title: Private & public project access
-      plans:
-        - Enterprise
-    - title: SAML
-      plans:
-        - Enterprise
-    - title: LDAP
-      plans:
-        - Enterprise
-    - title: Domain capture
-      plans:
-        - Enterprise
-    - sectionTitle: Installation
-      bold: true
-    - title: On Premise
-      plans:
-        - Enterprise
-    - sectionTitle: One Supported Integration
-      bold: true
-    - title: GitHub
-      plans:
-        - Free
-        - Team
-        - Enterprise
-    - title: Gitlab
-      plans:
-        - Free
-        - Team
-        - Enterprise
-    - title: Gitea
-      plans:
-        - Free
-        - Team
-        - Enterprise
-    - title: Bitbucket
-      plans:
-        - Free
-        - Team
-        - Enterprise
-    - title: Azure
-      plans:
-        - Free
-        - Team
-        - Enterprise
-    - sectionTitle: Unlimited Supported Integrations
-      bold: true
-    - title: GitHub
-      plans:
-        - Enterprise
-    - title: Gitlab
-      plans:
-        - Enterprise
-    - title: Gitea
-      plans:
-        - Enterprise
-    - title: Bitbucket
-      plans:
-        - Enterprise
-    - title: Azure
-      plans:
-        - Enterprise
   plans:
     - title: Free
     - title: Team
     - title: Enterprise
+  categories:
+    - category: Design
+      features:
+        - featureTitle: Create unlimited APIs, Models, Endpoints, Articles, & Images
+          tooltip: Here's more information about this feature in a tooltip
+          plans:
+            - Free
+            - Team
+            - Enterprise
+        - featureTitle: OpenAPI 3 form support
+          tooltip: Here's more information about this feature in a tooltip
+          plans:
+            - Free
+            - Team
+            - Enterprise
+        - featureTitle: Native git integration
+          tooltip: Here's more information about this feature in a tooltip
+          plans:
+            - Free
+            - Team
+            - Enterprise
+        - featureTitle: Create and switch between branches
+          tooltip: Here's more information about this feature in a tooltip
+          plans:
+            - Free
+            - Team
+            - Enterprise
+        - featureTitle: Create projects from an existing directory/folder on your computer
+          tooltip: Here's more information about this feature in a tooltip
+          plans:
+            - Free
+            - Team
+            - Enterprise
+        - featureTitle: Powerful search
+          tooltip: Here's more information about this feature in a tooltip
+          plans:
+            - Free
+            - Team
+            - Enterprise
+        - featureTitle: Dark theme
+          tooltip: Here's more information about this feature in a tooltip
+          plans:
+            - Free
+            - Team
+            - Enterprise
+        - featureTitle: Private share links
+          tooltip: Here's more information about this feature in a tooltip
+          plans:
+            - Free
+            - Team
+            - Enterprise
+        - featureTitle: Style guides
+          tooltip: Here's more information about this feature in a tooltip
+          plans:
+            - Team
+            - Enterprise
+        - featureTitle: Design library
+          tooltip: Here's more information about this feature in a tooltip
+          plans:
+            - Enterprise
+        - featureTitle: Design library model masking
+          tooltip: Here's more information about this feature in a tooltip
+          plans:
+            - Enterprise
+    - category: Design, Visbility & Governance
+      features:
+        - featureTitle: Git repo analysis & auto discovery
+          tooltip: Here's more information about this feature in a tooltip
+          plans:
+            - Free
+            - Team
+            - Enterprise
+        - featureTitle: Data filters
+          tooltip: Here's more information about this feature in a tooltip
+          plans:
+            - Free
+            - Team
+            - Enterprise
+        - featureTitle: Project search
+          tooltip: Here's more information about this feature in a tooltip
+          plans:
+            - Free
+            - Team
+            - Enterprise
+        - featureTitle: Workspace search
+          tooltip: Here's more information about this feature in a tooltip
+          plans:
+            - Free
+            - Team
+            - Enterprise
+        - featureTitle: OpenAPI linter
+          tooltip: Here's more information about this feature in a tooltip
+          plans:
+            - Free
+            - Team
+            - Enterprise
+        - featureTitle: Dependency graph - inbound & outbound relationships
+          tooltip: Here's more information about this feature in a tooltip
+          plans:
+            - Enterprise
+    - category: Docs
+      features:
+        - featureTitle: Unlimited published APIs
+          tooltip: Here's more information about this feature in a tooltip
+          plans:
+            - Free
+            - Team
+            - Enterprise
+        - featureTitle: Integrated 'Try it Out' API console
+          tooltip: Here's more information about this feature in a tooltip
+          plans:
+            - Free
+            - Team
+            - Enterprise
+        - featureTitle: Rich, markdown powered docs
+          tooltip: Here's more information about this feature in a tooltip
+          plans:
+            - Free
+            - Team
+            - Enterprise
+        - featureTitle: Export support
+          tooltip: Here's more information about this feature in a tooltip
+          plans:
+            - Free
+            - Team
+            - Enterprise
+        - featureTitle: Versioning support
+          tooltip: Here's more information about this feature in a tooltip
+          plans:
+            - Free
+            - Team
+            - Enterprise
+        - featureTitle: Complex JSON support
+          tooltip: Here's more information about this feature in a tooltip
+          plans:
+            - Free
+            - Team
+            - Enterprise
+        - featureTitle: Unlimited pageviews
+          tooltip: Here's more information about this feature in a tooltip
+          plans:
+            - Free
+            - Team
+            - Enterprise
+        - featureTitle: Build history and instant rollbacks
+          tooltip: Here's more information about this feature in a tooltip
+          plans:
+            - Free
+            - Team
+            - Enterprise
+        - featureTitle: Custom domains
+          tooltip: Here's more information about this feature in a tooltip
+          plans:
+            - Team
+            - Enterprise
+        - featureTitle: Theming
+          tooltip: Here's more information about this feature in a tooltip
+          plans:
+            - Team
+            - Enterprise
+        - featureTitle: Custom branding
+          tooltip: Here's more information about this feature in a tooltip
+          plans:
+            - Team
+            - Enterprise
+        - featureTitle: White labeled
+          tooltip: Here's more information about this feature in a tooltip
+          plans:
+            - Enterprise
+        - featureTitle: Guest access
+          tooltip: Here's more information about this feature in a tooltip
+          plans:
+            - Enterprise
+    - category: Mocking
+      features:
+        - featureTitle: Hosted mocking
+          tooltip: Here's more information about this feature in a tooltip
+          plans:
+            - Free
+            - Team
+            - Enterprise
+        - featureTitle: Integrated mocking support within API console
+          tooltip: Here's more information about this feature in a tooltip
+          plans:
+            - Free
+            - Team
+            - Enterprise
+        - featureTitle: Validate inputs, responses, webhooks & callbacks
+          tooltip: Here's more information about this feature in a tooltip
+          plans:
+            - Free
+            - Team
+            - Enterprise
+        - featureTitle: Automatic reload
+          tooltip: Here's more information about this feature in a tooltip
+          plans:
+            - Free
+            - Team
+            - Enterprise
+    - category: Support
+      features:
+        - featureTitle: Dedicated customer success manager
+          tooltip: Here's more information about this feature in a tooltip
+          plans:
+            - Enterprise
+        - featureTitle: Invoicing options
+          tooltip: Here's more information about this feature in a tooltip
+          plans:
+            - Enterprise
+        - featureTitle: Bulk/scalable pricing
+          tooltip: Here's more information about this feature in a tooltip
+          plans:
+            - Enterprise
+    - category: Admin
+      features:
+        - featureTitle: Private & public project access
+          tooltip: Here's more information about this feature in a tooltip
+          plans:
+            - Enterprise
+        - featureTitle: SAML
+          tooltip: Here's more information about this feature in a tooltip
+          plans:
+            - Enterprise
+        - featureTitle: LDAP
+          tooltip: Here's more information about this feature in a tooltip
+          plans:
+            - Enterprise
+        - featureTitle: Domain capture
+          tooltip: Here's more information about this feature in a tooltip
+          plans:
+            - Enterprise
+    - category: Installation
+      features:
+        - featureTitle: On Premise
+          tooltip: Here's more information about this feature in a tooltip
+          plans:
+            - Enterprise
+    - category: One Supported Integration
+      features:
+        - featureTitle: GitHub
+          tooltip: Here's more information about this feature in a tooltip
+          plans:
+            - Free
+            - Team
+            - Enterprise
+        - featureTitle: GitLab
+          tooltip: Here's more information about this feature in a tooltip
+          plans:
+            - Free
+            - Team
+            - Enterprise
+        - featureTitle: Bitbucket
+          tooltip: Here's more information about this feature in a tooltip
+          plans:
+            - Free
+            - Team
+            - Enterprise
+        - featureTitle: Gitea
+          tooltip: Here's more information about this feature in a tooltip
+          plans:
+            - Free
+            - Team
+            - Enterprise
+        - featureTitle: Azure
+          tooltip: Here's more information about this feature in a tooltip
+          plans:
+            - Free
+            - Team
+            - Enterprise
+    - category: Unlimited Supported Integrations
+      features:
+        - featureTitle: GitHub
+          tooltip: Here's more information about this feature in a tooltip
+          plans:
+            - Enterprise
+        - featureTitle: GitLab
+          tooltip: Here's more information about this feature in a tooltip
+          plans:
+            - Enterprise
+        - featureTitle: Bitbucket
+          tooltip: Here's more information about this feature in a tooltip
+          plans:
+            - Enterprise
+        - featureTitle: Gitea
+          tooltip: Here's more information about this feature in a tooltip
+          plans:
+            - Enterprise
+        - featureTitle: Azure
+          tooltip: Here's more information about this feature in a tooltip
+          plans:
+            - Enterprise
+  # features:
+  #   - sectionTitle: Design
+  #     bold: true
+  #   - title: Create unlimited APIs, Models, Endpoints, Articles, & Images
+  #     toolTip: Here's more information about this feature in a tool tip
+  #     plans:
+  #       - Free
+  #       - Team
+  #       - Enterprise
+  #   - title: OpenAPI 3 form support
+  #     toolTip: Here's more information about the OpenAPI 3 form support in a tool tip
+  #     plans:
+  #       - Free
+  #       - Team
+  #       - Enterprise
+  #   - title: Native git integration
+  #     toolTip: Here's more information about this feature in a tool tip
+  #     plans:
+  #       - Free
+  #       - Team
+  #       - Enterprise
+  #   - title: Create and switch between branches
+  #     toolTip: Here's more information about this feature in a tool tip
+  #     plans:
+  #       - Free
+  #       - Team
+  #       - Enterprise
+  #   - title: Create projects from an existing directory/folder on your computer
+  #     toolTip: Here's more information about this feature in a tool tip
+  #     plans:
+  #       - Free
+  #       - Team
+  #       - Enterprise
+  #   - title: Powerful search
+  #     plans:
+  #       - Free
+  #       - Team
+  #       - Enterprise
+  #   - title: Dark theme
+  #     toolTip: Here's more information about this feature in a tool tip
+  #     plans:
+  #       - Free
+  #       - Team
+  #       - Enterprise
+  #   - title: Private share links
+  #     toolTip: Here's more information about this feature in a tool tip
+  #     plans:
+  #       - Free
+  #       - Team
+  #       - Enterprise
+  #   - title: Style guides
+  #     plans:
+  #       - Team
+  #       - Enterprise
+  #   - title: Design library
+  #     plans:
+  #       - Enterprise
+  #   - title: Design library model masking
+  #     plans:
+  #       - Enterprise
+  #   - sectionTitle: Design, Visbility & Governance
+  #     bold: true
+  #   - title: Git repo analysis & auto discovery
+  #     plans:
+  #       - Free
+  #       - Team
+  #       - Enterprise
+  #   - title: Data filters
+  #     plans:
+  #       - Free
+  #       - Team
+  #       - Enterprise
+  #   - title: Project search
+  #     plans:
+  #       - Free
+  #       - Team
+  #       - Enterprise
+  #   - title: Workspace search
+  #     plans:
+  #       - Free
+  #       - Team
+  #       - Enterprise
+  #   - title: OpenAPI linter
+  #     plans:
+  #       - Free
+  #       - Team
+  #       - Enterprise
+  #   - title: Dependency graph - inbound & outbound relationships
+  #     plans:
+  #       - Enterprise
+  #   - sectionTitle: Docs
+  #     bold: true
+  #   - title: Unlimited published APIs
+  #     plans:
+  #       - Free
+  #       - Team
+  #       - Enterprise
+  #   - title: Integrated 'Try it Out' API console
+  #     plans:
+  #       - Free
+  #       - Team
+  #       - Enterprise
+  #   - title: Rich, markdown powered docs
+  #     plans:
+  #       - Free
+  #       - Team
+  #       - Enterprise
+  #   - title: Export support
+  #     plans:
+  #       - Free
+  #       - Team
+  #       - Enterprise
+  #   - title: Versioning support
+  #     plans:
+  #       - Free
+  #       - Team
+  #       - Enterprise
+  #   - title: Complex JSON support
+  #     plans:
+  #       - Free
+  #       - Team
+  #       - Enterprise
+  #   - title: Unlimited pageviews
+  #     plans:
+  #       - Free
+  #       - Team
+  #       - Enterprise
+  #   - title: Build history and instant rollbacks
+  #     plans:
+  #       - Free
+  #       - Team
+  #       - Enterprise
+  #   - title: Custom domains
+  #     plans:
+  #       - Team
+  #       - Enterprise
+  #   - title: Theming
+  #     plans:
+  #       - Team
+  #       - Enterprise
+  #   - title: Custom branding
+  #     plans:
+  #       - Team
+  #       - Enterprise
+  #   - title: White labeled
+  #     plans:
+  #       - Enterprise
+  #   - title: Guest access
+  #     plans:
+  #       - Enterprise
+  #   - sectionTitle: Mocking
+  #     bold: true
+  #   - title: Hosted mocking
+  #     plans:
+  #       - Free
+  #       - Team
+  #       - Enterprise
+  #   - title: Integrated mocking support within API console
+  #     plans:
+  #       - Free
+  #       - Team
+  #       - Enterprise
+  #   - title: Validate inputs, responses, webhooks & callbacks
+  #     plans:
+  #       - Free
+  #       - Team
+  #       - Enterprise
+  #   - title: Automatic reload
+  #     plans:
+  #       - Free
+  #       - Team
+  #       - Enterprise
+  #   - sectionTitle: Support
+  #     bold: true
+  #   - title: Dedicated customer success manager
+  #     plans:
+  #       - Enterprise
+  #   - title: Invoicing options
+  #     plans:
+  #       - Enterprise
+  #   - title: Bulk/scalable pricing
+  #     plans:
+  #       - Enterprise
+  #   - sectionTitle: Admin
+  #     bold: true
+  #   - title: Private & public project access
+  #     plans:
+  #       - Enterprise
+  #   - title: SAML
+  #     plans:
+  #       - Enterprise
+  #   - title: LDAP
+  #     plans:
+  #       - Enterprise
+  #   - title: Domain capture
+  #     plans:
+  #       - Enterprise
+  #   - sectionTitle: Installation
+  #     bold: true
+  #   - title: On Premise
+  #     plans:
+  #       - Enterprise
+  #   - sectionTitle: One Supported Integration
+  #     bold: true
+  #   - title: GitHub
+  #     plans:
+  #       - Free
+  #       - Team
+  #       - Enterprise
+  #   - title: Gitlab
+  #     plans:
+  #       - Free
+  #       - Team
+  #       - Enterprise
+  #   - title: Gitea
+  #     plans:
+  #       - Free
+  #       - Team
+  #       - Enterprise
+  #   - title: Bitbucket
+  #     plans:
+  #       - Free
+  #       - Team
+  #       - Enterprise
+  #   - title: Azure
+  #     plans:
+  #       - Free
+  #       - Team
+  #       - Enterprise
+  #   - sectionTitle: Unlimited Supported Integrations
+  #     bold: true
+  #   - title: GitHub
+  #     plans:
+  #       - Enterprise
+  #   - title: Gitlab
+  #     plans:
+  #       - Enterprise
+  #   - title: Gitea
+  #     plans:
+  #       - Enterprise
+  #   - title: Bitbucket
+  #     plans:
+  #       - Enterprise
+  #   - title: Azure
+  #     plans:
+  #       - Enterprise
+  # plans:
+  #   - title: Free
+  #   - title: Team
+  #   - title: Enterprise

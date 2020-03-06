@@ -157,9 +157,7 @@ ul {
 .hubs-table {
   width: 100%;
   line-height: 1;
-  // .feature-title {
-  //   background-color: white;
-  // }
+
   th {
     font-weight: normal;
     position: sticky;
@@ -172,7 +170,7 @@ ul {
       padding-bottom: 0;
     }
   }
-  tr {
+  .cat-tr {
     &:nth-child(even) {
       background-color: #f5f7f9;
     }
@@ -199,6 +197,11 @@ ul {
       }
     }
   }
+}
+.title-tr {
+  background-color: white;
+  font-size: x-large;
+  font-weight: bold;
 }
 
 .tooltip {
