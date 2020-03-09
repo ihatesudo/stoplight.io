@@ -84,7 +84,7 @@ team:
       role: Software Engineer
     - image: /images/faust_headshot.png
       name: Scott Faust
-      role: Growth
+      role: Head of Growth
     - image: /images/deborah-garnel-headshot.jpg
       name: Deborah Garnel
       role: SDET
@@ -123,7 +123,7 @@ team:
       role: Software Engineer
     - image: /images/team/stephen-price.jpg
       name: Stephen Price
-      role: Sales Engineer
+      role: Solutions Consulting
     - image: /images/pytleski_headshot.png
       name: Thomas Pytleski
       role: Software Engineer
@@ -132,10 +132,10 @@ team:
       role: Software Engineer
     - image: /images/dave-headshot.jpg
       name: Dave Roberts
-      role: Customer Solutions
+      role:  Customer Solutions
     - image: /images/tonia-roberts-headshot.jpg
       name: Tonia Roberts
-      role: Senior Sales Director
+      role: Head of Sales
     - image: /images/jakub-rozek-headshot.jpg
       name: Jakub Rozek
       role: Software Engineer
@@ -159,7 +159,7 @@ team:
       role: Content & Support
     - image: /images/harrison-yeager-headshot.jpg
       name: Harrison Yeager
-      role: Operations
+      role: Head of Operations
     - image: /images/team/tamina-zaheri.png
       name: Tamina Zaheri
       role: Sales Development Rep
