@@ -162,7 +162,7 @@ const ProductLinks = () => {
       <div className="flex mt-3">
         <ProductLink
           name="Stoplight Explorer"
-          description="Placeholder text that will change about what Explorer is."
+          description="Search, filter, and understand complex API Architecture."
           className="mr-2"
           color="orange"
           href=""
@@ -171,7 +171,7 @@ const ProductLinks = () => {
 
         <ProductLink
           name="Stoplight Mocking"
-          description="Placeholder text that will change about what Explorer is."
+          description="Integrate with your API before it’s even built."
           className="ml-2"
           color="indigo"
           href="/mocking"
