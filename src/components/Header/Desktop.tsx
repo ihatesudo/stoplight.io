@@ -178,35 +178,56 @@ const ProductLinks = () => {
           tag="mocking"
         />
       </div>
-    </div>
-  );
-};
+      <div className="mt-3 ml-2 font-medium uppercase text-grey-darker">Open Source</div>
 
-const OpenSourceLinks = () => {
-  return (
-    <div className="p-6">
-      <div className="flex">
+      <div className="flex mt-3">
         <ProductLink
           name="Spectral"
           description="Create API style guides to increase API consistency and quality."
           className="mr-2"
-          color="blue"
+          color="green"
           href="/open-source/spectral"
-          icon={['fad', 'badge-check']}
+          tag="Quality"
         />
 
         <ProductLink
           name="Prism"
           description="Powerful mock servers, driven by your OpenAPI design documents."
           className="ml-2"
-          color="green"
+          color="purple"
           href="/open-source/prism"
-          icon={['fad', 'database']}
+          tag="Validation"
         />
       </div>
     </div>
   );
 };
+
+// const OpenSourceLinks = () => {
+//   return (
+//     <div className="p-6">
+//       <div className="flex">
+//         <ProductLink
+//           name="Spectral"
+//           description="Create API style guides to increase API consistency and quality."
+//           className="mr-2"
+//           color="blue"
+//           href="/open-source/spectral"
+//           icon={['fad', 'badge-check']}
+//         />
+
+//         <ProductLink
+//           name="Prism"
+//           description="Powerful mock servers, driven by your OpenAPI design documents."
+//           className="ml-2"
+//           color="green"
+//           href="/open-source/prism"
+//           icon={['fad', 'database']}
+//         />
+//       </div>
+//     </div>
+//   );
+// };
 
 export const Desktop: React.FunctionComponent<{ items: IHeaderItem[]; unpinned: boolean }> = ({ items, unpinned }) => {
   if (!items || !items.length) return null;
@@ -271,7 +292,7 @@ export const Desktop: React.FunctionComponent<{ items: IHeaderItem[]; unpinned: 
       <HeaderDropdown title="Products" className="text-lg sm:hidden" content={() => <ProductLinks />} />
       {nonButtonElems}
       {aboutDropDown}
-      <HeaderDropdown title="Open Source" className="text-lg sm:hidden" content={() => <OpenSourceLinks />} />
+      {/* <HeaderDropdown title="Open Source" className="text-lg sm:hidden" content={() => <OpenSourceLinks />} /> */}
       <div className="flex-1" />
       {buttonElems}
     </>

@@ -29,11 +29,11 @@ header:
           title: API Design
           titleColor: blue
         - href: '/development'
-          icon: ['fad', 'ruler']
+          icon: ['fad', 'code']
           title: API Development
           titleColor: orange
         - href: /mocking
-          icon: ['fad', 'microscope']
+          icon: ['fad', 'database']
           title: API Mocking
           titleColor: indigo
         - href: /documentation
@@ -41,7 +41,7 @@ header:
           title: API Documentation
           titleColor: yellow
         - href: /visibility
-          icon: ['fad', 'glasses']
+          icon: ['fad', 'chart-network']
           title: API Visibility
           titleColor: red
         - href: /governance
@@ -104,13 +104,13 @@ header:
       title: Enterprise
     - href: /demo
       isButton: true
-      title: Book a Demo
+      title: Sign In
       altBg: purple
     - href: /studio
       redirect: 'https://stoplight.io/p/studio?utm_source=studio_landing&utm_medium=start_button&utm_campaign=dynamic_start'
       altHref: /studio
       isButton: true
-      title: Start
+      title: Get Started
       icon: ['fad', 'arrow-right']
 actionBar:
   ctas:
