@@ -1,7 +1,6 @@
 import * as React from 'react';
 
 import { Container } from '../Container';
-import { Icon } from '../Icon';
 import { Section } from '../Section';
 
 export interface IFAQ {
@@ -21,18 +20,18 @@ export const FAQ: React.FunctionComponent<IFAQ> = ({ title, questions, className
     <Section>
       <Container className="mx-auto">
         <div className="mb-20">
-          {title && <div className="pb-16 text-3xl font-bold text-center">{title}</div>}
+          {title && <div className="text-4xl font-bold leading-tight text-center">{title}</div>}
           <div
-            className="max-w-lg pb-16 mx-auto text-lg leading-loose text-center"
+            className="max-w-lg pt-10 mx-auto text-lg leading-loose text-center"
             dangerouslySetInnerHTML={{ __html: description }}
           />
 
-          <div className="flex flex-wrap justify-between">
+          <div className="flex flex-wrap justify-between md:justify-around">
             {questions &&
               questions.map(q => (
                 <div className="w-2/5 pt-10 mx-4 markdown-body md:mt-20">
                   <div className="text-3xl font-bold" dangerouslySetInnerHTML={{ __html: q.question }} />
-                  <div className="" dangerouslySetInnerHTML={{ __html: q.answer }} />
+                  <div dangerouslySetInnerHTML={{ __html: q.answer }} />
                 </div>
               ))}
           </div>

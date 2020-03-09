@@ -30,7 +30,7 @@ export interface IPricingPlans {
 
 export const PlanFeature: React.FunctionComponent<IPlanFeature> = ({ name }) => {
   return (
-    <div className="flex items-center py-2">
+    <div className="flex items-center py-3">
       <Icon icon={['fad', 'check-circle']} className={`mr-3 text-blue`} /> <div className="text-lg">{name}</div>
     </div>
   );
@@ -46,10 +46,10 @@ export const PricingPlan: React.FunctionComponent<IPricingPlan> = ({
   button,
 }) => {
   return (
-    <div className={`flex-1 flex flex-col h-full mx-3 rounded-lg md:my-6 md:flex-auto md:w-full bg-${titleColor}`}>
-      <div className="items-start flex-1 p-10 mt-2 bg-white shadow-md ">
-        <div className="px-8 py-8 mb-10 -mx-10 -mt-10 border-b bg-grey-lightest">
-          <div className="items-center mb-2 text-3xl font-extrabold text-center">{title}</div>
+    <div className={` flex flex-col h-full mx-3 rounded-lg md:my-6 md:flex-auto sm:flex-wrap bg-${titleColor}`}>
+      <div className="flex-1 p-10 mt-2 bg-white shadow-md ">
+        <div className="py-8 mb-10 -mx-10 -mt-10 border-b bg-grey-lightest">
+          <div className="items-center mb-2 text-4xl font-extrabold text-center">{title}</div>
           {price.button ? (
             <div className="pb-8 text-center">
               <div className="mt-4 text-xl font-bold leading-loose ">{price.title}</div>
@@ -90,8 +90,8 @@ export const PricingPlans: React.FunctionComponent<IPricingPlans> = ({ color, pl
 
   return (
     <>
-      <Container className="relative pb-32 border-b -mt-96 z-5">
-        <div className="flex md:mx-0">
+      <Container className="relative pb-32 border-b -mt-96 z-5 ">
+        <div className="flex md:mx-3 sm:flex-wrap">
           {plans.map((pricingPlan, key) => (
             <div
               className={cn('w-128', {

@@ -32,21 +32,11 @@ export const Pricing: React.FunctionComponent<IPricing> = ({
     <Layout>
       <Hero bgColor={color} {...hero} containerClassName="pb-64" />
       <PricingPlans color={color} plans={plans} />
-
       <Collage {...collage} />
       <div className="container w-3/4 border-b"></div>
       <DocPlans {...docPlans} />
-      <div className="pb-24">
-        <ActionBar text={actionBar.text} ctas={actionBar.ctas} enabled={actionBar.enabled} />
-      </div>
-      <div className="container w-3/4 border-b"></div>
-
+      <ActionBar text={actionBar.text} ctas={actionBar.ctas} enabled={actionBar.enabled} />
       <FAQ {...faq} />
-      {actionBar && (
-        <div className="pb-24">
-          <ActionBar text={actionBar.text} ctas={actionBar.ctas} enabled={actionBar.enabled} />
-        </div>
-      )}
     </Layout>
   );
 };

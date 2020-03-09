@@ -35,6 +35,7 @@ plans:
     features:
       - name: Up to 100 users
       - name: Up to 20 projects
+      - name: All features included in the Free plan
       - name: Custom Domains
       - name: Theming
       - name: Custom Branding
@@ -58,8 +59,9 @@ plans:
     features:
       - name: Unlimited users
       - name: Unlimited projects
+      - name: All features included in the Team plan
       - name: Model Masking
-      - name: Inbound & Outbound API Dependency Graph
+      - name: In & Outbound API Dependency Graph
       - name: Multiple Design Libraries
       - name: On-Premise Deployment
       - name: SSO & Authentication
@@ -89,7 +91,7 @@ collage:
     - alt: Zendesk
       src: /images/logo_zendesk.png
   title: >-
-    Thousands of companies use Stoplight to streamline their API & Microservices
+    Thousands of companies rely on Stoplight to streamline their API & Microservices
     workflow
 faq:
   title: Frequently Asked Questions
@@ -310,7 +312,7 @@ docPlans:
           plans:
             - Team
             - Enterprise
-        - featureTitle: White labeled
+        - featureTitle: Remove Stoplight logo
           tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
           plans:
             - Enterprise
@@ -344,6 +346,18 @@ docPlans:
             - Free
             - Team
             - Enterprise
+    - category: Supported Integrations
+      features:
+        - featureTitle: One external integration
+          tooltip: GitHub, GitLab, Gitea, Bitbucket, Azure
+          plans:
+            - Free
+            - Team
+            - Enterprise
+        - featureTitle: Unlimited external integrations
+          tooltip: GitHub, GitLab, Gitea, Bitbucket, Azure
+          plans:
+            - Enterprise
     - category: Support
       features:
         - featureTitle: Dedicated customer success manager
@@ -376,21 +390,10 @@ docPlans:
           tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
           plans:
             - Enterprise
+
     - category: Installation
       features:
         - featureTitle: On Premise
           tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
-          plans:
-            - Enterprise
-    - category: Supported Integrations
-      features:
-        - featureTitle: One external integration
-          tooltip: GitHub, GitLab, Gitea, Bitbucket, Azure
-          plans:
-            - Free
-            - Team
-            - Enterprise
-        - featureTitle: Unlimited external integrations
-          tooltip: GitHub, GitLab, Gitea, Bitbucket, Azure
           plans:
             - Enterprise

@@ -1,5 +1,6 @@
 import cn from 'classnames';
 import * as React from 'react';
+import { Manager, Popper, Reference } from 'react-popper';
 
 import { Container } from '../Container';
 import { Icon } from '../Icon';
@@ -42,10 +43,10 @@ export const DocPlans: React.FunctionComponent<IDocPlans> = ({
   categories,
 }) => {
   return (
-    <Section id="docPlans">
+    <Section id="docPlans" className="sm:hidden">
       <Container className="mx-auto ">
         <div className="mb-20 text-center">
-          <div className="text-3xl font-bold">{title}</div>
+          <div className="text-4xl font-bold">{title}</div>
         </div>
         <div className="container w-3/4 h-2 rounded-t-lg shadow-md bg-blue"></div>
         <div className="sticky-pricing">
@@ -80,7 +81,7 @@ export const DocPlans: React.FunctionComponent<IDocPlans> = ({
                 categories.map((c, index) => {
                   return (
                     <>
-                      <h3 className="pt-10 pl-6 bg-white font-xl">{c.category}</h3>
+                      <h3 className="py-12 bg-white font-xl">{c.category}</h3>
 
                       {c.features &&
                         c.features.map((f, i) => {
@@ -88,34 +89,46 @@ export const DocPlans: React.FunctionComponent<IDocPlans> = ({
                             <tr className="cat-tr">
                               {f.featureTitle && f.tooltip ? (
                                 <td className="underline">
-                                  {f.featureTitle}
-                                  <div className="absolute z-50 w-1/6 -ml-24 -mt-14 tooltip">
-                                    <div className="px-2 py-2 text-white bg-black rounded-xl bottom-full">
-                                      {f.tooltip}
-                                    </div>
-                                    <svg className="left-0 h-4 top-full" x="0px" y="0px" viewBox="0 0 255 255">
-                                      <polygon className="fill-current" points="0,0 127.5,127.5 255,0" />
-                                    </svg>
-                                  </div>
+                                  <Manager>
+                                    <Reference>{({ ref }) => <p ref={ref}>{f.featureTitle}</p>}</Reference>
+                                    <Popper placement="right">
+                                      {({
+                                        ref,
+                                        placement,
+                                        arrowProps = {
+                                          ref: 'test',
+                                          style: {
+                                            backgroundColor: 'purple',
+                                          },
+                                        },
+                                      }) => (
+                                        <div className="tooltip" ref={ref} data-placement={placement}>
+                                          {f.tooltip}
+
+                                          <div ref={arrowProps.ref} style={arrowProps.style} />
+                                        </div>
+                                      )}
+                                    </Popper>
+                                  </Manager>
                                 </td>
                               ) : (
                                 <td></td>
                               )}
-
-                              {/* {f.tooltip ? (
-                                <td>
-                                  <Icon icon="question-circle" size="sm" />
-                                </td>
-                              ) : (
-                                <td></td>
-                              )} */}
 
                               {plans.map((plan, planIndex) => {
                                 return (
                                   <>
                                     {f.plans && f.plans.includes(plan.title) ? (
                                       <td key={planIndex}>
-                                        <Icon className="text-green" icon="check" size="lg" />
+                                        <Icon
+                                          className={cn({
+                                            'text-purple': plan.title === 'Enterprise',
+                                            'text-indigo': plan.title === 'Team',
+                                            'text-green': plan.title === 'Free',
+                                          })}
+                                          icon="check"
+                                          size="lg"
+                                        />
                                       </td>
                                     ) : (
                                       <td></td>

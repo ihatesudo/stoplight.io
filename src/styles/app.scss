@@ -207,6 +207,14 @@ ul {
 
 .tooltip {
   visibility: hidden;
+  background: #333;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 4px 8px;
+  font-size: 13px;
+  border-radius: 4px;
+  z-index: 9999;
 
   .top-full {
     top: 100%;
