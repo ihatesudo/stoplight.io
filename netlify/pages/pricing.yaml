@@ -138,9 +138,9 @@ actionBar:
   ctas:
     - color: accent
       href: '/demo'
-      title: Book a Demo
+      title: Speak with a Solutions Engineer.
   enabled: true
-  text: Need help picking a plan? Speak with a Solutions Engineer.
+  text: Need help picking a plan?
 docPlans:
   title: Feature Breakdown by Plan
   plans:
