@@ -50,7 +50,7 @@ export const DocPlans: React.FunctionComponent<IDocPlans> = ({
         </div>
         <div className="container w-3/4 h-2 rounded-t-lg shadow-md bg-blue"></div>
         <div className="sticky-pricing">
-          <div className="container flex justify-end w-3/4 h-32 bg-white border-b-8 ">
+          <div className="container flex justify-end w-3/4 h-32 bg-white border-b">
             {plans &&
               plans.length > 0 &&
               plans.map((p, index) => (
@@ -81,7 +81,7 @@ export const DocPlans: React.FunctionComponent<IDocPlans> = ({
                 categories.map((c, index) => {
                   return (
                     <>
-                      <h3 className="py-12 bg-white font-xl">{c.category}</h3>
+                      <h3 className="py-10 bg-white font-xl">{c.category}</h3>
 
                       {c.features &&
                         c.features.map((f, i) => {
@@ -102,7 +102,7 @@ export const DocPlans: React.FunctionComponent<IDocPlans> = ({
                                           },
                                         },
                                       }) => (
-                                        <div className="tooltip" ref={ref} data-placement={placement}>
+                                        <div className="absolute tooltip" ref={ref} data-placement={placement}>
                                           {f.tooltip}
 
                                           <div ref={arrowProps.ref} style={arrowProps.style} />

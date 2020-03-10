@@ -1,7 +1,7 @@
 path: /pricing
 hero:
   particles: true
-  title: Pricing
+  title: Stoplight Plans and Pricing
 plans:
   - title: Free
     titleColor: green
@@ -140,7 +140,7 @@ actionBar:
       href: '/demo'
       title: Book a Demo
   enabled: true
-  text: Need help picking a plan? Speak with a Solutions Architect.
+  text: Need help picking a plan? Speak with a Solutions Engineer.
 docPlans:
   title: Feature Breakdown by Plan
   plans:
