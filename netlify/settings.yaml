@@ -84,10 +84,14 @@ header:
           icon: ['fad', 'toolbox']
           title: Careers
           titleColor: orange
+        - href: '/blog'
+          icon: ['fad', 'pencil']
+          title: Blog
+          titleColor: purple
         - href: 'https://support.stoplight.io'
           icon: ['fad', 'book-open']
           title: Help Center
-          titleColor: purple
+          titleColor: indigo
         - href: 'https://community.stoplight.io/'
           icon: ['fad', 'users']
           title: Forum
@@ -98,17 +102,14 @@ header:
           titleColor: yellow
       title: About
       width: 300
-    - href: /blog
-      title: Blog
+
     - href: /enterprise
       title: Enterprise
-    - href: /demo
+    - href: https://stoplight.io/p/studio
       isButton: true
       title: Sign In
       altBg: purple
-    - href: /studio
-      redirect: 'https://stoplight.io/p/studio?utm_source=studio_landing&utm_medium=start_button&utm_campaign=dynamic_start'
-      altHref: /studio
+    - href: https://stoplight.io/p/signup
       isButton: true
       title: Get Started
       icon: ['fad', 'arrow-right']

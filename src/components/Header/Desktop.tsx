@@ -143,7 +143,7 @@ const ProductLinks = () => {
       <div className="flex mt-3">
         <ProductLink
           name="Stoplight Studio"
-          description="Next gen editor for OpenAPI, markdown, and JSON schema."
+          description="Easily edit & collaborate on OpenAPI, Markdown, and JSON schema."
           className="mr-2"
           color="blue"
           href="/studio"
@@ -152,7 +152,7 @@ const ProductLinks = () => {
 
         <ProductLink
           name="Stoplight Docs"
-          description="Beautiful free technical documentation in a single click."
+          description="Get beautiful free technical documentation in a single click."
           className="ml-2"
           color="green"
           href="/docs"
@@ -166,7 +166,7 @@ const ProductLinks = () => {
           className="mr-2"
           color="orange"
           href=""
-          tag="placeholder"
+          tag="Visibility"
         />
 
         <ProductLink
@@ -175,7 +175,7 @@ const ProductLinks = () => {
           className="ml-2"
           color="indigo"
           href="/mocking"
-          tag="mocking"
+          tag="Validation"
         />
       </div>
       <div className="mt-3 ml-2 font-medium uppercase text-grey-darker">Open Source</div>
@@ -187,47 +187,21 @@ const ProductLinks = () => {
           className="mr-2"
           color="green"
           href="/open-source/spectral"
-          tag="Quality"
+          icon={['fad', 'badge-check']}
         />
 
         <ProductLink
           name="Prism"
-          description="Powerful mock servers, driven by your OpenAPI design documents."
+          description="Run powerful mock servers, driven by your OpenAPI design documents."
           className="ml-2"
           color="purple"
           href="/open-source/prism"
-          tag="Validation"
+          icon={['fad', 'database']}
         />
       </div>
     </div>
   );
 };
-
-// const OpenSourceLinks = () => {
-//   return (
-//     <div className="p-6">
-//       <div className="flex">
-//         <ProductLink
-//           name="Spectral"
-//           description="Create API style guides to increase API consistency and quality."
-//           className="mr-2"
-//           color="blue"
-//           href="/open-source/spectral"
-//           icon={['fad', 'badge-check']}
-//         />
-
-//         <ProductLink
-//           name="Prism"
-//           description="Powerful mock servers, driven by your OpenAPI design documents."
-//           className="ml-2"
-//           color="green"
-//           href="/open-source/prism"
-//           icon={['fad', 'database']}
-//         />
-//       </div>
-//     </div>
-//   );
-// };
 
 export const Desktop: React.FunctionComponent<{ items: IHeaderItem[]; unpinned: boolean }> = ({ items, unpinned }) => {
   if (!items || !items.length) return null;
@@ -292,7 +266,6 @@ export const Desktop: React.FunctionComponent<{ items: IHeaderItem[]; unpinned: 
       <HeaderDropdown title="Products" className="text-lg sm:hidden" content={() => <ProductLinks />} />
       {nonButtonElems}
       {aboutDropDown}
-      {/* <HeaderDropdown title="Open Source" className="text-lg sm:hidden" content={() => <OpenSourceLinks />} /> */}
       <div className="flex-1" />
       {buttonElems}
     </>
