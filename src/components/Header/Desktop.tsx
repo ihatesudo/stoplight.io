@@ -178,23 +178,28 @@ const ProductLinks = () => {
           tag="Validation"
         />
       </div>
-      <div className="mt-3 ml-2 font-medium uppercase text-grey-darker">Open Source</div>
+    </div>
+  );
+};
 
-      <div className="flex mt-3">
+const OpenSourceLinks = () => {
+  return (
+    <div className="p-6">
+      <div className="flex">
         <ProductLink
           name="Spectral"
           description="Create API style guides to increase API consistency and quality."
           className="mr-2"
-          color="green"
+          color="blue"
           href="/open-source/spectral"
           icon={['fad', 'badge-check']}
         />
 
         <ProductLink
           name="Prism"
-          description="Run powerful mock servers, driven by your OpenAPI design documents."
+          description="Powerful mock servers, driven by your OpenAPI design documents."
           className="ml-2"
-          color="purple"
+          color="green"
           href="/open-source/prism"
           icon={['fad', 'database']}
         />
@@ -265,6 +270,7 @@ export const Desktop: React.FunctionComponent<{ items: IHeaderItem[]; unpinned: 
     <>
       <HeaderDropdown title="Products" className="text-lg sm:hidden" content={() => <ProductLinks />} />
       {nonButtonElems}
+      <HeaderDropdown title="Open Source" className="text-lg sm:hidden" content={() => <OpenSourceLinks />} />
       {aboutDropDown}
       <div className="flex-1" />
       {buttonElems}

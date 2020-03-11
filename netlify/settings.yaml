@@ -102,16 +102,17 @@ header:
           titleColor: yellow
       title: About
       width: 300
-
     - href: /enterprise
       title: Enterprise
+    - href: /pricing
+      title: Pricing
     - href: https://stoplight.io/p/studio
       isButton: true
       title: Sign In
-      altBg: purple
     - href: https://stoplight.io/p/signup
       isButton: true
-      title: Get Started
+      title: GET STARTED
+      altBg: purple
       icon: ['fad', 'arrow-right']
 actionBar:
   ctas:
