@@ -67,16 +67,18 @@ export const Feature: React.FunctionComponent<IFeature> = props => {
       </div>
       {overlayImage ? (
         <div className="relative w-1/2 -mr-10 sm:hidden">
-          <Image src="/images/studio/hero.png" />
-          <Image src="/images/studio/hero.png" className="relative -mt-64 -ml-16" />
+          <Image src="/images/studio/hero.png" className="mt-1 rounded-lg shadow-lg" />
+          <Image src="/images/studio/hero.png" className="relative -mt-64 -ml-16 rounded-lg shadow-lg" />
         </div>
       ) : (
         <div className="relative w-1/2 sm:hidden">
           <Image
             src={image}
-            className={cn('bg-contain bg-no-repeat h-128 w-auto', { 'ml-auto': !isReversed })}
-            // style={{ boxShadow: '0 0 4px rgba(0, 0, 0, 0.5)' }}
-            useDiv
+            className={cn('bg-contain bg-no-repeat ml-auto rounded-lg shadow-lg w-auto mt-1', {
+              'ml-auto': !isReversed,
+            })}
+            style={{ boxShadow: '0 0 4px rgba(0, 0, 0, 0.5)' }}
+            // useDiv
           />
         </div>
       )}
