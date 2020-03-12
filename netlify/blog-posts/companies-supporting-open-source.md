@@ -80,6 +80,8 @@ For example, we use JSON Schema Faker in our [open-source HTTP mocking server Pr
 
 [Jakub Rożek](https://github.com/P0lip) sent a few PRs to [microsoft/node-jsonc-parser](https://github.com/microsoft/node-jsonc-parser) ([#17](https://github.com/microsoft/node-jsonc-parser/pull/17) and [#24](https://github.com/microsoft/node-jsonc-parser/pull/24)).
 
+[Karol Maciaszek](https://github.com/karol-maciaszek) has a few tweaks for sorting out Python and PowerShell code examples for [kong/httpsnippet](https://github.com/Kong/httpsnippet) ([#133](https://github.com/Kong/httpsnippet/pull/138) and [#138](https://github.com/Kong/httpsnippet/pull/138)).
+
 Doing this, we managed to axe a bunch of repos from our organization, taking us from 240 (😱) down to 197 (😅). _More work to be done_.
 
 If you need a sales pitch to get your boss to approve this, and "it's the right thing to do" isn't landing, you can explain that your team will no longer have to maintain these forks. Keeping an in-house fork up-to-date with features, security patches, possible conflicts, etc. is a time suck.
