@@ -1,10 +1,56 @@
 hero:
   particles: true
-  skew: rounded
+  # skew: rounded
   subtitle: >-
-    The API Design Management Platform powering the world's leading API first
-    companies.
+    Transform the way your team designs, documents, and mocks APIs.
   title: The Best APIs Start with Stoplight
+  ctas:
+    - color: green
+      href: /studio
+      title: GET STARTED
+pageSubjects:
+  - title: Design First, Develop Better
+    description: >-
+      Stoplight believes in OpenAPI’s design-first approach when it comes to building APIs. 
+      Know exactly what you need to build before writing a single line of code. Reduce your 
+      development time, minimize bugs, and improve your API’s longevity with Stoplight Studio.
+    cta: Explore Stoplight Studio
+    href: /studio
+  - title: Gain API Visibility
+    description: >-
+      TBD. Placeholder text to go here about gaining API visibility.
+    cta: Explore Something
+    href: /studio
+  - title: Quick & Precise Documentation
+    description: >-
+      Documentation is fundamental to an API’s success. 
+      Stoplight gives you peace of mind by automatically generating beautiful 
+      documentation and ensuring it remains in sync with your API’s latest design specification.
+    cta: Explore Stoplight Docs
+    href: /docs
+  - title: Get Everyone Involved
+    description: >-
+      Stoplight Workspaces make it easy for different stakeholders to 
+      collaborate within a single platform. From allowing developers 
+      implementing a specification, to enabling project managers merging 
+      microservices, Stoplight is a comprehensive API tool for the entire team.
+    cta: Explore Stoplight Workspaces
+    href: /docs
+  - title: Instant Hosted Mocking
+    description: >-
+      Create a better API by getting early feedback before writing a single line of code. 
+      Integrate with an API before it's even built and enable teams to develop integrated 
+      components in parallel. Break out of waterfall development and shave weeks off of your project timeline.
+    cta: Explore Stoplight Mocking
+    href: /mocking
+  - title: Create Quality Standards
+    description: >-
+      Accelerate development without sacrificing quality. 
+      Streamline every design decision with built-in linting and custom 
+      style guides. Enforce your organization’s standard to enhance the development 
+      process and your API’s consumers experience.
+    cta: Explore Stoplight Quality
+    href: /quality
 features:
   - name: API Design
     description: Quickly model your APIs using visual tools on top of open standards.
