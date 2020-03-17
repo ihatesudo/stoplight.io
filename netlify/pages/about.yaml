@@ -145,9 +145,6 @@ team:
     - image: /images/phil-sturgeon-headshot2.png
       name: Phil Sturgeon
       role: Developer Advocate
-    - image: /images/surratt-headshot.jpg
-      name: Kristen Surratt
-      role: Growth
     - image: /images/toth_headshot.jpg
       name: Marcell Toth
       role: Software Engineer
@@ -157,6 +154,9 @@ team:
     - image: /images/wallach_headshot.png
       name: Robert Wallach
       role: Content & Support
+    - image: /images/kristen-headshot.jpg
+      name: Kristen White
+      role: Growth
     - image: /images/harrison-yeager-headshot.jpg
       name: Harrison Yeager
       role: Head of Operations
