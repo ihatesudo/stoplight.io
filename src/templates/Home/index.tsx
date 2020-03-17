@@ -13,6 +13,7 @@ import { SimpleCardTop } from 'src/components/SimpleCard/SimpleCardTop';
 import { ITestimonials, Testimonials } from 'src/components/Testimonials';
 import { Container, IContainer } from '../../components/Container';
 import { Hero, IHero } from '../../components/Hero';
+import { HomeHero } from '../../components/Hero/HomeHero';
 import { Icon } from '../../components/Icon';
 import { IImage, Image } from '../../components/Image';
 import { Layout } from '../../components/Layout';
@@ -35,6 +36,8 @@ interface IPageSubject {
   description: string;
   cta: string;
   href: string;
+  tag: string;
+  color: string;
 }
 interface ICustomerSection extends ISection {
   images: IImage[];
@@ -75,24 +78,39 @@ export const Home: React.FunctionComponent<IHome> = ({
 }) => {
   return (
     <Layout>
-      <Hero bgColor={color} {...hero} bottomElem={<ProductCards className="pt-64 sm:pt-6" />} />
+      <HomeHero bgColor={color} {...hero} />
 
       {pageSubjects && (
         <Section id="subjects" {...sectionProps}>
           <Container title="Quality APIs Don't Just Happen">
             <div className="flex flex-wrap justify-center md:justify-center mt-14">
               {pageSubjects.map((subject, index) => (
-                <SimpleCard key={index} className="p-8 m-4 bg-white w-96 h-96" hoverable href={subject.href}>
-                  <SimpleCardTop>
-                    <div className="items-start text-lg font-semibold uppercase text-grey-darkest">{subject.title}</div>
-                  </SimpleCardTop>
-                  <SimpleCardBody description={subject.description} className="mt-4 leading-loose text-grey-darker" />
-                  <SimpleCardBottom className="flex items-center mt-6 mb-3 border-t">
-                    <div className="flex items-center flex-1 mt-8 text-blue">
-                      {subject.cta} <Icon icon={['fad', 'arrow-right']} className="ml-3" />
-                    </div>
-                  </SimpleCardBottom>
-                </SimpleCard>
+                <div className="px-4 mb-6 text-grey-darker hover:bg-grey-lightest w-100 h-100">
+                  <SimpleCard
+                    key={index}
+                    className="flex flex-col p-8 bg-white h-96 w-96"
+                    hoverable
+                    href={subject.href}
+                  >
+                    <SimpleCardTop className="items-start pb-4">
+                      <SimpleCardTitle
+                        subtitle={subject.title}
+                        className="mt-3 text-lg font-bold uppercase text-grey-darker"
+                      />
+                    </SimpleCardTop>
+                    <SimpleCardBody
+                      description={subject.description}
+                      className="items-start mt-4 leading-loose text-grey-darker"
+                    />
+                    <SimpleCardBottom className="flex items-center mt-6 mb-3 border-t">
+                      <div className="flex items-center flex-1 mt-8 text-blue">
+                        {subject.cta} <Icon icon={['fad', 'arrow-right']} className="ml-3" />
+                      </div>
+
+                      <SimpleCardTag tag={subject.tag} color={subject.color} className="mt-8" />
+                    </SimpleCardBottom>
+                  </SimpleCard>
+                </div>
               ))}
             </div>
           </Container>

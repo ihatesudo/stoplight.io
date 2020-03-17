@@ -1,56 +1,69 @@
 hero:
   particles: true
+  aligned: left
   # skew: rounded
+  rightElem:
+    image:
+      alt: Stoplight Enterprise Platform
+      src: /images/stoplight-dude-light-waving.png
   subtitle: >-
+    Streamline your API Development workflow with a powerful API creation platform. 
     Transform the way your team designs, documents, and mocks APIs.
   title: The Best APIs Start with Stoplight
   ctas:
-    - color: green
+    - color: purple
       href: /studio
       title: GET STARTED
 pageSubjects:
-  - title: Design First, Develop Better
+  - title: Design First
     description: >-
-      Stoplight believes in OpenAPI’s design-first approach when it comes to building APIs. 
       Know exactly what you need to build before writing a single line of code. Reduce your 
       development time, minimize bugs, and improve your API’s longevity with Stoplight Studio.
-    cta: Explore Stoplight Studio
+    cta: Explore Studio
     href: /studio
+    tag: design
+    color: green
   - title: Gain API Visibility
     description: >-
-      TBD. Placeholder text to go here about gaining API visibility.
+      Know exactly what you need to build before writing a single line of code. Reduce your 
+      development time, minimize bugs, and improve your API’s longevity with Stoplight Studio.
     cta: Explore Something
     href: /studio
-  - title: Quick & Precise Documentation
+    tag: visibility
+    color: blue
+  - title: Quick Documentation
     description: >-
-      Documentation is fundamental to an API’s success. 
-      Stoplight gives you peace of mind by automatically generating beautiful 
-      documentation and ensuring it remains in sync with your API’s latest design specification.
-    cta: Explore Stoplight Docs
+      Automatically generate beautiful documentation and 
+      ensure it remains in sync with your API’s latest design specification.
+    cta: Explore Docs
     href: /docs
+    tag: documentation
+    color: orange
   - title: Get Everyone Involved
     description: >-
-      Stoplight Workspaces make it easy for different stakeholders to 
-      collaborate within a single platform. From allowing developers 
-      implementing a specification, to enabling project managers merging 
-      microservices, Stoplight is a comprehensive API tool for the entire team.
-    cta: Explore Stoplight Workspaces
+      Collaborate with the entire team across one platform to implement specifications, 
+      merge microservices, and much more.
+    cta: Explore Workspaces
     href: /docs
+    tag: collaboration
+    color: purple
   - title: Instant Hosted Mocking
     description: >-
-      Create a better API by getting early feedback before writing a single line of code. 
-      Integrate with an API before it's even built and enable teams to develop integrated 
-      components in parallel. Break out of waterfall development and shave weeks off of your project timeline.
-    cta: Explore Stoplight Mocking
+      Integrate with an API before it's even built, enable teams to develop 
+      components in parallel, and break free from waterfall development.
+    cta: Explore Mocking
     href: /mocking
+    tag: mocking
+    color: yellow
   - title: Create Quality Standards
     description: >-
       Accelerate development without sacrificing quality. 
       Streamline every design decision with built-in linting and custom 
-      style guides. Enforce your organization’s standard to enhance the development 
-      process and your API’s consumers experience.
-    cta: Explore Stoplight Quality
+      style guides.
+    cta: Explore Quality
     href: /quality
+    tag: quality
+    color: indigo
 features:
   - name: API Design
     description: Quickly model your APIs using visual tools on top of open standards.
