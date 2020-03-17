@@ -136,13 +136,19 @@ export const Banner = ({ banner }) => {
         <Icon icon={['fad', 'rocket']} className="mr-3" />
 
         <div className="flex-1" dangerouslySetInnerHTML={{ __html: banner && banner.markdown }} />
+        <div className="mr-10 ">
+          <Icon icon={['fad', 'user']} className="mr-3" />
+          <Link className="font-bold" to="https://stoplight.io/demo">
+            Log In
+          </Link>
+        </div>
 
-        <div
+        {/* <div
           className="flex items-center justify-center justify-end p-2 rounded cursor-pointer hover:bg-lighten-100 text-lighten-400 hover:text-white"
           onClick={onClickBanner}
         >
           <Icon icon="times" />
-        </div>
+        </div> */}
       </div>
     </div>
   );

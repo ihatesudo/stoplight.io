@@ -106,12 +106,9 @@ header:
       title: Enterprise
     - href: /pricing
       title: Pricing
-    - href: https://stoplight.io/p/studio
-      isButton: true
-      title: Sign In
     - href: https://stoplight.io/p/signup
       isButton: true
-      title: GET STARTED
+      title: Get Started
       altBg: purple
       icon: ['fad', 'arrow-right']
 actionBar:
