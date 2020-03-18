@@ -1,11 +1,6 @@
 hero:
   particles: true
-  aligned: left
-  # skew: rounded
-  rightElem:
-    image:
-      alt: Stoplight Enterprise Platform
-      src: /images/stoplight-dude-light-waving.png
+  bottomElem: true
   subtitle: >-
     Streamline your API Development workflow with a powerful API creation platform.
     Transform the way your team designs, documents, and mocks APIs.
@@ -55,7 +50,7 @@ pageSubjects:
     cta: Explore Mocking
     href: /mocking
     tag: mocking
-    color: yellow
+    color: gold
   - title: Create Quality Standards
     description: >-
       Accelerate development without sacrificing quality.

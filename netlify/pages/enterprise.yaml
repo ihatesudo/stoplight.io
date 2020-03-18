@@ -5,22 +5,21 @@ hero:
   particles: true
   image:
     alt: Stoplight Enterprise Platform
-    src: /images/enterprise/hero.png
+    src: /images/enterprise/placeholder-dependency-graph.png
   title: API Design Management at Scale
   subtitle: >-
     The Stoplight Enterprise Platform increases the consistency, visibility, and quality of your internal and external APIs.
   ctas:
-    - title: Book a Demo
-      type: 'submit'
-      submit:
-        button:
-          color: purple
-          title: Book a Demo
-          href: '/demo/'
-        input:
-          type: email
-          placeholder: Your business email...
-        formId: 'a5fb939e-7da2-4a9e-9784-338f92a71e41'
+    - href: '/demo'
+      title: Request Demo
+      large: true
+      rightIcon: ['fad', 'arrow-right']
+      color: purple
+    - href: '/workspaces'
+      title: Explore Workspaces
+      large: true
+      rightIcon: ['fad', 'arrow-right']
+      color: gold
 features:
   - name: Explorer
     description: The single source of truth for all your API related assets.

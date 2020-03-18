@@ -71,7 +71,7 @@ export const Enterprise: React.FunctionComponent<IEnterprise> = ({
       <Hero bgColor={color} {...hero} aligned="center" image={hero.image && { ...hero.image, shadow: false }} />
 
       {features && (
-        <Section id="features" className="pt-32 sm:pt-0" noPadding>
+        <Section id="features" className="pt-32 sm:pt-0" noPaddingT>
           <Container className="flex flex-wrap justify-around">
             {features.map((feature, index) => (
               <SimpleCard key={index} className="items-center px-5 text-center w-80 mt-14 sm:pt-14">
@@ -88,39 +88,35 @@ export const Enterprise: React.FunctionComponent<IEnterprise> = ({
           </Container>
         </Section>
       )}
+      <div className="container w-3/4 border-b"></div>
 
       {caseStudies && (
-        <Section id="case-studies" {...sectionProps} noPaddingB>
-          <Chips
-            className="justify-center mb-10"
-            segments={[{ color: 'indigo-light', length: 2 }, { color: 'indigo-dark', length: 3 }, { color: 'indigo' }]}
-          />
-          <div className="text-lg font-semibold text-center uppercase text-grey-dark">
-            Stoplight powers some of the world's leading API first companies
-          </div>
-          <Container className="flex flex-wrap justify-between md:justify-center mt-14">
-            {caseStudies.map((caseStudy, index) => (
-              <SimpleCard key={index} className="p-8 m-8 bg-white w-96 h-80" hoverable href={caseStudy.href}>
-                <SimpleCardTop>
-                  <div>
-                    <Image
-                      src={caseStudy.image}
-                      title={`${caseStudy.company} Logo`}
-                      alt={caseStudy.company}
-                      className="h-10"
-                    />
-                  </div>
-                </SimpleCardTop>
-                <SimpleCardBody description={caseStudy.description} className="mt-4 leading-loose text-grey-darker" />
-                <SimpleCardBottom className="flex items-center mt-6 mb-3 border-t">
-                  <div className="flex items-center flex-1 mt-8 text-blue">
-                    Read <Icon icon={['fad', 'arrow-right']} className="ml-3" />
-                  </div>
+        <Section id="case-studies" {...sectionProps}>
+          <Container title="Stoplight Powers Some of the World's Leading API First Companies">
+            <div className="flex flex-wrap justify-between md:justify-center mt-14">
+              {caseStudies.map((caseStudy, index) => (
+                <SimpleCard key={index} className="p-8 m-8 bg-white w-96 h-80" hoverable href={caseStudy.href}>
+                  <SimpleCardTop>
+                    <div>
+                      <Image
+                        src={caseStudy.image}
+                        title={`${caseStudy.company} Logo`}
+                        alt={caseStudy.company}
+                        className="h-10"
+                      />
+                    </div>
+                  </SimpleCardTop>
+                  <SimpleCardBody description={caseStudy.description} className="mt-4 leading-loose text-grey-darker" />
+                  <SimpleCardBottom className="flex items-center mt-6 mb-3 border-t">
+                    <div className="flex items-center flex-1 mt-8 text-blue">
+                      Read <Icon icon={['fad', 'arrow-right']} className="ml-3" />
+                    </div>
 
-                  <SimpleCardTag tag={caseStudy.tag} color={caseStudy.color} className="mt-8" />
-                </SimpleCardBottom>
-              </SimpleCard>
-            ))}
+                    <SimpleCardTag tag={caseStudy.tag} color={caseStudy.color} className="mt-8" />
+                  </SimpleCardBottom>
+                </SimpleCard>
+              ))}
+            </div>
           </Container>
           <div className="container flex flex-wrap justify-between px-20 mt-10">
             {customers.images.map((image, key) => (
@@ -131,6 +127,7 @@ export const Enterprise: React.FunctionComponent<IEnterprise> = ({
           </div>
         </Section>
       )}
+      <div className="container w-3/4 border-b"></div>
 
       {gartnerCoolVendor && <GartnerCoolVendor className="pt-32" noPadding {...gartnerCoolVendor} />}
 

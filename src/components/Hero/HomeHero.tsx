@@ -160,8 +160,8 @@ export const HomeHero: React.FunctionComponent<IHomeHero> = ({
               {pageName && <div className="mb-4 font-semibold text-white uppercase opacity-85">{pageName}</div>}
 
               <div className="flex">
-                <div className="flex-1 pr-20">
-                  <h1 className="text-5xl leading-tight md:text-4xl">{title}</h1>
+                <div className="flex-1">
+                  <h1 className="text-6xl leading-tight md:text-4xl">{title}</h1>
 
                   {subtitle && (
                     <h2
@@ -185,35 +185,35 @@ export const HomeHero: React.FunctionComponent<IHomeHero> = ({
                       })}
                     >
                       {ctas.map((action, i) => (
-                        <CallToAction key={i} className="m-3 sm:w-full sm:mx-auto" {...action} />
+                        <CallToAction key={i} className=" sm:w-full sm:mx-auto" {...action} />
                       ))}
                     </div>
                   )}
                 </div>
 
-                {rightElem && (
+                {rightElem}
+
+                {author && (
                   <div>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/CBZUpDXpC7U"></iframe>
+                    <HeroAuthor className="mt-6 text-white opacity-85" {...author} />
                   </div>
                 )}
               </div>
 
-              {author && (
+              {titleImage && (
                 <div>
-                  <HeroAuthor className="mt-6 text-white opacity-85" {...author} />
+                  <Image style={{ height: 130 }} src={titleImage} />
                 </div>
               )}
             </div>
-
-            {titleImage && (
-              <div>
-                <Image style={{ height: 130 }} src={titleImage} />
-              </div>
-            )}
           </div>
-        </div>
 
-        {bottomElem}
+          {bottomElem && (
+            <div className="-mb-64 pt-14">
+              <iframe width="760" height="515" src="https://www.youtube.com/embed/CBZUpDXpC7U"></iframe>
+            </div>
+          )}
+        </div>
 
         {image && <HeroImage {...image} className="relative mt-16 z-5" />}
 

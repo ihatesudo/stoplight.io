@@ -5,7 +5,6 @@ import { withRouteData, withSiteData } from 'react-static';
 import { SimpleCardBody } from 'src/components/SimpleCard/SimpleCardBody';
 
 import { IconName } from '@fortawesome/fontawesome-common-types';
-import { Chips } from 'src/components/Chip';
 import { SimpleCardBottom } from 'src/components/SimpleCard/SimpleCardBottom';
 import { SimpleCardTag } from 'src/components/SimpleCard/SimpleCardTag';
 import { SimpleCardTitle } from 'src/components/SimpleCard/SimpleCardTitle';
@@ -17,7 +16,6 @@ import { HomeHero } from '../../components/Hero/HomeHero';
 import { Icon } from '../../components/Icon';
 import { IImage, Image } from '../../components/Image';
 import { Layout } from '../../components/Layout';
-import { ProductCard } from '../../components/ProductCard';
 import { ISection, Section } from '../../components/Section';
 import { SimpleCard } from '../../components/SimpleCard';
 
@@ -82,7 +80,7 @@ export const Home: React.FunctionComponent<IHome> = ({
 
       {pageSubjects && (
         <Section id="subjects" {...sectionProps}>
-          <Container title="Quality APIs Don't Just Happen">
+          <Container title="Quality APIs Don't Just Happen" className="pt-64">
             <div className="flex flex-wrap justify-center md:justify-center mt-14">
               {pageSubjects.map((subject, index) => (
                 <div className="px-4 mb-6 text-grey-darker hover:bg-grey-lightest w-100 h-100">
@@ -120,7 +118,7 @@ export const Home: React.FunctionComponent<IHome> = ({
 
       {caseStudies && (
         <Section id="case-studies" {...sectionProps}>
-          <Container title="Stoplight powers some of the world's leading API first companies">
+          <Container title="Stoplight Powers Some of the World's Leading API First Companies">
             <div className="flex flex-wrap justify-between md:justify-center mt-14">
               {caseStudies.map((caseStudy, index) => (
                 <SimpleCard key={index} className="p-8 m-8 bg-white w-96 h-80" hoverable href={caseStudy.href}>
@@ -147,13 +145,14 @@ export const Home: React.FunctionComponent<IHome> = ({
             </div>
           </Container>
 
-          <Container className="flex flex-wrap justify-between px-20 pb-32 mt-10 border-b">
+          <Container className="flex flex-wrap justify-between px-20 pb-32 mt-10 ">
             {customers.images.map((image, key) => (
               <div key={key} className="py-8 sm:w-1/2 sm:p-6">
                 <Image className="h-8" src={image.src} title={`${image.alt} Logo`} alt={image.alt} />
               </div>
             ))}
           </Container>
+          <div className="container w-3/4 border-b"></div>
         </Section>
       )}
       <Section id="features" noPadding>
@@ -194,33 +193,3 @@ export const Home: React.FunctionComponent<IHome> = ({
 };
 
 export default withSiteData(withRouteData(Home));
-
-const ProductCards = ({ className }: { className?: string }) => {
-  return (
-    <div className={cn(className, 'container relative z-5 flex justify-between text-left sm:flex-col sm:items-center')}>
-      {/* <ProductCard
-        tag="design"
-        name="Stoplight Studio"
-        title="Next gen editor for API design & technical docs"
-        description="Stoplight Studio turns you into an API Design superhero. Create OpenAPI 10x faster, with no prior knowledge and fewer mistakes."
-        color="blue"
-        icon={['fad', 'paint-brush-alt']}
-        className="w-1/2 mx-3 bg-white bg-grey-lightest sm:w-full sm:mb-6"
-        href="/studio"
-        image="/images/studio-glimpse.png"
-      />
-
-      <ProductCard
-        tag="scale"
-        name="Stoplight Enterprise"
-        title="API design management at scale"
-        description="The Stoplight Platform increases consistency, visibility, and quality across your internal and external APIs."
-        color="orange"
-        icon={['fad', 'chart-network']}
-        className="w-1/2 mx-3 bg-white sm:w-full"
-        href="/enterprise"
-        image="/images/platform-glimpse.png"
-      /> */}
-    </div>
-  );
-};

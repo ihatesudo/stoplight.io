@@ -196,6 +196,14 @@ let colors = {
   'purple-light': '#C166D5',
   'purple-lighter': '#CC97D9',
   'purple-lightest': '#F3D7FA',
+
+  'gold-darkest': '#CC7722',
+  'gold-darker': '#FDA50F',
+  'gold-dark': '#DAA520',
+  gold: '#F9A602',
+  'gold-light': '#FFC30B',
+  'gold-lighter': '#FADA5E',
+  'gold-lightest': '#FCF4A3',
 };
 
 module.exports = {
