@@ -19,6 +19,7 @@ export interface IFeature {
   isReversed?: boolean;
   titleColor?: string;
   isLast?: boolean;
+  overlayImage?: boolean;
 }
 
 export interface IFeatureSection extends ISection {
@@ -31,13 +32,13 @@ export interface IFeatureSection extends ISection {
 }
 
 export const Feature: React.FunctionComponent<IFeature> = props => {
-  const { title, titleURL, description, image, isReversed, titleColor, isLast } = props;
+  const { title, titleURL, description, image, isReversed, titleColor, isLast, overlayImage } = props;
 
   return (
     <div
       id={slugify(title)}
       key="content"
-      className={cn('flex items-center py-12 sm:pb-0', {
+      className={cn('flex py-12 sm:pb-0', {
         'flex-row': !isReversed,
         'flex-row-reverse': isReversed,
       })}
@@ -45,34 +46,42 @@ export const Feature: React.FunctionComponent<IFeature> = props => {
       <div
         className={cn('flex flex-col flex-1 w-1/2 sm:w-100 sm:items-center sm:text-center', {
           'pr-24 sm:pr-0': !isReversed,
-          'pl-18 sm:pl-0': isReversed,
+          'pl-24 sm:pl-0': isReversed,
         })}
       >
-        <h2 className={cn('max-w-sm mb-10 text-3xl', `text-${titleColor || 'grey-darkest'}`)}>
+        <h2 className={cn('mb-10 text-4xl', `text-${titleColor || 'grey-darkest'}`)}>
           {titleURL ? (
             <Link to={titleURL} className={`text-${titleColor || 'grey-darkest'}`}>
               {title}
             </Link>
           ) : (
-              title
-            )}
+            title
+          )}
         </h2>
         <div
-          className={cn('mb-12 pb-12 sm:pb-0 max-w-md leading-loose text-lg', {
+          className={cn('mb-12 pb-12 sm:pb-0 max-w-md leading-loose text-xl', {
             'sm:mb-0': isLast,
           })}
           dangerouslySetInnerHTML={{ __html: description }}
         />
       </div>
-
-      <div className="relative flex-1 w-1/2 sm:hidden">
-        <Image
-          src={image}
-          className={cn('bg-center bg-cover bg-no-repeat h-128 w-128 rounded-full', { 'ml-auto': !isReversed })}
-          style={{ boxShadow: '0 0 4px rgba(0, 0, 0, 0.5)' }}
-          useDiv
-        />
-      </div>
+      {overlayImage ? (
+        <div className="relative w-1/2 -mr-10 sm:hidden">
+          <Image src="/images/studio/hero.png" className="mt-1 rounded-lg shadow-lg" />
+          <Image src="/images/studio/hero.png" className="relative -mt-64 -ml-16 rounded-lg shadow-lg" />
+        </div>
+      ) : (
+        <div className="relative w-1/2 sm:hidden">
+          <Image
+            src={image}
+            className={cn('bg-contain bg-no-repeat ml-auto rounded-lg shadow-lg w-auto mt-1', {
+              'ml-auto': !isReversed,
+            })}
+            style={{ boxShadow: '0 0 4px rgba(0, 0, 0, 0.5)' }}
+            // useDiv
+          />
+        </div>
+      )}
     </div>
   );
 };
@@ -119,7 +128,7 @@ export const FeatureSection: React.FunctionComponent<IFeatureSection> = ({
         <Container title={title} className={cn(!buttons || !buttons.length ? 'py-32 border-b' : null)}>
           {description && (
             <div
-              className="flex max-w-lg mx-auto text-lg leading-loose text-center"
+              className="flex max-w-full mx-auto text-xl leading-loose text-center"
               dangerouslySetInnerHTML={{ __html: description }}
             />
           )}

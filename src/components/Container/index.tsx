@@ -18,12 +18,12 @@ export const Container: React.FunctionComponent<IContainer> = ({ chips, classNam
     <div className={cn('container', className)} style={style}>
       {chips && <Chips {...chips} />}
 
-      {title && <h3 className="text-center text-3xl mb-20 md:mb-14">{title}</h3>}
+      {title && <h3 className="mb-20 text-4xl text-center md:mb-14">{title}</h3>}
 
       {children}
 
       {cta && (
-        <div className="mt-24 md:mt-14 flex justify-center">
+        <div className="flex justify-center mt-24 md:mt-14">
           <CallToAction {...cta} />
         </div>
       )}
