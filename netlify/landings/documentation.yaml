@@ -54,8 +54,7 @@ featureSection:
     - description: >-
         Never have out-of-date documentation. Reference your OpenAPI
         Specification document to [automatically generate API reference
-        documentation](/documentation/generator/). Use the Stoplight API to
-        automate your documentation process by integrating it into your existing
+        documentation](/documentation/generator/). Use the Stoplight API documentation tool to automate your documentation process by integrating it into your existing
         CI/CD workflow.
       href: 'https://stoplight.io/documentation/automation/'
       image: /images/docs_feature_3.png

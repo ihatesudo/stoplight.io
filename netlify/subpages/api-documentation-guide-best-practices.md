@@ -78,4 +78,4 @@ Whether you already have an OpenAPI description or need to create one, Stoplight
 
 Using Documentation Hubs, you can also includes guides and examples alongside your reference docs. Add pages and sub-pages to help developers better use your API. You’ll be able to easily include the three types of documentation covered in this guide.
 
-See how [Stoplight’s documentation](/documentation/) can help you create comprehensive API documentation.
+See how [Stoplight’s documentation](/documentation/) can help you in creating and writing good comprehensive API documentation.
