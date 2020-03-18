@@ -39,7 +39,7 @@ meta:
 
 Stoplight provides web-based API design tooling for anyone building REST APIs. Use the OpenAPI Specification (formerly known as Swagger) with Stoplight’s visual editor to design consistent and standardized REST APIs for your organization. Our tools can make your OpenAPI Specification the single source of truth within your organization. Describe endpoints, headers, bodies, multiple responses, query string parameters, shared models, and much more.
 
-You don’t need to be an OpenAPI expert to create RESTful API designs for your internal web services and external APIs. Model complex APIs faster than ever before, increasing engineering bandwidth and saving valuable time. No code is required when using the schema designer, so you can focus on your design and less on HTTP.
+You don’t need to be an OpenAPI expert to create RESTful API designs for your internal web services and external APIs. Model complex APIs and design web API faster than ever before, increasing engineering bandwidth and saving valuable time. No code is required when using the schema designer, so you can focus on your design and less on HTTP.
 
 ## Collaborative API Design
 

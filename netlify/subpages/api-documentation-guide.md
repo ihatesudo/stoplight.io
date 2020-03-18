@@ -69,7 +69,7 @@ As you’ll see, the best API documentation nails all three of these types of co
 
 Now that we know what types of documentation to look for, let’s look at some examples of great REST API documentation. For many years, two names continue to come up when discussing API docs: Stripe and Twilio.
 
-Your API’s audience may not be as wide as either of these companies. You may only have internal developers or a few select partners. It’s still worth learning from the best, even if you won’t implement everything they have done. Stripe and Twilio have based their entire companies on developers successfully integrating, so they’ve placed a lot of attention on their documentation.
+Your API’s audience may not be as wide as either of these companies. You may only have internal developers or a few select partners. It’s still worth learning from the best, even if you won’t implement everything they have done. Stripe and Twilio have based their entire companies on developers successfully integrating, so they’ve placed a lot of attention on their API document.
 
 [Stripe’s API reference](https://stripe.com/docs/api/) has nearly become a standard for its completeness and browsability.
 
