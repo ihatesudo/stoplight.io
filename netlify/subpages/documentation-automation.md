@@ -38,7 +38,7 @@ Publishing and maintaining API documentation is critical to your APIs’ adoptio
 
 ## Optimized for Speed
 
-- Stoplight generates static documentation that gives you near instant load times and can be cached in the browser
+- Stoplight automatic API documentation generates static documentation that gives you near instant load times and can be cached in the browser
 - Stoplight’s documentation tool makes it easy to add textual elements to your docs through a UI/UX designed for non-technical users
 - Focus on making the content, Stoplight will design your docs for you
 - Documentation can be served from anywhere, or hosted by us
