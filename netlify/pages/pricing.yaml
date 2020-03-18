@@ -1,0 +1,399 @@
+path: /pricing
+hero:
+  particles: true
+  title: Stoplight Plans and Pricing
+plans:
+  - title: Free
+    titleColor: green
+    description: 'placeholder subtitle text if we want it'
+    button:
+      color: green
+      title: Get Started
+      href: 'https://stoplight.io/p/studio?utm_source=studio_landing&utm_medium=start_button&utm_campaign=dynamic_start'
+    price:
+      title: $0
+    features:
+      - name: Up to 10 users
+      - name: Up to 5 projects
+      - name: Native Git Sync
+      - name: Private & Public Project Access
+      - name: OAS3 Visual Designer
+      - name: Hosted Mocking (1000)
+      - name: JSON/YAML Linter
+      - name: Project Style Guides
+      - name: Technical Knowledge Base (Explorer)
+      - name: Changelog
+  - title: Team
+    titleColor: indigo
+    description: 'placeholder subtitle text if we want it'
+    button:
+      color: indigo
+      title: Get Started
+      href: 'https://stoplight.io/p/studio?utm_source=studio_landing&utm_medium=start_button&utm_campaign=dynamic_start'
+    price:
+      title: $19
+    features:
+      - name: Up to 100 users
+      - name: Up to 20 projects
+      - name: All features included in the Free plan
+      - name: Custom Domains
+      - name: Theming
+      - name: Custom Branding
+      - name: Single Design Library
+      - name: Guest Role
+      - name: Hosted Mocking
+      - name: Multi-Branch
+  - title: Enterprise
+    titleColor: purple
+    description: 'placeholder subtitle text if we want it'
+    button:
+      color: purple
+      title: Contact Us
+      href: '/demo/'
+    price:
+      title: Custom Pricing
+      button:
+        color: purple
+        title: Contact Us
+        href: '/demo/'
+    features:
+      - name: Unlimited users
+      - name: Unlimited projects
+      - name: All features included in the Team plan
+      - name: Model Masking
+      - name: In & Outbound API Dependency Graph
+      - name: Multiple Design Libraries
+      - name: On-Premise Deployment
+      - name: SSO & Authentication
+      - name: Enterprise Terms & Support
+      - name: Security Forms
+      - name: Hubs project filters
+      - name: Static IPs
+      - name: Multiple Node Versions
+collage:
+  images:
+    - alt: EA
+      src: /images/ea.png
+    - alt: Arkea
+      src: /images/logo_arkea_transparent.png
+    - alt: Chargify
+      src: /images/chargify-new-logo.png
+    - alt: Deutsche Bank
+      src: /images/deutsche_bank.png
+    - alt: Sendgrid
+      src: /images/logo-sendgrid.png
+    - alt: Shopgate
+      src: /images/shopgate.png
+    - alt: Spotify
+      src: /images/spotify.png
+    - alt: TiVo
+      src: /images/tivo.png
+    - alt: Zendesk
+      src: /images/logo_zendesk.png
+  title: >-
+    Thousands of companies rely on Stoplight to streamline their API & Microservices
+    workflow
+faq:
+  title: Frequently Asked Questions
+  description: Don't see your question? [Talk to a solutions engineer](https://stoplight.io/demo).
+
+  questions:
+    - question: How is usage calculated?
+      answer: >-
+        In Stoplight, APIs are organized into workspaces. Each workspace is associated with a user account's billing profile.
+        Your usage is the sum of the users and resources across all of the workspaces connected to your billing profile.
+    - question: What happens if I go over my limits?
+      answer: >-
+        Nothing will be disabled or changed immediately. You will receive an email asking you to updating your billing, or lower your usage.
+        If, after 7 days, you have not updated your billing, the associated workspaces will be disabled until your account is back in good standing.
+    - question: How many APIs can I publish with the Standard and PRO plans?
+      answer: >-
+        No limits! As long as you are within your 2,500 free resources, you can publish as many APIs as you like. We do not charge for anything on a per api basis - see the FAQ below for our rationale.
+    - question: What is counted as a user?
+      answer: >-
+        Anyone invited to your workspaces in the Stoplight app is considered a user of that workspace. Only unique users are counted 
+        towards your billing profile. If you invite the same user to multiple workspaces, it still counts as one user. 
+        Users with the guest role are counted and applied to your limits.
+    - question: Can I transfer a workspace to another billing account?
+      answer: >-
+        Absolutely, just head over to the billing section of the workspace in question, and then scroll down to the transfer section.
+    - question: Is my credit card information secure?
+      answer: >-
+        Yes. All credit card processing is handled through Stripe, and your card information is never sent to, or stored on, our servers.
+    - question: What is a "Resource"?
+      answer: >-
+        All the different parts that make up your API design and tests are considered resources.
+    - question: I'm working on an open source, education, or non-profit project. Is there a discount?
+      answer: >-
+        Let's chat! Please send an email to customer@stoplight.io.
+    - question: Why not measure usage on a per API basis?
+      answer: >-
+        Many other tools price on a per API basis, instead of per resource. 
+        We believe that a resource based model is more flexible and fair, particularly as the industry moves towards 
+        smaller and smaller services (microservices). One 1000 endpoint API should be priced the same as one hundred 10 endpoint APIs
+    - question: Is there a free trial?
+      answer: >-
+        Yes. Every new account gets 14 days to try all of our tools, without limits.
+actionBar:
+  ctas:
+    - color: accent
+      href: '/demo'
+      title: Speak with a Solutions Engineer.
+  enabled: true
+  text: Need help picking a plan?
+docPlans:
+  title: Feature Breakdown by Plan
+  plans:
+    - title: Free
+    - title: Team
+    - title: Enterprise
+  categories:
+    - category: Design
+      features:
+        - featureTitle: Create unlimited APIs, Models, Endpoints, Articles, & Images
+          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          plans:
+            - Free
+            - Team
+            - Enterprise
+        - featureTitle: OpenAPI 3 form support
+          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          plans:
+            - Free
+            - Team
+            - Enterprise
+        - featureTitle: Native git integration
+          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          plans:
+            - Free
+            - Team
+            - Enterprise
+        - featureTitle: Create and switch between branches
+          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          plans:
+            - Free
+            - Team
+            - Enterprise
+        - featureTitle: Create projects from an existing directory/folder on your computer
+          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          plans:
+            - Free
+            - Team
+            - Enterprise
+        - featureTitle: Powerful search
+          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          plans:
+            - Free
+            - Team
+            - Enterprise
+        - featureTitle: Dark theme
+          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          plans:
+            - Free
+            - Team
+            - Enterprise
+        - featureTitle: Private share links
+          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          plans:
+            - Free
+            - Team
+            - Enterprise
+        - featureTitle: Style guides
+          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          plans:
+            - Team
+            - Enterprise
+        - featureTitle: Design library
+          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          plans:
+            - Enterprise
+        - featureTitle: Design library model masking
+          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          plans:
+            - Enterprise
+    - category: Design, Visbility & Governance
+      features:
+        - featureTitle: Git repo analysis & auto discovery
+          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          plans:
+            - Free
+            - Team
+            - Enterprise
+        - featureTitle: Data filters
+          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          plans:
+            - Free
+            - Team
+            - Enterprise
+        - featureTitle: Project search
+          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          plans:
+            - Free
+            - Team
+            - Enterprise
+        - featureTitle: Workspace search
+          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          plans:
+            - Free
+            - Team
+            - Enterprise
+        - featureTitle: OpenAPI linter
+          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          plans:
+            - Free
+            - Team
+            - Enterprise
+        - featureTitle: Dependency graph - inbound & outbound relationships
+          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          plans:
+            - Enterprise
+    - category: Docs
+      features:
+        - featureTitle: Unlimited published APIs
+          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          plans:
+            - Free
+            - Team
+            - Enterprise
+        - featureTitle: Integrated 'Try it Out' API console
+          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          plans:
+            - Free
+            - Team
+            - Enterprise
+        - featureTitle: Rich, markdown powered docs
+          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          plans:
+            - Free
+            - Team
+            - Enterprise
+        - featureTitle: Export support
+          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          plans:
+            - Free
+            - Team
+            - Enterprise
+        - featureTitle: Versioning support
+          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          plans:
+            - Free
+            - Team
+            - Enterprise
+        - featureTitle: Complex JSON support
+          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          plans:
+            - Free
+            - Team
+            - Enterprise
+        - featureTitle: Unlimited pageviews
+          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          plans:
+            - Free
+            - Team
+            - Enterprise
+        - featureTitle: Build history and instant rollbacks
+          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          plans:
+            - Free
+            - Team
+            - Enterprise
+        - featureTitle: Custom domains
+          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          plans:
+            - Team
+            - Enterprise
+        - featureTitle: Theming
+          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          plans:
+            - Team
+            - Enterprise
+        - featureTitle: Custom branding
+          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          plans:
+            - Team
+            - Enterprise
+        - featureTitle: Remove Stoplight logo
+          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          plans:
+            - Enterprise
+        - featureTitle: Guest access
+          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          plans:
+            - Enterprise
+    - category: Mocking
+      features:
+        - featureTitle: Hosted mocking
+          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          plans:
+            - Free
+            - Team
+            - Enterprise
+        - featureTitle: Integrated mocking support within API console
+          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          plans:
+            - Free
+            - Team
+            - Enterprise
+        - featureTitle: Validate inputs, responses, webhooks & callbacks
+          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          plans:
+            - Free
+            - Team
+            - Enterprise
+        - featureTitle: Automatic reload
+          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          plans:
+            - Free
+            - Team
+            - Enterprise
+    - category: Supported Integrations
+      features:
+        - featureTitle: One external integration
+          tooltip: GitHub, GitLab, Gitea, Bitbucket, Azure
+          plans:
+            - Free
+            - Team
+            - Enterprise
+        - featureTitle: Unlimited external integrations
+          tooltip: GitHub, GitLab, Gitea, Bitbucket, Azure
+          plans:
+            - Enterprise
+    - category: Support
+      features:
+        - featureTitle: Dedicated customer success manager
+          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          plans:
+            - Enterprise
+        - featureTitle: Invoicing options
+          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          plans:
+            - Enterprise
+        - featureTitle: Bulk/scalable pricing
+          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          plans:
+            - Enterprise
+    - category: Admin
+      features:
+        - featureTitle: Private & public project access
+          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          plans:
+            - Enterprise
+        - featureTitle: SAML
+          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          plans:
+            - Enterprise
+        - featureTitle: LDAP
+          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          plans:
+            - Enterprise
+        - featureTitle: Domain capture
+          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          plans:
+            - Enterprise
+
+    - category: Installation
+      features:
+        - featureTitle: On Premise
+          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          plans:
+            - Enterprise

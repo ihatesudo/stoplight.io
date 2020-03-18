@@ -1,4 +1,6 @@
+import cn from 'classnames';
 import * as React from 'react';
+import { Manager, Popper, Reference } from 'react-popper';
 
 import { Container } from '../Container';
 import { Icon } from '../Icon';
@@ -6,8 +8,9 @@ import { Link } from '../Link';
 import { Section } from '../Section';
 
 export interface IDocPlanFeature {
-  title: string;
-  plans: Array<IDocPlan['title']>;
+  featureTitle: string;
+  tooltip?: string;
+  plans?: Array<IDocPlan['title']>;
 }
 
 export interface IDocPlan {
@@ -24,8 +27,12 @@ export interface IDocPlans {
   plans: IDocPlan[];
   buttonUrl: string;
   buttonText: string;
+  categories?: ICategory[];
 }
-
+export interface ICategory {
+  category: string;
+  features: IDocPlanFeature[];
+}
 export const DocPlans: React.FunctionComponent<IDocPlans> = ({
   title,
   description,
@@ -33,72 +40,111 @@ export const DocPlans: React.FunctionComponent<IDocPlans> = ({
   plans,
   buttonUrl,
   buttonText,
+  categories,
 }) => {
   return (
-    <Section id="docPlans">
-      <Container className="mx-auto">
-        <div className="text-center mb-20">
+    <Section id="docPlans" className="sm:hidden">
+      <Container className="mx-auto ">
+        <div className="mb-20 text-center">
           <div className="text-4xl font-bold">{title}</div>
-          <div
-            className="mt-10 text-xl mx-auto opacity-50 max-w-lg leading-loose"
-            dangerouslySetInnerHTML={{ __html: description }}
-          />
+        </div>
+        <div className="container w-3/4 h-2 rounded-t-lg shadow-md bg-blue"></div>
+        <div className="sticky-pricing">
+          <div className="container flex justify-end w-3/4 h-32 bg-white border-b">
+            {plans &&
+              plans.length > 0 &&
+              plans.map((p, index) => (
+                <div
+                  key={index}
+                  className={cn('text-2xl py-12 font-bold', {
+                    'pr-0': p.title === 'Enterprise',
+                    'pr-20': p.title === 'Team',
+                    'pr-24': p.title === 'Free',
+                  })}
+                >
+                  {p.title}
+                </div>
+              ))}
+          </div>
         </div>
 
-        <div className="shadow-lg">
-          <table className="hubs-table bg-white">
+        <div className="container w-3/4 bg-white rounded-lg shadow-lg">
+          <table className="bg-white hubs-table">
             <thead>
               <tr>
-                <th />
-                {plans &&
-                  plans.length > 0 &&
-                  plans.map((plan, index) => (
-                    <th key={index}>
-                      <div className="flex flex-col">
-                        <p className="text-accent font-bold">{plan.title}</p>
-                        <Link className="flex-1 font-bold mt-2 text-lg" to={plan.link}>
-                          {plan.price}
-                        </Link>
-                        <p className="mt-2">{plan.domains}</p>
-                      </div>
-                    </th>
-                  ))}
+                <th className="w-1/2"></th>
               </tr>
             </thead>
-
             <tbody>
-              {features &&
-                features.length > 0 &&
-                features.map((feature, index) => {
+              {categories &&
+                categories.length > 0 &&
+                categories.map((c, index) => {
                   return (
-                    <tr key={index}>
-                      <td>{feature.title}</td>
+                    <>
+                      <h3 className="py-10 bg-white font-xl">{c.category}</h3>
 
-                      {plans.map((plan, planIndex) => {
-                        return (
-                          <td key={planIndex}>
-                            {feature.plans.includes(plan.title) && (
-                              <Icon className="text-green" icon="check-circle" size="lg" />
-                            )}
-                          </td>
-                        );
-                      })}
-                    </tr>
+                      {c.features &&
+                        c.features.map((f, i) => {
+                          return (
+                            <tr className="cat-tr">
+                              {f.featureTitle && f.tooltip ? (
+                                <td className="underline">
+                                  <Manager>
+                                    <Reference>{({ ref }) => <p ref={ref}>{f.featureTitle}</p>}</Reference>
+                                    <Popper placement="right">
+                                      {({
+                                        ref,
+                                        placement,
+                                        arrowProps = {
+                                          ref: 'test',
+                                          style: {
+                                            backgroundColor: 'purple',
+                                          },
+                                        },
+                                      }) => (
+                                        <div className="absolute tooltip" ref={ref} data-placement={placement}>
+                                          {f.tooltip}
+
+                                          <div ref={arrowProps.ref} style={arrowProps.style} />
+                                        </div>
+                                      )}
+                                    </Popper>
+                                  </Manager>
+                                </td>
+                              ) : (
+                                <td></td>
+                              )}
+
+                              {plans.map((plan, planIndex) => {
+                                return (
+                                  <>
+                                    {f.plans && f.plans.includes(plan.title) ? (
+                                      <td key={planIndex}>
+                                        <Icon
+                                          className={cn({
+                                            'text-purple': plan.title === 'Enterprise',
+                                            'text-indigo': plan.title === 'Team',
+                                            'text-green': plan.title === 'Free',
+                                          })}
+                                          icon="check"
+                                          size="lg"
+                                        />
+                                      </td>
+                                    ) : (
+                                      <td></td>
+                                    )}
+                                  </>
+                                );
+                              })}
+                            </tr>
+                          );
+                        })}
+                    </>
                   );
                 })}
             </tbody>
+            <div className="h-10"></div>
           </table>
-
-          <div>
-            <Link
-              to={buttonUrl}
-              title={buttonText}
-              className="block py-6 bg-green hover:bg-green-light font-bold text-center text-xl text-white hover:text-white"
-            >
-              {buttonText}
-              <Icon icon="arrow-right" className="ml-3" />
-            </Link>
-          </div>
         </div>
       </Container>
     </Section>

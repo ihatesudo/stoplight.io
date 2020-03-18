@@ -10,6 +10,7 @@ export async function getRoutes() {
     home,
     about,
     enterprise,
+    pricing,
     forms = [],
     demoForm,
     careers = [],
@@ -25,6 +26,7 @@ export async function getRoutes() {
     getFile(`${NETLIFY_PATH}/pages/home.yaml`),
     getFile(`${NETLIFY_PATH}/pages/about.yaml`),
     getFile(`${NETLIFY_PATH}/pages/enterprise.yaml`),
+    getFile(`${NETLIFY_PATH}/pages/pricing.yaml`),
     getFiles(`${NETLIFY_PATH}/forms`),
     getFile(`${NETLIFY_PATH}/demo-form/request-demo.yaml`),
     getFiles(`${NETLIFY_PATH}/careers`),
@@ -79,6 +81,11 @@ export async function getRoutes() {
       path: '/enterprise',
       template: 'src/templates/Enterprise',
       getData: () => enterprise,
+    },
+    {
+      path: '/pricing',
+      template: 'src/templates/Pricing',
+      getData: () => pricing,
     },
     {
       path: '/start',

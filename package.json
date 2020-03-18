@@ -25,6 +25,7 @@
     "ajv": "^6.7"
   },
   "dependencies": {
+    "@popperjs/core": "^2.1.0",
     "@stoplight/monaco": "^4.4.0",
     "@stoplight/react-error-boundary": "^1.0.0",
     "@stoplight/spectral": "^4.0.0",
@@ -46,6 +47,7 @@
     "react-no-ssr": "^1.1.0",
     "react-particles-js": "2.7.0",
     "react-player": "^1.14.2",
+    "react-popper": "^1.3.7",
     "react-responsive-modal": "^4.0.1",
     "react-router-dom": "^4.3.1",
     "react-static": "7.2.3",
