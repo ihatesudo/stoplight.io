@@ -1,10 +1,70 @@
 hero:
   particles: true
-  skew: rounded
+  aligned: left
+  # skew: rounded
+  rightElem:
+    image:
+      alt: Stoplight Enterprise Platform
+      src: /images/stoplight-dude-light-waving.png
   subtitle: >-
-    The API Design Management Platform powering the world's leading API first
-    companies.
+    Streamline your API Development workflow with a powerful API creation platform.
+    Transform the way your team designs, documents, and mocks APIs.
   title: The Best APIs Start with Stoplight
+  ctas:
+    - color: purple
+      href: /studio
+      title: GET STARTED
+pageSubjects:
+  - title: Design First
+    description: >-
+      Know exactly what you need to build before writing a single line of code. Reduce your
+      development time, minimize bugs, and improve your API’s longevity with Stoplight Studio.
+    cta: Explore Studio
+    href: /studio
+    tag: design
+    color: green
+  - title: Gain API Visibility
+    description: >-
+      As APIs scale, it becomes increasingly difficult to visualize dependencies and organize
+      services. With Stoplight Explorer, effectively navigate your APIs to increase
+      reusability and decrease redundancies.
+    cta: Explore Something
+    href: /studio
+    tag: visibility
+    color: blue
+  - title: Quick Documentation
+    description: >-
+      Automatically generate beautiful documentation and
+      ensure it remains in sync with your API’s latest design specification.
+    cta: Explore Docs
+    href: /docs
+    tag: documentation
+    color: orange
+  - title: Get Everyone Involved
+    description: >-
+      Collaborate with the entire team across one platform to implement specifications,
+      merge microservices, and much more.
+    cta: Explore Workspaces
+    href: /docs
+    tag: collaboration
+    color: purple
+  - title: Instant Hosted Mocking
+    description: >-
+      Integrate with an API before it's even built, enable teams to develop
+      components in parallel, and break free from waterfall development.
+    cta: Explore Mocking
+    href: /mocking
+    tag: mocking
+    color: yellow
+  - title: Create Quality Standards
+    description: >-
+      Accelerate development without sacrificing quality.
+      Streamline every design decision with built-in linting and custom
+      style guides.
+    cta: Explore Quality
+    href: /quality
+    tag: quality
+    color: indigo
 features:
   - name: API Design
     description: Quickly model your APIs using visual tools on top of open standards.

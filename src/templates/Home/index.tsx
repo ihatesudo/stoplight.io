@@ -13,6 +13,7 @@ import { SimpleCardTop } from 'src/components/SimpleCard/SimpleCardTop';
 import { ITestimonials, Testimonials } from 'src/components/Testimonials';
 import { Container, IContainer } from '../../components/Container';
 import { Hero, IHero } from '../../components/Hero';
+import { HomeHero } from '../../components/Hero/HomeHero';
 import { Icon } from '../../components/Icon';
 import { IImage, Image } from '../../components/Image';
 import { Layout } from '../../components/Layout';
@@ -27,8 +28,17 @@ export interface IHome {
   features: IFeature[];
   customers: ICustomerSection;
   caseStudies?: ICaseStudyCard[];
+  pageSubjects?: IPageSubject[];
 }
 
+interface IPageSubject {
+  title: string;
+  description: string;
+  cta: string;
+  href: string;
+  tag: string;
+  color: string;
+}
 interface ICustomerSection extends ISection {
   images: IImage[];
   title?: IContainer['title'];
@@ -63,94 +73,81 @@ export const Home: React.FunctionComponent<IHome> = ({
   testimonials,
   features,
   customers,
+  pageSubjects,
   ...sectionProps
 }) => {
   return (
     <Layout>
-      <Hero bgColor={color} {...hero} bottomElem={<ProductCards className="pt-24 sm:pt-6" />} />
+      <HomeHero bgColor={color} {...hero} />
 
-      {features && (
-        <Section id="features" className="pt-32" noPadding>
-          <Container
-            chips={{
-              className: 'justify-center mb-10',
-              segments: [{ color: 'blue-lighter', length: 2 }, { color: 'blue' }],
-            }}
-          >
-            <div className="text-lg font-semibold text-center uppercase text-grey-dark">
-              Quality APIs Don't Just Happen
-            </div>
-
-            {features && (
-              <div className="flex flex-wrap justify-around">
-                {features.map((feature, index) => (
+      {pageSubjects && (
+        <Section id="subjects" {...sectionProps}>
+          <Container title="Quality APIs Don't Just Happen">
+            <div className="flex flex-wrap justify-center md:justify-center mt-14">
+              {pageSubjects.map((subject, index) => (
+                <div className="px-4 mb-6 text-grey-darker hover:bg-grey-lightest w-100 h-100">
                   <SimpleCard
                     key={index}
-                    className="items-center px-5 text-center w-80 mt-14 sm:pt-14"
-                    href={feature.href}
+                    className="flex flex-col p-8 bg-white h-96 w-96"
+                    hoverable
+                    href={subject.href}
                   >
-                    <Icon icon={['fad', feature.icon]} className="text-center" size="3x" style={feature.iconStyle} />
-
-                    <SimpleCardTop className="mt-5 text-xl font-bold text-grey-darkest">
-                      <SimpleCardTitle title={feature.name} />
+                    <SimpleCardTop className="items-start pb-4">
+                      <SimpleCardTitle
+                        subtitle={subject.title}
+                        className="mt-3 text-lg font-bold uppercase text-grey-darker"
+                      />
                     </SimpleCardTop>
-
                     <SimpleCardBody
-                      className="my-2 font-medium leading-loose text-grey-dark"
-                      description={feature.description}
+                      description={subject.description}
+                      className="items-start mt-4 leading-loose text-grey-darker"
                     />
-
-                    <SimpleCardBottom className="text-center">
-                      <div className="flex items-center flex-1 font-semibold text-blue">
-                        Learn More
-                        <Icon icon={['fad', 'arrow-right']} className="ml-3" />
+                    <SimpleCardBottom className="flex items-center mt-6 mb-3 border-t">
+                      <div className="flex items-center flex-1 mt-8 text-blue">
+                        {subject.cta} <Icon icon={['fad', 'arrow-right']} className="ml-3" />
                       </div>
+
+                      <SimpleCardTag tag={subject.tag} color={subject.color} className="mt-8" />
                     </SimpleCardBottom>
                   </SimpleCard>
-                ))}
-              </div>
-            )}
+                </div>
+              ))}
+            </div>
           </Container>
         </Section>
       )}
+      <div className="container w-3/4 border-b"></div>
 
       {caseStudies && (
         <Section id="case-studies" {...sectionProps}>
-          <Chips
-            className="justify-center mb-10"
-            segments={[{ color: 'indigo-light', length: 2 }, { color: 'indigo-dark', length: 3 }, { color: 'indigo' }]}
-          />
+          <Container title="Stoplight powers some of the world's leading API first companies">
+            <div className="flex flex-wrap justify-between md:justify-center mt-14">
+              {caseStudies.map((caseStudy, index) => (
+                <SimpleCard key={index} className="p-8 m-8 bg-white w-96 h-80" hoverable href={caseStudy.href}>
+                  <SimpleCardTop>
+                    <div>
+                      <Image
+                        src={caseStudy.image}
+                        title={`${caseStudy.company} Logo`}
+                        alt={caseStudy.company}
+                        className="h-10"
+                      />
+                    </div>
+                  </SimpleCardTop>
+                  <SimpleCardBody description={caseStudy.description} className="mt-4 leading-loose text-grey-darker" />
+                  <SimpleCardBottom className="flex items-center mt-6 mb-3 border-t">
+                    <div className="flex items-center flex-1 mt-8 text-blue">
+                      Read <Icon icon={['fad', 'arrow-right']} className="ml-3" />
+                    </div>
 
-          <div className="text-lg font-semibold text-center uppercase text-grey-dark">
-            Stoplight powers some of the world's leading API first companies
-          </div>
-
-          <Container className="flex flex-wrap justify-between md:justify-center mt-14">
-            {caseStudies.map((caseStudy, index) => (
-              <SimpleCard key={index} className="p-8 m-8 bg-white w-96 h-80" hoverable href={caseStudy.href}>
-                <SimpleCardTop>
-                  <div>
-                    <Image
-                      src={caseStudy.image}
-                      title={`${caseStudy.company} Logo`}
-                      alt={caseStudy.company}
-                      className="h-10"
-                    />
-                  </div>
-                </SimpleCardTop>
-                <SimpleCardBody description={caseStudy.description} className="mt-4 leading-loose text-grey-darker" />
-                <SimpleCardBottom className="flex items-center mt-6 mb-3 border-t">
-                  <div className="flex items-center flex-1 mt-8 text-blue">
-                    Read <Icon icon={['fad', 'arrow-right']} className="ml-3" />
-                  </div>
-
-                  <SimpleCardTag tag={caseStudy.tag} color={caseStudy.color} className="mt-8" />
-                </SimpleCardBottom>
-              </SimpleCard>
-            ))}
+                    <SimpleCardTag tag={caseStudy.tag} color={caseStudy.color} className="mt-8" />
+                  </SimpleCardBottom>
+                </SimpleCard>
+              ))}
+            </div>
           </Container>
 
-          <Container className="flex flex-wrap justify-between px-20 mt-10">
+          <Container className="flex flex-wrap justify-between px-20 pb-32 mt-10 border-b">
             {customers.images.map((image, key) => (
               <div key={key} className="py-8 sm:w-1/2 sm:p-6">
                 <Image className="h-8" src={image.src} title={`${image.alt} Logo`} alt={image.alt} />
@@ -159,8 +156,39 @@ export const Home: React.FunctionComponent<IHome> = ({
           </Container>
         </Section>
       )}
+      <Section id="features" noPadding>
+        <Container title="These things are here for SEO" className="pb-32 ">
+          {features && (
+            <div className="flex flex-wrap justify-around">
+              {features.map((feature, index) => (
+                <SimpleCard
+                  key={index}
+                  className="items-center px-5 text-center w-80 mt-14 sm:pt-14"
+                  href={feature.href}
+                >
+                  <Icon icon={['fad', feature.icon]} className="text-center" size="3x" style={feature.iconStyle} />
 
-      <Testimonials {...testimonials} />
+                  <SimpleCardTop className="mt-5 text-xl font-bold text-grey-darkest">
+                    <SimpleCardTitle title={feature.name} />
+                  </SimpleCardTop>
+
+                  <SimpleCardBody
+                    className="my-2 font-medium leading-loose text-grey-dark"
+                    description={feature.description}
+                  />
+
+                  <SimpleCardBottom className="text-center">
+                    <div className="flex items-center flex-1 font-semibold text-blue">
+                      Learn More
+                      <Icon icon={['fad', 'arrow-right']} className="ml-3" />
+                    </div>
+                  </SimpleCardBottom>
+                </SimpleCard>
+              ))}
+            </div>
+          )}
+        </Container>
+      </Section>
     </Layout>
   );
 };
@@ -170,7 +198,7 @@ export default withSiteData(withRouteData(Home));
 const ProductCards = ({ className }: { className?: string }) => {
   return (
     <div className={cn(className, 'container relative z-5 flex justify-between text-left sm:flex-col sm:items-center')}>
-      <ProductCard
+      {/* <ProductCard
         tag="design"
         name="Stoplight Studio"
         title="Next gen editor for API design & technical docs"
@@ -192,7 +220,7 @@ const ProductCards = ({ className }: { className?: string }) => {
         className="w-1/2 mx-3 bg-white sm:w-full"
         href="/enterprise"
         image="/images/platform-glimpse.png"
-      />
+      /> */}
     </div>
   );
 };
