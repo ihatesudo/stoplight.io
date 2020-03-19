@@ -3,7 +3,9 @@ title: API Visibility
 color: blue
 relatedTags:
   - blog-visibility
+  - blog-design
 hero:
+  particles: true
   image:
     alt: Visibility
     src: /images/studio/hero.png
@@ -15,12 +17,14 @@ hero:
       title: Try Studio
       large: true
       color: purple
+      rightIcon: ['fad', 'arrow-right']
 featureSection:
   actionBar:
     ctas:
       - href: '/studio'
         title: Try Studio
         color: green
+        rightIcon: ['fad', 'arrow-right']
     enabled: true
     text: Ready to Start Designing APIs?
   description: >-

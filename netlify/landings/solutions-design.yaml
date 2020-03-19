@@ -1,9 +1,10 @@
 path: /solutions/design
 title: API Design
-color: blue
+color: indigo
 relatedTags:
   - blog-design
 hero:
+  particles: true
   image:
     alt: Designer
     src: /images/studio/hero.png
@@ -13,14 +14,16 @@ hero:
   ctas:
     - href: '/studio'
       title: Try Studio
-      large: true
       color: purple
+      large: true
+      rightIcon: ['fad', 'arrow-right']
 featureSection:
   actionBar:
     ctas:
       - href: '/studio'
         title: Try Studio
         color: green
+        rightIcon: ['fad', 'arrow-right']
     enabled: true
     text: Ready to Start Designing APIs?
   description: >-

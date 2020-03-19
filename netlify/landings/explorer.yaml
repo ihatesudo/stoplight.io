@@ -13,12 +13,15 @@ hero:
     - title: Get Started with Explorer
       href: 'https://stoplight.io/p/studio?utm_source=studio_hero&utm_medium=web_button&utm_campaign=studio_landing'
       color: purple
+      large: true
+      rightIcon: ['fad', 'arrow-right']
 featureSection:
   actionBar:
     ctas:
       - title: Get Started with Explorer
         href: 'https://github.com/stoplightio/studio/releases/latest/download/stoplight-studio-mac.dmg'
         color: green
+        rightIcon: ['fad', 'arrow-right']
     enabled: true
     text: Ready to find what you're looking for?
   title: Gain Visibility

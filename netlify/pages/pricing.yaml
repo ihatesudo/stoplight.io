@@ -138,7 +138,8 @@ actionBar:
   ctas:
     - color: accent
       href: '/demo'
-      title: Speak with a Solutions Engineer.
+      title: Speak with a Solutions Engineer
+      rightIcon: ['fad', 'arrow-right']
   enabled: true
   text: Need help picking a plan?
 docPlans:

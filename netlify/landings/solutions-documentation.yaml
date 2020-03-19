@@ -4,12 +4,18 @@ color: indigo
 relatedTags:
   - blog-documentation
 hero:
+  image:
+    alt: Designer
+    src: /images/studio/hero.png
   subtitle: Your stakeholders’ single source of truth.
+  particles: true
   title: API Documentation
   ctas:
     - href: '/documentation'
       title: Learn more about Documentation
       color: green
+      large: true
+      rightIcon: ['fad', 'arrow-right']
 featureSection:
   actionBar:
     text: 'Ready to learn more?'

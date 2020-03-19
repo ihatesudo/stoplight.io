@@ -15,9 +15,8 @@ hero:
     - color: green
       href: /studio
       title: Author in Studio
-      icon: ['fad', 'pencil-alt']
+      large: true
       rightIcon: ['fad', 'arrow-right']
-
 featureSection:
   title: Instant Doc Generation
   description: >-
@@ -30,14 +29,12 @@ featureSection:
       image: /images/docs/request-maker.png
       shortName: Versatile Doc Management
       title: Versatile Doc Management
-
     - description: >-
         Integrate Stoplight Docs with the rest of your website. Maintain a consistent look and feel 
         across your organization’s website with custom theming and custom domains included in our Team and Enterprise packages.
       image: /images/docs/jsv.png
       shortName: Custom Theming & Custom Domain
       title: Custom Theming & Custom Domain
-
   actionBar:
     enabled: true
     text: 'Ready to Publish?'
@@ -45,11 +42,11 @@ featureSection:
       - color: accent
         href: 'https://stoplight.io/studio'
         title: Get started with Studio
+        rightIcon: ['fad', 'arrow-right']
       - color: grey-dark
         href: 'https://stoplight.io/p/login'
         title: Login with Github
         icon: ['fab', 'github']
-
 meta:
   description: >-
     Generate instant, detailed, and interactive documentation with Stoplight Docs/Hub

@@ -103,12 +103,7 @@ export const DocPlans: React.FunctionComponent<IDocPlans> = ({
                                     </Popper>
                                     <Reference>
                                       {({ ref }) => (
-                                        <p
-                                          ref={ref}
-                                          style={{
-                                            backgroundColor: 'gray',
-                                          }}
-                                        >
+                                        <p ref={ref} style={{}}>
                                           {f.featureTitle}
                                         </p>
                                       )}

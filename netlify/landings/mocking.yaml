@@ -4,15 +4,23 @@ color: indigo
 relatedTags:
   - blog-mocking
 hero:
+  particles: true
+  image:
+    alt: Stoplight Mocking
+    src: /images/studio/hero.png
   subtitle: Automatic, hosted, and always in-sync. Never configure a mock server again.
   title: Simple API Mocking
   ctas:
     - href: '/studio'
       title: Try Out Mocking in Stoplight Studio
       color: green
+      large: true
+      rightIcon: ['fad', 'arrow-right']
     - href: '/open-source/prism'
       title: Prism Open Source Mock Server
       color: purple
+      large: true
+      rightIcon: ['fad', 'arrow-right']
 featureSection:
   actionBar:
     text: 'Ready to mock your API?'
@@ -20,6 +28,7 @@ featureSection:
     ctas:
       - href: '/studio'
         title: Get Started with Stoplight Studio
+        rightIcon: ['fad', 'arrow-right']
   description: >-
     Instant and automatic, Stoplight Mocking spins up a server as soon as your API’s design 
     specification is published. And if any changes are made to your API, Stoplight Mocking 

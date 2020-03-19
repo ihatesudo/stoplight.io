@@ -4,6 +4,7 @@ color: blue
 relatedTags:
   - blog-development
 hero:
+  particles: true
   image:
     alt: Development
     src: /images/studio/hero.png
@@ -15,12 +16,14 @@ hero:
       title: Try Studio
       large: true
       color: purple
+      rightIcon: ['fad', 'arrow-right']
 featureSection:
   actionBar:
     ctas:
       - href: '/studio'
         title: Try Studio
         color: green
+        rightIcon: ['fad', 'arrow-right']
     enabled: true
     text: Ready to Start Developing APIs?
   description: >-

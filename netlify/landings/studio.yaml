@@ -15,24 +15,33 @@ hero:
     - title: Get Quality
       href: 'https://github.com/stoplightio/studio/releases/latest/download/stoplight-studio-mac.dmg'
       color: green
+      large: true
+      rightIcon: ['fad', 'arrow-right']
     - title: Get Consistency
       href: 'https://github.com/stoplightio/studio/releases/latest/download/stoplight-studio-win.exe'
       color: purple
+      large: true
+      rightIcon: ['fad', 'arrow-right']
     - title: Get Visibility
       href: 'https://github.com/stoplightio/studio/releases/latest/download/stoplight-studio-linux-x86_64.AppImage'
       color: gold
+      large: true
+      rightIcon: ['fad', 'arrow-right']
 featureSection:
   actionBar:
     ctas:
       - title: Get Quality
         href: 'https://github.com/stoplightio/studio/releases/latest/download/stoplight-studio-mac.dmg'
         color: green
+        rightIcon: ['fad', 'arrow-right']
       - title: Get Consistency
         href: 'https://github.com/stoplightio/studio/releases/latest/download/stoplight-studio-win.exe'
         color: purple
+        rightIcon: ['fad', 'arrow-right']
       - title: Get Visibility
         href: 'https://github.com/stoplightio/studio/releases/latest/download/stoplight-studio-linux-x86_64.AppImage'
         color: gold
+        rightIcon: ['fad', 'arrow-right']
     enabled: true
     text: Ready to start designing APIs?
   title: Fluid Design

@@ -4,15 +4,23 @@ color: indigo
 relatedTags:
   - blog-mocking
 hero:
+  image:
+    alt: Designer
+    src: /images/studio/hero.png
+  particles: true
   subtitle: Optimize API development and reduce time to market with API mocking.
   title: API Mocking
   ctas:
     - href: '/studio'
       title: Try Out Mocking in Stoplight Studio
       color: green
+      large: true
+      rightIcon: ['fad', 'arrow-right']
     - href: '/open-source/prism'
       title: Prism Open Source Mock Server
       color: purple
+      large: true
+      rightIcon: ['fad', 'arrow-right']
 featureSection:
   actionBar:
     text: 'Ready to mock your API?'
@@ -20,6 +28,7 @@ featureSection:
     ctas:
       - href: '/studio'
         title: Get Started with Stoplight Studio
+        rightIcon: ['fad', 'arrow-right']
   description: >-
     Mocking enables faster system development by allowing components 
     to integrate with your API before its event build. Stoplight Mocking 
