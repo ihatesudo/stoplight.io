@@ -80,7 +80,7 @@ export const Home: React.FunctionComponent<IHome> = ({
 
       {pageSubjects && (
         <Section id="subjects" {...sectionProps}>
-          <Container title="Quality APIs Don't Just Happen" className="pt-64">
+          <Container title="Quality APIs Don't Just Happen" className="pt-64 sm:pt-0">
             <div className="flex flex-wrap justify-center md:justify-center mt-14">
               {pageSubjects.map((subject, index) => (
                 <div className="px-4 mb-6 text-grey-darker hover:bg-grey-lightest w-100 h-100">
@@ -145,9 +145,9 @@ export const Home: React.FunctionComponent<IHome> = ({
             </div>
           </Container>
 
-          <Container className="flex flex-wrap justify-between px-20 pb-32 mt-10 ">
+          <Container className="flex flex-wrap justify-between px-20 pb-32 mt-10 sm:justify-center ">
             {customers.images.map((image, key) => (
-              <div key={key} className="py-8 sm:w-1/2 sm:p-6">
+              <div key={key} className="py-8 sm:p-3">
                 <Image className="h-8" src={image.src} title={`${image.alt} Logo`} alt={image.alt} />
               </div>
             ))}
@@ -156,7 +156,7 @@ export const Home: React.FunctionComponent<IHome> = ({
         </Section>
       )}
       <Section id="features" noPadding>
-        <Container title="These things are here for SEO" className="pb-32 ">
+        <Container title="Increase API Consistency, Visibility, and Quality" className="pb-32 ">
           {features && (
             <div className="flex flex-wrap justify-around">
               {features.map((feature, index) => (

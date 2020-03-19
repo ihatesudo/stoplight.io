@@ -1,0 +1,60 @@
+path: /solutions/visibility
+title: API Visibility
+color: blue
+relatedTags:
+  - blog-visibility
+hero:
+  image:
+    alt: Visibility
+    src: /images/studio/hero.png
+  subtitle: >-
+    Placeholder
+  title: API Visibility
+  ctas:
+    - href: '/studio'
+      title: Try Studio
+      large: true
+      color: purple
+featureSection:
+  actionBar:
+    ctas:
+      - href: '/studio'
+        title: Try Studio
+        color: green
+    enabled: true
+    text: Ready to Start Designing APIs?
+  description: >-
+    As the number of APIs increase, it becomes difficult to track the services available 
+    to you and your team. Stoplight Explorer improves API visibility by making it easy 
+    to navigate your API assets so you can avoid accidently rebuilding services wasting 
+    valuable development time.
+  features:
+    - description: >-
+        Creating a collection of API assets is only the first step to improving 
+        standardization and reusability in your organization. Stakeholders need 
+        to efficiently discover these resources to be able to utilize them effectively. 
+        With Stoplight Explorer, team members can effortlessly discover API endpoints, 
+        models, and assets so that reuse becomes a habit rather than a dream.
+      image: /images/design_quick_start.png
+      shortName: Enabling Discovery & Increasing Reusability
+      title: Enabling Discovery & Increasing Reusability
+      titleURL: /visbility/discovery
+    - description: >-
+        Placeholder
+      image: /images/design_visual.png
+      shortName: Making Sense of Chaos
+      title: Making Sense of Chaos
+      titleURL: /visbility/sense
+  title: Avoid Unnecessary Rebuilds
+meta:
+  description: >-
+    Create more complete, robust, and maintainable APIs with a design first approach.
+  favicon: /images/mark_light_bg.png
+  image: /images/design_feature_3.png
+  title: REST API Design & Planning Tool | REST API Modeling & Designer Tool
+  twitter:
+    description: >-
+      Create more complete, robust, and maintainable APIs with a design first approach.
+    image: /images/design_feature_3.png
+    title: REST API Design & Planning Tool | REST API Modeling & Designer Tool
+    username: '@stoplightio'

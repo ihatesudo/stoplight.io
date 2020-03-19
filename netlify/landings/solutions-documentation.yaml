@@ -1,0 +1,67 @@
+path: /solutions/documentation
+title: API Documentation
+color: indigo
+relatedTags:
+  - blog-documentation
+hero:
+  subtitle: Your stakeholders’ single source of truth.
+  title: API Documentation
+  ctas:
+    - href: '/documentation'
+      title: Learn more about Documentation
+      color: green
+featureSection:
+  actionBar:
+    text: 'Ready to learn more?'
+    enabled: true
+    ctas:
+      - href: '/documentation'
+        title: Get Started
+  description: >-
+    Documentation is what allows consumers to effectively 
+    connect with your API. Stoplight Docs takes this a step 
+    further by coupling beautifully rendered docs with embedded request 
+    makers and model schemas to give developers the tools to become successful API consumers.
+  features:
+    - description: >-
+        As APIs are developed, the internal team will begin to acquire 
+        knowledge only available to them, putting valuable knowledge at risk of 
+        being lost when key stakeholders change. Stoplight Hubs is designed to 
+        create documentation from your API’s design specification to ensure 
+        information is preserved and easily accessible.
+      image: /images/mocking_instant.png
+      shortName: Protect Your Knowledge
+      title: Protect Your Knowledge
+      titleURL: /documentation/knowledge
+    - description: >-
+        Well written documentation saves stakeholders the time of 
+        guiding consumers through the API integration process saving 
+        valuable integration and development time. Stoplight’s workflow 
+        puts an emphasis on verbose and regularly updated documentation 
+        to allow API consumers to achieve 0-touch integrations.
+      image: /images/prism_dynamic.png
+      shortName: Reduce Support Cost
+      title: Reduce Support Cost
+      titleURL: /documentation/support
+    - description: >-
+        External API consumers and integration teams are not the only stakeholders 
+        who benefit from documentation. Internal teams can also take advantage of 
+        well written documentation to maintain existing APIs with greater effectiveness. 
+        Stoplight Hub’s always in-sync documentation ensures that documentation always 
+        remains useful as your API evolves.
+      image: /images/prism_dynamic.png
+      shortName: Make Maintenance Easy
+      title: Make Maintenance Easy
+      titleURL: /documentation/maintenance
+  title: Empower API Consumers
+meta:
+  description: >-
+    Your stakeholders’ single source of truth.
+  favicon: /images/mark_light_bg.png
+  title: Simple API Mocking By Stoplight | Mock HTTP API Online
+  twitter:
+    description: >-
+      Your stakeholders’ single source of truth.
+    image: /images/mocking_instant.png
+    title: Simple API Mocking By Stoplight | Mock HTTP API Online
+    username: '@stoplightio'

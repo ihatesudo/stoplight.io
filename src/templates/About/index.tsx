@@ -123,9 +123,9 @@ export const About: React.FunctionComponent<IAbout> = ({
 
       <Section id="social-good" noPaddingB>
         <Container className="pb-32 border-b">
-          <Feature title={socialGood.title} description={socialGood.description} image={socialGood.image} />
+          <Feature title={socialGood.title} description={socialGood.description} image={socialGood.image} isRound />
 
-          <Feature title={careers.title} description={careers.description} image={careers.image} isReversed />
+          <Feature title={careers.title} description={careers.description} image={careers.image} isReversed isRound />
         </Container>
       </Section>
 

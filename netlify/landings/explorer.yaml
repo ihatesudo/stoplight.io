@@ -1,0 +1,57 @@
+path: /explorer
+title: A Powerful API Technical Knowledge Base
+color: blue
+hero:
+  particles: true
+  image:
+    alt: Stoplight Explorer
+    src: /images/studio/hero.png
+  subtitle: >-
+    Effectively search, filter, and understand complex API architectures with Stoplight Explorer.
+  title: A Powerful API Technical Knowledge Base
+  ctas:
+    - title: Get Started with Explorer
+      href: 'https://stoplight.io/p/studio?utm_source=studio_hero&utm_medium=web_button&utm_campaign=studio_landing'
+      color: purple
+featureSection:
+  actionBar:
+    ctas:
+      - title: Get Started with Explorer
+        href: 'https://github.com/stoplightio/studio/releases/latest/download/stoplight-studio-mac.dmg'
+        color: green
+    enabled: true
+    text: Ready to find what you're looking for?
+  title: Gain Visibility
+  description: >-
+    Stoplight Explorer enables you to navigate complex APIs easily. 
+    Gain visibility into your existing architecture to reduce redundancy 
+    and increase reusability saving you valuable development time and cost.
+  features:
+    - description: >-
+        Stoplight Explorer’s capable search feature lets you quickly find what you are looking for in seconds. 
+        Filter results by model, endpoints, or projects to focus on the content you need on-demand.
+      image: /images/studio/hero.png
+      shortName: Find What You’re Looking For
+      title: Find What You’re Looking For
+
+    - description: >-
+        Visibly see the relationships between models and endpoints with Stoplight Explorer’s dependency graph. 
+        Better execute breaking changes with a clear understanding of how the rest of your API will be impacted.
+      image: /images/studio/hero.png
+      overlayImage: true
+      shortName: Visualize Dependencies
+      title: Visualize Dependencies
+
+meta:
+  description: >-
+    Navigate complex APIs easily with Stoplight Explorer.
+  favicon: /images/mark_light_bg.png
+  image: /images/studio/hero.png
+  title: Stoplight Explorer | OpenAPI Design, Planning & Modeling Tool
+  robots: 'noindex, follow'
+  twitter:
+    description: >-
+      Navigate complex APIs easily with Stoplight Explorer.
+    image: /images/studio/hero.png
+    title: Stoplight Explorer | OpenAPI Design, Planning & Modeling Tool
+    username: '@stoplightio'

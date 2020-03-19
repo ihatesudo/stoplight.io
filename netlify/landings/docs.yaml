@@ -1,13 +1,13 @@
 path: /docs
-title: Free Hosted Technical Docs
+title: Take Your API Beyond Static Documentation
 color: indigo
 relatedTags:
   - blog-documentation
 hero:
-  title: Free Hosted Technical Docs
+  title: Take Your API Beyond Static Documentation
   particles: true
   subtitle: >-
-    Generate beautiful technical documentation for your git projects
+    Generate instant, detailed, and interactive documentation with Stoplight Docs/Hub
   image:
     alt: Documentation
     src: /images/docs/landing.png
@@ -19,34 +19,24 @@ hero:
       rightIcon: ['fad', 'arrow-right']
 
 featureSection:
-  title: Built for Personal and Open Source projects
+  title: Instant Doc Generation
   description: >-
-    Stoplight Docs are free and easy to use. Connect your Github and automatically generate technical documentation in seconds for any of your projects. One-click publish from [Stoplight Studio](/studio) or add the Stopight CLI to your CI/CD workflow.
-
+    Stoplight Docs automatically renders API documentation from your design specification. 
+    With the push of a button, create API documentation that instantly updates as your design specification changes.
   features:
     - description: >-
-        Automatically generate documentation from your OpenAPI v2 and v3 documents. With a powerful request maker, your users will be able to try out your API directly from the docs. Our JSON Schema viewer allows them to easily navigate deeply nested request and response structures.
+        Easily control your API’s documentation status with Stoplight Docs. 
+        Quickly modify visibility, accessibility, and content as your API evolves to continuously refine the API consumer’s experience.
       image: /images/docs/request-maker.png
-      shortName: OpenAPI v2/v3
-      title: Generate from OpenAPI v2/v3
+      shortName: Versatile Doc Management
+      title: Versatile Doc Management
 
     - description: >-
-        Stoplight Docs uses a powerful Markdown engine built on top of the CommonMark spec. Enhance your documentation with embedded models, code snippets, call outs and more to give your users the best experience.
+        Integrate Stoplight Docs with the rest of your website. Maintain a consistent look and feel 
+        across your organization’s website with custom theming and custom domains included in our Team and Enterprise packages.
       image: /images/docs/jsv.png
-      shortName: Powerful Markdown
-      title: Powerful Markdown Rendering
-
-    - description: >-
-        Write content using your favorite editor, such as [Stoplight Studio](/studio), then use git to push changes into a git repository on Github, Bitbucket, Gitlab, etc. Before publishing, you can check out a preview of the updated docs along with a breakdown of all the changes.
-      image: /images/docs/preview-changelog.png
-      shortName: Preview & Changelog
-      title: Preview & Changelog
-
-    - description: >-
-        Connect your Github account to one-click publish from [Stoplight Studio](/studio) or use the Stoplight CLI to automate your documentation process by integrating it into your existing CI/CD workflow.
-      image: /images/docs/git.png
-      shortName: Git Integration
-      title: Publish from anywhere
+      shortName: Custom Theming & Custom Domain
+      title: Custom Theming & Custom Domain
 
   actionBar:
     enabled: true
@@ -62,14 +52,14 @@ featureSection:
 
 meta:
   description: >-
-    Stoplight Docs are free and easy to use. Connect your Github and automatically generate technical documentation in seconds for any of your projects. One-click publish from [Stoplight Studio](/studio) or add the Stopight CLI to your CI/CD workflow.
+    Generate instant, detailed, and interactive documentation with Stoplight Docs/Hub
   favicon: /images/mark_light_bg.png
   image: /images/docs/landing.png
   title: Free Hosted Technical Docs | Stoplight
   robots: 'noindex, follow'
   twitter:
     description: >-
-      Stoplight Docs are free and easy to use. Connect your Github and automatically generate technical documentation in seconds for any of your projects. One-click publish from [Stoplight Studio](/studio) or add the Stopight CLI to your CI/CD workflow.
+      Generate instant, detailed, and interactive documentation with Stoplight Docs/Hub
     image: /images/docs/landing.png
     title: Free Hosted Technical Docs | Stoplight
     username: '@stoplightio'

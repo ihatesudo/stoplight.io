@@ -20,6 +20,7 @@ export interface IFeature {
   titleColor?: string;
   isLast?: boolean;
   overlayImage?: boolean;
+  isRound?: boolean;
 }
 
 export interface IFeatureSection extends ISection {
@@ -32,7 +33,7 @@ export interface IFeatureSection extends ISection {
 }
 
 export const Feature: React.FunctionComponent<IFeature> = props => {
-  const { title, titleURL, description, image, isReversed, titleColor, isLast, overlayImage } = props;
+  const { title, titleURL, description, image, isReversed, titleColor, isLast, overlayImage, isRound } = props;
 
   return (
     <div
@@ -74,8 +75,9 @@ export const Feature: React.FunctionComponent<IFeature> = props => {
         <div className="relative w-1/2 sm:hidden">
           <Image
             src={image}
-            className={cn('bg-contain bg-no-repeat ml-auto rounded-lg shadow-lg w-auto mt-1', {
+            className={cn('bg-contain bg-no-repeat ml-auto rounded-lg shadow-lg mt-1', {
               'ml-auto': !isReversed,
+              'bg-center bg-cover h-128 w-128 rounded-full': isRound,
             })}
             style={{ boxShadow: '0 0 4px rgba(0, 0, 0, 0.5)' }}
             // useDiv

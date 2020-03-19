@@ -31,9 +31,9 @@ export const Pricing: React.FunctionComponent<IPricing> = ({
   return (
     <Layout>
       <Hero bgColor={color} {...hero} containerClassName="pb-64" />
-      <PricingPlans color={color} plans={plans} />
+      {/* <PricingPlans color={color} plans={plans} />
       <Collage {...collage} />
-      <div className="container w-3/4 border-b"></div>
+      <div className="container w-3/4 border-b"></div> */}
       <DocPlans {...docPlans} />
       <ActionBar text={actionBar.text} ctas={actionBar.ctas} enabled={actionBar.enabled} className="mx-40" />
       <FAQ {...faq} />

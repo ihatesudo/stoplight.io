@@ -1,0 +1,70 @@
+path: /solutions/mocking
+title: API Mocking
+color: indigo
+relatedTags:
+  - blog-mocking
+hero:
+  subtitle: Optimize API development and reduce time to market with API mocking.
+  title: API Mocking
+  ctas:
+    - href: '/studio'
+      title: Try Out Mocking in Stoplight Studio
+      color: green
+    - href: '/open-source/prism'
+      title: Prism Open Source Mock Server
+      color: purple
+featureSection:
+  actionBar:
+    text: 'Ready to mock your API?'
+    enabled: true
+    ctas:
+      - href: '/studio'
+        title: Get Started with Stoplight Studio
+  description: >-
+    Mocking enables faster system development by allowing components 
+    to integrate with your API before its event build. Stoplight Mocking 
+    complements your workflow by automatically creating a hosted mock 
+    server as you create or update an API’s design specification.
+  features:
+    - description: >-
+        With an interactive and life-like mock of your API, 
+        you can begin to iterate on your API’s design before development begins. 
+        Utilize Stoplight Mocking with the rest of the Stoplight ecosystem 
+        to create mature and complete API design specifications ready to be implemented.
+      image: /images/mocking_instant.png
+      shortName: Iterate Early
+      title: Iterate Early
+      titleURL: /mocking/iterate
+    - description: >-
+        Mocking is an extremely effective tool, but can become difficult to 
+        maintain and configure across teams and continents. Stoplight Mocking 
+        utilizes hosted mocking to expose a public URL that anyone can 
+        access so that all stakeholders can work on the same up to date API mock instance.
+      image: /images/prism_dynamic.png
+      shortName: Accessible Mocking
+      title: Accessible Mocking
+      titleURL: /mocking/accessible
+    - description: >-
+        As stakeholders interact with your API’s mock server, 
+        they can provide more valuable requests that best inform 
+        you how to expand your feature set. With Stoplight Mocking, 
+        changes to your design specification is reflected in your 
+        mock API allowing you to act on feedback immediately and align stakeholders quickly.
+      image: /images/prism_dynamic.png
+      shortName: Grow Smarter
+      title: Grow Smarter
+      titleURL: /mocking/grow
+  title: Shorten Time to Market
+meta:
+  description: >-
+    Instant and automatic, Stoplight Mocking spins up a server as soon as your API’s design 
+    specification is published.
+  favicon: /images/mark_light_bg.png
+  title: Simple API Mocking By Stoplight | Mock HTTP API Online
+  twitter:
+    description: >-
+      Instant and automatic, Stoplight Mocking spins up a server as soon as your API’s design 
+      specification is published.
+    image: /images/mocking_instant.png
+    title: Simple API Mocking By Stoplight | Mock HTTP API Online
+    username: '@stoplightio'

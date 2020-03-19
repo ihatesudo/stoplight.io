@@ -90,25 +90,29 @@ export const DocPlans: React.FunctionComponent<IDocPlans> = ({
                               {f.featureTitle && f.tooltip ? (
                                 <td className="underline">
                                   <Manager>
-                                    <Reference>{({ ref }) => <p ref={ref}>{f.featureTitle}</p>}</Reference>
-                                    <Popper placement="right">
-                                      {({
-                                        ref,
-                                        placement,
-                                        arrowProps = {
-                                          ref: 'test',
-                                          style: {
-                                            backgroundColor: 'purple',
-                                          },
-                                        },
-                                      }) => (
-                                        <div className="absolute tooltip" ref={ref} data-placement={placement}>
-                                          {f.tooltip}
+                                    <Popper placement="auto">
+                                      {({ ref, style, placement, arrowProps, ...args }) => (
+                                        <div ref={ref} data-placement={placement}>
+                                          <div className="tooltip" ref={arrowProps.ref} style={arrowProps.style}>
+                                            {f.tooltip}
 
-                                          <div ref={arrowProps.ref} style={arrowProps.style} />
+                                            <div ref={arrowProps.ref} style={arrowProps.style} />
+                                          </div>
                                         </div>
                                       )}
                                     </Popper>
+                                    <Reference>
+                                      {({ ref }) => (
+                                        <p
+                                          ref={ref}
+                                          style={{
+                                            backgroundColor: 'gray',
+                                          }}
+                                        >
+                                          {f.featureTitle}
+                                        </p>
+                                      )}
+                                    </Reference>
                                   </Manager>
                                 </td>
                               ) : (

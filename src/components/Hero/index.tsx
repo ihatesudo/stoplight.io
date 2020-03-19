@@ -132,7 +132,7 @@ export const Hero: React.FunctionComponent<IHero> = ({
         <div
           className={cn(
             containerClassName,
-            `container text-white flex flex-col pt-32 sm:pt-14 relative z-5 text-${aligned} relative`,
+            `container text-white flex flex-col pt-32 sm:pt-14 relative z-5 text-${aligned} relative`
           )}
           style={contentBgImage ? { textShadow: `rgba(0, 0, 0, 0.6) 1px 1px 0px` } : undefined}
         >
@@ -145,7 +145,7 @@ export const Hero: React.FunctionComponent<IHero> = ({
               })}
             >
               {breadCrumbs && breadCrumbs.length ? (
-                <div className="text-white opacity-85 font-semibold mb-4 flex items-center">
+                <div className="flex items-center mb-4 font-semibold text-white opacity-85">
                   {breadCrumbs.map((breadCrumb, index) => (
                     <React.Fragment key={index}>
                       <Link className="text-white" to={breadCrumb.path}>
@@ -157,11 +157,11 @@ export const Hero: React.FunctionComponent<IHero> = ({
                 </div>
               ) : null}
 
-              {pageName && <div className="uppercase text-white opacity-85 font-semibold mb-4">{pageName}</div>}
+              {pageName && <div className="mb-4 font-semibold text-white uppercase opacity-85">{pageName}</div>}
 
               <div className="flex">
                 <div className="flex-1">
-                  <h1 className="text-5xl md:text-4xl leading-tight">{title}</h1>
+                  <h1 className="text-6xl leading-tight md:text-4xl">{title}</h1>
 
                   {subtitle && (
                     <h2
@@ -211,13 +211,13 @@ export const Hero: React.FunctionComponent<IHero> = ({
 
         {bottomElem}
 
-        {image && <HeroImage {...image} className="relative z-5 mt-16" />}
+        {image && <HeroImage {...image} className="relative mt-16 z-5" />}
 
         {heroTabs.length > 0 ? <Tabs tabs={heroTabs} className="pt-24" /> : null}
 
         {contentBgImage ? (
           <div
-            className="absolute pin z-1 bg-cover bg-no-repeat border-b-4 border-darken-300"
+            className="absolute bg-no-repeat bg-cover border-b-4 pin z-1 border-darken-300"
             style={{
               backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${contentBgImage})`,
             }}

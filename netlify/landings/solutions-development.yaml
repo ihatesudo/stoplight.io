@@ -1,0 +1,57 @@
+path: /solutions/development
+title: API Development
+color: blue
+relatedTags:
+  - blog-development
+hero:
+  image:
+    alt: Development
+    src: /images/studio/hero.png
+  subtitle: >-
+    Make development the simplest part of the API Lifecycle.
+  title: API Development
+  ctas:
+    - href: '/studio'
+      title: Try Studio
+      large: true
+      color: purple
+featureSection:
+  actionBar:
+    ctas:
+      - href: '/studio'
+        title: Try Studio
+        color: green
+    enabled: true
+    text: Ready to Start Developing APIs?
+  description: >-
+    Whether for small intimate teams or across organizational departments, 
+    API design specifications provide an explicit blueprint that accelerates 
+    API development. Stoplight Studio makes it easy to create and consume 
+    API design specifications allowing your development team to work 
+    more productively.
+  features:
+    - description: >-
+        Placeholder text
+      image: /images/design_quick_start.png
+      shortName: Stay Coordinated
+      title: Stay Coordinated
+      titleURL: /design/coordinate
+    - description: >-
+        Placeholder text.
+      image: /images/design_visual.png
+      shortName: Complement Your Workflow
+      title: Complement Your Workflow
+      titleURL: /design/workflow
+  title: Accelerate Development
+meta:
+  description: >-
+    Create more complete, robust, and maintainable APIs with a design first approach.
+  favicon: /images/mark_light_bg.png
+  image: /images/design_feature_3.png
+  title: REST API Design & Planning Tool | REST API Modeling & Designer Tool
+  twitter:
+    description: >-
+      Create more complete, robust, and maintainable APIs with a design first approach.
+    image: /images/design_feature_3.png
+    title: REST API Design & Planning Tool | REST API Modeling & Designer Tool
+    username: '@stoplightio'

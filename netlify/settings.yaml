@@ -24,35 +24,35 @@ info:
 header:
   items:
     - links:
-        - href: '/design'
+        - href: '/solutions/design'
           icon: ['fad', 'pencil-paintbrush']
           title: API Design
           titleColor: blue
-        - href: '/development'
+        - href: '/solutions/development'
           icon: ['fad', 'code']
           title: API Development
           titleColor: orange
-        - href: /mocking
+        - href: '/solutions/mocking'
           icon: ['fad', 'database']
           title: API Mocking
           titleColor: indigo
-        - href: /documentation
+        - href: '/solutions/documentation'
           icon: ['fad', 'book-open']
           title: API Documentation
           titleColor: yellow
-        - href: /visibility
+        - href: '/solutions/visibility'
           icon: ['fad', 'chart-network']
           title: API Visibility
           titleColor: red
-        - href: /governance
+        - href: '/solutions/governance'
           icon: ['fad', 'balance-scale']
           title: API Governance
           titleColor: purple
-        - href: /quality
+        - href: '/solutions/quality'
           icon: ['fad', 'ruler-combined']
           title: API Quality
           titleColor: green
-        - href: /collaboration
+        - href: '/solutions/collaboration'
           icon: ['fad', 'user-friends']
           title: API Collaboration
           titleColor: yellow
@@ -137,21 +137,21 @@ footer:
           title: Enterprise
       title: Products
     - links:
-        - href: '/design'
+        - href: 'solutions/design'
           title: API Design
-        - href: /development
+        - href: 'solutions/development'
           title: API Development
-        - href: '/mocking'
+        - href: 'solutions/mocking'
           title: API Mocking
-        - href: /documentation
+        - href: 'solutions/documentation'
           title: API Documentation
-        - href: /visibility
+        - href: 'solutions/visibility'
           title: API Visibility
-        - href: /governance
+        - href: 'solutions/governance'
           title: API Governance
-        - href: /quality
+        - href: 'solutions/quality'
           title: API Quality
-        - href: /collaboration
+        - href: 'solutions/collaboration'
           title: API Collaboration
       title: Solutions
     - links:

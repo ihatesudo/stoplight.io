@@ -1,0 +1,59 @@
+path: /solutions/design
+title: API Design
+color: blue
+relatedTags:
+  - blog-design
+hero:
+  image:
+    alt: Designer
+    src: /images/studio/hero.png
+  subtitle: >-
+    Create more complete, robust, and maintainable APIs with a design first approach.
+  title: API Design
+  ctas:
+    - href: '/studio'
+      title: Try Studio
+      large: true
+      color: purple
+featureSection:
+  actionBar:
+    ctas:
+      - href: '/studio'
+        title: Try Studio
+        color: green
+    enabled: true
+    text: Ready to Start Designing APIs?
+  description: >-
+    API design provides clarity into your API’s infrastructure highlighting weaknesses 
+    and flaws immediately. Identify opportunities earlier rather than later to avoid 
+    sacrificing valuable development time when designing APIs in Stoplight Studio.
+  features:
+    - description: >-
+        With a blueprint of what needs to be developed, API design enables you to better predict timelines, 
+        delegate tasks, and align stakeholders. Utilize Stoplight Studio to ensure your team is best organized to tackle API development.
+      image: /images/design_quick_start.png
+      shortName: Plan Ahead & Plan Better
+      title: Plan Ahead & Plan Better
+      titleURL: /design/plan
+    - description: >-
+        Following a design first approach when creating an API makes it easy for stakeholders 
+        to provide feedback and become aligned. Stoplight Studio makes it easy to navigate 
+        and edit API design specifications so that you and your team can collaborate efficiently 
+        and reconcile feedback effectively.
+      image: /images/design_visual.png
+      shortName: Improve Team Communication
+      title: Improve Team Communication
+      titleURL: /design/communication
+  title: Catch Bugs Early
+meta:
+  description: >-
+    Create more complete, robust, and maintainable APIs with a design first approach.
+  favicon: /images/mark_light_bg.png
+  image: /images/design_feature_3.png
+  title: REST API Design & Planning Tool | REST API Modeling & Designer Tool
+  twitter:
+    description: >-
+      Create more complete, robust, and maintainable APIs with a design first approach.
+    image: /images/design_feature_3.png
+    title: REST API Design & Planning Tool | REST API Modeling & Designer Tool
+    username: '@stoplightio'

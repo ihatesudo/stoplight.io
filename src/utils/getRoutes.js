@@ -19,6 +19,7 @@ export async function getRoutes() {
     authors = [],
 
     landings = [],
+    solutions = [],
     caseStudies = [],
     blogPosts = [],
     other = [],
@@ -35,6 +36,7 @@ export async function getRoutes() {
     getFiles(`${NETLIFY_PATH}/authors`),
 
     getFiles(`${NETLIFY_PATH}/landings`),
+    getFiles(`${NETLIFY_PATH}/solutions`),
     getFiles(`${NETLIFY_PATH}/case-studies`, ['.md']),
     getFiles(`${NETLIFY_PATH}/blog-posts`, ['.md'], { includeToc: true }),
     getFiles(`${NETLIFY_PATH}/subpages`, ['.md'], { includeToc: true }),
@@ -44,23 +46,30 @@ export async function getRoutes() {
   caseStudies = caseStudies.map(caseStudy => ({ ...caseStudy, backgroundSize: 'contain' }));
 
   // add author to pages and remove pages without a path
-  const allPages = [...landings, ...caseStudies, ...blogPosts, ...careers, ...forms, demoForm, ...other].filter(
-    page => {
-      if (page.path && !page.redirect) {
-        const authorPage = authors.find(author => author.title === page.author);
+  const allPages = [
+    ...landings,
+    ...solutions,
+    ...caseStudies,
+    ...blogPosts,
+    ...careers,
+    ...forms,
+    demoForm,
+    ...other,
+  ].filter(page => {
+    if (page.path && !page.redirect) {
+      const authorPage = authors.find(author => author.title === page.author);
 
-        if (authorPage) {
-          page.author = {
-            name: authorPage.title,
-            path: authorPage.path,
-            image: authorPage.image,
-          };
-        }
-
-        return page.path;
+      if (authorPage) {
+        page.author = {
+          name: authorPage.title,
+          path: authorPage.path,
+          image: authorPage.image,
+        };
       }
+
+      return page.path;
     }
-  );
+  });
 
   const routes = [
     {

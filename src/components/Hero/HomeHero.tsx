@@ -177,7 +177,7 @@ export const HomeHero: React.FunctionComponent<IHomeHero> = ({
 
                   {ctas && (
                     <div
-                      className={cn('flex sm:flex-col sm:w-full mt-14 sm:mt-8 whitespace-no-wrap', {
+                      className={cn('flex sm:flex-col sm:w-full mt-14 sm:mt-8 whitespace-no-wrap sm:pb-10', {
                         '-mx-40 sm:mx-0': ctas && ctas.length > 2,
                         'mx-auto justify-center': aligned === 'center',
                         'ml-auto': aligned === 'right',
@@ -209,7 +209,7 @@ export const HomeHero: React.FunctionComponent<IHomeHero> = ({
           </div>
 
           {bottomElem && (
-            <div className="-mb-64 pt-14">
+            <div className="-mb-64 pt-14 sm:hidden">
               <iframe width="760" height="515" src="https://www.youtube.com/embed/CBZUpDXpC7U"></iframe>
             </div>
           )}

@@ -156,7 +156,7 @@ ul {
 }
 .hubs-table {
   width: 100%;
-  line-height: 1;
+  line-height: 1.5;
 
   th {
     font-weight: normal;
@@ -176,7 +176,7 @@ ul {
     }
   }
   td {
-    padding-top: 10px;
+    padding: 10px;
     font-weight: normal;
     text-decoration-style: dotted;
 
@@ -211,17 +211,12 @@ ul {
   color: white;
   font-weight: bold;
   text-align: center;
-  padding: 4px 8px;
+  padding: 8px;
   font-size: 13px;
   border-radius: 4px;
   z-index: 9999;
-
-  .top-full {
-    top: 100%;
-  }
-  .bottom-full {
-    bottom: 100%;
-  }
+  position: absolute;
+  width: 300px;
 }
 .markdown-body {
   -ms-text-size-adjust: 100%;
