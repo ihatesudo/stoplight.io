@@ -210,12 +210,12 @@ export const HomeHero: React.FunctionComponent<IHomeHero> = ({
 
           {bottomElem && (
             <div className="-mb-64 pt-14 sm:hidden">
-              <iframe width="760" height="515" src="https://www.youtube.com/embed/CBZUpDXpC7U"></iframe>
+              <Image src="/images/placeholder.gif" style={{ height: 430 }} />
             </div>
           )}
         </div>
 
-        {image && <HeroImage {...image} className="relative mt-16 z-5" />}
+        {/* {image && <HeroImage {...image} className="relative mt-16 z-5" />} */}
 
         {heroTabs.length > 0 ? <Tabs tabs={heroTabs} className="pt-24" /> : null}
 

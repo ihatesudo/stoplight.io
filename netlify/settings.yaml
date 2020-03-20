@@ -106,7 +106,7 @@ header:
       title: Enterprise
     - href: /pricing
       title: Pricing
-    - href: https://stoplight.io/p/signup
+    - href: https://stoplight.com/welcome
       isButton: true
       title: Get Started
       altBg: purple
@@ -118,7 +118,7 @@ actionBar:
       title: Book a Demo
       outlined: true
     - color: purple
-      href: 'https://stoplight.io/p/signup'
+      href: 'https://stoplight.com/welcome'
       title: Create a Free Account
   enabled: false
   text: Getting started is easy. Be up and running in minutes.

@@ -5,12 +5,16 @@ hero:
     Streamline your API Development workflow with a powerful API creation platform.
     Transform the way your team designs, documents, and mocks APIs.
   title: The Best APIs Start with Stoplight
+  # image:
+  #   alt: Documentation
+  #   src: /images/placeholder.gif
   ctas:
     - color: purple
-      href: /studio
+      href: https://stoplight.com/welcome
+      large: true
       title: GET STARTED
 pageSubjects:
-  - title: Design First
+  - title: API Design
     description: >-
       Know exactly what you need to build before writing a single line of code. Reduce your
       development time, minimize bugs, and improve your API’s longevity with Stoplight Studio.
@@ -18,24 +22,35 @@ pageSubjects:
     href: /studio
     tag: design
     color: green
-  - title: Gain API Visibility
+    icon: 'pencil-ruler'
+    iconStyle:
+      '--fa-primary-color': 'dodgerblue'
+      '--fa-secondary-color': 'limegreen'
+  - title: API Visibility
     description: >-
-      As APIs scale, it becomes increasingly difficult to visualize dependencies and organize
-      services. With Stoplight Explorer, effectively navigate your APIs to increase
-      reusability and decrease redundancies.
-    cta: Explore Something
+      Effectively navigate your APIs to visualize dependencies, increase
+      reusability, and decrease redundancies with Stoplight Explorer.
+    cta: Explore Visibility
     href: /studio
     tag: visibility
     color: blue
-  - title: Quick Documentation
+    icon: 'chart-network'
+    iconStyle:
+      '--fa-primary-color': 'tomato'
+      '--fa-secondary-color': 'tomato'
+  - title: API Documentation
     description: >-
       Automatically generate beautiful documentation and
       ensure it remains in sync with your API’s latest design specification.
     cta: Explore Docs
     href: /docs
     tag: documentation
-    color: orange
-  - title: Get Everyone Involved
+    color: purple
+    icon: 'book'
+    iconStyle:
+      '--fa-primary-color': 'gold'
+      '--fa-secondary-color': 'gold'
+  - title: Collaboration
     description: >-
       Collaborate with the entire team across one platform to implement specifications,
       merge microservices, and much more.
@@ -43,23 +58,52 @@ pageSubjects:
     href: /docs
     tag: collaboration
     color: purple
-  - title: Instant Hosted Mocking
-    description: >-
-      Integrate with an API before it's even built, enable teams to develop
-      components in parallel, and break free from waterfall development.
-    cta: Explore Mocking
-    href: /mocking
-    tag: mocking
-    color: gold
-  - title: Create Quality Standards
-    description: >-
-      Accelerate development without sacrificing quality.
-      Streamline every design decision with built-in linting and custom
-      style guides.
-    cta: Explore Quality
+    icon: 'user-friends'
+    iconStyle:
+      '--fa-primary-color': 'purple'
+      '--fa-secondary-color': 'purple'
+  # - title: Instant Hosted Mocking
+  #   description: >-
+  #     Integrate with an API before it's even built, enable teams to develop
+  #     components in parallel, and break free from waterfall development.
+  #   cta: Explore Mocking
+  #   href: /mocking
+  #   tag: mocking
+  #   color: gold
+  # - title: Create Quality Standards
+  #   description: >-
+  #     Accelerate development without sacrificing quality.
+  #     Streamline every design decision with built-in linting and custom
+  #     style guides.
+  #   cta: Explore Quality
+  #   href: /quality
+  #   tag: quality
+  #   color: indigo
+solutions:
+  - title: Solution One
+    cta: Learn More
     href: /quality
-    tag: quality
+    description: Here's some short text to describe
+    tag: tag 1
+    color: gold
+  - title: Solution Two
+    cta: Learn More
+    href: /quality
+    description: Here's some short text to describe
+    tag: tag 2
+    color: green
+  - title: Solution Three
+    cta: Learn More
+    href: /quality
+    description: Here's some short text to describe
+    tag: tag 3
     color: indigo
+  - title: Solution Four
+    cta: Learn More
+    href: /quality
+    description: Here's some short text to describe
+    tag: tag 4
+    color: purple
 features:
   - name: API Design
     description: Quickly model your APIs using visual tools on top of open standards.

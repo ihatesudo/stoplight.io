@@ -27,6 +27,7 @@ export interface IHome {
   customers: ICustomerSection;
   caseStudies?: ICaseStudyCard[];
   pageSubjects?: IPageSubject[];
+  solutions?: Partial<IPageSubject[]>;
 }
 
 interface IPageSubject {
@@ -36,6 +37,11 @@ interface IPageSubject {
   href: string;
   tag: string;
   color: string;
+  icon: IconName;
+  iconStyle: {
+    '--fa-primary-color': string;
+    '--fa-secondary-color': string;
+  };
 }
 interface ICustomerSection extends ISection {
   images: IImage[];
@@ -72,6 +78,7 @@ export const Home: React.FunctionComponent<IHome> = ({
   features,
   customers,
   pageSubjects,
+  solutions,
   ...sectionProps
 }) => {
   return (
@@ -79,6 +86,72 @@ export const Home: React.FunctionComponent<IHome> = ({
       <HomeHero bgColor={color} {...hero} />
 
       {pageSubjects && (
+        <Section id="subjects" {...sectionProps}>
+          <Container title="Quality APIs Don't Just Happen" className="pt-64 sm:pt-0">
+            <div className="flex flex-wrap justify-center">
+              {pageSubjects.map((subject, index) => (
+                <div className="flex px-3 text-grey-darker hover:bg-grey-lightest w-80">
+                  <SimpleCard key={index} className="p-8 bg-white h-80" href={subject.href} hoverable>
+                    <SimpleCardTop className="pb-8">
+                      <div className="flex">
+                        <Icon
+                          icon={['fad', subject.icon]}
+                          className="text-center"
+                          size="2x"
+                          style={subject.iconStyle}
+                        />
+                        <h3 className="ml-3 font-bold text-grey-darker">{subject.title}</h3>
+                      </div>
+                    </SimpleCardTop>
+                    <SimpleCardBody description={subject.description} className="text-grey-darker" />
+                    <SimpleCardBottom className="border-t">
+                      {/* <SimpleCardTag tag={subject.tag} color={subject.color} className="mt-8" /> */}
+                      <div className="flex items-center flex-1 my-6 text-blue">
+                        {subject.cta} <Icon icon={['fad', 'arrow-right']} className="ml-3" />
+                      </div>
+                    </SimpleCardBottom>
+                  </SimpleCard>
+                </div>
+              ))}
+            </div>
+            {/* {solutions && (
+              <div className="flex flex-wrap justify-center">
+                {solutions.map((solution, index) => (
+                  <SimpleCard key={index} className="p-8 bg-white h-30" href={solution && solution.href} hoverable>
+                    <SimpleCardTop>{solution && <h3>{solution.title}</h3>}</SimpleCardTop>
+                  </SimpleCard>
+                ))}
+              </div> */}
+            {/* )} */}
+            <div className="flex flex-wrap justify-center">
+              {solutions &&
+                solutions.map((solution, index) => (
+                  <div className="flex px-3 pt-6 text-grey-darker hover:bg-grey-lightest">
+                    <SimpleCard
+                      key={index}
+                      className="w-64 p-3 bg-white h-30"
+                      href={solution && solution.href}
+                      hoverable
+                    >
+                      <div className="flex justify-between pb-2">
+                        {solution && <h3 className="ml-3 font-bold text-grey-darker">{solution.title}</h3>}
+                        {solution && <SimpleCardTag tag={solution.tag} color={solution.color} className="" />}
+                      </div>
+                      <SimpleCardBody className="p-3 text-grey-darker" description={solution && solution.description} />
+                      <SimpleCardBottom className="flex items-center p-3 my-3">
+                        <div className="flex items-center flex-1 mt-8 text-blue">
+                          Learn More <Icon icon={['fad', 'arrow-right']} className="ml-3" />
+                        </div>
+                      </SimpleCardBottom>
+                    </SimpleCard>
+                  </div>
+                ))}
+            </div>
+          </Container>
+        </Section>
+      )}
+
+      {/* {pageSubjects && (
         <Section id="subjects" {...sectionProps}>
           <Container title="Quality APIs Don't Just Happen" className="pt-64 sm:pt-0">
             <div className="flex flex-wrap justify-center md:justify-center mt-14">
@@ -91,10 +164,7 @@ export const Home: React.FunctionComponent<IHome> = ({
                     href={subject.href}
                   >
                     <SimpleCardTop className="items-start pb-4">
-                      <SimpleCardTitle
-                        subtitle={subject.title}
-                        className="mt-3 text-lg font-bold uppercase text-grey-darker"
-                      />
+                      <SimpleCardTitle subtitle={subject.title} className="mt-3 text-lg font-bold text-grey-darker" />
                     </SimpleCardTop>
                     <SimpleCardBody
                       description={subject.description}
@@ -113,7 +183,7 @@ export const Home: React.FunctionComponent<IHome> = ({
             </div>
           </Container>
         </Section>
-      )}
+      )} */}
       <div className="container w-3/4 border-b"></div>
 
       {caseStudies && (
@@ -134,11 +204,10 @@ export const Home: React.FunctionComponent<IHome> = ({
                   </SimpleCardTop>
                   <SimpleCardBody description={caseStudy.description} className="mt-4 leading-loose text-grey-darker" />
                   <SimpleCardBottom className="flex items-center mt-6 mb-3 border-t">
+                    <SimpleCardTag tag={caseStudy.tag} color={caseStudy.color} className="mt-8" />
                     <div className="flex items-center flex-1 mt-8 text-blue">
                       Read <Icon icon={['fad', 'arrow-right']} className="ml-3" />
                     </div>
-
-                    <SimpleCardTag tag={caseStudy.tag} color={caseStudy.color} className="mt-8" />
                   </SimpleCardBottom>
                 </SimpleCard>
               ))}
@@ -155,7 +224,7 @@ export const Home: React.FunctionComponent<IHome> = ({
           <div className="container w-3/4 border-b"></div>
         </Section>
       )}
-      <Section id="features" noPadding>
+      {/* <Section id="features" noPadding>
         <Container title="Increase API Consistency, Visibility, and Quality" className="pb-32 ">
           {features && (
             <div className="flex flex-wrap justify-around">
@@ -187,7 +256,7 @@ export const Home: React.FunctionComponent<IHome> = ({
             </div>
           )}
         </Container>
-      </Section>
+      </Section> */}
     </Layout>
   );
 };
