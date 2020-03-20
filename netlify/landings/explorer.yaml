@@ -5,7 +5,7 @@ hero:
   particles: true
   image:
     alt: Stoplight Explorer
-    src: /images/studio/hero.png
+    src: /images/explorer/Explorer-placeholder-hero.png
   subtitle: >-
     Effectively search, filter, and understand complex API architectures with Stoplight Explorer.
   title: A Powerful API Technical Knowledge Base
@@ -33,15 +33,14 @@ featureSection:
     - description: >-
         Stoplight Explorer’s capable search feature lets you quickly find what you are looking for in seconds. 
         Filter results by model, endpoints, or projects to focus on the content you need on-demand.
-      image: /images/studio/hero.png
+      image: /images/explorer/explorer-search-placeholder.png
       shortName: Find What You’re Looking For
       title: Find What You’re Looking For
 
     - description: >-
         Visibly see the relationships between models and endpoints with Stoplight Explorer’s dependency graph. 
         Better execute breaking changes with a clear understanding of how the rest of your API will be impacted.
-      image: /images/studio/hero.png
-      overlayImage: true
+      image: /images/explorer/dependency-placeholder.png
       shortName: Visualize Dependencies
       title: Visualize Dependencies
 

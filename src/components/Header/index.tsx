@@ -138,7 +138,7 @@ export const Banner = ({ banner }) => {
         <div className="flex-1" dangerouslySetInnerHTML={{ __html: banner && banner.markdown }} />
         <div className="mr-10 ">
           <Icon icon={['fad', 'user']} className="mr-3" />
-          <Link className="font-bold" to="https://stoplight.io/demo">
+          <Link className="font-bold" to="https://stoplight.io/p/login">
             Log In
           </Link>
         </div>

@@ -81,7 +81,7 @@ export const DocPlans: React.FunctionComponent<IDocPlans> = ({
                 categories.map((c, index) => {
                   return (
                     <>
-                      <h3 className="py-10 bg-white font-xl">{c.category}</h3>
+                      <h3 className="pt-10 pb-2 bg-white font-xl">{c.category}</h3>
 
                       {c.features &&
                         c.features.map((f, i) => {
@@ -90,13 +90,13 @@ export const DocPlans: React.FunctionComponent<IDocPlans> = ({
                               {f.featureTitle && f.tooltip ? (
                                 <td className="underline">
                                   <Manager>
-                                    <Popper placement="auto">
+                                    <Popper placement="bottom-start">
                                       {({ ref, style, placement, arrowProps, ...args }) => (
                                         <div ref={ref} data-placement={placement}>
                                           <div className="tooltip" ref={arrowProps.ref} style={arrowProps.style}>
                                             {f.tooltip}
 
-                                            <div ref={arrowProps.ref} style={arrowProps.style} />
+                                            <div className="popper" ref={arrowProps.ref} style={arrowProps.style} />
                                           </div>
                                         </div>
                                       )}

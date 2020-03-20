@@ -137,21 +137,21 @@ footer:
           title: Enterprise
       title: Products
     - links:
-        - href: 'solutions/design'
+        - href: '/solutions/design'
           title: API Design
-        - href: 'solutions/development'
+        - href: '/solutions/development'
           title: API Development
-        - href: 'solutions/mocking'
+        - href: '/solutions/mocking'
           title: API Mocking
-        - href: 'solutions/documentation'
+        - href: '/solutions/documentation'
           title: API Documentation
-        - href: 'solutions/visibility'
+        - href: '/solutions/visibility'
           title: API Visibility
-        - href: 'solutions/governance'
+        - href: '/solutions/governance'
           title: API Governance
-        - href: 'solutions/quality'
+        - href: '/solutions/quality'
           title: API Quality
-        - href: 'solutions/collaboration'
+        - href: '/solutions/collaboration'
           title: API Collaboration
       title: Solutions
     - links:
