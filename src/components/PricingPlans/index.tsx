@@ -49,13 +49,13 @@ export const PricingPlan: React.FunctionComponent<IPricingPlan> = ({
     <div className={` flex flex-col h-full mx-3 rounded-lg md:my-6 md:flex-auto sm:flex-wrap bg-${titleColor}`}>
       <div className="flex-1 p-10 mt-2 bg-white shadow-md ">
         <div className="py-8 mb-10 -mx-10 -mt-10 border-b bg-grey-lightest">
-          <div className="items-center mb-2 text-4xl font-extrabold text-center">{title}</div>
+          <div className="items-center mt-4 text-4xl font-extrabold text-center">{title}</div>
           {price.button ? (
-            <div className="pb-8 text-center">
-              <div className="mt-4 text-xl font-bold leading-loose ">{price.title}</div>
+            <div className="text-center">
+              <div className="my-6 text-xl font-bold leading-loose">{price.title}</div>
             </div>
           ) : (
-            <div className="text-6xl font-bold leading-loose text-center ">
+            <div className="pt-1 text-6xl font-bold leading-loose text-center">
               <div className="flex justify-center">
                 {price.title}
                 <div className="flex flex-col mt-6 ml-1 text-lg font-normal leading-tight text-left">

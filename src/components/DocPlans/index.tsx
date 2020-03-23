@@ -1,6 +1,7 @@
+import Tippy from '@tippyjs/react';
 import cn from 'classnames';
 import * as React from 'react';
-import { Manager, Popper, Reference } from 'react-popper';
+import 'tippy.js/dist/tippy.css';
 
 import { Container } from '../Container';
 import { Icon } from '../Icon';
@@ -89,26 +90,9 @@ export const DocPlans: React.FunctionComponent<IDocPlans> = ({
                             <tr className="cat-tr">
                               {f.featureTitle && f.tooltip ? (
                                 <td className="underline">
-                                  <Manager>
-                                    <Popper placement="bottom-start">
-                                      {({ ref, style, placement, arrowProps, ...args }) => (
-                                        <div ref={ref} data-placement={placement}>
-                                          <div className="tooltip" ref={arrowProps.ref} style={arrowProps.style}>
-                                            {f.tooltip}
-
-                                            <div className="popper" ref={arrowProps.ref} style={arrowProps.style} />
-                                          </div>
-                                        </div>
-                                      )}
-                                    </Popper>
-                                    <Reference>
-                                      {({ ref }) => (
-                                        <p ref={ref} style={{}}>
-                                          {f.featureTitle}
-                                        </p>
-                                      )}
-                                    </Reference>
-                                  </Manager>
+                                  <Tippy content={f.tooltip} placement="top">
+                                    <span>{f.featureTitle}</span>
+                                  </Tippy>
                                 </td>
                               ) : (
                                 <td></td>

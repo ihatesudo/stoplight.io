@@ -48,10 +48,6 @@ header:
           icon: ['fad', 'balance-scale']
           title: API Governance
           titleColor: purple
-        - href: '/solutions/quality'
-          icon: ['fad', 'ruler-combined']
-          title: API Quality
-          titleColor: green
         - href: '/solutions/collaboration'
           icon: ['fad', 'user-friends']
           title: API Collaboration
@@ -149,8 +145,6 @@ footer:
           title: API Visibility
         - href: '/solutions/governance'
           title: API Governance
-        - href: '/solutions/quality'
-          title: API Quality
         - href: '/solutions/collaboration'
           title: API Collaboration
       title: Solutions

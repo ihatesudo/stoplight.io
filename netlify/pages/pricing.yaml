@@ -22,7 +22,7 @@ plans:
       - name: JSON/YAML Linter
       - name: Project Style Guides
       - name: Technical Knowledge Base (Explorer)
-      - name: Changelog
+      # - name: Changelog
   - title: Team
     titleColor: indigo
     description: 'placeholder subtitle text if we want it'
@@ -149,200 +149,200 @@ docPlans:
     - title: Team
     - title: Enterprise
   categories:
-    - category: Design
+    - category: API Design
       features:
         - featureTitle: Create unlimited APIs, Models, Endpoints, Articles, & Images
-          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          tooltip: Tooltip content providing more detail about feature.
           plans:
             - Free
             - Team
             - Enterprise
         - featureTitle: OpenAPI 3 form support
-          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          tooltip: Tooltip content providing more detail about feature.
           plans:
             - Free
             - Team
             - Enterprise
         - featureTitle: Native git integration
-          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          tooltip: Tooltip content providing more detail about feature.
           plans:
             - Free
             - Team
             - Enterprise
         - featureTitle: Create and switch between branches
-          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          tooltip: Tooltip content providing more detail about feature.
           plans:
             - Free
             - Team
             - Enterprise
         - featureTitle: Create projects from an existing directory/folder on your computer
-          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          tooltip: Tooltip content providing more detail about feature.
           plans:
             - Free
             - Team
             - Enterprise
         - featureTitle: Powerful search
-          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          tooltip: Tooltip content providing more detail about feature.
           plans:
             - Free
             - Team
             - Enterprise
         - featureTitle: Dark theme
-          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          tooltip: Tooltip content providing more detail about feature.
           plans:
             - Free
             - Team
             - Enterprise
         - featureTitle: Private share links
-          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          tooltip: Tooltip content providing more detail about feature.
           plans:
             - Free
             - Team
             - Enterprise
         - featureTitle: Style guides
-          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          tooltip: Tooltip content providing more detail about feature.
           plans:
             - Team
             - Enterprise
         - featureTitle: Design library
-          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          tooltip: Tooltip content providing more detail about feature.
           plans:
             - Enterprise
         - featureTitle: Design library model masking
-          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          tooltip: Tooltip content providing more detail about feature.
           plans:
             - Enterprise
-    - category: Design, Visbility & Governance
+    - category: API Design, Visbility & Governance
       features:
         - featureTitle: Git repo analysis & auto discovery
-          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          tooltip: Tooltip content providing more detail about feature.
           plans:
             - Free
             - Team
             - Enterprise
         - featureTitle: Data filters
-          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          tooltip: Tooltip content providing more detail about feature.
           plans:
             - Free
             - Team
             - Enterprise
         - featureTitle: Project search
-          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          tooltip: Tooltip content providing more detail about feature.
           plans:
             - Free
             - Team
             - Enterprise
         - featureTitle: Workspace search
-          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          tooltip: Tooltip content providing more detail about feature.
           plans:
             - Free
             - Team
             - Enterprise
         - featureTitle: OpenAPI linter
-          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          tooltip: Tooltip content providing more detail about feature.
           plans:
             - Free
             - Team
             - Enterprise
         - featureTitle: Dependency graph - inbound & outbound relationships
-          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          tooltip: Tooltip content providing more detail about feature.
           plans:
             - Enterprise
-    - category: Docs
+    - category: API Docs
       features:
         - featureTitle: Unlimited published APIs
-          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          tooltip: Tooltip content providing more detail about feature.
           plans:
             - Free
             - Team
             - Enterprise
         - featureTitle: Integrated 'Try it Out' API console
-          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          tooltip: Tooltip content providing more detail about feature.
           plans:
             - Free
             - Team
             - Enterprise
         - featureTitle: Rich, markdown powered docs
-          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          tooltip: Tooltip content providing more detail about feature.
           plans:
             - Free
             - Team
             - Enterprise
         - featureTitle: Export support
-          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          tooltip: Tooltip content providing more detail about feature.
           plans:
             - Free
             - Team
             - Enterprise
         - featureTitle: Versioning support
-          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          tooltip: Tooltip content providing more detail about feature.
           plans:
             - Free
             - Team
             - Enterprise
         - featureTitle: Complex JSON support
-          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          tooltip: Tooltip content providing more detail about feature.
           plans:
             - Free
             - Team
             - Enterprise
         - featureTitle: Unlimited pageviews
-          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          tooltip: Tooltip content providing more detail about feature.
           plans:
             - Free
             - Team
             - Enterprise
         - featureTitle: Build history and instant rollbacks
-          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          tooltip: Tooltip content providing more detail about feature.
           plans:
             - Free
             - Team
             - Enterprise
         - featureTitle: Custom domains
-          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          tooltip: Tooltip content providing more detail about feature.
           plans:
             - Team
             - Enterprise
         - featureTitle: Theming
-          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          tooltip: Tooltip content providing more detail about feature.
           plans:
             - Team
             - Enterprise
         - featureTitle: Custom branding
-          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          tooltip: Tooltip content providing more detail about feature.
           plans:
             - Team
             - Enterprise
         - featureTitle: Remove Stoplight logo
-          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          tooltip: Tooltip content providing more detail about feature.
           plans:
             - Enterprise
         - featureTitle: Guest access
-          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          tooltip: Tooltip content providing more detail about feature.
           plans:
             - Enterprise
-    - category: Mocking
+    - category: API Mocking
       features:
         - featureTitle: Hosted mocking
-          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          tooltip: Tooltip content providing more detail about feature.
           plans:
             - Free
             - Team
             - Enterprise
         - featureTitle: Integrated mocking support within API console
-          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          tooltip: Tooltip content providing more detail about feature.
           plans:
             - Free
             - Team
             - Enterprise
         - featureTitle: Validate inputs, responses, webhooks & callbacks
-          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          tooltip: Tooltip content providing more detail about feature.
           plans:
             - Free
             - Team
             - Enterprise
         - featureTitle: Automatic reload
-          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          tooltip: Tooltip content providing more detail about feature.
           plans:
             - Free
             - Team
@@ -362,39 +362,39 @@ docPlans:
     - category: Support
       features:
         - featureTitle: Dedicated customer success manager
-          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          tooltip: Tooltip content providing more detail about feature.
           plans:
             - Enterprise
         - featureTitle: Invoicing options
-          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          tooltip: Tooltip content providing more detail about feature.
           plans:
             - Enterprise
         - featureTitle: Bulk/scalable pricing
-          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          tooltip: Tooltip content providing more detail about feature.
           plans:
             - Enterprise
     - category: Admin
       features:
         - featureTitle: Private & public project access
-          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          tooltip: Tooltip content providing more detail about feature.
           plans:
             - Enterprise
         - featureTitle: SAML
-          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          tooltip: Tooltip content providing more detail about feature.
           plans:
             - Enterprise
         - featureTitle: LDAP
-          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          tooltip: Tooltip content providing more detail about feature.
           plans:
             - Enterprise
         - featureTitle: Domain capture
-          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          tooltip: Tooltip content providing more detail about feature.
           plans:
             - Enterprise
 
     - category: Installation
       features:
         - featureTitle: On Premise
-          tooltip: This tooltip is currently not in the right place. Please be patient while it's under construction.
+          tooltip: Tooltip content providing more detail about feature.
           plans:
             - Enterprise
