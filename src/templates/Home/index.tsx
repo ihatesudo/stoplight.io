@@ -161,6 +161,21 @@ export const Home: React.FunctionComponent<IHome> = ({
       )}
 
       <Testimonials {...testimonials} />
+      <SimpleCard className="w-1/2 p-8 m-8 bg-white rounded-lg shadow">
+        <SimpleCardTop>
+          <h3 className="text-xl font-bold text-grey-darker">Card Title</h3>
+        </SimpleCardTop>
+        <div className="flex flex-row justify-between py-3">
+          <SimpleCardBody
+            className="pt-8"
+            description="Stoplight Workspaces make it easy for different stakeholders 
+      to collaborate within a single platform. From allowing developers 
+      implementing a specification, to enabling project managers merging 
+      microservices, Stoplight is a comprehensive API tool for the entire team."
+          />
+          <Image src="images/undraw_google_docs.svg" className="w-1/3" />
+        </div>
+      </SimpleCard>
     </Layout>
   );
 };
