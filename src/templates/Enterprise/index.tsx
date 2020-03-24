@@ -107,12 +107,11 @@ export const Enterprise: React.FunctionComponent<IEnterprise> = ({
                     </div>
                   </SimpleCardTop>
                   <SimpleCardBody description={caseStudy.description} className="mt-4 leading-loose text-grey-darker" />
-                  <SimpleCardBottom className="flex items-center mt-6 mb-3 border-t">
-                    <div className="flex items-center flex-1 mt-8 text-blue">
+                  <SimpleCardBottom className="flex flex-row items-center justify-between mt-6 mb-3 border-t">
+                    <SimpleCardTag tag={caseStudy.tag} color={caseStudy.color} className="mt-8" />
+                    <div className="flex items-center mt-8 text-blue">
                       Read <Icon icon={['fad', 'arrow-right']} className="ml-3" />
                     </div>
-
-                    <SimpleCardTag tag={caseStudy.tag} color={caseStudy.color} className="mt-8" />
                   </SimpleCardBottom>
                 </SimpleCard>
               ))}

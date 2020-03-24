@@ -73,15 +73,24 @@ export const Feature: React.FunctionComponent<IFeature> = props => {
         </div>
       ) : (
         <div className="relative w-1/2 sm:hidden">
-          <Image
-            src={image}
-            className={cn('bg-contain bg-no-repeat ml-auto rounded-lg shadow-lg mt-1', {
-              'ml-auto': !isReversed,
-              'bg-center bg-cover h-128 w-128 rounded-full': isRound,
-            })}
-            style={{ boxShadow: '0 0 4px rgba(0, 0, 0, 0.5)' }}
-            // useDiv
-          />
+          {isRound ? (
+            <Image
+              src={image}
+              className={cn(' bg-no-repeat rounded-lg shadow-lg mt-1 bg-center bg-cover h-128 w-128 rounded-full', {
+                'ml-auto': !isReversed,
+              })}
+              style={{ boxShadow: '0 0 4px rgba(0, 0, 0, 0.5)' }}
+              useDiv
+            />
+          ) : (
+            <Image
+              src={image}
+              className={cn(' bg-no-repeat bg-contain ml-auto rounded-lg shadow-lg mt-1', {
+                'ml-auto': !isReversed,
+              })}
+              style={{ boxShadow: '0 0 4px rgba(0, 0, 0, 0.5)' }}
+            />
+          )}
         </div>
       )}
     </div>
