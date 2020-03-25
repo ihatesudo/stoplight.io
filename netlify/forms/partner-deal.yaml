@@ -1,0 +1,45 @@
+path: /partner-deal-registration
+title: Stoplight Partner Deal Registration
+subtitle: >-
+  Working with a company that needs Stoplight? Provide the relevant information about your deal and our team will be in touch.
+hero:
+  particles: true
+color: black
+hubspot:
+  formId: dc28e0a6-fe9c-4d7e-b6f6-966365a27577
+  portalId: '4892910'
+collage:
+  cta:
+    color: green
+    href: /case-studies
+    title: Read the Case Studies
+  images:
+    - alt: EA
+      src: /images/ea.png
+    - alt: Arkea
+      src: /images/logo_arkea_transparent.png
+    - alt: Chargify
+      src: /images/chargify-new-logo.png
+    - alt: Deutsche Bank
+      src: /images/deutsche_bank.png
+    - alt: Sendgrid
+      src: /images/logo-sendgrid.png
+    - alt: Shopgate
+      src: /images/shopgate.png
+    - alt: Zoom
+      src: /images/zoom_logo.png
+    - alt: TiVo
+      src: /images/tivo.png
+    - alt: Zendesk
+      src: /images/logo_zendesk.png
+  title: >-
+    Thousands of companies use Stoplight to streamline their API & Microservices
+    workflow
+meta:
+  description: >-
+    Working with a company that needs Stoplight? Provide the relavent information about your deal and our team will be in touch.
+  favicon: /images/mark_light_bg.png
+  title: Register Your Stoplight Partner Deal | Stoplight
+  robots: 'noindex, nofollow'
+  twitter:
+    title: Register Your Stoplight Partner Deal | Stoplight
