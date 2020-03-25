@@ -89,9 +89,9 @@ export const Subpage: React.FunctionComponent<IPage> = ({
 
       <Section noPadding>
         <Container className="mx-auto my-10 sm:-mb-1">
-          <div className="relative">
+          <div className="relative pb-20">
             {sidebar && (
-              <div className="-mt-32 ml-12 mb-12 w-1/3 sm:mt-0 sm:ml-0 sm:mb-24 sm:w-full float-right sm:float-none">
+              <div className="float-right w-1/3 mb-12 ml-12 -mt-32 sm:mt-0 sm:ml-0 sm:mb-24 sm:w-full sm:float-none">
                 {sidebar.info ? <Info {...sidebar.info} /> : null}
 
                 {sidebar.quotes && sidebar.quotes.length
