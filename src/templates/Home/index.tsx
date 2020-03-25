@@ -5,6 +5,7 @@ import { withRouteData, withSiteData } from 'react-static';
 import { SimpleCardBody } from 'src/components/SimpleCard/SimpleCardBody';
 
 import { IconName } from '@fortawesome/fontawesome-common-types';
+import { ActionBar, IActionBar } from 'src/components/ActionBar';
 import { SimpleCardBottom } from 'src/components/SimpleCard/SimpleCardBottom';
 import { SimpleCardTag } from 'src/components/SimpleCard/SimpleCardTag';
 import { SimpleCardTitle } from 'src/components/SimpleCard/SimpleCardTitle';
@@ -28,6 +29,7 @@ export interface IHome {
   caseStudies?: ICaseStudyCard[];
   pageSubjects?: IPageSubject[];
   solutions?: IPageSubject[];
+  actionBar?: IActionBar;
 }
 
 interface IPageSubject {
@@ -79,6 +81,7 @@ export const Home: React.FunctionComponent<IHome> = ({
   customers,
   pageSubjects,
   solutions,
+  actionBar,
   ...sectionProps
 }) => {
   return (
@@ -86,7 +89,7 @@ export const Home: React.FunctionComponent<IHome> = ({
       <HomeHero bgColor={color} {...hero} />
 
       {pageSubjects && (
-        <Section id="subjects" {...sectionProps} noPaddingB>
+        <Section id="subjects" {...sectionProps}>
           <Container title="Quality APIs Don't Just Happen" className="pt-64 sm:pt-0">
             <div className="flex flex-wrap justify-between">
               {pageSubjects.map((subject, index) => (
@@ -113,7 +116,11 @@ export const Home: React.FunctionComponent<IHome> = ({
           </Container>
         </Section>
       )}
-      <Container className="flex flex-row">
+      <div className="container w-3/4 border-b"></div>
+      <div className="pt-20 text-center">
+        <h3 className="text-4xl">How Stoplight's Solutions Help</h3>
+      </div>
+      <Container className="flex flex-row pt-20">
         <div className="w-1/2">
           {solutions &&
             solutions.slice(0, 2).map((solution, index) => (
@@ -141,6 +148,7 @@ export const Home: React.FunctionComponent<IHome> = ({
               </SimpleCard>
             ))}
         </div>
+
         <div className="w-1/2">
           {solutions &&
             solutions.slice(2).map((solution, index) => (
@@ -172,7 +180,9 @@ export const Home: React.FunctionComponent<IHome> = ({
 
       {caseStudies && (
         <Section id="case-studies" {...sectionProps}>
-          <Container title="Stoplight Powers Some of the World's Leading API First Companies">
+          <div className="container w-3/4 border-b"></div>
+
+          <Container title="Stoplight Powers Some of the World's Leading API First Companies" className="pt-32">
             <div className="flex flex-wrap justify-between md:justify-center mt-14">
               {caseStudies.map((caseStudy, index) => (
                 <SimpleCard key={index} className="p-8 m-8 bg-white w-96 h-80" hoverable href={caseStudy.href}>
@@ -205,9 +215,11 @@ export const Home: React.FunctionComponent<IHome> = ({
               </div>
             ))}
           </Container>
-          <div className="container w-3/4 border-b"></div>
         </Section>
       )}
+      <Section noPaddingT>
+        {actionBar && <ActionBar enabled={actionBar.enabled} ctas={actionBar.ctas} text={actionBar.text} />}
+      </Section>
     </Layout>
   );
 };

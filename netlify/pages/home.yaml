@@ -203,6 +203,13 @@ testimonials:
       quote: >-
         Our team roughly saves 15-20 hours a week. It makes it quicker to write, and the review process is quicker as well because we can go in and everybody can see the edits.  We're pretty impressed with Stoplight as a whole.
       role: Manager of Developer Advocacy
+actionBar:
+  ctas:
+    - color: accent
+      href: '/careers'
+      title: Learn More
+  enabled: true
+  text: Action bar CTA!
 meta:
   description: >-
     Using Stoplight you can create OpenAPI descriptions, documentation, mock
