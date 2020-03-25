@@ -13,11 +13,11 @@ hero:
         - book-open
   image:
     alt: Documentation
-    src: /images/hubs/hero.png
+    src: /images/docs/landing.png
   subtitle: >-
     Create beautiful, customizable, interactive hosted API documentation
     generated from your OpenAPI Specification
-  title: Create Hosted API Documentation & API Docs Online
+  title: Create Hosted API Documentation Online
 featureSection:
   actionBar:
     ctas:
@@ -36,28 +36,16 @@ featureSection:
         languages such as JavaScript, Python, Ruby, Java, cURL, and more allow
         consumers to copy and paste right into their own code.
       href: 'https://stoplight.io/documentation/beautiful/'
-      image: /images/docs_feature_1.png
+      image: /images/docs/request-maker.png
       shortName: API Playground
       title: Interactive API Documentation
       titleURL: /documentation/beautiful/
     - description: >-
-        Customize your documentation with Themes, Custom CSS, Pages, Domains,
-        and Versioning. With fully customizable layouts, page design and our
-        Markdown-based Editor, you can document multiple APIs and add rich
-        content and resources alongside API reference documentation for a more
-        complete view of your platform.
-      href: 'https://stoplight.io/documentation/helper/'
-      image: /images/product/docs-theme.png
-      shortName: Theming
-      title: Fully Customizable
-      titleURL: /documentation/helper/
-    - description: >-
         Never have out-of-date documentation. Reference your OpenAPI
         Specification document to [automatically generate API reference
-        documentation](/documentation/generator/). Use the Stoplight API documentation tool to automate your documentation process by integrating it into your existing
-        CI/CD workflow.
+        documentation](/documentation/generator/). Use the Stoplight CLI to automate your documentation process by integrating it into your existing CI/CD workflow.
       href: 'https://stoplight.io/documentation/automation/'
-      image: /images/docs_feature_3.png
+      image: /images/docs/git.png
       shortName: CI/CD Integration
       title: Automated API Documentation
       titleURL: /documentation/automation/
@@ -71,7 +59,7 @@ featureSection:
         assets or use our on-premise solutions behind your firewall to host your
         documentation from anywhere.
       href: 'https://stoplight.io/documentation/enterprise/'
-      image: /images/flexible_deployment.png
+      image: /images/docs/studio.png
       shortName: Integrations
       title: 'Simple, Flexible Deployment'
       titleURL: /documentation/hosted/
@@ -80,18 +68,13 @@ meta:
   description: >-
     Create API documentation in minutes. Combine OpenAPI descriptions (formerly
     known as Swagger) with Markdown to create robust, searchable, internal and
-    external API documentation for your organization. One-click cloud deployment
-    with Stoplight or download the static assets to host anywhere.
+    external API documentation for your organization. Connect your git repository to one-click publish from Stoplight Studio.
   favicon: /images/mark_light_bg.png
-  image: /images/docs_header.png
+  image: /images/docs/landing.png
   title: REST API Documentation Generator Tool | Hosted API Documentation Online
   twitter:
     description: >-
-      Create API documentation in minutes. Combine OpenAPI descriptions
-      (formerly known as Swagger) with Markdown to create robust, searchable,
-      internal and external API documentation for your organization. One-click
-      cloud deployment with Stoplight or download the static assets to host
-      anywhere.
-    image: /images/docs_header.png
+      Create API documentation in minutes. Combine OpenAPI descriptions (formerly known as Swagger) with Markdown to create robust, searchable, internal and external API documentation for your organization. Connect your git repository to one-click publish from Stoplight Studio.
+    image: /images/docs/landing.png
     title: REST API Documentation Generator Tool | Hosted API Documentation Online
     username: '@stoplightio'
