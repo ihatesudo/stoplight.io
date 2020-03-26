@@ -29,37 +29,35 @@ featureSection:
       - href: '/studio'
         title: Get Started with Stoplight Studio
         rightIcon: ['fad', 'arrow-right']
+  title: Up in a Heartbeat
   description: >-
-    Instant and automatic, Stoplight Mocking spins up a server as soon as your API’s design 
-    specification is published. And if any changes are made to your API, Stoplight Mocking 
-    immediately reconfigures the mock server to always keep it up to date and in-sync.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
   features:
     - description: >-
-        Stoplight hosted mocking is designed for everyone to utilize. 
-        Accelerate integrations across components and teams with a 
-        life-like mock of your API’s design specification that doesn’t just live in your local development environment.
-        API design.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       image: /images/mocking_instant.png
-      shortName: Hosted Mocking for Everyone
-      title: Hosted Mocking for Everyone
+      shortName: Reduce Integration Time
+      title: Reduce Integration Time
       titleURL: /mocking/server
     - description: >-
-        Stoplight Mocking is configurable to behave in the way you want it to behave. 
-        Directly from the client, set the response’s status code, enable or disable request validation, 
-        and deactivate security schema check so that Stoplight Mocking helps you develop in all stages of the Software Development Life Cycle.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       image: /images/prism_dynamic.png
-      shortName: Highly Versatile
-      title: Highly Versatile
-  title: Up in a Heartbeat
+      shortName: Get Stakeholder Feedback Early
+      title: Get Stakeholder Feedback Early
+    - description: >-
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      image: /images/prism_dynamic.png
+      shortName: No More Miscommunication
+      title: No More Miscommunication
 meta:
   description: >-
-    Instant and automatic, Stoplight Mocking spins up a server as soon as your API’s design 
+    Instant and automatic, Stoplight Mocking spins up a server as soon as your API’s design
     specification is published.
   favicon: /images/mark_light_bg.png
   title: Simple API Mocking By Stoplight | Mock HTTP API Online
   twitter:
     description: >-
-      Instant and automatic, Stoplight Mocking spins up a server as soon as your API’s design 
+      Instant and automatic, Stoplight Mocking spins up a server as soon as your API’s design
       specification is published.
     image: /images/mocking_instant.png
     title: Simple API Mocking By Stoplight | Mock HTTP API Online

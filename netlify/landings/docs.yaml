@@ -18,23 +18,25 @@ hero:
       large: true
       rightIcon: ['fad', 'arrow-right']
 featureSection:
-  title: Instant Doc Generation
+  title: Automated API Doc Generation
   description: >-
-    Stoplight Docs automatically renders API documentation from your design specification. 
-    With the push of a button, create API documentation that instantly updates as your design specification changes.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
   features:
     - description: >-
-        Easily control your API’s documentation status with Stoplight Docs. 
-        Quickly modify visibility, accessibility, and content as your API evolves to continuously refine the API consumer’s experience.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       image: /images/docs/request-maker.png
-      shortName: Versatile Doc Management
-      title: Versatile Doc Management
+      shortName: Avoid Integration Hand Holding
+      title: Avoid Integration Hand Holding
     - description: >-
-        Integrate Stoplight Docs with the rest of your website. Maintain a consistent look and feel 
-        across your organization’s website with custom theming and custom domains included in our Team and Enterprise packages.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       image: /images/docs/jsv.png
-      shortName: Custom Theming & Custom Domain
-      title: Custom Theming & Custom Domain
+      shortName: Empower API Consumers
+      title: Empower API Consumers
+    - description: >-
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      image: /images/docs/jsv.png
+      shortName: Custom Theming & Domains
+      title: Custom Theming & Domains
   actionBar:
     enabled: true
     text: 'Ready to Publish?'

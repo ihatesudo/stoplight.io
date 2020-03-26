@@ -14,11 +14,10 @@ hero:
       large: true
       title: GET STARTED
 pageSubjects:
-  - title: Studio
+  - title: Design APIs
     description: >-
-      Know exactly what to build before writing a single line of code. 
-      Reduce  development time, minimize bugs, and improve API longevity.
-    cta: Explore Studio
+      Quickly create, collaborate, and prototype OpenAPI design specifications for your next API.
+    cta: Explore Stoplight Studio
     href: /studio
     tag: design
     color: green
@@ -26,10 +25,9 @@ pageSubjects:
     iconStyle:
       '--fa-primary-color': 'dodgerblue'
       '--fa-secondary-color': 'limegreen'
-  - title: Docs
+  - title: Doc Generation
     description: >-
-      Automatically generate beautiful documentation and
-      ensure it remains in sync with your API’s latest design specs.
+      Automatically generate beautiful and interactive documentation that is always in-sync with your API's design specification.
     cta: Explore Docs
     href: /docs
     tag: docs
@@ -38,10 +36,9 @@ pageSubjects:
     iconStyle:
       '--fa-primary-color': 'tomato'
       '--fa-secondary-color': 'tomato'
-  - title: Explorer
+  - title: APIs at Scale
     description: >-
-      Effectively navigate your APIs to visualize dependencies, increase
-      reusability, and decrease redundancies.
+      Effectively navigate your APIs in an instant with Stoplight's technical knowledge base.
     cta: Explore Explorer
     href: /docs
     tag: visibility
@@ -50,10 +47,9 @@ pageSubjects:
     iconStyle:
       '--fa-primary-color': 'limegreen'
       '--fa-secondary-color': 'limegreen'
-  - title: Mocking
+  - title: Hosted Mocking
     description: >-
-      Collaborate with the entire team across one platform to implement specifications,
-      merge microservices, and much more.
+      Develop with a hosted mock server that automatically reconfigures to match your API's design specification.
     cta: Explore Mocking
     href: /docs
     tag: validation
@@ -63,56 +59,48 @@ pageSubjects:
       '--fa-primary-color': 'indigo'
       '--fa-secondary-color': 'indigo'
 solutions:
-  - title: Design First, Develop Better
-    cta: Explore Stoplight Studio
-    href: /studio
+  - title: Maintain Stakeholder Alignment
+    cta: Learn More About API Design
+    href: /solutions/design
     description: >-
-      Stoplight believes in OpenAPI’s design-first approach when 
-      it comes to building APIs. Know exactly what you need to build before 
-      writing a single line of code. Reduce your development time, minimize bugs, 
-      and improve your API’s longevity with Stoplight Studio.
+      Optimize how you and your team communicate & collaborate by utilizing API design. Create
+      detailed requirements that ensure stakeholders are always coordinated.
     tag: design
     color: green
     icon: 'pencil-ruler'
     iconStyle:
       '--fa-primary-color': 'dodgerblue'
       '--fa-secondary-color': 'limegreen'
-  - title: Quick & Precise Documentation
-    cta: Explore Stoplight Docs
-    href: /docs
+  - title: Optimize Your Development Workflow
+    cta: Learn More About API Development
+    href: /solutions/development
     description: >-
-      Documentation is fundamental to an API’s success. 
-      Stoplight gives you peace of mind by automatically generating beautiful 
-      documentation and ensuring it remains in sync with your API’s latest design specification.
+      API design first enables you to empower your architects and lead your developers. Streamline your development workflow
+      to shorten time to market.
     tag: tag 2
     color: orange
     icon: 'book'
     iconStyle:
       '--fa-primary-color': 'tomato'
       '--fa-secondary-color': 'tomato'
-  - title: Get Everyone Involved
-    cta: Get Started Now
-    href: /collaboration
+  - title: Reduce Integration Time
+    cta: API Documentation
+    href: /solutions/documentation
     description: >-
-      Stoplight Workspaces make it easy for different stakeholders 
-      to collaborate within a single platform. From allowing developers 
-      implementing a specification, to enabling project managers merging 
-      microservices, Stoplight is a comprehensive API tool for the entire team.
+      Enable API consumers to integrate more efficiently with your API. Reallocate time spent by support staff guiding
+      integrations with more complete and detailed API documentation.
     tag: tag 3
     color: indigo
     icon: 'user-friends'
     iconStyle:
       '--fa-primary-color': 'gold'
       '--fa-secondary-color': 'gold'
-  - title: Instant Hosted Mocking
-    cta: Explore Stoplight Mocking
-    href: /mocking
+  - title: Maintain Consistency & Quality
+    cta: API Quality & Governance
+    href: /solutions/governance
     description: >-
-      Create a better API by getting early feedback before 
-      writing a single line of code. Integrate with an API before 
-      it's even built and enable teams to develop integrated components 
-      in parallel. Break out of waterfall development and shave weeks 
-      off of your project timeline.
+      Effectively maintain quality standards across all your APIs with Spectral. Integrated into Studio, never
+      worry about manually enforcing style guides again.
     tag: tag 4
     color: purple
     icon: 'server'

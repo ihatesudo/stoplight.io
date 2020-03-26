@@ -24,25 +24,27 @@ featureSection:
         rightIcon: ['fad', 'arrow-right']
     enabled: true
     text: Ready to find what you're looking for?
-  title: Gain Visibility
+  title: A Powerful Technical Knowledge Base For All APIs
   description: >-
-    Stoplight Explorer enables you to navigate complex APIs easily. 
-    Gain visibility into your existing architecture to reduce redundancy 
-    and increase reusability saving you valuable development time and cost.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
   features:
     - description: >-
-        Stoplight Explorer’s capable search feature lets you quickly find what you are looking for in seconds. 
-        Filter results by model, endpoints, or projects to focus on the content you need on-demand.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       image: /images/explorer/explorer-search-placeholder.png
-      shortName: Find What You’re Looking For
-      title: Find What You’re Looking For
+      shortName: Know How Breaking Changes Impact Your API
+      title: Know How Breaking Changes Impact Your API
 
     - description: >-
-        Visibly see the relationships between models and endpoints with Stoplight Explorer’s dependency graph. 
-        Better execute breaking changes with a clear understanding of how the rest of your API will be impacted.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       image: /images/explorer/dependency-placeholder.png
-      shortName: Visualize Dependencies
-      title: Visualize Dependencies
+      shortName: Enable API Discovery & Reusability
+      title: Enable API Discovery & Reusability
+
+    - description: >-
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      image: /images/explorer/dependency-placeholder.png
+      shortName: Find What You Need On Demand
+      title: Find What You Need On Demand
 
 meta:
   description: >-

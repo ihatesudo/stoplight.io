@@ -44,33 +44,28 @@ featureSection:
         rightIcon: ['fad', 'arrow-right']
     enabled: true
     text: Ready to start designing APIs?
-  title: Fluid Design
+  title: Create API Designs in Minutes
   description: >-
-    With an intuitive interface, Stoplight Studio makes anyone designing an API specification more productive. 
-    Spend less time learning how to use an API tool and more time actually architecting a robust API.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
   features:
     - description: >-
-        Enhance your design specification with clear formatting using Studio's integrated Markdown rendering. 
-        Enable designers to easily construct familiar documentation for internal and external use that is both easy to create and easy to consume.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       image: /images/studio/hero.png
-      shortName: Markdown Rendering
-      title: Markdown Rendering
+      shortName: Accelerate API Development
+      title: Accelerate API Development
 
     - description: >-
-        Aligning API stakeholders is not an easy task. But with a single accessible and detailed design 
-        specification, teams will have the resources to provide insightful feedback while coordinating expectations.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       image: /images/studio/hero.png
       overlayImage: true
-      shortName: Keep Stakeholders Coordinated
-      title: Keep Stakeholders Coordinated
+      shortName: Avoid Redesigns
+      title: Avoid Redesigns
 
     - description: >-
-        The OpenAPI documents designed by your team in Studio can be leveraged across the API lifecycle. 
-        Use those same design files to unlock consistency, quality, and visibility through shared style guides, 
-        instant mocking, and a powerful technical knowledge base.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       image: /images/studio/hero.png
-      shortName: Unlock API Design with Stoplight
-      title: Unlock API Design with Stoplight
+      shortName: Maintain Team Coordination
+      title: Maintain Team Coordination
 
 meta:
   description: >-
