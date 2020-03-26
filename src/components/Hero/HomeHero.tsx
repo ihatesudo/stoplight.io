@@ -1,6 +1,7 @@
 import cn from 'classnames';
 import * as React from 'react';
 
+import { Transformation, Video } from 'netlify-cms-media-library-cloudinary';
 import { CallToAction, ICallToAction } from 'src/components/CallToAction';
 import { headerHeightClass } from 'src/components/Header';
 import { Image } from 'src/components/Image';
@@ -209,8 +210,13 @@ export const HomeHero: React.FunctionComponent<IHomeHero> = ({
           </div>
 
           {bottomElem && (
-            <div className="-mb-64 pt-14 sm:hidden">
-              <Image src="/images/placeholder.gif" style={{ height: 430 }} />
+            <div className="pb-32 -mb-64 pt-14 sm:hidden">
+              <Image
+                src="https://res.cloudinary.com/stoplight/video/upload/v1585162196/qlwka9l7n86caduhjbo6.gif"
+                style={{
+                  backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${contentBgImage})`,
+                }}
+              />
             </div>
           )}
         </div>

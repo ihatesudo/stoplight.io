@@ -89,35 +89,34 @@ export const Home: React.FunctionComponent<IHome> = ({
       <HomeHero bgColor={color} {...hero} />
 
       {pageSubjects && (
-        <Section id="subjects" {...sectionProps}>
-          <Container title="Quality APIs Don't Just Happen" className="pt-64 sm:pt-0">
-            <div className="flex flex-wrap justify-between">
+        <Section id="case-studies" {...sectionProps}>
+          <Container title="Quality APIs Don't Just Happen" className="pt-32">
+            <div className="flex flex-wrap justify-around md:justify-center mt-14">
               {pageSubjects.map((subject, index) => (
-                <div className="flex text-grey-darker hover:bg-grey-lightest w-80">
-                  <SimpleCard key={index} className="p-8 bg-white h-96" href={subject.href} hoverable>
-                    <SimpleCardTop className="pb-8">
-                      <h3 className="text-2xl font-bold text-grey-darker">{subject.title}</h3>
-                    </SimpleCardTop>
-                    <SimpleCardBody
-                      description={subject.description}
-                      className="flex-1 mb-8 text-lg text-grey-darker"
-                    />
-
-                    <SimpleCardBottom className="flex flex-row items-center justify-between mt-6 mb-3 border-t ">
-                      <SimpleCardTag tag={subject.tag} color={subject.color} className="mt-8" />
-                      <div className="flex items-center mt-8 text-blue">
-                        {subject.cta} <Icon icon={['fad', 'arrow-right']} className="ml-1" />
-                      </div>
-                    </SimpleCardBottom>
-                  </SimpleCard>
-                </div>
+                <SimpleCard key={index} className="p-8 bg-white w-80 h-80" hoverable href={subject.href}>
+                  {/* <SimpleCardTop className="pb-8">
+                    <h3 className="text-2xl font-bold text-grey-darker">{subject.title}</h3>
+                  </SimpleCardTop> */}
+                  <div className="flex">
+                    <Icon icon={['fad', subject.icon]} className="text-center" size="2x" style={subject.iconStyle} />
+                    <h3 className="ml-3 text-xl font-bold text-grey-darker">{subject.title}</h3>
+                  </div>
+                  <SimpleCardBody description={subject.description} className="mt-4 leading-loose text-grey-darker" />
+                  <SimpleCardBottom className="flex flex-row items-center justify-between mt-6 mb-3 border-t">
+                    {/* <SimpleCardTag tag={subject.tag} color={subject.color} className="mt-8" /> */}
+                    <div className="flex items-center mt-8 text-blue">
+                      {subject.cta} <Icon icon={['fad', 'arrow-right']} className="ml-3" />
+                    </div>
+                  </SimpleCardBottom>
+                </SimpleCard>
               ))}
             </div>
           </Container>
         </Section>
       )}
+
       <div className="container w-3/4 border-b"></div>
-      <div className="pt-20 text-center">
+      <div className="pt-32 text-center">
         <h3 className="text-4xl">How Stoplight's Solutions Help</h3>
       </div>
       <Container className="flex flex-row pt-20">

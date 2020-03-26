@@ -14,9 +14,9 @@ hero:
       large: true
       title: GET STARTED
 pageSubjects:
-  - title: Stoplight Studio
+  - title: Studio
     description: >-
-      Know exactly what you need to build before writing a single line of code. 
+      Know exactly what to build before writing a single line of code. 
       Reduce  development time, minimize bugs, and improve API longevity.
     cta: Explore Studio
     href: /studio
@@ -26,7 +26,7 @@ pageSubjects:
     iconStyle:
       '--fa-primary-color': 'dodgerblue'
       '--fa-secondary-color': 'limegreen'
-  - title: Stoplight Docs
+  - title: Docs
     description: >-
       Automatically generate beautiful documentation and
       ensure it remains in sync with your API’s latest design specs.
@@ -34,11 +34,11 @@ pageSubjects:
     href: /docs
     tag: docs
     color: blue
-    icon: 'chart-network'
+    icon: 'book'
     iconStyle:
       '--fa-primary-color': 'tomato'
       '--fa-secondary-color': 'tomato'
-  - title: Stoplight Explorer
+  - title: Explorer
     description: >-
       Effectively navigate your APIs to visualize dependencies, increase
       reusability, and decrease redundancies.
@@ -46,11 +46,11 @@ pageSubjects:
     href: /docs
     tag: visibility
     color: purple
-    icon: 'book'
+    icon: 'chart-network'
     iconStyle:
-      '--fa-primary-color': 'gold'
-      '--fa-secondary-color': 'gold'
-  - title: Stoplight Mocking
+      '--fa-primary-color': 'limegreen'
+      '--fa-secondary-color': 'limegreen'
+  - title: Mocking
     description: >-
       Collaborate with the entire team across one platform to implement specifications,
       merge microservices, and much more.
@@ -58,10 +58,10 @@ pageSubjects:
     href: /docs
     tag: validation
     color: gold
-    icon: 'user-friends'
+    icon: 'server'
     iconStyle:
-      '--fa-primary-color': 'purple'
-      '--fa-secondary-color': 'purple'
+      '--fa-primary-color': 'indigo'
+      '--fa-secondary-color': 'indigo'
 solutions:
   - title: Design First, Develop Better
     cta: Explore Stoplight Studio
@@ -88,8 +88,8 @@ solutions:
     color: orange
     icon: 'book'
     iconStyle:
-      '--fa-primary-color': 'gold'
-      '--fa-secondary-color': 'gold'
+      '--fa-primary-color': 'tomato'
+      '--fa-secondary-color': 'tomato'
   - title: Get Everyone Involved
     cta: Get Started Now
     href: /collaboration
@@ -102,8 +102,8 @@ solutions:
     color: indigo
     icon: 'user-friends'
     iconStyle:
-      '--fa-primary-color': 'purple'
-      '--fa-secondary-color': 'purple'
+      '--fa-primary-color': 'gold'
+      '--fa-secondary-color': 'gold'
   - title: Instant Hosted Mocking
     cta: Explore Stoplight Mocking
     href: /mocking
@@ -115,10 +115,10 @@ solutions:
       off of your project timeline.
     tag: tag 4
     color: purple
-    icon: 'chart-network'
+    icon: 'server'
     iconStyle:
-      '--fa-primary-color': 'tomato'
-      '--fa-secondary-color': 'tomato'
+      '--fa-primary-color': 'indigo'
+      '--fa-secondary-color': 'indigo'
 features:
   - name: API Design
     description: Quickly model your APIs using visual tools on top of open standards.
@@ -209,7 +209,7 @@ actionBar:
       href: '/careers'
       title: Learn More
   enabled: true
-  text: Action bar CTA!
+  text: Ready to get started building better APIs?
 meta:
   description: >-
     Using Stoplight you can create OpenAPI descriptions, documentation, mock
