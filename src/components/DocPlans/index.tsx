@@ -82,7 +82,7 @@ export const DocPlans: React.FunctionComponent<IDocPlans> = ({
                 categories.map((c, index) => {
                   return (
                     <>
-                      <h3 className="pt-10 pb-2 bg-white font-xl">{c.category}</h3>
+                      <h3 className="py-5 ml-6 bg-white font-xl">{c.category}</h3>
 
                       {c.features &&
                         c.features.map((f, i) => {

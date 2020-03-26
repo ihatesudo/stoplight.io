@@ -52,7 +52,7 @@ export const PricingPlan: React.FunctionComponent<IPricingPlan> = ({
           <div className="items-center mt-4 text-4xl font-extrabold text-center">{title}</div>
           {price.button ? (
             <div className="text-center">
-              <div className="my-6 text-xl font-bold leading-loose">{price.title}</div>
+              <div className="my-6 text-2xl font-bold leading-loose">{price.title}</div>
             </div>
           ) : (
             <div className="pt-1 text-6xl font-bold leading-loose text-center">
