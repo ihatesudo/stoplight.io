@@ -101,7 +101,7 @@ export const Home: React.FunctionComponent<IHome> = ({
                     <Icon icon={['fad', subject.icon]} className="text-center" size="2x" style={subject.iconStyle} />
                     <h3 className="ml-3 text-xl font-bold text-grey-darker">{subject.title}</h3>
                   </div>
-                  <SimpleCardBody description={subject.description} className="mt-4 leading-loose text-grey-darker" />
+                  <SimpleCardBody description={subject.description} className="mt-8 leading-loose text-grey-darker" />
                   <SimpleCardBottom className="flex flex-row items-center justify-between mt-6 mb-3 border-t">
                     {/* <SimpleCardTag tag={subject.tag} color={subject.color} className="mt-8" /> */}
                     <div className="flex items-center mt-8 text-blue">

@@ -17,7 +17,7 @@ pageSubjects:
   - title: Design APIs
     description: >-
       Quickly create, collaborate, and prototype OpenAPI design specifications for your next API.
-    cta: Explore Stoplight Studio
+    cta: Explore Studio
     href: /studio
     tag: design
     color: green
@@ -67,10 +67,10 @@ solutions:
       detailed requirements that ensure stakeholders are always coordinated.
     tag: design
     color: green
-    icon: 'pencil-ruler'
+    icon: 'user-friends'
     iconStyle:
-      '--fa-primary-color': 'dodgerblue'
-      '--fa-secondary-color': 'limegreen'
+      '--fa-primary-color': 'limegreen'
+      '--fa-secondary-color': 'green'
   - title: Optimize Your Development Workflow
     cta: Learn More About API Development
     href: /solutions/development
@@ -79,7 +79,7 @@ solutions:
       to shorten time to market.
     tag: tag 2
     color: orange
-    icon: 'book'
+    icon: 'code-branch'
     iconStyle:
       '--fa-primary-color': 'tomato'
       '--fa-secondary-color': 'tomato'
@@ -91,10 +91,10 @@ solutions:
       integrations with more complete and detailed API documentation.
     tag: tag 3
     color: indigo
-    icon: 'user-friends'
+    icon: 'code'
     iconStyle:
-      '--fa-primary-color': 'gold'
-      '--fa-secondary-color': 'gold'
+      '--fa-primary-color': 'dodgerblue'
+      '--fa-secondary-color': 'dodgerblue'
   - title: Maintain Consistency & Quality
     cta: API Quality & Governance
     href: /solutions/governance
