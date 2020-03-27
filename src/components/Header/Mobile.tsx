@@ -131,6 +131,10 @@ export const Mobile = () => {
                     title: 'Blog',
                   },
                   {
+                    to: '/pricing',
+                    title: 'Pricing',
+                  },
+                  {
                     to: 'https://community.stoplight.io',
                     title: 'Forum',
                   },

@@ -86,7 +86,6 @@ export const DocPlans: React.FunctionComponent<IDocPlans> = ({
                   return (
                     <>
                       <h3 className="py-5 ml-6 bg-white font-xl">{c.category}</h3>
-
                       {c.features &&
                         c.features.map((f, i) => {
                           return (
@@ -131,24 +130,27 @@ export const DocPlans: React.FunctionComponent<IDocPlans> = ({
             </tbody>
             <div className="h-10"></div>
           </table>
+          <tr className="flex justify-end">
+            {ctas &&
+              ctas.map((cta, index) => (
+                <td className="pb-10">
+                  <Button
+                    key={index}
+                    color={cta.color}
+                    title={cta.title}
+                    href={cta.href}
+                    large={true}
+                    className={cn('font-bold ease-in active-depress', {
+                      'ml-8': cta.color === 'purple',
+                      'ml-10': cta.color === 'indigo',
+                      'ml-12': cta.color === 'green',
+                    })}
+                  />
+                </td>
+              ))}
+          </tr>
         </div>
-        {/* <div className="container flex justify-end w-3/4 pt-10">
-          {ctas &&
-            ctas.map((cta, index) => (
-              <Button
-                key={index}
-                color={cta.color}
-                title={cta.title}
-                href={cta.href}
-                large={true}
-                className={cn('font-bold', {
-                  'ml-10': cta.color === 'purple',
-                  'ml-12': cta.color === 'indigo',
-                  'ml-14': cta.color === 'green',
-                })}
-              />
-            ))}
-        </div> */}
+        <div className="container flex justify-end w-3/4 pt-10"></div>
       </Container>
     </Section>
   );

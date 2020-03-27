@@ -40,7 +40,7 @@ pageSubjects:
     description: >-
       Effectively navigate your APIs in an instant with Stoplight's technical knowledge base.
     cta: Explore Explorer
-    href: /docs
+    href: /explorer
     tag: visibility
     color: purple
     icon: 'chart-network'
@@ -51,7 +51,7 @@ pageSubjects:
     description: >-
       Develop alongside a hosted mock server to enable frontend and backend teams to develop in parallel.
     cta: Explore Mocking
-    href: /docs
+    href: /mocking
     tag: validation
     color: gold
     icon: 'server'
@@ -90,8 +90,8 @@ solutions:
     color: indigo
     icon: 'code'
     iconStyle:
-      '--fa-primary-color': 'dodgerblue'
-      '--fa-secondary-color': 'dodgerblue'
+      '--fa-primary-color': 'indigo'
+      '--fa-secondary-color': 'indigo'
   - title: Maintain Consistency & Quality
     cta: API Quality & Governance
     href: /solutions/governance
@@ -99,10 +99,10 @@ solutions:
       Effectively maintain quality standards across APIs and teams. Never worry about manually enforcing style guides again.
     tag: tag 4
     color: purple
-    icon: 'server'
+    icon: 'badge-check'
     iconStyle:
-      '--fa-primary-color': 'indigo'
-      '--fa-secondary-color': 'indigo'
+      '--fa-primary-color': 'dodgerblue'
+      '--fa-secondary-color': 'dodgerblue'
 features:
   - name: API Design
     description: Quickly model your APIs using visual tools on top of open standards.
@@ -190,7 +190,7 @@ testimonials:
 actionBar:
   ctas:
     - color: accent
-      href: '/careers'
+      href: '/demo'
       title: Learn More
   enabled: true
   text: Ready to get started building better APIs?

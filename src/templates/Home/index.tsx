@@ -93,7 +93,7 @@ export const Home: React.FunctionComponent<IHome> = ({
           <Container title="Quality APIs Don't Just Happen" className="pt-32">
             <div className="flex flex-wrap justify-around md:justify-center mt-14">
               {pageSubjects.map((subject, index) => (
-                <SimpleCard key={index} className="p-8 bg-white w-80 h-80" hoverable href={subject.href}>
+                <SimpleCard key={index} className="p-8 bg-white w-80 h-80 md:m-8" hoverable href={subject.href}>
                   {/* <SimpleCardTop className="pb-8">
                     <h3 className="text-2xl font-bold text-grey-darker">{subject.title}</h3>
                   </SimpleCardTop> */}
@@ -119,17 +119,17 @@ export const Home: React.FunctionComponent<IHome> = ({
       <div className="pt-32 text-center">
         <h3 className="text-4xl">How Stoplight's Solutions Help</h3>
       </div>
-      <Container className="flex flex-row pt-20">
-        <div className="w-1/2">
+      <Container className="flex flex-row pt-20 sm:block sm:w-96">
+        <div className="w-1/2 sm:w-96 sm:flex sm:flex-col">
           {solutions &&
             solutions.slice(0, 2).map((solution, index) => (
               <SimpleCard
                 key={index}
-                className="p-8 my-8 mr-4 bg-white h-80"
+                className="h-64 p-8 my-8 mr-4 bg-white md:h-80 sm:h-96"
                 hoverable
                 href={solution && solution.href}
               >
-                <SimpleCardTop className="pb-8">
+                <SimpleCardTop className="pb-8 sm:pb-3">
                   <div className="flex">
                     <Icon icon={['fad', solution.icon]} className="text-center" size="2x" style={solution.iconStyle} />
                     <h3 className="ml-3 text-xl font-bold text-grey-darker">{solution.title}</h3>
@@ -139,7 +139,7 @@ export const Home: React.FunctionComponent<IHome> = ({
                   description={solution && solution.description}
                   className="text-lg font-normal text-grey-darker"
                 />
-                <SimpleCardBottom className="flex flex-row items-start justify-between my-3 ">
+                <SimpleCardBottom className="flex flex-row items-center justify-between mt-6">
                   <div className="flex items-center text-xl font-bold text-blue">
                     Learn More <Icon icon={['fad', 'arrow-right']} className="ml-3" />
                   </div>
@@ -148,12 +148,12 @@ export const Home: React.FunctionComponent<IHome> = ({
             ))}
         </div>
 
-        <div className="w-1/2">
+        <div className="w-1/2 sm:w-96 sm:flex sm:flex-col">
           {solutions &&
             solutions.slice(2).map((solution, index) => (
               <SimpleCard
                 key={index}
-                className="p-8 my-8 ml-4 bg-white h-80"
+                className="h-64 p-8 my-8 ml-4 bg-white sm:ml-0 md:h-80 sm:h-96"
                 hoverable
                 href={solution && solution.href}
               >
@@ -167,7 +167,7 @@ export const Home: React.FunctionComponent<IHome> = ({
                   description={solution && solution.description}
                   className="text-lg font-normal text-grey-darker"
                 />
-                <SimpleCardBottom className="flex flex-row items-center justify-between mt-6 mb-3">
+                <SimpleCardBottom className="flex flex-row items-center justify-between mt-6">
                   <div className="flex items-center text-xl font-bold text-blue">
                     Learn More <Icon icon={['fad', 'arrow-right']} className="ml-3" />
                   </div>
