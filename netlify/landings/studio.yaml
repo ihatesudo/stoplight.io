@@ -50,20 +50,20 @@ featureSection:
   features:
     - description: >-
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      image: /images/studio/hero.png
+      image: /images/studio/studio-md.png
       shortName: Accelerate API Development
       title: Accelerate API Development
 
     - description: >-
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      image: /images/studio/hero.png
+      image: /images/studio/todo.png
       overlayImage: true
       shortName: Avoid Redesigns
       title: Avoid Redesigns
 
     - description: >-
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      image: /images/studio/hero.png
+      image: /images/studio/todo.png
       shortName: Maintain Team Coordination
       title: Maintain Team Coordination
 

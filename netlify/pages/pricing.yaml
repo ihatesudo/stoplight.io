@@ -143,6 +143,19 @@ actionBar:
   enabled: true
   text: Need help picking a plan?
 docPlans:
+  ctas:
+    - color: green
+      href: '/demo'
+      title: Sign Up
+      large: true
+    - color: indigo
+      href: '/demo'
+      title: Sign Up
+      large: true
+    - color: purple
+      href: '/demo'
+      title: Contact Us
+      large: true
   title: Feature Breakdown by Plan
   plans:
     - title: Free

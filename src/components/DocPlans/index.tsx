@@ -3,6 +3,7 @@ import cn from 'classnames';
 import * as React from 'react';
 import 'tippy.js/dist/tippy.css';
 
+import { Button } from '../Button';
 import { Container } from '../Container';
 import { Icon } from '../Icon';
 import { Link } from '../Link';
@@ -29,6 +30,7 @@ export interface IDocPlans {
   buttonUrl: string;
   buttonText: string;
   categories?: ICategory[];
+  ctas?: any[];
 }
 export interface ICategory {
   category: string;
@@ -42,6 +44,7 @@ export const DocPlans: React.FunctionComponent<IDocPlans> = ({
   buttonUrl,
   buttonText,
   categories,
+  ctas,
 }) => {
   return (
     <Section id="docPlans" className="sm:hidden">
@@ -129,6 +132,23 @@ export const DocPlans: React.FunctionComponent<IDocPlans> = ({
             <div className="h-10"></div>
           </table>
         </div>
+        {/* <div className="container flex justify-end w-3/4 pt-10">
+          {ctas &&
+            ctas.map((cta, index) => (
+              <Button
+                key={index}
+                color={cta.color}
+                title={cta.title}
+                href={cta.href}
+                large={true}
+                className={cn('font-bold', {
+                  'ml-10': cta.color === 'purple',
+                  'ml-12': cta.color === 'indigo',
+                  'ml-14': cta.color === 'green',
+                })}
+              />
+            ))}
+        </div> */}
       </Container>
     </Section>
   );
