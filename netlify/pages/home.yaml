@@ -49,7 +49,7 @@ pageSubjects:
       '--fa-secondary-color': 'limegreen'
   - title: Hosted Mocking
     description: >-
-      Develop with a hosted mock server that automatically reconfigures to match your API's design specification.
+      Develop alongside a hosted mock server to enable frontend and backend teams to develop in parallel.
     cta: Explore Mocking
     href: /docs
     tag: validation
@@ -59,12 +59,11 @@ pageSubjects:
       '--fa-primary-color': 'indigo'
       '--fa-secondary-color': 'indigo'
 solutions:
-  - title: Maintain Stakeholder Alignment
+  - title: Promote Team Alignment
     cta: Learn More About API Design
     href: /solutions/design
     description: >-
-      Optimize how you and your team communicate & collaborate by utilizing API design. Create
-      detailed requirements that ensure stakeholders are always coordinated.
+      Optimize how you and your team collaborate by involving technical and non-technical stakeholders in the API design process.
     tag: design
     color: green
     icon: 'pencil-ruler'
@@ -75,8 +74,7 @@ solutions:
     cta: Learn More About API Development
     href: /solutions/development
     description: >-
-      API design first enables you to empower your architects and lead your developers. Streamline your development workflow
-      to shorten time to market.
+      API design enables you to empower your architects and lead your developers. Accelerate implementation with a collaborative API Design workflow.
     tag: tag 2
     color: orange
     icon: 'book'
@@ -87,8 +85,7 @@ solutions:
     cta: API Documentation
     href: /solutions/documentation
     description: >-
-      Enable API consumers to integrate more efficiently with your API. Reallocate time spent by support staff guiding
-      integrations with more complete and detailed API documentation.
+      Enable API consumers to integrate more efficiently with your API. Reallocate time spent by support staff guiding integrations with more complete and detailed API documentation.
     tag: tag 3
     color: indigo
     icon: 'user-friends'
@@ -99,8 +96,7 @@ solutions:
     cta: API Quality & Governance
     href: /solutions/governance
     description: >-
-      Effectively maintain quality standards across all your APIs with Spectral. Integrated into Studio, never
-      worry about manually enforcing style guides again.
+      Effectively maintain quality standards across APIs and teams. Never worry about manually enforcing style guides again.
     tag: tag 4
     color: purple
     icon: 'server'
