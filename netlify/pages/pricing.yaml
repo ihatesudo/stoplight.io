@@ -98,42 +98,27 @@ faq:
   description: Don't see your question? [Talk to a solutions engineer](https://stoplight.io/demo).
 
   questions:
-    - question: How is usage calculated?
+    - question: What is a Stoplight User?
       answer: >-
-        In Stoplight, APIs are organized into workspaces. Each workspace is associated with a user account's billing profile.
-        Your usage is the sum of the users and resources across all of the workspaces connected to your billing profile.
-    - question: What happens if I go over my limits?
+        A Stoplight user is any user able to log in to a Stoplight workspace.
+    - question: What is a project?
       answer: >-
-        Nothing will be disabled or changed immediately. You will receive an email asking you to updating your billing, or lower your usage.
-        If, after 7 days, you have not updated your billing, the associated workspaces will be disabled until your account is back in good standing.
-    - question: How many APIs can I publish with the Standard and PRO plans?
+        A Stoplight project represents a git repository.
+    - question: What happens when adding users mid-cycle?
       answer: >-
-        No limits! As long as you are within your 2,500 free resources, you can publish as many APIs as you like. We do not charge for anything on a per api basis - see the FAQ below for our rationale.
-    - question: What is counted as a user?
+        We’ll make a one-time, prorated charge to your credit card to cover new user accounts for 
+        the remainder of the current billing period. At the end 
+        of each monthly billing cycle, you will be billed for the upcoming month's 
+        subscription based on the exact number of Stoplight users.
+    - question: Do you offer annual billing?
       answer: >-
-        Anyone invited to your workspaces in the Stoplight app is considered a user of that workspace. Only unique users are counted 
-        towards your billing profile. If you invite the same user to multiple workspaces, it still counts as one user. 
-        Users with the guest role are counted and applied to your limits.
-    - question: Can I transfer a workspace to another billing account?
+        Yes, we offer annual billing. Please email sales@stoplight.io.
+    - question: Do you offer discounts for Open Source projects?
       answer: >-
-        Absolutely, just head over to the billing section of the workspace in question, and then scroll down to the transfer section.
-    - question: Is my credit card information secure?
+        Yes, we offer free team plans for Open Source projects. Please contact support@stoplight.io.
+    - question: Do you offer discounts for non profits?
       answer: >-
-        Yes. All credit card processing is handled through Stripe, and your card information is never sent to, or stored on, our servers.
-    - question: What is a "Resource"?
-      answer: >-
-        All the different parts that make up your API design and tests are considered resources.
-    - question: I'm working on an open source, education, or non-profit project. Is there a discount?
-      answer: >-
-        Let's chat! Please send an email to customer@stoplight.io.
-    - question: Why not measure usage on a per API basis?
-      answer: >-
-        Many other tools price on a per API basis, instead of per resource. 
-        We believe that a resource based model is more flexible and fair, particularly as the industry moves towards 
-        smaller and smaller services (microservices). One 1000 endpoint API should be priced the same as one hundred 10 endpoint APIs
-    - question: Is there a free trial?
-      answer: >-
-        Yes. Every new account gets 14 days to try all of our tools, without limits.
+        Yes, we offer 50% off team plans for non profits. Please contact support@stoplight.io.
 actionBar:
   ctas:
     - color: accent

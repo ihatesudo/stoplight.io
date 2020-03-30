@@ -1,6 +1,7 @@
 hero:
   particles: true
   bottomElem: true
+  skew: rounded
   subtitle: >-
     Streamline your API Development workflow with a powerful API creation platform.
     Transform the way your team designs, documents, and mocks APIs.
@@ -82,7 +83,7 @@ solutions:
       '--fa-primary-color': 'tomato'
       '--fa-secondary-color': 'tomato'
   - title: Reduce Integration Time
-    cta: API Documentation
+    cta: Learn More About API Documentation
     href: /solutions/documentation
     description: >-
       Enable API consumers to integrate more efficiently with your API. Reallocate time spent by support staff guiding integrations with more complete and detailed API documentation.
@@ -92,11 +93,11 @@ solutions:
     iconStyle:
       '--fa-primary-color': 'indigo'
       '--fa-secondary-color': 'indigo'
-  - title: Maintain Consistency & Quality
-    cta: API Quality & Governance
+  - title: Increase Consistency & Quality
+    cta: Learn More About API Quality & Governance
     href: /solutions/governance
     description: >-
-      Effectively maintain quality standards across APIs and teams. Never worry about manually enforcing style guides again.
+      Effectively increase quality standards across APIs and teams. Never worry about manually enforcing style guides again.
     tag: tag 4
     color: purple
     icon: 'badge-check'

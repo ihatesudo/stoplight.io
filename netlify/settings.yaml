@@ -219,13 +219,13 @@ customers:
     - alt: EA
       src: /images/ea.png
     - alt: Deutsche Bank
-      src: /images/deutsche_bank.png
+      src: /images/customers/Deutsche_Bank-Logo.svg
     - alt: Sendgrid
-      src: /images/logo-sendgrid.png
+      src: /images/customers/SG_Twilio_Lockup_RGB.svg
     - alt: TiVo
       src: /images/tivo.png
     - alt: Zendesk
-      src: /images/logo_zendesk.png
+      src: /images/customers/Zendesk_logo.svg
 integrations:
   googleTagManager: GTM-58LWL5P
   hubspot: 4892910

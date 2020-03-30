@@ -140,8 +140,8 @@ export const Home: React.FunctionComponent<IHome> = ({
                   className="text-lg font-normal text-grey-darker"
                 />
                 <SimpleCardBottom className="flex flex-row items-center justify-between mt-6">
-                  <div className="flex items-center text-xl font-bold text-blue">
-                    Learn More <Icon icon={['fad', 'arrow-right']} className="ml-3" />
+                  <div className="flex items-center text-lg font-bold text-blue">
+                    {solution.cta} <Icon icon={['fad', 'arrow-right']} className="ml-3" />
                   </div>
                 </SimpleCardBottom>
               </SimpleCard>
@@ -168,8 +168,8 @@ export const Home: React.FunctionComponent<IHome> = ({
                   className="text-lg font-normal text-grey-darker"
                 />
                 <SimpleCardBottom className="flex flex-row items-center justify-between mt-6">
-                  <div className="flex items-center text-xl font-bold text-blue">
-                    Learn More <Icon icon={['fad', 'arrow-right']} className="ml-3" />
+                  <div className="flex items-center text-lg font-bold text-blue">
+                    {solution.cta} <Icon icon={['fad', 'arrow-right']} className="ml-3" />
                   </div>
                 </SimpleCardBottom>
               </SimpleCard>
@@ -184,7 +184,7 @@ export const Home: React.FunctionComponent<IHome> = ({
           <Container title="Stoplight Powers Some of the World's Leading API First Companies" className="pt-32">
             <div className="flex flex-wrap justify-between md:justify-center mt-14">
               {caseStudies.map((caseStudy, index) => (
-                <SimpleCard key={index} className="p-8 m-8 bg-white w-96 h-80" hoverable href={caseStudy.href}>
+                <SimpleCard key={index} className="p-8 bg-white w-96 h-80" hoverable href={caseStudy.href}>
                   <SimpleCardTop>
                     <div>
                       <Image
@@ -210,7 +210,7 @@ export const Home: React.FunctionComponent<IHome> = ({
           <Container className="flex flex-wrap justify-between px-20 pb-32 mt-10 sm:justify-center ">
             {customers.images.map((image, key) => (
               <div key={key} className="py-8 sm:p-3">
-                <Image className="h-8" src={image.src} title={`${image.alt} Logo`} alt={image.alt} />
+                <Image className="h-10" src={image.src} title={`${image.alt} Logo`} alt={image.alt} />
               </div>
             ))}
           </Container>

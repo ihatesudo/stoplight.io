@@ -210,8 +210,9 @@ export const HomeHero: React.FunctionComponent<IHomeHero> = ({
           </div>
 
           {bottomElem && (
-            <div className="pb-32 -mb-64 pt-14 sm:hidden">
+            <div className="pb-32 -mb-48 pt-14 sm:hidden">
               <Image
+                className="rounded-lg shadow-lg"
                 src="https://res.cloudinary.com/stoplight/video/upload/v1585242856/ucsu3tlz08bq5zi50d6b.gif"
                 style={{
                   backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${contentBgImage})`,
