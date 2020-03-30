@@ -67,6 +67,4 @@ In the end, service virtualization should make your organization more efficient,
 
 _Have an API, want to add mocking into the mix? [Stoplight Scenarios](/testing) makes it easy to mock both pre-existing APIs, and new APIs._
 
-**\*About the author:** Zachary Flower ([@zachflower](http://twitter.com/zachflower)) is a freelance web developer, writer, and polymath. He has an eye for simplicity and usability, and strives to build products with both the end user and business goals in mind.\*
-
-_Want to write for Stoplight? We’re hiring! Shoot an email to hi@stoplight.io and let’s chat._
+_**About the author:** Zachary Flower ([@zachflower](http://twitter.com/zachflower)) is a freelance web developer, writer, and polymath. He has an eye for simplicity and usability, and strives to build products with both the end user and business goals in mind._
