@@ -33,9 +33,9 @@ plans:
     price:
       title: $19
     features:
+      - name: All features included in the Free plan
       - name: Up to 100 users
       - name: Up to 20 projects
-      - name: All features included in the Free plan
       - name: Custom Domains
       - name: Theming
       - name: Custom Branding
@@ -57,9 +57,9 @@ plans:
         title: Contact Us
         href: '/demo/'
     features:
+      - name: All features included in the Team plan
       - name: Unlimited users
       - name: Unlimited projects
-      - name: All features included in the Team plan
       - name: Model Masking
       - name: In & Outbound API Dependency Graph
       - name: Multiple Design Libraries

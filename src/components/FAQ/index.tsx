@@ -22,13 +22,13 @@ export const FAQ: React.FunctionComponent<IFAQ> = ({ title, questions, className
         <div className="mb-20">
           {title && <div className="mb-20 text-4xl font-bold leading-tight text-center">{title}</div>}
 
-          <div className=" md:justify-around">
+          <div className="flex flex-wrap justify-between md:justify-around">
             {questions &&
               questions.map((q, index) => {
                 const [showAnswer, setShowAnswer] = React.useState(false);
 
                 return (
-                  <div key={index} className="max-w-lg pt-10 mx-4 markdown-body md:mt-20">
+                  <div key={index} className="w-2/5 pt-10 mx-4 markdown-body md:mt-20">
                     <button
                       onClick={() => setShowAnswer(!showAnswer)}
                       className="flex items-start items-center w-full text-xl font-bold text-left text-grey-darkest focus:outline-none"

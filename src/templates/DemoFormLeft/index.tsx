@@ -9,7 +9,7 @@ import { Collage, ICollage } from '../../components/Collage';
 import { Hero, IHero } from '../../components/Hero';
 import { HubSpotForm, IHubSpotForm } from '../../components/HubSpotForm';
 import { Layout } from '../../components/Layout';
-import { ITestimonials, Testimonial } from '../../components/Testimonials';
+import { ITestimonials, Testimonial, Testimonials } from '../../components/Testimonials';
 
 interface IFeature {
   name: string;
@@ -77,32 +77,17 @@ export const DemoFormLeft: React.FunctionComponent<IDemoFormLeft> = ({
             </div>
           ))}
       </div>
-      <Chips
-        className="justify-center my-32 md:mb-20"
-        segments={[
-          { color: 'orange-light', length: 2 },
-          { color: 'orange-dark', length: 3 },
-        ]}
-      />
-      <Container title="API First Companies Love Us">
-        <div className="flex flex-wrap">
-          {testimonials &&
-            testimonials.testimonials.map((testimonial, index) => (
-              <Testimonial
-                key={index}
-                image={testimonial.image}
-                author={testimonial.author}
-                company={testimonial.company}
-                quote={testimonial.quote}
-                role={testimonial.role}
-              />
-            ))}
-        </div>
-      </Container>
-      <Chips
-        className="justify-center pt-28"
-        segments={[{ color: 'blue-light', length: 2 }, { color: 'blue-dark', length: 4 }, { color: 'blue' }]}
-      />
+
+      <div className="container w-3/4 pt-32 border-b"></div>
+
+      {testimonials && (
+        <>
+          <h3 className="mt-32 mb-20 text-4xl text-center md:mb-14">API-First Companies Love Stoplight</h3>
+          <Testimonials {...testimonials} />
+        </>
+      )}
+      <div className="container w-3/4 border-b"></div>
+
       <Collage id="customers" {...collage} />
     </Layout>
   );

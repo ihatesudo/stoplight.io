@@ -108,7 +108,13 @@ export const Form: React.FunctionComponent<IForm> = ({
 
       <section />
 
-      <Testimonials {...testimonials} />
+      {testimonials && (
+        <>
+          <h3 className="mb-20 text-4xl text-center md:mb-14">API-First Companies Love Stoplight</h3>
+          <Testimonials {...testimonials} />
+        </>
+      )}
+      <div className="container w-3/4 border-b"></div>
 
       <Collage id="customers" {...collage} />
 

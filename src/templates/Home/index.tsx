@@ -214,7 +214,14 @@ export const Home: React.FunctionComponent<IHome> = ({
               </div>
             ))}
           </Container>
+          <div className="container w-3/4 border-b"></div>
         </Section>
+      )}
+      {testimonials && (
+        <>
+          <h3 className="mb-20 text-4xl text-center md:mb-14">API-First Companies Love Stoplight</h3>
+          <Testimonials {...testimonials} />
+        </>
       )}
       <Section noPaddingT>
         {actionBar && <ActionBar enabled={actionBar.enabled} ctas={actionBar.ctas} text={actionBar.text} />}
