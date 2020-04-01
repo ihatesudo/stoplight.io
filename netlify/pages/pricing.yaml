@@ -119,6 +119,16 @@ faq:
     - question: Do you offer discounts for non profits?
       answer: >-
         Yes, we offer 50% off team plans for non profits. Please contact support@stoplight.io.
+    - question: How secure is the Stoplight platform?
+      answer: >-
+        Our [hosted platform](https://stoplight.io/TBD) is monitored around the clock by a dedicated team of engineers. 
+        Our servers run on Google Kubernetes Engine and are configured in accordance with their recommended best practices, 
+        and all of the data we store is encrypted. Both our hosted platform and our on-premise artifacts receive security 
+        patches at least once a month (but often more). Access to critical infrastructure and data is restricted to a small 
+        handful of engineers according to a strict need-based policy. Our on-premise artifacts are designed to never transfer 
+        or store sensitive data in cleartext, support running as non-root or with random UID, and are compatible with linux 
+        security systems like SELinux or AppArmor. We offer artifacts in several distributions and have experience working 
+        with enterprise security teams to meet their unique requirements.
 actionBar:
   ctas:
     - color: accent
