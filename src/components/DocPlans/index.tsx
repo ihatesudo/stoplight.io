@@ -48,7 +48,7 @@ export const DocPlans: React.FunctionComponent<IDocPlans> = ({
 }) => {
   return (
     <Section id="docPlans" className="sm:hidden">
-      <Container className="mx-auto ">
+      <Container className="mx-auto">
         <div className="mb-20 text-center">
           <div className="text-4xl font-bold">{title}</div>
         </div>
@@ -56,7 +56,7 @@ export const DocPlans: React.FunctionComponent<IDocPlans> = ({
           <div className="container h-2 rounded-t-lg shadow-md bg-blue"></div>
           <div className="sticky-pricing">
             <div className="container flex justify-end h-32 bg-white border-b">
-              <div className="shadow-lg test"></div>
+              <div className="shadow-lg"></div>
               {plans &&
                 plans.length > 0 &&
                 plans.map((p, index) => (

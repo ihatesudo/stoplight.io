@@ -163,9 +163,6 @@ ul {
     position: sticky;
     position: -webkit-sticky;
     top: 90px;
-
-    &:nth-child(n + 2) {
-    }
     &:nth-child(n + 1) {
       padding-bottom: 0;
     }
@@ -192,11 +189,6 @@ ul {
       padding-left: 20px;
     }
   }
-}
-.title-tr {
-  background-color: white;
-  font-size: x-large;
-  font-weight: bold;
 }
 
 .carat {
