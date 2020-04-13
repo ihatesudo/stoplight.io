@@ -1,19 +1,23 @@
 # External redirects
-/login https://next.stoplight.io/login
-/join https://next.stoplight.io/join
+/login /p/login
+/join /p/signup
 /forum https://community.stoplight.io
-/register https://next.stoplight.io/join
+/register /p/signup
 /twitter https://twitter.com/stoplightio
 
 # Internal redirects
 /platform/prism /mocking/
 /platform/design /design/
-/platform/docs /documentation/
-/platform/scenarios /testing/
+/platform/docs /documentation/ 
+/platform/scenarios/ /
 /api-designer /design/               
 /prism/errors /p/docs/gh/stoplightio/prism/docs/guides/errors.md
 /prism /open-source/prism
 /spectral /open-source/spectral
+
+/blog/changelog/ /blog/
+/testing/ /mocking/
+/testing/enterprise/ /mocking/
 
 # until we have an open-source landing page
 /open-source /

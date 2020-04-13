@@ -16,7 +16,7 @@ tabs:
     title: API Documentation
   - href: /blog/api-testing
     title: API Testing
-  - href: /blog/changelog
+  - href: 'https://support.stoplight.io/hc/en-us/sections/360006632531-Releases'
     title: Changelog
 actionBar:
   enabled: false

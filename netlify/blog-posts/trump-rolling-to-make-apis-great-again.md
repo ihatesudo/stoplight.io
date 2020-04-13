@@ -53,11 +53,11 @@ By now you should understand why my Mom’s lack of understanding around APIs is
 
 No matter how hard we tried to avoid speaking about the election in the office, we couldn’t anymore. So I made something to cheer us up, and to start a conversation around APIs.
 
-Enter [Trump Rolled](https://pytlesk4.github.io/trumptutorial), powered by our newest product — [Stoplight Scenarios](http://stoplight.io/platform/scenarios)! Trump Rolled was never meant to be a real thing, but before we could release the Scenarios beta, we needed to make sure what we built worked. And as I have stated before [testing sucks](https://medium.com/api-corner/chivalry-is-dead-and-so-is-testing-8e9103251f15), so I tried to make it fun by prank calling my friends.
+Enter [Trump Rolled](https://pytlesk4.github.io/trumptutorial), powered by our newest product — Stoplight Scenarios! Trump Rolled was never meant to be a real thing, but before we could release the Scenarios beta, we needed to make sure what we built worked. And as I have stated before [testing sucks](https://medium.com/api-corner/chivalry-is-dead-and-so-is-testing-8e9103251f15), so I tried to make it fun by prank calling my friends.
 
 Turned out that I had too much fun, and I was able to forget about the election for a little bit. So, I made it into a thing, and I truly hope that it starts a conversation and keep it going. As we go down this road, we will learn about how Trump Rolled was made without writing any code, how [Twilio’s](https://www.twilio.com/) and [SendGrid’s](http://sendgrid.com/) API were used to make it happen, and we will learn about what/why Scenarios.
 
-In the meantime, roll on and tell us about how you develop, design, test and document your APIs by sending us a message on [Twitter](https://twitter.com/stoplightio) with #MakeAPIsGreatAgain. If Stoplight Scenarios sound interesting, please register for the beta [here](http://stoplight.io/platform/scenarios/#beta).
+In the meantime, roll on and tell us about how you develop, design, test and document your APIs by sending us a message on [Twitter](https://twitter.com/stoplightio) with #MakeAPIsGreatAgain. If Stoplight Scenarios sound interesting, please register for the beta here.
 
 I love you America, and thank you for reading.
 

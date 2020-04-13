@@ -13,10 +13,6 @@ tabs:
     title: API Documentation
   - href: /documentation/beautiful
     title: Beautiful API Documentation
-  - href: /testing
-    title: API Testing
-  - href: /testing/enterprise
-    title: Enterprise API Testing
   - href: /blog
     title: Stoplight Blog
 actionBar:
