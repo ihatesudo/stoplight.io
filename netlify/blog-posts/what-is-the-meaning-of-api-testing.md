@@ -64,7 +64,7 @@ API testing with OpenAPI is sometimes referred to as contract testing, because t
 
 ![API testing coverage](/images/testing_reporting.png)
 
-As you create tests, you want to make every possible call with the API. Identify the potential requests you haven’t made and then add new tests to fill the gaps. [Stoplight API testing](https://stoplight.io/testing/) includes a coverage report to track progress. Each endpoint/method combination has an expected response for each potential HTTP status code.
+As you create tests, you want to make every possible call with the API. Identify the potential requests you haven’t made and then add new tests to fill the gaps. Stoplight API testing includes a coverage report to track progress. Each endpoint/method combination has an expected response for each potential HTTP status code.
 
 With an OpenAPI document to build your tests on top of, you have much of the data you need to reach full coverage.
 
@@ -93,4 +93,4 @@ Community website [OpenAPI.Tools](https://openapi.tools/) provides a categorized
 
 Among the open source tools is [Prism](https://github.com/stoplightio/prism), which creates mock servers for API testing. Once your API is in production, Prism allows you to compare upstream API responses to what it expects to receive based on your OpenAPI description. You can run contract testing against a Live API, including during development, to make sure the results meet expectations.
 
-Stoplight also runs Prism as-a-service within the [OpenAPI testing platform](https://stoplight.io/testing/). Upload an OpenAPI document to get started, or design your own based on an existing API. Then run tests to make sure your API operates as expected.
+Stoplight also runs Prism as-a-service within the OpenAPI testing platform. Upload an OpenAPI document to get started, or design your own based on an existing API. Then run tests to make sure your API operates as expected.

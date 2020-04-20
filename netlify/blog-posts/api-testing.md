@@ -54,7 +54,7 @@ For the purposes of this article, we’ll assume we have a simple _Express_ and 
 
 ### **Connecting the Services to Stoplight**
 
-The next step is to set up an account for testing. If you don’t already have a Stoplight account, head over to their website and get their new desktop app, [Scenarios](http://stoplight.io/platform/scenarios/). Sign up and create a new organization.
+The next step is to set up an account for testing. If you don’t already have a Stoplight account, head over to their website and get their new desktop app, Scenarios. Sign up and create a new organization.
 
 Next, create an API specification. Make sure the **API Spec** tab is selected and fill out the form. All we need for this example is a name.
 

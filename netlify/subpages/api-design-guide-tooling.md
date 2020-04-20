@@ -80,7 +80,7 @@ Mocking API calls before they’re in production is a good idea. Once your API i
 
 Your OpenAPI definition describes exactly how your API can be used and what response to expect. During testing, you create scenarios for how your API is used, then run them to make sure you get the correct HTTP status code for the method used. If your OpenAPI document is a contact, testing makes sure you’ve built it true to the terms.
 
-Testing can be built into your CI/CD pipeline, so you always know that your tests are passing. Like other software testing, you can track coverage, ensuring that errors are unlikely to slip through. You can build fully customizable tests with built-in coverage reporting with [Stoplight OpenAPI testing](/testing/).
+Testing can be built into your CI/CD pipeline, so you always know that your tests are passing. Like other software testing, you can track coverage, ensuring that errors are unlikely to slip through. You can build fully customizable tests with built-in coverage reporting with Stoplight OpenAPI testing.
 
 ![OAS Linting](/images/linting-design-guide.png 'Linting')
 
