@@ -76,10 +76,6 @@ header:
           icon: ['fad', 'robot']
           title: About Us
           titleColor: blue
-        - href: '/careers'
-          icon: ['fad', 'toolbox']
-          title: Careers
-          titleColor: orange
         - href: '/blog'
           icon: ['fad', 'pencil']
           title: Blog
@@ -179,8 +175,6 @@ footer:
     - links:
         - href: /about
           title: About Us
-        - href: /careers
-          title: Careers
         - href: https://stoplight.io/p/roadmap
           title: Roadmap
         - href: 'https://press.stoplight.io'
