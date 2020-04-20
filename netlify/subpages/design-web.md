@@ -17,8 +17,6 @@ tabs:
     href: https://www.openapis.org/
   - title: API Mocking
     href: /mocking
-  - title: API Testing
-    href: /testing
 actionBar:
   enabled: false
 meta:
