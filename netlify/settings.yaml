@@ -174,8 +174,8 @@ customers:
       src: /images/logo-sendgrid.png
     - alt: TiVo
       src: /images/tivo.png
-    - alt: Zendesk
-      src: /images/logo_zendesk.png
+    - alt: Zoom
+      src: /images/zoom_logo.png
 integrations:
   googleTagManager: GTM-58LWL5P
   hubspot: 4892910
