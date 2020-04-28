@@ -25,9 +25,9 @@ meta:
     Server? Check out our Mock API Server guide right here to find out
     everything you need to know.
   robots: 'index, follow'
-  title: Mock API Server Guide | Mock APIs Testing & API Mocking Guide
+  title: Mock API Server Guide | Mock APIs Testing & API Mocking Guide Online
   twitter:
-    title: Mock API Server Guide | Mock APIs Testing & API Mocking Guide
+    title: Mock API Server Guide | Mock APIs Testing & API Mocking Guide Online
     username: '@stoplightio'
 ---
 

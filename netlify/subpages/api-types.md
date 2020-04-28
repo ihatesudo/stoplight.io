@@ -9,7 +9,7 @@ relatedTags:
   - 'restful' 
   - 'api types'
 publishedDate:
-title: API Types
+title: Types of APIs
 subtitle: >-
  Discussing different types of APIs, alongside protocols and standards, such as Open APIs, Internal APIs, Partner APIs, Compostie APIs, RESTFUL, JSON-RPC, XML-RPC, and SOAP.
 color: blue
@@ -25,11 +25,11 @@ actionBar:
 meta:
   description: >-
     Discussing different types of APIs, alongside protocols and standards, such as Open APIs, Internal APIs, Partner APIs, Compostie APIs, RESTFUL,JSON-RPC, XML-RPC, and SOAP.
-  title: API Types | Types of APIs for Enterprises
+  title: Types of API | API Types for Enterprise | Types Of API Calls & Protocol
   twitter:
     description: >-
       Discussing different types of APIs, alongside protocols and standards, such as Open APIs, Internal APIs, Partner APIs, Compostie APIs, RESTFUL,JSON-RPC, XML-RPC, and SOAP.
-    title: API Types | Types of APIs for Enterprises
+    title: Types of API | API Types for Enterprise | Types Of API Calls & Protocol
     username: '@stoplightio'
 ---
 

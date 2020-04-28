@@ -39,9 +39,9 @@ meta:
     Get to know the intricate details of the all-important OpenAPI with
     Stoplight’s comprehensive and technical guide.
   robots: 'index, follow'
-  title: OpenAPI Design Guide & OpenAPI | OpenAPI
+  title: OpenAPI Design Guide & OpenAPI Specification | OpenAPI Spec Format
   twitter:
-    title: OpenAPI Design Guide & OpenAPI | OpenAPI
+    title: OpenAPI Design Guide & OpenAPI Specification | OpenAPI Spec Format
     image: /images/mark_light_bg.png
     username: '@stoplightio'
 ---

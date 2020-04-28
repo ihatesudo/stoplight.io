@@ -23,11 +23,11 @@ actionBar:
 meta:
   description: >-
     SOAP APIs vs REST APIs - exploring the differences and similarities between these two approach to web services.  
-  title: SOAP APIs vs REST APIs | Types of APIs for Enterprises
+  title: SOAP APIs vs REST APIs | REST Vs SOAP API Performance Services
   twitter:
     description: >-
       SOAP APIs vs REST APIs - exploring the differences and similarities between these two approach to web services.
-    title: SOAP APIs vs REST APIs | Types of APIs for Enterprises
+    title: SOAP APIs vs REST APIs | REST Vs SOAP API Performance Services
     username: '@stoplightio'
 ---
 

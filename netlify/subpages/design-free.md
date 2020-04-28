@@ -5,7 +5,7 @@ tags:
 relatedTags:
   - ''
 publishedDate: 'Jan 23, 2019'
-title: Free Visual API Designer & Editor Tool
+title: Free Visual API Designer & OpenAPI Editor Tool
 subtitle: >-
   Build web APIs with a powerful, free visual OpenAPI Specification editor that
   allows you to create API designs and share within minutes
