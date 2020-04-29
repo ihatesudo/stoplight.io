@@ -1,9 +1,9 @@
 banners:
-  - ends: 1609430400000
-    markdown: >-
-      Ready to accelerate your team's API Development by 36%? <u class='ml-1'>**[Request a Demo](https://stoplight.io/demo)**</u>
-    starts: 1570550400000
-    hideOnPath: ['/demo']
+  # - ends: 1609430400000
+  #   markdown: >-
+  #     Ready to accelerate your team's API Development by 36%? <u class='ml-1'>**[Request a Demo](https://stoplight.io/demo)**</u>
+  #   starts: 1570550400000
+  #   hideOnPath: ['/demo']
   - ends: 1570550400000
     markdown: >-
       Learn API Design from Industry Experts! <u class='ml-1'>**[Register Now](https://zoom.us/webinar/register/5715699441732/WN_3xRpSTTOSoOpweidGLYVWQ)**</u> for the Studio Webinar on October 8th
