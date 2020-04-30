@@ -8,7 +8,7 @@ relatedTags:
   - 'api types'
   - 'rest'
 publishedDate:
-title: SOAP APIs
+title: SOAP API
 subtitle: >-
   Explore SOAP APIs, how to call them, how to describe them, and other common topics.
 color: blue
@@ -24,11 +24,11 @@ actionBar:
 meta:
   description: >-
     Explore SOAP APIs, how to call them, how to describe them, and other common topics.  
-  title: SOAP API Protocol | Types of APIs for Enterprises
+  title: SOAP API | SOAP API Example Protocol | SOAP APIs Interface
   twitter:
     description: >-
       Explore SOAP APIs, how to call them, how to describe them, and other common topics.
-    title: SOAP API Protocol | Types of APIs for Enterprises
+    title: SOAP API | SOAP API Example Protocol | SOAP APIs Interface
     username: '@stoplightio'
 ---
 

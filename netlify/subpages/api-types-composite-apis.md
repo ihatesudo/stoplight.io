@@ -10,7 +10,7 @@ relatedTags:
   - 'restful' 
   - 'api types'
 publishedDate:
-title: Composite APIs
+title: Composite API
 subtitle: >-
  REST APIs are a popular convention, but they can be inefficient for some use cases. With a design around specific resources, multiple calls are often needed to support a single use case. Composite APIs are a potential architectural answer that can bundle multiple calls into a single API request.
 color: blue
@@ -26,11 +26,11 @@ actionBar:
 meta:
   description: >-
     REST APIs are a popular convention, but they can be inefficient for some use cases. With a design around specific resources, multiple calls are often needed to support a single use case. Composite APIs are a potential architectural answer that can bundle multiple calls into a single API request.
-  title: Composite APIs | Types of APIs for Enterprises
+  title: Composite API & REST API Composite | Single Vs Multiple API
   twitter:
     description: >-
       REST APIs are a popular convention, but they can be inefficient for some use cases. With a design around specific resources, multiple calls are often needed to support a single use case. Composite APIs are a potential architectural answer that can bundle multiple calls into a single API request.
-    title: Composite APIs | Types of APIs for Enterprises
+    title: Composite API & REST API Composite | Single Vs Multiple API
     username: '@stoplightio'
 ---
 
