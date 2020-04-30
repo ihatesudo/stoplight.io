@@ -40,7 +40,7 @@ export const Pricing: React.FunctionComponent<IPricing> = ({
         text={actionBar.text}
         ctas={actionBar.ctas}
         enabled={actionBar.enabled}
-        className="mx-40 sm:flex-col sm:justify-center sm:mx-0"
+        className=" sm:flex-col sm:justify-center sm:mx-0"
       />
       <div className="container w-3/4 pt-32 border-b"></div>
       <FAQ {...faq} />

@@ -52,7 +52,7 @@ export const DocPlans: React.FunctionComponent<IDocPlans> = ({
         <div className="mb-20 text-center">
           <div className="text-4xl font-bold">{title}</div>
         </div>
-        <div className="w-3/4 mx-auto shadow-lg">
+        <div className="mx-auto shadow-lg ">
           <div className="container h-2 rounded-t-lg shadow-md bg-blue"></div>
           <div className="sticky-pricing">
             <div className="container flex justify-end h-32 bg-white border-b">
@@ -63,9 +63,9 @@ export const DocPlans: React.FunctionComponent<IDocPlans> = ({
                   <div
                     key={index}
                     className={cn('text-2xl py-12 font-bold', {
-                      'pr-0': p.title === 'Enterprise',
-                      'pr-20': p.title === 'Team',
-                      'pr-24': p.title === 'Free',
+                      'px-6': p.title === 'Enterprise' || p.title === 'Professional',
+                      'px-10': p.title === 'Starter',
+                      'pr-16': p.title === 'Free',
                     })}
                   >
                     {p.title}
@@ -109,8 +109,9 @@ export const DocPlans: React.FunctionComponent<IDocPlans> = ({
                                         <td key={planIndex}>
                                           <Icon
                                             className={cn({
-                                              'text-purple': plan.title === 'Enterprise',
-                                              'text-indigo': plan.title === 'Team',
+                                              'text-orange': plan.title === 'Enterprise',
+                                              'text-purple': plan.title === 'Professional',
+                                              'text-indigo': plan.title === 'Starter',
                                               'text-green': plan.title === 'Free',
                                             })}
                                             icon="check"
@@ -143,9 +144,10 @@ export const DocPlans: React.FunctionComponent<IDocPlans> = ({
                       href={cta.href}
                       large={true}
                       className={cn('font-bold ease-in active-depress', {
-                        'ml-8': cta.color === 'purple',
-                        'ml-10': cta.color === 'indigo',
-                        'ml-12': cta.color === 'green',
+                        'mr-2': cta.color === 'orange',
+                        'mx-6': cta.color === 'purple',
+                        'mx-5': cta.color === 'indigo',
+                        'mr-6': cta.color === 'green',
                       })}
                     />
                   </td>

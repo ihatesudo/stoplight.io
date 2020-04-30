@@ -14,16 +14,17 @@ plans:
       title: $0
     features:
       - name: Up to 10 users
-      - name: Up to 5 projects
-      - name: Native Git Sync
-      - name: Private & Public Project Access
+      - name: Up to 20 projects
+      - name: Native Git Integration
+      - name: Technical Knowledge Base
       - name: OAS3 Visual Designer
-      - name: Hosted Mocking (1000)
       - name: JSON/YAML Linter
       - name: Project Style Guides
-      - name: Technical Knowledge Base (Explorer)
-      # - name: Changelog
-  - title: Team
+      - name: API Style Guides
+      - name: Complex Model
+      - name: Local Mock Servers
+      - name: Up to 200 most recent Automatic Changelogs
+  - title: Starter
     titleColor: indigo
     description: 'placeholder subtitle text if we want it'
     button:
@@ -31,23 +32,47 @@ plans:
       title: Get Started
       href: 'https://stoplight.io/p/studio?utm_source=studio_landing&utm_medium=start_button&utm_campaign=dynamic_start'
     price:
-      title: $19
+      title: $99
     features:
-      - name: All features included in the Free plan
-      - name: Up to 100 users
-      - name: Up to 20 projects
+      - name: $9/month/additional user
+      - name: Unlimited users
+      - name: Unlimited projects
       - name: Custom Domains
       - name: Theming
       - name: Custom Branding
       - name: Single Design Library
       - name: Guest Role
       - name: Hosted Mocking
-      - name: Multi-Branch
-  - title: Enterprise
+      - name: Multi-Branch Support
+      - name: Validations
+      - name: Up to 1000 most recent Automatic Changelogs
+  - title: Professional
     titleColor: purple
     description: 'placeholder subtitle text if we want it'
     button:
       color: purple
+      title: Get Started
+      href: 'https://stoplight.io/p/studio?utm_source=studio_landing&utm_medium=start_button&utm_campaign=dynamic_start'
+    price:
+      title: $399
+    features:
+      - name: $29/month/additional user
+      - name: Unlimited Users
+      - name: Unlimited Projects
+      - name: Private Hubs
+      - name: Model Masking
+      - name: Multiple Style Guides
+      - name: Multiple Design Libraries
+      - name: Shared Style Guides
+      - name: Private Hubs
+      - name: Unlimited Automatic Changelogs
+      - name: Dependency Graphs
+      - name: Unlimited Automatic Changelogs
+  - title: Enterprise
+    titleColor: orange
+    description: 'placeholder subtitle text if we want it'
+    button:
+      color: orange
       title: Contact Us
       href: '/demo/'
     price:
@@ -57,12 +82,12 @@ plans:
         title: Contact Us
         href: '/demo/'
     features:
-      - name: All features included in the Team plan
-      - name: Unlimited users
-      - name: Unlimited projects
+      - name: Unlimited Users
+      - name: Unlimited Projects
       - name: Model Masking
       - name: In & Outbound API Dependency Graph
       - name: Multiple Design Libraries
+      - name: Custom Rules
       - name: On-Premise Deployment
       - name: SSO & Authentication
       - name: Enterprise Terms & Support
@@ -84,12 +109,10 @@ collage:
       src: /images/logo-sendgrid.png
     - alt: Shopgate
       src: /images/shopgate.png
-    - alt: Spotify
-      src: /images/spotify.png
     - alt: TiVo
       src: /images/tivo.png
-    - alt: Zendesk
-      src: /images/logo_zendesk.png
+    - alt: Zoom
+      src: /images/zoom_logo.png
   title: >-
     Thousands of companies rely on Stoplight to streamline their API & Microservices
     workflow
@@ -149,260 +172,473 @@ docPlans:
       large: true
     - color: purple
       href: '/demo'
+      title: Sign Up
+      large: true
+    - color: orange
+      href: '/demo'
       title: Contact Us
       large: true
   title: Feature Breakdown by Plan
   plans:
     - title: Free
-    - title: Team
+    - title: Starter
+    - title: Professional
     - title: Enterprise
   categories:
     - category: API Design
       features:
-        - featureTitle: Create unlimited APIs, Models, Endpoints, Articles, & Images
+        - featureTitle: Studio Web
           tooltip: Tooltip content providing more detail about feature.
           plans:
             - Free
-            - Team
+            - Starter
+            - Professional
             - Enterprise
-        - featureTitle: OpenAPI 3 form support
+        - featureTitle: Studio Desktop
           tooltip: Tooltip content providing more detail about feature.
           plans:
             - Free
-            - Team
+            - Starter
+            - Professional
             - Enterprise
-        - featureTitle: Native git integration
+        - featureTitle: OpenAPI 2
           tooltip: Tooltip content providing more detail about feature.
           plans:
             - Free
-            - Team
+            - Starter
+            - Professional
             - Enterprise
-        - featureTitle: Create and switch between branches
+        - featureTitle: OpenAPI 3
           tooltip: Tooltip content providing more detail about feature.
           plans:
             - Free
-            - Team
+            - Starter
+            - Professional
             - Enterprise
-        - featureTitle: Create projects from an existing directory/folder on your computer
+        - featureTitle: JSON Schema
           tooltip: Tooltip content providing more detail about feature.
           plans:
             - Free
-            - Team
+            - Starter
+            - Professional
             - Enterprise
-        - featureTitle: Powerful search
+        - featureTitle: Native Git Integration
           tooltip: Tooltip content providing more detail about feature.
           plans:
             - Free
-            - Team
+            - Starter
+            - Professional
             - Enterprise
-        - featureTitle: Dark theme
+        - featureTitle: Forms Editor
           tooltip: Tooltip content providing more detail about feature.
           plans:
             - Free
-            - Team
+            - Starter
+            - Professional
             - Enterprise
-        - featureTitle: Private share links
+        - featureTitle: Code Editor
           tooltip: Tooltip content providing more detail about feature.
           plans:
             - Free
-            - Team
+            - Starter
+            - Professional
             - Enterprise
-        - featureTitle: Style guides
+        - featureTitle: Validations
           tooltip: Tooltip content providing more detail about feature.
           plans:
-            - Team
+            - Free
+            - Starter
+            - Professional
             - Enterprise
-        - featureTitle: Design library
+        - featureTitle: Export
           tooltip: Tooltip content providing more detail about feature.
           plans:
+            - Free
+            - Starter
+            - Professional
             - Enterprise
-        - featureTitle: Design library model masking
+        - featureTitle: References
           tooltip: Tooltip content providing more detail about feature.
           plans:
+            - Free
+            - Starter
+            - Professional
             - Enterprise
-    - category: API Design, Visbility & Governance
+        - featureTitle: API Style Guide
+          tooltip: Tooltip content providing more detail about feature.
+          plans:
+            - Free
+            - Starter
+            - Professional
+            - Enterprise
+        - featureTitle: Dark Theme
+          tooltip: Tooltip content providing more detail about feature.
+          plans:
+            - Free
+            - Starter
+            - Professional
+            - Enterprise
+        - featureTitle: Cross Platform
+          tooltip: Tooltip content providing more detail about feature.
+          plans:
+            - Free
+            - Starter
+            - Professional
+            - Enterprise
+        - featureTitle: Local Mock Servers
+          tooltip: Tooltip content providing more detail about feature.
+          plans:
+            - Free
+            - Starter
+            - Professional
+            - Enterprise
+    - category: API Visibility
       features:
-        - featureTitle: Git repo analysis & auto discovery
+        - featureTitle: Technical Knowledge Base
           tooltip: Tooltip content providing more detail about feature.
           plans:
             - Free
-            - Team
+            - Starter
+            - Professional
             - Enterprise
-        - featureTitle: Data filters
+        - featureTitle: Git Workflows
           tooltip: Tooltip content providing more detail about feature.
           plans:
             - Free
-            - Team
+            - Starter
+            - Professional
             - Enterprise
-        - featureTitle: Project search
+        - featureTitle: Auto Discovery
           tooltip: Tooltip content providing more detail about feature.
           plans:
             - Free
-            - Team
+            - Starter
+            - Professional
             - Enterprise
-        - featureTitle: Workspace search
+        - featureTitle: Workspace Search
           tooltip: Tooltip content providing more detail about feature.
           plans:
             - Free
-            - Team
+            - Starter
+            - Professional
             - Enterprise
-        - featureTitle: OpenAPI linter
+        - featureTitle: Project Search
           tooltip: Tooltip content providing more detail about feature.
           plans:
             - Free
-            - Team
+            - Starter
+            - Professional
             - Enterprise
-        - featureTitle: Dependency graph - inbound & outbound relationships
+        - featureTitle: Data Filters
           tooltip: Tooltip content providing more detail about feature.
           plans:
+            - Free
+            - Starter
+            - Professional
             - Enterprise
-    - category: API Docs
+        - featureTitle: Last 200 Automatic Changelogs
+          tooltip: Tooltip content providing more detail about feature.
+          plans:
+            - Free
+            - Starter
+            - Professional
+            - Enterprise
+        - featureTitle: Last 1000 Automatic Changelogs
+          tooltip: Tooltip content providing more detail about feature.
+          plans:
+            - Starter
+            - Professional
+            - Enterprise
+        - featureTitle: Unlimited Automatic Changelogs
+          tooltip: Tooltip content providing more detail about feature.
+          plans:
+            - Professional
+            - Enterprise
+        - featureTitle: Multi-Branch Support
+          tooltip: Tooltip content providing more detail about feature.
+          plans:
+            - Starter
+            - Professional
+            - Enterprise
+        - featureTitle: Dependency Graph
+          tooltip: Tooltip content providing more detail about feature.
+          plans:
+            - Professional
+            - Enterprise
+    - category: API Documentation
       features:
-        - featureTitle: Unlimited published APIs
+        - featureTitle: Interactive API Docs
           tooltip: Tooltip content providing more detail about feature.
           plans:
             - Free
-            - Team
+            - Starter
+            - Professional
             - Enterprise
-        - featureTitle: Integrated 'Try it Out' API console
+        - featureTitle: Rich Markdown Articles
           tooltip: Tooltip content providing more detail about feature.
           plans:
             - Free
-            - Team
+            - Starter
+            - Professional
             - Enterprise
-        - featureTitle: Rich, markdown powered docs
+        - featureTitle: Complex Model Rendering
           tooltip: Tooltip content providing more detail about feature.
           plans:
             - Free
-            - Team
+            - Starter
+            - Professional
             - Enterprise
-        - featureTitle: Export support
+        - featureTitle: Unlimited Pageviews
           tooltip: Tooltip content providing more detail about feature.
           plans:
             - Free
-            - Team
+            - Starter
+            - Professional
             - Enterprise
-        - featureTitle: Versioning support
+        - featureTitle: Git Workflows
           tooltip: Tooltip content providing more detail about feature.
           plans:
             - Free
-            - Team
+            - Starter
+            - Professional
             - Enterprise
-        - featureTitle: Complex JSON support
+        - featureTitle: Try It Out
           tooltip: Tooltip content providing more detail about feature.
           plans:
             - Free
-            - Team
+            - Starter
+            - Professional
             - Enterprise
-        - featureTitle: Unlimited pageviews
+        - featureTitle: Custom Domains
           tooltip: Tooltip content providing more detail about feature.
           plans:
             - Free
-            - Team
+            - Starter
+            - Professional
             - Enterprise
-        - featureTitle: Build history and instant rollbacks
+        - featureTitle: Automatic SSL
           tooltip: Tooltip content providing more detail about feature.
           plans:
             - Free
-            - Team
-            - Enterprise
-        - featureTitle: Custom domains
-          tooltip: Tooltip content providing more detail about feature.
-          plans:
-            - Team
+            - Starter
+            - Professional
             - Enterprise
         - featureTitle: Theming
           tooltip: Tooltip content providing more detail about feature.
           plans:
-            - Team
+            - Starter
+            - Professional
             - Enterprise
-        - featureTitle: Custom branding
+        - featureTitle: Versioning
           tooltip: Tooltip content providing more detail about feature.
           plans:
-            - Team
+            - Starter
+            - Professional
             - Enterprise
-        - featureTitle: Remove Stoplight logo
+        - featureTitle: Remove Stoplight Logo
           tooltip: Tooltip content providing more detail about feature.
           plans:
+            - Professional
             - Enterprise
-        - featureTitle: Guest access
+        - featureTitle: Multi-Section
           tooltip: Tooltip content providing more detail about feature.
           plans:
+            - Professional
+            - Enterprise
+        - featureTitle: Private Hubs
+          tooltip: Tooltip content providing more detail about feature.
+          plans:
+            - Professional
             - Enterprise
     - category: API Mocking
       features:
-        - featureTitle: Hosted mocking
+        - featureTitle: Automatic Mock Servers
           tooltip: Tooltip content providing more detail about feature.
           plans:
             - Free
-            - Team
+            - Starter
+            - Professional
             - Enterprise
-        - featureTitle: Integrated mocking support within API console
+        - featureTitle: Static Mocks
           tooltip: Tooltip content providing more detail about feature.
           plans:
             - Free
-            - Team
+            - Starter
+            - Professional
             - Enterprise
-        - featureTitle: Validate inputs, responses, webhooks & callbacks
+        - featureTitle: Dynamic Mocks
           tooltip: Tooltip content providing more detail about feature.
           plans:
             - Free
-            - Team
+            - Starter
+            - Professional
             - Enterprise
-        - featureTitle: Automatic reload
-          tooltip: Tooltip content providing more detail about feature.
-          plans:
-            - Free
-            - Team
-            - Enterprise
-    - category: Supported Integrations
+    - category: Consistency & Quality
       features:
-        - featureTitle: One external integration
-          tooltip: GitHub, GitLab, Gitea, Bitbucket, Azure
+        - featureTitle: API Style Guides
+          tooltip: Tooltip content providing more detail about feature.
           plans:
             - Free
-            - Team
+            - Starter
+            - Professional
             - Enterprise
-        - featureTitle: Unlimited external integrations
-          tooltip: GitHub, GitLab, Gitea, Bitbucket, Azure
+        - featureTitle: Quality Dashboard
+          tooltip: Tooltip content providing more detail about feature.
           plans:
+            - Starter
+            - Professional
             - Enterprise
-    - category: Support
+        - featureTitle: Shared Style Guides
+          tooltip: Tooltip content providing more detail about feature.
+          plans:
+            - Professional
+            - Enterprise
+        - featureTitle: Design Libraries
+          tooltip: Tooltip content providing more detail about feature.
+          plans:
+            - Professional
+            - Enterprise
+        - featureTitle: Custom Rules
+          tooltip: Tooltip content providing more detail about feature.
+          plans:
+            - Professional
+            - Enterprise
+        - featureTitle: Model Masking
+          tooltip: Tooltip content providing more detail about feature.
+          plans:
+            - Professional
+            - Enterprise
+        - featureTitle: Multiple Style Guides
+          tooltip: Tooltip content providing more detail about feature.
+          plans:
+            - Professional
+            - Enterprise
+    - category: API Integrations
       features:
-        - featureTitle: Dedicated customer success manager
+        - featureTitle: Stoplight CLI
           tooltip: Tooltip content providing more detail about feature.
           plans:
+            - Free
+            - Starter
+            - Professional
             - Enterprise
-        - featureTitle: Invoicing options
+        - featureTitle: Cloud Git Providers
           tooltip: Tooltip content providing more detail about feature.
           plans:
+            - Free
+            - Starter
+            - Professional
             - Enterprise
-        - featureTitle: Bulk/scalable pricing
+        - featureTitle: On-Premise Git Providers
+          tooltip: Tooltip content providing more detail about feature.
+          plans:
+            - Professional
+            - Enterprise
+        - featureTitle: Third Party Auth Providers
+          tooltip: Tooltip content providing more detail about feature.
+          plans:
+            - Professional
+            - Enterprise
+        - featureTitle: Custom OAuth App
+          tooltip: Tooltip content providing more detail about feature.
+          plans:
+            - Professional
+            - Enterprise
+        - featureTitle: Multiple Git or Auth Providers
           tooltip: Tooltip content providing more detail about feature.
           plans:
             - Enterprise
     - category: Admin
       features:
-        - featureTitle: Private & public project access
+        - featureTitle: Workspace User Management
           tooltip: Tooltip content providing more detail about feature.
           plans:
+            - Free
+            - Starter
+            - Professional
             - Enterprise
-        - featureTitle: SAML
+        - featureTitle: Per Project User Management
           tooltip: Tooltip content providing more detail about feature.
           plans:
+            - Free
+            - Starter
+            - Professional
             - Enterprise
-        - featureTitle: LDAP
+        - featureTitle: Project Visibility
           tooltip: Tooltip content providing more detail about feature.
           plans:
+            - Free
+            - Starter
+            - Professional
             - Enterprise
-        - featureTitle: Domain capture
+        - featureTitle: Domain Capture
           tooltip: Tooltip content providing more detail about feature.
           plans:
+            - Starter
+            - Professional
             - Enterprise
-
-    - category: Installation
+        - featureTitle: Guest Role
+          tooltip: Tooltip content providing more detail about feature.
+          plans:
+            - Professional
+            - Enterprise
+        - featureTitle: Activity Logs
+          tooltip: Tooltip content providing more detail about feature.
+          plans:
+            - Professional
+            - Enterprise
+    - category: Deployment
       features:
-        - featureTitle: On Premise
+        - featureTitle: Cloud SaaS
+          tooltip: Tooltip content providing more detail about feature.
+          plans:
+            - Free
+            - Starter
+            - Professional
+            - Enterprise
+        - featureTitle: Self-Managed (on premise)
+          tooltip: Tooltip content providing more detail about feature.
+          plans:
+            - Enterprise
+    - category: Support
+      features:
+        - featureTitle: Credit Card Payment Option
+          tooltip: Tooltip content providing more detail about feature.
+          plans:
+            - Starter
+            - Professional
+            - Enterprise
+        - featureTitle: Credit Card or Invoicing Payment Option (annual plans only)
+          tooltip: Tooltip content providing more detail about feature.
+          plans:
+            - Professional
+            - Enterprise
+        - featureTitle: Credit Card, Invoicing, or Custom Payment Option
+          tooltip: Tooltip content providing more detail about feature.
+          plans:
+            - Enterprise
+        - featureTitle: Standard EULA
+          tooltip: Tooltip content providing more detail about feature.
+          plans:
+            - Free
+            - Starter
+            - Professional
+        - featureTitle: Custom EULA
+          tooltip: Tooltip content providing more detail about feature.
+          plans:
+            - Enterprise
+        - featureTitle: Community Support
+          tooltip: Tooltip content providing more detail about feature.
+          plans:
+            - Free
+            - Starter
+            - Professional
+            - Enterprise
+        - featureTitle: Dedicated Customer Success Manager
+          tooltip: Tooltip content providing more detail about feature.
+          plans:
+            - Enterprise
+        - featureTitle: Vendor Security Forms
           tooltip: Tooltip content providing more detail about feature.
           plans:
             - Enterprise

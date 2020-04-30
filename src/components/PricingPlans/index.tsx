@@ -30,8 +30,8 @@ export interface IPricingPlans {
 
 export const PlanFeature: React.FunctionComponent<IPlanFeature> = ({ name }) => {
   return (
-    <div className="flex items-center py-3">
-      <Icon icon={['fad', 'check-circle']} className={`mr-3 text-blue`} /> <div className="text-lg">{name}</div>
+    <div className="flex py-3">
+      <Icon icon={['fad', 'check-circle']} className={`mr-3 mt-1 text-blue`} /> <div className="text-lg">{name}</div>
     </div>
   );
 };
@@ -58,9 +58,8 @@ export const PricingPlan: React.FunctionComponent<IPricingPlan> = ({
             <div className="pt-1 text-6xl font-bold leading-loose text-center">
               <div className="flex justify-center">
                 {price.title}
-                <div className="flex flex-col mt-6 ml-1 text-lg font-normal leading-tight text-left">
-                  <p>per user</p>
-                  <p>per month</p>
+                <div className="my-10 ml-1 text-xl font-normal leading-tight text-left">
+                  <p>/month</p>
                 </div>
               </div>
             </div>
@@ -95,8 +94,9 @@ export const PricingPlans: React.FunctionComponent<IPricingPlans> = ({ color, pl
           {plans.map((pricingPlan, key) => (
             <div
               className={cn('w-128', {
-                'pt-48': pricingPlan.title === 'Free',
-                'pt-32': pricingPlan.title === 'Team',
+                'pt-40': pricingPlan.title === 'Free',
+                'pt-32': pricingPlan.title === 'Starter',
+                'pt-24': pricingPlan.title === 'Professional',
                 'pt-16': pricingPlan.title === 'Enterprise',
               })}
             >
