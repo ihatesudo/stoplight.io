@@ -31,7 +31,7 @@ export interface IPricingPlans {
 export const PlanFeature: React.FunctionComponent<IPlanFeature> = ({ name }) => {
   return (
     <div className="flex py-3">
-      <Icon icon={['fad', 'check-circle']} className={`mr-3 mt-1 text-blue`} /> <div className="text-md">{name}</div>
+      <Icon icon={['fad', 'check-circle']} className={` mr-2 mt-1 text-blue`} /> <div className="text-lg">{name}</div>
     </div>
   );
 };
