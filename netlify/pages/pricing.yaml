@@ -13,17 +13,11 @@ plans:
     price:
       title: $0
     features:
-      - name: Up to 10 users
-      - name: Up to 20 projects
-      - name: Native Git Integration
-      - name: Technical Knowledge Base
+      - name: Up to 10 Users
+      - name: Up to 20 Projects
       - name: OAS3 Visual Designer
-      - name: JSON/YAML Linter
-      - name: Project Style Guides
-      - name: API Style Guides
-      - name: Complex Model
-      - name: Local Mock Servers
-      - name: Up to 200 most recent Automatic Changelogs
+      - name: Hosted Mocking
+      - name: Interactive Documentation
   - title: Starter
     titleColor: indigo
     description: 'placeholder subtitle text if we want it'
@@ -34,18 +28,12 @@ plans:
     price:
       title: $99
     features:
-      - name: $9/month/additional user
-      - name: Unlimited users
-      - name: Unlimited projects
-      - name: Custom Domains
+      - name: $9/Month/Additional User
+      - name: Unlimited Users & Projects
       - name: Theming
-      - name: Custom Branding
-      - name: Single Design Library
-      - name: Guest Role
-      - name: Hosted Mocking
       - name: Multi-Branch Support
-      - name: Validations
-      - name: Up to 1000 most recent Automatic Changelogs
+      - name: Versioning
+      - name: Domain Capture
   - title: Professional
     titleColor: purple
     description: 'placeholder subtitle text if we want it'
@@ -56,18 +44,12 @@ plans:
     price:
       title: $399
     features:
-      - name: $29/month/additional user
-      - name: Unlimited Users
-      - name: Unlimited Projects
+      - name: $29/Month/Additional User
+      - name: Unlimited Users & Projects
       - name: Private Hubs
-      - name: Model Masking
-      - name: Multiple Style Guides
-      - name: Multiple Design Libraries
       - name: Shared Style Guides
-      - name: Private Hubs
-      - name: Unlimited Automatic Changelogs
-      - name: Dependency Graphs
-      - name: Unlimited Automatic Changelogs
+      - name: Activity Logs
+      - name: Inbound & Outbound API Dependency Graphs
   - title: Enterprise
     titleColor: orange
     description: 'placeholder subtitle text if we want it'
@@ -82,19 +64,12 @@ plans:
         title: Contact Us
         href: '/demo/'
     features:
-      - name: Unlimited Users
-      - name: Unlimited Projects
-      - name: Model Masking
-      - name: In & Outbound API Dependency Graph
-      - name: Multiple Design Libraries
-      - name: Custom Rules
-      - name: On-Premise Deployment
-      - name: SSO & Authentication
+      - name: Unlimited Users & Projects
+      - name: Multiple Git or Auth Providers
+      - name: Self-Managed (On Premise)
       - name: Enterprise Terms & Support
-      - name: Security Forms
-      - name: Hubs project filters
-      - name: Static IPs
-      - name: Multiple Node Versions
+      - name: Dedicated Customer Success Manager
+      - name: Vendor Security Forms
 collage:
   images:
     - alt: EA
