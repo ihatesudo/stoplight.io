@@ -1,12 +1,20 @@
 path: /contact-us
 color: black
-subtitle: >-
-  On average, adopting Stoplight results in a 36% gain in API development efficiency, and increases
-  API quality by 30%.
-title: Contact us
+hero:
+  title: Contact Us
+  subtitle: Have a general question for Stoplight? Send us a message in the form below.
+  ctas:
+  - title: Get Support
+    href: 'https://support.stoplight.io/hc/en-us'
+    color: purple
+  - title: Contact Sales
+    href: 'https://stoplight.io/demo/'
+    color: secondary-dark
+
 hubspot:
   formId: 7c71a3d0-fcd0-452f-981e-883c6cc86dd3
   portalId: '4892910'
+
 meta:
   favicon: /images/mark_light_bg.png
   title: Find out how you can contact us | Stoplight
@@ -16,10 +24,6 @@ meta:
 collage:
   title: 'Thousands of companies use Stoplight to streamline
 their API & Microservices workflow'
-  cta:
-    title: Read the Case Studies
-    href: /case-studies
-    color: green
   images:
     - src: /images/ea.png
       alt: EA
