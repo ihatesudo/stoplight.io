@@ -20,6 +20,9 @@ hero:
       large: true
       rightIcon: ['fad', 'arrow-right']
       color: gold
+image:
+  alt: Stoplight Enterprise Platform
+  src: /images/enterprise/flow_placeholder.png
 features:
   - name: Explorer
     description: The single source of truth for all your API related assets.

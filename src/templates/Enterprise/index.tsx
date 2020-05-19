@@ -23,6 +23,7 @@ export interface IEnterprise {
   color: string;
   customers: ICustomerSection;
   hero: IHero;
+  image: IImage;
   gartnerCoolVendor: IGartnerCoolVendor;
   features: IFeature[];
   caseStudies?: ICaseStudyCard[];
@@ -59,6 +60,7 @@ interface IFeature {
 export const Enterprise: React.FunctionComponent<IEnterprise> = ({
   color,
   hero,
+  image,
   caseStudies,
   gartnerCoolVendor,
   actionBar,
@@ -89,7 +91,14 @@ export const Enterprise: React.FunctionComponent<IEnterprise> = ({
         </Section>
       )}
       <div className="container w-3/4 border-b"></div>
-
+      {image && (
+        <Section>
+          <Container>
+            <Image src={image.src} alt={image.alt} />
+          </Container>
+        </Section>
+      )}
+      <div className="container w-3/4 border-b"></div>
       {caseStudies && (
         <Section id="case-studies" {...sectionProps}>
           <Container title="Stoplight Powers Some of the World's Leading API First Companies">
