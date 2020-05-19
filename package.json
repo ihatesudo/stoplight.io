@@ -28,7 +28,7 @@
     "@stoplight/monaco": "^4.4.0",
     "@stoplight/react-error-boundary": "^1.0.0",
     "@stoplight/spectral": "^4.0.0",
-    "@tippyjs/react": "^4.0.0-alpha.4",
+    "@tippyjs/react": "^4.0.2",
     "axios": "^0.19.2",
     "classnames": "2.2.x",
     "disqus-react": "^1.0.7",

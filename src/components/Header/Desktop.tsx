@@ -269,9 +269,10 @@ export const Desktop: React.FunctionComponent<{ items: IHeaderItem[]; unpinned: 
   return (
     <>
       <HeaderDropdown title="Products" className="text-lg sm:hidden" content={() => <ProductLinks />} />
-      {nonButtonElems}
+
       <HeaderDropdown title="Open Source" className="text-lg sm:hidden" content={() => <OpenSourceLinks />} />
-      {aboutDropDown}
+      {nonButtonElems}
+
       <div className="flex-1" />
       {buttonElems}
     </>

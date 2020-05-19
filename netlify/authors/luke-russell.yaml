@@ -1,0 +1,26 @@
+path: /blog/author/luke-russell
+tag: author
+title: Luke Russell
+subtitle: >-
+  Luke is a writer on a quest to make intimidating technological topics more approachable for all. From analyzing celestial fireballs to writing about APIs, you'll always find him delving into something new.
+pageName: Contributing Writer
+image: /images/luke-russell.jpg
+color: black
+tabs:
+  - {}
+meta:
+  favicon: /images/mark_light_bg.png
+  title: Luke Russell | Contributing Writer at Stoplight.io
+  robots: 'index, follow'
+  image: /images/luke-russell.jpg
+  twitter:
+    title: Luke Russell | Contributing Writer at Stoplight.io
+    username: '@stoplightio'
+  url: 'https://stoplight.io/blog/author/luke-russell'
+actionBar:
+  buttons: []
+  enabled: false
+  text: Maggie Summers
+pagination:
+  enabled: false
+  perPage: 1

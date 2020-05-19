@@ -1553,10 +1553,12 @@
     universal-user-agent "^2.0.0"
     url-template "^2.0.8"
 
-"@popperjs/core@^2.1.1":
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.1.1.tgz#12c572ab88ef7345b43f21883fca26631c223085"
-  integrity sha512-sLqWxCzC5/QHLhziXSCAksBxHfOnQlhPRVgPK0egEw+ktWvG75T2k+aYWVjVh9+WKeT3tlG3ZNbZQvZLmfuOIw==
+
+"@popperjs/core@^2.3.2":
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.4.0.tgz#0e1bdf8d021e7ea58affade33d9d607e11365915"
+  integrity sha512-NMrDy6EWh9TPdSRiHmHH2ye1v5U0gBD7pRYwSwJvomx7Bm4GG04vu63dYiVzebLOx2obPpJugew06xVP0Nk7hA==
+
 
 "@reach/router@^1.2.1":
   version "1.2.1"
@@ -1866,13 +1868,15 @@
     "@stoplight/yaml-ast-parser" "0.0.44"
     lodash "^4.17.15"
 
-"@tippyjs/react@^4.0.0-alpha.4":
-  version "4.0.0-alpha.4"
-  resolved "https://registry.yarnpkg.com/@tippyjs/react/-/react-4.0.0-alpha.4.tgz#0e422ee0079b6b4bca84f40584f2dfc2e19364f1"
-  integrity sha512-jiBFNU8ZsKTjha+5goKulOpMcf/twCYVTlL2pPjnV31on2fRNFcPHL1ggqdBY3t0dba6xSsGceo0a3j6ZUzIFQ==
+
+"@tippyjs/react@^4.0.2":
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/@tippyjs/react/-/react-4.0.2.tgz#fadd14f1e36dd4f63f5f241cc78f3a1bb8394250"
+  integrity sha512-iAKTjUmrXqTTJ4HZRDgmvVfUiv9pTzJoDjPLDbmvB6vttkuYvZ/o8NhHa72vMFgHpiMFNoYWtB8OCRR6x5Zs8w==
   dependencies:
     prop-types "^15.6.2"
-    tippy.js "^6.1.0"
+    tippy.js "^6.2.0"
+
 
 "@types/classnames@^2.2.9":
   version "2.2.9"
@@ -15551,12 +15555,14 @@ tiny-warning@^1.0.0:
   resolved "https://registry.yarnpkg.com/tiny-warning/-/tiny-warning-1.0.3.tgz#94a30db453df4c643d0fd566060d60a875d84754"
   integrity sha512-lBN9zLN/oAf68o3zNXYrdCt1kP8WsiGW8Oo2ka41b2IM5JL/S1CTyX1rW0mb/zSuJun0ZUrDxx4sqvYS2FWzPA==
 
-tippy.js@^6.1.0:
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/tippy.js/-/tippy.js-6.1.0.tgz#9c58b94f92f3044d5e861b9d83da3c2a6d3d4323"
-  integrity sha512-cRFydlVZlvo4soQSUfVNbH2K77zDUhDAzaAjxseyn81gGIa+j72y98yDL2yB0n8gas/E+Zlr1iOyR5ckslUFqA==
+
+tippy.js@^6.2.0:
+  version "6.2.3"
+  resolved "https://registry.yarnpkg.com/tippy.js/-/tippy.js-6.2.3.tgz#0a5db67dc6bd9129233b26052b7ae2b2047fd73e"
+  integrity sha512-MzqHMrr2C0IC8ZUnG5kLQPxonWJ7V+Usqiy2W5b+dCvAfousio0mA85h+Ea5wRq94AQGd8mbFGeciRgkP+F+7w==
   dependencies:
-    "@popperjs/core" "^2.1.1"
+    "@popperjs/core" "^2.3.2"
+
 
 tmp@^0.0.33:
   version "0.0.33"

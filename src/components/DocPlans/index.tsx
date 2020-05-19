@@ -2,6 +2,8 @@ import Tippy from '@tippyjs/react';
 import cn from 'classnames';
 import * as React from 'react';
 import 'tippy.js/dist/tippy.css';
+import { slugify } from '../../utils/slugify';
+
 
 import { Button } from '../Button';
 import { Container } from '../Container';
@@ -47,7 +49,7 @@ export const DocPlans: React.FunctionComponent<IDocPlans> = ({
   ctas,
 }) => {
   return (
-    <Section id="docPlans" className="sm:hidden">
+    <Section id={slugify('Feature Breakdown by Plan')} className="sm:hidden" noPaddingB>
       <Container className="mx-auto">
         <div className="mb-20 text-center">
           <div className="text-4xl font-bold">{title}</div>
@@ -55,20 +57,23 @@ export const DocPlans: React.FunctionComponent<IDocPlans> = ({
         <div className="mx-auto shadow-lg ">
           <div className="container h-2 rounded-t-lg shadow-md bg-blue"></div>
           <div className="sticky-pricing">
-            <div className="container flex justify-end h-32 bg-white border-b">
+            <div className="flex justify-end h-32 bg-white border-b">
               <div className="shadow-lg"></div>
               {plans &&
                 plans.length > 0 &&
                 plans.map((p, index) => (
-                  <div
-                    key={index}
-                    className={cn('text-2xl py-12 font-bold', {
-                      'px-6': p.title === 'Enterprise' || p.title === 'Professional',
-                      'px-10': p.title === 'Starter',
-                      'pr-16': p.title === 'Free',
-                    })}
-                  >
-                    {p.title}
+                  <div className="flex flex-col">
+                    <div
+                      key={index}
+                      className={cn('text-2xl py-12 font-bold md:text-lg', {
+                        'px-14 md:px-16': p.title === 'Enterprise',
+                        '-mr-3': p.title === 'Professional',
+                        'px-16 md:px-20': p.title === 'Starter',
+                        'pr-10 md:-mr-3': p.title === 'Free',
+                      })}
+                    >
+                      {p.title}
+                    </div>
                   </div>
                 ))}
             </div>
@@ -81,25 +86,30 @@ export const DocPlans: React.FunctionComponent<IDocPlans> = ({
                   <th className="w-1/2"></th>
                 </tr>
               </thead>
+
               <tbody>
                 {categories &&
                   categories.length > 0 &&
                   categories.map((c, index) => {
                     return (
                       <>
-                        <h3 className="pb-5 ml-6 bg-white pt-14 font-xl">{c.category}</h3>
+                        <h3 key={index} className="pb-5 ml-6 bg-white pt-14 font-xl">
+                          {c.category}
+                        </h3>
                         {c.features &&
                           c.features.map((f, i) => {
                             return (
                               <tr className="cat-tr">
                                 {f.featureTitle && f.tooltip ? (
-                                  <td className="underline">
+                                  <td key={i} className="underline">
                                     <Tippy content={f.tooltip} placement="top">
                                       <span>{f.featureTitle}</span>
                                     </Tippy>
                                   </td>
                                 ) : (
-                                  <td></td>
+                                  <td>
+                                    <span>{f.featureTitle}</span>
+                                  </td>
                                 )}
 
                                 {plans.map((plan, planIndex) => {
@@ -133,25 +143,17 @@ export const DocPlans: React.FunctionComponent<IDocPlans> = ({
               </tbody>
               <div className="h-10"></div>
             </table>
-            <tr className="flex justify-end">
-              {ctas &&
-                ctas.map((cta, index) => (
-                  <td className="pb-10">
-                    <Button
-                      key={index}
-                      color={cta.color}
-                      title={cta.title}
-                      href={cta.href}
-                      large={true}
-                      className={cn('font-bold ease-in active-depress', {
-                        'mr-2': cta.color === 'orange',
-                        'mx-6': cta.color === 'purple',
-                        'mx-5': cta.color === 'indigo',
-                        'mr-6': cta.color === 'green',
-                      })}
-                    />
-                  </td>
-                ))}
+            
+            <tr className="flex justify-center">
+              <td className="pb-10">
+                <Button
+                  href={`#${slugify('Sign Up')}`}
+                  title="Request Early Access"
+                  large
+                  color="blue"
+                  className="font-bold text-center ease-in active-depress"
+                />
+              </td>
             </tr>
           </div>
           <div className="container flex justify-end w-3/4"></div>

@@ -23,22 +23,19 @@ export const Input: React.FunctionComponent<IInput> = ({ type, placeholder, valu
         onEnter(e);
       }
     },
-    [onEnter],
+    [onEnter]
   );
 
   const ref = React.useRef<HTMLInputElement>(null);
-  React.useEffect(
-    () => {
-      if (autoFocus && ref.current) {
-        ref.current.focus();
-      }
-    },
-    [ref],
-  );
+  React.useEffect(() => {
+    if (autoFocus && ref.current) {
+      ref.current.focus();
+    }
+  }, [ref]);
 
   return (
     <input
-      className="shadow appearance-none border rounded-lg sm:w-full py-2 px-3 text-grey-darker leading-loose focus:outline-none focus:shadow-outline"
+      className="px-3 py-2 leading-loose border rounded-lg shadow appearance-none sm:w-full text-grey-darker focus:outline-none focus:shadow-outline"
       type={type}
       ref={ref}
       placeholder={placeholder}

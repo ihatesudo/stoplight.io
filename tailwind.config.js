@@ -1011,7 +1011,7 @@ module.exports = {
     svgStroke: false,
     textAlign: ['responsive'],
     textColors: ['hover', 'focus', 'group-hover'],
-    textSizes: [],
+    textSizes: ['responsive'],
     textStyle: ['hover'],
     tracking: [],
     userSelect: [],

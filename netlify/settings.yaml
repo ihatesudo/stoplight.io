@@ -98,10 +98,19 @@ header:
       title: Enterprise
     - href: /pricing
       title: Pricing
-    - href: https://stoplight.com/welcome
+    - href: /blog
+      title: Blog
+    - href: /about
+      title: About
+    - href: /demo
       isButton: true
       title: Get Started
       altBg: purple
+    - href: /studio
+      redirect: 'https://stoplight.io/p/studio?utm_source=studio_landing&utm_medium=start_button&utm_campaign=dynamic_start'
+      altHref: /studio
+      isButton: true
+      title: Start
       icon: ['fad', 'arrow-right']
 actionBar:
   ctas:
