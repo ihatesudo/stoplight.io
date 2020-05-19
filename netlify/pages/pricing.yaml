@@ -1,0 +1,599 @@
+path: /pricing
+hero:
+  particles: true
+  title: Plans That Suit Your API Program
+plans:
+  - title: Free
+    titleColor: green
+    summary: 'Design and documentation basics to get started'
+    addInfo:
+    button:
+      color: green
+      title: Get Started
+      href: 'https://stoplight.io/p/studio?utm_source=studio_landing&utm_medium=start_button&utm_campaign=dynamic_start'
+    price:
+      title: $0
+    features:
+      - name: Up to 10 Users
+      - name: Up to 10 Projects
+      - name: OpenAPI/JSON Schema Visual Designer
+      - name: Instant Mock Servers
+      - name: API Style Guides
+      - name: Interactive Docs on Custom Domain
+    ctas:
+      - title: Request Early Access
+        type: 'submit'
+        submit:
+          button:
+            color: green
+            title: Request Early Access
+            href: '/demo/'
+            outlined: true
+          input:
+            type: email
+            placeholder: Your work email...
+          formId: '91b8fe5d-eab8-4c67-b0cc-f1d56ebecef4'
+          portal: '4892910'
+          sfdcCampaignId: '7013i000000kofQAAQ'
+  - title: Starter
+    titleColor: indigo
+    summary: 'Advanced documentation and design for API teams'
+    addInfo: $9/additional user
+    button:
+      color: indigo
+      title: Get Started
+      href: 'https://stoplight.io/p/studio?utm_source=studio_landing&utm_medium=start_button&utm_campaign=dynamic_start'
+    price:
+      title: $99
+    features:
+      - name: Everything in Free
+      - name: Up to 50 Projects
+      - name: Theming
+      - name: Multi-Branch Support
+      - name: Up to 1000 Changelogs
+      - name: Domain Capture
+    ctas:
+      - title: Request Early Access
+        type: 'submit'
+        submit:
+          button:
+            color: indigo
+            title: Request Early Access
+            href: '/demo/'
+            outlined: true
+          input:
+            type: email
+            placeholder: Your work email...
+          formId: '23988ae4-a448-4b62-b34e-00f10dbb50c8'
+          portal: '4892910'
+          sfdcCampaignId: '7013i000000kofVAAQ'
+  - title: Professional
+    titleColor: purple
+    summary: 'Governance, visbility, and reuse to deliver consistency and quality'
+    addInfo: $29/additional user
+    button:
+      color: purple
+      title: Get Started
+      href: 'https://stoplight.io/p/studio?utm_source=studio_landing&utm_medium=start_button&utm_campaign=dynamic_start'
+    price:
+      title: $399
+    features:
+      - name: Everything in Starter
+      - name: Unlimited Projects
+      - name: Up to 50 Guest Users
+      - name: Remove Stoplight Branding
+      - name: Unlimited Changelogs
+      - name: Dependency Tracking
+      - name: Self Hosted Git Providers
+      - name: LDAP & SAML
+    ctas:
+      - title: Request Early Access Professional
+        type: 'submit'
+        submit:
+          button:
+            color: purple
+            title: Request Early Access
+            href: '/demo/'
+          input:
+            type: email
+            placeholder: Your work email...
+          formId: '3f2257fa-1dd9-4670-b1a7-9cd0d8e50ce2'
+          portal: '4892910'
+          sfdcCampaignId: '7013i000000kofaAAA'
+  - title: Enterprise
+    titleColor: orange
+    summary: 'Security, best-in-class support, and flexible deployment for enterprises'
+    button:
+      color: orange
+      title: Contact Us
+      href: '/demo/'
+      outlined: true
+    price:
+      # title: Contact Us
+      # button:
+      color: purple
+      title: Contact Us
+      href: '/demo/'
+    features:
+      - name: Everything in Professional
+      - name: Unlimited Guest Users
+      - name: Self-Hosted Deployment
+      - name: Multiple Git & Auth Providers
+      - name: Customer Success Manager
+      - name: Custom Terms
+      - name: Vendor Security Forms
+    ctas:
+      - title: Request Early Access
+        type: 'submit'
+        submit:
+          button:
+            color: orange
+            title: Contact Us
+            href: '/demo/'
+            outlined: true
+          input:
+            type: email
+            placeholder: Your work email...
+          formId: '00687bee-29d9-4a25-8abd-be15d11efe9e'
+          portal: '4892910'
+          sfdcCampaignId: '7013i000000kofWAAQ'
+collage:
+  images:
+    - alt: EA
+      src: /images/ea.png
+    - alt: Arkea
+      src: /images/logo_arkea_transparent.png
+    - alt: Chargify
+      src: /images/chargify-new-logo.png
+    - alt: Deutsche Bank
+      src: /images/deutsche_bank.png
+    - alt: Sendgrid
+      src: /images/logo-sendgrid.png
+    - alt: Shopgate
+      src: /images/shopgate.png
+    - alt: TiVo
+      src: /images/tivo.png
+    - alt: Zoom
+      src: /images/zoom_logo.png
+  title: >-
+    Leading Organizations Trust Stoplight with their APIs
+faq:
+  title: Frequently Asked Questions
+  description: Don't see your question? [Talk to a solutions engineer](https://stoplight.io/demo).
+
+  questions:
+    - question: Which users count toward the per-user pricing?
+      description: >-
+        All users that can log in to your Stoplight workspace except guest users count toward the per-user pricing. 
+        Guest users are part of the Professional and Enterprise plans only. Anonymous users accessing your documentation 
+        are not counted toward the per-user pricing and are part of all plans.
+    - question: What is a project?
+      description: >-
+        A Stoplight project represents a Git repository.  Projects can contain multiple 
+        API descriptions, schemas, documentation, and even your source code.
+      even: true
+    - question: Which Git providers are supported by Stoplight?
+      description: >-
+        Stoplight currently integrates with GitHub, GitLab, and Bitbucket. 
+        Support for other Git providers like Azure DevOps Server will be coming soon. 
+        Please check out our [roadmap](https://stoplight.io/p/roadmap) for more information.
+    - question: Do you offer annual billing?
+      description: >-
+        Yes! For annual billing, please contact us at sales@stoplight.io. The default billing cycle for Stoplight is monthly. 
+    - question: Do you offer discounts for Nonprofits or Open Source projects?
+      description: >-
+        Yes! We offer a free Starter plan for Open Source projects or organizations involved in COVID-19 
+        relief efforts, while Nonprofits can get our Starter plan at 50% off. Please contact us at 
+        support@stoplight.io to get started.
+    - question: What happens when adding users mid-cycle?
+      description: >-
+        We’ll make a one-time, prorated charge to your credit card to cover new user accounts for 
+        the remainder of the current billing period. At the end 
+        of each monthly billing cycle, you will be billed for the upcoming month’s 
+        subscription-based on the exact number of Stoplight users.
+      even: true
+    - question: How secure is the Stoplight platform?
+      description: >-
+        Our hosted platform is monitored around the clock by a dedicated team of engineers. 
+        Our servers run on Google Kubernetes Engine and are configured in accordance with their recommended best practices,
+        and all of the data we store is encrypted. Both the hosted platform and our on-premise artifacts receive security 
+        patches at least once a month (but often more). According to strict need-based policy, access to critical 
+        infrastructure and data is restricted to a handful of engineers. Our on-premise artifacts are designed to never
+         transfer or store sensitive data in cleartext, support running as non-root or with random UID, and are compatible 
+         with Linux security systems like SELinux or AppArmor. We offer artifacts in several distributions and have experience 
+         working with enterprise security teams to meet their unique requirements.
+actionBar:
+  ctas:
+    - color: accent
+      href: '/demo'
+      title: Book a Demo
+      rightIcon: ['fad', 'arrow-right']
+  enabled: true
+  text: Need help picking a plan?
+docPlans:
+  ctas:
+    - color: green
+      href: '/demo'
+      title: Request Early Access
+      large: true
+    - color: indigo
+      href: '/demo'
+      title: Request Early Access
+      large: true
+    - color: purple
+      href: '/demo'
+      title: Request Early Access
+      large: true
+    - color: orange
+      href: '/demo'
+      title: Contact Us
+      large: true
+  title: Feature Breakdown by Plan
+  plans:
+    - title: Free
+    - title: Starter
+    - title: Professional
+    - title: Enterprise
+  categories:
+    - category: API Design
+      features:
+        - featureTitle: Studio Web
+          tooltip: Web based visual designer for real time collaboration and native git sync without any installation.
+          plans:
+            - Free
+            - Starter
+            - Professional
+            - Enterprise
+        - featureTitle: Studio Desktop
+          tooltip: Cross platform desktop app for the visual designer to work with your local files and support your offline first needs.
+          plans:
+            - Free
+            - Starter
+            - Professional
+            - Enterprise
+        - featureTitle: OpenAPI/JSON Schema Visual Designer
+          tooltip: Out of the box support to design and model OpenAPI and JSON schema files visually.
+          plans:
+            - Free
+            - Starter
+            - Professional
+            - Enterprise
+        - featureTitle: Switch between Visual and Code View
+          tooltip: Seamlessly switch between visual and code view for your OpenAPI and JSON schema files.
+          plans:
+            - Free
+            - Starter
+            - Professional
+            - Enterprise
+        - featureTitle: Schema Reuse
+          tooltip: Reuse components with `$ref` across your API.
+          plans:
+            - Free
+            - Starter
+            - Professional
+            - Enterprise
+        - featureTitle: Design Validation
+          tooltip: Perform validation beyond the schema syntax based on predefined and custom style guides.
+          plans:
+            - Free
+            - Starter
+            - Professional
+            - Enterprise
+        - featureTitle: Git Sync
+          tooltip: Keep your designs always in sync with your Git repositories to never lose your single source of truth.
+          plans:
+            - Free
+            - Starter
+            - Professional
+            - Enterprise
+        - featureTitle: Documentation Editor
+          tooltip: Write and edit markdown documentation with a flexible file structure within the API designer.
+          plans:
+            - Free
+            - Starter
+            - Professional
+            - Enterprise
+        - featureTitle: OpenAPI Export
+          tooltip: Export bundled or deferenced OpenAPI files to use wtih other tooling.
+          plans:
+            - Free
+            - Starter
+            - Professional
+            - Enterprise
+        - featureTitle: Local Mock Servers
+          tooltip: Local mock servers with the desktop app that are always up to date with your API design.
+          plans:
+            - Free
+            - Starter
+            - Professional
+            - Enterprise
+    - category: API Mocking
+      features:
+        - featureTitle: Automatic Mock Servers
+          tooltip: Use up-to-date hosted and local mock severs from within the API documentation and visual designer.
+          plans:
+            - Free
+            - Starter
+            - Professional
+            - Enterprise
+        - featureTitle: Configurable Response Type
+          tooltip: Configure responses to respond with a particular response code to aid in testing.
+          plans:
+            - Free
+            - Starter
+            - Professional
+            - Enterprise
+        - featureTitle: Dynamic Response Generation
+          tooltip: Configure mocks to respond dynamically with generated responses.
+          plans:
+            - Free
+            - Starter
+            - Professional
+            - Enterprise
+    - category: API Documentation
+      features:
+        - featureTitle: Interactive API Docs
+          tooltip: Automatically generate detailed API documentation for all your API designs including examples, validations, authentication, and a powerful try it out functionality.
+          plans:
+            - Free
+            - Starter
+            - Professional
+            - Enterprise
+        - featureTitle: API Console (Try it out)
+          tooltip: Let your users try out APIs from within the API documentation using their own parameters and credentials.
+          plans:
+            - Free
+            - Starter
+            - Professional
+            - Enterprise
+        - featureTitle: Rich Markdown Articles
+          tooltip: Write reference guides and tutorials in rich markdown including code samples, callouts, and try it out.
+          plans:
+            - Free
+            - Starter
+            - Professional
+            - Enterprise
+        - featureTitle: Code Generation
+          tooltip: Provide code samples in popular languages automatically for all your endpoints and reference documentation.
+          plans:
+            - Free
+            - Starter
+            - Professional
+            - Enterprise
+        - featureTitle: Git Sync
+          tooltip: Keep your documentation always in sync with your Git repositories to never lose your single source of truth.
+          plans:
+            - Free
+            - Starter
+            - Professional
+            - Enterprise
+        - featureTitle: Custom Domains
+          tooltip: Host your API documentation easily on a custom domain with minimal setup.
+          plans:
+            - Free
+            - Starter
+            - Professional
+            - Enterprise
+        - featureTitle: Automatic SSL
+          tooltip: Automatically provision SSL for your hosted documentation.
+          plans:
+            - Free
+            - Starter
+            - Professional
+            - Enterprise
+        - featureTitle: Unlimited Documentation Views
+          tooltip: Unlimited documentation views and API consumers for your public documentation.
+          plans:
+            - Free
+            - Starter
+            - Professional
+            - Enterprise
+        - featureTitle: Theming
+          tooltip: Personalize your API documentation with colors and fonts.
+          plans:
+            - Starter
+            - Professional
+            - Enterprise
+        - featureTitle: Versioning
+          # tooltip: Tooltip content providing more detail about feature.
+          plans:
+            - Starter
+            - Professional
+            - Enterprise
+        - featureTitle: Remove Stoplight Branding
+          tooltip: Remove Stoplight branding from your API docs.
+          plans:
+            - Professional
+            - Enterprise
+        - featureTitle: Multi-Section
+          # tooltip: Tooltip content providing more detail about feature.
+          plans:
+            - Professional
+            - Enterprise
+    - category: API Visibility & Governance
+      features:
+        - featureTitle: Technical Knowledge Base
+          tooltip: Central repository for all your designs, schemas, and documentation enabling visbility for your stakeholders.
+          plans:
+            - Free
+            - Starter
+            - Professional
+            - Enterprise
+        - featureTitle: Git Integration (GitHub, GitLab, Bitbucket)
+          tooltip: Import and stay in sync with projects from your favorite VCS like GitHub, GitLab and Bitbucket. Support for other Git providers like Azure DevOps will be coming soon.
+          plans:
+            - Free
+            - Starter
+            - Professional
+            - Enterprise
+        - featureTitle: Auto Discovery
+          tooltip: Stoplight automatically analyzes and stays in sync with API descriptions, JSON Schemas, markdown articles, and images in your projects.
+          plans:
+            - Free
+            - Starter
+            - Professional
+            - Enterprise
+        - featureTitle: Search and Filter
+          tooltip: Search and filter artifacts based on names, endpoints, schemas, and articles to promote visibility and reuse.
+          plans:
+            - Free
+            - Starter
+            - Professional
+            - Enterprise
+        - featureTitle: Star API Artifacts
+          tooltip: Star important artifacts for easy discoverability and reuse.
+          plans:
+            - Free
+            - Starter
+            - Professional
+            - Enterprise
+        - featureTitle: Last 200 Automatic Changelogs
+          tooltip: View changelogs for all your API designs, schemas, and documentation to proactively avoid breaking changes.
+          plans:
+            - Free
+            - Starter
+            - Professional
+            - Enterprise
+        - featureTitle: Last 1000 Automatic Changelogs
+          tooltip: View changelogs for all your API designs, schemas and documentation to proactively avoid breaking changes.
+          plans:
+            - Starter
+            - Professional
+            - Enterprise
+        - featureTitle: Multi-Branch Support
+          tooltip: Manage multiple branches of each project to support versioning and collaboration.
+          plans:
+            - Starter
+            - Professional
+            - Enterprise
+        - featureTitle: Unlimited Automatic Changelogs
+          tooltip: View changelogs for all your API designs, schemas and documentation to proactively avoid breaking changes.
+          plans:
+            - Professional
+            - Enterprise
+        - featureTitle: Dependency Graph
+          tooltip: Visualize and track dependencies between your API artifacts.
+          plans:
+            - Professional
+            - Enterprise
+    - category: Consistency & Quality
+      features:
+        - featureTitle: API Style Guides
+          tooltip: Create style guides for APIs to validate against organization standards.
+          plans:
+            - Free
+            - Starter
+            - Professional
+            - Enterprise
+        # - featureTitle: Shared Style Guides
+        #   tooltip: Enforce style guides automatically across your organization to ensure consistency.
+        #   plans:
+        #     - Professional
+        #     - Enterprise
+        - featureTitle: Design Libraries
+          tooltip: Reuse models across APIs by creating design libraries, ensuring reuse and consistency.
+          plans:
+            - Professional
+            - Enterprise
+        - featureTitle: Model Masking
+          tooltip: Change fields and properties in models to promote reuse with flexibility.
+          plans:
+            - Professional
+            - Enterprise
+    - category: Integrations
+      features:
+        - featureTitle: Stoplight CLI
+          tooltip: Push projects to Explorer that are not a Git repository.
+          plans:
+            - Free
+            - Starter
+            - Professional
+            - Enterprise
+        - featureTitle: Cloud Git Providers
+          tooltip: Connect seamlessly with your favorite Git provider like GitHub, GitLab or Bitbucket.
+          plans:
+            - Free
+            - Starter
+            - Professional
+            - Enterprise
+        - featureTitle: Self Hosted Git Providers
+          tooltip: Connect seamlessly with on-premise or enterprise deployment of your Git providers like GitHub Enterprise.
+          plans:
+            - Professional
+            - Enterprise
+        - featureTitle: LDAP & SAML
+          tooltip: Enable single sign on (SSO) to integrate with your organization's existing authentication infrastructure.
+          plans:
+            - Professional
+            - Enterprise
+        - featureTitle: Multiple Git or Auth Providers
+          tooltip: Use multiple authentication and Git providers, bringing all teams in the organization together.
+          plans:
+            - Enterprise
+    - category: Workspaces
+      features:
+        - featureTitle: User Management & RBAC
+          tooltip: Invite API stakeholders with flexible roles and permissions.
+          plans:
+            - Free
+            - Starter
+            - Professional
+            - Enterprise
+        - featureTitle: Per Project User Management
+          tooltip: Allow different levels of access to workspace members for projects depending on your needs.
+          plans:
+            - Free
+            - Starter
+            - Professional
+            - Enterprise
+        - featureTitle: Project Level Permissions
+          tooltip: Toggle project visbility between private, internal, and public.
+          plans:
+            - Free
+            - Starter
+            - Professional
+            - Enterprise
+        - featureTitle: Domain Capture
+          tooltip: Scale easily by allowing team members to join the workspace without requiring invites.
+          plans:
+            - Starter
+            - Professional
+            - Enterprise
+        - featureTitle: Guest Access
+          tooltip: Allow external stakeholders and partners to view particular projects using the guest role.
+          plans:
+            - Professional
+            - Enterprise
+    - category: Support & Deployment
+      features:
+        - featureTitle: Credit Card Payment
+          # tooltip:
+          plans:
+            - Starter
+            - Professional
+            - Enterprise
+        - featureTitle: Invoicing (Annual plans only)
+          # # tooltip: Tooltip content providing more detail about feature.
+          plans:
+            - Professional
+            - Enterprise
+        - featureTitle: Custom Payment Terms
+          # # tooltip: Tooltip content providing more detail about feature.
+          plans:
+            - Enterprise
+        - featureTitle: Self Hosted Deployment
+          tooltip: Self-hosted GitHub for on-prem appliances or self-managed cloud tenants.
+          plans:
+            - Enterprise
+        - featureTitle: Custom EULA
+          # # tooltip: Tooltip content providing more detail about feature.
+          plans:
+            - Enterprise
+        - featureTitle: Customer Success Manager
+          tooltip: Get your own Customer Success manager to help you navigate Stoplight.
+          plans:
+            - Enterprise
+        - featureTitle: Vendor Security Forms
+          tooltip: Looking for a custom procurement process? Consider the Enterprise plan.
+          plans:
+            - Enterprise

@@ -150,28 +150,54 @@ ul {
   }
 }
 
+.sticky-pricing {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 70px;
+}
 .hubs-table {
-  border-spacing: 0;
-  border: 0 none;
   width: 100%;
+  line-height: 1.5;
+
   th {
-    border: 1px solid #777;
-    padding: 20px;
     font-weight: normal;
-    &:nth-child(n + 2) {
-      width: 20%;
-      text-align: center;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 90px;
+
+    &:nth-child(n + 1) {
+      padding-bottom: 0;
+    }
+  }
+  .cat-tr {
+    &:nth-child(even) {
+      background-color: #f5f7f9;
     }
   }
   td {
-    border: 1px solid #777;
-    padding: 20px;
+    padding: 10px;
     font-weight: normal;
+    text-decoration-style: dotted;
+
     &:nth-child(n + 2) {
-      width: 20%;
       text-align: center;
     }
+
+    &:nth-child(n + 3) {
+      padding-left: 2px;
+    }
+
+    &:nth-child(n + 1) {
+      padding-left: 20px;
+    }
   }
+}
+
+.carat {
+  transform: rotate(270deg);
+}
+.carat-90 {
+  transform: rotate(0deg);
 }
 
 .markdown-body {
@@ -1259,8 +1285,20 @@ pre.line-numbers > code {
   white-space: normal;
   padding-top: 6px;
   font-size: 16px;
+  width: 250px;
+  max-width: 70rem;
+  align-items: center;
+  display: flex;
+  box-sizing: inherit;
 }
 
 .successMessage a:link {
   color: #1a4731;
+}
+
+.price-box {
+  // box-shadow: 0 4px 6px -4px black;
+  box-shadow: 0px 0px 14px;
+  // box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+  //   0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
 }

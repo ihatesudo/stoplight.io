@@ -1,13 +1,19 @@
+import Tippy from '@tippyjs/react';
+import cn from 'classnames';
 import * as React from 'react';
+import 'tippy.js/dist/tippy.css';
+import { slugify } from '../../utils/slugify';
 
+import { Button } from '../Button';
 import { Container } from '../Container';
 import { Icon } from '../Icon';
 import { Link } from '../Link';
 import { Section } from '../Section';
 
 export interface IDocPlanFeature {
-  title: string;
-  plans: Array<IDocPlan['title']>;
+  featureTitle: string;
+  tooltip?: string;
+  plans?: Array<IDocPlan['title']>;
 }
 
 export interface IDocPlan {
@@ -24,8 +30,13 @@ export interface IDocPlans {
   plans: IDocPlan[];
   buttonUrl: string;
   buttonText: string;
+  categories?: ICategory[];
+  ctas?: any[];
 }
-
+export interface ICategory {
+  category: string;
+  features: IDocPlanFeature[];
+}
 export const DocPlans: React.FunctionComponent<IDocPlans> = ({
   title,
   description,
@@ -33,72 +44,117 @@ export const DocPlans: React.FunctionComponent<IDocPlans> = ({
   plans,
   buttonUrl,
   buttonText,
+  categories,
+  ctas,
 }) => {
   return (
-    <Section id="docPlans">
+    <Section id={slugify('Feature Breakdown by Plan')} className="sm:hidden" noPaddingB>
       <Container className="mx-auto">
-        <div className="text-center mb-20">
+        <div className="mb-20 text-center">
           <div className="text-4xl font-bold">{title}</div>
-          <div
-            className="mt-10 text-xl mx-auto opacity-50 max-w-lg leading-loose"
-            dangerouslySetInnerHTML={{ __html: description }}
-          />
         </div>
-
-        <div className="shadow-lg">
-          <table className="hubs-table bg-white">
-            <thead>
-              <tr>
-                <th />
-                {plans &&
-                  plans.length > 0 &&
-                  plans.map((plan, index) => (
-                    <th key={index}>
-                      <div className="flex flex-col">
-                        <p className="text-accent font-bold">{plan.title}</p>
-                        <Link className="flex-1 font-bold mt-2 text-lg" to={plan.link}>
-                          {plan.price}
-                        </Link>
-                        <p className="mt-2">{plan.domains}</p>
-                      </div>
-                    </th>
-                  ))}
-              </tr>
-            </thead>
-
-            <tbody>
-              {features &&
-                features.length > 0 &&
-                features.map((feature, index) => {
-                  return (
-                    <tr key={index}>
-                      <td>{feature.title}</td>
-
-                      {plans.map((plan, planIndex) => {
-                        return (
-                          <td key={planIndex}>
-                            {feature.plans.includes(plan.title) && (
-                              <Icon className="text-green" icon="check-circle" size="lg" />
-                            )}
-                          </td>
-                        );
+        <div className="mx-auto shadow-lg ">
+          <div className="container h-2 rounded-t-lg shadow-md bg-blue"></div>
+          <div className="sticky-pricing">
+            <div className="flex justify-end h-32 bg-white border-b">
+              <div className="shadow-lg"></div>
+              {plans &&
+                plans.length > 0 &&
+                plans.map((p, index) => (
+                  <div className="flex flex-col">
+                    <div
+                      key={index}
+                      className={cn('text-2xl py-12 font-bold md:text-lg', {
+                        'px-14 md:px-16': p.title === 'Enterprise',
+                        '-mr-3': p.title === 'Professional',
+                        'px-16 md:px-20': p.title === 'Starter',
+                        'pr-10 md:-mr-3': p.title === 'Free',
                       })}
-                    </tr>
-                  );
-                })}
-            </tbody>
-          </table>
-
-          <div>
-            <Link
-              to={buttonUrl}
-              title={buttonText}
-              className="block py-6 bg-green hover:bg-green-light font-bold text-center text-xl text-white hover:text-white"
-            >
-              {buttonText}
-              <Icon icon="arrow-right" className="ml-3" />
-            </Link>
+                    >
+                      {p.title}
+                    </div>
+                  </div>
+                ))}
+            </div>
           </div>
+
+          <div className="container bg-white rounded-lg shadow-lg">
+            <table className="bg-white hubs-table">
+              <thead>
+                <tr>
+                  <th className="w-1/2"></th>
+                </tr>
+              </thead>
+
+              <tbody>
+                {categories &&
+                  categories.length > 0 &&
+                  categories.map((c, index) => {
+                    return (
+                      <>
+                        <h3 key={index} className="pb-5 ml-6 bg-white pt-14 font-xl">
+                          {c.category}
+                        </h3>
+                        {c.features &&
+                          c.features.map((f, i) => {
+                            return (
+                              <tr className="cat-tr">
+                                {f.featureTitle && f.tooltip ? (
+                                  <td key={i} className="underline">
+                                    <Tippy content={f.tooltip} placement="top">
+                                      <span>{f.featureTitle}</span>
+                                    </Tippy>
+                                  </td>
+                                ) : (
+                                  <td>
+                                    <span>{f.featureTitle}</span>
+                                  </td>
+                                )}
+
+                                {plans.map((plan, planIndex) => {
+                                  return (
+                                    <>
+                                      {f.plans && f.plans.includes(plan.title) ? (
+                                        <td key={planIndex}>
+                                          <Icon
+                                            className={cn({
+                                              'text-orange': plan.title === 'Enterprise',
+                                              'text-purple': plan.title === 'Professional',
+                                              'text-indigo': plan.title === 'Starter',
+                                              'text-green': plan.title === 'Free',
+                                            })}
+                                            icon="check"
+                                            size="lg"
+                                          />
+                                        </td>
+                                      ) : (
+                                        <td></td>
+                                      )}
+                                    </>
+                                  );
+                                })}
+                              </tr>
+                            );
+                          })}
+                      </>
+                    );
+                  })}
+              </tbody>
+              <div className="h-10"></div>
+            </table>
+            <tr className="flex justify-center">
+              <td className="pb-10">
+                <Button
+                  href={`#${slugify('Sign Up')}`}
+                  title="Request Early Access"
+                  large
+                  color="blue"
+                  className="font-bold text-center ease-in active-depress"
+                />
+              </td>
+            </tr>
+          </div>
+          <div className="container flex justify-end w-3/4"></div>
         </div>
       </Container>
     </Section>

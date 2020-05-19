@@ -10,7 +10,7 @@ interface IField {
 
 export const useSubmitEmailForm = (
   portalId: string,
-  formId: string,
+  formId: string
 ): [boolean, { success: string; error: string }, (fields: IField[]) => void] => {
   const [loading, setLoading] = React.useState(false);
   const [response, setResponse] = React.useState({ success: '', error: '' });
@@ -21,7 +21,7 @@ export const useSubmitEmailForm = (
         const blockedEmail = fields[0].value.split('@')[1];
         return setResponse({
           success: '',
-          error: `Please enter your business email address. This form does not accept addresses from ${blockedEmail}.`,
+          error: `Please enter your business email address.`,
         });
       }
 
@@ -63,13 +63,17 @@ export const useSubmitEmailForm = (
           console.error('Error submitting HubSpot form', err);
         });
     },
-    [portalId, formId],
+    [portalId, formId]
   );
 
   return [loading, response, submitForm];
 };
 
 const checkBlockedEmailDomains = (value: string): boolean => {
+  const gmail = value.split('@')[1] === 'gmail.com';
+  if (gmail) {
+    return Boolean(blockedEmailList.find(email => value === email));
+  }
   return Boolean(blockedEmailList.find(email => value.includes(email)));
 };
 

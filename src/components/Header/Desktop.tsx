@@ -8,7 +8,7 @@ import { Popup } from '../Popup';
 
 const DropdownItem = (item, index) => {
   if (item.divider) {
-    return <div key={index} style={{ height: 1 }} className="bg-grey-light my-3" />;
+    return <div key={index} style={{ height: 1 }} className="my-3 bg-grey-light" />;
   }
 
   return (
@@ -45,7 +45,7 @@ const HeaderDropdown: React.FunctionComponent<IHeaderItem> = ({ width, title, li
             'flex select-none cursor-default text-white rounded-lg px-3 py-1 mx-3 hover:bg-lighten-50 opacity-85 relative',
             {
               'opacity-100 bg-lighten-50': isVisible,
-            },
+            }
           )}
           {...attributes}
         >
@@ -59,7 +59,7 @@ const HeaderDropdown: React.FunctionComponent<IHeaderItem> = ({ width, title, li
         </div>
       )}
       renderContent={() => (
-        <div className="HeaderPopover bg-grey-lighter rounded-lg shadow-lg relative">
+        <div className="relative rounded-lg shadow-lg HeaderPopover bg-grey-lighter">
           {links && <div className="p-3">{links.map(DropdownItem)}</div>}
           {content && content()}
         </div>
@@ -75,7 +75,7 @@ const HeaderButton: React.FunctionComponent<IHeaderItem> = ({ title, href, icon,
       to={href}
       className={cn(
         'active-depress py-1 px-3 ml-6 flex items-center border rounded-lg text-white hover:text-white border-lighten-300 hover:border-lighten-500 bg-lighten-50 whitespace-no-wrap',
-        className,
+        className
       )}
     >
       {title} {icon && <Icon icon={icon} className="ml-3" />}
@@ -105,7 +105,7 @@ const ProductLink = ({
       to={href}
       className={cn(
         className,
-        `active-depress text-black border flex-1 rounded-lg p-6 bg-white hover:border-${color} hover:shadow-md cursor-pointer`,
+        `active-depress text-black border flex-1 rounded-lg p-6 bg-white hover:border-${color} hover:shadow-md cursor-pointer`
       )}
       style={{ width: 275 }}
     >
@@ -119,11 +119,11 @@ const ProductLink = ({
 
       <div className="flex items-center">
         {icon && <Icon icon={icon} className={`text-lg mr-3 text-${color}`} />}
-        <div className="text-lg whitespace-no-wrap font-medium">{name}</div>
+        <div className="text-lg font-medium whitespace-no-wrap">{name}</div>
         <Icon icon={['fad', 'arrow-right']} className="ml-4 text-grey-dark" />
       </div>
 
-      <div className="text-grey-dark mt-1">{description}</div>
+      <div className="mt-1 text-grey-dark">{description}</div>
     </Link>
   );
 };
@@ -131,7 +131,7 @@ const ProductLink = ({
 const ProductLinks = () => {
   return (
     <div className="p-6">
-      <div className="uppercase font-medium text-grey-darker ml-2">Collaborative API Design For Everyone</div>
+      <div className="ml-2 font-medium uppercase text-grey-darker">Collaborative API Design For Everyone</div>
 
       <div className="flex mt-3">
         <ProductLink
@@ -199,7 +199,7 @@ export const Desktop: React.FunctionComponent<{ items: IHeaderItem[]; unpinned: 
       <Link
         key={index}
         to={href}
-        className="opacity-85 hover:opacity-100 text-lg sm:hidden text-white hover:text-white rounded-lg px-3 py-1 mx-4 hover:bg-lighten-50"
+        className="px-3 py-1 mx-4 text-lg text-white rounded-lg opacity-85 hover:opacity-100 sm:hidden hover:text-white hover:bg-lighten-50"
       >
         {unpinned ? altTitle || title : title}
       </Link>
@@ -224,9 +224,9 @@ export const Desktop: React.FunctionComponent<{ items: IHeaderItem[]; unpinned: 
 
   return (
     <>
-      <HeaderDropdown title="Products" className="sm:hidden text-lg" content={() => <ProductLinks />} />
+      <HeaderDropdown title="Products" className="text-lg sm:hidden" content={() => <ProductLinks />} />
+      <HeaderDropdown title="Open Source" className="text-lg sm:hidden" content={() => <OpenSourceLinks />} />
       {nonButtonElems}
-      <HeaderDropdown title="Open Source" className="sm:hidden text-lg" content={() => <OpenSourceLinks />} />
       <div className="flex-1" />
       {buttonElems}
     </>

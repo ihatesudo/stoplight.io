@@ -35,7 +35,7 @@ export const Submit: React.FunctionComponent<ISubmit> = ({ button, className, in
       submitForm([{ name: 'email', value }]);
       window.localStorage.setItem('email', value);
     },
-    [submitForm, value],
+    [submitForm, value]
   );
 
   if (!formId || !integrations.hubspot) return null;
@@ -44,7 +44,7 @@ export const Submit: React.FunctionComponent<ISubmit> = ({ button, className, in
     <div
       className={cn(
         className,
-        'flex flex-col items-center max-w-2xl sm:max-w-full sm:flex-col sm:justify-center sm:items-between',
+        'flex flex-col items-center max-w-2xl sm:max-w-full sm:flex-col sm:justify-center sm:items-between'
       )}
     >
       {response.success ? (
@@ -55,17 +55,17 @@ export const Submit: React.FunctionComponent<ISubmit> = ({ button, className, in
           }}
         />
       ) : (
-        <div className="flex sm:flex-wrap sm:justify-center sm:py-4">
-          <Input autoFocus {...input} value={value} onChange={setValue} onEnter={handleSubmit} />
+        <div className="flex flex-col sm:flex-wrap sm:justify-center sm:py-4">
+          <Input {...input} value={value} onChange={setValue} onEnter={handleSubmit} />
 
-          <div className="flex-1 flex px-4 justify-end font-bold text-lg sm:justify-center sm:items-between sm:flex-wrap sm:py-2 sm:w-full sm:px-0">
-            <Button onClick={handleSubmit} {...button} title={button.title} loading={loading} />
+          <div className="flex justify-center flex-1 pt-4 text-lg font-bold sm:justify-center sm:items-between sm:flex-wrap sm:py-2 sm:w-full sm:px-0">
+            <Button className="w-full" onClick={handleSubmit} {...button} title={button.title} loading={loading} />
           </div>
         </div>
       )}
       {response.error && (
         <div
-          className="flex mt-3 sm:w-2/3 text-red w-3/5 whitespace-normal"
+          className="flex w-3/5 mt-3 whitespace-normal sm:w-2/3 text-red"
           dangerouslySetInnerHTML={{
             __html: response.error,
           }}

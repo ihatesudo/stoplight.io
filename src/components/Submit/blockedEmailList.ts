@@ -1229,7 +1229,7 @@ export const blockedEmailList: string[] = [
   'globalfree.it',
   'globalpagan.com',
   'globalsite.com.br',
-  'gmail.com',
+  // 'gmail.com',
   'gmail.com.br',
   'gmail.ru',
   'gmx.at',
