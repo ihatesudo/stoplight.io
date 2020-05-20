@@ -127,6 +127,8 @@ footer:
           title: Case Studies
         - href: /api-types
           title: API Types
+        - href: /openapi
+          title: What is OpenAPI?
       title: Resources
     - links:
         - href: /about

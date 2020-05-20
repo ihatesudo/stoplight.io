@@ -27,9 +27,9 @@ meta:
     the basics right here to find out everything you need to know.
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
-  title: API Documentation Guide | Simple API Documentation & Tutorials
+  title: API Documentation Guide | Simple API Documentation & APIs Document Tutorials
   twitter:
-    title: API Documentation Guide | Simple API Documentation & Tutorials
+    title: API Documentation Guide | Simple API Documentation & APIs Document Tutorials
     username: '@stoplightio'
 ---
 
@@ -43,7 +43,7 @@ In this API documentation guide & tutorial, we’ll cover the basics of document
 
 API docs are the collection of references, tutorials, and examples that help developers use your API.
 
-Your documentation is the primary resource for explaining what is possible with your API and how to get started. It also serves as a place for developers to return with questions about syntax or functionality. Your API docs have these answers.
+Your API's document is the primary resource for explaining what is possible with your API and how to get started. It also serves as a place for developers to return with questions about syntax or functionality. Your API docs have these answers.
 
 Typically, documentation is hosted in a special section of your website, or its own API-focused portal. The content should be as widely accessible as it can be for your audience. If only developers within your own company use your API, its documentation is likely also internal. However, it should be easily discoverable. You shouldn’t have to know who to ask.
 

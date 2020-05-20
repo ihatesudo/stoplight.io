@@ -26,9 +26,9 @@ meta:
     Check out our advance guide right here to find out everything you need to
     know.
   robots: 'index, follow'
-  title: Dummy REST APIs For Testing | REST API Mock Data Definition & Guide
+  title: Dummy REST APIs For Testing | REST API Mock Data Definition & Tools Guide
   twitter:
-    title: Dummy REST APIs For Testing | REST API Mock Data Definition & Guide
+    title: Dummy REST APIs For Testing | REST API Mock Data Definition & Tools Guide
     username: '@stoplightio'
 ---
 

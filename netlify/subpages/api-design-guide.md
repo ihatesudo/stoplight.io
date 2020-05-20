@@ -7,7 +7,7 @@ relatedTags:
   - api-design
 publishedDate: 2019-02-06T03:07:38.734Z
 author: ''
-title: Basic API Design Guide, Best Practices & Principles
+title: Basic API Design Guide, Best Practices & Good Design Principles
 subtitle: Learn all there is about API Design through our comprehensive guide
 color: blue
 tabs:
@@ -41,21 +41,21 @@ meta:
     guides, including the basics, API tooling, and OpenAPI Specification.
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
-  title: API Design Guide | Basic API Design Guidelines, Best Practices & How Tos
+  title: API Design Guide | Basic API Design Guidelines, Best Practices & Good How Tos
   twitter:
     description: >-
       Learn all there is to know about our API designs through our comprehensive
       guides, including the basics, API tooling, and OpenAPI Specification.
-    title: API Design Guide | Basic API Design Guidelines, Best Practices & How Tos
+    title: API Design Guide | Basic API Design Guidelines, Best Practices & Good How Tos
     image: /images/mark_light_bg.png
     username: '@stoplightio'
 ---
 
 ## What is API Design?
 
-API design is the collection of planning and architectural decisions you make when building an API. Your basic API design influences how well developers are able to consume it and even how they use it. Just like website design or product design, API design informs the user experience. Good API design meets initial expectations and continues to behave consistently and predictably. Our API design guide assists in supporting this theme throughout your API design process.
+API design is the collection of planning and architectural decisions you make when building an API. Your basic API design influences how well developers are able to consume it and even how they use it. Just like website design or product design, API design informs the user experience. Good API design principles meet initial expectations and continue to behave consistently and predictably. Our API design guide assists in supporting this theme throughout your API design process.
 
-There is not a single approach on how to design APIs “the right way.” Instead, we need to lean on good industry basic API design guidelines, best practices and patterns where relevant, then take cues from those who will use our APIs.
+There is not a single approach on how to design good APIs “the right way.” Instead, we need to lean on good industry basic API design guidelines, best practices and patterns where relevant, then take cues from those who will use our APIs.
 
 ## Choose your API Specification
 
