@@ -80,7 +80,7 @@ plans:
     features:
       - name: Everything in Starter
       - name: Unlimited Projects
-      - name: Up to 50 Guest Users
+      - name: Guest Access
       - name: Remove Stoplight Branding
       - name: Unlimited Changelogs
       - name: Dependency Tracking
@@ -116,7 +116,7 @@ plans:
       href: '/demo/'
     features:
       - name: Everything in Professional
-      - name: Unlimited Guest Users
+      - name: Unlimited Guest Access
       - name: Self-Hosted Deployment
       - name: Multiple Git & Auth Providers
       - name: Customer Success Manager
