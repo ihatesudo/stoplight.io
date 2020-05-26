@@ -1,2 +1,59 @@
 path: /solutions/collaboration
 title: API Collaboration
+color: blue2-dark
+relatedTags:
+  - blog-collaboration
+hero:
+  image:
+    alt: Designer
+    src: /images/studio/hero.png
+  particles: true
+  subtitle: Involve all stakeholders in the API design & development workflows.
+  title: Enhance API Collaboration
+  ctas:
+    - href: '/welcome'
+      title: Get Started with Stoplight
+      color: green
+      large: true
+      rightIcon: ['fad', 'arrow-right']
+featureSection:
+  actionBar:
+    text: 'Ready to collaborate with your team?'
+    enabled: true
+    ctas:
+      - href: '/welcome'
+        title: Get Started with Stoplight
+        rightIcon: ['fad', 'arrow-right']
+  description: >-
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+  features:
+    - description: >-
+        I'm a placeholder! Easy to manage and collaborate on the API design among distributed teams. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      image: /images/mocking_instant.png
+      shortName: Stakeholder Alignment
+      title: Maintain Stakeholder Alignment
+      titleURL: /mocking/iterate
+    - description: >-
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+      image: /images/prism_dynamic.png
+      shortName: Involve Stakeholders
+      title: Involve Technical & Non-Technical Stakeholders
+      titleURL: /mocking/accessible
+    - description: >-
+        I'm a placeholder! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+      image: /images/prism_dynamic.png
+      shortName: Grow Smarter
+      title: Remove Placeholders
+      titleURL: /mocking/grow
+  title: Shorten Time to Market
+meta:
+  description: >-
+    Achieve API Quality & Governance by practically enforcing API consistency and standardization.
+  favicon: /images/mark_light_bg.png
+  title: Simple API Governance By Stoplight | API Governance and Administration
+  twitter:
+    description: >-
+      Achieve API Quality & Governance by practically enforcing API consistency and standardization.
+    image: /images/mocking_instant.png
+    title: Simple API Governance By Stoplight | API Governance and Administration
+    username: '@stoplightio'
