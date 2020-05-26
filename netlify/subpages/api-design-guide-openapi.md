@@ -6,7 +6,7 @@ tags:
 relatedTags:
   - api-design
 publishedDate: 'Jan 23, 2019'
-title: OpenAPI Design Guide & OpenAPI
+title: OpenAPI Design Guide & OpenAPI Spec
 subtitle: Learn all there is about API Design through our comprehensive guide
 color: orange
 tabs:
@@ -39,9 +39,9 @@ meta:
     Get to know the intricate details of the all-important OpenAPI with
     Stoplight’s comprehensive and technical guide.
   robots: 'index, follow'
-  title: OpenAPI Design Guide & OpenAPI Specification | OpenAPI Spec Format
+  title: OpenAPI Design Guide & OpenAPI Specification | Open API Spec Format
   twitter:
-    title: OpenAPI Design Guide & OpenAPI Specification | OpenAPI Spec Format
+    title: OpenAPI Design Guide & OpenAPI Specification | Open API Spec Format
     image: /images/mark_light_bg.png
     username: '@stoplightio'
 ---
@@ -50,7 +50,7 @@ meta:
 
 The industry has selected OpenAPI as the way forward, so let’s understand it and explore what OpenAPI includes in our OpenAPI design guide. From a technical standpoint, it is a YAML or JSON file that follows a specific [document structure](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.0.md#documentStructure). You should be able to describe any REST API using a document that adheres to the OpenAPI v3 schema.
 
-The primary sections of an OpenAPI v3 document are:
+The primary sections of an OpenAPI spec v3 document are:
 
 - Info: meta-data about the API, including its name and version.
 - Paths: relative endpoints, their operations, and responses.
@@ -64,7 +64,7 @@ While not all of these sections are required in an API description, they can be 
 
 ### OpenAPI Versions: v2.0 vs v3.0
 
-While OpenAPI v3 is the most recent version of OpenAPI, it replaced OpenAPI v2 - previously known as Swagger. The newer version provides a simpler way to describe APIs, while also offering more flexibility. Because there were a lot of legacy Swagger documents, it’s important to have a compatible community-owned version. But API practitioners wanted to move the spec forward with OpenAPI v3.
+While OpenAPI v3 is the most recent version of OpenAPI, it replaced OpenAPI v2 - previously known as Swagger. The newer version provides a simpler way to describe APIs, while also offering more flexibility. Because there were a lot of legacy Swagger documents, it’s important to have a compatible community-owned version. But API practitioners wanted to move the OpenAPI specification forward with OpenAPI v3.
 
 One of the biggest differences between OpenAPI v2 and v3 is the `components` object. For example, responses were their own distinct object in OpenAPI v2, whereas they are now organized under components. Components are reusable objects, which include schemas, request bodies, parameters, response information, security schemes, and newer concepts like links, and callbacks.
 

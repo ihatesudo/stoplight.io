@@ -42,7 +42,7 @@ Stoplight provides [free API design tooling](https://stoplight.io/studio/) for a
 
 ## Visual API Design
 
-It can be hard to write JSON or YAML in a specification language you don’t really know. Stoplight’s visual editor doesn’t require you to be an OpenAPI expert to design APIs for your internal web services and external APIs. Model complex APIs faster than ever before. No code is required when using the schema designer, increasing bandwidth and saving valuable engineering time.
+It can be hard to write JSON or YAML in a specification language you don’t really know. Stoplight’s visual OpenAPI editor doesn’t require you to be an OpenAPI expert to design APIs for your internal web services and external APIs. Model complex APIs faster than ever before. No code is required when using the schema designer, increasing bandwidth and saving valuable engineering time.
 
 At the same time, you still have full access to JSON Schema while modeling your API and can quickly jump between the visual UI and code editor. The code editor can be useful for searching within a specification and bulk editing while the visual editor helps you quickly bootstrap your API design.
 

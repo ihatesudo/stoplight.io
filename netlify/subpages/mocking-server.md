@@ -1,7 +1,7 @@
 ---
 path: /mocking/server
 publishedDate: 2019-11-06T17:07:57.640Z
-title: Instant API Mock Servers & Web Services
+title: Instant API Mock Servers & Mocking Web Services
 subtitle: Build APIs and accelerate API development with instant mock servers
 tabs:
   - href: /mocking/server
@@ -19,13 +19,13 @@ meta:
     Mock your APIs with Stoplight to accelerate API development and create
     quick, easy, and intelligently hosted mock servers powered by Prism
   favicon: /images/mark_light_bg.png
-  title: API Mock Server | Cloud API Mocking Servers & Mock Web Service
+  title: API Mock Server & Web Service | API Mocking Servers & Mock Web Services
   image: /images/prism_example.png
   twitter:
     description: >-
       Mock your APIs with Stoplight to accelerate API development and create
       quick, easy, and intelligently hosted mock servers powered by Prism
-    title: API Mock Server | Cloud API Mocking Servers & Mock Web Service
+    title: API Mock Server & Web Service | API Mocking Servers & Mock Web Services
     image: /images/prism_example.png
     username: '@stoplightio'
 ---

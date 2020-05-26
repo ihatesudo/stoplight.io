@@ -11,8 +11,6 @@ title: Introducing Scenarios
 subtitle: 'The lean, mean, API testing machine'
 image: /images/introducing-scenarios.png
 color: black
-disqus:
-  enabled: true
 actionBar:
   ctas:
     - color: purple
@@ -31,6 +29,10 @@ meta:
     username: '@stoplightio'
 ---
 
+**_This blog post was originally published in 2017, and it references a legacy product that is no longer accepting new users. To view Stoplight's current offering, head to the homepage._**
+
+---
+
 **Getting Started**
 
 Stoplight Scenarios is a powerful (but accessible!) product that takes the pain out of API testing. Today, we are releasing it as a standalone product, available on the web, and as a desktop app.
@@ -45,7 +47,7 @@ If you are modeling your API with Swagger 2 (whether with the v2 Stoplight app, 
 
 **Continuous Integration … err, Integration**
 
-Running Scenarios outside of Stoplight, as part of your CI process, is trivial. Just install [Prism](http://stoplight.io/platform/prism/) on your computer or CI server, and then run something like:
+Running Scenarios outside of Stoplight, as part of your CI process, is trivial. Just install [Prism](https://stoplight.io/mocking/) on your computer or CI server, and then run something like:
 
     prism conduct myOrg/scenarios/myScenarios
 
@@ -87,10 +89,12 @@ The testing module of the Stoplight app will be removed on March 15th. You are f
 
 Scenarios is actually the first product on our new v3 architecture. This architecture is much more robust, and allows for powerful features like local filesystem read/write for seamless interop with your existing workflows (whether it’s generating API specification from code, storing specs in Git, or using your favorite IDE to bulk edit specs every once and a while).
 
-**There will be no changes to existing v2 users in the immediate future**. We are developing v2 (app.stoplight.io) and v3 in tandem, and will be including next generation versions of v2 systems like mocking, modeling, and docs, in v3 over the next few months.
+**There will be no changes to existing users in the immediate future**. We are developing in tandem, and will be including next generation versions of  systems like mocking, modeling, and docs, in the product over the next few months.
 
 We are also working on an enterprise teams product, with enhanced Prism functionality — will share details soon (or please reach out to us in the meantime if this sounds interesting!).
 
 The Stoplight Team
 
 @marbemac, @pytlesk4, @chrisnlott, @vazhaom
+
+**_This blog post was originally published in 2017, and it references a legacy product that is no longer accepting new users. To view Stoplight's current offering, head to the homepage._**

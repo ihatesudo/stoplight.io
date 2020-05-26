@@ -27,7 +27,7 @@ featureSection:
     enabled: true
     text: Ready to Publish?
   description: >-
-    Create hosted API documentation online in minutes using our REST API documentation generator tool. Combine OpenAPI descriptions (formerly known as Swagger) with Markdown to create robust, searchable, internal and external [API documentation](/api-documentation-guide/basics/) for your organization. One-click cloud deployment with Stoplight or download the static assets to host anywhere.
+    Create and generate hosted API documentation online in minutes using our REST API documentation generator tool. Combine OpenAPI descriptions (formerly known as Swagger) with Markdown to create robust, searchable, internal and external [API documentation](/api-documentation-guide/basics/) for your organization. One-click cloud deployment with Stoplight or download the static assets to host anywhere.
   features:
     - description: >-
         Stoplight offers multiple ways for your API consumers to try out your
@@ -41,7 +41,7 @@ featureSection:
       title: Interactive API Documentation
       titleURL: /documentation/beautiful/
     - description: >-
-        Never have out-of-date documentation. Reference your OpenAPI
+        Never have out-of-date documentation when using our tools for API documentation. Reference your OpenAPI
         Specification document to [automatically generate API reference
         documentation](/documentation/generator/). Use the Stoplight CLI to automate your documentation process by integrating it into your existing CI/CD workflow.
       href: 'https://stoplight.io/documentation/automation/'
@@ -52,7 +52,7 @@ featureSection:
     - description: >-
         With flexible and secure deployment options, you can find a hosting
         solution that works for you. Allow Stoplight to host your documentation
-        for you, so you never have to worry about managing servers for your
+        for you, as hosted documentation means you never have to worry about managing servers for your
         documentation ever again. Manage access control and measure analytics
         with integrations. [Our enterprise ready documentation
         tool](/documentation/enterprise/) allows you to download the static
