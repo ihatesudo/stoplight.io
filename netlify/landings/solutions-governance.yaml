@@ -13,7 +13,12 @@ hero:
   ctas:
     - href: '/welcome'
       title: Get Started with Stoplight
-      color: green-dark
+      color: green
+      large: true
+      rightIcon: ['fad', 'arrow-right']
+    - href: '/pricing'
+      title: View Plans and Pricing
+      color: blue2
       large: true
       rightIcon: ['fad', 'arrow-right']
 featureSection:
