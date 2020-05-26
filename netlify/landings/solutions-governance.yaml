@@ -1,2 +1,59 @@
 path: /solutions/governance
 title: API Governance
+color: lavender-darker
+relatedTags:
+  - blog-governance
+hero:
+  image:
+    alt: Designer
+    src: /images/studio/hero.png
+  particles: true
+  subtitle: Practically enforce API consistency and standardization.
+  title: Achieving API Quality & Governance
+  ctas:
+    - href: '/welcome'
+      title: Get Started with Stoplight
+      color: green-dark
+      large: true
+      rightIcon: ['fad', 'arrow-right']
+featureSection:
+  actionBar:
+    text: 'Ready to bring order to your APIs?'
+    enabled: true
+    ctas:
+      - href: '/welcome'
+        title: Get Started with Stoplight
+        rightIcon: ['fad', 'arrow-right']
+  description: >-
+    Stoplight connects to unlimited repositories to provide visibility into dependencies laying the groundwork for deduplication, reuse and governance.
+  features:
+    - description: >-
+        I'm a placeholder! Lead your development team with technical and explicit requirements designed in Studio. Reduce ambiguity and reconcile assumptions to allow your team to develop more robust, complete, and to-spec APIs. 
+      image: /images/mocking_instant.png
+      shortName: Concistent Development
+      title: Rapid & Consistent API Development
+      titleURL: /mocking/iterate
+    - description: >-
+        Having to rely on your teams to manually apply your API governance rules is no fun for anyone, and not feasible when you’re developing APIs at scale. Ensure your API governance rules are met before an API can be deployed with project and organizational style guides.
+      image: /images/prism_dynamic.png
+      shortName: Automate Governance
+      title: Automate Your Governance Process
+      titleURL: /mocking/accessible
+    - description: >-
+        I'm a placeholder! Remove the manual process required to discover design assets leading teams to recreate much of their API anew, instead of leveraging the knowledge already in their organization.
+      image: /images/prism_dynamic.png
+      shortName: Grow Smarter
+      title: Remove Placeholders
+      titleURL: /mocking/grow
+  title: Shorten Time to Market
+meta:
+  description: >-
+    Achieve API Quality & Governance by practically enforcing API consistency and standardization.
+  favicon: /images/mark_light_bg.png
+  title: Simple API Governance By Stoplight | API Governance and Administration
+  twitter:
+    description: >-
+      Achieve API Quality & Governance by practically enforcing API consistency and standardization.
+    image: /images/mocking_instant.png
+    title: Simple API Governance By Stoplight | API Governance and Administration
+    username: '@stoplightio'

@@ -204,6 +204,16 @@ let colors = {
   'gold-light': '#FFC30B',
   'gold-lighter': '#FADA5E',
   'gold-lightest': '#FCF4A3',
+
+
+  'lavender-darkest': '#44337A',
+  'lavender-darker':'#553C9A',
+  'lavender-dark': '#805AD5',
+  lavender: '#9F7AEA',
+  'lavender-light': '#B794F4',
+  'lavender-lighter': '#D6BCFA',
+  'lavender-lightest': '#E9D8FD',
+
 };
 
 module.exports = {
