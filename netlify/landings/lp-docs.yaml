@@ -1,7 +1,7 @@
 path: /lp/documentation/
 title: Hosted API Documentation Landing Page
 hero:
-  bgColor: green
+  particles: true
   subtitle: >-
     Create beautiful, customizable, interactive API documentation generated from
     your OpenAPI Specification
@@ -10,7 +10,6 @@ hero:
   ctas:
     - href: '#demo'
       title: Book a Demo
-color: green
 featureSection:
   features:
     - description: >-

@@ -4,10 +4,10 @@ banners:
   #     Ready to accelerate your team's API Development by 36%? <u class='ml-1'>**[Request a Demo](https://stoplight.io/demo)**</u>
   #   starts: 1570550400000
   #   hideOnPath: ['/demo']
-  - ends: 1570550400000
-    markdown: >-
-      Learn API Design from Industry Experts! <u class='ml-1'>**[Register Now](https://zoom.us/webinar/register/5715699441732/WN_3xRpSTTOSoOpweidGLYVWQ)**</u> for the Studio Webinar on October 8th
-    starts: 1569956400000
+  # - ends: 1570550400000
+  #   markdown: >-
+  #     Learn API Design from Industry Experts! <u class='ml-1'>**[Register Now](https://zoom.us/webinar/register/5715699441732/WN_3xRpSTTOSoOpweidGLYVWQ)**</u> for the Studio Webinar on October 8th
+  #   starts: 1569956400000
 info:
   address:
     addressLocality: Austin
@@ -106,9 +106,8 @@ header:
       isButton: true
       title: Get Started
       altBg: purple
-    - href: /studio
-      redirect: 'https://stoplight.io/p/studio?utm_source=studio_landing&utm_medium=start_button&utm_campaign=dynamic_start'
-      altHref: /studio
+    - href: 'https://stoplight.io/welcome'
+      altHref: 'https://stoplight.io/welcome'
       isButton: true
       title: Start
       icon: ['fad', 'arrow-right']
@@ -119,7 +118,7 @@ actionBar:
       title: Book a Demo
       outlined: true
     - color: purple
-      href: 'https://stoplight.com/welcome'
+      href: 'https://stoplight.io/welcome'
       title: Create a Free Account
   enabled: false
   text: Getting started is easy. Be up and running in minutes.

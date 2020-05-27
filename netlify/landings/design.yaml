@@ -1,9 +1,9 @@
 path: /design
 title: OpenAPI Designer
-color: blue
 relatedTags:
   - blog-design
 hero:
+  particles: true
   image:
     alt: Designer
     src: /images/studio/hero.png

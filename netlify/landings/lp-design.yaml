@@ -1,6 +1,7 @@
 path: /lp/design/
 title: Visual API Designer Landing page
 hero:
+  particles: true
   subtitle: >-
     Build first-class APIs with a collaborative, powerful, visual editor that
     allows you to prototype and share your API within minutes.
@@ -9,7 +10,6 @@ hero:
   ctas:
     - href: '#demo'
       title: Book a Demo
-color: blue
 featureSection:
   features:
     - description: >-

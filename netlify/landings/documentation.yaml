@@ -1,9 +1,9 @@
 path: /documentation
 title: OpenAPI Documentation
-color: indigo
 relatedTags:
   - blog-documentation
 hero:
+  particles: true
   ctas:
     - title: Free Hosted Docs
       color: green

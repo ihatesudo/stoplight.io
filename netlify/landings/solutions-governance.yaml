@@ -1,8 +1,8 @@
 path: /solutions/governance
 title: API Governance
-color: lavender-darker
 relatedTags:
   - blog-governance
+  - blog-visibility
 hero:
   particles: true
   subtitle: Govern APIs at scale with an always in sync central repository of API designs, schemas, and documentation.
@@ -23,11 +23,11 @@ featureSection:
     text: 'Ready to bring order to your APIs?'
     enabled: true
     ctas:
-      - href: '/welcome'
+      - href: 'https://stoplight.io/welcome'
         title: Get Started with Stoplight
         rightIcon: ['fad', 'arrow-right']
   description: >-
-    Aggregate all your API descriptions, schemas, and documentation in a central repository laying the groundwork for deduplication, reuse and governance.
+    Aggregate all your API descriptions, schemas, and documentation in a central repository, laying the groundwork for deduplication, reuse and governance. Create a clear view of the current state of design and documentation to build an effective governance strategy that compliments your organization's current practices.
   features:
     - description: >-
          Make APIs that have long become lost in the organization available for developers to use and champions to govern, helping keep documentation up-to-date, avoid duplications, and remove inconsistencies.
@@ -38,8 +38,8 @@ featureSection:
     - description: >-
         Deliver consistent API design and documentation across the organization by enforcing style guides and helping API designers and technical writers find artifacts for reference.
       image: /images/governance/style-guide.png
-      shortName: Promote Consistency
-      title: Promote Consistency
+      shortName: Enable Consistency
+      title: Enable Consistency
       titleURL: 
     - description: >-
         Avoid breaking changes and plan versions by tracking and visualizing inbound and outbound dependencies between API artifacts to keep track of how changes may affect other dependent services.
@@ -48,24 +48,12 @@ featureSection:
       title: Visualize Dependencies
       titleURL:
     - description: >-
-        Inform consumers about changes proactively by tracking changes of all API artifacts. Keep everything up to date by tracking changes between dependent artifacts.
-      image: 
-      shortName: Track Changes
-      title: Track Changes
-      titleURL:
-    - description: >-
-        Avoid reinventing the wheel. Star important assets, to enable easy discovery of API artifacts for reuse in future designs.
+        Inform consumers about changes proactively by tracking changes of all API artifacts. Keep everything up to date by tracking changes between dependent artifacts. Avoid reinventing the wheel. Star important assets, to enable easy discovery of API artifacts for reuse in future designs.
       image: /images/governance/reuse.png
       shortName: Encourage Reuse
-      title: Encourage Reuse
+      title: Track Changes & Promote Reuse
       titleURL:
-    - description: >-
-        With a good view of the current state of design and documentation, build an effective governance strategy without drilling down too hard on the current practices.
-      image: /images/governance/explorer-2.png
-      shortName: Govern with Agility
-      title: Govern with Agility
-      titleURL:
-  title: Bring visbility to APIs and Documentation
+  title: Bring Visbility to APIs and Documentation
 meta:
   description: >-
     Achieve API Quality & Governance by practically enforcing API consistency and standardization.

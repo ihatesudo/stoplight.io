@@ -4,10 +4,11 @@ hero:
   subtitle: Build APIs and accelerate API development with instant mock servers
   title: OpenAPI Powered Mock Servers
   short: true
+  particles: true
   ctas:
     - href: '#demo'
       title: Book a Demo
-color: grey-darkest
+
 featureSection:
   features:
     - image: /images/mocking_instant.png

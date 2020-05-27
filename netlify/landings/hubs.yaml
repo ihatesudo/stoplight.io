@@ -1,10 +1,9 @@
 path: /hubs
 title: Stoplight Hubs (Coming Soon)
-color: blue
 relatedTags:
   - blog-documentation
 hero:
-  particles: false
+  particles: true
   subtitle: >-
     Stay tuned! We are currently working on the next iteration of Stoplight Hubs
     coming with Custom Domains, Theming, and Login-Protected docs.

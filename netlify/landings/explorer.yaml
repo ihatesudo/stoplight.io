@@ -1,6 +1,5 @@
 path: /explorer
 title: A Powerful API Technical Knowledge Base
-color: blue
 hero:
   particles: true
   image:

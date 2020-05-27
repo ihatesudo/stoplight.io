@@ -3,9 +3,9 @@ hero:
   bottomElem: true
   skew: rounded
   subtitle: >-
-    Streamline your API Development workflow with a powerful API creation platform.
-    Transform the way your team designs, documents, and mocks APIs.
-  title: The Best APIs Start with Stoplight
+    Streamline your API development workflow by Designing, Developing, and Documenting APIs with best-in-class tooling that integrates seamlessly into your workflows
+  title: Build Quality APIs Efficiently
+
   # image:
   #   alt: Documentation
   #   src: /images/placeholder.gif
@@ -13,92 +13,91 @@ hero:
     - color: purple
       href: https://stoplight.com/welcome
       large: true
-      title: GET STARTED
+      title: Get Started For Free
 pageSubjects:
-  - title: Design APIs
-    description: >-
-      Quickly create, collaborate, and prototype OpenAPI design specifications for your next API.
-    cta: Explore Studio
-    href: /studio
-    tag: design
-    color: green
-    icon: 'pencil-ruler'
-    iconStyle:
-      '--fa-primary-color': 'dodgerblue'
-      '--fa-secondary-color': 'limegreen'
-  - title: Doc Generation
-    description: >-
-      Automatically generate beautiful and interactive documentation that is always in-sync with your API's design specification.
-    cta: Explore Docs
-    href: /docs
-    tag: docs
-    color: blue
-    icon: 'book'
-    iconStyle:
-      '--fa-primary-color': 'tomato'
-      '--fa-secondary-color': 'tomato'
-  - title: APIs at Scale
-    description: >-
-      Effectively navigate your APIs in an instant with Stoplight's technical knowledge base.
-    cta: Explore Explorer
-    href: /explorer
-    tag: visibility
-    color: purple
-    icon: 'chart-network'
-    iconStyle:
-      '--fa-primary-color': 'limegreen'
-      '--fa-secondary-color': 'limegreen'
-  - title: Hosted Mocking
-    description: >-
-      Develop alongside a hosted mock server to enable frontend and backend teams to develop in parallel.
-    cta: Explore Mocking
-    href: /mocking
-    tag: validation
-    color: gold
-    icon: 'server'
-    iconStyle:
-      '--fa-primary-color': 'indigo'
-      '--fa-secondary-color': 'indigo'
+  # - title: Source of Truth
+  #   description: >-
+  #     Promote reuse, consistency, and quality by sharing API design artifacts across your organization in an easily searchable and manageable design library.
+  #   cta: Explore Visibility Solutions
+  #   href: /solutions/visibility/
+  #   tag: visibility
+  #   color: green
+  #   icon: 'chart-network'
+  #   iconStyle:
+  #     '--fa-primary-color': 'limegreen'
+  #     '--fa-secondary-color': 'limegreen'
+  # - title: Design APIs Quickly
+  #   description: >-
+  #     Empower technical and non-technical stakeholders to create and collaborate on API designs in OpenAPI and JSON Schema using an intuitive user interface
+  #   cta: Explore Design Solutions
+  #   href: /solutions/design/
+  #   tag: design
+  #   color: blue
+  #   icon: 'pencil-ruler'
+  #   iconStyle:
+  #     '--fa-primary-color': 'dodgerblue'
+  #     '--fa-secondary-color': 'limegreen'    
+  # - title: Developer Docs
+  #   description: >-
+  #     Drive API adoption by helping internal and external developers consume APIs easily using interactive documentation with code samples. 
+  #   cta: Explore Explorer
+  #   href: /explorer
+  #   tag: visibility
+  #   color: purple
+  #   icon: 'book'
+  #   iconStyle:
+  #     '--fa-primary-color': 'tomato'
+  #     '--fa-secondary-color': 'tomato'
+  # - title: Hosted Mocking
+  #   description: >-
+  #     Develop alongside a hosted mock server to enable frontend and backend teams to develop in parallel.
+  #   cta: Explore Mocking
+  #   href: /mocking
+  #   tag: validation
+  #   color: gold
+  #   icon: 'server'
+  #   iconStyle:
+  #     '--fa-primary-color': 'indigo'
+  #     '--fa-secondary-color': 'indigo'
 solutions:
-  - title: Promote Team Alignment
-    cta: Learn More About API Design
-    href: /solutions/design
+  - title: Provide an Amazing Developer Experience
+    cta: Learn More About API Documentation
     description: >-
-      Optimize how you and your team collaborate by involving technical and non-technical stakeholders in the API design process.
-    tag: design
+      Drive API adoption by helping internal and external developers consume APIs easily using interactive documentation with code samples. 
+    tag: documentation
     color: green
     icon: 'user-friends'
     iconStyle:
       '--fa-primary-color': 'limegreen'
       '--fa-secondary-color': 'green'
-  - title: Optimize Your Development Workflow
-    cta: Learn More About API Development
-    href: /solutions/development
+  - title: One Shared Source of Truth
+    cta: Learn More About API Visibility
+    href: /solutions/visibility/
     description: >-
-      API design enables you to empower your architects and lead your developers. Accelerate implementation with a collaborative API Design workflow.
-    tag: tag 2
+      Promote reuse, consistency, and quality by sharing API design artifacts across your organization in an easily searchable and manageable design library.
+    tag: visibility
     color: orange
     icon: 'code-branch'
     iconStyle:
       '--fa-primary-color': 'tomato'
       '--fa-secondary-color': 'tomato'
-  - title: Reduce Integration Time
-    cta: Learn More About API Documentation
-    href: /solutions/documentation
+  - title: Design Beautiful APIs Quickly
+    cta: Learn More About API Design
+    href: /solutions/design/
     description: >-
-      Enable API consumers to integrate more efficiently with your API. Reallocate time spent by support staff guiding integrations with more complete and detailed API documentation.
-    tag: tag 3
+      Empower technical and non-technical stakeholders to create and collaborate on API designs in OpenAPI and JSON Schema using an intuitive user interface. 
+    tag: design
     color: indigo
     icon: 'code'
     iconStyle:
       '--fa-primary-color': 'indigo'
       '--fa-secondary-color': 'indigo'
-  - title: Increase Consistency & Quality
-    cta: Learn More About API Quality & Governance
+  - title: Adhere to Best Practices
+    cta: Learn More About API Governance
     href: /solutions/governance
     description: >-
-      Effectively increase quality standards across APIs and teams. Never worry about manually enforcing style guides again.
-    tag: tag 4
+      Design consistent APIs by automatically validating against predefined or custom style guidelines within the API designer. 
+    tag: Governance
     color: purple
     icon: 'badge-check'
     iconStyle:
