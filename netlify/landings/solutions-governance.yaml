@@ -31,19 +31,19 @@ featureSection:
   features:
     - description: >-
          Make APIs that have long become lost in the organization available for developers to use and champions to govern, helping keep documentation up-to-date, avoid duplications, and remove inconsistencies.
-      image: 
+      image: /images/governance/explore.png
       shortName: Find obscure APIs
       title: Find obscure APIs
       titleURL: 
     - description: >-
         Deliver consistent API design and documentation across the organization by enforcing style guides and helping API designers and technical writers find artifacts for reference.
-      image: 
+      image: /images/governance/style-guide.png
       shortName: Promote consistency
       title: Promote consistency
       titleURL: 
     - description: >-
         Avoid breaking changes and plan versions by tracking and visualizing inbound and outbound dependencies between API artifacts to keep track of how changes may affect other dependent services.
-      image: 
+      image: /images/governance/dependencies.png
       shortName: Visualize Dependencies
       title: Visualize Dependencies
       titleURL:
@@ -55,13 +55,13 @@ featureSection:
       titleURL:
     - description: >-
         Avoid reinventing the wheel. Star important assets, to enable easy discovery of API artifacts for reuse in future designs.
-      image: 
+      image: /images/governance/reuse.png
       shortName: Encourage reuse
       title: Encourage reuse
       titleURL:
     - description: >-
         With a good view of the current state of design and documentation, build an effective governance strategy without drilling down too hard on the current practices.
-      image: 
+      image: /images/governance/explorer-2.png
       shortName: Govern with Agility
       title: Govern with Agility
       titleURL:
