@@ -6,7 +6,7 @@ relatedTags:
 hero:
   particles: true
   subtitle: Govern APIs at scale with an always in sync central repository of API designs, schemas, and documentation.
-  title: Maintain a central source of truth
+  title: Maintain a Central Source of Truth
   ctas:
     - href: '/welcome'
       title: Get Started with Stoplight
@@ -32,14 +32,14 @@ featureSection:
     - description: >-
          Make APIs that have long become lost in the organization available for developers to use and champions to govern, helping keep documentation up-to-date, avoid duplications, and remove inconsistencies.
       image: /images/governance/explore.png
-      shortName: Find obscure APIs
-      title: Find obscure APIs
+      shortName: Find Obscure APIs
+      title: Find Obscure APIs
       titleURL: 
     - description: >-
         Deliver consistent API design and documentation across the organization by enforcing style guides and helping API designers and technical writers find artifacts for reference.
       image: /images/governance/style-guide.png
-      shortName: Promote consistency
-      title: Promote consistency
+      shortName: Promote Consistency
+      title: Promote Consistency
       titleURL: 
     - description: >-
         Avoid breaking changes and plan versions by tracking and visualizing inbound and outbound dependencies between API artifacts to keep track of how changes may affect other dependent services.
@@ -56,8 +56,8 @@ featureSection:
     - description: >-
         Avoid reinventing the wheel. Star important assets, to enable easy discovery of API artifacts for reuse in future designs.
       image: /images/governance/reuse.png
-      shortName: Encourage reuse
-      title: Encourage reuse
+      shortName: Encourage Reuse
+      title: Encourage Reuse
       titleURL:
     - description: >-
         With a good view of the current state of design and documentation, build an effective governance strategy without drilling down too hard on the current practices.

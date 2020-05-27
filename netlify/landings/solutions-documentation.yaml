@@ -1,6 +1,6 @@
 path: /solutions/documentation
 title: Developer Experience
-color: indigo
+color: indigo-darker
 relatedTags:
   - blog-documentation
 hero:
@@ -33,7 +33,7 @@ featureSection:
         Never worry about out of date documentation.
       image: /images/docs/api-reference.png
       shortName: OpenAPI Powered
-      title: OpenAPI powered API Reference
+      title: OpenAPI Powered API Reference
       titleURL: 
     - description: >-
         Help your developers discover value in your API quickly by trying out API endpoints with productiona 
@@ -59,14 +59,14 @@ featureSection:
         Treat both internal and external APIs as first class citizens by maintaining public and private 
         documentation in a single catalog with fine grain permissions and controls. 
       image: /images/docs/api-catalog.png
-      shortName: Private and Public API Catalog
+      shortName: API Catalogs
       title: Private and Public API Catalog
       titleURL: 
     - description: >-
         Build an API catalog that fits your brand using versatile theming options allowing changes on a fine grain level 
         and make it easy to find by putting it on your own domain.  
       image: /images/docs/themeing.png
-      shortName: Branding with Custom Domain
+      shortName: Custom Branding
       title: Branded, on your Domain
       titleURL:
     - description: >-
