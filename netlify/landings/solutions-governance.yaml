@@ -4,12 +4,9 @@ color: lavender-darker
 relatedTags:
   - blog-governance
 hero:
-  image:
-    alt: Designer
-    src: /images/studio/hero.png
-  particles: true
-  subtitle: Practically enforce API consistency and standardization.
-  title: Achieving API Quality & Governance
+  particles: false
+  subtitle: Govern APIs at scale with an always in sync central repository of API designs, schemas, and documentation.
+  title: Maintain a central source of truth
   ctas:
     - href: '/welcome'
       title: Get Started with Stoplight
@@ -30,27 +27,45 @@ featureSection:
         title: Get Started with Stoplight
         rightIcon: ['fad', 'arrow-right']
   description: >-
-    Stoplight connects to unlimited repositories to provide visibility into dependencies laying the groundwork for deduplication, reuse and governance.
+    Aggregate all your API descriptions, schemas, and documentation in a central repository laying the groundwork for deduplication, reuse and governance.
   features:
     - description: >-
-        I'm a placeholder! Lead your development team with technical and explicit requirements designed in Studio. Reduce ambiguity and reconcile assumptions to allow your team to develop more robust, complete, and to-spec APIs. 
-      image: /images/mocking_instant.png
-      shortName: Concistent Development
-      title: Rapid & Consistent API Development
-      titleURL: /mocking/iterate
+         Make APIs that have long become lost in the organization available for developers to use and champions to govern, helping keep documentation up-to-date, avoid duplications, and remove inconsistencies.
+      image: 
+      shortName: Find obscure APIs
+      title: Find obscure APIs
+      titleURL: 
     - description: >-
-        Having to rely on your teams to manually apply your API governance rules is no fun for anyone, and not feasible when you’re developing APIs at scale. Ensure your API governance rules are met before an API can be deployed with project and organizational style guides.
-      image: /images/prism_dynamic.png
-      shortName: Automate Governance
-      title: Automate Your Governance Process
-      titleURL: /mocking/accessible
+        Deliver consistent API design and documentation across the organization by enforcing style guides and helping API designers and technical writers find artifacts for reference.
+      image: 
+      shortName: Promote consistency
+      title: Promote consistency
+      titleURL: 
     - description: >-
-        I'm a placeholder! Remove the manual process required to discover design assets leading teams to recreate much of their API anew, instead of leveraging the knowledge already in their organization.
-      image: /images/prism_dynamic.png
-      shortName: Grow Smarter
-      title: Remove Placeholders
-      titleURL: /mocking/grow
-  title: Shorten Time to Market
+        Avoid breaking changes and plan versions by tracking and visualizing inbound and outbound dependencies between API artifacts to keep track of how changes may affect other dependent services.
+      image: 
+      shortName: Visualize Dependencies
+      title: Visualize Dependencies
+      titleURL:
+    - description: >-
+        Inform consumers about changes proactively by tracking changes of all API artifacts. Keep everything up to date by tracking changes between dependent artifacts.
+      image: 
+      shortName: Track Changes
+      title: Track Changes
+      titleURL:
+    - description: >-
+        Avoid reinventing the wheel. Star important assets, to enable easy discovery of API artifacts for reuse in future designs.
+      image: 
+      shortName: Encourage reuse
+      title: Encourage reuse
+      titleURL:
+    - description: >-
+        With a good view of the current state of design and documentation, build an effective governance strategy without drilling down too hard on the current practices.
+      image: 
+      shortName: Govern with Agility
+      title: Govern with Agility
+      titleURL:
+  title: Bring visbility to APIs and Documentation
 meta:
   description: >-
     Achieve API Quality & Governance by practically enforcing API consistency and standardization.

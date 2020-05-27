@@ -4,9 +4,6 @@ color: indigo
 relatedTags:
   - blog-mocking
 hero:
-  image:
-    alt: Designer
-    src: /images/studio/hero.png
   particles: true
   subtitle: Optimize API development and reduce time to market with API mocking.
   title: API Mocking
