@@ -4,7 +4,7 @@ color: lavender-darker
 relatedTags:
   - blog-governance
 hero:
-  particles: false
+  particles: true
   subtitle: Govern APIs at scale with an always in sync central repository of API designs, schemas, and documentation.
   title: Maintain a central source of truth
   ctas:

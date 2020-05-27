@@ -5,7 +5,7 @@ relatedTags:
   - blog-documentation
 hero:
   subtitle: Provide a top notch Developer Experience for internal and external consumers by generating customizable interactive documentation with tutorials, code samples and API console.
-  particles: false
+  particles: true
   title: Amazing Developer Experience with Little Effort
   ctas:
     - href: '/documentation'
