@@ -36,7 +36,7 @@ featureSection:
       title: Find Obscure APIs
       titleURL: 
     - description: >-
-        Deliver consistent API design and documentation across the organization by enforcing style guides and helping API designers and technical writers find artifacts for reference.
+        Deliver consistent API design and documentation across the organization by enforcing built-in or custom style guides. Help API designers and technical writers find design artifacts for reference.
       image: /images/governance/style-guide.png
       shortName: Enable Consistency
       title: Enable Consistency
@@ -51,9 +51,9 @@ featureSection:
         Inform consumers about changes proactively by tracking changes of all API artifacts. Keep everything up to date by tracking changes between dependent artifacts. Avoid reinventing the wheel. Star important assets, to enable easy discovery of API artifacts for reuse in future designs.
       image: /images/governance/reuse.png
       shortName: Encourage Reuse
-      title: Track Changes & Promote Reuse
+      title: Encourage Reuse
       titleURL:
-  title: Bring Visbility to APIs and Documentation
+  title: Govern with Agility
 meta:
   description: >-
     Achieve API Quality & Governance by practically enforcing API consistency and standardization.

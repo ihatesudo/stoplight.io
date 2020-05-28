@@ -4,12 +4,9 @@ relatedTags:
   - blog-design
 hero:
   particles: true
-  image:
-    alt: Designer
-    src: /images/studio/hero.png
   subtitle: >-
-    Create more complete, robust, and maintainable APIs with a design first approach.
-  title: API Design
+    Adopt an API design-first approach easily by creating, prototyping and sharing OpenAPIs and JSON schemas using a visual editor in minutes.
+  title: Design Quality APIs Faster
   ctas:
     - href: '/studio'
       title: Try Studio
@@ -26,27 +23,52 @@ featureSection:
     enabled: true
     text: Ready to Start Designing APIs?
   description: >-
-    API design provides clarity into your API’s infrastructure highlighting weaknesses 
-    and flaws immediately. Identify opportunities earlier rather than later to avoid 
-    sacrificing valuable development time when designing APIs in Stoplight Studio.
+    Start designing and documenting APIs in Stoplight Studio using OpenAPI and JSON schema. 
+    Create and share prototypes on the go with integrated mocking and live previews. 
+    Collaborate using tried and tested Git workflows.
   features:
     - description: >-
-        With a blueprint of what needs to be developed, API design enables you to better predict timelines, 
-        delegate tasks, and align stakeholders. Utilize Stoplight Studio to ensure your team is best organized to tackle API development.
-      image: /images/design_quick_start.png
-      shortName: Plan Ahead & Plan Better
-      title: Plan Ahead & Plan Better
-      titleURL: /design/plan
+        Empower your product managers, architects and developers to create and prototype APIs without going into messy syntax.
+        Stoplight's visual editor comes with comprehensive OpenAPI and JSON Schema support. 
+      image: /images/design/studio.png
+      shortName: Visual OpenAPI Editor
+      title: Design Faster with a Visual OpenAPI editor
+      titleURL: 
     - description: >-
-        Following a design first approach when creating an API makes it easy for stakeholders 
-        to provide feedback and become aligned. Stoplight Studio makes it easy to navigate 
-        and edit API design specifications so that you and your team can collaborate efficiently 
-        and reconcile feedback effectively.
-      image: /images/design_visual.png
-      shortName: Improve Team Communication
-      title: Improve Team Communication
-      titleURL: /design/communication
-  title: Catch Bugs Early
+        Create high quality API designs in line with industry best practices and organizational needs 
+        by enforcing built-in or custom style guides. Style guides come with flexibility to help bring consistency without 
+        drilling down too hard on the current practices.
+      image: /images/governance/style-guide.png
+      shortName: Style Guides
+      title: Ensure Consistency and Quality with Style Guides
+      titleURL:
+    - description: >-
+        Validate your designs with request and response validation. Design intelligently by getting early feedback from internal and external stakeholders using customizable and always up-to-date 
+        mock servers.    
+      image: /images/design/mocking.png
+      shortName: Mocking
+      title: Bring Designs to Life with Automatic Mock Servers
+      titleURL:
+    - description: >-
+        Organize better and avoid duplicates by reusing schemas across APIs. Easily update in one place to make changes across your APIs.    
+      image: /images/design/reuse-schemas.png
+      shortName: Reuse Components
+      title: Avoid Duplication by Reusing Components
+      titleURL:
+    - description: >-
+        Put the consumer first by visualizing and trying out the API design and documentation from a consumers perspective within the API editor.     
+      image: /images/design/docs-studio.png
+      shortName: Documentation Preview
+      title: Visualize Designs with Live Previews
+      titleURL:
+    - description: >-
+        Share designs easily with internal and external stakeholders with varying permissions while working with tried and tested Git workflows.     
+      image: /images/design/git-workflows.png
+      shortName: Git Workflows
+      title: Collaborate flexibly with Git Workflows
+      titleURL:
+
+  title: All your Design Needs at One Place
 meta:
   description: >-
     Create more complete, robust, and maintainable APIs with a design first approach.
