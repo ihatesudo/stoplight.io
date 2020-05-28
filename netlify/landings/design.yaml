@@ -64,16 +64,16 @@ featureSection:
       shortName: Mock Servers
       title: 'Integrated, Hosted Mock Servers'
       titleURL: /design/prototype
-    - description: >-
-        Instantly share API prototypes, automated documentation, and hosted Mock
-        Servers. Invite teammates, partners, and API consumers to view and
-        collaborate on your API designs privately or publicly with Discussions.
-        With one click export and programmatic access, you can use and share
-        your specification document where ever you want.
-      image: /images/design_collaborate.png
-      shortName: Collaborative
-      title: Collaborative Design
-      titleURL: ''
+  #   - description: >-
+  #       Instantly share API prototypes, automated documentation, and hosted Mock
+  #       Servers. Invite teammates, partners, and API consumers to view and
+  #       collaborate on your API designs privately or publicly with Discussions.
+  #       With one click export and programmatic access, you can use and share
+  #       your specification document where ever you want.
+  #     image: /images/design_collaborate.png
+  #     shortName: Collaborative
+  #     title: Collaborative Design
+  #     titleURL: ''
   title: OpenAPI Designer
 meta:
   description: >-
