@@ -94,10 +94,10 @@ header:
           titleColor: yellow
       title: About
       width: 300
-    - href: /enterprise
-      title: Enterprise
     - href: /pricing
       title: Pricing
+    - href: /enterprise
+      title: Enterprise
     - href: /blog
       title: Blog
     - href: /about
