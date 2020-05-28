@@ -4,12 +4,9 @@ color: blue2-dark
 relatedTags:
   - blog-collaboration
 hero:
-  image:
-    alt: Designer
-    src: /images/studio/hero.png
   particles: true
-  subtitle: Involve all stakeholders in the API design & development workflows.
-  title: Enhance API Collaboration
+  subtitle: Improve alignment and collaboration by bringing internal and external stakeholders together in a single platform.
+  title: Build APIs Together
   ctas:
     - href: '/welcome'
       title: Get Started with Stoplight
@@ -23,29 +20,34 @@ featureSection:
     ctas:
       - href: '/welcome'
         title: Get Started with Stoplight
-        rightIcon: ['fad', 'arrow-right']
-  description: >-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+        rightIcon: ['fad', 'arrow-right'] 
   features:
     - description: >-
-        I'm a placeholder! Easy to manage and collaborate on the API design among distributed teams. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      image: /images/mocking_instant.png
-      shortName: Stakeholder Alignment
-      title: Maintain Stakeholder Alignment
-      titleURL: /mocking/iterate
+        Scale seamlessly by bringing all internal (Product Managers, Developers, Designers, Architects and Technical Writers) 
+        and External Stakeholders in a single place with flexible roles and permissions. 
+      image: /images/workspaces/permissions.png
+      shortName: Roles and Permissions
+      title: Collaborate Securely
+      titleURL:
     - description: >-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      image: /images/prism_dynamic.png
-      shortName: Involve Stakeholders
-      title: Involve Technical & Non-Technical Stakeholders
-      titleURL: /mocking/accessible
+        Invlove external partners and customers early in the development cycle by giving access to specfic projects using the Guest Role.
+      image: /images/workspaces/invites.png
+      shortName: Guest Access
+      title: Involve Partners
+      titleURL:
     - description: >-
-        I'm a placeholder! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      image: /images/prism_dynamic.png
-      shortName: Grow Smarter
-      title: Remove Placeholders
-      titleURL: /mocking/grow
-  title: Shorten Time to Market
+        Work on your projects privately before sharing them with the organization or the world. It's as simple as changing a setting. 
+      image: /images/workspaces/project-permissions.png
+      shortName: Private/Public Projects
+      title: Create Privately - Share Publically
+      titleURL: 
+    - description: >-
+        Collaborate on API designs and documentation in a central source of truth using Git (Not Git-Like),
+        seamlessly fitting into existing workflows.
+      image: /images/design/git-workflows.png
+      shortName: Git Workflows
+      title: Integrate Seamlessly with Git Workflows 
+      titleURL:
 meta:
   description: >-
     Achieve API Quality & Governance by practically enforcing API consistency and standardization.
