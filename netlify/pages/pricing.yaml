@@ -15,7 +15,7 @@ plans:
       title: $0
     features:
       - name: Up to 10 Users
-      - name: Up to 10 Projects
+      - name: Up to 5 Projects
       - name: OpenAPI/JSON Schema Visual Designer
       - name: Instant Mock Servers
       - name: API Style Guides
@@ -38,7 +38,7 @@ plans:
   - title: Starter
     titleColor: indigo
     summary: 'Advanced documentation and design for API teams'
-    addInfo: $9/additional user
+    addInfo: $8/additional user
     button:
       color: indigo
       title: Get Started
@@ -47,6 +47,7 @@ plans:
       title: $99
     features:
       - name: Everything in Free
+      - name: 5 Users Included
       - name: Up to 50 Projects
       - name: Theming
       - name: Multi-Branch Support
@@ -70,7 +71,7 @@ plans:
   - title: Professional
     titleColor: purple
     summary: 'Governance, visbility, and reuse to deliver consistency and quality'
-    addInfo: $29/additional user
+    addInfo: $24/additional user
     button:
       color: purple
       title: Get Started
@@ -79,10 +80,11 @@ plans:
       title: $399
     features:
       - name: Everything in Starter
+      - name: 10 Users Included
       - name: Unlimited Projects
+      - name: Unlimited Changelogs
       - name: Guest Access
       - name: Remove Stoplight Branding
-      - name: Unlimited Changelogs
       - name: Dependency Tracking
       - name: Self Hosted Git Providers
       - name: LDAP & SAML
