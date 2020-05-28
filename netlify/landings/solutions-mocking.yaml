@@ -5,8 +5,8 @@ relatedTags:
   - blog-mocking
 hero:
   particles: true
-  subtitle: Optimize API development and reduce time to market with API mocking.
-  title: API Mocking
+  subtitle: Reduce time to market with instant mock servers by designing intelligently and optimizing API development.
+  title:  Design Better - Develop Faster
   ctas:
     - href: '/studio'
       title: Try Out Mocking in Stoplight Studio
@@ -27,40 +27,50 @@ featureSection:
         title: Get Started with Stoplight Studio
         rightIcon: ['fad', 'arrow-right']
   description: >-
-    Mocking enables faster system development by allowing components 
-    to integrate with your API before its event build. Stoplight Mocking 
-    complements your workflow by automatically creating a hosted mock 
-    server as you create or update an API’s design specification.
+    Visualize and get feedback on your API designs before spending time on development. 
+    Let your Frontend and Backend teams develop in parallel with hosted mock servers. 
+    Stoplight complements your workflow by instantly creating mock 
+    servers from API descriptions.
   features:
     - description: >-
-        With an interactive and life-like mock of your API, 
-        you can begin to iterate on your API’s design before development begins. 
-        Utilize Stoplight Mocking with the rest of the Stoplight ecosystem 
-        to create mature and complete API design specifications ready to be implemented.
-      image: /images/mocking_instant.png
-      shortName: Iterate Early
-      title: Iterate Early
-      titleURL: /mocking/iterate
+        Convert OpenAPI descriptions into mock servers with extensive support for OpenAPI features. 
+        Use specific examples form within the description or consume dynamic responses.
+      image: /images/mocking/openapi-mock.png
+      shortName: OpenAPI Support
+      title: Instantly Convert OpenAPIs to Mocks 
+      titleURL:
     - description: >-
-        Mocking is an extremely effective tool, but can become difficult to 
-        maintain and configure across teams and continents. Stoplight Mocking 
-        utilizes hosted mocking to expose a public URL that anyone can 
-        access so that all stakeholders can work on the same up to date API mock instance.
-      image: /images/prism_dynamic.png
-      shortName: Accessible Mocking
-      title: Accessible Mocking
-      titleURL: /mocking/accessible
+        With an interactive and life-like mock of APIs, 
+        you can begin to get feedback from consumers and stakeholders on  API designs before development allowing 
+        you to act on feedback immediately and align stakeholders quickly. 
+        This ensures APIs fulfill consumer requirements and helps avoid unanticipated breaking changes later.
+      image: /images/mocking/mocking-feedback.png
+      shortName: Early Feedback
+      title: Get Early Feedback
+      titleURL:
     - description: >-
-        As stakeholders interact with your API’s mock server, 
-        they can provide more valuable requests that best inform 
-        you how to expand your feature set. With Stoplight Mocking, 
-        changes to your design specification is reflected in your 
-        mock API allowing you to act on feedback immediately and align stakeholders quickly.
-      image: /images/prism_dynamic.png
-      shortName: Grow Smarter
-      title: Grow Smarter
-      titleURL: /mocking/grow
-  title: Shorten Time to Market
+        Reduce time to market by letting frontend and backend teams develop simulatenously without 
+        waiting for the development stage of the API to complete. 
+      image: /images/mocking/hosted-mocks.png
+      shortName: Parallel Development
+      title:  Develop Simultaneously with Hosted Mock Servers
+      titleURL:
+    - description: >-
+        Validate requests and responses against your OpenAPI document. 
+        Stoplight mocks simulate real server behavior by automatically validating incoming request headers, query strings, 
+        and request bodies against your OpenAPI document.  
+      image: /images/mocking/validate-prism.png
+      shortName: Request & Response Validation
+      title: Validate and Test API Designs
+      titleURL: 
+    - description: >-
+        Testing against the exact same piece of data over and over again is not the best way to build a robust integration. 
+        Dynamic mocking leverages fake data to simulate real server behaviour by responding dynamically to requests.
+      image: /images/mocking/dynamic-mocking.png
+      shortName: Dynamic Mocking
+      title: Spin Up Life-like APIs with Dynamic Mocking
+      titleURL: 
+  title: Bring API Designs to Life with Mocking
 meta:
   description: >-
     Instant and automatic, Stoplight Mocking spins up a server as soon as your API’s design 

@@ -27,7 +27,7 @@ featureSection:
         title: Get Started with Stoplight
         rightIcon: ['fad', 'arrow-right']
   description: >-
-    Aggregate all your API descriptions, schemas, and documentation in a central repository laying the groundwork for deduplication, reuse and governance.
+    Aggregate all your API descriptions, schemas, and documentation in a central repository laying the groundwork for deduplication, reuse and governance. With a good view of the current state of design and documentation, build an effective governance strategy without drilling down too hard on the current practices.
   features:
     - description: >-
          Make APIs that have long become lost in the organization available for developers to use and champions to govern, helping keep documentation up-to-date, avoid duplications, and remove inconsistencies.
@@ -36,7 +36,7 @@ featureSection:
       title: Find Obscure APIs
       titleURL: 
     - description: >-
-        Deliver consistent API design and documentation across the organization by enforcing style guides and helping API designers and technical writers find artifacts for reference.
+        Deliver consistent API design and documentation across the organization by enforcing built-in or custom style guides. Help API designers and technical writers find design artifacts for reference.
       image: /images/governance/style-guide.png
       shortName: Promote Consistency
       title: Promote Consistency
@@ -59,13 +59,7 @@ featureSection:
       shortName: Encourage Reuse
       title: Encourage Reuse
       titleURL:
-    - description: >-
-        With a good view of the current state of design and documentation, build an effective governance strategy without drilling down too hard on the current practices.
-      image: /images/governance/explorer-2.png
-      shortName: Govern with Agility
-      title: Govern with Agility
-      titleURL:
-  title: Bring visbility to APIs and Documentation
+  title: Govern with Agility
 meta:
   description: >-
     Achieve API Quality & Governance by practically enforcing API consistency and standardization.
