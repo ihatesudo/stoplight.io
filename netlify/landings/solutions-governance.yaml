@@ -6,7 +6,7 @@ relatedTags:
 hero:
   particles: true
   subtitle: Govern APIs at scale with an always in sync central repository of API designs, schemas, and documentation.
-  title: Maintain a Central Source of Truth
+  title: Consistent and Quality APIs at Scale
   ctas:
     - href: '/welcome'
       title: Get Started with Stoplight
@@ -27,7 +27,8 @@ featureSection:
         title: Get Started with Stoplight
         rightIcon: ['fad', 'arrow-right']
   description: >-
-    Aggregate all your API descriptions, schemas, and documentation in a central repository, laying the groundwork for deduplication, reuse and governance. Create a clear view of the current state of design and documentation to build an effective governance strategy that compliments your organization's current practices.
+    Aggregate and track all your API design artifacts in a central repository, laying the groundwork for deduplication, reuse and governance. 
+    Build an effective governance strategy that compliments your organization's current practices with clear view of the current state of design and documentation.
   features:
     - description: >-
          Make APIs that have long become lost in the organization available for developers to use and champions to govern, helping keep documentation up-to-date, avoid duplications, and remove inconsistencies.
@@ -38,8 +39,8 @@ featureSection:
     - description: >-
         Deliver consistent API design and documentation across the organization by enforcing built-in or custom style guides. Help API designers and technical writers find design artifacts for reference.
       image: /images/governance/style-guide.png
-      shortName: Enable Consistency
-      title: Enable Consistency
+      shortName: Style Guides
+      title: Build Consistent APIs with Style Guides
       titleURL: 
     - description: >-
         Avoid breaking changes and plan versions by tracking and visualizing inbound and outbound dependencies between API artifacts to keep track of how changes may affect other dependent services.
@@ -53,6 +54,14 @@ featureSection:
       shortName: Encourage Reuse
       title: Encourage Reuse
       titleURL:
+    - description: >-
+        Use granular roles and permissions to expose on a need only basis. Bring in stakeholders 
+        and partners to collaborate on projects that are just in their scope. Audit activity across
+        teams to maintain sanity. 
+      image: /images/workspaces/permissions.png
+      shortName: Roles and Permissions
+      title: Manage Multiple API Teams
+      titleURL: 
   title: Govern with Agility
 meta:
   description: >-

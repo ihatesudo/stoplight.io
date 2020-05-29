@@ -4,12 +4,9 @@ relatedTags:
   - blog-development
 hero:
   particles: true
-  image:
-    alt: Development
-    src: /images/studio/hero.png
   subtitle: >-
-    Make development the simplest part of the API Lifecycle.
-  title: API Development
+    Arm developers to prototype and develop quality APIs faster. 
+  title: Optimize API Development 
   ctas:
     - href: '/studio'
       title: Try Studio
@@ -26,25 +23,49 @@ featureSection:
     enabled: true
     text: Ready to Start Developing APIs?
   description: >-
-    Whether for small intimate teams or across organizational departments, 
-    API design specifications provide an explicit blueprint that accelerates 
-    API development. Stoplight Studio makes it easy to create and consume 
-    API design specifications allowing your development team to work 
-    more productively.
+    Developers work best with clear requirements, increased independence
+    and streamlined communication.
+    Stoplight optimizes development across small and large teams by 
+    providing API developers with best-in-class API Design-First tooling.
   features:
     - description: >-
-        Placeholder text
-      image: /images/design_quick_start.png
-      shortName: Stay Coordinated
-      title: Stay Coordinated
-      titleURL: /design/coordinate
+        Develop faster by providing clear and complete requirements
+        before starting development. Get early feedback from all stakeholders, to avoid changing
+        requirements later.  
+      image: /images/design/studio.png
+      shortName: Design-First
+      title: Efficent Development with API Design-First
+      titleURL: 
     - description: >-
-        Placeholder text.
-      image: /images/design_visual.png
-      shortName: Complement Your Workflow
-      title: Complement Your Workflow
-      titleURL: /design/workflow
-  title: Accelerate Development
+        Reduce cost and time to market by letting frontend and backend teams develop simulatenously without 
+        waiting for the development stage of the API to complete.
+      image: /images/mocking/hosted-mocks.png
+      shortName: Parallel Development
+      title: Develop Simultaneously with Instant Mock Servers
+      titleURL:
+    - description: >-
+        Validate requests and responses against your OpenAPI document. 
+        Stoplight mocks simulate real server behavior by automatically validating incoming request headers, 
+        query strings, and request bodies against your OpenAPI document.
+      image: /images/mocking/validate-prism.png
+      shortName: Contract Testing
+      title: Validate Implementations Automatically
+      titleURL:
+    - description: >-
+        Developers love using Git. Collaborate on API designs easily using Git (Not Git-Like),
+        seamlessly fitting into existing development workflows.
+      image: /images/design/git-workflows.png
+      shortName: Git Workflows
+      title: Workflows that Developers Love
+      titleURL:
+    - description: >-
+        Do the heavylifting for consumers and kickstart integration by providing comprehensive documentation and code samples in 
+        popular languages while freeing up API developers from maintaining documentation and code samples.
+      image: /images/docs/code-samples.png
+      shortName: Documentation & Code Sample Generation
+      title: Remove the Redundant - Focus on the Creative
+      titleURL:
+  title: Efficent and Productive Developers with Contract-Driven Development
 meta:
   description: >-
     Create more complete, robust, and maintainable APIs with a design first approach.

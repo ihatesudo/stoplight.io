@@ -5,12 +5,9 @@ relatedTags:
   - blog-design
 hero:
   particles: true
-  image:
-    alt: Visibility
-    src: /images/studio/hero.png
   subtitle: >-
-    Placeholder
-  title: API Visibility
+    Navigate APIs at scale with an always in sync central repository of API designs, schemas, and documentation.
+  title: Maintain a Central Source of Truth
   ctas:
     - href: '/studio'
       title: Try Studio
@@ -28,27 +25,44 @@ featureSection:
     text: Ready to Start Designing APIs?
   description: >-
     As the number of APIs increase, it becomes difficult to track the services available 
-    to you and your team. Stoplight Explorer improves API visibility by making it easy 
-    to navigate your API assets so you can avoid accidently rebuilding services wasting 
-    valuable development time.
+    to you and your team. Aggregate all your API descriptions, schemas, and documentation 
+    in a central repository, laying the groundwork for deduplication, reuse and governance. 
   features:
     - description: >-
-        Creating a collection of API assets is only the first step to improving 
-        standardization and reusability in your organization. Stakeholders need 
-        to efficiently discover these resources to be able to utilize them effectively. 
-        With Stoplight Explorer, team members can effortlessly discover API endpoints, 
-        models, and assets so that reuse becomes a habit rather than a dream.
-      image: /images/design_quick_start.png
-      shortName: Enabling Discovery & Increasing Reusability
-      title: Enabling Discovery & Increasing Reusability
-      titleURL: /visbility/discovery
+        Create a collection of up-to-date API design assets like OpenAPIs, JSON Schemas and Documentation
+        from your favorite VCS (GitHub, GitLab and Bitbucket)to find, reuse and govern obscure APIs.
+        Align stakeholders on the current state of documentation and design within the organization. 
+      image: /images/explorer/api-catalog.png
+      shortName: API Catalog
+      title: Enable Discovery with a Central API Catalog
+      titleURL: 
     - description: >-
-        Placeholder
-      image: /images/design_visual.png
-      shortName: Making Sense of Chaos
-      title: Making Sense of Chaos
-      titleURL: /visbility/sense
-  title: Avoid Unnecessary Rebuilds
+        Use Stoplight Explorer to search API artifacts across the organization powered by filters 
+        that make navigation a breeze.  
+      image: /images/governance/explore.png
+      shortName: Search & Filter
+      title: Search and Filter API Artifacts
+      titleURL: 
+    - description: >-
+        Use granular roles and permissions to expose on a need only basis. Bring in stakeholders 
+        and partners to collaborate on projects that are in their scope.   
+      image: /images/docs/api-catalog.png
+      shortName: Roles and Permissions
+      title: Personalized View for Every Role
+      titleURL: 
+    - description: >-
+        Avoid breaking changes and plan versions by tracking and visualizing inbound and outbound dependencies between API artifacts to keep track of how changes may affect other dependent services.
+      image: /images/governance/dependencies.png
+      shortName: Visualize Dependencies
+      title: Visualize Dependencies
+      titleURL:
+    - description: >-
+        Inform consumers about changes proactively by tracking changes of all API artifacts. Keep everything up to date by tracking changes between dependent artifacts. Avoid reinventing the wheel. Star important assets, to enable easy discovery of API artifacts for reuse in future designs.
+      image: /images/governance/reuse.png
+      shortName: Encourage Reuse
+      title: Encourage Reuse
+      titleURL:
+  title: You can't fix what you don't know is broken - API Evangelist
 meta:
   description: >-
     Create more complete, robust, and maintainable APIs with a design first approach.
