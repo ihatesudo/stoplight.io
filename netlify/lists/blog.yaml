@@ -1,8 +1,22 @@
+title: Stoplight API Intersection Blog
+subtitle: >-
+    Musings on API design, testing, documentation, trends, and related technology.
 path: /blog
 tag: blog
-title: Stoplight API Intersection
-subtitle: 'Musings on API design, testing, documentation, trends, and related technology.'
-color: indigo
+hero:
+  particles: true
+  ctas:
+    - title: Subscribe to the Newsletter
+      type: 'submit'
+      submit:
+        button:
+          color: purple
+          title: Subscribe to the Newsletter
+          href: '/blog/'
+        input:
+          type: email
+          placeholder: Your email...
+        formId: 'e58e3212-f08a-42fe-bbaa-29a21c27a3f5'
 tabs:
   - href: /blog
     title: Latest
@@ -19,18 +33,19 @@ tabs:
   - href: 'https://support.stoplight.io/hc/en-us/sections/360006632531-Releases'
     title: Changelog
 actionBar:
-  enabled: false
-  text: Sign up for the newsletter
+  enabled: true
+  text: Subscribe to the Stoplight API Intersection Newsletter
   ctas:
-    - title: Sign up for the newsletter
+    - title: Subscribe to the Stoplight API Intersection Newsletter
       type: 'submit'
       submit:
         button:
           color: purple
           title: Subscribe
+          href: '/blog/'
         input:
           type: email
-          placeholder: Enter email
+          placeholder: Your email...
         formId: 'e58e3212-f08a-42fe-bbaa-29a21c27a3f5'
 meta:
   description: >-
