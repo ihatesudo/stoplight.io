@@ -134,7 +134,9 @@ export function Document({ Html, Head, Body, children, state }) {
         />
         <script src="https://kit.fontawesome.com/eb61f169e7.js" />
 
-        <script id="convertful-api" src="https://app.convertful.com/Convertful.js" data-owner="4983" async />
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400;1,600&family=Overpass:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet"></link>
+
+       
       </Head>
 
       <Body className="font-sans">
