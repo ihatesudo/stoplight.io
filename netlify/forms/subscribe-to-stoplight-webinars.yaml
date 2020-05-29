@@ -1,30 +1,12 @@
 path: /video/subscribe
 title: Subscribe to Stoplight Webinars
 subtitle: Watch & Learn
-color: purple
+hero:
+  particles: true
 hubspot:
   formId: 132b647a-f85f-4bc0-bb0a-a019e30ba90e
   portalId: '4892910'
 leftContent: {}
-collage:
-  cta:
-    color: black
-    href: 'https://next.stoplight.io'
-  images: []
-testimonials:
-  cta:
-    color: black
-    href: 'https://next.stoplight.io'
-  testimonials: []
-  actionBar:
-    ctas:
-      - color: purple
-    enabled: false
-actionBar:
-  ctas: []
-  enabled: false
-tags: []
-relatedTags: []
 meta:
   description: Watch & Learn
   favicon: /images/mark_light_bg.png
