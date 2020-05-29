@@ -14,148 +14,233 @@ hero:
       href: https://stoplight.com/welcome
       large: true
       title: Get Started For Free
-pageSubjects:
-  # - title: Source of Truth
-  #   description: >-
-  #     Promote reuse, consistency, and quality by sharing API design artifacts across your organization in an easily searchable and manageable design library.
-  #   cta: Explore Visibility Solutions
-  #   href: /solutions/visibility/
-  #   tag: visibility
-  #   color: green
-  #   icon: 'chart-network'
-  #   iconStyle:
-  #     '--fa-primary-color': 'limegreen'
-  #     '--fa-secondary-color': 'limegreen'
-  # - title: Design APIs Quickly
-  #   description: >-
-  #     Empower technical and non-technical stakeholders to create and collaborate on API designs in OpenAPI and JSON Schema using an intuitive user interface
-  #   cta: Explore Design Solutions
-  #   href: /solutions/design/
-  #   tag: design
-  #   color: blue
-  #   icon: 'pencil-ruler'
-  #   iconStyle:
-  #     '--fa-primary-color': 'dodgerblue'
-  #     '--fa-secondary-color': 'limegreen'    
-  # - title: Developer Docs
-  #   description: >-
-  #     Drive API adoption by helping internal and external developers consume APIs easily using interactive documentation with code samples. 
-  #   cta: Explore Explorer
-  #   href: /explorer
-  #   tag: visibility
-  #   color: purple
-  #   icon: 'book'
-  #   iconStyle:
-  #     '--fa-primary-color': 'tomato'
-  #     '--fa-secondary-color': 'tomato'
-  # - title: Hosted Mocking
-  #   description: >-
-  #     Develop alongside a hosted mock server to enable frontend and backend teams to develop in parallel.
-  #   cta: Explore Mocking
-  #   href: /mocking
-  #   tag: validation
-  #   color: gold
-  #   icon: 'server'
-  #   iconStyle:
-  #     '--fa-primary-color': 'indigo'
-  #     '--fa-secondary-color': 'indigo'
-solutions:
-  - title: Provide an Amazing Developer Experience
-    cta: Learn More About API Documentation
-    description: >-
-      Drive API adoption by helping internal and external developers consume APIs easily using interactive documentation with code samples. 
-    tag: documentation
-    color: green
-    icon: 'user-friends'
-    iconStyle:
-      '--fa-primary-color': 'limegreen'
-      '--fa-secondary-color': 'green'
-  - title: One Shared Source of Truth
-    cta: Learn More About API Visibility
-    href: /solutions/visibility/
-    description: >-
-      Promote reuse, consistency, and quality by sharing API design artifacts across your organization in an easily searchable and manageable design library.
-    tag: visibility
-    color: orange
-    icon: 'code-branch'
-    iconStyle:
-      '--fa-primary-color': 'tomato'
-      '--fa-secondary-color': 'tomato'
-  - title: Design Beautiful APIs Quickly
-    cta: Learn More About API Design
-    href: /solutions/design/
-    description: >-
-      Empower technical and non-technical stakeholders to create and collaborate on API designs in OpenAPI and JSON Schema using an intuitive user interface. 
-    tag: design
-    color: indigo
-    icon: 'code'
-    iconStyle:
-      '--fa-primary-color': 'indigo'
-      '--fa-secondary-color': 'indigo'
-  - title: Adhere to Best Practices
-    cta: Learn More About API Governance
-    href: /solutions/governance
-    description: >-
-      Design consistent APIs by automatically validating against predefined or custom style guidelines within the API designer. 
-    tag: Governance
-    color: purple
-    icon: 'badge-check'
-    iconStyle:
-      '--fa-primary-color': 'dodgerblue'
-      '--fa-secondary-color': 'dodgerblue'
 features:
-  - name: API Design
-    description: Quickly model your APIs using visual tools on top of open standards.
-    href: /design
-    icon: 'pencil-ruler'
-    iconStyle:
-      '--fa-primary-color': 'dodgerblue'
-      '--fa-secondary-color': 'limegreen'
-  - name: API Documentation
-    description: Increase customer adoption with beautiful, functional documentation.
-    href: /documentation
-    icon: 'book'
-    iconStyle:
-      '--fa-primary-color': 'tomato'
-      '--fa-secondary-color': 'tomato'
-  - name: API Mocking
-    description: Easily mock web services and run scenarios from the command line.
-    href: /mocking
-    icon: 'server'
-    iconStyle:
-      '--fa-primary-color': 'slategray'
-      '--fa-secondary-color': 'slategray'
-caseStudies:
-  - company: Arkea
-    href: /case-studies/arkea
-    image: /images/logo_arkea_transparent.png
-    description: Arkéa has been involved in open banking for several years by providing white label banking services and saw PSD2 as an opportunity to extend their open banking features.
-    tag: Finance
-    color: orange
-  - company: Namely
-    href: /case-studies/namely
-    image: /images/logo_namely_transparent.png
-    description: Namely’s chief objective was to adopt API Design First principles. As they applied their new principle, they realized the importance of reliable, up to date, documentation.
-    tag: HR
-    color: indigo
-  - company: Appointment Plus
-    href: /case-studies/appointmentplus
-    image: /images/logo_appointmentplus_transparent.png
-    description: AppointmentPlus was managing multiple APIs built by different teams, at different times, with different strategies and intents.
-    tag: Tech
-    color: green
+  - title: Visibility
+    subtitle: One Shared Source of Truth
+    description: >-
+      Promote reuse, consistency, and quality by sharing API design artifacts across your organization in an easily searchable and manageable technical knowledge base.
+    image: /images/design_quick_start.png
+    cta: Learn More
+    titleURL: /design/free
+  - title: Design
+    subtitle: Design Beautiful APIs Quickly
+    description: >-
+      Empower technical and non-technical stakeholders to create and collaborate 
+      on API designs in OpenAPI and JSON Schema using an intuitive user interface.
+    image: /images/mocking_request_validation.png
+    cta: Learn More
+    titleURL: /design/free
+  - title: Documentation
+    subtitle: Provide an amazing developer experience
+    description: >-
+      Drive API adoption by helping internal and external developers consume 
+      APIs easily using interactive documentation with code samples.
+    image: /images/design_visual.png
+    cta: Learn More
+    titleURL: /design/free
+  - title: Governance
+    subtitle: Adhere to Best Practices
+    description: >-
+      Design consistent APIs by automatically validating against predefined 
+      or custom style guidelines within the API designer.
+    image: /images/design_quick_start.png
+    cta: Learn More
+    titleURL: /design/free
+  - title: Mocking
+    subtitle: Develop with agility and quality
+    description: >-
+      Get early feedback on API designs and enable API consumers and producers 
+      to build in parallel with instant mock servers.
+    image: /images/mocking_request_validation.png
+    cta: Learn More
+    titleURL: /design/free
+  - title: Collaboration
+    subtitle: Promote Stakeholder Alignment
+    description: >-
+      Streamline your workflow by encouraging all stakeholders - 
+      from business to engineering - internal or external to collaborate 
+      across the API design and development lifecycle.
+    image: /images/design_visual.png
+    cta: Learn More
+    titleURL: /design/free
+vcs:
+  title: All this while integrating seamlessly with your favorite VCS
+  description: >-
+    Connect easily with Git providers like GitHub, GitLab, and Bitbucket to bring in 
+    your project changes automatically. No awkward two-way sync, you can commit directly 
+    to your projects from Studio, and fit easily into your existing Git workflows.
+  cta: Learn More
+  href: /design
+  images:
+    - img: /images/gh-logo.png
+    - img: /images/gitlab-icon-rgb.png
+    - img: /images/bitbucket-logo-png-transparent.png
+collage:
+  images:
+    - alt: EA
+      src: /images/ea.png
+    - alt: Arkea
+      src: /images/logo_arkea_transparent.png
+    - alt: Chargify
+      src: /images/chargify-new-logo.png
+    - alt: Deutsche Bank
+      src: /images/deutsche_bank.png
+    - alt: Sendgrid
+      src: /images/logo-sendgrid.png
+    - alt: Shopgate
+      src: /images/shopgate.png
+    - alt: TiVo
+      src: /images/tivo.png
+    - alt: Zoom
+      src: /images/zoom_logo.png
+    - alt: EA
+      src: /images/ea.png
+    - alt: Arkea
+      src: /images/logo_arkea_transparent.png
+  title: >-
+    Leading Organizations Trust Stoplight with their APIs
+# pageSubjects:
+# - title: Source of Truth
+#   description: >-
+#     Promote reuse, consistency, and quality by sharing API design artifacts across your organization in an easily searchable and manageable design library.
+#   cta: Explore Visibility Solutions
+#   href: /solutions/visibility/
+#   tag: visibility
+#   color: green
+#   icon: 'chart-network'
+#   iconStyle:
+#     '--fa-primary-color': 'limegreen'
+#     '--fa-secondary-color': 'limegreen'
+# - title: Design APIs Quickly
+#   description: >-
+#     Empower technical and non-technical stakeholders to create and collaborate on API designs in OpenAPI and JSON Schema using an intuitive user interface
+#   cta: Explore Design Solutions
+#   href: /solutions/design/
+#   tag: design
+#   color: blue
+#   icon: 'pencil-ruler'
+#   iconStyle:
+#     '--fa-primary-color': 'dodgerblue'
+#     '--fa-secondary-color': 'limegreen'
+# - title: Developer Docs
+#   description: >-
+#     Drive API adoption by helping internal and external developers consume APIs easily using interactive documentation with code samples.
+#   cta: Explore Explorer
+#   href: /explorer
+#   tag: visibility
+#   color: purple
+#   icon: 'book'
+#   iconStyle:
+#     '--fa-primary-color': 'tomato'
+#     '--fa-secondary-color': 'tomato'
+# - title: Hosted Mocking
+#   description: >-
+#     Develop alongside a hosted mock server to enable frontend and backend teams to develop in parallel.
+#   cta: Explore Mocking
+#   href: /mocking
+#   tag: validation
+#   color: gold
+#   icon: 'server'
+#   iconStyle:
+#     '--fa-primary-color': 'indigo'
+#     '--fa-secondary-color': 'indigo'
+# solutions:
+#   - title: Provide an Amazing Developer Experience
+#     cta: Learn More About API Documentation
+#     description: >-
+#       Drive API adoption by helping internal and external developers consume APIs easily using interactive documentation with code samples.
+#     tag: documentation
+#     color: green
+#     icon: 'user-friends'
+#     iconStyle:
+#       '--fa-primary-color': 'limegreen'
+#       '--fa-secondary-color': 'green'
+#   - title: One Shared Source of Truth
+#     cta: Learn More About API Visibility
+#     href: /solutions/visibility/
+#     description: >-
+#       Promote reuse, consistency, and quality by sharing API design artifacts across your organization in an easily searchable and manageable design library.
+#     tag: visibility
+#     color: orange
+#     icon: 'code-branch'
+#     iconStyle:
+#       '--fa-primary-color': 'tomato'
+#       '--fa-secondary-color': 'tomato'
+#   - title: Design Beautiful APIs Quickly
+#     cta: Learn More About API Design
+#     href: /solutions/design/
+#     description: >-
+#       Empower technical and non-technical stakeholders to create and collaborate on API designs in OpenAPI and JSON Schema using an intuitive user interface.
+#     tag: design
+#     color: indigo
+#     icon: 'code'
+#     iconStyle:
+#       '--fa-primary-color': 'indigo'
+#       '--fa-secondary-color': 'indigo'
+#   - title: Adhere to Best Practices
+#     cta: Learn More About API Governance
+#     href: /solutions/governance
+#     description: >-
+#       Design consistent APIs by automatically validating against predefined or custom style guidelines within the API designer.
+#     tag: Governance
+#     color: purple
+#     icon: 'badge-check'
+#     iconStyle:
+#       '--fa-primary-color': 'dodgerblue'
+#       '--fa-secondary-color': 'dodgerblue'
+# features:
+#   - name: API Design
+#     description: Quickly model your APIs using visual tools on top of open standards.
+#     href: /design
+#     icon: 'pencil-ruler'
+#     iconStyle:
+#       '--fa-primary-color': 'dodgerblue'
+#       '--fa-secondary-color': 'limegreen'
+#   - name: API Documentation
+#     description: Increase customer adoption with beautiful, functional documentation.
+#     href: /documentation
+#     icon: 'book'
+#     iconStyle:
+#       '--fa-primary-color': 'tomato'
+#       '--fa-secondary-color': 'tomato'
+#   - name: API Mocking
+#     description: Easily mock web services and run scenarios from the command line.
+#     href: /mocking
+#     icon: 'server'
+#     iconStyle:
+#       '--fa-primary-color': 'slategray'
+#       '--fa-secondary-color': 'slategray'
+# caseStudies:
+#   - company: Arkea
+#     href: /case-studies/arkea
+#     image: /images/logo_arkea_transparent.png
+#     description: Arkéa has been involved in open banking for several years by providing white label banking services and saw PSD2 as an opportunity to extend their open banking features.
+#     tag: Finance
+#     color: orange
+#   - company: Namely
+#     href: /case-studies/namely
+#     image: /images/logo_namely_transparent.png
+#     description: Namely’s chief objective was to adopt API Design First principles. As they applied their new principle, they realized the importance of reliable, up to date, documentation.
+#     tag: HR
+#     color: indigo
+#   - company: Appointment Plus
+#     href: /case-studies/appointmentplus
+#     image: /images/logo_appointmentplus_transparent.png
+#     description: AppointmentPlus was managing multiple APIs built by different teams, at different times, with different strategies and intents.
+#     tag: Tech
+#     color: green
 testimonials:
-  actionBar:
-    ctas:
-      - color: white
-        href: /demo
-        outlined: true
-        title: Book a Demo
-      - color: purple
-        href: /studio
-        title: Get Started
-    enabled: false
-    text: Getting started is easy. Be up and running in minutes.
+  # actionBar:
+  #   ctas:
+  #     - color: white
+  #       href: /demo
+  #       outlined: true
+  #       title: Book a Demo
+  #     - color: purple
+  #       href: /studio
+  #       title: Get Started
+  #   enabled: false
+  #   text: Getting started is easy. Be up and running in minutes.
   testimonials:
     - author: Felix Sargent
       company: MediaMath
@@ -170,26 +255,26 @@ testimonials:
       company: Arkéa
       image: /images/customers/nicolas-t.jpeg
       quote: >-
-        A visual editor like Stoplight is the first step to access the API world. 
-        By using Stoplight, we are enforcing Product Owners to be clear on what they want. 
+        A visual editor like Stoplight is the first step to access the API world.
+        By using Stoplight, we are enforcing Product Owners to be clear on what they want.
         They must take part in the design process and this is done through Stoplight.
       role: API Management Architect
-    - author: John Vajda
-      company: JumpCloud
-      image: /images/testimonials/john_vajda.jpeg
-      quote: >-
-        Stoplight has been a serious game changer for JumpCloud’s API
-        development! We love all the rich design, documentation and testing
-        features, which has enabled us to design awesome APIs for our customers.
-      role: Product Manager
-    - author: Tim Slagle
-      company: Zoom
-      image: /images/testimonials/tim_s.jpg
-      quote: >-
-        Our team roughly saves 15-20 hours a week. It makes it quicker to write, and the 
-        review process is quicker as well because we can go in and everybody can see the edits.  
-        We're pretty impressed with Stoplight as a whole.
-      role: Manager of Developer Advocacy
+    # - author: John Vajda
+    #   company: JumpCloud
+    #   image: /images/testimonials/john_vajda.jpeg
+    #   quote: >-
+    #     Stoplight has been a serious game changer for JumpCloud’s API
+    #     development! We love all the rich design, documentation and testing
+    #     features, which has enabled us to design awesome APIs for our customers.
+    #   role: Product Manager
+    # - author: Tim Slagle
+    #   company: Zoom
+    #   image: /images/testimonials/tim_s.jpg
+    #   quote: >-
+    #     Our team roughly saves 15-20 hours a week. It makes it quicker to write, and the
+    #     review process is quicker as well because we can go in and everybody can see the edits.
+    #     We're pretty impressed with Stoplight as a whole.
+    #   role: Manager of Developer Advocacy
 actionBar:
   ctas:
     - color: accent

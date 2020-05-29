@@ -6,10 +6,11 @@ import { SimpleCardBody } from 'src/components/SimpleCard/SimpleCardBody';
 
 import { IconName } from '@fortawesome/fontawesome-common-types';
 import { ActionBar, IActionBar } from 'src/components/ActionBar';
-import { SimpleCardBottom } from 'src/components/SimpleCard/SimpleCardBottom';
-import { SimpleCardTag } from 'src/components/SimpleCard/SimpleCardTag';
-import { SimpleCardTitle } from 'src/components/SimpleCard/SimpleCardTitle';
-import { SimpleCardTop } from 'src/components/SimpleCard/SimpleCardTop';
+import { Collage, ICollage } from 'src/components/Collage';
+import { Feature, IFeature } from 'src/components/FeatureSection';
+import { ILargeCard, LargeCard } from 'src/components/LargeCard';
+import { Link } from 'src/components/Link';
+
 import { ITestimonials, Testimonials } from 'src/components/Testimonials';
 import { Container, IContainer } from '../../components/Container';
 import { Hero, IHero } from '../../components/Hero';
@@ -18,18 +19,19 @@ import { Icon } from '../../components/Icon';
 import { IImage, Image } from '../../components/Image';
 import { Layout } from '../../components/Layout';
 import { ISection, Section } from '../../components/Section';
-import { SimpleCard } from '../../components/SimpleCard';
 
 export interface IHome {
   color: string;
   hero: IHero;
   testimonials: ITestimonials;
-  features: IFeature[];
+  features: ILargeCard[];
   customers: ICustomerSection;
+  collage: ICollage;
   caseStudies?: ICaseStudyCard[];
   pageSubjects?: IPageSubject[];
   solutions?: IPageSubject[];
   actionBar?: IActionBar;
+  vcs: any;
 }
 
 interface IPageSubject {
@@ -61,17 +63,6 @@ interface ICaseStudyCard {
   color: string;
 }
 
-interface IFeature {
-  name: string;
-  icon: IconName;
-  iconStyle: {
-    '--fa-primary-color': string;
-    '--fa-secondary-color': string;
-  };
-  description: string;
-  href?: string;
-}
-
 export const Home: React.FunctionComponent<IHome> = ({
   color,
   hero,
@@ -82,148 +73,65 @@ export const Home: React.FunctionComponent<IHome> = ({
   pageSubjects,
   solutions,
   actionBar,
+  vcs,
+  collage,
   ...sectionProps
 }) => {
   return (
     <Layout>
       <HomeHero bgColor={color} {...hero} />
-
-      {pageSubjects && (
-        <Section id="case-studies" {...sectionProps}>
-          <Container title="Quality APIs Don't Just Happen" className="pt-32">
-            <div className="flex flex-wrap justify-around md:justify-center mt-14">
-              {pageSubjects.map((subject, index) => (
-                <SimpleCard key={index} className="p-8 bg-white w-80 h-80 md:m-8" hoverable href={subject.href}>
-                  {/* <SimpleCardTop className="pb-8">
-                    <h3 className="text-2xl font-bold text-grey-darker">{subject.title}</h3>
-                  </SimpleCardTop> */}
-                  <div className="flex">
-                    <Icon icon={['fad', subject.icon]} className="text-center" size="2x" style={subject.iconStyle} />
-                    <h3 className="ml-3 text-xl font-bold text-grey-darker">{subject.title}</h3>
-                  </div>
-                  <SimpleCardBody description={subject.description} className="mt-8 leading-loose text-grey-darker" />
-                  <SimpleCardBottom className="flex flex-row items-center justify-between mt-6 mb-3 border-t">
-                    {/* <SimpleCardTag tag={subject.tag} color={subject.color} className="mt-8" /> */}
-                    <div className="flex items-center mt-8 text-blue">
-                      {subject.cta} <Icon icon={['fad', 'arrow-right']} className="ml-3" />
-                    </div>
-                  </SimpleCardBottom>
-                </SimpleCard>
-              ))}
-            </div>
-          </Container>
-        </Section>
-      )}
-
-      <div className="container w-3/4 border-b"></div>
-      <div className="pt-32 text-center">
-        <h3 className="text-3xl">Design, Collaborate, Govern, and Document All Your APIs in One Place</h3>
-      </div>
-      <Container className="flex flex-row pt-20 sm:block sm:w-96">
-        <div className="w-1/2 sm:w-96 sm:flex sm:flex-col">
-          {solutions &&
-            solutions.slice(0, 2).map((solution, index) => (
-              <SimpleCard
-                key={index}
-                className="h-64 p-8 my-8 mr-4 bg-white md:h-80 sm:h-96"
-                hoverable
-                href={solution && solution.href}
-              >
-                <SimpleCardTop className="pb-8 sm:pb-3">
-                  <div className="flex">
-                    <Icon icon={['fad', solution.icon]} className="text-center" size="2x" style={solution.iconStyle} />
-                    <h3 className="ml-3 text-xl font-bold text-grey-darker">{solution.title}</h3>
-                  </div>
-                </SimpleCardTop>
-                <SimpleCardBody
-                  description={solution && solution.description}
-                  className="text-lg font-normal text-grey-darker"
-                />
-                <SimpleCardBottom className="flex flex-row items-center justify-between mt-6">
-                  <div className="flex items-center text-lg font-bold text-blue">
-                    {solution.cta} <Icon icon={['fad', 'arrow-right']} className="ml-3" />
-                  </div>
-                </SimpleCardBottom>
-              </SimpleCard>
-            ))}
+      <Section id="features">
+        <div className="text-center">
+          <h3 className="text-3xl">Design, Collaborate, Govern, and Document All Your APIs in One Place</h3>
         </div>
-
-        <div className="w-1/2 sm:w-96 sm:flex sm:flex-col">
-          {solutions &&
-            solutions.slice(2).map((solution, index) => (
-              <SimpleCard
-                key={index}
-                className="h-64 p-8 my-8 ml-4 bg-white sm:ml-0 md:h-80 sm:h-96"
-                hoverable
-                href={solution && solution.href}
-              >
-                <SimpleCardTop className="pb-8">
-                  <div className="flex">
-                    <Icon icon={['fad', solution.icon]} className="text-center" size="2x" style={solution.iconStyle} />
-                    <h3 className="ml-3 text-xl font-bold text-grey-darker">{solution.title}</h3>
-                  </div>
-                </SimpleCardTop>
-                <SimpleCardBody
-                  description={solution && solution.description}
-                  className="text-lg font-normal text-grey-darker"
-                />
-                <SimpleCardBottom className="flex flex-row items-center justify-between mt-6">
-                  <div className="flex items-center text-lg font-bold text-blue">
-                    {solution.cta} <Icon icon={['fad', 'arrow-right']} className="ml-3" />
-                  </div>
-                </SimpleCardBottom>
-              </SimpleCard>
-            ))}
+        <Container className="flex flex-wrap justify-center pt-20 sm:block sm:w-96">
+          {features && features.map((feature, index) => <LargeCard key={index} {...feature} />)}
+        </Container>
+        <div className="container w-3/4 mt-20 border-t"></div>
+      </Section>
+      <Section id="VCS" noPadding>
+        <div className="text-center">
+          <h3 className="text-3xl">All this while integrating seamlessly with your favorite VCS</h3>
         </div>
-        
-      </Container>
-
-      {caseStudies && (
-        <Section id="case-studies" {...sectionProps}>
-          <div className="container w-3/4 border-b"></div>
-
-          <Container title="Stoplight Powers Some of the World's Leading API First Companies" className="pt-32">
-            <div className="flex flex-wrap justify-between md:justify-center mt-14">
-              {caseStudies.map((caseStudy, index) => (
-                <SimpleCard key={index} className="p-8 bg-white w-96 h-80" hoverable href={caseStudy.href}>
-                  <SimpleCardTop>
-                    <div>
-                      <Image
-                        src={caseStudy.image}
-                        title={`${caseStudy.company} Logo`}
-                        alt={caseStudy.company}
-                        className="h-10"
-                      />
-                    </div>
-                  </SimpleCardTop>
-                  <SimpleCardBody description={caseStudy.description} className="mt-4 leading-loose text-grey-darker" />
-                  <SimpleCardBottom className="flex flex-row items-center justify-between mt-6 mb-3 border-t">
-                    <SimpleCardTag tag={caseStudy.tag} color={caseStudy.color} className="mt-8" />
-                    <div className="flex items-center mt-8 text-blue">
-                      Read <Icon icon={['fad', 'arrow-right']} className="ml-3" />
-                    </div>
-                  </SimpleCardBottom>
-                </SimpleCard>
+        <Container className="pt-20 text-center ">
+          <div className="flex justify-center">
+            {vcs.images &&
+              vcs.images.map((image, index) => (
+                <div className="px-8" key={index}>
+                  <Image src={image.img} className="h-32" />
+                </div>
               ))}
+          </div>
+          <div
+            className={cn(' container sm:pb-0 w-3/4 text-xl py-10')}
+            dangerouslySetInnerHTML={{ __html: vcs.description }}
+          />
+          <Link to={vcs.href}>
+            <div className="flex items-center justify-center text-lg font-bold text-blue">
+              {vcs.cta} <Icon icon={['fad', 'arrow-right']} className="ml-3" />
             </div>
-          </Container>
+          </Link>
+        </Container>
+        <div className="container w-3/4 my-32 border-t"></div>
+      </Section>
 
-          <Container className="flex flex-wrap justify-between px-20 pb-32 mt-10 sm:justify-center ">
-            {customers.images.map((image, key) => (
-              <div key={key} className="py-8 sm:p-3">
-                <Image className="h-10" src={image.src} title={`${image.alt} Logo`} alt={image.alt} />
+      {collage && (
+        <Container>
+          <div className="text-center">
+            <Container title={collage.title}>
+              <div className="flex flex-wrap justify-between">
+                {collage.images.map((image, key) => (
+                  <div key={key} className="p-8 text-center sm:w-1/2 sm:p-6">
+                    <Image className="h-12" src={image.src} alt={image.alt} size="sm" />
+                  </div>
+                ))}
               </div>
-            ))}
-          </Container>
-          <div className="container w-3/4 border-b"></div>
-        </Section>
+            </Container>
+          </div>
+        </Container>
       )}
-      {testimonials && (
-        <>
-          <h3 className="mb-20 text-4xl text-center md:mb-14">API-First Companies Love Stoplight</h3>
-          <Testimonials {...testimonials} />
-        </>
-      )}
+      {testimonials && <Testimonials {...testimonials} />}
+
       <Section noPaddingT>
         {actionBar && <ActionBar enabled={actionBar.enabled} ctas={actionBar.ctas} text={actionBar.text} />}
       </Section>
