@@ -5,8 +5,8 @@ relatedTags:
 hero:
   particles: true
   subtitle: >-
-    Arm developers to prototype and develop quality APIs faster. 
-  title: Optimize API Development 
+    Prototype and develop quality APIs with Design-First. 
+  title: Develop APIs with Confidence
   ctas:
     - href: '/welcome'
       title: Get Started with Stoplight
@@ -24,49 +24,49 @@ featureSection:
     enabled: true
     text: Ready to Start Developing APIs?
   description: >-
-    Developers work best with clear requirements, increased independence
-    and streamlined communication.
-    Stoplight optimizes development across small and large teams by 
-    providing API developers with best-in-class API Design-First tooling.
+    Developers work best with clear requirements, increased independence, and streamlined communication. 
+    Stoplight optimizes development across small and large teams by providing API developers with 
+    best-in-class API Design-First tooling.
   features:
     - description: >-
-        Develop faster by providing clear and complete requirements
-        before starting development. Get early feedback from all stakeholders, to avoid changing
+        Develop faster by starting with clear and complete requirements
+        before development. Get early feedback from all stakeholders, to avoid changing
         requirements later.  
       image: /images/design/studio.png
       shortName: Design-First
-      title: Efficent Development with API Design-First
+      title: Streamline Development with API Design-First
       titleURL: 
     - description: >-
-        Reduce cost and time to market by letting frontend and backend teams develop simulatenously without 
-        waiting for the development stage of the API to complete.
+        Develop faster by starting with clear and complete requirements before development. 
+        Get early feedback from all stakeholders to avoid changing requirements later.
       image: /images/mocking/hosted-mocks.png
       shortName: Parallel Development
       title: Develop Simultaneously with Instant Mock Servers
       titleURL:
     - description: >-
-        Validate requests and responses against your OpenAPI document. 
-        Stoplight mocks simulate real server behavior by automatically validating incoming request headers, 
-        query strings, and request bodies against your OpenAPI document.
+        Reduce cost and time to market by letting frontend and backend teams develop 
+        simultaneously without waiting for the development stage of the API to complete.
       image: /images/mocking/validate-prism.png
       shortName: Contract Testing
       title: Validate Implementations Automatically
       titleURL:
     - description: >-
-        Developers love using Git. Collaborate on API designs easily using Git (Not Git-Like),
-        seamlessly fitting into existing development workflows.
+        Validate requests and responses against your OpenAPI document. Stoplight mocks 
+        simulate real server behavior by automatically validating incoming request headers, 
+        query strings, and request bodies against your OpenAPI document.
       image: /images/design/git-workflows.png
       shortName: Git Workflows
-      title: Workflows that Developers Love
+      title: Integrate with Tools that Developers Love
       titleURL:
     - description: >-
-        Do the heavylifting for consumers and kickstart integration by providing comprehensive documentation and code samples in 
-        popular languages while freeing up API developers from maintaining documentation and code samples.
+        Do the heavy lifting for consumers and kickstart integration by providing comprehensive 
+        documentation and code samples in popular languages while freeing up API developers from 
+        maintaining documentation and code samples.
       image: /images/docs/code-samples.png
       shortName: Documentation & Code Sample Generation
-      title: Remove the Redundant - Focus on the Creative
+      title: Remove the Redundant - Kickstart Development with Code Samples
       titleURL:
-  title: Efficent and Productive Developers with Contract-Driven Development
+  title: Increased Productivity with Contract-Driven Development
 meta:
   description: >-
     Create more complete, robust, and maintainable APIs with a design first approach.

@@ -4,7 +4,7 @@ relatedTags:
   - blog-mocking
 hero:
   particles: true
-  subtitle: Reduce time to market with instant mock servers by designing intelligently and optimizing API development.
+  subtitle: Go to market faster with high quality APIs using instant mock servers.
   title:  Design Better - Develop Faster
   ctas:
     - href: '/welcome'
@@ -30,38 +30,38 @@ featureSection:
   features:
     - description: >-
         Convert OpenAPI descriptions into mock servers with extensive support for OpenAPI features. 
-        Use specific examples form within the description or consume dynamic responses.
+        Use specific examples from within the description or consume dynamic responses.
       image: /images/mocking/openapi-mock.png
       shortName: OpenAPI Support
       title: Instantly Convert OpenAPIs to Mocks 
       titleURL:
     - description: >-
-        With an interactive and life-like mock of APIs, 
-        you can begin to get feedback from consumers and stakeholders on  API designs before development allowing 
-        you to act on feedback immediately and align stakeholders quickly. 
-        This ensures APIs fulfill consumer requirements and helps avoid unanticipated breaking changes later.
+        With an interactive and life-like mock of APIs, you begin to get feedback from consumers and 
+        stakeholders on API designs before development. This allows you to act on feedback and align 
+        stakeholders promptly, ensuring APIs fulfill consumer requirements and helps avoid unanticipated 
+        breaking changes later.
       image: /images/mocking/mocking-feedback.png
       shortName: Early Feedback
       title: Get Early Feedback
       titleURL:
     - description: >-
-        Reduce time to market by letting frontend and backend teams develop simulatenously without 
+        Reduce time to market by letting Frontend and Backend teams develop simultaneously, without 
         waiting for the development stage of the API to complete. 
       image: /images/mocking/hosted-mocks.png
       shortName: Parallel Development
       title:  Develop Simultaneously with Hosted Mock Servers
       titleURL:
     - description: >-
-        Validate requests and responses against your OpenAPI document. 
-        Stoplight mocks simulate real server behavior by automatically validating incoming request headers, query strings, 
-        and request bodies against your OpenAPI document.  
+        Validate requests and responses against your OpenAPI document. Stoplight mocks simulate real 
+        server behavior by automatically validating incoming request headers, query strings, and request 
+        bodies against your OpenAPI description.
       image: /images/mocking/validate-prism.png
       shortName: Request & Response Validation
       title: Validate and Test API Designs
       titleURL: 
     - description: >-
-        Testing against the exact same piece of data over and over again is not the best way to build a robust integration. 
-        Dynamic mocking leverages fake data to simulate real server behaviour by responding dynamically to requests.
+        Testing against the same data over and over again is not the best way to build a robust integration. 
+        Dynamic mocking leverages fake data to simulate real server behavior by responding dynamically to requests.
       image: /images/mocking/dynamic-mocking.png
       shortName: Dynamic Mocking
       title: Spin Up Life-like APIs with Dynamic Mocking

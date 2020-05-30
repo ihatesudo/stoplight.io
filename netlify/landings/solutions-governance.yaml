@@ -29,8 +29,8 @@ featureSection:
         color: blue2
         large: true
   description: >-
-    Aggregate and track all your API design artifacts in a central repository, laying the groundwork for deduplication, reuse and governance. 
-    Build an effective governance strategy that compliments your organization's current practices with clear view of the current state of design and documentation.
+    Aggregate and track all your API design artifacts in a central repository, laying the groundwork for deduplication, reuse, and governance. 
+    Build an effective governance strategy that compliments your organization’s current practices with a clear view of the current state of design and documentation.
   features:
     - description: >-
          Make APIs that have long become lost in the organization available for developers to use and champions to govern, helping keep documentation up-to-date, avoid duplications, and remove inconsistencies.
@@ -51,7 +51,7 @@ featureSection:
       title: Visualize Dependencies
       titleURL:
     - description: >-
-        Inform consumers about changes proactively by tracking changes of all API artifacts. Keep everything up to date by tracking changes between dependent artifacts. Avoid reinventing the wheel. Star important assets, to enable easy discovery of API artifacts for reuse in future designs.
+        Avoid reinventing the wheel, star important assets, to enable easy discovery of API artifacts for reuse in future designs.
       image: /images/governance/reuse.png
       shortName: Encourage Reuse
       title: Encourage Reuse

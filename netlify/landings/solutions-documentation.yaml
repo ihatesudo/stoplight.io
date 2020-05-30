@@ -3,7 +3,7 @@ title: Developer Experience
 relatedTags:
   - blog-documentation
 hero:
-  subtitle: Provide a top notch Developer Experience for internal and external consumers by generating customizable interactive documentation with tutorials, code samples and API console.
+  subtitle: Provide a top-notch Developer Experience for internal and external consumers by generating customizable interactive documentation with tutorials, code samples, and API console.
   particles: true
   title: Amazing Developer Experience with Little Effort
   ctas:
@@ -22,7 +22,7 @@ featureSection:
         large: true
         color: blue2
   description: >-
-    Help internal and external users discover, learn, and intergrate with your API quickly by publishing interactive documentation, tutorials, code samples that are always up to date.
+    Help internal and external users discover, learn, and integrate with your API quickly by publishing interactive documentation, tutorials, code samples that are always up to date.
   features:
     - description: >-
         Generate comprehensive documentation with authentication information, examples, code samples from your OpenAPI descriptions.
@@ -32,35 +32,32 @@ featureSection:
       title: OpenAPI Powered API Reference
       titleURL: 
     - description: >-
-        Help your developers discover value in your API quickly by trying out API endpoints with productiona 
-        and sandbox environments from within the API documentation. 
+        Help your developers discover value in your API quickly by trying out API endpoints with production and sandbox environments 
+        from within the API documentation.
       image: /images/docs/try-it-out.png
       shortName: Interactive Documentation
       title: Interactive Documentation
       titleURL:
     - description: >-
-        Do the heavylifting for developers and kickstart integration by providing code samples in popular languages like Curl, Python, Ruby, Java, Typescript and many more. 
+        Do the heavy lifting for developers and kickstart integration by providing code samples in popular languages like Curl, Python, Ruby, Java, and many more.
       image: /images/docs/code-samples.png
       shortName: Code Samples
       title: Code Samples
       titleURL:
     - description: >-
-        Create and publish quick start guides, tutorials and reference documentation with embedded 
-        try it out and JSON schema examples using rich stoplight flavoured markdown. 
+        Create and publish quick start guides, tutorials, and reference documentation with embedded try it out and JSON schema examples using rich stoplight flavored markdown.
       image: /images/docs/markdown-guides.png
       shortName: Markdown Guides
       title: Markdown Guides
       titleURL:
     - description: >-
-        Treat both internal and external APIs as first class citizens by maintaining public and private 
-        documentation in a single catalog with fine grain permissions and controls. 
+        Treat both internal and external APIs as first-class citizens by maintaining public and private documentation in a single catalog with fine-grain permissions and controls. 
       image: /images/docs/api-catalog.png
       shortName: API Catalogs
       title: Private and Public API Catalog
       titleURL: 
     - description: >-
-        Build an API catalog that fits your brand using versatile theming options allowing changes on a fine grain level 
-        and make it easy to find by putting it on your own domain.  
+        Build an API catalog that fits your brand using versatile theming options and make it easy to find by putting it on your domain.  
       image: /images/docs/themeing.png
       shortName: Custom Branding
       title: Branded, on your Domain
@@ -72,7 +69,7 @@ featureSection:
       title: Multiple Versions
       titleURL: 
     - description: >-
-        Let developers find endpoints, reference documentation and schemas easily with a catalog wide search. 
+        Let developers find endpoints, reference documentation, and schemas easily with a catalog wide search.
       image: /images/docs/search-docs.png
       shortName: Search
       title: Powerful Search

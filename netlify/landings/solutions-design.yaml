@@ -5,7 +5,7 @@ relatedTags:
 hero:
   particles: true
   subtitle: >-
-    Adopt an API design-first approach easily by creating, prototyping and sharing OpenAPIs and JSON schemas using a visual editor in minutes.
+    Easily adopt an API design-first approach by creating, prototyping, and sharing OpenAPIs and JSON schemas using a visual editor in minutes.
   title: Design Quality APIs Faster
   ctas:
     - href: '/welcome'
@@ -29,16 +29,15 @@ featureSection:
     Collaborate using tried and tested Git workflows.
   features:
     - description: >-
-        Empower your product managers, architects and developers to create and prototype APIs without going into messy syntax.
-        Stoplight's visual editor comes with comprehensive OpenAPI and JSON Schema support. 
+        Empower your product managers, architects, and developers to create and prototype APIs without going into messy syntax. 
+        Stoplight’s visual editor comes with comprehensive OpenAPI and JSON Schema support.
       image: /images/design/studio.png
       shortName: Visual OpenAPI Editor
       title: Design Faster with a Visual OpenAPI editor
       titleURL: 
     - description: >-
-        Create high quality API designs in line with industry best practices and organizational needs 
-        by enforcing built-in or custom style guides. Style guides come with flexibility to help bring consistency without 
-        drilling down too hard on the current practices.
+        Create high-quality API designs in line with industry best practices and organizational needs by enforcing built-in or 
+        custom style guides. Style guides come with the flexibility to help bring consistency without drilling down too hard on the current practices.
       image: /images/governance/style-guide.png
       shortName: Style Guides
       title: Ensure Consistency and Quality with Style Guides
@@ -57,7 +56,7 @@ featureSection:
       title: Avoid Duplication by Reusing Components
       titleURL:
     - description: >-
-        Put the consumer first by visualizing and trying out the API design and documentation from a consumers perspective within the API editor.     
+       Put the consumer first by visualizing and trying out the API design and documentation within the API editor. Share with a single click when you're ready.
       image: /images/design/docs-studio.png
       shortName: Documentation Preview
       title: Visualize Designs with Live Previews
@@ -69,7 +68,7 @@ featureSection:
       title: Collaborate flexibly with Git Workflows
       titleURL:
 
-  title: All your Design Needs at One Place
+  title: API Design-First Made Easy
 meta:
   description: >-
     Create more complete, robust, and maintainable APIs with a design first approach.

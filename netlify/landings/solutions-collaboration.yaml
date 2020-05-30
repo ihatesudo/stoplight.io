@@ -29,8 +29,8 @@ featureSection:
         color: blue2
   features:
     - description: >-
-        Scale seamlessly by bringing all internal (Product Managers, Developers, Designers, Architects and Technical Writers) 
-        and External Stakeholders in a single place with flexible roles and permissions. 
+        Scale seamlessly by bringing all internal (Product Managers, Developers, Designers, Architects, and Technical Writers) 
+        and External Stakeholders in a single place with flexible roles and permissions.
       image: /images/workspaces/permissions.png
       shortName: Roles and Permissions
       title: Collaborate Securely
@@ -42,7 +42,7 @@ featureSection:
       title: Involve Partners
       titleURL:
     - description: >-
-        Work on your projects privately before sharing them with the organization or the world. It's as simple as changing a setting. 
+        Work on your projects privately before sharing them within the organization or the world. It’s as simple as changing a setting.
       image: /images/workspaces/project-permissions.png
       shortName: Private/Public Projects
       title: Create Privately - Share Publically
