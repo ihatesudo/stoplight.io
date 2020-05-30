@@ -20,7 +20,7 @@ features:
     description: >-
       Empower technical and non-technical stakeholders to create and collaborate 
       on API designs in OpenAPI and JSON Schema using an intuitive user interface.
-    image: /images/home/design.png
+    image: /images/home/design.svg
     cta: Learn More
     titleURL: /design/free
   - title: Documentation
@@ -28,14 +28,14 @@ features:
     description: >-
       Drive API adoption by helping internal and external developers consume 
       APIs easily using interactive documentation with code samples.
-    image: /images/home/developer_experience.png
+    image: /images/home/developer_experience.svg
     cta: Learn More
     titleURL: /design/free
   - title: Visibility
     subtitle: One Shared Source of Truth
     description: >-
       Promote reuse, consistency, and quality by sharing API design artifacts across your organization in an easily searchable and manageable technical knowledge base.
-    image: /images/home/visibility.png
+    image: /images/home/visibility.svg
     cta: Learn More
     titleURL: /design/free
   - title: Governance
@@ -43,7 +43,7 @@ features:
     description: >-
       Design consistent APIs by automatically validating against predefined 
       or custom style guidelines within the API designer.
-    image: /images/home/governance.png
+    image: /images/home/governance.svg
     cta: Learn More
     titleURL: /design/free
   - title: Mocking
@@ -51,7 +51,7 @@ features:
     description: >-
       Get early feedback on API designs and enable API consumers and producers 
       to build in parallel with instant mock servers.
-    image: /images/home/mock.png
+    image: /images/home/mock.svg
     cta: Learn More
     titleURL: /design/free
   - title: Collaboration
@@ -60,7 +60,7 @@ features:
       Streamline your workflow by encouraging all stakeholders - 
       from business to engineering - internal or external to collaborate 
       across the API design and development lifecycle.
-    image: /images/home/collaboration.png
+    image: /images/home/collaboration.svg
     cta: Learn More
     titleURL: /design/free
 vcs:
