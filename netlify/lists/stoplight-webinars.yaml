@@ -1,19 +1,34 @@
 path: /video
 tag: video
-title: Video Content | Stoplight API Intersection
+title: Stoplight Video Content
 subtitle: Watch & Learn
-color: purple
-tabs:
-  - href: /video
-    title: Videos
-  - href: /video/subscribe
-    title: Subscribe
-actionBar:
+hero:
+  particles: true
   ctas:
-    - href: /video/subscribe
-      title: Subscribe
+    - title: Subscribe to Stoplight Webinars
+      type: 'submit'
+      submit:
+        button:
+          color: purple
+          title: Subscribe to Stoplight Webinars
+        input:
+          type: email
+          placeholder: Your email...
+        formId: '0bd79a8c-f086-4e72-9641-a1255add5ac0'
+actionBar:
   enabled: true
   text: Subscribe to Stoplight Webinars
+  ctas:
+    - title: Subscribe to Stoplight Webinars
+      type: 'submit'
+      submit:
+        button:
+          color: purple
+          title: Subscribe
+        input:
+          type: email
+          placeholder: Your email...
+        formId: '0bd79a8c-f086-4e72-9641-a1255add5ac0'
 meta:
   description: Watch & Learn
   favicon: /images/mark_light_bg.png
