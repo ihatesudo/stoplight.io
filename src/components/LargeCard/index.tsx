@@ -13,17 +13,21 @@ export interface ILargeCard {
   cta?: string;
   titleURL?: string;
   titleColor?: string;
-  imageLeft?: boolean
+  index: number;
 }
 
 export const LargeCard: React.FunctionComponent<ILargeCard> = props => {
-  const { title, subtitle, description, image, cta, titleURL, titleColor, imageLeft } = props;
+  const { title, subtitle, description, image, cta, titleURL, titleColor, index } = props;
 
   return (
     <div id={title} key="content" className={cn('flex py-12 sm:pb-0 flex-row')}>
-      
+      {!(index % 2) &&
+        <div className="relative sm:hidden">
+          <Image src={image} size="sm" className="w-128" />
+        </div>
+      }
       <div
-        className={cn('flex leading-loose flex-col pr-24 sm:pr-0 flex-1 w-1/2 sm:w-100 sm:items-center sm:text-center')}
+        className={cn('flex leading-loose flex-col pl-24 pr-24 sm:pr-0 flex-1 w-1/2 sm:w-100 sm:items-center sm:text-center')}
       >
         <h2 className="text-2xl uppercase text-grey">{title}</h2>
         <h3 className={cn('text-4xl', `text-${titleColor || 'black'}`)}>{subtitle}</h3>
@@ -38,11 +42,11 @@ export const LargeCard: React.FunctionComponent<ILargeCard> = props => {
           </Link>
         )}
       </div>
-
-      <div className="relative sm:hidden">
-        <Image src={image} size="sm" className="w-96" />
-      </div>
-
+      {index % 2 &&
+        <div className="relative sm:hidden">
+          <Image src={image} size="sm" className="w-128" />
+        </div>
+      }
     </div>
   );
 };

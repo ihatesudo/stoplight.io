@@ -85,7 +85,7 @@ export const Home: React.FunctionComponent<IHome> = ({
           <h2 className="text-4xl text-black">A Solution for Every Part of the API Design Lifecycle</h2>
         </div>
         <Container className="flex flex-wrap justify-center pt-20 md:block md:w-96">
-          {features && features.map((feature, index) => <LargeCard key={index} {...feature} />)}
+          {features && features.map((feature, index) => <LargeCard key={index} {...Object.assign(feature,{index:index})}/>)}
         </Container>
         <div className="container w-3/4 mt-20 border-t"></div>
       </Section>
