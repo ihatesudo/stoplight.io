@@ -63,10 +63,16 @@ featureSection:
       title: Visualize Dependencies
       titleURL:
     - description: >-
-        Inform consumers about changes proactively by tracking changes of all API artifacts. Keep everything up to date by tracking changes between dependent artifacts. Avoid reinventing the wheel. Star important assets, to enable easy discovery of API artifacts for reuse in future designs.
+        Stay up to date with automatic changelogs for all API design artifacts. Inform consumers about changes proactively and avoid out of date dependencies. 
+      image: 
+      shortName: Changelogs
+      title: Track Changes
+      titleURL:
+    - description: >-
+        Star important assets, to enable easy discovery of important API artifacts by stakeholders. 
       image: /images/governance/reuse.png
-      shortName: Encourage Reuse
-      title: Encourage Reuse
+      shortName: Star and Reuse
+      title: Star What's Important
       titleURL:
   title: Never Lose Sight of Your APIs Again
 meta:
