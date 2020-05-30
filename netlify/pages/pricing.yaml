@@ -7,7 +7,6 @@ plans:
     titleColor: green
     summary: 'Design and documentation basics to get started'
     addInfo:
-
     button:
       color: green
       title: Get Started
@@ -81,7 +80,7 @@ plans:
     features:
       - name: Everything in Starter
       - name: Unlimited Projects
-      - name: Guest Access
+      - name: Up to 50 Guest Users
       - name: Remove Stoplight Branding
       - name: Unlimited Changelogs
       - name: Dependency Tracking
@@ -117,7 +116,7 @@ plans:
       href: '/demo/'
     features:
       - name: Everything in Professional
-      - name: Unlimited Guest Access
+      - name: Unlimited Guest Users
       - name: Self-Hosted Deployment
       - name: Multiple Git & Auth Providers
       - name: Customer Success Manager

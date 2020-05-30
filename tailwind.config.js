@@ -288,7 +288,17 @@ module.exports = {
 
   fonts: {
     sans: [
-      'Open Sans',
+      'Helvetica Neue',
+      '-apple-system',
+      'BlinkMacSystemFont',
+      'Segoe UI',
+      'Roboto',
+      'Oxygen',
+      'Ubuntu',
+      'Cantarell',
+      'Fira Sans',
+      'Droid Sans',   
+      'sans-serif',
     ],
     serif: [
       'Constantia',

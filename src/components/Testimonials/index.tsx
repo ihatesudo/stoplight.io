@@ -53,13 +53,13 @@ export const Testimonial: React.FunctionComponent<ITestimonial> = ({
         )}
 
         <div className="flex flex-col justify-center p-8 leading-normal">
-          <p className="flex-1 leading-loose text-grey-darker">{quote}</p>
+          <p className="text-xl flex-1 leading-loose text-grey-darker">{quote}</p>
 
-          <p className="mt-4 font-bold">
+          <p className="mt-4 font-semibold">
             {author}
-            {company && `, ${company}`}
-            {role && `, ${role}`}
           </p>
+          <p className="text-lg font-bold">{role && `${role}`}
+            {company && `, ${company}`}</p>
         </div>
       </div>
     </div>

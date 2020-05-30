@@ -137,7 +137,7 @@ export const HomeHero: React.FunctionComponent<IHomeHero> = ({
           )}
           style={contentBgImage ? { textShadow: `rgba(0, 0, 0, 0.6) 1px 1px 0px` } : undefined}
         >
-          <div className="flex">
+          <div className="flex pt-32">
             <div
               className={cn('flex-1', titleClassName, {
                 'mx-auto': !aligned || aligned === 'center',
@@ -166,7 +166,7 @@ export const HomeHero: React.FunctionComponent<IHomeHero> = ({
 
                   {subtitle && (
                     <h2
-                      className={cn('font-default opacity-75 max-w-xl mt-4 md:mt-4', {
+                      className={cn('font-default text-3xl opacity-85 max-w-lg mt-4 md:mt-4', {
                         'mx-auto': !aligned || aligned === 'center',
                         'ml-auto': aligned === 'right',
                         'mr-auto sm:mx-auto': aligned === 'left',
@@ -254,7 +254,7 @@ export const HomeHero: React.FunctionComponent<IHomeHero> = ({
                 right: skew === 'rounded' ? '-50%' : 0,
                 borderRadius: skew === 'rounded' ? '50%' : '0',
                 transform: skew && skew !== 'rounded' ? `skew(0, ${skew})` : undefined,
-                background: bgColor ? undefined : 'radial-gradient(circle, #0f0c2f 0%, #080515 100%)',
+                background: bgColor ? undefined : 'radial-gradient(circle, #0f0c2f 100%, #080515 100%)',
               }}
               useDiv
             />
@@ -276,6 +276,9 @@ export const HomeHero: React.FunctionComponent<IHomeHero> = ({
                         enable: false,
                       },
                     },
+                    color: {
+                      value: "#0B6FCC"
+                    },
                     size: {
                       value: 3,
                       random: true,
@@ -285,7 +288,7 @@ export const HomeHero: React.FunctionComponent<IHomeHero> = ({
                       },
                     },
                     line_linked: {
-                      enable: false,
+                      enable: true,
                     },
                     move: {
                       random: true,

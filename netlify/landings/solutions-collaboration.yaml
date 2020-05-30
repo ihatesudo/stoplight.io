@@ -9,7 +9,7 @@ hero:
   ctas:
     - href: '/welcome'
       title: Get Started with Stoplight
-      color: green
+      color: blue2
       large: true
       rightIcon: ['fad', 'arrow-right']
 featureSection:

@@ -82,16 +82,16 @@ export const Home: React.FunctionComponent<IHome> = ({
       <HomeHero bgColor={color} {...hero} />
       <Section id="features">
         <div className="text-center">
-          <h2 className="text-4xl">Design, Collaborate, Govern, and Document All Your APIs in One Place</h2>
+          <h2 className="text-4xl text-black">A Solution for Every Part of the API Design Lifecycle</h2>
         </div>
-        <Container className="flex flex-wrap justify-center pt-20 sm:block sm:w-96">
+        <Container className="flex flex-wrap justify-center pt-20 md:block md:w-96">
           {features && features.map((feature, index) => <LargeCard key={index} {...feature} />)}
         </Container>
         <div className="container w-3/4 mt-20 border-t"></div>
       </Section>
       <Section id="VCS" noPadding>
         <div className="text-center">
-          <h3 className="text-3xl">All this while integrating seamlessly with your favorite VCS</h3>
+          <h3 className="text-4xl">All this while integrating seamlessly with your favorite VCS</h3>
         </div>
         <Container className="pt-20 text-center ">
           <div className="flex justify-center">

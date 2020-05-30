@@ -15,27 +15,27 @@ hero:
       large: true
       title: Get Started For Free
 features:
-  - title: Visibility
-    subtitle: One Shared Source of Truth
-    description: >-
-      Promote reuse, consistency, and quality by sharing API design artifacts across your organization in an easily searchable and manageable technical knowledge base.
-    image: /images/design_quick_start.png
-    cta: Learn More
-    titleURL: /design/free
   - title: Design
     subtitle: Design Beautiful APIs Quickly
     description: >-
       Empower technical and non-technical stakeholders to create and collaborate 
       on API designs in OpenAPI and JSON Schema using an intuitive user interface.
-    image: /images/mocking_request_validation.png
+    image: /images/home/design.png
     cta: Learn More
     titleURL: /design/free
   - title: Documentation
-    subtitle: Provide an amazing developer experience
+    subtitle: Build Amazing Developer Experiences
     description: >-
       Drive API adoption by helping internal and external developers consume 
       APIs easily using interactive documentation with code samples.
-    image: /images/design_visual.png
+    image: /images/home/developer_experience.png
+    cta: Learn More
+    titleURL: /design/free
+  - title: Visibility
+    subtitle: One Shared Source of Truth
+    description: >-
+      Promote reuse, consistency, and quality by sharing API design artifacts across your organization in an easily searchable and manageable technical knowledge base.
+    image: /images/home/visibility.png
     cta: Learn More
     titleURL: /design/free
   - title: Governance
@@ -43,15 +43,15 @@ features:
     description: >-
       Design consistent APIs by automatically validating against predefined 
       or custom style guidelines within the API designer.
-    image: /images/design_quick_start.png
+    image: /images/home/governance.png
     cta: Learn More
     titleURL: /design/free
   - title: Mocking
-    subtitle: Develop with agility and quality
+    subtitle: Develop with Agility and Quality
     description: >-
       Get early feedback on API designs and enable API consumers and producers 
       to build in parallel with instant mock servers.
-    image: /images/mocking_request_validation.png
+    image: /images/home/mock.png
     cta: Learn More
     titleURL: /design/free
   - title: Collaboration
@@ -60,7 +60,7 @@ features:
       Streamline your workflow by encouraging all stakeholders - 
       from business to engineering - internal or external to collaborate 
       across the API design and development lifecycle.
-    image: /images/design_visual.png
+    image: /images/home/collaboration.png
     cta: Learn More
     titleURL: /design/free
 vcs:
@@ -247,18 +247,13 @@ testimonials:
       company: MediaMath
       image: /images/felix_s.jpg
       quote: >-
-        Stoplight provides a clean user interface and enables an engineering
-        team to develop a compliant API with minimal difficulty. Other tools
-        don't provide the same details, guard rails, and error validation that
-        Stoplight provides.
+        Stoplight enables our engineering team to develop compliant APIs with minimal difficulty.
       role: Director of Engineering
     - author: Nicolas Tisserand
       company: Arkéa
       image: /images/customers/nicolas-t.jpeg
       quote: >-
-        A visual editor like Stoplight is the first step to access the API world.
-        By using Stoplight, we are enforcing Product Owners to be clear on what they want.
-        They must take part in the design process and this is done through Stoplight.
+        Thanks to Stoplight's visual API editor our Product Owners are now a critical part of the API design process. 
       role: API Management Architect
     # - author: John Vajda
     #   company: JumpCloud
@@ -278,9 +273,9 @@ testimonials:
     #   role: Manager of Developer Advocacy
 actionBar:
   ctas:
-    - color: accent
-      href: '/demo'
-      title: Learn More
+    - color: blue2
+      href: '/welcome'
+      title: Get Started For Free
   enabled: true
   text: Ready to get started building better APIs?
 meta:
