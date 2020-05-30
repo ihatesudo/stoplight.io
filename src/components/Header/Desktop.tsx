@@ -48,7 +48,7 @@ const HeaderDropdown: React.FunctionComponent<IHeaderItem> = ({
         <div
           className={cn(
             className,
-            'flex select-none cursor-default text-white rounded-lg px-3 py-1 mx-3 hover:bg-lighten-50 opacity-85 relative',
+            'flex select-none cursor-default text-black rounded-lg px-3 py-1 mx-3 hover:bg-lighten-50 opacity-85 relative',
             {
               'opacity-100 bg-lighten-50': isVisible,
             }
@@ -226,7 +226,7 @@ export const Desktop: React.FunctionComponent<{ items: IHeaderItem[]; unpinned: 
       <Link
         key={index}
         to={href}
-        className="px-3 py-1 mx-4 text-lg text-white rounded-lg opacity-85 hover:opacity-100 sm:hidden hover:text-white hover:bg-lighten-50"
+        className="px-3 py-1 mx-4 text-lg text-black rounded-lg opacity-85 hover:opacity-100 sm:hidden hover:text-black hover:bg-lighten-50"
       >
         {unpinned ? altTitle || title : title}
       </Link>
@@ -260,7 +260,7 @@ export const Desktop: React.FunctionComponent<{ items: IHeaderItem[]; unpinned: 
         href={href}
         icon={icon}
         className={cn('text-lg sm:hidden', {
-          [`bg-${altBg} ease-in`]: unpinned && altBg,
+          [`bg-${altBg} ease-in`]: altBg,
         })}
       />
     );

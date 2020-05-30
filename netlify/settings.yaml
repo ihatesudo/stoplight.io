@@ -102,14 +102,11 @@ header:
       title: Blog
     - href: /about
       title: About
-    - href: /demo
-      isButton: true
-      title: Get Started
-      altBg: purple
     - href: 'https://stoplight.io/welcome'
       altHref: 'https://stoplight.io/welcome'
       isButton: true
-      title: Start
+      title: Sign Up For Free
+      altBg: blue2
       icon: ['fad', 'arrow-right']
 actionBar:
   ctas:

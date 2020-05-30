@@ -85,7 +85,7 @@ export const HomeHero: React.FunctionComponent<IHomeHero> = ({
   subtitle,
   author,
   ctas,
-  bgColor = 'black',
+  bgColor = 'white',
   contentBgImage,
   greyBg,
   particles,
@@ -133,7 +133,7 @@ export const HomeHero: React.FunctionComponent<IHomeHero> = ({
         <div
           className={cn(
             containerClassName,
-            `container text-white flex flex-col pt-32 sm:pt-14 relative z-5 text-${aligned} relative`
+            `container text-black flex flex-col pt-32 sm:pt-14 relative z-5 text-${aligned} relative`
           )}
           style={contentBgImage ? { textShadow: `rgba(0, 0, 0, 0.6) 1px 1px 0px` } : undefined}
         >
@@ -149,7 +149,7 @@ export const HomeHero: React.FunctionComponent<IHomeHero> = ({
                 <div className="flex items-center mb-4 font-semibold text-white opacity-85">
                   {breadCrumbs.map((breadCrumb, index) => (
                     <React.Fragment key={index}>
-                      <Link className="text-white" to={breadCrumb.path}>
+                      <Link className="text-black" to={breadCrumb.path}>
                         {breadCrumb.title}
                       </Link>
                       {index < breadCrumbs.length - 1 ? <span className="mx-2">></span> : null}
@@ -158,7 +158,7 @@ export const HomeHero: React.FunctionComponent<IHomeHero> = ({
                 </div>
               ) : null}
 
-              {pageName && <div className="mb-4 font-semibold text-white uppercase opacity-85">{pageName}</div>}
+              {pageName && <div className="mb-4 font-semibold text-black uppercase opacity-85">{pageName}</div>}
 
               <div className="flex">
                 <div className="flex-1">
@@ -196,7 +196,7 @@ export const HomeHero: React.FunctionComponent<IHomeHero> = ({
 
                 {author && (
                   <div>
-                    <HeroAuthor className="mt-6 text-white opacity-85" {...author} />
+                    <HeroAuthor className="mt-6 text-black opacity-85" {...author} />
                   </div>
                 )}
               </div>
@@ -209,7 +209,7 @@ export const HomeHero: React.FunctionComponent<IHomeHero> = ({
             </div>
           </div>
 
-          {bottomElem && (
+          {/* {bottomElem && (
             <div className="pb-32 -mb-48 pt-14 sm:hidden">
               <Image
                 className="rounded-lg shadow-lg"
@@ -219,7 +219,7 @@ export const HomeHero: React.FunctionComponent<IHomeHero> = ({
                 }}
               />
             </div>
-          )}
+          )} */}
         </div>
 
         {/* {image && <HeroImage {...image} className="relative mt-16 z-5" />} */}

@@ -1,16 +1,16 @@
 hero:
   particles: true
-  bottomElem: true
-  skew: rounded
+  bottomElem: false
+  skew: false
   subtitle: >-
-    Streamline your API development workflow by Designing, Developing, and Documenting APIs with best-in-class tooling that integrates seamlessly into your workflows
+    Supercharge your API lifecycle with best-in-class tooling that integrates seamlessly into your workflows
   title: Build Quality APIs Efficiently
 
   # image:
   #   alt: Documentation
   #   src: /images/placeholder.gif
   ctas:
-    - color: purple
+    - color: blue2
       href: https://stoplight.com/welcome
       large: true
       title: Get Started For Free
@@ -66,37 +66,38 @@ features:
 vcs:
   title: All this while integrating seamlessly with your favorite VCS
   description: >-
-    Connect easily with Git providers like GitHub, GitLab, and Bitbucket to bring in 
-    your project changes automatically. No awkward two-way sync, you can commit directly 
-    to your projects from Studio, and fit easily into your existing Git workflows.
+    Connect easily with Git providers to bring in  your project changes automatically. 
+    No awkward two-way sync, work directly with repositories 
+    fitting easily into existing Git workflows.
   cta: Learn More
   href: /design
   images:
-    - img: /images/gh-logo.png
     - img: /images/gitlab-icon-rgb.png
+    - img: /images/gh-logo.png
     - img: /images/bitbucket-logo-png-transparent.png
+    - img: /images/gitea-logo.png
 collage:
   images:
     - alt: EA
       src: /images/ea.png
-    - alt: Arkea
-      src: /images/logo_arkea_transparent.png
+#    - alt: Arkea
+#      src: /images/logo_arkea_transparent.png
     - alt: Chargify
       src: /images/chargify-new-logo.png
-    - alt: Deutsche Bank
-      src: /images/deutsche_bank.png
+#    - alt: Deutsche Bank
+#      src: /images/deutsche_bank.png
     - alt: Sendgrid
       src: /images/logo-sendgrid.png
-    - alt: Shopgate
-      src: /images/shopgate.png
+#    - alt: Shopgate
+#      src: /images/shopgate.png
     - alt: TiVo
       src: /images/tivo.png
     - alt: Zoom
       src: /images/zoom_logo.png
-    - alt: EA
-      src: /images/ea.png
-    - alt: Arkea
-      src: /images/logo_arkea_transparent.png
+#    - alt: EA
+#      src: /images/ea.png
+#    - alt: Arkea
+#      src: /images/logo_arkea_transparent.png
   title: >-
     Leading Organizations Trust Stoplight with their APIs
 # pageSubjects:
