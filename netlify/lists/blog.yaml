@@ -3,8 +3,6 @@ subtitle: >-
     Musings on API design, testing, documentation, trends, and related technology.
 path: /blog
 tag: blog
-title: Stoplight API Intersection
-subtitle: 'Musings on API design, testing, documentation, trends, and related technology.'
 hero:
   particles: true
   ctas:
