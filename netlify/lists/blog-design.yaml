@@ -1,7 +1,8 @@
 path: /blog/api-design
 tag: blog-design
-title: API Design
-color: purple
+title: API Design Blog Posts
+hero:
+  particles: true
 tabs:
   - href: /blog
     title: Latest
@@ -15,6 +16,8 @@ tabs:
     title: API Documentation
   - href: /blog/api-testing
     title: API Testing
+  - href: 'https://support.stoplight.io/hc/en-us/sections/360006632531-Releases'
+    title: Changelog
 actionBar:
   enabled: false
 meta:
