@@ -18,7 +18,7 @@ featureSection:
     enabled: true
     ctas:
       - href: '/welcome'
-        title: Get Started with Stoplight
+        title: Get Started For Free
         large: true
         color: blue2
   description: >-

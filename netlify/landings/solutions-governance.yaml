@@ -24,7 +24,7 @@ featureSection:
     enabled: true
     ctas:
       - href: 'https://stoplight.io/welcome'
-        title: Get Started with Stoplight
+        title: Get Started For Free
         rightIcon: ['fad', 'arrow-right']
         color: blue2
         large: true

@@ -23,7 +23,7 @@ featureSection:
   actionBar:
     ctas:
       - href: '/welcome'
-        title: Get Started with Stoplight
+        title: Get Started For Free
         large: true
         color: blue2
         rightIcon: ['fad', 'arrow-right']

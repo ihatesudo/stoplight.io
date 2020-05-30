@@ -8,7 +8,7 @@ hero:
   title: Build APIs Together
   ctas:
     - href: '/welcome'
-      title: Get Started with Stoplight
+      title: Get Started For Free
       color: blue2
       large: true
       rightIcon: ['fad', 'arrow-right']

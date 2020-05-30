@@ -9,7 +9,7 @@ hero:
   title: Develop APIs with Confidence
   ctas:
     - href: '/welcome'
-      title: Get Started with Stoplight
+      title: Get Started For Free
       color: blue2
       large: true
       rightIcon: ['fad', 'arrow-right']
@@ -37,23 +37,23 @@ featureSection:
       title: Streamline Development with API Design-First
       titleURL: 
     - description: >-
-        Develop faster by starting with clear and complete requirements before development. 
-        Get early feedback from all stakeholders to avoid changing requirements later.
+        Reduce cost and time to market by letting frontend and backend teams develop 
+        simultaneously without waiting for the development stage of the API to complete.
       image: /images/mocking/hosted-mocks.png
       shortName: Parallel Development
       title: Develop Simultaneously with Instant Mock Servers
       titleURL:
     - description: >-
-        Reduce cost and time to market by letting frontend and backend teams develop 
-        simultaneously without waiting for the development stage of the API to complete.
+        Validate requests and responses against your OpenAPI document. Stoplight mocks 
+        simulate real server behavior by automatically validating incoming request headers, 
+        query strings, and request bodies against your OpenAPI document.
       image: /images/mocking/validate-prism.png
       shortName: Contract Testing
       title: Validate Implementations Automatically
       titleURL:
     - description: >-
-        Validate requests and responses against your OpenAPI document. Stoplight mocks 
-        simulate real server behavior by automatically validating incoming request headers, 
-        query strings, and request bodies against your OpenAPI document.
+        Developers love using Git. Collaborate on API designs easily using Git (Not Git-Like), 
+        seamlessly fitting into existing development workflows. No awkward two-way sync, work directly with the repositories.
       image: /images/design/git-workflows.png
       shortName: Git Workflows
       title: Integrate with Tools that Developers Love
