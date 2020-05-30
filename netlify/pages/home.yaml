@@ -22,7 +22,7 @@ features:
       on API designs in OpenAPI and JSON Schema using an intuitive user interface.
     image: /images/home/design.svg
     cta: Learn More
-    titleURL: /design/free
+    titleURL: /solutions/design
   - title: Documentation
     subtitle: Build Amazing Developer Experiences
     description: >-
@@ -30,14 +30,14 @@ features:
       APIs easily using interactive documentation with code samples.
     image: /images/home/developer_experience.svg
     cta: Learn More
-    titleURL: /design/free
+    titleURL: /solutions/documentation
   - title: Visibility
-    subtitle: One Shared Source of Truth
+    subtitle: Maintain a Central Source of Truth
     description: >-
       Promote reuse, consistency, and quality by sharing API design artifacts across your organization in an easily searchable and manageable technical knowledge base.
     image: /images/home/visibility.svg
     cta: Learn More
-    titleURL: /design/free
+    titleURL: /solutions/visibility
   - title: Governance
     subtitle: Adhere to Best Practices
     description: >-
@@ -45,7 +45,7 @@ features:
       or custom style guidelines within the API designer.
     image: /images/home/governance.svg
     cta: Learn More
-    titleURL: /design/free
+    titleURL: /solutions/governance
   - title: Mocking
     subtitle: Develop with Agility and Quality
     description: >-
@@ -53,7 +53,7 @@ features:
       to build in parallel with instant mock servers.
     image: /images/home/mock.svg
     cta: Learn More
-    titleURL: /design/free
+    titleURL: /solutions/mocking
   - title: Collaboration
     subtitle: Promote Stakeholder Alignment
     description: >-
@@ -62,7 +62,7 @@ features:
       across the API design and development lifecycle.
     image: /images/home/collaboration.svg
     cta: Learn More
-    titleURL: /design/free
+    titleURL: /solutions/collaboration
 vcs:
   title: All this while integrating seamlessly with your favorite VCS
   description: >-
@@ -99,7 +99,6 @@ collage:
 #    - alt: Arkea
 #      src: /images/logo_arkea_transparent.png
   title: >-
-    Leading Organizations Trust Stoplight with their APIs
 # pageSubjects:
 # - title: Source of Truth
 #   description: >-

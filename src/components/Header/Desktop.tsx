@@ -187,12 +187,23 @@ const OpenSourceLinks = () => {
     <div className="p-6">
       <div className="flex">
         <ProductLink
-          name="Spectral"
-          description="Create API style guides to increase API consistency and quality."
+          name="Studio"
+          description="Easily edit & collaborate on OpenAPI, Markdown, and JSON schema."
           className="mr-2"
           color="blue"
+          href="/studio"
+          icon={['fad', 'database']}
+          tag="Design"
+        />
+
+        <ProductLink
+          name="Spectral"
+          description="Create API style guides to increase API consistency and quality."
+          className="ml-2"
+          color="orange"
           href="/open-source/spectral"
           icon={['fad', 'badge-check']}
+          tag="Validation"
         />
 
         <ProductLink
@@ -202,6 +213,7 @@ const OpenSourceLinks = () => {
           color="green"
           href="/open-source/prism"
           icon={['fad', 'database']}
+          tag="Mocking"
         />
       </div>
     </div>
@@ -269,7 +281,7 @@ export const Desktop: React.FunctionComponent<{ items: IHeaderItem[]; unpinned: 
   return (
     <>
       {nonButtonElems}
-      <HeaderDropdown title="Open Source" className="text-lg sm:hidden" content={() => <OpenSourceLinks />} />
+      <HeaderDropdown title="Tools" className="text-lg sm:hidden" content={() => <OpenSourceLinks />} />
       <div className="flex-1" />
       {buttonElems}
     </>

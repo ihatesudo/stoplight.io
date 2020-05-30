@@ -8,17 +8,18 @@ hero:
     Adopt an API design-first approach easily by creating, prototyping and sharing OpenAPIs and JSON schemas using a visual editor in minutes.
   title: Design Quality APIs Faster
   ctas:
-    - href: '/studio'
-      title: Try Studio
-      color: purple
+    - href: '/welcome'
+      title: Get Started with Stoplight
+      color: blue2
       large: true
       rightIcon: ['fad', 'arrow-right']
 featureSection:
   actionBar:
     ctas:
-      - href: '/studio'
-        title: Try Studio
-        color: green
+      - href: '/welcome'
+        title: Get Started with Stoplight
+        large: true
+        color: blue2
         rightIcon: ['fad', 'arrow-right']
     enabled: true
     text: Ready to Start Designing APIs?

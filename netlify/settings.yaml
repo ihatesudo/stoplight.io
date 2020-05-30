@@ -52,7 +52,20 @@ header:
           icon: ['fad', 'user-friends']
           title: API Collaboration
           titleColor: yellow
-        - divider: true
+      title: Use Cases
+      width: 300
+    - href: /pricing
+      title: Pricing
+    - href: /enterprise
+      title: Enterprise
+    - href: /about
+      title: About
+    - links:
+        - href: /blog
+          icon: ['fad', 'blog']
+          title: Blog
+          titleColor: indigo
+        - divider: true    
         - href: /case-studies
           icon: ['fad', 'graduation-cap']
           title: Case Studies
@@ -69,7 +82,7 @@ header:
           icon: ['fad', 'bookmark']
           title: API Documentation Guide
           titleColor: purple
-      title: Solutions
+      title: Learn
       width: 300
     - aboutLinks:
         - href: '/about'
@@ -94,14 +107,6 @@ header:
           titleColor: yellow
       title: About
       width: 300
-    - href: /pricing
-      title: Pricing
-    - href: /enterprise
-      title: Enterprise
-    - href: /blog
-      title: Blog
-    - href: /about
-      title: About
     - href: 'https://stoplight.io/welcome'
       altHref: 'https://stoplight.io/welcome'
       isButton: true

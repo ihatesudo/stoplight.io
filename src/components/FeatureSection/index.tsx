@@ -103,13 +103,13 @@ export interface IFeatureStrip {
 
 export const FeatureStrip = ({ features }: IFeatureStrip) => {
   return (
-    <div className="py-4 overflow-auto text-black whitespace-no-wrap shadow bg-grey-lightest">
+    <div className="py-4 overflow-auto text-black whitespace-no-wrap shadow bg-black">
       <div className="container flex flex-no-wrap items-center justify-around sm:justify-start">
         {features.map((feature, key) => (
           <a
             key={key}
             href={`#${slugify(feature.title)}`}
-            className="flex items-center justify-center px-4 py-2 font-semibold text-blue2 rounded-xl hover:bg-lighten-50"
+            className="flex items-center justify-center px-4 py-2 font-normal text-lg text-white rounded-xl hover:bg-lighten-50"
           >
             <Icon className="text-lg" icon={['fad', 'check-circle']} />
             <div className="ml-3">{feature.shortName}</div>

@@ -7,14 +7,9 @@ hero:
   subtitle: Reduce time to market with instant mock servers by designing intelligently and optimizing API development.
   title:  Design Better - Develop Faster
   ctas:
-    - href: '/studio'
-      title: Try Out Mocking in Stoplight Studio
-      color: green
-      large: true
-      rightIcon: ['fad', 'arrow-right']
-    - href: '/open-source/prism'
-      title: Prism Open Source Mock Server
-      color: purple
+    - href: '/welcome'
+      title: Get Started with Stoplight
+      color: blue2
       large: true
       rightIcon: ['fad', 'arrow-right']
 featureSection:
@@ -22,9 +17,11 @@ featureSection:
     text: 'Ready to mock your API?'
     enabled: true
     ctas:
-      - href: '/studio'
-        title: Get Started with Stoplight Studio
+      - href: '/welcome'
+        title: Get Started with Stoplight
+        large: true
         rightIcon: ['fad', 'arrow-right']
+        color: blue2
   description: >-
     Visualize and get feedback on your API designs before spending time on development. 
     Let your Frontend and Backend teams develop in parallel with hosted mock servers. 

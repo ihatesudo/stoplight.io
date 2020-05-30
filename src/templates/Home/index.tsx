@@ -80,9 +80,24 @@ export const Home: React.FunctionComponent<IHome> = ({
   return (
     <Layout>
       <HomeHero bgColor={color} {...hero} />
+      {collage && (
+        <Container>
+          <div className="text-center">
+            <Container title={collage.title}>
+              <div className="flex flex-wrap justify-between">
+                {collage.images.map((image, key) => (
+                  <div key={key} className="p-8 text-center sm:w-1/2 sm:p-6">
+                    <Image className="h-12" src={image.src} alt={image.alt} size="sm" />
+                  </div>
+                ))}
+              </div>
+            </Container>
+          </div>
+        </Container>
+      )}
       <Section id="features">
         <div className="text-center">
-          <h2 className="text-4xl text-black">A Solution for Every Part of the API Design Lifecycle</h2>
+          <h2 className="text-4xl uppercase text-grey-darkest">A Solution for Every Step of the API Design Lifecycle</h2>
         </div>
         <Container className="flex flex-wrap justify-center pt-20 md:block md:w-96">
           {features && features.map((feature, index) => <LargeCard key={index} {...Object.assign(feature,{index:index})}/>)}
@@ -91,7 +106,8 @@ export const Home: React.FunctionComponent<IHome> = ({
       </Section>
       <Section id="VCS" noPadding>
         <div className="text-center">
-          <h3 className="text-4xl">All this while integrating seamlessly with your favorite VCS</h3>
+          <h3 className="text-4xl text-black">Git Workflows with your favorite VCS</h3>
+
         </div>
         <Container className="pt-20 text-center ">
           <div className="flex justify-center">
@@ -115,21 +131,6 @@ export const Home: React.FunctionComponent<IHome> = ({
         <div className="container w-3/4 my-32 border-t"></div>
       </Section>
 
-      {collage && (
-        <Container>
-          <div className="text-center">
-            <Container title={collage.title}>
-              <div className="flex flex-wrap justify-between">
-                {collage.images.map((image, key) => (
-                  <div key={key} className="p-8 text-center sm:w-1/2 sm:p-6">
-                    <Image className="h-12" src={image.src} alt={image.alt} size="sm" />
-                  </div>
-                ))}
-              </div>
-            </Container>
-          </div>
-        </Container>
-      )}
       {testimonials && <Testimonials {...testimonials} />}
 
       <Section noPaddingT>

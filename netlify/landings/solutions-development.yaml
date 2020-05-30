@@ -8,17 +8,18 @@ hero:
     Arm developers to prototype and develop quality APIs faster. 
   title: Optimize API Development 
   ctas:
-    - href: '/studio'
-      title: Try Studio
+    - href: '/welcome'
+      title: Get Started with Stoplight
+      color: blue2
       large: true
-      color: purple
       rightIcon: ['fad', 'arrow-right']
 featureSection:
   actionBar:
     ctas:
-      - href: '/studio'
-        title: Try Studio
-        color: green
+      - href: '/welcome'
+        title: Get Started with Stoplight
+        large: true
+        color: blue2
         rightIcon: ['fad', 'arrow-right']
     enabled: true
     text: Ready to Start Developing APIs?

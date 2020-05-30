@@ -1,5 +1,5 @@
 title: Stoplight Enterprise
-color: black
+color: white
 path: /enterprise
 hero:
   particles: true
@@ -13,13 +13,12 @@ hero:
     - href: '/demo'
       title: Request Demo
       large: true
-      rightIcon: ['fad', 'arrow-right']
-      color: purple
-    - href: '/workspaces'
-      title: Explore Workspaces
+      color: blue2
+    - href: '/welcome'
+      title: Create a Workspace
       large: true
       rightIcon: ['fad', 'arrow-right']
-      color: gold
+      color: blue2
 image:
   alt: Stoplight Enterprise Platform
   src: /images/enterprise/flow_placeholder.png

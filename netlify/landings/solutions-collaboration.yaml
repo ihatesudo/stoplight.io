@@ -12,6 +12,11 @@ hero:
       color: blue2
       large: true
       rightIcon: ['fad', 'arrow-right']
+    - href: '/pricing'
+      title: View Plans and Pricing
+      color: blue2
+      large: true
+      outlined: true
 featureSection:
   actionBar:
     text: 'Ready to collaborate with your team?'
@@ -19,7 +24,9 @@ featureSection:
     ctas:
       - href: '/welcome'
         title: Get Started with Stoplight
+        large: true
         rightIcon: ['fad', 'arrow-right'] 
+        color: blue2
   features:
     - description: >-
         Scale seamlessly by bringing all internal (Product Managers, Developers, Designers, Architects and Technical Writers) 

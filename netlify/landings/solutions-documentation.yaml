@@ -7,11 +7,6 @@ hero:
   particles: true
   title: Amazing Developer Experience with Little Effort
   ctas:
-    - href: '/documentation'
-      title: Learn more about Developer Experience
-      color: green
-      large: true
-      rightIcon: ['fad', 'arrow-right']
     - href: '/welcome'
       title: Get Started with Stoplight
       color: blue2
@@ -22,8 +17,10 @@ featureSection:
     text: 'Ready to learn more?'
     enabled: true
     ctas:
-      - href: '/documentation'
-        title: Get Started
+      - href: '/welcome'
+        title: Get Started with Stoplight
+        large: true
+        color: blue2
   description: >-
     Help internal and external users discover, learn, and intergrate with your API quickly by publishing interactive documentation, tutorials, code samples that are always up to date.
   features:

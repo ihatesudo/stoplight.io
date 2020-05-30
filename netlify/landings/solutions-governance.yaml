@@ -10,14 +10,14 @@ hero:
   ctas:
     - href: '/welcome'
       title: Get Started with Stoplight
-      color: green
+      color: blue2
       large: true
       rightIcon: ['fad', 'arrow-right']
     - href: '/pricing'
       title: View Plans and Pricing
       color: blue2
       large: true
-      rightIcon: ['fad', 'arrow-right']
+      outlined: true
 featureSection:
   actionBar:
     text: 'Ready to bring order to your APIs?'
@@ -26,6 +26,8 @@ featureSection:
       - href: 'https://stoplight.io/welcome'
         title: Get Started with Stoplight
         rightIcon: ['fad', 'arrow-right']
+        color: blue2
+        large: true
   description: >-
     Aggregate and track all your API design artifacts in a central repository, laying the groundwork for deduplication, reuse and governance. 
     Build an effective governance strategy that compliments your organization's current practices with clear view of the current state of design and documentation.
