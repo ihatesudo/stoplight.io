@@ -25,7 +25,7 @@ export const ActionBar: React.FunctionComponent<IActionBar> = props => {
       <div
         className={cn(
           className,
-          'ActionBar p-12 flex-wrap items-center sm:flex-col sm:justify-center bg-grey-lightest rounded-lg shadow-md',
+          'ActionBar p-12 flex-wrap items-center sm:flex-col sm:justify-center bg-black rounded-lg shadow-md',
           {
             flex: !isCentered,
           },
@@ -33,7 +33,7 @@ export const ActionBar: React.FunctionComponent<IActionBar> = props => {
       >
         {text && (
           <div
-            className={cn('flex flex-1 font-semibold text-xl text-black sm:text-lg sm:text-center', {
+            className={cn('flex flex-1 font-semibold text-xl text-white sm:text-lg sm:text-center', {
               'pb-10 justify-center': ctas && ctas.length > 2,
             })}
           >

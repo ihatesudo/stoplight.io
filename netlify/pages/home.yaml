@@ -4,7 +4,7 @@ hero:
   skew: false
   subtitle: >-
     Supercharge your API lifecycle with best-in-class tooling that integrates seamlessly into your workflows
-  title: Build Quality APIs Efficiently
+  title: Build Quality APIs Faster
 
   # image:
   #   alt: Documentation
@@ -16,7 +16,7 @@ hero:
       title: Get Started For Free
 features:
   - title: Design
-    subtitle: Design Beautiful APIs Quickly
+    subtitle: Design APIs in Minutes
     description: >-
       Empower technical and non-technical stakeholders to create and collaborate 
       on API designs in OpenAPI and JSON Schema using an intuitive user interface.
@@ -24,17 +24,18 @@ features:
     cta: Learn More
     titleURL: /solutions/design
   - title: Documentation
-    subtitle: Build Amazing Developer Experiences
+    subtitle: Build Beautiful Developer Experiences
     description: >-
-      Drive API adoption by helping internal and external developers consume 
-      APIs easily using interactive documentation with code samples.
+      Drive API adoption by providing internal and external 
+      developers with always up-to-date interactive documentation, tutorials, and code samples.
     image: /images/home/developer_experience.svg
     cta: Learn More
     titleURL: /solutions/documentation
   - title: Visibility
     subtitle: Maintain a Central Source of Truth
     description: >-
-      Promote reuse, consistency, and quality by sharing API design artifacts across your organization in an easily searchable and manageable technical knowledge base.
+      Promote reuse, consistency, and quality by navigating API design artifacts across your organization 
+      in an easily searchable and manageable technical knowledge base.
     image: /images/home/visibility.svg
     cta: Learn More
     titleURL: /solutions/visibility
@@ -47,9 +48,9 @@ features:
     cta: Learn More
     titleURL: /solutions/governance
   - title: Mocking
-    subtitle: Develop with Agility and Quality
+    subtitle: Increase Developer Productivity
     description: >-
-      Get early feedback on API designs and enable API consumers and producers 
+      Get early feedback on API designs to avoid changes and enable API consumers and producers 
       to build in parallel with instant mock servers.
     image: /images/home/mock.svg
     cta: Learn More
@@ -58,7 +59,7 @@ features:
     subtitle: Promote Stakeholder Alignment
     description: >-
       Streamline your workflow by encouraging all stakeholders - 
-      from business to engineering - internal or external to collaborate 
+      from business to engineering - internal or external, to collaborate 
       across the API design and development lifecycle.
     image: /images/home/collaboration.svg
     cta: Learn More
@@ -66,16 +67,15 @@ features:
 vcs:
   title: All this while integrating seamlessly with your favorite VCS
   description: >-
-    Connect easily with Git providers to bring in  your project changes automatically. 
-    No awkward two-way sync, work directly with repositories 
-    fitting easily into existing Git workflows.
+    Connect easily with Git providers to always stay on top of project changes. No awkward two-way sync, 
+    work directly with repositories fitting comfortably into existing Git workflows.
   cta: Learn More
   href: /design
   images:
-    - img: /images/gitlab-icon-rgb.png
-    - img: /images/gh-logo.png
-    - img: /images/bitbucket-logo-png-transparent.png
-    - img: /images/gitea-logo.png
+    - img: /images/integrations/gitlab.svg
+    - img: /images/integrations/github.svg
+    - img: /images/integrations/bitbucket.svg
+    - img: /images/integrations/gitea.svg
 collage:
   images:
     - alt: EA

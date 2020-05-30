@@ -133,7 +133,7 @@ export const HomeHero: React.FunctionComponent<IHomeHero> = ({
         <div
           className={cn(
             containerClassName,
-            `container text-black flex flex-col pt-32 sm:pt-14 relative z-5 text-${aligned} relative`
+            `container text-black flex flex-col pt-24 sm:pt-14 relative z-5 text-${aligned} relative`
           )}
           style={contentBgImage ? { textShadow: `rgba(0, 0, 0, 0.6) 1px 1px 0px` } : undefined}
         >

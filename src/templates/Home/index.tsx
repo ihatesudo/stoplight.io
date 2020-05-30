@@ -97,16 +97,16 @@ export const Home: React.FunctionComponent<IHome> = ({
       )}
       <Section id="features">
         <div className="text-center">
-          <h2 className="text-4xl uppercase text-grey-darkest">A Solution for Every Step of the API Design Lifecycle</h2>
+          <h2 className="text-4xl text-black text-normal">Collaborative Design and Documentation Management for APIs</h2>
         </div>
         <Container className="flex flex-wrap justify-center pt-20 md:block md:w-96">
           {features && features.map((feature, index) => <LargeCard key={index} {...Object.assign(feature,{index:index})}/>)}
         </Container>
-        <div className="container w-3/4 mt-20 border-t"></div>
+        {/* <div className="container w-3/4 mt-20 border-t"></div> */}
       </Section>
-      <Section id="VCS" noPadding>
+      <Section id="VCS" className="pt-20 bg-grey-lightest" noPadding>
         <div className="text-center">
-          <h3 className="text-4xl text-black">Git Workflows with your favorite VCS</h3>
+          <h3 className="text-4xl text-black">Integrate With Ease</h3>
 
         </div>
         <Container className="pt-20 text-center ">
@@ -114,7 +114,7 @@ export const Home: React.FunctionComponent<IHome> = ({
             {vcs.images &&
               vcs.images.map((image, index) => (
                 <div className="px-8" key={index}>
-                  <Image src={image.img} className="h-32" />
+                  <Image src={image.img} className="h-24" />
                 </div>
               ))}
           </div>
@@ -123,7 +123,7 @@ export const Home: React.FunctionComponent<IHome> = ({
             dangerouslySetInnerHTML={{ __html: vcs.description }}
           />
           <Link to={vcs.href}>
-            <div className="flex items-center justify-center text-lg font-bold text-blue">
+            <div className="flex items-center justify-center text-lg font-bold text-blue2">
               {vcs.cta} <Icon icon={['fad', 'arrow-right']} className="ml-3" />
             </div>
           </Link>
