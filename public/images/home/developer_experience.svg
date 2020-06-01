@@ -152,7 +152,8 @@
     <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_198)">
       <rect id="Rectangle_198-2" data-name="Rectangle 198" width="190" height="32" rx="3" transform="translate(509 323)" fill="#fff" opacity="0.595"/>
     </g>
-    <text id="Try_It_Out" data-name="Try It Out" transform="translate(529 67)" fill="rgba(0,0,0,0.75)" font-size="11" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="0">Try It Out</tspan></text>
+    <text id="Try_It_Out" data-name="Try It Out" transform="translate(529 67)" fill="rgba(0,0,0,0.75)" font-size="11" font-family="OpenSans-Semibold, Open Sans" font-weight="600" opacity="0.6"><tspan x="0" y="0">Try It Out</tspan></text>
+    <text id="_chat_users_me_channels" data-name="/chat/users/me/channels" transform="translate(281 66)" fill="rgba(0,0,0,0.75)" font-size="11" font-family="OpenSans-Semibold, Open Sans" font-weight="600" opacity="0.6"><tspan x="0" y="0">/chat/users/me/channels</tspan></text>
     <text id="AUTHORIZATION" transform="translate(229 123)" fill="rgba(0,0,0,0.75)" font-size="9" font-family="OpenSans, Open Sans"><tspan x="0" y="0">AUTHORIZATION</tspan></text>
     <text id="REQUEST_BODY" data-name="REQUEST BODY" transform="translate(229 185)" fill="rgba(0,0,0,0.75)" font-size="9" font-family="OpenSans, Open Sans"><tspan x="0" y="0">REQUEST BODY</tspan></text>
     <g id="Group_27" data-name="Group 27" transform="translate(0 -21)">
@@ -247,9 +248,15 @@
     <rect id="Rectangle_202" data-name="Rectangle 202" width="138" height="7" rx="3.5" transform="translate(537 422)" fill="#0b6fcc" opacity="0.07"/>
     <rect id="Rectangle_194" data-name="Rectangle 194" width="138" height="7" rx="3.5" transform="translate(537 393)" fill="#0b6fcc" opacity="0.07"/>
     <rect id="Rectangle_203" data-name="Rectangle 203" width="138" height="7" rx="3.5" transform="translate(537 436)" fill="#0b6fcc" opacity="0.07"/>
-    <rect id="Rectangle_197" data-name="Rectangle 197" width="151" height="7" rx="3.5" transform="translate(515 287)" fill="#0b6fcc" opacity="0.07"/>
+    <rect id="Rectangle_197" data-name="Rectangle 197" width="60" height="7" rx="3.5" transform="translate(609 277)" fill="#0b6fcc" opacity="0.07"/>
+    <rect id="Rectangle_204" data-name="Rectangle 204" width="60" height="7" rx="3.5" transform="translate(609 263)" fill="#0b6fcc" opacity="0.07"/>
+    <rect id="Rectangle_205" data-name="Rectangle 205" width="60" height="7" rx="3.5" transform="translate(609 249)" fill="#0b6fcc" opacity="0.07"/>
+    <rect id="Rectangle_206" data-name="Rectangle 206" width="60" height="7" rx="3.5" transform="translate(609 234)" fill="#0b6fcc" opacity="0.07"/>
+    <rect id="Rectangle_207" data-name="Rectangle 207" width="60" height="7" rx="3.5" transform="translate(609 219)" fill="#0b6fcc" opacity="0.07"/>
+    <rect id="Rectangle_208" data-name="Rectangle 208" width="60" height="7" rx="3.5" transform="translate(609 191)" fill="#0b6fcc" opacity="0.07"/>
+    <rect id="Rectangle_209" data-name="Rectangle 209" width="60" height="7" rx="3.5" transform="translate(609 205)" fill="#0b6fcc" opacity="0.07"/>
     <rect id="Rectangle_193" data-name="Rectangle 193" width="138" height="7" rx="3.5" transform="translate(537 408)" fill="#0b6fcc" opacity="0.07"/>
-    <rect id="Rectangle_196" data-name="Rectangle 196" width="151" height="7" rx="3.5" transform="translate(515 300)" fill="#0b6fcc" opacity="0.07"/>
+    <rect id="Rectangle_196" data-name="Rectangle 196" width="151" height="7" rx="3.5" transform="translate(518 300)" fill="#0b6fcc" opacity="0.07"/>
     <rect id="Rectangle_170-2" data-name="Rectangle 170" width="40" height="7" rx="3.5" transform="translate(295 397)" fill="#0b6fcc" opacity="0.1"/>
     <rect id="Rectangle_169-2" data-name="Rectangle 169" width="40" height="7" rx="3.5" transform="translate(341 397)" fill="#0b6fcc" opacity="0.1"/>
     <rect id="Rectangle_168-2" data-name="Rectangle 168" width="151" height="7" rx="3.5" transform="translate(295 410)" fill="#0b6fcc" opacity="0.07"/>
@@ -291,7 +298,7 @@
       <rect x="0.5" y="0.5" width="59" height="67.78" fill="none"/>
     </g>
     <path id="Icon_awesome-home" data-name="Icon awesome-home" d="M6.57,4.948,2.249,8.468v3.8a.373.373,0,0,0,.375.371l2.626-.007a.373.373,0,0,0,.373-.371V10.042A.373.373,0,0,1,6,9.671H7.5a.373.373,0,0,1,.375.371v2.217a.369.369,0,0,0,.109.263.377.377,0,0,0,.266.109l2.625.007a.373.373,0,0,0,.375-.371v-3.8L6.929,4.948A.288.288,0,0,0,6.57,4.948ZM13.4,7.34l-1.959-1.6V2.532a.28.28,0,0,0-.281-.278H9.842a.28.28,0,0,0-.281.278V4.215l-2.1-1.708a1.134,1.134,0,0,0-1.43,0L.1,7.34a.276.276,0,0,0-.037.392l.6.719a.283.283,0,0,0,.4.038L6.57,4a.288.288,0,0,1,.359,0l5.513,4.491a.283.283,0,0,0,.4-.037l.6-.719a.276.276,0,0,0-.04-.392Z" transform="translate(18 49.615)" fill="#52b0fe"/>
-    <line id="Line_33" data-name="Line 33" y2="19" transform="translate(68.5 13.5)" fill="none" stroke="#eaebeb" stroke-width="2"/>
+    <line id="Line_33" data-name="Line 33" y2="19" transform="translate(68.5 13.5)" fill="none" stroke="#636363" stroke-width="2" opacity="0.25"/>
     <g id="Group_23" data-name="Group 23" transform="translate(-1 3)">
       <path id="Path_65" data-name="Path 65" d="M8,0A8,8,0,1,1,0,8,8,8,0,0,1,8,0Z" transform="translate(18 73)" fill="#52b0fe" opacity="0.5"/>
       <path id="Icon_awesome-video" data-name="Icon awesome-video" d="M5.837,4.5H.83A.83.83,0,0,0,0,5.33v5.007a.83.83,0,0,0,.83.83H5.837a.83.83,0,0,0,.83-.83V5.33A.83.83,0,0,0,5.837,4.5Zm3.288.655-1.9,1.313V9.2l1.9,1.311A.557.557,0,0,0,10,10.063V5.6A.557.557,0,0,0,9.125,5.155Z" transform="translate(21 73)" fill="#2d8cff"/>
@@ -321,7 +328,7 @@
     <text id="Java" transform="translate(522 190)" fill="rgba(0,0,0,0.75)" font-size="8" font-family="OpenSans, Open Sans" opacity="0.6"><tspan x="0" y="0">Java</tspan></text>
     <text id="Status:_200_Ok" data-name="Status: 200 Ok" transform="translate(638 336)" fill="rgba(0,0,0,0.75)" font-size="8" font-family="OpenSans, Open Sans" opacity="0.6"><tspan x="0" y="0">Status: </tspan><tspan y="0" fill="#38a169">200 Ok</tspan></text>
     <text id="Ruby" transform="translate(521 207)" fill="rgba(0,0,0,0.75)" font-size="8" font-family="OpenSans, Open Sans" opacity="0.6"><tspan x="0" y="0">Ruby</tspan></text>
-    <path id="Icon_weather-lightning" data-name="Icon weather-lightning" d="M9.552,21.665h.306l5.39-7.976q.106-.212-.118-.212H12.905l2.343-4.27c.071-.141.016-.212-.157-.212H12.106a.284.284,0,0,0-.227.141L9.7,14.935c-.016.141.031.212.149.212H12Zm6.66-4.96h.212l4.09-6.009a.178.178,0,0,0,.031-.157c-.016-.039-.063-.055-.133-.055H18.766l1.708-3.157q.141-.235-.141-.235H18.186a.253.253,0,0,0-.235.149l-1.63,4.294a.169.169,0,0,0,.008.165.174.174,0,0,0,.149.055h1.6Z" transform="translate(505.254 48)"/>
+    <path id="Icon_weather-lightning" data-name="Icon weather-lightning" d="M9.552,21.665h.306l5.39-7.976q.106-.212-.118-.212H12.905l2.343-4.27c.071-.141.016-.212-.157-.212H12.106a.284.284,0,0,0-.227.141L9.7,14.935c-.016.141.031.212.149.212H12Zm6.66-4.96h.212l4.09-6.009a.178.178,0,0,0,.031-.157c-.016-.039-.063-.055-.133-.055H18.766l1.708-3.157q.141-.235-.141-.235H18.186a.253.253,0,0,0-.235.149l-1.63,4.294a.169.169,0,0,0,.008.165.174.174,0,0,0,.149.055h1.6Z" transform="translate(505.254 48)" opacity="0.6"/>
     <path id="Icon_awesome-copy" data-name="Icon awesome-copy" d="M10,14v1.25a.75.75,0,0,1-.75.75H.75A.75.75,0,0,1,0,15.25V3.75A.75.75,0,0,1,.75,3H3v9.25A1.752,1.752,0,0,0,4.75,14ZM10,3.25V0H4.75A.75.75,0,0,0,4,.75v11.5a.75.75,0,0,0,.75.75h8.5a.75.75,0,0,0,.75-.75V4H10.75A.752.752,0,0,1,10,3.25Zm3.78-.97L11.72.22a.75.75,0,0,0-.53-.22H11V3h3V2.811a.75.75,0,0,0-.22-.53Z" transform="translate(680 157)" fill="#778088" opacity="0.3"/>
     <path id="Icon_ionic-md-arrow-dropdown" data-name="Icon ionic-md-arrow-dropdown" d="M9,13.5,13.5,18,18,13.5Z" transform="translate(552 152)" opacity="0.6"/>
   </g>
