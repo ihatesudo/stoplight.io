@@ -23,7 +23,7 @@ export const LargeCard: React.FunctionComponent<ILargeCard> = props => {
     <div id={title} key="content" className={cn('flex py-12 sm:pb-0 flex-row')}>
       {(index % 2)?(
         <div className="relative sm:hidden">
-          <Image src={image} size="sm" className="h-128" />
+          <Image src={image} size="sm" className="w-128" />
         </div>
       ):""}
       <div
@@ -44,7 +44,7 @@ export const LargeCard: React.FunctionComponent<ILargeCard> = props => {
       </div>
       {(index % 2)?"":(
         <div className="relative sm:hidden">
-          <Image src={image} size="sm" className="h-128" />
+          <Image src={image} size="sm" className="w-128" />
         </div>
       )}
     </div>
