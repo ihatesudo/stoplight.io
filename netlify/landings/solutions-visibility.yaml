@@ -6,7 +6,7 @@ relatedTags:
 hero:
   particles: true
   subtitle: >-
-    As the number of APIs increase, it becomes difficult to track the services available to you and your team. Aggregate all your API descriptions, schemas, and documentation in a central repository, laying the groundwork for deduplication, reuse, and governance.
+     Navigate APIs at scale with an always in sync central repository of API designs, schemas, and documentation.
   title: Maintain a Central Source of Truth
   ctas:
     - href: '/welcome'
