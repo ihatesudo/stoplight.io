@@ -8,3 +8,4 @@ export const RELATED_PAGES_LIMIT = 3;
 export const CLOUDINARY_API_KEY = process.env.CLOUDINARY_API_KEY;
 export const CLOUDINARY_CLOUD_NAME = 'stoplight';
 export const PENDO_API_KEY = process.env.PENDO;
+export const AMPLITUDE_API_KEY = process.env.AMPLITUDE_API_KEY
