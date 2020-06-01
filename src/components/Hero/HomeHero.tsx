@@ -124,7 +124,7 @@ export const HomeHero: React.FunctionComponent<IHomeHero> = ({
         key="main"
         className={cn(wrapperClassName, 'relative', {
           [skewOpts ? skewOpts.containerClass : undefined]: skewOpts,
-          'pb-32 sm:pb-10': !hasBottomContent && !skew && !contentBgImage,
+          'pb-64 sm:pb-10': !hasBottomContent && !skew && !contentBgImage,
           'pb-24': contentBgImage,
         })}
       >
@@ -162,11 +162,11 @@ export const HomeHero: React.FunctionComponent<IHomeHero> = ({
 
               <div className="flex">
                 <div className="flex-1">
-                  <h1 className="text-6xl leading-tight md:text-4xl">{title}</h1>
+                  <h1 className="text-8xl leading-tight tracking-wide md:text-6xl">{title}</h1>
 
                   {subtitle && (
                     <h2
-                      className={cn('font-default text-3xl opacity-85 max-w-lg mt-4 md:mt-4', {
+                      className={cn('font-default text-4xl opacity-85 max-w-xl mt-8 md:mt-4', {
                         'mx-auto': !aligned || aligned === 'center',
                         'ml-auto': aligned === 'right',
                         'mr-auto sm:mx-auto': aligned === 'left',

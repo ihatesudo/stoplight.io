@@ -97,7 +97,7 @@ export const Home: React.FunctionComponent<IHome> = ({
       )}
       <Section id="features">
         <div className="text-center">
-          <h2 className="text-4xl text-black text-normal">Collaborative Design and Documentation for APIs</h2>
+          <h2 className="text-5xl text-black text-normal">Collaborative Design and Documentation for APIs</h2>
         </div>
         <Container className="flex flex-wrap justify-center pt-20 md:block md:w-96">
           {features && features.map((feature, index) => <LargeCard key={index} {...Object.assign(feature,{index:index})}/>)}

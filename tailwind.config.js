@@ -346,6 +346,7 @@ module.exports = {
     '4xl': '2.25rem', // 36px
     '5xl': '2.75rem', // 48px
     '6xl': '3.5rem', // 48px
+    '8xl': '6rem'
   },
 
   /*
