@@ -83,7 +83,7 @@ export function Document({ Html, Head, Body, children, state }) {
 
         {AMPLITUDE_API_KEY &&
           <script
-            text="text/javascript"
+            type="text/javascript"
             dangerouslySetInnerHTML={{
               __html: `
               (function(e,t){var n=e.amplitude||{_q:[],_iq:{}};var r=t.createElement("script")
