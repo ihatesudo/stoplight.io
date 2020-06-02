@@ -222,7 +222,7 @@ export const HomeHero: React.FunctionComponent<IHomeHero> = ({
           )} */}
         </div>
 
-        {/* {image && <HeroImage {...image} className="relative mt-16 z-5" />} */}
+        {image && <HeroImage {...image} className="relative mt-16 z-5" />}
 
         {heroTabs.length > 0 ? <Tabs tabs={heroTabs} className="pt-24" /> : null}
 

@@ -6,9 +6,10 @@ hero:
     Supercharge your API lifecycle with best-in-class tooling that integrates seamlessly into your workflows
   title: Build Quality APIs Faster
 
-  # image:
-  #   alt: Documentation
-  #   src: /images/placeholder.gif
+  image:
+    video: www.youtube.com/watch?v=iHzFoc4ls8E
+    src: www.youtube.com/watch?v=iHzFoc4ls8E
+    alt: "hello"
   ctas:
     - color: blue2
       href: https://stoplight.com/welcome
@@ -69,8 +70,8 @@ vcs:
   description: >-
     Connect easily with Git providers to always stay on top of project changes. No awkward two-way sync, 
     work directly with repositories fitting comfortably into existing Git workflows.
-  cta: Learn More
-  href: /design
+  cta: Get Started For Free
+  href: /welcome
   images:
     - img: /images/integrations/gitlab.svg
     - img: /images/integrations/github.svg
@@ -98,7 +99,7 @@ collage:
 #      src: /images/ea.png
 #    - alt: Arkea
 #      src: /images/logo_arkea_transparent.png
-  title: >-
+  title: >- 
 # pageSubjects:
 # - title: Source of Truth
 #   description: >-
