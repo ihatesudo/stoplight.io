@@ -19,6 +19,7 @@ import { Icon } from '../../components/Icon';
 import { IImage, Image } from '../../components/Image';
 import { Layout } from '../../components/Layout';
 import { ISection, Section } from '../../components/Section';
+import { CallToAction } from 'src/components/CallToAction';
 
 export interface IHome {
   color: string;
@@ -84,7 +85,7 @@ export const Home: React.FunctionComponent<IHome> = ({
         <Container>
           <div className="text-center">
             <Container title={collage.title}>
-              <div className="flex flex-wrap justify-between pt-24">
+              <div className="flex flex-wrap pt-24 justify-between">
                 {collage.images.map((image, key) => (
                   <div key={key} className="p-8 text-center sm:w-1/2 sm:p-6">
                     <Image className="h-12" src={image.src} alt={image.alt} size="sm" />
@@ -104,12 +105,12 @@ export const Home: React.FunctionComponent<IHome> = ({
         </Container>
         {/* <div className="container w-3/4 mt-20 border-t"></div> */}
       </Section>
-      <Section id="VCS" className="pt-20 bg-grey-lightest" noPadding>
+      <Section id="VCS" className="pt-20 bg-black" noPadding>
         <div className="text-center">
-          <h3 className="text-4xl text-black">Integrate With Ease</h3>
+          <h3 className="text-4xl text-white">Integrate With Ease</h3>
 
         </div>
-        <Container className="pt-20 text-center ">
+        <Container className="pt-20 text-center bg-black">
           <div className="flex justify-center">
             {vcs.images &&
               vcs.images.map((image, index) => (
@@ -118,12 +119,15 @@ export const Home: React.FunctionComponent<IHome> = ({
                 </div>
               ))}
           </div>
+          <div className="container sm:pb-0 w-3/4  py-10">
+            <p className="text-xl text-white">Connect easily with Git providers to always stay on top of project changes. No awkward two-way sync, work directly with repositories fitting comfortably into existing Git workflows.</p>
+          </div>
           <div
-            className={cn(' container sm:pb-0 w-3/4 text-xl py-10')}
-            dangerouslySetInnerHTML={{ __html: vcs.description }}
+            className={cn('container')}
+            dangerouslySetInnerHTML={{ __html: "" }}
           />
           <Link to={vcs.href}>
-            <div className="flex items-center justify-center text-lg font-bold text-blue2">
+            <div className="flex items-center justify-center text-2xl font-bold text-blue2">
               {vcs.cta} <Icon icon={['fad', 'arrow-right']} className="ml-3" />
             </div>
           </Link>

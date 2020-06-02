@@ -7,7 +7,7 @@ hero:
   title: Build Quality APIs Faster
 
   image:
-    video: www.youtube.com/watch?v=iHzFoc4ls8E
+    video: https://www.youtube.com/watch?v=iHzFoc4ls8E
     src: www.youtube.com/watch?v=iHzFoc4ls8E
     alt: "hello"
   ctas:

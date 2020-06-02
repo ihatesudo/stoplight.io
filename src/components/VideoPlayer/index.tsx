@@ -10,7 +10,12 @@ export interface IVideoPlayer {
 export const VideoPlayer: React.FunctionComponent<IVideoPlayer> = ({ href, playing, controls = true }) => {
   return (
     <div className="player-wrapper">
-      <YouTubePlayer className="react-player" url={href} playing={playing} controls={controls} width="100%" height="100%" />
+      <YouTubePlayer className="react-player" url={href} playing={playing} config={{
+        youtube: {
+          playerVars: { showinfo: 0 }
+          }
+        }}
+  controls={false} width="100%" height="100%" />
     </div>
   );
 };
