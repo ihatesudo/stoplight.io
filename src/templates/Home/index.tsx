@@ -84,7 +84,7 @@ export const Home: React.FunctionComponent<IHome> = ({
         <Container>
           <div className="text-center">
             <Container title={collage.title}>
-              <div className="flex flex-wrap justify-between">
+              <div className="flex flex-wrap justify-between pt-24">
                 {collage.images.map((image, key) => (
                   <div key={key} className="p-8 text-center sm:w-1/2 sm:p-6">
                     <Image className="h-12" src={image.src} alt={image.alt} size="sm" />
