@@ -45,9 +45,9 @@ export const Feature: React.FunctionComponent<IFeature> = props => {
       })}
     >
       <div
-        className={cn('flex flex-col flex-1 w-1/2 sm:w-100 sm:items-center sm:text-center', {
-          'pr-24 sm:pr-0': !isReversed,
-          'pl-24 sm:pl-0': isReversed,
+        className={cn('flex flex-col flex-1 w-1/3 sm:w-100 sm:items-center sm:text-center', {
+          'pr-16 sm:pr-0': !isReversed,
+          'pl-16 sm:pl-0': isReversed,
         })}
       >
         <h2 className={cn('mb-10 text-4xl', `text-${titleColor || 'grey-darkest'}`)}>

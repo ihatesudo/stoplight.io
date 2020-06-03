@@ -21,50 +21,44 @@ features:
     description: >-
       Empower technical and non-technical stakeholders to create and collaborate 
       on API designs in OpenAPI and JSON Schema using an intuitive user interface.
-    image: /images/home/design.svg
+    image: /images/home/Frame4.png
     cta: Learn More
-    titleURL: /solutions/design
+    titleURL: /api-design
   - title: Documentation
     subtitle: Build Beautiful Developer Experiences
     description: >-
       Drive API adoption by providing internal and external 
       developers with always up-to-date interactive documentation, tutorials, and code samples.
-    image: /images/home/developer_experience.svg
+    image: /images/home/Frame3.png
     cta: Learn More
-    titleURL: /solutions/documentation
-  - title: Visibility
-    subtitle: Maintain a Central Source of Truth
+    titleURL: /api-documentation
+  - title: Design Option2
+    subtitle: (2) Design APIs in Minutes
     description: >-
-      Promote reuse, consistency, and quality by navigating API design artifacts across your organization 
-      in an easily searchable and manageable technical knowledge base.
-    image: /images/home/visibility.svg
+      Empower technical and non-technical stakeholders to create and collaborate 
+      on API designs in OpenAPI and JSON Schema using an intuitive user interface.
+    image: /images/home/background-emphasis-3.png
     cta: Learn More
-    titleURL: /solutions/visibility
-  - title: Governance
-    subtitle: Adhere to Best Practices
-    description: >-
-      Design consistent APIs by automatically validating against predefined 
-      or custom style guidelines within the API designer.
-    image: /images/home/governance.svg
-    cta: Learn More
-    titleURL: /solutions/governance
-  - title: Mocking
-    subtitle: Increase Developer Productivity
-    description: >-
-      Get early feedback on API designs to avoid changes and enable API consumers and producers 
-      to build in parallel with instant mock servers.
-    image: /images/home/mock.svg
-    cta: Learn More
-    titleURL: /solutions/mocking
-  - title: Collaboration
-    subtitle: Promote Stakeholder Alignment
-    description: >-
-      Streamline your workflow by encouraging all stakeholders - 
-      from business to engineering - internal or external, to collaborate 
-      across the API design and development lifecycle.
-    image: /images/home/collaboration.svg
-    cta: Learn More
-    titleURL: /solutions/collaboration
+    titleURL: /api-design
+caseStudies:
+  - company: Arkea
+    href: /case-studies/arkea
+    image: /images/logo_arkea_transparent.png
+    description: Arkéa has been involved in open banking for several years by providing white label banking services and saw PSD2 as an opportunity to extend their open banking features.
+    tag: Finance
+    color: orange
+  - company: Namely
+    href: /case-studies/namely
+    image: /images/logo_namely_transparent.png
+    description: Namely’s chief objective was to adopt API Design First principles. As they applied their new principle, they realized the importance of reliable, up to date, documentation.
+    tag: HR
+    color: indigo
+  - company: Appointment Plus
+    href: /case-studies/appointmentplus
+    image: /images/logo_appointmentplus_transparent.png
+    description: AppointmentPlus was managing multiple APIs built by different teams, at different times, with different strategies and intents.
+    tag: Tech
+    color: green
 vcs:
   title: All this while integrating seamlessly with your favorite VCS
   description: >-
@@ -105,7 +99,7 @@ collage:
 #   description: >-
 #     Promote reuse, consistency, and quality by sharing API design artifacts across your organization in an easily searchable and manageable design library.
 #   cta: Explore Visibility Solutions
-#   href: /solutions/visibility/
+#   href: /api-visibility/
 #   tag: visibility
 #   color: green
 #   icon: 'chart-network'
@@ -116,7 +110,7 @@ collage:
 #   description: >-
 #     Empower technical and non-technical stakeholders to create and collaborate on API designs in OpenAPI and JSON Schema using an intuitive user interface
 #   cta: Explore Design Solutions
-#   href: /solutions/design/
+#   href: /api-design/
 #   tag: design
 #   color: blue
 #   icon: 'pencil-ruler'
@@ -158,7 +152,7 @@ collage:
 #       '--fa-secondary-color': 'green'
 #   - title: One Shared Source of Truth
 #     cta: Learn More About API Visibility
-#     href: /solutions/visibility/
+#     href: /api-visibility/
 #     description: >-
 #       Promote reuse, consistency, and quality by sharing API design artifacts across your organization in an easily searchable and manageable design library.
 #     tag: visibility
@@ -169,7 +163,7 @@ collage:
 #       '--fa-secondary-color': 'tomato'
 #   - title: Design Beautiful APIs Quickly
 #     cta: Learn More About API Design
-#     href: /solutions/design/
+#     href: /api-design/
 #     description: >-
 #       Empower technical and non-technical stakeholders to create and collaborate on API designs in OpenAPI and JSON Schema using an intuitive user interface.
 #     tag: design
@@ -180,7 +174,7 @@ collage:
 #       '--fa-secondary-color': 'indigo'
 #   - title: Adhere to Best Practices
 #     cta: Learn More About API Governance
-#     href: /solutions/governance
+#     href: /api-governance
 #     description: >-
 #       Design consistent APIs by automatically validating against predefined or custom style guidelines within the API designer.
 #     tag: Governance

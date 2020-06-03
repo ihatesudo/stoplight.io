@@ -27,7 +27,7 @@ export const LargeCard: React.FunctionComponent<ILargeCard> = props => {
         </div>
       ):""}
       <div
-        className={cn('flex leading-loose flex-col pl-24 pr-24 sm:pr-0 flex-1 w-1/2 sm:w-100 sm:items-center sm:text-center')}
+        className={cn('flex leading-loose flex-col pl-14 pr-14 sm:pr-0 flex-1 w-1/3 sm:w-100 sm:items-center sm:text-center')}
       >
         <h2 className="text-2xl uppercase text-grey">{title}</h2>
         <h3 className={cn('text-4xl', `text-${titleColor || 'black'}`)}>{subtitle}</h3>

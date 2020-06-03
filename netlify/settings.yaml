@@ -24,31 +24,31 @@ info:
 header:
   items:
     - links:
-        - href: '/solutions/design'
+        - href: '/api-design'
           icon: ['fad', 'pencil-paintbrush']
           title: API Design
           titleColor: blue
-        - href: '/solutions/development'
+        - href: '/api-development'
           icon: ['fad', 'code']
           title: API Development
           titleColor: orange
-        - href: '/solutions/mocking'
+        - href: '/api-mocking'
           icon: ['fad', 'database']
           title: API Mocking
           titleColor: indigo
-        - href: '/solutions/documentation'
+        - href: '/api-documentation'
           icon: ['fad', 'book-open']
           title: API Documentation
           titleColor: yellow
-        - href: '/solutions/visibility'
+        - href: '/api-visibility'
           icon: ['fad', 'chart-network']
           title: API Visibility
           titleColor: red
-        - href: '/solutions/governance'
+        - href: '/api-governance'
           icon: ['fad', 'balance-scale']
           title: API Governance
           titleColor: purple
-        - href: '/solutions/collaboration'
+        - href: '/api-collaboration'
           icon: ['fad', 'user-friends']
           title: API Collaboration
           titleColor: yellow
@@ -65,6 +65,14 @@ header:
           icon: ['fad', 'blog']
           title: Blog
           titleColor: indigo
+        - href: /video
+          icon: ['fad', 'video']
+          title: Videos
+          titleColor: purple
+        - href: '/about'
+          icon: ['fad', 'robot']
+          title: About Us
+          titleColor: blue
         - divider: true    
         - href: /case-studies
           icon: ['fad', 'graduation-cap']
@@ -82,6 +90,14 @@ header:
           icon: ['fad', 'bookmark']
           title: API Documentation Guide
           titleColor: purple
+        - href: /api-types
+          icon: ['fad', 'apple-crate']
+          title: API Types
+          titleColor: lavender
+        - href: /openapi
+          title: What is OpenAPI?
+          icon: ['fad','door-open']
+          titleColor: blue2
       title: Learn
       width: 300
     - aboutLinks:
@@ -139,19 +155,19 @@ footer:
           title: Enterprise
       title: Products
     - links:
-        - href: '/solutions/design'
+        - href: '/api-design'
           title: API Design
-        - href: '/solutions/development'
+        - href: '/api-development'
           title: API Development
-        - href: '/solutions/mocking'
+        - href: '/api-mocking'
           title: API Mocking
-        - href: '/solutions/documentation'
+        - href: '/api-documentation'
           title: API Documentation
-        - href: '/solutions/visibility'
+        - href: '/api-visibility'
           title: API Visibility
-        - href: '/solutions/governance'
+        - href: '/api-governance'
           title: API Governance
-        - href: '/solutions/collaboration'
+        - href: '/api-collaboration'
           title: API Collaboration
       title: Solutions
     - links:
@@ -169,12 +185,8 @@ footer:
           title: API Mocking
       title: Use Cases
     - links:
-        - href: 'https://support.stoplight.io'
-          title: Help Center
         - href: /blog
           title: Blog
-        - href: 'https://community.stoplight.io'
-          title: Forum
         - href: /video
           title: Webinars
         - href: /case-studies
@@ -183,7 +195,13 @@ footer:
           title: API Types
         - href: /openapi
           title: What is OpenAPI?
-      title: Resources
+        - href: /api-design-guide/basics
+          title: API Design Guide
+        - href: /api-documentation-guide/basics
+          title: API Documentation Guide
+        - href: /mock-api-guide/basics
+          title: API Mocking Guide
+      title: Learn
     - links:
         - href: /about
           title: About Us
@@ -193,7 +211,11 @@ footer:
           title: Press
         - href: /contact-us
           title: Contact Us
-      title: About
+        - href: 'https://community.stoplight.io'
+          title: Forum
+        - href: 'https://support.stoplight.io'
+          title: Help Center
+      title: Resources
   legal:
     - href: /privacy
       title: Privacy

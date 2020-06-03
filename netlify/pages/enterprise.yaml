@@ -21,7 +21,7 @@ hero:
       color: blue2
 image:
   alt: Stoplight Enterprise Platform
-  src: /images/enterprise/flow_placeholder.png
+  src: /images/enterprise/Visibility-Superside-draft.jpg
 features:
   - name: Explorer
     description: The single source of truth for all your API related assets.

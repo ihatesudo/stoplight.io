@@ -186,7 +186,7 @@ const OpenSourceLinks = () => {
   return (
     <div className="p-6">
       <div className="flex">
-        <ProductLink
+        {/* <ProductLink
           name="Studio"
           description="Easily edit & collaborate on OpenAPI, Markdown, and JSON schema."
           className="mr-2"
@@ -194,7 +194,7 @@ const OpenSourceLinks = () => {
           href="/studio"
           icon={['fad', 'database']}
           tag="Design"
-        />
+        /> */}
 
         <ProductLink
           name="Spectral"
@@ -281,7 +281,7 @@ export const Desktop: React.FunctionComponent<{ items: IHeaderItem[]; unpinned: 
   return (
     <>
       {nonButtonElems}
-      <HeaderDropdown title="Tools" className="text-lg sm:hidden" content={() => <OpenSourceLinks />} />
+      <HeaderDropdown title="Open Source" className="text-lg sm:hidden" content={() => <OpenSourceLinks />} />
       <div className="flex-1" />
       {buttonElems}
     </>
