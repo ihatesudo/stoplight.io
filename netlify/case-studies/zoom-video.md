@@ -1,5 +1,7 @@
 ---
 path: /case-studies/zoom-video
+hero:
+  particles: true
 tags:
   - video
   - case-study
@@ -19,18 +21,8 @@ listSubtitle: >-
   software that combines video conferencing, online meetings, chat, and mobile.
   Learn from Tim Slagle, Manager of Developer Advocacy, how they leverage
   Stoplight to save developers several hundred man-hours each year. 
-image: /images/tim_s_video.png
-color: blue
+listImage: /images/tim_s_video.png
 includeToc: false
-sidebar:
-  info:
-    description: >-
-      **Industry**: Communications<br/> **Location**: San Jose, CA<br/>
-      **Employees**: 8000-10000
-  quotes:
-    - author: Tim Slagle
-      quote: 'Our team roughly saves 15 to 20 hours of time each week. '
-      role: Manager of Developer Advocacy
 actionBar:
   ctas: []
   enabled: false
@@ -51,4 +43,8 @@ meta:
     image: /images/tim_s_video.png
     username: '@stoplightio'
 ---
-<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/jLRDAYRKqTg' frameborder='0' allowfullscreen></iframe></div>
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/jLRDAYRKqTg' frameborder='0' allowfullscreen></iframe></div><br><br>
+
+> ***Our team roughly saves 15 to 20 hours of time each week.***
+
+***- Tim Slagle, Manager of Developer Advocacy***

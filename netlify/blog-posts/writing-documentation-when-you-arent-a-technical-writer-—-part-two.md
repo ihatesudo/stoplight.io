@@ -13,9 +13,6 @@ subtitle: >-
   Avoiding oversimplification, writing good error messages, and having better
   word choice
 image: /images/writing-docs-part-two.jpeg
-color: blue
-disqus:
-  enabled: true
 actionBar:
   ctas:
     - color: purple
@@ -53,7 +50,8 @@ _Welcome back for Part Two of Writing Documentation When You Aren’t A Technica
 
 ## That’s all!
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">&quot;That&#39;s all!&quot; 😞 <a href="https://t.co/zKtabSPJ1z">pic.twitter.com/zKtabSPJ1z</a></p>&mdash; Tracy Chou 👩🏻‍💻 (@triketora) <a href="https://twitter.com/triketora/status/890179098680668160?ref_src=twsrc%5Etfw">July 26, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+>**"That's all!" 😞 [pic.twitter.com/zKtabSPJ1z](https://t.co/zKtabSPJ1z)**
+> **- [Tweet]("https://t.co/1iuHGlVRnR) from Tracy Chou 👩🏻‍💻 [(@triketora)](https://twitter.com/triketora/status/890179098680668160?ref_src=twsrc%5Etfw) July 26, 2017**
 
 That’s all! 😰 It seems pretty harmless when you first read it out of context, but think of how certain words like “easy,” “simple,” “trivial,” and “not hard” make you feel like when you are struggling — not great! When you are stuck trying to get an API to work, encountering these terms can sometimes make you question your intelligence and ask yourself, “Am I being dumb?” It can be demoralizing.
 

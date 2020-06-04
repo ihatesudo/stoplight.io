@@ -13,8 +13,6 @@ listSubtitle: ''
 image: /images/robin-pierre-323861-unsplash.jpg
 color: black
 includeToc: true
-disqus:
-  enabled: true
 actionBar:
   ctas: []
   enabled: false

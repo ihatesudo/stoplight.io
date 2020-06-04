@@ -14,9 +14,6 @@ subtitle: >-
   How do people actually read documentation and how to write documentation and
   code samples to maximize developer success
 image: /images/not-technical-writer-part-one.jpeg
-color: yellow
-disqus:
-  enabled: true
 actionBar:
   ctas:
     - color: purple
@@ -105,13 +102,11 @@ I’ll talk more documentation design and navigation in a later part of this ser
 
 What’s API documentation without code, right? Code samples are all over many of our docs, and our users _actually_ read them. However, the problem is, they don’t always read the stuff around them unless it jumps out at them.
 
-The context in the code sample is important for developer success. Developers are quick to copy and paste. Here’s an example with the Keen IO API:
-
-<script src="https://gist.github.com/tbarn/c22331a6aa01859dca8a9000356732df.js"></script>
+The context in the code sample is important for developer success. Developers are quick to copy and paste. Here’s [an example with the Keen IO API.](https://gist.github.com/tbarn/c22331a6aa01859dca8a9000356732df.js)
 
 A developer quickly copies and pastes this code. And…
 
-<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/13J4mAfd4iHC5G" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/puppy-fine-falling-13J4mAfd4iHC5G"></a></p>
+![puppy falling gif](/images/pupppy-fall.gif)
 
 First, how do they even run this file? Probably node file_name.js but it wasn’t in the code. This could have been put in a comment at the top.
 
@@ -149,7 +144,8 @@ Here’s a more recent example: Have you checked how easy it is to select the co
 
 Kelsey Hightower struggled to copy this code sample off of StackOverflow in a Google Cloud Next demo.
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">In a LIVE DEMO, watch <a href="https://twitter.com/kelseyhightower?ref_src=twsrc%5Etfw">@kelseyhightower</a> build a weather application from zero. Starting from the database up to the end point: <a href="https://t.co/XAKsOYSHZq">https://t.co/XAKsOYSHZq</a> <a href="https://t.co/1iuHGlVRnR">pic.twitter.com/1iuHGlVRnR</a></p>&mdash; Google Cloud Platform (@GCPcloud) <a href="https://twitter.com/GCPcloud/status/1022591825096335360?ref_src=twsrc%5Etfw">July 26, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+>**In a LIVE DEMO, watch [@kelseyhightower](https://twitter.com/kelseyhightower?ref_src=twsrc%5Etfw) build a weather application from zero. Starting from the database up to the end point: [https://t.co/XAKsOYSHZq](https://t.co/XAKsOYSHZq)**
+> **- [Tweet]("https://t.co/1iuHGlVRnR) from Google Cloud Platform [(@GCPcloud)](https://twitter.com/GCPcloud/status/1022591825096335360?ref_src=twsrc%5Etfw) July 26, 2018**
 
 Did he do this intentionally? The world will never know. However, it represents the struggle of coders to copy large blocks of text on some documentation sites. Make sure the UI of your site makes it easy to copy large blocks of text. You can even break up those blocks to explain them in chunks making them more accessible to copy and understand.
 

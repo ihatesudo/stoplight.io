@@ -14,8 +14,6 @@ color: black
 tabs:
   - {}
 includeToc: true
-disqus:
-  enabled: true
 actionBar:
   ctas:
     - color: purple

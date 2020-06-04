@@ -12,8 +12,6 @@ title: OpenAPI and Design-First Principles
 subtitle: Why API Design is critical and how the OpenAPI Specification can help
 image: /images/openapi-design-first.jpeg
 color: indigo
-disqus:
-  enabled: true
 actionBar:
   ctas:
     - color: purple

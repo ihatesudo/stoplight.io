@@ -1,5 +1,7 @@
 ---
 path: /case-studies/arkea
+hero:
+  particles: true
 tags:
   - case-study
 relatedTags:
@@ -16,7 +18,6 @@ listSubtitle: >-
   banking features. To further their open banking offerings, they needed to
   deploy 10-15 additional APIs to accelerate the digitization of their bank.
 image: /images/arkea-logo-transparent-2x.png
-color: orange
 tabs: []
 sidebar:
   info:
@@ -50,7 +51,7 @@ meta:
 
 ## Arkéa’s Assignment
 
-_PSD2, Involving Non-Technical Stakeholders, Security, Engineering Culture Shift, and Collaboration_
+Assignment: _PSD2, Involving Non-Technical Stakeholders, Security, Engineering Culture Shift, and Collaboration_
 
 ### The PSD2 Regulations
 
@@ -78,17 +79,17 @@ Arkéa Design-First strategy required an integrated testing suite that would all
 
 To rapidly accelerate the development of APIs required to meet PSD2 regulations and expose Open Banking services, Arkéa looked to the Stoplight platform. Stoplight provided a single source of truth and an intuitive editor that accelerated development and cut down on costs.
 
-### Involving Non-Technical Stakeholders
+### Involving Non-Technical Stakeholders at Arkéa
 
 API Design-First principles require non-technical stakeholders to be involved in the API Design process to ensure that APIs meet business objectives and not just technical goals. Stoplight helped Arkéa’s non-technical stakeholders be involved in the design process by providing a single-source-of-truth where engineers and product owners could collaborate on designs. The visual editor allowed product owners an easy method for understanding the API specifications in development. The single-source-of-truth paired with robust collaborative tooling also helped promote API Design-First culturally by providing a clear workflow for all the pertinent stakeholders that emphasized participation.
 
 > “This is why a graphical tool like Stoplight was a good opportunity — perhaps the only one — to involve them in the design of \[our] API. We recommend co-designing with a product owner and a developer. The developer should know a bit about REST and Swagger in order to drive the product owner and let him focus on his job — the business. On the other hand, the developer must be accompanied by a business user because he doesn’t know all about the tricky parts of the business. It’s particularly true in the financial domain, for example, with all the legislation and specific business rules. So, it was the real first reason to go for Stoplight.”
 
-_Nicolas Tisserand, API Architect at Arkéa group_
+**_Nicolas Tisserand, API Architect at Arkéa group_**
 
 > “By using Stoplight, we are enforcing Product Owners to be clear on what they want. They must take part in the design process and this is done through Stoplight. Moreover, we have now a real Swagger with relevant comments. Not generated ones,” he said.
 
-_Nicolas Tisserand, API Architect at Arkéa group_
+**_Nicolas Tisserand, API Architect at Arkéa group_**
 
 ### Training and Execution with Stoplight’s Visual Editor
 
@@ -96,16 +97,16 @@ Arkéa started to see immediate results when it came to on-boarding new engineer
 
 > “My team is only composed of architects. Our role is to provide support to other teams of the company. We help them through individual assistance on projects and with training sessions in which we teach how to use Stoplight and our API gateway. We also speak about REST, governance and strategy. These training sessions are dedicated to developers AND product owners and managers.”
 
-_Nicolas Tisserand, API Architect at Arkéa group_
+**_Nicolas Tisserand, API Architect at Arkéa group_**
 
 > “If I had to quote just one advantage, it would be the WYSIWYG-like design capabilities of Stoplight. For us, it's difficult to drive Product Owners or business people to design an API. It's an important change in their day-to-day job. A visual editor like Stoplight is the first step to access the API world.”
 
-_Nicolas Tisserand, API Architect at Arkéa group_
+**_Nicolas Tisserand, API Architect at Arkéa group_**
 
-### A Secure Solution
+### A Secure Solution for Arkéa
 
 Stoplight provided an on-premise solution that maintained their high level of security by bringing Stoplight within their firewall. To simplify and expedite the on-boarding process, Stoplight migrated all their users from our hosted solution and integrated with their SAML identity.
 
-### API Design-First Testing
+### API Design-First Testing for Arkéa
 
 Arkéa utilized the design-first approach to enable native contract testing based on their OAS specification. Moreover, they have been able to integrate their contract test directly into their delivery pipeline. This enabled them to design not only better quality APIs, but also automated testing which in turn decreased time to delivery.

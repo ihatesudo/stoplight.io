@@ -17,7 +17,7 @@ hero:
       title: Create a Workspace
       large: true
       rightIcon: ['fad', 'arrow-right']
-      color: blue
+      color: purple
 image:
   alt: Stoplight Enterprise Platform
   src: /images/enterprise/Visibility-Superside-draft.jpg

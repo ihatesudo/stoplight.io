@@ -10,11 +10,8 @@ author: Adam DuVander
 title: Take Your API Beyond Static Documentation
 subtitle: Three ways to make your documentation come alive
 image: /images/quino-al-121406-unsplash.jpg
-color: purple-darker
 tabs:
   - {}
-disqus:
-  enabled: true
 actionBar:
   ctas:
     - color: purple

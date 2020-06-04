@@ -14,9 +14,6 @@ author: Lukas Rosenstock
 title: Stop Calling Your APIs Microservices
 subtitle: 'The Relationship between APIs, Microservices, and Containers'
 image: /images/dil-679756-unsplash.jpg
-color: purple-darker
-disqus:
-  enabled: true
 actionBar:
   enabled: false
 meta:

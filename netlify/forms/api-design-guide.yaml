@@ -1,5 +1,6 @@
 path: /api-design-guide-download
 hero:
+  particles: true
   title: Get Your Copy of the Stoplight API Design Guide
   subtitle: >-
     Get a copy of Stoplight's best practice guide for creating a design-first ethos within your organization.

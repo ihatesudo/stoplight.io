@@ -1,12 +1,13 @@
 ---
 path: /api-management-tools
+hero:
+  particles: true
 publishedDate: 2019-10-25T19:14:32.708Z
 title: API Management Tools | Stoplight
 subtitle: 'What is API Management, how do you do it, and what are the benefits?'
 listSubtitle: >-
   API management refers to a range of tasks, and covers the entire lifecycle of
   an API, from planning through deployment to onboarding users.
-color: purple-lighter
 includeToc: true
 actionBar:
   ctas: []
@@ -35,11 +36,11 @@ API management refers to a range of tasks, including:
 - Publishing
 - Enforcing usage policies and controlling access
 - Monitoring usage and performance
-- Supporting the user community. 
+- Supporting the user community.
 
 It covers the entire life-cycle of an API, from planning through deployment to on-boarding users.
 
-It begins with design: high level thinking about the purpose of the API, the desired outcomes, and how to build the API. Consider the problem the API solves and who will use it. 
+It begins with design: high level thinking about the purpose of the API, the desired outcomes, and how to build the API. Consider the problem the API solves and who will use it.
 
 Next, consider deployment and user management. Ensure that your traffic management and security solutions are robust. Set up analytics and monitoring, as well as user access options.
 
@@ -49,7 +50,7 @@ Finally, create a professional and comprehensive user on-boarding experience. Us
 
 Good API project management helps your APIs succeed. It supports swift adoption and a great user experience.
 
-A well-designed API is easier to maintain and extend and provides users with a logical, clean interface to work with. 
+A well-designed API is easier to maintain and extend and provides users with a logical, clean interface to work with.
 
 Resilient traffic management is essential: you don’t want a sudden spike in users to bring down your service. Your monitoring tools support this, alerting you of potential problems. Meanwhile, your analytics help you with future phases of API design by allowing you to track how people are using your API in practice.
 
@@ -59,7 +60,7 @@ Your documentation and learning materials support existing users, reducing the t
 
 API life-cycle management signals a holistic approach to API project management. It covers all the stages described above, as well as maintaining the API, and if needed managing its retirement.
 
-You can still split responsibility for different parts of API management between teams. You may have specialist designers handling the design and planning, an ops team focused on deployment and monitoring, a documentation team creating on-boarding materials, and so on. 
+You can still split responsibility for different parts of API management between teams. You may have specialist designers handling the design and planning, an ops team focused on deployment and monitoring, a documentation team creating on-boarding materials, and so on.
 
 It is essential to keep an overview of the entire life-cycle of your APIs. This applies to projects and teams at any scale. Carefully planning and managing the API life-cycle leads to a coherent, polished API, with appropriate systems and integrated on-boarding. In practice, this may mean have a project manager oversee all aspects of the API project. You can also use API management tools that support this approach.
 

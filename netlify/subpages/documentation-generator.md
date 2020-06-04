@@ -1,5 +1,7 @@
 ---
 path: /documentation/generator
+hero:
+  particles: true
 publishedDate: 2019-07-08T20:35:30.631Z
 title: API Documentation Generator & API Docs Generator Online
 subtitle: Generate API Documentation Instantly

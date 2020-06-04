@@ -1,5 +1,7 @@
 ---
 path: /api-types
+hero:
+  particles: true
 tags:
   - 'api types'
 relatedTags:
@@ -12,8 +14,9 @@ publishedDate:
 title: Types of APIs
 subtitle: >-
  Discussing different types of APIs, alongside protocols and standards, such as Open APIs, Internal APIs, Partner APIs, Compostie APIs, RESTFUL, JSON-RPC, XML-RPC, and SOAP.
-color: blue
 tabs:
+  - href: /api-types
+    title: API Types
   - href: /api-types/soap-api/
     title: SOAP APIs
   - href: /api-types/vs-rest-api/

@@ -1,12 +1,13 @@
 ---
 path: /api-modeling-tools
+hero:
+  particles: true
 publishedDate: 2019-10-25T18:57:06.777Z
 title: API Modeling Tools | Stoplight
 subtitle: What is API modeling and how do you do it?
 listSubtitle: >-
   API modeling is part of the API design process. Thorough API modeling and
   design gives you a blueprint for your API, before you start coding.
-color: indigo-darkest
 includeToc: true
 actionBar:
   ctas: []
@@ -39,9 +40,9 @@ The API model forms the basis of the API design process. Knowing your users’ g
 
 ## Modeling Web APIs
 
-You can model REST APIs for the web using the OpenAPI specification. This is an API description format that offers a standardized way of modeling APIs, using either JSON or YAML. 
+You can model REST APIs for the web using the OpenAPI specification. This is an API description format that offers a standardized way of modeling APIs, using either JSON or YAML.
 
-Let’s consider a todo list API. Who will use it, and what actions will they take? Todo lists have a wide range of users, but they tend to have common objectives: record lists of tasks and check them off when done. 
+Let’s consider a todo list API. Who will use it, and what actions will they take? Todo lists have a wide range of users, but they tend to have common objectives: record lists of tasks and check them off when done.
 
 This means we need several endpoints:
 
@@ -59,7 +60,7 @@ You can already see that some of these descriptions map directly to HTTP verbs: 
 
 The next step is to turn this outline into a defined model in the Open API format. Doing this by hand is possible, but requires deep familiarity with the spec, and with JSON or YAML formatting.
 
-Here is where a REST API modeling tool can help. Stoplight Studio provides a graphical editor for creating your endpoints. Studio makes it easier to design an API, even if you’re not familiar with all the details of the Open API spec. You can add and configure endpoints, then auto-generate an Open API format JSON or YAML file. 
+Here is where a REST API modeling tool can help. Stoplight Studio provides a graphical editor for creating your endpoints. Studio makes it easier to design an API, even if you’re not familiar with all the details of the Open API spec. You can add and configure endpoints, then auto-generate an Open API format JSON or YAML file.
 
 The Open API spec integrates documentation into the modeling process with the endpoint description field. Stoplight Studio can take the descriptions from your API paths and auto-generate documentation. This is useful through the entire API design and creation process, providing support to both your developers and end-users.
 

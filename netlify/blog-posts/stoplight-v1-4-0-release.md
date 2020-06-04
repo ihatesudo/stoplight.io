@@ -25,8 +25,6 @@ meta:
     title: Stoplight v1.4.0 Release | Stoplight API Intersection
     image: /images/changelog-stock.jpg
     username: '@stoplightio'
-disqus:
-  enabled: true
 ---
 ## Studio v1.4.0
 
@@ -34,13 +32,13 @@ Stoplight Studio v1.4.0 is now available! Included in this release is removal of
 
 To download the latest version of Studio Desktop, visit the download page [here](https://stoplight.io/studio/). Studio Web is included in the latest release of Stoplight Platform.
 
-### Features Included in this Release
+### Studio Features Included in this Release
 
 No More Folder Structure Requirements!
 
 Prior to the v1.4.0 release, Studio required APIs and related models to be located under a "reference" folder at the root of the project repository. Starting with this release, the "reference" folder requirement has been lifted, allowing users to store APIs and JSON schema models wherever they choose. ([\#57](https://github.com/stoplightio/studio/issues/57))
 
-### Fixes Included in this Release
+### Studio Fixes Included in this Release
 
 An issue where certain JSON schema objects would not be properly recognized as JSON schema has been resolved ([\#211](https://github.com/stoplightio/studio/issues/211))
 
@@ -58,13 +56,13 @@ Stoplight v1.4.0 is now available! Included in this release are improvements to 
 
 To download the latest version of Stoplight Platform with Docker, use the "1.4.0" image tag. Stoplight's production and managed environments are automatically upgraded to the latest release.
 
-### Features Included in this Release
+### Platform Features Included in this Release
 
 Project Visibility Settings
 
 A visibility toggle is now present under the project settings, allowing users to make documentation public. Previously this would require updating the permissions on the VCS project itself.
 
-### Fixes Included in this Release
+### Platform Fixes Included in this Release
 
 An issue preventing users from properly authenticating to Stoplight with Bitbucket Server credentials has been resolved.
 

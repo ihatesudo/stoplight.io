@@ -13,8 +13,6 @@ image: /images/barn-construction.jpg
 color: black
 tabs:
   - {}
-disqus:
-  enabled: true
 actionBar:
   ctas:
     - color: purple
@@ -63,7 +61,7 @@ The initial build is a milestone, not an end. As you make changes, you’ll need
 
 You’ll also have technical maintenance for any frameworks or libraries you used. Open source is ever-evolving, which means you need to keep moving with it. Update that JavaScript library you depend on. And make sure you have ways to discover or get reports of errors with your API reference site, just like you’d want with any other software.
 
-![](/images/documentation-design-guide.png)
+![Stoplight Documentation](/images/documentation-design-guide.png)
 
 Paid tools, such as [Stoplight’s documentation](https://stoplight.io/documentation/), can generate beautiful references from OpenAPI documents. Using this approach, you create a machine-readable definition of your API, then automate its publication. You can then plug Stoplight into existing CI/CD tooling to help ensure it’s always up-to-date.
 

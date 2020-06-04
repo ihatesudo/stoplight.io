@@ -12,8 +12,6 @@ subtitle: Behind the divergence in data formats and how you can solve it
 image: /images/converging-car-lights.jpg
 color: black
 includeToc: true
-disqus:
-  enabled: true
 actionBar:
   ctas:
     - color: black

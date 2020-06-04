@@ -12,9 +12,6 @@ subtitle: >-
   How we are evolving documentation at Stoplight to be performant, accessible,
   portable, and integrated
 image: /images/evolution-of-api-documentation.jpeg
-color: purple-darker
-disqus:
-  enabled: true
 actionBar:
   enabled: false
 meta:
@@ -72,11 +69,11 @@ The Hub Builder gave us a combination of a static website (great for SEO) and a 
 
 Check out these performance improvements comparing our first solution ([Classic](http://app.stoplight.io)) to what we have now with the Hub Builder ([Next](https://next.stoplight.io)): The average page load time was reduced by ~75%.
 
-![](https://cdn-images-1.medium.com/max/800/1*yJKKLyZsXMN5dMq1M5NkOw.png)
+![Performance Improvements Graph](https://cdn-images-1.medium.com/max/800/1*yJKKLyZsXMN5dMq1M5NkOw.png)
 
 ![Next vs Classic page load times](https://cdn-images-1.medium.com/max/800/1*9b4mFAk0Ue8JHt9aMlIe8w.png)_Next vs Classic page load times_
 
-![](https://cdn-images-1.medium.com/max/800/1*Duskr9qnM6tZVB3KqCGc8A.png)
+![Performance Improvements Graph](https://cdn-images-1.medium.com/max/800/1*Duskr9qnM6tZVB3KqCGc8A.png)
 
 ![Next vs Classic download size and number of requests](https://cdn-images-1.medium.com/max/800/1*9ztHseR_6PfY391myQratw.png)_Next vs Classic download size and number of requests_
 

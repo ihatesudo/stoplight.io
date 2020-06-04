@@ -1,5 +1,7 @@
 ---
 path: /api-documentation-guide/best-practices
+hero:
+  particles: true
 tags:
   - guides
   - api-documentation

@@ -1,5 +1,7 @@
 ---
 path: /api-design-guide/basics
+hero:
+  particles: true
 tags:
   - guides
   - api-design
@@ -9,7 +11,6 @@ publishedDate: 2019-02-06T03:07:38.734Z
 author: ''
 title: Basic API Design Guide, Best Practices & Good Design Principles
 subtitle: Learn all there is about API Design through our comprehensive guide
-color: blue
 tabs:
   - href: /api-design-guide/basics
     title: API Design Basics

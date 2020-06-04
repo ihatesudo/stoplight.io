@@ -1,5 +1,7 @@
 ---
 path: /mock-api-guide/advanced/
+hero:
+  particles: true
 tags:
   - guides
   - mocking

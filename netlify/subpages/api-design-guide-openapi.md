@@ -1,5 +1,7 @@
 ---
 path: /api-design-guide/openapi
+hero:
+  particles: true
 tags:
   - guides
   - api-design
@@ -8,7 +10,6 @@ relatedTags:
 publishedDate: 'Jan 23, 2019'
 title: OpenAPI Design Guide & OpenAPI Spec
 subtitle: Learn all there is about API Design through our comprehensive guide
-color: orange
 tabs:
   - href: /api-design-guide/basics
     title: API Design Basics

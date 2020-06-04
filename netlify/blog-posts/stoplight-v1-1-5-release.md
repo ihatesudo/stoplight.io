@@ -9,8 +9,6 @@ title: Stoplight v1.1.5 Release
 subtitle: 'Platform, Studio, and Prism'
 image: /images/changelog-stock.jpg
 color: black
-disqus:
-  enabled: true
 actionBar:
   ctas:
     - color: purple
@@ -31,14 +29,14 @@ meta:
 
 ## Platform v1.1.5
 
-### Features
+### Platform Features
 
 - Added "View in Docs" button to explorer read panel
 - Docs endpoint pages now display the method and path
 - Navigating between docs pages will now scroll you to the top of the page
 - Docs page table of contents is displayed as a popover on smaller screens
 
-### Fixes
+### Platform Fixes
 
 - Images in docs now point directly to the original repository, rather than to jsdeliver
 - Parameters with long names no longer overflow into their type
@@ -46,12 +44,12 @@ meta:
 
 ## Studio v1.1.4
 
-### Features
+### Studio Features
 
 - Support operation parameter references
 - Support running spectral rules on JSON schema files: [#122](https://github.com/stoplightio/studio/issues/122)
 
-### Fixes
+### Studio Fixes
 
 - Opening a project can sometimes get stuck on the "processing" screen indefinitely
 - Project failing to open results in removed project folder
@@ -62,7 +60,7 @@ meta:
 
 ## Prism v3.1.1
 
-### Fixes
+### Prism Fixes
 
 - Prism is now giving precedence to application/json instead of using it as a "fallback" serializer, fixing some conditions where it wouldn't get triggered correctly: [#599](https://github.com/stoplightio/prism/issues/599)
 - Prism is now taking in consideration the required properties for combined schemas (oneOf, allOf): [#575](https://github.com/stoplightio/prism/issues/575)

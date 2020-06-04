@@ -1,5 +1,7 @@
 ---
 path: /openapi/design
+hero:
+  particles: true
 tags:
   - 'OpenAPI'
   - 'design'
@@ -11,10 +13,11 @@ publishedDate:
 title: OpenAPI Design & Specification
 subtitle: >-
  Discussing API design, contract testing, and reference documentation using the OpenAPI specification standard.
-color: indigo-darker
 tabs:
   - href: /openapi
     title: What is OpenAPI?
+  - href: /openapi/design
+    title: OpenAPI Design
 actionBar:
   enabled: false
 meta:

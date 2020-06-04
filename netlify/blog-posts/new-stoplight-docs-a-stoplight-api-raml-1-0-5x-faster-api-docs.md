@@ -9,8 +9,6 @@ title: 'New Stoplight Docs, a Stoplight API, RAML 1.0, 5x Faster API Docs'
 subtitle: 'New features, releases, & roadmaps'
 image: /images/new-stoplight-docs.png
 color: black
-disqus:
-  enabled: true
 actionBar:
   enabled: false
 meta:

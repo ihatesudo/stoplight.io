@@ -11,12 +11,9 @@ author: Vincenzo Chianese
 title: Prism v3 Adds OpenAPI 3.0 and Goes Open Source
 subtitle: Generate a mock API server without writing code
 image: /images/apurv-das-H63k7kYljbY-unsplash.jpg
-color: purple-dark
 tabs:
   - {}
 includeToc: true
-disqus:
-  enabled: true
 actionBar:
   ctas:
     - color: purple

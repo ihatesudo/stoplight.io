@@ -16,11 +16,8 @@ subtitle: >-
   in Gartner’s “Cool Vendor in Application Development and Platforms” 2019
   report.
 image: /images/nicolas-tissot-335096-unsplash-1-.jpg
-color: blue
 tabs: []
 includeToc: false
-disqus:
-  enabled: true
 actionBar:
   ctas:
     - color: purple
@@ -61,6 +58,6 @@ _Stoplight_, a _Techstars_ backed company, has over 550 customers addressing the
 
 Stoplight’s mission is to enable all stakeholders working with APIs to be more productive. Stoplight’s API Design Management software platform provides a suite of products that cover the entire pre-production API lifecycle. Stoplight’s customers include companies in the Fortune 1000. Stoplight promotes a design first approach to microservice application development. Developing good design first practices will minimize future costs, speed up your time to market, and lead to more consistent, higher quality microservice and IoT applications.
 
-<p class="text-xs">Gartner Cool Vendors in Application Development and Platforms, Jim Scheibmeir, Mark Driver, Thomas Murphy, Jason Wong, Mark O’Neill, 2 May 2019.</p>
+#### Gartner Cool Vendors in Application Development and Platforms, Jim Scheibmeir, Mark Driver, Thomas Murphy, Jason Wong, Mark O’Neill, 2 May 2019
 
-<p class="text-xs">Gartner does not endorse any vendor, product or service depicted in its research publications, and does not advise technology users to select only those vendors with the highest ratings or other designation. Gartner research publications consist of the opinions of Gartner's research organization and should not be construed as statements of fact. Gartner disclaims all warranties, expressed or implied, with respect to this research, including any warranties of merchantability or fitness for a particular purpose.</p>
+##### Gartner does not endorse any vendor, product or service depicted in its research publications, and does not advise technology users to select only those vendors with the highest ratings or other designation. Gartner research publications consist of the opinions of Gartner's research organization and should not be construed as statements of fact. Gartner disclaims all warranties, expressed or implied, with respect to this research, including any warranties of merchantability or fitness for a particular purpose

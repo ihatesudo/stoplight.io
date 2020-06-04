@@ -12,8 +12,6 @@ subtitle: Streamlining The API Documentation Process
 image: /images/documentation-team.jpg
 color: black
 includeToc: true
-disqus:
-  enabled: true
 actionBar:
   ctas:
     - color: black

@@ -1,5 +1,7 @@
 ---
 path: /case-studies/bodev
+hero:
+  particles: true
 tags:
   - case-study
 relatedTags:
@@ -15,7 +17,6 @@ listSubtitle: >-
   integrated method for creating technical documentation for clients. Most of
   the existing products only solved one of the two problems in depth.
 image: /images/bodev_logo.png
-color: blue
 sidebar:
   info:
     description: >-

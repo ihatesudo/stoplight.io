@@ -13,9 +13,6 @@ author: Robert Wallach
 title: The API Cornucopia
 subtitle: Defining and describing APIs and their ecosystem
 image: /images/yummee-chinese.jpeg
-color: blue
-disqus:
-  enabled: true
 actionBar:
   ctas:
     - color: purple
@@ -34,7 +31,9 @@ meta:
     username: '@stoplightio'
 ---
 
-_Yum Mee Chinese Food, Boston, MA_
+**_This blog post was originally published in 2017, and it references a legacy product that is no longer accepting new users. To view Stoplight's current offering, head to the homepage._**
+
+---
 
 When I first started working at Stoplight I had a very vague sense of what we created or what we did. Having been born in the late 80’s I have worked with computers for most of my life and even dabbled in writing HTML, CSS, XML, and JS but when people asked me what I did for work my mind would go blank. “I work at Stoplight” I would say, “a software company.” Some people found this vague and brief description acceptable but most would follow up with a flood of inquiries: “What kind of software?” “What does it do?” Is it an app?” “Does it deliver me food?” “Connect me with people?” “Can I use it on my Apple Watch?”
 
@@ -44,15 +43,15 @@ Everyday conversation is fueled by the question “What do you do for a living?�
 
 Like many professional industries, software engineering has a plethora, actually more like a full on cornucopia of industry specific terms that would make anyone feel a bit overwhelmed. To simplify, mostly for my own sanity, I am going to describe APIs in:
 
-### The Land of Analogies
+### **The Land of Analogies**
 
-“Welcome to Business, I will be your server tonight, my name is Request.” Yes, that’s right, you are in a restaurant, in the Land of Analogies, at a restaurant called Business, being served by a weird guy named Request. The waiter hands you a menu titled _API Definitions/References/Docs_ with over 15,000 options. While scanning the menu you notice a few popular choices, for an appetizer, perhaps you want to consume _Google Maps_ API, maybe sample the infamous _Twitter_ API, gorge on the* IBM Watson *API, and for dessert, the _Stripe_ API. You relay your order to Request who just stares at you sullenly. Another customer in the restaurant coughs and pulls you aside, “The only words Request knows are Get, Put, Post, and Patch.” So you carefully rephrase your order to Request and he turns and stalks back to the kitchen. He returns soon after and decries “400.” You swear under your breathe then more carefully arrange the words in your sentence and repeat your order. Request blinks, then strolls back towards the kitchen. He soon returns with a steaming _Google Map_ loaded with features, followed by samples of Tweets, some visual recognition software compliments of _IBM Watson_, and a deconstructed _Stripe_ payment system. “200,” he proclaims gleefully.
+“Welcome to Business, I will be your server tonight, my name is Request.” Yes, that’s right, you are in a restaurant, in the Land of Analogies, at a restaurant called Business, being served by a weird guy named Request. The waiter hands you a menu titled _API Definitions/References/Docs_ with over 15,000 options. While scanning the menu you notice a few popular choices, for an appetizer, perhaps you want to consume _Google Maps_ API, maybe sample the infamous _Twitter_ API, gorge on the *IBM Watson* API, and for dessert, the _Stripe_ API. You relay your order to Request who just stares at you sullenly. Another customer in the restaurant coughs and pulls you aside, “The only words Request knows are Get, Put, Post, and Patch.” So you carefully rephrase your order to Request and he turns and stalks back to the kitchen. He returns soon after and decries “400.” You swear under your breathe then more carefully arrange the words in your sentence and repeat your order. Request blinks, then strolls back towards the kitchen. He soon returns with a steaming _Google Map_ loaded with features, followed by samples of Tweets, some visual recognition software compliments of _IBM Watson_, and a deconstructed _Stripe_ payment system. “200,” he proclaims gleefully.
 
 At this point you’re probably wondering what the hell is this guy talking about, get to the point, or you’re hungry for deconstructed _Stripe_ payment. Whatever you’re thinking, let’s break the analogy down from front to back stage:
 
-![[https://www.flickr.com/photos/stevendepolo/15984623159](https://www.flickr.com/photos/stevendepolo/15984623159)](https://cdn-images-1.medium.com/max/800/1*a7lcPicbg5ju8zn9sn1NJg.jpeg)_[https://www.flickr.com/photos/stevendepolo/15984623159](https://www.flickr.com/photos/stevendepolo/15984623159)_
+![[https://www.flickr.com/photos/stevendepolo/15984623159](https://www.flickr.com/photos/stevendepolo/15984623159)](https://cdn-images-1.medium.com/max/800/1*a7lcPicbg5ju8zn9sn1NJg.jpeg)_[Photo Credit: Steven Depolo](https://www.flickr.com/photos/stevendepolo/15984623159)_
 
-**Front Stage**
+### **Front Stage**
 
 - Restaurant: _Your Business_
 
@@ -62,7 +61,7 @@ At this point you’re probably wondering what the hell is this guy talking abou
 
 - You: _Client_
 
-**Back Stage**
+### **Back Stage**
 
 - Restaurant Owner: _Companies that own the API_
 
@@ -74,7 +73,7 @@ At this point you’re probably wondering what the hell is this guy talking abou
 
 To summarize our delicious analogy let’s imagine you, the client, is the proud owner of the restaurant _Yum Mee Chinese Food_. A feature you would like to incorporate into your restaurant’s website is a map that tracks your Deliveries. The easiest way to accomplish this is to simply add the _Google Maps_ API into your site.
 
-![[https://hiveminer.com/Tags/food%2Cyummee/Interesting](https://hiveminer.com/Tags/food%2Cyummee/Interesting)](https://cdn-images-1.medium.com/max/800/1*LPOb26EyoCjsNHOChkYPWA.jpeg)_[https://hiveminer.com/Tags/food%2Cyummee/Interesting](https://hiveminer.com/Tags/food%2Cyummee/Interesting)_
+![[https://hiveminer.com/Tags/food%2Cyummee/Interesting](https://hiveminer.com/Tags/food%2Cyummee/Interesting)](https://cdn-images-1.medium.com/max/800/1*LPOb26EyoCjsNHOChkYPWA.jpeg)_[Yum Mee Chinese Food, Boston, MA](https://hiveminer.com/Tags/food%2Cyummee/Interesting)_
 
 - The restaurant: _Yum Mee Chinese Food_
 
@@ -132,3 +131,5 @@ APIs need documentation to function and flourish. From a healthy Help Center to 
 ### Conclusion
 
 So what do _we_ do? We help you build your business in the cloud, from conception to implementation, with a sophisticated set of developer tools packaged in a brilliantly minimalistic UI. We help your team strategize, orchestrate, and create without the hassle, without the drama, and without cutting corners. To find out more, visit us at [stoplight.io](http://stoplight.io)
+
+Photo Credit: _Yum Mee Chinese Food, Boston, MA_

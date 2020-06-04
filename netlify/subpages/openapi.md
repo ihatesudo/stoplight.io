@@ -1,5 +1,7 @@
 ---
 path: /openapi
+hero:
+  particles: true
 tags:
   - 'OpenAPI'
 relatedTags:
@@ -12,8 +14,9 @@ publishedDate:
 title: What is OpenAPI?
 subtitle: >-
  Discussing the OpenAPI specification standard, what benefits OpenAPI provides to development, and what OpenAPI tools are available.  
-color: indigo-darker
 tabs:
+  - href: /openapi
+    title: What is OpenAPI?
   - href: /openapi/design
     title: OpenAPI Design
 actionBar:

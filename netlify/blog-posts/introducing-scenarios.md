@@ -9,7 +9,7 @@ publishedDate: 2017-02-09T00:05:29.244Z
 author: Stoplight
 title: Introducing Scenarios
 subtitle: 'The lean, mean, API testing machine'
-image: /images/introducing-scenarios.png
+listImage: /images/introducing-scenarios.png
 color: black
 actionBar:
   ctas:
@@ -33,7 +33,7 @@ meta:
 
 ---
 
-**Getting Started**
+## Getting Started
 
 Stoplight Scenarios is a powerful (but accessible!) product that takes the pain out of API testing. Today, we are releasing it as a standalone product, available on the web, and as a desktop app.
 
@@ -41,11 +41,11 @@ We generally recommend the desktop app when possible, because it can work with l
 
 ![API Specification Coverage Report](https://cdn-images-1.medium.com/max/800/1*epCvIcr8745JoqRijKg82A.png)_API Specification Coverage Report_
 
-**OAS / Swagger Integration**
+## OAS / Swagger Integration
 
 If you are modeling your API with Swagger 2 (whether with the v2 Stoplight app, or with another tool), Scenarios can leverage that specification to automatically build tests for you, provide coverage reports, and apply the specification to your API in the form of contract tests. This is THE best way to make sure that your API specification accurately reflects your API!
 
-**Continuous Integration … err, Integration**
+## Continuous Integration … err, Integration
 
 Running Scenarios outside of Stoplight, as part of your CI process, is trivial. Just install [Prism](https://stoplight.io/mocking/) on your computer or CI server, and then run something like:
 
@@ -55,7 +55,7 @@ Prism will run your scenarios locally, pretty-printing out the results as it goe
 
 ![read/write to files on disk](https://cdn-images-1.medium.com/max/800/1*vvPlg4fKJxPesqva0_EtSA.gif)_read/write to files on disk_
 
-**Local File Writing**
+## Local File Writing
 
 The desktop app makes it easy to read/write to files on disk. This allows you to include your specs and tests alongside your code, version them with git, and use your favorite tools to manage them.
 

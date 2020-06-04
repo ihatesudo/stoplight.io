@@ -1,5 +1,7 @@
 ---
 path: /documentation/automation
+hero:
+  particles: true
 tags:
   - ''
 relatedTags:

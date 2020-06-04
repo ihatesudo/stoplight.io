@@ -1,5 +1,7 @@
 ---
 path: /design/enterprise
+hero:
+  particles: true
 tags:
   - ''
 relatedTags:
@@ -8,7 +10,6 @@ title: API Design Tooling For Enterprise Level
 subtitle: >-
   Build enterprise ready APIs with a collaborative, powerful, visual editor that
   allows you to prototype and share your API within minutes
-color: blue
 tabs:
   - href: /design
     title: API Design

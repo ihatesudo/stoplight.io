@@ -15,8 +15,6 @@ subtitle: >-
 image: /images/sharon-mccutcheon-663633-unsplash.jpg
 tabs:
   - {}
-disqus:
-  enabled: true
 actionBar:
   ctas:
     - color: purple

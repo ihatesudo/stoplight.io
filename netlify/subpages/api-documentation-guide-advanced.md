@@ -1,5 +1,7 @@
 ---
 path: /api-documentation-guide/advanced
+hero:
+  particles: true
 tags:
   - guides
   - api-documentation

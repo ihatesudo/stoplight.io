@@ -1,5 +1,7 @@
 ---
 path: /mock-api-guide/basics
+hero:
+  particles: true
 tags:
   - guides
   - mocking

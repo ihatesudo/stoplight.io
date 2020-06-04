@@ -13,8 +13,6 @@ image: /images/python-snake.jpg
 color: black
 tabs:
   - {}
-disqus:
-  enabled: true
 actionBar:
   ctas:
     - color: purple
@@ -65,7 +63,7 @@ Firstly, make sure you have Flask installed. It’s easiest to use Python packag
 
 Now open up a new text file and copy-paste these contents:
 
-```
+```json
 from flask import Flask, json
 
 companies = [{"id": 1, "name": "Company One"}, {"id": 2, "name": "Company Two"}]
@@ -108,7 +106,7 @@ Like Flask, Falcon can be installed using pip. At the same time, you can install
 
 Unlike Flask, Falcon does not have a built-in server. Now open up a new text file and copy-paste these contents:
 
-```
+```json
 import falcon, json
 
 class CompaniesResource(object):

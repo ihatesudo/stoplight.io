@@ -1,5 +1,7 @@
 ---
 path: /api-types/composite-api/
+hero:
+  particles: true
 tags:
   - 'api types'
   - 'composite api'
@@ -13,14 +15,15 @@ publishedDate:
 title: Composite API
 subtitle: >-
  REST APIs are a popular convention, but they can be inefficient for some use cases. With a design around specific resources, multiple calls are often needed to support a single use case. Composite APIs are a potential architectural answer that can bundle multiple calls into a single API request.
-color: blue
 tabs:
-  - href: /api-types/
+  - href: /api-types
     title: API Types
   - href: /api-types/soap-api/
     title: SOAP APIs
   - href: /api-types/vs-rest-api/
     title: SOAP APIs vs REST APIs
+  - href: /api-types/composite-api/
+    title: Composite APIs 
 actionBar:
   enabled: false
 meta:

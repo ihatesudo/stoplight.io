@@ -46,8 +46,7 @@ At a high level, good documentation is organized, detailed, accurate, and unambi
 
 Organizing API documentation can be almost as tough as designing the hierarchy of the API. While the documentation can generally follow the design of the API itself, it is important to identify and highlight important topics that do not fit within that paradigm.
 
-![](https://cdn-images-1.medium.com/max/800/0*WCSYf3o6p-OM6hWj.)
-
+![Strava API Documentation](https://cdn-images-1.medium.com/max/800/0*WCSYf3o6p-OM6hWj.)
 _Strava API Documentation_
 
 Take the [Strava API documentation](https://strava.github.io/api/), for example. It is organized in a way that separates API endpoints (called “resources”) from other important API information like rate limiting and conventions. This ensures that developers can quickly and easily find information about both the API design, and information about the API as a whole.
@@ -60,8 +59,7 @@ Have you ever turned on an unfamiliar faucet, only to find out that the hot and 
 
 In writing, it is often said that less is more. Why use a paragraph when a sentence will do? Unfortunately, this is _not_ the case with API documentation. Nobody has ever complained that an API’s documentation is _too_ detailed. As long as it is clear and properly organized, the more information you can provide about an endpoint, parameter, or expected response, the better.
 
-![](https://cdn-images-1.medium.com/max/800/0*mjg-qm39Ru7svpjw.)
-
+![Plaid API Documentation](https://cdn-images-1.medium.com/max/800/0*mjg-qm39Ru7svpjw.)
 _Plaid API Documentation_
 
 The [Plaid API documentation](https://plaid.com/docs/api/) does an excellent job of providing detailed resource documentation. Every endpoint is clearly outlined and, more importantly, every possible parameter is defined in detail. Because of this level of detail, there is no question as to what each parameter does, whether it is optional or required, and what its expected format is.
@@ -70,11 +68,10 @@ The [Plaid API documentation](https://plaid.com/docs/api/) does an excellent job
 
 Every long story needs a tl;dr. No matter how detailed your documentation is, the best way to learn how to use a system is through examples. Clear and concise examples are important because they show an API in action. They take abstract documentation and ground it in reality. It is important to note that while detailed documentation is important, examples are best when generalized. They should be a good representation of a typical request and response, with the detailed parameter and endpoint descriptions providing more depth and context.
 
-![](https://cdn-images-1.medium.com/max/800/0*b8hE97kFCRZ-rb3S.)
-
+![Stripe API Documentation](https://cdn-images-1.medium.com/max/800/0*b8hE97kFCRZ-rb3S.)
 _Stripe API Documentation_
 
-When it comes to examples, the[ Stripe API documentation](https://stripe.com/docs/api) is second to none. Live documentation is tough to do right, and often requires end-user configuration, which can make the documentation more frustrating than it is worth. On the flip side, sample requests are useful, but can be hard to relate to. Stripe tackles this problem by providing example requests and responses with dummy data, unless you are an existing API consumer. In that case, Stripe returns real data directly from their API. This provides an element of context that can help you more accurately understand each documented endpoint.
+When it comes to examples, the [Stripe API documentation](https://stripe.com/docs/api) is second to none. Live documentation is tough to do right, and often requires end-user configuration, which can make the documentation more frustrating than it is worth. On the flip side, sample requests are useful, but can be hard to relate to. Stripe tackles this problem by providing example requests and responses with dummy data, unless you are an existing API consumer. In that case, Stripe returns real data directly from their API. This provides an element of context that can help you more accurately understand each documented endpoint.
 
 ## Next Steps
 

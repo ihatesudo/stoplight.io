@@ -14,8 +14,6 @@ image: /images/ash-edmonds-636863-unsplash.jpg
 color: blue-darker
 tabs:
   - {}
-disqus:
-  enabled: true
 actionBar:
   ctas:
     - color: purple
@@ -40,7 +38,7 @@ So, you're at the start of a new project or in need of a significant refactoring
 
 Microservices require APIs to interact with each other, as you might have learned from my previous article, "[Stop Calling Your APIs Microservices](https://stoplight.io/blog/stop-calling-your-apis-microservices-e165a80eba9d/)." Therefore, let's have a look at the challenges and unique requirements for microservice API design!
 
-## A Hierarchy ofÂ APIs?!
+## A Hierarchy of APIs?!
 
 Companies build APIs for various purposes and audiences. Based on the audience of an API you can distinguish public APIs, partner APIs, internal APIs, and microservice APIs. Public APIs, also called open APIs, are made available to everyone who agrees to their terms of service. Partner APIs are only offered to select partners and can be a great facilitator for business development. Internal APIs are created for developers within the same company to fulfill the promise of reuse between different teams, effectively the modern equivalent of an enterprise SOA (service-oriented architecture). Finally, microservice APIs are only for use inside a single application.
 

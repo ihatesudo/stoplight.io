@@ -1,5 +1,7 @@
 ---
 path: /case-studies/gft
+hero:
+  particles: true
 tags:
   - case-study
 relatedTags:
@@ -13,7 +15,6 @@ listSubtitle: >-
   GFT Technology was looking for an API Design tool that promoted and allowed
   for collaboration between technical and non-technical staff.
 image: /images/gft_group_logo.jpg
-color: blue
 sidebar:
   info:
     description: >-

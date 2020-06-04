@@ -12,8 +12,6 @@ subtitle: 'When and how it makes sense to create, read, update, and delete in yo
 image: /images/create-wall.jpg
 color: blue
 tabs: []
-disqus:
-  enabled: true
 actionBar:
   ctas:
     - color: purple

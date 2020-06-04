@@ -10,9 +10,6 @@ author: Emmelyn Wang
 title: The Changing Landscape of Developer Content
 subtitle: ' Creating continuously valuable ways to keep developers successful through content'
 image: /images/changing-developer-landscape.jpeg
-color: orange
-disqus:
-  enabled: true
 actionBar:
   enabled: false
 meta:

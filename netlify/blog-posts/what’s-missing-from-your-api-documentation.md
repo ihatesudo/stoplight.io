@@ -10,11 +10,8 @@ author: Adam DuVander
 title: What’s Missing From Your API Documentation
 subtitle: 'How to build out high-quality API documentation '
 image: /images/missing-docs.jpeg
-color: indigo
 tabs:
   - {}
-disqus:
-  enabled: true
 actionBar:
   ctas:
     - color: purple

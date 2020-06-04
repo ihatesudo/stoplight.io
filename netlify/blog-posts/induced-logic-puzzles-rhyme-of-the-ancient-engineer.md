@@ -12,9 +12,6 @@ author: Robert Wallach
 title: 'Induced Logic Puzzles: Rhyme of the Ancient Engineer'
 subtitle: 'An Ode to Engineers '
 image: /images/logic-puzzles.jpeg
-color: blue
-disqus:
-  enabled: true
 actionBar:
   ctas:
     - color: purple
@@ -33,7 +30,7 @@ meta:
     username: '@stoplightio'
 ---
 
-_Martin Waldseemüller Map 1507_
+Photo: _Martin Waldseemüller Map 1507_
 
 This is the second article in a series I have decided to title _I can REST when I’m Alive_. This article came about by my increasing respect and awe for what we do here at Stoplight and what engineers are doing all over the world. An homage to the folks who work in one of the most abstract, complex, and enticing industries I have ever been a part of.
 

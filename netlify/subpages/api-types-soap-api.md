@@ -1,5 +1,7 @@
 ---
 path: /api-types/soap-api/
+hero:
+  particles: true
 tags:
   - 'soap'
   - 'api types'
@@ -11,10 +13,11 @@ publishedDate:
 title: SOAP API
 subtitle: >-
   Explore SOAP APIs, how to call them, how to describe them, and other common topics.
-color: blue
 tabs:
   - href: /api-types
     title: API Types
+  - href: /api-types/soap-api/
+    title: SOAP APIs
   - href: /api-types/vs-rest-api/
     title: SOAP APIs vs REST APIs
   - href: /api-types/composite-api/

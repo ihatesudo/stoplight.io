@@ -9,8 +9,6 @@ title: Stoplight v1.1.0 Release
 subtitle: 'Path Parameters, Download Project, Spectral'
 image: /images/changelog-stock.jpg
 color: black
-disqus:
-  enabled: true
 actionBar:
   ctas:
     - color: purple
@@ -31,7 +29,7 @@ meta:
 
 ## Studio v1.1.0
 
-### Features
+### Studio Features
 
 - Path parameters are now exposed in the Forms view for OpenAPI v2/v3 endpoints [#3](https://github.com/stoplightio/studio/issues/3)
 - Spectral rules can now be toggled and customized using a ‘.spectral.yml’ configuration file located in the root of the project repository
@@ -40,7 +38,7 @@ meta:
 - Added support for basic Git merge capabilities
 - Improved overall Git pull performance
 
-### Bug Fixes
+### Studio Bug Fixes
 
 - Model-to-model JSON references not displaying properly in Read view [#79](https://github.com/stoplightio/studio/issues/79)
 - Array types not displaying properly in Read view [#70](https://github.com/stoplightio/studio/issues/70)
@@ -57,7 +55,7 @@ meta:
 
 ## Platform v1.1.0
 
-### Bug Fixes
+### Platform Bug Fixes
 
 - “Reset Password” functionality would not always work
 - Fixed an issue when connecting to a Bitbucket service that included a base path in its URL

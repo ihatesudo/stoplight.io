@@ -1,5 +1,7 @@
 ---
 path: /api-design-guide/tooling
+hero:
+  particles: true
 tags:
   - guides
   - api-design

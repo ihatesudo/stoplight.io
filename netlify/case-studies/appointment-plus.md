@@ -1,5 +1,7 @@
 ---
 path: /case-studies/appointmentplus
+hero:
+  particles: true
 tags:
   - case-study
 relatedTags:
@@ -15,7 +17,6 @@ listSubtitle: >-
   were documented as PDFs, not documented at all, or were documented using a
   custom solution.
 image: /images/logo_appointmentplus_transparent.png
-color: blue
 sidebar:
   info:
     description: >-

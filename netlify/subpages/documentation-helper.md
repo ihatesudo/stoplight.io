@@ -1,5 +1,7 @@
 ---
 path: /documentation/helper
+hero:
+  particles: true
 publishedDate: 2019-02-15T16:52:43.494Z
 title: Helper API Documentation
 subtitle: >-

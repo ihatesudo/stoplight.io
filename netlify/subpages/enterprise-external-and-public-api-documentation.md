@@ -1,5 +1,7 @@
 ---
 path: /documentation/external-public-api-documentation
+hero:
+  particles: true
 tags:
   - documentation
 relatedTags:
@@ -14,7 +16,6 @@ listSubtitle: >-
   External API documentation refers to customer-facing API docs, which are
   essential to communicating how to use your public APIs effectively with your
   customers.
-color: blue
 includeToc: true
 actionBar:
   ctas: []
@@ -46,8 +47,8 @@ Conversely, there are good reasons to keep private documentation of public APIs 
 
 There are two main types of external/public API documentation, as mentioned above:
 
-●	Public docs for external APIs, giving end-users instructions of how to use the API independently.
-●	Private docs for external APIs, allowing internal development teams to collaborate on new features and REST APIs that interact with one another.
+- Public docs for external APIs, giving end-users instructions of how to use the API independently.
+- Private docs for external APIs, allowing internal development teams to collaborate on new features and REST APIs that interact with one another.
 
 Stoplight's external API documentation tools can help by auto-generating the documents needed to describe your public APIs, for example, by listing the objects and arguments that need to be inputted to generate an output from the API.
 
@@ -73,9 +74,9 @@ As they are often your only point of contact with external users of your public 
 
 Common types of public API docs include:
 
-●	Basics facts, reference guides, API endpoints and structure.
-●	How-to guides and tutorials on public API usage.
-●	Worked examples and more detailed case studies of best practice.
+- Basics facts, reference guides, API endpoints and structure.
+- How-to guides and tutorials on public API usage.
+- Worked examples and more detailed case studies of best practice.
 
 Different types of public API documents give you the ability to provide distinct levels of detail and complexity for different external users.
 

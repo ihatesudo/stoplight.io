@@ -15,8 +15,6 @@ title: API Proxy vs API Gateway
 subtitle: 'A breakdown of functions, ecosystem, and use-cases'
 image: /images/api-proxy-header.jpeg
 color: indigo
-disqus:
-  enabled: true
 actionBar:
   enabled: false
 meta:
@@ -103,4 +101,4 @@ The advantage of an API Proxy is that it is essentially a lightweight, simple AP
 
 The use case for an API Proxy versus an API Gateway depends on what kinds of capabilities you require and where you are in the API Lifecycle. If you already have an existing API that doesn’t require the advanced capabilities that an API Gateway can offer than an API Proxy would be a recommended route. You can save valuable engineering bandwidth because proxies are much easier to maintain and you won’t suffer any negligible performance loss. If you need specific capabilities that a proxy doesn’t offer you could also develop an in-house layer to accommodate your use case. If you are earlier in the API lifecycle or need the extra features that an API Gateway can provide, then investing in one would pay dividends.
 
-*Photo - The Gardens of Lanhydrock House by Philip Halling*
+Photo - *The Gardens of Lanhydrock House by Philip Halling*

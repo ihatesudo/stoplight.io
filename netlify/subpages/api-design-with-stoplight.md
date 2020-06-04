@@ -1,5 +1,7 @@
 ---
 path: /video/api-design-with-stoplight-part-1
+hero:
+  particles: true
 tags:
   - video
 relatedTags:
@@ -11,7 +13,6 @@ subtitle: >-
   practices will minimize future cost, speed up your time to market, and lead to
   more consistent, higher quality APIs.
 image: /images/api-design-webinar-takeaways.png
-color: blue
 tabs:
   - {}
 includeToc: false

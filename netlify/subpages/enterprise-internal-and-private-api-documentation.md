@@ -1,5 +1,7 @@
 ---
 path: /documentation/internal-private-api-documentation
+hero:
+  particles: true
 tags:
   - documentation
 relatedTags:
@@ -12,7 +14,6 @@ subtitle: >-
 listSubtitle: >-
   Internal API documentation enables you to share private API docs with
   colleagues throughout your organization.
-color: blue
 includeToc: true
 actionBar:
   ctas: []
@@ -39,10 +40,9 @@ Enterprise API internal docs enable discussion and comments that help to improve
 
 Internal/private API documentation is intended for internal use only. It can be auto-generated using Stoplight's internal API documentation tool, written and edited manually, and/or annotated by allowing users across your organization to add their own comments.
 
-At its best, internal API documentation is a way to put your enterprise API into plain and easy-to-understand words so that internal stakeholders can provide feedback, opinions and helpful suggestions to improve your enterprise API and make sure you are meeting the needs of your teams. 
+At its best, internal API documentation is a way to put your enterprise API into plain and easy-to-understand words so that internal stakeholders can provide feedback, opinions and helpful suggestions to improve your enterprise API and make sure you are meeting the needs of your teams.
 
 ## Internal Documentation vs Private APIs
-
 
 Internal API documentation is for internal use only. However, you may have internal documentation relating to an external or public API. This allows you to provide the API itself for public use by customers, suppliers and other external stakeholders, while keeping private internal documentation relating to its design or functionality.
 
@@ -68,17 +68,16 @@ Internal API docs are more than just comments and feedback on the functionality 
 
 Some examples of types of internal API docs include:
 
-●	References on the basic structure and endpoints of the API.
+- References on the basic structure and endpoints of the API.
 
-●	Tutorials and guides on how to use the API effectively.
+- Tutorials and guides on how to use the API effectively.
 
-●	Case studies and worked examples of best practice API usage.
+- Case studies and worked examples of best practice API usage.
 
 REST API reference guides can give a plain language description of the objects and arguments required by the API, which human users can check the first time, or every time they access the API.
 
 ## Best Practice for Enterprise Internal/Private API Documentation
 
 Good enterprise internal/private API documentation depends on knowing the basics, advanced knowledge and best practice for writing API documentation that really works.
-
 
 To find out more about each of these areas, read our comprehensive [API Documentation Guide](https://stoplight.io/api-documentation-guide/basics/).

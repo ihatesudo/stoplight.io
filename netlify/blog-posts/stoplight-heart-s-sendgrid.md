@@ -11,8 +11,6 @@ title: "Stoplight \U0001F496 SendGrid"
 subtitle: A valentine's day letter for SendGrid
 image: /images/general-stock-1-.jpeg
 color: black
-disqus:
-  enabled: true
 actionBar:
   ctas:
     - color: purple

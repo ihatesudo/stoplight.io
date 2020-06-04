@@ -1,5 +1,7 @@
 ---
 path: /design/prototype
+hero:
+  particles: true
 tags:
   - ''
 relatedTags:
@@ -9,7 +11,6 @@ title: API Prototype Documentation Template & Modeling Tool
 subtitle: >-
   Quickly build web APIs in a collaborative, powerful, visual editor that allows
   you to prototype and share your API within minutes
-color: blue
 tabs:
   - href: /design
     title: API Design

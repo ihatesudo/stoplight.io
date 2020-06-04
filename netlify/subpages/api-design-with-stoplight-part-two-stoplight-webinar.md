@@ -1,5 +1,7 @@
 ---
 path: /video/api-design-with-stoplight-part-2
+hero:
+  particles: true
 tags:
   - video
 relatedTags:
@@ -8,7 +10,6 @@ publishedDate: 2019-06-20T18:13:46.002Z
 title: API Design with Stoplight Part Two | Stoplight Webinar
 subtitle: 'API Management, Documentation, Mocking, & Testing'
 image: /images/api-design-part-two-webinar.png
-color: blue
 tabs:
   - {}
 includeToc: false

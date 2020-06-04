@@ -10,9 +10,6 @@ author: Chris Wood
 title: Value of Mocking — Open Banking
 subtitle: ' The role of developer experience in Open Banking'
 image: /images/mocking-open-banking.jpeg
-color: indigo
-disqus:
-  enabled: true
 actionBar:
   ctas:
     - color: purple

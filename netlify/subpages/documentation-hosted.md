@@ -1,5 +1,7 @@
 ---
 path: /documentation/hosted
+hero:
+  particles: true
 subtitle: Flexible Hosted Documentation Solutions that fit any use case
 title: Hosted API Documentation
 tabs:

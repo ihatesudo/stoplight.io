@@ -1,5 +1,7 @@
 ---
 path: /case-studies/namely
+hero:
+  particles: true
 tags:
   - case-study
 relatedTags:
@@ -14,7 +16,6 @@ listSubtitle: >-
   brainstormed the application of their new principle they stumbled upon the
   importance of having reliable, up to date, documentation.
 image: /images/logo_namely_transparent.png
-color: blue
 sidebar:
   info:
     description: >-

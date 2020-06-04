@@ -11,8 +11,6 @@ title: Trump Rolling to Make APIs Great Again
 subtitle: A fun prank calling app made with the latest Stoplight product — Scenarios
 image: /images/general-stock-1-.jpeg
 color: black
-disqus:
-  enabled: true
 actionBar:
   ctas:
     - color: purple

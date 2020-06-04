@@ -1,5 +1,7 @@
 ---
 path: /case-studies/hudya
+hero:
+  particles: true
 tags:
   - case-study
 relatedTags:
@@ -14,7 +16,6 @@ listSubtitle: >-
   their services and the corresponding documentation and they worried that
   merging all these files down the road would be painful and unsustainable.
 image: /images/logo_hudya.png
-color: blue
 sidebar:
   info:
     description: >-

@@ -1,5 +1,7 @@
 ---
 path: /api-documentation-guide/basics
+hero:
+  particles: true
 tags:
   - guides
   - api-documentation

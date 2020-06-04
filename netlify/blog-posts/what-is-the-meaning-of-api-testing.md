@@ -10,11 +10,8 @@ author: Adam DuVander
 title: What is the Meaning of API Testing?
 subtitle: How and why to use OpenAPI contract testing for your API
 image: /images/formulas-and-equations.jpg
-color: green-light
 tabs:
   - {}
-disqus:
-  enabled: true
 actionBar:
   ctas:
     - color: purple

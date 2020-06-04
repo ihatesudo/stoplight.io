@@ -1,5 +1,7 @@
 ---
 path: /video/mocking-apis-with-prism
+hero:
+  particles: true
 tags:
   - video
 relatedTags:
@@ -8,7 +10,6 @@ publishedDate: 2019-07-23T18:13:46.002Z
 title: Mocking APIs with Prism | Stoplight Webinar
 subtitle: 'An introduction to Prism, an open source HTTP mock server'
 image: /images/prism_example.png
-color: blue
 tabs:
   - {}
 includeToc: false

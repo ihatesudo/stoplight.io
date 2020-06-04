@@ -11,9 +11,6 @@ author: Ross McDonald
 title: The Fundamentals of HTTP API Unit Testing
 subtitle: A closer look at unit testing within the context of HTTP APIs
 image: /images/aaa_blog_example.png
-color: purple-darker
-disqus:
-  enabled: true
 actionBar:
   enabled: false
 meta:
@@ -36,11 +33,9 @@ In the fast-paced world of API’s, it is easy to forget the importance of testi
 
 Most software developers are likely already familiar with ‘unit testing’, but, for anyone unfamiliar with the term, the principle behind unit testing is essentially to break a larger set of logic into individual ‘units’ that can then be tested in isolation.
 
-```
-…when you can measure what you are speaking about, and express it in numbers, you know something about it…
-
-- William Thomson
-```
+>_…when you can measure what you are speaking about, and express it in numbers, you know something about it…_
+>
+>**- William Thomson**
 
 In the case of programming, the ‘larger set of logic’ is typically a program, while the ‘units’ are the individual components of said program. While the exact definition of a ‘unit’ is up for debate (and probably varies by use case), the general consensus is that a ‘unit’ is a logical subset of functionality that can be tested on its own. In most cases, this will be a program function, a class method, or any other building block of a larger set of functionality.
 

@@ -13,8 +13,6 @@ title: API Microgateways
 subtitle: From Security to Orchestration
 image: /images/api-microgateways.jpeg
 color: indigo
-disqus:
-  enabled: true
 actionBar:
   enabled: false
 meta:
@@ -30,7 +28,6 @@ meta:
     image: /images/api-microgateways.jpeg
     username: '@stoplightio'
 ---
-*Edinburgh Castle, source: CC0 Public Domain*
 
 Welcome back for another edition of *I’ll REST when I’m Alive*. Today we will be discussing the kerfuffle around API Microgateways. Are they tiny gates that guard the microservice kingdom? Is there a drawbridge over crocodile-infested waters? And most importantly, do you need one?
 
@@ -48,7 +45,7 @@ Once API Gateways had established themselves as a viable security solution, they
 
 Many of the original startups that created API Gateways seven years ago have since been consolidated by larger organizations.
 
-![](https://cdn-images-1.medium.com/max/800/1*rC-vjJJ_l0P5uZxf9RlLnQ.png)
+![aPI Gatewats Aquisitions Timeline](https://cdn-images-1.medium.com/max/800/1*rC-vjJJ_l0P5uZxf9RlLnQ.png)
 
 ### **Gateways Phase III — Microgateways**
 

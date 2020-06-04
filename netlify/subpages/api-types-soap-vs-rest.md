@@ -1,5 +1,7 @@
 ---
 path: /api-types/vs-rest-api/
+hero:
+  particles: true
 tags:
   - 'soap'
   - 'rest'
@@ -12,12 +14,15 @@ publishedDate:
 title: SOAP APIs vs REST APIs
 subtitle: >-
   SOAP APIs vs REST APIs - exploring the differences and similarities between these two approach to web services.
-color: blue
 tabs:
   - href: /api-types
     title: API Types
-  - href: /api-types/soap-api
+  - href: /api-types/soap-api/
     title: SOAP APIs
+  - href: /api-types/vs-rest-api/
+    title: SOAP APIs vs REST APIs
+  - href: /api-types/composite-api/
+    title: Composite APIs
 actionBar:
   enabled: false
 meta:

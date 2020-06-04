@@ -1,6 +1,7 @@
 path: /contact-us
 color: black
 hero:
+  particles: true
   title: Contact Us
   subtitle: Have a general question for Stoplight? Send us a message in the form below.
   ctas:
@@ -9,7 +10,7 @@ hero:
     color: purple
   - title: Contact Sales
     href: 'https://stoplight.io/demo/'
-    color: secondary-dark
+    color:
 
 hubspot:
   formId: 7c71a3d0-fcd0-452f-981e-883c6cc86dd3

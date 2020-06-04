@@ -1,5 +1,7 @@
 ---
 path: /design/free
+hero:
+  particles: true
 tags:
   - ''
 relatedTags:
@@ -9,7 +11,6 @@ title: Free Visual API Designer & OpenAPI Editor Tool
 subtitle: >-
   Build web APIs with a powerful, free visual OpenAPI Specification editor that
   allows you to create API designs and share within minutes
-color: blue
 tabs:
   - href: /design
     title: API Design

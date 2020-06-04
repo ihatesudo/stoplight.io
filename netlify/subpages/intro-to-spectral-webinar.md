@@ -1,5 +1,7 @@
 ---
 path: /video/linting-api-descriptions-with-spectral
+hero:
+  particles: true
 tags:
   - video
 relatedTags:
@@ -8,7 +10,6 @@ publishedDate: 2019-07-23T18:13:46.002Z
 title: Linting API Descriptions with Spectral | Stoplight Webinar
 subtitle: 'An introduction to Spectral, an open source API description linter'
 image: /images/spectral-banner-white-background.png
-color: blue
 tabs:
   - {}
 includeToc: false

@@ -10,9 +10,6 @@ author: Nicholas Cassera
 title: 'The Stoplight Way: Versions and Releases'
 subtitle: 'An integral part of any teams workflow, is version control'
 image: /images/versions-releases.jpeg
-color: indigo
-disqus:
-  enabled: true
 actionBar:
   ctas:
     - color: purple

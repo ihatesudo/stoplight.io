@@ -1,5 +1,7 @@
 ---
 path: /design/web
+hero:
+  particles: true
 tags: ['']
 relatedTags: ['']
 publishedDate: 'Jan 23, 2019'
@@ -7,7 +9,6 @@ subtitle: >-
   Build web APIs with a collaborative, powerful, visual editor that allows you
   to prototype and share your API within minutes
 title: Web API Design Tool
-color: blue
 tabs:
   - title: Web API Design Tool
     href: /design/web

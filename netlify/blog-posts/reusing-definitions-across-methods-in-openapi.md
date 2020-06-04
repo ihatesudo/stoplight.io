@@ -13,8 +13,6 @@ image: /images/rubber-stamp-cloning.jpg
 color: black
 tabs:
   - {}
-disqus:
-  enabled: true
 actionBar:
   ctas:
     - color: purple

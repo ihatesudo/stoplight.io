@@ -1,5 +1,7 @@
 ---
 path: /case-studies/pepipost
+hero:
+  particles: true
 tags:
   - case-study
 relatedTags:
@@ -14,7 +16,6 @@ listSubtitle: >-
   maintenance of a number of existing and upcoming APIs with corresponding
   documentation.
 image: /images/pepipost_logo.png
-color: blue
 sidebar:
   info:
     description: >-

@@ -11,8 +11,6 @@ title: Using API Mocking to Unblock Teams
 subtitle: ' A Primer on How Service Virtualization Can Help You'
 image: /images/service-virtualization.jpeg
 color: black
-disqus:
-  enabled: true
 actionBar:
   ctas:
     - color: purple

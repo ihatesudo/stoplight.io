@@ -12,10 +12,7 @@ author: Robert Wallach
 title: 'Swagger to OAS '
 subtitle: The Evolution of an API Specification
 image: /images/1_ezedkaglnrkx2vw-qv1rpw.jpeg
-color: green
 tabs: []
-disqus:
-  enabled: true
 actionBar:
   ctas: []
   enabled: false
@@ -63,8 +60,7 @@ March 25th, 2015, SmartBear acquires Swagger Specification from Reverb technolog
 >
 > \- Tony Tam
 
-![Image Courtesy of OAI](/images/open-api-initiative-logo.jpeg 'Image Courtesy of OAI')
-
+![OpenAPI Initiative Logo, Image Courtesy of OAI](/images/open-api-initiative-logo.jpeg 'Image Courtesy of OAI')
 _Image Courtesy of OAI_
 
 ## Swagger to OAS (Late 2015)

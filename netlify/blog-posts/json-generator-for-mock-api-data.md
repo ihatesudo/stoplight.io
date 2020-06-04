@@ -12,8 +12,6 @@ subtitle: Create random JSON and host it on a mock server
 image: /images/mock-car.jpg
 tabs:
   - {}
-disqus:
-  enabled: true
 actionBar:
   ctas:
     - color: purple
@@ -69,7 +67,7 @@ You can quickly generate JSON [using a tool](https://www.json-generator.com) cre
 
 For example, the simple example from the previous section can be repeated 100 times with the following template:
 
-```
+```javascript
 [
   {
     'repeat(100)': {

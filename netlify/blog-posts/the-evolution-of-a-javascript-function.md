@@ -10,11 +10,8 @@ author: William Hilton
 title: The Evolution of a JavaScript Function
 subtitle: ' A hypothetical (but realistic) example of how an ordinary JavaScript function can evolve over time'
 image: /images/evolution-javascript.jpeg
-color: purple
 tabs:
   - {}
-disqus:
-  enabled: true
 actionBar:
   enabled: false
 meta:
@@ -68,8 +65,7 @@ Now the boss comes to us with another request. Sometimes the user’s native lan
 
 ## **Undefined is not a problem**
 
-![You got it!](https://cdn-images-1.medium.com/max/800/1*RrFFM_EwTp3RVKUFuViqFw.gif)\_\_
-
+![You got it!](https://cdn-images-1.medium.com/max/800/1*RrFFM_EwTp3RVKUFuViqFw.gif)
 _You got it!_
 
 ```javascript
@@ -97,8 +93,7 @@ Just as we’re feeling clever, the boss adds a new requirement. Some languages 
 
 ## **Ordering and Chaos**
 
-![When one thing disappears, another appears…](https://cdn-images-1.medium.com/max/800/1*wyv6Frz4ZOR4093-MkQCaA.gif)\_\_
-
+![When one thing disappears, another appears…](https://cdn-images-1.medium.com/max/800/1*wyv6Frz4ZOR4093-MkQCaA.gif)
 _When one thing disappears, another appears…_
 
 ```javascript
@@ -141,8 +136,7 @@ greet({ family: 'Smith', given: 'John' }); // also 'Hello John Smith'
 
 The boss loves this! It is easier to read, and no one is mixing up given name and family name anymore.
 
-![Highfive!](https://cdn-images-1.medium.com/max/800/1*coWium9mkHprwHGupY_Zuw.gif)\_\_
-
+![Highfive!](https://cdn-images-1.medium.com/max/800/1*coWium9mkHprwHGupY_Zuw.gif)
 _Highfive!_
 
 At first, the other developers complain that this new syntax is verbose. But then they discover a neat trick: if they name their variables the same as their properties, they can use the [shorthand literal syntax](http://www.benmvp.com/learning-es6-enhanced-object-literals/):
@@ -162,8 +156,7 @@ But now there’s the potential new kind of error. If either lang or reversed ar
 
 ## **No rest for the misspelled**
 
-![Sometimes we make typos…](https://cdn-images-1.medium.com/max/800/1*X0eu8TZb_u3WfH4kckywjw.gif)\_\_
-
+![Sometimes we make typos…](https://cdn-images-1.medium.com/max/800/1*X0eu8TZb_u3WfH4kckywjw.gif)
 _Sometimes we make typos…_
 
 We can solve this problem using another ES2018 feature: [rest properties](http://2ality.com/2016/10/rest-spread-properties.html)!
@@ -197,7 +190,6 @@ greet({ lang, given, family, reserved });
 ## **The function, evolved**
 
 ![Another kind of evolution…](https://cdn-images-1.medium.com/max/800/1*HNlDPG4AlGhv9oMBhJbcpw.gif)
-
 _Another kind of evolution…_
 
 In this blog post, I’ve tried to show how a simple function
@@ -240,6 +232,6 @@ Our final function takes advantage of many modern JavaScript “super powers”:
 
 I’ve started to write all my functions using these features because they provide a flexible foundation for the function to adapt to whatever new requirements come its way. What does _your_ ultimate function look like?
 
-![](https://cdn-images-1.medium.com/max/800/1*sY8s44Z6K4Q9C1B_iN1agg.gif)
+![Questioning Pug](https://cdn-images-1.medium.com/max/800/1*sY8s44Z6K4Q9C1B_iN1agg.gif)
 
 _P.S. If JavaScript is your thing, Stoplight is [hiring](https://angel.co/company/stoplight/jobs)!_

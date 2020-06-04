@@ -1,5 +1,7 @@
 ---
 path: /blog/studio-webinar-q-a
+hero:
+  particles: true
 tags:
   - blog
   - blog-design
@@ -17,8 +19,7 @@ subtitle: >-
 listSubtitle: >-
   Answers to your questions from the October '19 Webinar on Stoplight Studio
   OpenAPI GUI Designer.
-image: /images/studio-desktop.png
-color: blue-darkest
+listImage: /images/studio-desktop.png
 tabs: []
 includeToc: true
 actionBar:
@@ -43,7 +44,7 @@ meta:
 ---
 At the beginning of October, the Stoplight team hosted a webinar covering Stoplight Studio, the latest generation of our OpenAPI GUI designer. If you haven't already, you can [watch it here](https://stoplight.io/video/studio-webinar).
 
-Some attendee questions were answered live, but time ran too short to answer everything. Here are some answers to your questions that we weren't able to cover live. 
+Some attendee questions were answered live, but time ran too short to answer everything. Here are some answers to your questions that we weren't able to cover live.
 
 ## Is there a way to extend the mock server with custom steps?
 
@@ -57,9 +58,9 @@ As for other more general testing, there are tools designed for that sort of thi
 
 ## In the previous generation of Stoplight, I can export an API with resolved references. Do you plan to support this feature in Studio as well?
 
-Absolutely! At the time of publishing this piece, it's a planned item on our roadmap. [Click here to vote for it](https://bit.ly/2pU1PFc).  More votes = higher priority for our product team. Keep an eye on our roadmap and change log to stay informed on features as they're released. 
+Absolutely! At the time of publishing this piece, it's a planned item on our roadmap. [Click here to vote for it](https://bit.ly/2pU1PFc).  More votes = higher priority for our product team. Keep an eye on our roadmap and change log to stay informed on features as they're released.
 
-## Do you have any recommendations for Code Gen? Both Swagger API Gen and OpenAPI Spec Generator “kinda” work, but in different ways.
+## Do you have any recommendations for Code Gen? Both Swagger API Gen and OpenAPI Spec Generator “kinda” work, but in different ways -
 
 There are quite a few floating around, check out OpenAPI.Tools <https://openapi.tools/#sdk>
 
@@ -73,17 +74,15 @@ You can also use your descriptions as server-side validation: <https://www.apisy
 
 ## We are adding documentation to existing JSON APIs that we pull from AWS API Gateway. Can we use JSON instead of YAML for adding documentation?
 
-The API Reference Documentation is automatically built from your API description documents, so you just write OpenAPI v2/v3 in YAML or JSON, and when you publish, you’ll have docs. 
+The API Reference Documentation is automatically built from your API description documents, so you just write OpenAPI v2/v3 in YAML or JSON, and when you publish, you’ll have docs.
 
-The demo was showing off the markdown articles, which can have code samples and embed Try it Now, but those are more for showing off workflows or more tailored Guides. 
+The demo was showing off the markdown articles, which can have code samples and embed Try it Now, but those are more for showing off workflows or more tailored Guides.
 
 Check it out: <https://stoplight.io/docs/>
 
 ## What is the pricing model for the Studio OpenAPI Designer? Currently it’s free, but probably not forever?
 
 Stand-alone Studio is free, forever! Our paid Platform incorporates Studio with other tools, and unlocks the collaboration and governance that companies typically need. That being said, if the free Studio designer plan meets your company's needs, you're welcome to use it.
-
-
 
 Still have questions? We're here to help!
 

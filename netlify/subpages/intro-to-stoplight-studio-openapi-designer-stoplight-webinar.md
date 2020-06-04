@@ -1,5 +1,7 @@
 ---
 path: /video/studio-webinar
+hero:
+  particles: true
 tags:
   - video
 relatedTags:
@@ -8,7 +10,6 @@ publishedDate: 2019-10-23T18:44:10.668Z
 title: Intro to Stoplight Studio OpenAPI Designer | Stoplight Webinar
 subtitle: Take a look at Studio with Founder & CEO Marc MacLeod
 image: /images/studio-desktop.png
-color: blue
 includeToc: false
 actionBar:
   ctas:

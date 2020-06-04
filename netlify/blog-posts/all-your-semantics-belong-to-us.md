@@ -14,8 +14,6 @@ title: All Your Semantics Belong to Us
 subtitle: Where hacking words is a time honored tradition
 image: /images/semantics-belong-to-us.jpeg
 color: indigo
-disqus:
-  enabled: true
 actionBar:
   enabled: false
 meta:
@@ -31,7 +29,6 @@ meta:
     image: /images/semantics-belong-to-us.jpeg
     username: '@stoplightio'
 ---
-*Office Space, 1999*
 
 In the third installment of *I can REST when I’m Alive,* I will be discussing some of the interesting (and funny) linguistic twists that exist in the tech world. Having a Publishing background and a hereditary addiction to language, I couldn’t help but analyze my new industries language. I have compiled a list of some of the most intriguing, comedic, and bizarre terms I have run across thus far.
 
@@ -69,7 +66,7 @@ Evidently the creators of one of the most widely used coding languages in the wo
 
 ## Bug
 
-![](https://cdn-images-1.medium.com/max/800/1*2tG8Mb1KufdcpJl4L1EWIA.jpeg)
+![PacMan Ghost on Computer](https://cdn-images-1.medium.com/max/800/1*2tG8Mb1KufdcpJl4L1EWIA.jpeg)
 
 Commonly attributed to Grace Hopper’s finding of an actual moth while working on Harvard University’s Mark II calculator in 1945, this term is actually much older. Its use goes back to Edison’s time as a form of slang which most likely derives itself from Bugaboo, Bugbear, and Boogeyman. Maybe that will make you think twice before trying to squash a bug…it may be more appropriate to try to exorcise the bug or release it. Perhaps it is haunting your code for past transgressions.
 
@@ -107,13 +104,13 @@ A term referring to the process of Simultaneous Peripheral Operations On-Line. S
 
 ## Daemon
 
-![](https://cdn-images-1.medium.com/max/800/1*UKlJgvm-9E3w85l6U_zVRw.jpeg)
+![Alert Box: Haunted Connection: A Ghost IS Interfering with Your Internet Connection](https://cdn-images-1.medium.com/max/800/1*UKlJgvm-9E3w85l6U_zVRw.jpeg)
 
 Another term originating from the labs at MIT. Daemon refers to a program that runs in the background without any input from the user. Weirdly enough, this term originates from a thought experiment called Maxwell’s Demon where a “Demon” sorts molecules by pulling a lever that opens a trapdoor. I like to imagine it as a kind of spirit guide for your computer that haunts your computer by spinning up its hard drive when you thought it was asleep. Nightmares from what you forced it to do while it was awake.
 
 ## All Your Base Are Belong to Us
 
-![](https://cdn-images-1.medium.com/max/800/1*brGTmLsPjYYaAhDOyVeprw.jpeg)
+![Zero Wing - Cats: All Your Base Are Belong to Us](https://cdn-images-1.medium.com/max/800/1*brGTmLsPjYYaAhDOyVeprw.jpeg)
 
 A video game original, this term came about by a poor translation of a Japanese games dialogue. What does it have to do with computer jargon? Not much other than hilarious.
 
