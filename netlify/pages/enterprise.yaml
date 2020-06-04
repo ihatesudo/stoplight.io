@@ -12,7 +12,8 @@ hero:
     - href: '/demo'
       title: Request Demo
       large: true
-      color: blue
+      rightIcon: ['fad', 'robot']
+      color: 
     - href: '/welcome'
       title: Create a Workspace
       large: true

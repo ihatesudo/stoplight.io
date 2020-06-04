@@ -46,9 +46,11 @@ export const Button: React.FunctionComponent<IButton> = ({
         className,
         'active-depress',
         `border-${color}`,
-        `hover:border-${color}-dark`,
+        `hover:border-${color}-lighten-500`,
+        `hover:bg-lighten-50`,
         `focus:border-${color}-dark`,
         `font-bold sm:w-full rounded-lg inline-flex justify-center items-center select-none border cursor-pointer`,
+
         {
           'px-4 py-2': !large,
           'px-6 py-3': large,
