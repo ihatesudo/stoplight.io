@@ -1,5 +1,4 @@
 path: /api-design-guide-download
-color: indigo
 hero:
   title: Get Your Copy of the Stoplight API Design Guide
   subtitle: >-
@@ -9,8 +8,9 @@ hero:
       type: 'submit'
       submit:
         button:
-          color: green
+          color: blue
           title: Download Your Guide
+          text: black
         input:
           type: email
           placeholder: Your work email...

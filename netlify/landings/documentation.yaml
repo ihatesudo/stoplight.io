@@ -6,7 +6,7 @@ hero:
   particles: true
   ctas:
     - title: Free Hosted Docs
-      color: green
+      color: blue
       href: /docs
       icon:
         - fad

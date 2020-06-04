@@ -23,7 +23,7 @@ featureSection:
     ctas:
       - href: '/studio'
         title: Try Studio
-        color: green
+        color: blue
     enabled: true
     text: Ready to Start Designing APIs?
   description: >-

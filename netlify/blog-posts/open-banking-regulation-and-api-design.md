@@ -15,11 +15,10 @@ author: Chris Wood
 title: 'Open Banking, Regulation, and API Design'
 subtitle: The State of Open Banking in 2019
 image: /images/pexels-photo-164474-1-.jpeg
-color: green
 tabs:
   - {}
 disqus:
-  enabled: true
+  enabled: false
 actionBar:
   ctas: []
   enabled: false

@@ -126,8 +126,8 @@ header:
     - href: 'https://stoplight.io/welcome'
       altHref: 'https://stoplight.io/welcome'
       isButton: true
+      outlined: false
       title: Sign Up For Free
-      altBg: blue2
       icon: ['fad', 'arrow-right']
 actionBar:
   ctas:

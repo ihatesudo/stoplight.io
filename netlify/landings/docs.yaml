@@ -11,7 +11,7 @@ hero:
     alt: Documentation
     src: /images/docs/landing.png
   ctas:
-    - color: green
+    - color: blue
       href: /studio
       title: Author in Studio
       large: true

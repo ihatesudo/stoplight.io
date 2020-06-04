@@ -8,7 +8,7 @@ hero:
   title: Spectral, an Open Source JSON/YAML Linter
   particles: true
   ctas:
-    - color: green
+    - color: purple
       href: 'https://github.com/stoplightio/spectral'
       title: GitHub
       icon: ['fab', 'github']

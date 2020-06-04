@@ -12,7 +12,7 @@ hero:
   ctas:
     - href: '/studio'
       title: Try Out Mocking in Stoplight Studio
-      color: green
+      color: blue
       large: true
       rightIcon: ['fad', 'arrow-right']
     - href: '/open-source/prism'

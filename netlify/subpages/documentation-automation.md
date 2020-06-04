@@ -7,7 +7,6 @@ relatedTags:
 publishedDate: 'Jan 23, 2019'
 title: Automatic API & REST API Documentation
 subtitle: Automate your API Documentation Workflow
-color: green
 tabs:
   - href: /documentation
     title: API Documentation

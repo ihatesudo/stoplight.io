@@ -1,5 +1,4 @@
 title: Stoplight Enterprise
-color: white
 path: /enterprise
 hero:
   particles: true
@@ -13,12 +12,12 @@ hero:
     - href: '/demo'
       title: Request Demo
       large: true
-      color: blue2
+      color: blue
     - href: '/welcome'
       title: Create a Workspace
       large: true
       rightIcon: ['fad', 'arrow-right']
-      color: blue2
+      color: blue
 image:
   alt: Stoplight Enterprise Platform
   src: /images/enterprise/Visibility-Superside-draft.jpg

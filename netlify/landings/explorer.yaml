@@ -19,7 +19,7 @@ featureSection:
     ctas:
       - title: Get Started with Explorer
         href: 'https://github.com/stoplightio/studio/releases/latest/download/stoplight-studio-mac.dmg'
-        color: green
+        color: blue
         rightIcon: ['fad', 'arrow-right']
     enabled: true
     text: Ready to find what you're looking for?

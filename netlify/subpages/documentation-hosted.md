@@ -1,6 +1,5 @@
 ---
 path: /documentation/hosted
-color: green
 subtitle: Flexible Hosted Documentation Solutions that fit any use case
 title: Hosted API Documentation
 tabs:

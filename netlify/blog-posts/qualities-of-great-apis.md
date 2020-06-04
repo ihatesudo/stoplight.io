@@ -11,12 +11,11 @@ author: Robert Wallach
 title: Qualities of Great APIs
 subtitle: Strategies for battle hardening your API development process
 image: /images/tabea-damm-579138-unsplash-1-.jpg
-color: green
 tabs:
   - {}
 includeToc: true
 disqus:
-  enabled: true
+  enabled: false
 actionBar:
   ctas:
     - color: purple

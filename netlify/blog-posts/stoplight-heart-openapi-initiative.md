@@ -10,9 +10,8 @@ author: Robert Wallach
 title: "Stoplight \U0001F496 the OpenAPI Initiative"
 subtitle: 'Announcing our partnership with the OpenAPI Initiative '
 image: /images/openapi.jpeg
-color: green
 disqus:
-  enabled: true
+  enabled: false
 actionBar:
   ctas:
     - color: purple

@@ -3,7 +3,6 @@ path: /documentation/beautiful
 publishedDate: 2019-02-15T16:50:25.630Z
 title: Beautiful Documentation & API Documentation Themes
 subtitle: API Documentation that makes an Impact
-color: green
 tabs:
   - href: /api-documentation-guide/basics
     title: API Documentation Guide

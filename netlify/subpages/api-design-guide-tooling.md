@@ -9,7 +9,6 @@ relatedTags:
 publishedDate: 'Jan 23, 2019'
 title: API Design Brings Powerful Tooling
 subtitle: Learn all there is about API Design through our comprehensive guide
-color: green
 tabs:
   - href: /api-design-guide/basics
     title: API Design Basics

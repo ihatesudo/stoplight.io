@@ -10,7 +10,7 @@ hero:
     In the mean time, check out our API design tool Stoplight Studio.
   title: Stoplight Hubs (Coming Soon)
   ctas:
-    - color: green
+    - color: purple
       href: 'https://stoplight.io/studio'
       title: Go To Stoplight Studio
 meta:

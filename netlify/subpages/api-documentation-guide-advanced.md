@@ -9,7 +9,6 @@ publishedDate: 2019-02-11T17:59:22.696Z
 author: ''
 title: Advanced API Documentation Guide
 subtitle: 'A deep dive into API Documentation '
-color: green
 tabs:
   - href: /api-documentation-guide/basics
     title: API Documentation Basics

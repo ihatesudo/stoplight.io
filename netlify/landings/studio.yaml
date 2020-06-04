@@ -18,24 +18,24 @@ hero:
       - title: Mac App
         href: 'https://github.com/stoplightio/studio/releases/latest/download/stoplight-studio-mac.dmg'
         icon: ['fab', 'apple']
-        color: green
+        color: blue
         filename: studio-mac
       - title: Windows App
         href: 'https://github.com/stoplightio/studio/releases/latest/download/stoplight-studio-win.exe'
         icon: ['fab', 'windows']
-        color: green
+        color: blue
         filename: studio-windows
       - title: Linux App
         href: 'https://github.com/stoplightio/studio/releases/latest/download/stoplight-studio-linux-x86_64.AppImage'
         icon: ['fab', 'linux']
-        color: green
+        color: blue
         filename: studio-linux
 featureSection:
   actionBar:
     ctas:
       - title: Get Quality
         href: 'https://github.com/stoplightio/studio/releases/latest/download/stoplight-studio-mac.dmg'
-        color: green
+        color: blue
         rightIcon: ['fad', 'arrow-right']
       - title: Get Consistency
         href: 'https://github.com/stoplightio/studio/releases/latest/download/stoplight-studio-win.exe'
@@ -43,7 +43,7 @@ featureSection:
         rightIcon: ['fad', 'arrow-right']
       - title: Get Visibility
         href: 'https://github.com/stoplightio/studio/releases/latest/download/stoplight-studio-linux-x86_64.AppImage'
-        color: gold
+        color: indigo
         rightIcon: ['fad', 'arrow-right']
     enabled: true
     text: Ready to start designing APIs?

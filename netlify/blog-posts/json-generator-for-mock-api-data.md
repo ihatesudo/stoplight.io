@@ -10,7 +10,6 @@ author: Adam DuVander
 title: JSON Generator for Mock API Data
 subtitle: Create random JSON and host it on a mock server
 image: /images/mock-car.jpg
-color: green-light
 tabs:
   - {}
 disqus:

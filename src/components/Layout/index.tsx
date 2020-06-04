@@ -16,7 +16,7 @@ export const Layout: React.FunctionComponent<ILayout> = ({ children, header, foo
       <Analytics>
         <Header {...header} />
 
-        <div className="relative bg-white">{children}</div>
+        <div className="relative bg-grey-lightest">{children}</div>
 
         <Footer {...footer} />
       </Analytics>

@@ -3,7 +3,6 @@ path: /documentation/enterprise
 publishedDate: 2019-02-20T18:13:03.690Z
 title: Professional API Documentation for Enterprises
 subtitle: Enterprise Documentation Solutions to fit any organization
-color: green
 tabs:
   - href: /documentation
     title: API Documentation

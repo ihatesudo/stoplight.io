@@ -7,7 +7,7 @@ hero:
   title: Prism, an Open-Source HTTP Mock & Proxy Server
   particles: true
   ctas:
-    - color: green
+    - color: purple
       href: 'https://github.com/stoplightio/prism'
       title: GitHub
       icon: ['fab', 'github']

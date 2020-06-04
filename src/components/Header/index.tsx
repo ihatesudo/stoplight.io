@@ -90,7 +90,7 @@ export const Header: React.FunctionComponent<IHeader> = props => {
         <header
           key="header"
           className={cn('z-50 sticky pin-t pin-l pin-r', {
-            [`shadow-md bg-${color || 'white'}`]: unpinned,
+            [`shadow-md bg-${color || 'black'}`]: unpinned,
             [`shadow-md bg-${pinnedColor}`]: pinnedColor,
           })}
         >
@@ -98,7 +98,7 @@ export const Header: React.FunctionComponent<IHeader> = props => {
             <Banner banner={banner} />
 
             <nav className={cn(headerHeightClass, 'container relative flex items-center')}>
-              <Link to="/" className="mr-8 text-lg font-bold text-black hover:opacity-75 hover:text-black">
+              <Link to="/" className="mr-8 text-lg font-bold text-white hover:opacity-75 hover:text-white">
                 Stoplight
               </Link>
 
@@ -131,14 +131,14 @@ export const Banner = ({ banner }) => {
   if (!banner || !showBanner) return null;
 
   return (
-    <div className="relative z-50 text-black border-b border-lighten-200 Banner bg-lighten-50 sm:hidden">
+    <div className="relative z-50 text-white border-b border-lighten-200 Banner bg-lighten-50 sm:hidden">
       <div className="container flex flex-no-wrap items-center h-12">
         <Icon icon={['fad', 'rocket']} className="mr-3" />
 
         <div className="flex-1" dangerouslySetInnerHTML={{ __html: banner && banner.markdown }} />
 
         <div
-          className="flex items-center justify-center justify-end p-2 rounded cursor-pointer hover:bg-lighten-100 text-lighten-400 hover:text-black"
+          className="flex items-center justify-center justify-end p-2 rounded cursor-pointer hover:bg-lighten-100 text-lighten-400 hover:text-white"
           onClick={onClickBanner}
         >
           <Icon icon="times" />

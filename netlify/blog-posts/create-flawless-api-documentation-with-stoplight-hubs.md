@@ -9,10 +9,9 @@ publishedDate: 2018-03-22T22:14:49.537Z
 author: 'Robert Wallach '
 title: Create Flawless API Documentation with Stoplight Hubs
 subtitle: How to create beautiful documentation with Hubs
-image: /images/flawless-hubs.png
-color: green
+image: /images/flawless-hubs.png 
 disqus:
-  enabled: true
+  enabled: false
 actionBar:
   ctas:
     - color: purple

@@ -85,7 +85,7 @@ export const HomeHero: React.FunctionComponent<IHomeHero> = ({
   subtitle,
   author,
   ctas,
-  bgColor = 'white',
+  bgColor = 'black',
   contentBgImage,
   greyBg,
   particles,
@@ -133,11 +133,11 @@ export const HomeHero: React.FunctionComponent<IHomeHero> = ({
         <div
           className={cn(
             containerClassName,
-            `container text-black flex flex-col pt-24 sm:pt-14 relative z-5 text-${aligned} relative`
+            `container text-white flex flex-col pt-24 sm:pt-14 relative z-5 text-${aligned} relative`
           )}
           style={contentBgImage ? { textShadow: `rgba(0, 0, 0, 0.6) 1px 1px 0px` } : undefined}
         >
-          <div className="flex pt-32">
+          <div className="flex pt-16">
             <div
               className={cn('flex-1', titleClassName, {
                 'mx-auto': !aligned || aligned === 'center',
@@ -145,11 +145,12 @@ export const HomeHero: React.FunctionComponent<IHomeHero> = ({
                 'mr-auto w-2/3 md:w-full sm:mx-auto': aligned === 'left',
               })}
             >
+              
               {breadCrumbs && breadCrumbs.length ? (
                 <div className="flex items-center mb-4 font-semibold text-white opacity-85">
                   {breadCrumbs.map((breadCrumb, index) => (
                     <React.Fragment key={index}>
-                      <Link className="text-black" to={breadCrumb.path}>
+                      <Link className="text-white" to={breadCrumb.path}>
                         {breadCrumb.title}
                       </Link>
                       {index < breadCrumbs.length - 1 ? <span className="mx-2">></span> : null}
@@ -158,15 +159,15 @@ export const HomeHero: React.FunctionComponent<IHomeHero> = ({
                 </div>
               ) : null}
 
-              {pageName && <div className="mb-4 font-semibold text-black uppercase opacity-85">{pageName}</div>}
+              {pageName && <div className="mb-4 font-semibold text-white uppercase opacity-85">{pageName}</div>}
 
               <div className="flex">
                 <div className="flex-1">
-                  <h1 className="text-8xl leading-tight tracking-wide md:text-6xl">{title}</h1>
+                <h1 className="text-6xl leading-tight md:text-4xl">{title}</h1>
 
                   {subtitle && (
                     <h2
-                      className={cn('font-default text-4xl opacity-85 max-w-xl mt-8 md:mt-4', {
+                      className={cn('font-default text-3xl opacity-85 max-w-lg mt-4 md:mt-4', {
                         'mx-auto': !aligned || aligned === 'center',
                         'ml-auto': aligned === 'right',
                         'mr-auto sm:mx-auto': aligned === 'left',
@@ -196,7 +197,7 @@ export const HomeHero: React.FunctionComponent<IHomeHero> = ({
 
                 {author && (
                   <div>
-                    <HeroAuthor className="mt-6 text-black opacity-85" {...author} />
+                    <HeroAuthor className="mt-6 text-white opacity-85" {...author} />
                   </div>
                 )}
               </div>
@@ -207,6 +208,7 @@ export const HomeHero: React.FunctionComponent<IHomeHero> = ({
                 </div>
               )}
             </div>
+            
           </div>
 
           {/* {bottomElem && (
@@ -220,6 +222,7 @@ export const HomeHero: React.FunctionComponent<IHomeHero> = ({
               />
             </div>
           )} */}
+          
         </div>
 
         {image && <HeroImage {...image} className="relative mt-16 z-5" />}
@@ -254,7 +257,7 @@ export const HomeHero: React.FunctionComponent<IHomeHero> = ({
                 right: skew === 'rounded' ? '-50%' : 0,
                 borderRadius: skew === 'rounded' ? '50%' : '0',
                 transform: skew && skew !== 'rounded' ? `skew(0, ${skew})` : undefined,
-                background: bgColor ? undefined : 'radial-gradient(circle, #0f0c2f 100%, #080515 100%)',
+                background: bgColor ? undefined : 'radial-gradient(circle, #0f0c2f 0%, #080515 100%)',
               }}
               useDiv
             />
@@ -276,9 +279,7 @@ export const HomeHero: React.FunctionComponent<IHomeHero> = ({
                         enable: false,
                       },
                     },
-                    color: {
-                      value: "#0B6FCC"
-                    },
+                
                     size: {
                       value: 3,
                       random: true,
@@ -288,7 +289,7 @@ export const HomeHero: React.FunctionComponent<IHomeHero> = ({
                       },
                     },
                     line_linked: {
-                      enable: true,
+                      enable: false,
                     },
                     move: {
                       random: true,

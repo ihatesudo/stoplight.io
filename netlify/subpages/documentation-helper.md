@@ -5,7 +5,6 @@ title: Helper API Documentation
 subtitle: >-
   Use Stoplight to provide comprehensive web API documentation to improve
   developer experience
-color: green
 tabs:
   - href: /api-documentation-guide/basics
     title: API Documentation Guide

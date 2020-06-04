@@ -199,7 +199,7 @@ export default {
                   label: 'Alternate Background Color',
                   hint: 'Background color shown after scrolling the page. (Only valid for buttons)',
                   widget: 'string',
-                  default: 'green',
+                  default: 'purple',
                   required: false,
                 },
               ],
