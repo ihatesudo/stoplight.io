@@ -96,7 +96,7 @@ curl http://dnd5eapi.co/api/conditions/blinded
 }
 ```
 
-If Dungeons and Dragons isn’t your game, that’s okay. Another open API with great documentation is the **[PokéAPI](https://pokeapi.co/docs/v2.html)**, an API for Pokemon data. There’s an incredible amount of Pokemon data, and PokeAPI has a lot of it, so it may be useful to limit the data. For a short example, let’s just look at the first two entries under the “generations” endpoint:
+If Dungeons and Dragons isn’t your game, that’s okay. Another open API with great documentation is the **[PokéAPI](https://pokeapi.co/docs/v2)**, an API for Pokemon data. There’s an incredible amount of Pokemon data, and PokeAPI has a lot of it, so it may be useful to limit the data. For a short example, let’s just look at the first two entries under the “generations” endpoint:
 
 ```curl
 curl https://pokeapi.co/api/v2/generation/?limit=2
@@ -122,7 +122,7 @@ Not a fan of magic and fantasy? No problem, there are APIs that cover other type
 
 ## APIs in the Stars Above
 
-One of the most well-known sci-fi APIs, **[The Star Wars API](https://swapi.co/documentation)** can be used to pull data from a galaxy far, far away. It’s got information on the people and places of the Star Wars universe. For example, looking at the first person listed, we get all the known information about the Jedi Luke Skywalker:
+One of the most well-known sci-fi APIs, **[The Star Wars API](https://swapi.dev/documentation)** can be used to pull data from a galaxy far, far away. It’s got information on the people and places of the Star Wars universe. For example, looking at the first person listed, we get all the known information about the Jedi Luke Skywalker:
 
 ```curl
 curl https://swapi.co/api/people/1/
