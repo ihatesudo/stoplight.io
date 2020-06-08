@@ -235,7 +235,7 @@ curl 'https://ssd-api.jpl.nasa.gov/fireball.api?date-min=2020-02-15&req-loc=true
 }
 ```
 
-If a collection of meteor data is too numerically-dense for you, but you’re still fascinated by space, there’s also the **[Open Notify](http://open-notify.org/) API**. It’s an API that lets you pull some simple space-related data, such as the location of the ISS and the number of people in space at the current moment. How many people are in space right now? Let’s see:
+If a collection of meteor data is too numerically-dense for you, but you’re still fascinated by space, there’s also the **[Open Notify API](http://open-notify.org/) **. It’s an API that lets you pull some simple space-related data, such as the location of the ISS and the number of people in space at the current moment. How many people are in space right now? Let’s see:
 
 ```curl
 curl 'http://api.open-notify.org/astros.json'
