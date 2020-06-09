@@ -70,7 +70,7 @@ plans:
           sfdcCampaignId: '7013i000000kofVAAQ'
   - title: Professional
     titleColor: purple
-    summary: 'Governance, visbility, and reuse to deliver consistency and quality'
+    summary: 'Governance, visibility, and reuse to deliver consistency and quality'
     addInfo: $24/additional user
     button:
       color: purple
@@ -181,7 +181,7 @@ faq:
         Please check out our [roadmap](https://stoplight.io/p/roadmap) for more information.
     - question: Do you offer annual billing?
       description: >-
-        Yes! For annual billing, please contact us at sales@stoplight.io. The default billing cycle for Stoplight is monthly. 
+        Yes! For annual billing, please contact us at sales@stoplight.io. The default billing cycle for Stoplight is monthly.
     - question: Do you offer discounts for Nonprofits or Open Source projects?
       description: >-
         Yes! We offer a free Starter plan for Open Source projects or organizations involved in COVID-19 
