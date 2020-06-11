@@ -11,7 +11,6 @@ relatedTags:
 publishedDate: 2019-03-14T16:49:10.182Z
 title: Mock API Server Testing & API Mocking Guide
 subtitle: 'Learn how to use mock data to design, build, and test APIs'
-color: black
 tabs:
   - href: /mock-api-guide/basics
     title: Mock Server Basics

@@ -12,7 +12,6 @@ relatedTags:
 publishedDate: 2019-03-14T17:05:26.209Z
 title: 'Advanced Dummy Mock API Data Definition, Guide & Testing'
 subtitle: Learn how to generate dummy API data and stage a mock API server
-color: black
 tabs:
   - href: /mock-api-guide/basics/
     title: Mock Server Basics

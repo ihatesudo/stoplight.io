@@ -18,12 +18,12 @@ subtitle: >-
 tabs:
   - href: /api-types
     title: API Types
-  - href: /api-types/soap-api/
-    title: SOAP APIs
   - href: /api-types/vs-rest-api/
     title: SOAP APIs vs REST APIs
+  - href: /api-types/soap-api
+    title: SOAP APIs
   - href: /api-types/composite-api/
-    title: Composite APIs 
+    title: Composite APIs  
 actionBar:
   enabled: false
 meta:
