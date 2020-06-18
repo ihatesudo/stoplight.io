@@ -69,9 +69,42 @@ Testing that some sort of unit of code is working as expected. This could be a f
 If the function contains a call to some other function, class, or library, you may well "isolate" that unit of code you are trying to test by replacing the other code with a fake: known as a "mock" or "stub".
 
 #### Providers
+
+Some people consider a test which makes a HTTP call to a specific API endpoint to be a unit test, because a "unit" of functionality could be anything, not just a function or a class. Maybe, if you're stubbing out other APIs with mock servers like [Prism](https://stoplight.io/open-source/prism)... The orchestration of this is tough, so it's common to make a more classic unit test against the "controller" code.
+
+An API controller is just like any other controller in MVC-based web application frameworks, it just returns JSON instead of HTML. Unit tests can stub out calls to the database, and see what happens when the controller is called with certain properties, and see what JSON comes back to see if it worked.
+
+Avoid these tests, use integration tests instead, because calling your controller directly as code, or calling it through HTTP via the web application server, are usually not as similar as people think. Subtle differences in how a `foo=false` form value is actually `string("false")` instead of `bool(false)` lead to all sorts of false positives.
+
+If these tests are used, they're almost always in the repository with the functionality they are testing.
+
 #### Consumers
 
-Unit tests almost always live in the repository with the functionality they are testing.
+If an application is talking to an API then various best practices suggest wrapping that API interaction logic in some sort of service. 
+
+For example, if we have a venue controller in our content management system which needs to geocode an address, we would make a `Geocoder` class which then uses the Open Street Map HTTP API, but our unit test doesn't need to care about that.
+
+```ruby
+RSpec.describe VenueController do
+  describe '.create' do
+    it 'will geocode address to lat lon' do
+      allow(Geocoder).to receive(:address).with('123 Main Street') do
+        {
+          lat: 23.534,
+          lon: 45.432
+        }
+      }
+      subject.update(address: '123 Main Street')
+      expect(subject.lat).to eql(23.534)
+      expect(subject.lon).to eql(45.432)
+    end
+  end
+end
+```
+
+Completely skipping the API logic in the unit test is kinda what unit tests are about, we just wanna make sure this controller is doing the right thing with the information it has, but beware: if the Geocoder changes, or the API it's returning information from changes, this unit test is garbage. 
+
+Most of the types of testing below are designed to solve this problem.
 
 ### Integration Testing
 
