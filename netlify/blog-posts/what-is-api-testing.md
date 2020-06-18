@@ -42,25 +42,25 @@ Ok, sure, but what does "working as expected" mean?
 - Does it perform quickly under pressure?
 - Does it have gaping security holes? 
 
-This topic is further confused by producers and consumers wanting to test different things in different contexts. 
+This topic is further confused by providers and consumers wanting to test different things in different contexts. 
 
 Settle in, grab a beverage, and I promise we'll unravel this mess.
 
-## Producers & Consumers
+## Providers & Consumers
 
-When people talk about "API testing", a consumer might be speaking about testing the API calls they are making to another API, and producers might be talking about making sure their API works.
+When people talk about "API testing", a consumer might be speaking about testing the API calls they are making to another API, and providers might be talking about making sure their API works.
 
 A consumer needs to know if it is sending information that the API will not understand, and maybe they want to be sure that the API continues to give them the information they expect. 
 
-A producer needs to know if their API is working according to the API design they initially created, the documentation that has been shared since, and that changes to the code do not accidentally change the API interface or wreck expectations that the consumers now have. 
+A provider needs to know if their API is working according to the API design they initially created, the documentation that has been shared since, and that changes to the code do not accidentally change the API interface or wreck expectations that the consumers now have. 
 
-An application could absolutely be both a producer and a consumer, because it might be calling an upstream dependency to find information which it then sends back to another system. This could be a [Backend for Frontend](https://samnewman.io/patterns/architectural/bff/), [submitting a payment to Stripe](https://stripe.com/docs/api), or [sending a SMS with Twilio](https://www.twilio.com/docs/usage/api). 
+An application could absolutely be both a provider and a consumer, because it might be calling an upstream dependency to find information which it then sends back to another system. This could be a [Backend for Frontend](https://samnewman.io/patterns/architectural/bff/), [submitting a payment to Stripe](https://stripe.com/docs/api), or [sending a SMS with Twilio](https://www.twilio.com/docs/usage/api). 
 
-Mistakes by either producers or consumers can set off expensive alarm bells which cause headaches for your support staff, on-call engineers, and ram up your corporate Twitter feed with complaints.
+Mistakes by either providers or consumers can set off expensive alarm bells which cause headaches for your support staff, on-call engineers, and ram up your corporate Twitter feed with complaints.
 
 ## Different Types of Testing
 
-There is no one thing that is "API testing", but there are lots of different bits of code and functionality to test at various points in the API lifecycle. Let's learn about unit testing, integration testing, acceptance testing, end-to-end testing, contract testing, and let's keep in mind that the terms are different for producers and consumers.
+There is no one thing that is "API testing", but there are lots of different bits of code and functionality to test at various points in the API lifecycle. Let's learn about unit testing, integration testing, acceptance testing, end-to-end testing, contract testing, and let's keep in mind that the terms are different for providers and consumers.
 
 ### Unit Testing
 
@@ -68,7 +68,7 @@ Testing that some sort of unit of code is working as expected. This could be a f
 
 If the function contains a call to some other function, class, or library, you may well "isolate" that unit of code you are trying to test by replacing the other code with a fake: known as a "mock" or "stub".
 
-#### Producers
+#### Providers
 #### Consumers
 
 Unit tests almost always live in the repository with the functionality they are testing.
@@ -117,39 +117,8 @@ This might be used for some easy interface testing, but could be used for really
 
 Acceptance tests may or may not live in the repository with the functionality they are testing.
 
-## End-to-End Testing
 
-These don't interact at a code level, they're usually far more about making sure critical paths through the ecosystem are supported, touching multiple applications and APIs.
 
-The interactions are real, maybe a few settings are different so its using "Test" keys for sending emails and making payments that are semi real, but everything else is actually happening. 
-
-These sorts of tests are slow and hard to set up, they need to have real records created in the database and real users need to exist to do that. If the tests are run in a QA environment maybe they can do a big reset script to make all the APIs start from scratch, or its creating a new user every time - which can make the database giiiiant if these tests run hourly.
-
-As always end-to-end tests are different for producers and consumers.
-
-### E2E Testing for API Consumers
-
-For frontend development end-to-end testing usually involves running the entire application, and also running all of its dependencies. For web apps the tests are run in a [headless browser](https://www.keycdn.com/blog/headless-browsers) pretending to be a human clicking around, and mobile apps use a [simulator to automate tests](https://www.browserstack.com/app-automate) in a similar way.
-
-To run those APIs it's pretty common to use Docker or Kubernetes to run the services, then the frontend application can talk to those APIs for real. This can be complex to orchestrate and time consuming, but it's crucial for making sure your application actually works in the real world, not just in the repos test suites. 
-
-These end-to-end tests probably live in the repository for the frontend application they are testing, and can be run in CI on pull requests, after merges to master, and/or nightly.
-
-### E2E Testing for API Producers
-
-Similarly to E2E for API consumers, you could have a E2E test suite for every single API testing it directly and seeing how it plays with other APIs, but that might be better handled with Integration Testing for API Producers (with tools like VCR). 
-
-E2E for API producers is commonly higher level than any one particular project, and is testing the ecosystem itself, through making real calls to real APIs. Seeing as multiple APIs could be involved, it is hard to put end-to-end tests in with the functionality it is targeting, unless your APIs are all in a [monorepo](https://www.atlassian.com/git/tutorials/monorepos). For the vast majority of people not using a monorepo, the "E2E tests" will live on their own, either in their repository, or in some external test suite system. 
-
-The tests could be triggered every time any producer in the entire ecosystem wants to deploy, or if the API ecosystem is huge it could be any time something in that particular context boundary changes.
-
-TODO Context Boundary
-
-Developers often find this jarring at first, because they are mostly used to having their tests under their control in their repo. Having them in another system means things need to be updated in another repo or testing application when changes occur, but that is actually a benefit. 
-
-When tests are owned by the API, the tests can be changed to show that the API is "all good", but that might involve a change that would break expectations of other consumers. Having these tests under the control of a Software Testing or Quality Assurance team means these sort of accidental or unintentional breakages cannot slip through. If a breaking change is made to an API and the E2E testing is being run before deployments can go to production, then this breaking change will be caught safely. 
-
-Finding out which consumers could or would be effected by the change can be tricky, but it could be a case of running the Consumers E2E tests with that API updated in their test suite to see if it all works.
 
 ## Contract Testing
 
@@ -169,7 +138,7 @@ As always, the term can be used differently by different people.
 
 ### Producer Contract Testing
 
-Most of the time when talking to API people, when they say "contract testing" they're talking about Producer Contract Testing. The API producer will create a test which records all the parts of the interface, and run these tests on pull requests to the API repository, to make sure that the code didn't accidentally change.
+Most of the time when talking to API people, when they say "contract testing" they're talking about Producer Contract Testing. The API provider will create a test which records all the parts of the interface, and run these tests on pull requests to the API repository, to make sure that the code didn't accidentally change.
 
 Sometimes people will try and use whole other test suites for contract testing, but there's no need. Your existing integration or acceptance tests are a great home for this sort of assertion.
 
@@ -189,9 +158,9 @@ Scenario: Show action
     And the JSON response at "created_at" should be a string
 ```
 
-This can be rather frustrating to write out, but there's no need to do it. Producers with OpenAPI or JSON Schema can use those API descriptions to provide contract testing! Maybe you only created API descriptions so that you'd have documentation, or maybe it was to generate SDKs, or maybe it was to provide client-side and server-side validation which works from the same set of rules to avoid repetition. 
+This can be rather frustrating to write out, but there's no need to do it. Providers following the [API Design-first Workflow](https://stoplight.io/api-design-guide/basics/) use an API Description Format like OpenAPI, which is all about creating  API descriptions as an early artifact around which a team can refine an API. That same document is perfect for contract testing! 
 
-Whatever the reason, anyone with API descriptions can have contract testing almost for free. Instead of writing all the properties, data formats, validations, etc again into a test suite, you can just take the JSON Schema and assert it against the API response:
+Instead of writing all the properties, data formats, validations, etc. again into a test suite, you can just take the schemas and assert that the response matches it.
 
 ```rb
 # specs/test_helper.rb
@@ -236,105 +205,151 @@ That'll go looking for `api/schemas/user.json` which might look this.
        "example": "john@example.com"
      },
      "created_at": {
+       "readOnly": true,
        "type": ["string", "null"],
        "format": "date-time",
        "example": "2018-04-09T15:45:44.358Z"
-     },
+     }
   },
   "required": [
+    "first_name",
+    "last_name",
     "email",
-    "name",
-    "uuid"
+    "name"
   ]
 }
 ```
 
-One of many handy side-effects to using OpenAPI and JSON Schema files for contract testing your API responses, is that not only does it make sure the code is doing what the API description says it should be doing, but you can make sure the API descriptions are correct against what the code is doing. 
+If any required properties are missing, data types mismatch, or formats are not aorrect, the JSON Schema validator this assertion library wraps will trigger an error and the test case will fail.
 
-After all, if you are using JSON Schema files and `$ref`, then the same schema files can be used for both documentation and contract testing. 
+One of many handy side-effects to using OpenAPI and JSON Schema files for contract testing your API responses, is that as well as double checking your code does what the descriptions say, but it confirms the API descriptions are correct against what the code is doing, and this extra check helps you make sure your documentation is up to date - cutting out the need for tools like [Dredd](https://dredd.org/).
 
-```yaml
-  responses:
-    "200":
-      description: OK
-      content:
-        application/json:
-          schema:
-            $ref: ./schemas/user.json
-```
+These tests live in the same repository as the API so that docs, code and tests can all be updated in the same pull request by the same person, block PRs which are incorrect, and immediately update documentation when PRs are merged. 🥳
 
-Read more about producer contract testing on APIs You Won't Hate's _[Writing Documentation via Contract Testing](https://apisyouwonthate.com/blog/writing-documentation-via-contract-testing)_.
- 
+Read more about provider contract testing on APIs You Won't Hate's _[Writing Documentation via Contract Testing](https://apisyouwonthate.com/blog/writing-documentation-via-contract-testing)_.
+
 ### Consumer Contract Testing
 
--  built in close contact with a specific client, with the backend and frontend developers sitting together to hash out the functionality.
+Any consumer that is talking to another API is just hoping they don't make breaking changes to parts of the API that they use. API developers _should_ be using a [sensible API Versioning strategy](https://www.apisyouwonthate.com/blog/api-versioning-has-no-right-way) which does not allow for breaking changes, or [using API Evolution](https://apisyouwonthate.com/blog/api-evolution-for-rest-http-apis) where breaking change is extremely limited and only when its unavoidable do people deprecate entire endpoints with the [`Sunset` header](https://tools.ietf.org/html/rfc8594). 
+
+If the API providers are adding `Sunset` headers but the consumers didn't notice, then applications will break.
+
+If the API providers are not doing their own contract testing and accidentally push out a breaking change, then applications will break.
+
+Either way, consumer contract testing can help keep an eye on if various dependency APIs are doing what the consumer wants to be doing. 
+
+Tooling for this is very similar to the sort of tests you see in an API providers acceptance test, and its really similar. Instead of the API provider guessing at what a consumer is trying to do and testing that functionality in their own test suite, the API consumer is testing only what they need. The provider could have removed some fields and deleted an endpoint, but if the client doesn't care about that then it's not going to trigger a failure on the test suite.
 
 
+Here's an example of a test using [Pact](https://pact.io/).
 
+```js
+describe('Pact with Order API', () => {
+  describe('given there are orders', () => {
+    describe('when a call to the API is made', () => {
+      before(() => {
+        return provider.addInteraction({
+          state: 'there are orders',
+          uponReceiving: 'a request for orders',
+          withRequest: {
+            path: '/orders',
+            method: 'GET',
+          },
+          willRespondWith: {
+            body: eachLike({
+              id: 1,
+              items: eachLike({
+                name: 'burger',
+                quantity: 2,
+                value: 100,
+              }),
+            }),
+            status: 200,
+            headers: {
+              'Content-Type': 'application/json; charset=utf-8',
+            },
+          },
+        })
+      })
 
-This is often talked about like it's some separate step from the others, and various tools exist with the sole purpose of providing contract testing, but the basics are:
+      it('will receive the list of current orders', () => {
+        return expect(fetchOrders()).to.eventually.have.deep.members([
+          new Order(orderProperties.id, [itemProperties]),
+        ])
+      })
+    })
+  })
+})
+```
 
-- Does the API return a JSON response?
-- Does the JSON contain a field called foo which is a string with an email address?
-- Does the API return a 500 error with an [error object](https://apisyouwonthate.com/blog/creating-good-api-errors-in-rest-graphql-and-grpc) if I skip the authentication token?
-- Does the API return me different responses for regular users or super users?
+Creating a test suite of expectations for your codebase is one way of doing it, but I worry that the tests here and the actual code have subtly different expectations. 
 
-In the past I have wasted a whole bunch of time writing contract tests into multiple places in multiple forms. They went into acceptance tests and looked like this:
+If you are very lucky, the provider will provide SDKs, version them with SemVer, and you can enable something like [Dependabot](https://dependabot.com/) to get updates for those SDKs, at which point your test suite will let you know if a used method or property has vanished from the SDK. If this is the case, you might not need consumer-driver contract testing.
+
+If that is not the case, but you're still lucky enough that the provider has provided OpenAPI descriptions (thanks [Stripe](https://github.com/stripe/openapi) 🙌) then you can point Prism at those and use the validation proxy.
+
+```shell
+prism proxy --errors https://raw.githubusercontent.com/stripe/openapi/master/openapi/spec3.yaml https://api.stripe.com 
+```
+
+Running this will create a [Prism Validation Proxy](https://stoplight.io/p/docs/gh/stoplightio/prism/docs/guides/03-validation-proxy.md) which is going to see what HTTP traffic comes through it, validate the request, and if it spots any trouble it'll blow up thanks to `--errors`. 
+
+If the request is good it'll remake that request to `https://api.stripe.com`, then validate the response too. 
+
+If the response is bad, you'll see output like this in the logs:
 
 ```
-Scenario: Finding a specific place
-    When I request "GET /places/1"
-    Then I get a "200" response
-    And scope into the "data" property
-        And the properties exist:
-            """
-            id
-            name
-            lat
-            lon
-            address1
-            address2
-            city
-            state
-            zip
-            """
-        And the "id" property is an integer
-        And the "name" property is a string
-        And the "address1" property is required
-        ...
+› ✖  error  Request terminated with error: https://stoplight.io/prism/errors#UNPROCESSABLE_ENTITY: Invalid request body payload
 ```
 
-OpenAPI Specification (formerly known as Swagger Specification) is a machine-readable format that describes what’s possible with an API. Your testing process can use your OpenAPI documents to determine the endpoints to check, what HTTP methods to use, the type of data to send, and what data to expect in return.
+This curl command came from their documentation and I removed the currency parameter. I expected that to cause the error, but looking at the JSON that Prism returned, the error is actually that the Stripe OpenAPI is wrong. 🤣
 
-API testing with OpenAPI is sometimes referred to as contract testing, because the OpenAPI document acts as an agreement between API provider and consumer. Even when an API is only for internal use, you’ll want to have an OpenAPI document for each API to serve as this contract. Then build your tests off this source of truth based on example API calls and assertions against expected results.
+```
+curl -i http://localhost:4010/v1/charges \
+  -u sk_test_f5ssPbJNt4fzBElsVbbR3OLk0024dqCRk1: \
+  -d amount=2000 \
+  -d source=tok_visa \
+  -d description="My First Test Charge (created for API docs)"
+HTTP/1.1 422 Unprocessable Entity
+content-type: application/problem+json
+Content-Length: 647
+Date: Wed, 17 Jun 2020 18:02:57 GMT
+Connection: keep-alive
+
+{"type":"https://stoplight.io/prism/errors#UNPROCESSABLE_ENTITY","title":"Invalid request body payload","status":422,"detail":"Your request is not valid and no HTTP validation response was found in the spec, so Prism is generating this error for you.","validation":[{"location":["body","shipping","address"],"severity":"Error","code":"required","message":"should have required property 'line1'"},{"location":["body","shipping"],"severity":"Error","code":"required","message":"should have required property 'name'"},{"location":["body","transfer_data"],"severity":"Error","code":"required","message":"should have required property 'destination'"}]}%
+```
+
+The `shipping` property should be entirely optional, but _if_ `shipping` is passed then the `line1` and `name` is required. There's a valid way to do that in OpenAPI, but it's not this, so... success for Prism. I'll let them know. 👋
 
 
+## End-to-End Testing
 
+End to end testing is the biggest, scariest, slowest, and most valuable type of testing around. They don't interact at a code level, they interact like they're a real user doing real things. They're usually not going to cover every little thing, they're more about ensuring critical paths through the ecosystem are supported, touching multiple applications and APIs as they go.
 
+The interactions are real, maybe a few config variables are using "Test" keys for sending emails and making payments, but everything else is actually happening. 
 
-## Test Use Cases, Not Endpoints
+These sorts of tests are slow and hard to set up, they need to have real records created in the database and real users need to exist to do that. If the tests are run in a QA environment maybe they can do a big reset script to make all the APIs start from scratch, or its creating a new user every time - which can make the database _huge_ if these tests run hourly.
 
-While it’s useful to think of coverage in terms of endpoints, developers will only use the part of your API that makes sense for their use cases. In all stages of an API lifecycle, it’s important to think about how your API is actually used. In testing, you want to convert use cases to a series of API calls.
+As always end-to-end tests are different for providers and consumers.
 
-For example, if you have an e-commerce API, there may be a handful of API calls behind each order:
+### E2E Testing for API Consumers
 
-1. Create customer
-2. Create order
-3. Add customer to order
-4. Add first item to order
-5. Add second item to order
-6. Change status of order to pending
+For frontend development end-to-end testing usually involves running the entire application, and also running all of its dependencies. For web apps the tests are run in a [headless browser](https://www.keycdn.com/blog/headless-browsers) pretending to be a human clicking around, and mobile apps use a [simulator to automate tests](https://www.browserstack.com/app-automate) in a similar way.
 
-Depending on your API design, that may be six POST/PUT calls to at least two endpoints. And you may want to add a GET at the end to be certain the order has all the data you expect.
+To run those APIs it's pretty common to use Docker or Kubernetes to run the services, then the frontend application can talk to those APIs for real. This can be complex to orchestrate and time consuming, but it's crucial for making sure your application actually works in the real world, not just in the repository test suites. 
 
-In order to sequence these requests, you need a way to describe the order and use the data from one step in subsequent calls. In Stoplight, these are called [Scenarios](https://docs.stoplight.io/testing/introduction) and are connected to your OpenAPI document. You can rely on your definition for automatic tests, and use variables (such as customer ID) from data that is returned.
+These end-to-end tests probably live in the repository for the frontend application they are testing, and can be run in CI on pull requests, after merges to master, and/or nightly.
 
-## API Testing Tools
+### E2E Testing for API Providers
 
-With the industry rallying behind the OpenAPI Initiative, tooling is following suit. You’ll find various helper applications throughout the API lifecycle. The [API Design Guide](https://stoplight.io/api-design-guide/basics/) describes the design-first approach to APIs, where OpenAPI is an early artifact around which a team can refine an API. That same document, as we’ve seen, becomes a contract that you can test against.
+Similarly to E2E for API consumers, you could have a E2E test suite for every single API testing it directly and seeing how it plays with other APIs, but that might be better handled with Integration Testing for API Providers (with tools like VCR). 
 
-Community website [OpenAPI.Tools](https://openapi.tools/) provides a categorized list of open source and SaaS tools to use with OpenAPI documents. You’ll find various API testing examples and many other useful resources for building robust APIs.
+E2E for API providers is commonly higher level than any one particular project, and is testing the ecosystem itself, through making real calls to real APIs. Seeing as multiple APIs could be involved, it is hard to put end-to-end tests in with the functionality it is targeting, unless your APIs are all in a [monorepo](https://www.atlassian.com/git/tutorials/monorepos). For the vast majority of people not using a monorepo, the "E2E tests" will live on their own, either in their repository, or in some external test suite system. 
 
-Among the open source tools is [Prism](https://github.com/stoplightio/prism), which creates mock servers for API testing. Once your API is in production, Prism allows you to compare upstream API responses to what it expects to receive based on your OpenAPI description. You can run contract testing against a Live API, including during development, to make sure the results meet expectations.
+The tests could be triggered every time any provider in the entire ecosystem wants to deploy.
 
-Stoplight also runs Prism as-a-service within the OpenAPI testing platform. Upload an OpenAPI document to get started, or design your own based on an existing API. Then run tests to make sure your API operates as expected. -->
+Developers often find this jarring at first, because they are mostly used to having their tests under their control in their repo. Having them in another system means things need to be updated in another repo or testing application when changes occur, but that is actually a benefit. 
+
+When tests are owned by the API, the tests can be changed to show that the API is "all good", but that might involve a change that would break expectations of other consumers. Having these tests under the control of a Software Testing or Quality Assurance team means these sort of accidental or unintentional breakages cannot slip through. If a breaking change is made to an API and the E2E testing is being run before deployments can go to production, then this breaking change will be caught safely. 
+
+Finding out which consumers could or would be effected by the change can be tricky, but it could be a case of running the Consumers E2E tests with that API updated in their test suite to see if it all works.
