@@ -34,7 +34,7 @@ featureSection:
         API. Test Requests within your documentation allows consumers to
         understand how your API works. Code Examples generated from dozens of
         languages such as JavaScript, Python, Ruby, Java, cURL, and more allow
-        consumers to copy and paste right into their own code.
+        consumers to copy and paste right into their own code. This will ensure that you can keep consumers at the front of your mind as you create API docs.
       href: 'https://stoplight.io/documentation/beautiful/'
       image: /images/docs/request-maker.png
       shortName: API Playground

@@ -9,7 +9,7 @@ hero:
     src: /images/studio/hero.png
   subtitle: >-
     Build first-class APIs with a collaborative, powerful, visual editor that
-    allows you to prototype and share your API within minutes
+    allows you to prototype and share your API within minutes using Stoplight's API design tools.
   title: REST API Design Tool For Planning & Modeling Software
   ctas:
     - href: '/studio'
@@ -27,11 +27,11 @@ featureSection:
     enabled: true
     text: Ready to Start Designing APIs?
   description: >-
-    Start designing API in minutes using Stoplight's API design tool. Use the [OpenAPI
+    Start designing API in minutes using Stoplight's API designer and API  design tool. Use the [OpenAPI
     Specification](/api-design-guide/openapi) (formerly known as Swagger) with
     Stoplight’s visual editor to [design consistent and standardized REST
     APIs](/design/web/) for your organization. Without writing any code, model
-    complex APIs faster than ever while simultaneously getting feedback on your
+    and design APIs faster than ever while simultaneously getting feedback on your
     prototypes with our [hosted mock servers](/mocking/).
   features:
     - description: >-
@@ -49,7 +49,7 @@ featureSection:
         Editor decreases the learning curve so you don’t need to be an OpenAPI
         expert to create first-class API designs. Describe endpoints, headers,
         bodies, multiple responses, query string parameters, shared models, and
-        much more.
+        much more whilst designing APIs.
       image: /images/design_visual.png
       shortName: Visual Editor
       title: 'Powerful, Visual Editor'

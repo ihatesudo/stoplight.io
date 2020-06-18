@@ -32,7 +32,7 @@ meta:
     username: '@stoplightio'
 ---
 
-Stoplight’s instant online API Documentation generator tool makes it easy to generate API documentation directly from your API specification. Upload your spec and voila! Generate API docs online from an existing specification and publish them online immediately using our API docs tool.
+Stoplight’s instant online API Documentation generator tool makes it easy to generate API documentation directly from your API specification. Upload your spec into the API generator and voila! Generate API docs online from an existing specification and publish them online immediately using our API docs tool.
 
 ## Power a Page
 
@@ -40,7 +40,7 @@ Stoplight allows you to reference other sources to automatically populate your H
 
 ## Ensures Documentation Accuracy
 
-One of the most common issues we wanted to solve was not only being able to generate API documentation using our API docs generator, but also making sure it stays up-to-date and accurate. Many documentation solutions treat documentation separately from the API design process. This ultimately leads to out-of-date documentation due to changes to the API not being reflected in documentation. Stoplight connects your documentation to your API specification. Whenever you make a change to your API spec, the changes immediately get pushed to your documentation, so you never have out-of-date documentation again.
+One of the most common issues we wanted to solve was not only being able to generate API documentation using our API docs generator, but also making sure it stays up-to-date and accurate. Many documentation solutions treat documentation separately from the API design process. This ultimately leads to out-of-date documentation due to changes to the API not being reflected in documentation. Stoplight's API documentation tool connects your documentation to your API specification. Whenever you make a change to your API spec, the changes immediately get pushed to your documentation, so you never have out-of-date documentation again.
 
 ## The Stoplight Design
 

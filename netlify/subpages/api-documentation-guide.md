@@ -41,9 +41,9 @@ In this API documentation guide & tutorial, we’ll cover the basics of document
 
 ### What is API documentation?
 
-API docs are the collection of references, tutorials, and examples that help developers use your API.
+API docs, or API description documents, are the collection of references, tutorials, and examples that help developers use your API.
 
-Your API's document is the primary resource for explaining what is possible with your API and how to get started. It also serves as a place for developers to return with questions about syntax or functionality. Your API docs have these answers.
+Your API's documentation is the primary resource for explaining what is possible with your API and how to get started. It also serves as a place for developers to return with questions about syntax or functionality. The best API docs have these answers hence why it is so important to document your API.
 
 Typically, documentation is hosted in a special section of your website, or its own API-focused portal. The content should be as widely accessible as it can be for your audience. If only developers within your own company use your API, its documentation is likely also internal. However, it should be easily discoverable. You shouldn’t have to know who to ask.
 
