@@ -67,6 +67,9 @@ team:
     enabled: true
     text: Want to join the team? We're hiring!
   members:
+    - image: /images/team/nauman-ali-headshot.jpg
+      name: Nauman Ali
+      role: Growth Engineer
     - image: /images/alsaffar_feras.jpeg
       name: Feras AlSaffar
       role: Growth Engineer
@@ -81,7 +84,7 @@ team:
       role: Software Engineer
     - image: /images/costa_headshot.png
       name: Filipe Costa
-      role: Software Engineer
+      role: Director of Engineering
     - image: /images/faust_headshot.png
       name: Scott Faust
       role: Head of Growth
@@ -91,6 +94,9 @@ team:
     - image: /images/gatica_headshot.jpg
       name: Brandon Gatica
       role: Business Operations Intern
+    - image: /images/team/zee-hussain-headshot.jpg
+      name: Zee Hussain
+      role: DevOps Engineer
     - image: /images/hilton_headshot.png
       name: William Hilton
       role: Software Engineer
