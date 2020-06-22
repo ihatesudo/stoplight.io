@@ -21,6 +21,7 @@ export async function getRoutes() {
     landings = [],
     caseStudies = [],
     blogPosts = [],
+    legalPages = [],
     other = [],
   ] = await Promise.all([
     getFile(`${NETLIFY_PATH}/pages/home.yaml`),
@@ -37,6 +38,7 @@ export async function getRoutes() {
     getFiles(`${NETLIFY_PATH}/landings`),
     getFiles(`${NETLIFY_PATH}/case-studies`, ['.md']),
     getFiles(`${NETLIFY_PATH}/blog-posts`, ['.md'], { includeToc: true }),
+    getFiles(`${NETLIFY_PATH}/legal-pages`, ['.md'], { includeToc: true }),
     getFiles(`${NETLIFY_PATH}/subpages`, ['.md'], { includeToc: true }),
   ]);
 
@@ -111,6 +113,7 @@ export async function getRoutes() {
     ...createRoutes('src/templates/Subpage', caseStudies, allPages, caseStudyProps),
     ...createRoutes('src/templates/Subpage', other, allPages),
     ...createRoutes('src/templates/Form', forms, allPages),
+    ...createRoutes('src/templates/LegalPages', legalPages, allPages),
   ];
 
   return routes;
