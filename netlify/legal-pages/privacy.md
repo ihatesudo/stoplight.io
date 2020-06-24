@@ -5,15 +5,19 @@ title: Privacy Policy
 subtitle: 'Last updated: August 1, 2017'
 tabs:
   - href: /terms
-    title: Terms
+    title: Website Terms
+  - href: /subscription-terms
+    title: Subscription Terms
   - href: /privacy
     title: Privacy Policy
   - href: /policy
     title: Support Policy
+  - href: /dmca
+    title: DMCA Policy
 meta:
   favicon: /images/mark_light_bg.png
   title: We care about your data and privacy | Stoplight
-  description: Take a look through Stoplight’s privacy policy to get a full understanding of how the company is committed to protecting your privacy.
+  description: Take a look through Stoplight's privacy policy to get a full understanding of how the company is committed to protecting your privacy.
   twitter:
     title: We care about your data and privacy | Stoplight
 ---
