@@ -6,15 +6,11 @@ subtitle: 'Last updated: October 1, 2018'
 color: black
 tabs:
   - href: /terms
-    title: Website Terms
-  - href: /subscription-terms
-    title: Subscription Terms
+    title: Terms of Service
   - href: /privacy
     title: Privacy Policy
   - href: /policy
     title: Support Policy
-  - href: /dmca
-    title: DMCA Policy
 meta:
   favicon: /images/mark_light_bg.png
   title: Our Support Policy Detailed | Stoplight

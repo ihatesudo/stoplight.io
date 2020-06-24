@@ -133,8 +133,6 @@ footer:
     - links:
         - href: /about
           title: About Us
-        - href: /careers
-          title: Careers
         - href: https://stoplight.io/p/roadmap
           title: Roadmap
         - href: 'https://press.stoplight.io'
@@ -144,13 +142,11 @@ footer:
       title: Company
   legal:
     - href: /privacy
-      title: Privacy
+      title: Privacy Policy
     - href: /terms
-      title: Website Terms
-    - href: /subscription-terms
-      title: Subscription Terms
+      title: Terms of Service
     - href: /policy
-      title: Policy
+      title: Support Policy
   social:
     - href: 'https://twitter.com/stoplightio'
       icon: ['fab', 'twitter']

@@ -1,20 +1,15 @@
 ---
-path: /subscription-terms
-publishedDate: 2019-02-20T18:23:32.422Z
-title: Stoplight Subscription Agreement
-subtitle: 'Last Updated: June 22, 2020'
-color: black
+path: /terms
+publishedDate: 2020-06-24
+title: Stoplight Terms of Service
+subtitle: 'Last Updated: June 24, 2020'
 tabs:
   - href: /terms
-    title: Website Terms
-  - href: /subscription-terms
-    title: Subscription Terms
+    title: Terms of Service
   - href: /privacy
     title: Privacy Policy
   - href: /policy
     title: Support Policy
-  - href: /dmca
-    title: DMCA Policy
 meta:
   description: >-
     Check out Stoplight's all-important terms of service, from downloadable
@@ -25,9 +20,101 @@ meta:
     title: Read our terms and conditions | Stoplight
 ---
 
-TO THE EXTENT CUSTOMER IS PURCHASING A STOPLIGHT SUBSCRIPTION, BY CHECKING THE "I ACCEPT" BOX IN THE PURCHASE FLOW, YOU AND ANY ENTITY THAT YOU REPRESENT ("CUSTOMER") ARE UNCONDITIONALLY CONSENTING TO BE BOUND BY AND ARE BECOMING A PARTY TO THESE STOPLIGHT SUBSCRIPTION TERMS ("AGREEMENT") AS OF THE DATE OF CUSTOMER'S FIRST DOWNLOAD OF THE LICENSED MATERIALS (THE "EFFECTIVE DATE"). CUSTOMER'S CONTINUED USE OF THE SOFTWARE APPLICATION AND OTHER MATERIALS PROVIDED BY STOPLIGHT, INC. ("STOPLIGHT"),  AS SPECIFIED IN THE APPLICABLE ORDER FORM OR QUOTE ("LICENSED MATERIALS") () ("STOPLIGHT") SHALL ALSO CONSTITUTE ASSENT TO THE TERMS OF THIS AGREEMENT. IF CUSTOMER DOES NOT UNCONDITIONALLY AGREE TO ALL OF THE TERMS OF THIS AGREEMENT, CLICK THE "CANCEL" BUTTON AND THE DOWNLOAD AND INSTALLATION PROCESS WILL NOT CONTINUE. IF THESE TERMS ARE CONSIDERED AN OFFER, ACCEPTANCE IS EXPRESSLY LIMITED TO THESE TERMS. IF YOU ARE EXECUTING THIS AGREEMENT ON BEHALF OF AN ORGANIZATION, YOU REPRESENT THAT YOU HAVE AUTHORITY TO DO SO.
+## Website Terms of Use
 
-## 1. LICENSE AND SUPPORT
+The following terms and conditions govern all use of the Stoplight.io website, or any other website owned and operated by Stoplight which incorporate these terms and conditions) (the "Website"), including all content, services and support packages provided via the Website. The Website is offered subject to your acceptance without modification of all of the terms and conditions contained herein and all other operating rules, policies (including, without limitation, procedures that may be published from time to time on this Website by Stoplight (collectively, the "Agreement").
+
+Please read this Agreement carefully before accessing or using the Website. By accessing or using any part of the Website, you agree to be bound by the terms and conditions of this Agreement. If you do not agree to all the terms and conditions of this Agreement, then you may not access the Website or use any of the services. If these terms and conditions are considered an offer by Stoplight, acceptance is expressly limited to these terms. The Website is available only to individuals who are at least 13 years old.
+
+1. Ownership
+
+All right, title and interest in any software provided  by Stoplight shall at all times remain with Stoplight. You shall not acquire directly, indirectly or by implication any right, title or interest, including intellectual property rights, in the software or any parts thereof. We do not claim any ownership rights to the information that you submit to the Stoplight application itself, your code is yours.
+
+2. Your Account and Website
+
+If you create an account on the Website, you are responsible for maintaining the security of your account, and you are fully responsible for all activities that occur under the account and any other actions taken in connection with the account. You must immediately notify Stoplight of any unauthorized use of your account or any other breaches of security. Stoplight will not be liable for any acts or omissions by You, including any damages of any kind incurred as a result of such acts or omissions.
+
+3. Acceptable Use of Your Account and the Website
+
+By accepting this Agreement, you agree not to use, encourage, promote, or facilitate others to use, the Website or your account in a way that is harmful to others ("Acceptable Use"). Examples of harmful use include, but are not limited to, engaging in illegal or fraudulent activities, infringing upon others' intellectual property rights, distributing harmful or offensive content that is defamatory, obscene, abusive, an invasion of privacy, or harassing, violating the security or integrity of any computer, network or communications system, and taxing resources with activities such as cryptocurrency mining. You may not conduct external scans of any kind against Stoplight.io infrastructure without written permission from Stoplight. Furthermore, account name squatting is prohibited by Stoplight. Account names on Stoplight are administered to users on a first-come, first-serve basis. Accordingly, account names cannot be held or remain inactive for future use. Any attempts to purchase, solicit, or sell account names in any form may result in the permanent suspension of the account. Stoplight reserves the right to remove, rename, or close inactive accounts at its discretion. If you believe that an account is in violation of these terms, please visit our Abuse Reports page for reporting instructions.
+
+4. Payment and Renewal for Subscriptions Purchased Through the Website
+
+By selecting a subscription, you agree to pay Stoplight the subscription fees indicated for that service. The subscription fee will be specified on your invoice. Unless you notify Stoplight before the end of the applicable subscription period that you want to cancel the subscription will renew automatically. You authorize us to collect the subscription fee using any credit card or other payment mechanism we have on record for you. All subscriptions are subject to the terms and conditions of the Stoplight Subscription Terms.
+
+5. Stoplight Newsletter
+
+By creating an account on Stoplight.io you give us permission to add your email address to the Stoplight newsletter. You can unsubscribe at any time by using the link at the bottom of the newsletter.
+
+6. Responsibility of Website Visitors
+
+Stoplight has not reviewed, and cannot review, all of the material, including computer software, posted to the Website, and cannot therefore be responsible for that material's content, use or effects. By operating the Website, Stoplight does not represent or imply that it endorses the material there posted, or that it believes such material to be accurate, useful or non-harmful. You are responsible for taking precautions as necessary to protect yourself and your computer systems from viruses, worms, Trojan horses, and other harmful or destructive content. The Website may contain content that is offensive, indecent, or otherwise objectionable, as well as content containing technical inaccuracies, typographical mistakes, and other errors. The Website may also contain material that violates the privacy or publicity rights, or infringes the intellectual property and other proprietary rights, of third parties, or the downloading, copying or use of which is subject to additional terms and conditions, stated or unstated. You are encouraged to report any violations of our Acceptable Use requirements to Stoplight Legal.
+
+7. Content Posted on Other Websites
+
+We have not reviewed, and cannot review, all of the material, including computer software, made available through the websites and webpages to which this website links, and that link to this website. Stoplight does not have any control over those non-Stoplight websites and webpages, and is not responsible for their contents or their use. By linking to a non-Stoplight website or webpage, Stoplight does not represent or imply that it endorses such website or webpage. You are responsible for taking precautions as necessary to protect yourself and your computer systems from viruses, worms, Trojan horses, and other harmful or destructive content. Stoplight disclaims any responsibility for any harm resulting from your use of non-Stoplight websites and webpages.
+
+8. Copyright Infringement and DMCA Policy
+
+As Stoplight asks others to respect its intellectual property rights, it respects the intellectual property rights of others. If you believe that material located on or linked to by Stoplight violates your copyright, you are encouraged to notify Stoplight in accordance with our [DMCA Policy](/dmca). To the extent you are required to use third party software or applications, you are solely responsible for securing the necessary rights to use such third party software or applications.
+
+9. Data Privacy
+
+You shall ensure that any and all information or data, including without limitation, personal data, used by you in connection with the Agreement ("User Data") is collected, processed, transferred and used in full compliance with Applicable Data Protection Laws (as defined below) and that you have obtained all necessary authorizations and consents from any data subjects to process User Data. If applicable, you shall adopt and maintain appropriate organizational, technical and security measures prior to any such collection, processing or transfer in order to protect against unauthorized access to or use of User Data. You shall immediately inform Stoplight upon becoming aware of any breach within the meaning of Applicable Data Protection Law relating to User Data (a "Security Incident") and to cooperate with Stoplight in any investigation thereof and in the implementation of any measures reasonably required to be taken in response thereto. You agree that you will not submit any User Data that is subject to the GDPR, as Stoplight is not currently GDPR compliant. ) "GDPR" means the Regulation (EU) 2016/679 of the European Parliament and of the Counsel of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation).
+
+10. Intellectual Property
+
+This Agreement does not transfer from Stoplight to you any Stoplight or third party intellectual property, and all right, title and interest in and to such property will remain (as between the parties) solely with Stoplight. Stoplight, the Stoplight logo, and all other trademarks, service marks, graphics and logos used in connection with Stoplight, or the Website are trademarks or registered trademarks of Stoplight, Inc. or Stoplight's licensors. Other trademarks, service marks, graphics and logos used in connection with the Website may be the trademarks of other third parties. Your use of the Website grants you no right or license to reproduce or otherwise use any Stoplight or third-party trademarks.
+
+11. Changes
+
+Although most changes are likely to be minor, Stoplight may change its Website Terms of Use from time to time, and in Stoplight's sole discretion. We will provide notice through our Website prior to the change taking effect by posting a notice on our Website. All such notices will be effective upon posting. Stoplight encourages visitors to frequently check this page for any minor changes to the Website Terms of Use. Your continued use of this site after any change to the Stoplight Website Terms of Use will constitute your acceptance of such change. Stoplight may also, in the future, offer new services and/or features through the Website (including, the release of new tools and resources). Such new features and/or services shall be subject to the terms and conditions of this Agreement. Stoplight may also, in the future, remove features at any time without warning.
+
+12. General Representation
+
+You represent and warrant that (i) your use of the Website will be in strict accordance with this Agreement and with all applicable laws and regulations (including without limitation any local laws or regulations in your country, state, city, or other governmental area, regarding online conduct and acceptable content, and including all applicable laws regarding the transmission of technical data exported from the United States or the country in which you reside) and (ii) your use of the Website will not infringe or misappropriate the intellectual property rights of any third party.
+
+13. Termination
+
+Stoplight may terminate your access to all or any part of the Website at any time, with or without cause, with or without notice, effective immediately. If you wish to terminate this Agreement or your Stoplight account, you may simply discontinue using the Website. All provisions of this Agreement which by their nature should survive termination shall survive termination, including, without limitation, ownership provisions, warranty disclaimers, indemnity and limitations of liability.
+
+14. Limitation of Liability
+
+EXCEPT WITH RESPECT TO BREACH(ES) OF SECTION 1.1 AND/OR 2.1, IN NO EVENT WILL STOPLIGHT OR THEIR LICENSORS BE LIABLE FOR ANY INDIRECT, PUNITIVE, INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES ARISING OUT OF OR IN ANY WAY CONNECTED WITH THE SUBJECT MATTER OF THIS AGREEMENT, INCLUDING WITHOUT LIMITATION, LOSS OF REVENUE OR ANTICIPATED PROFITS OR LOST BUSINESS OR LOST SALES, WHETHER BASED IN CONTRACT, TORT (INCLUDING NEGLIGENCE), STRICT LIABILITY, OR OTHERWISE, EVEN IF STOPLIGHT HAS BEEN ADVISED OF THE POSSIBILITY OF DAMAGES.  IN ADDITION, THE TOTAL LIABILITY OF STOPLIGHT AND ITS LICENSORS, WHETHER BASED IN CONTRACT, TORT (INCLUDING NEGLIGENCE OR STRICT LIABILITY), OR OTHERWISE, WILL NOT EXCEED, IN THE AGGREGATE, ONE THOUSAND DOLLARS ($1,000). THE FOREGOING LIMITATIONS WILL APPLY NOTWITHSTANDING ANY FAILURE OF ESSENTIAL PURPOSE OF ANY LIMITED REMEDY.
+
+15. Indemnification
+
+You agree to indemnify and hold harmless Stoplight, its affiliates, contractors, and its licensors, and their respective directors, officers, employees and agents from and against any and all claims and expenses, including attorneys' fees, arising out of your use of this Website, including but not limited to your violation of this Agreement.
+
+16. Disclaimer of Warranty
+
+The Website is provided "AS IS" and STOPLIGHT AND ITS AFFILIATES, SUPPLIERS AND LICENSORS HEREBY DISCLAIMS ALL WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, THE WARRANTIES OR MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. Neither Stoplight nor its suppliers and licensors, makes any warranty that the Website will be error free or that access thereto will be continuous or uninterrupted. You understand that you download from, or otherwise obtain content or services through, the Website at your own discretion and risk.
+
+17. Partial Invalidity
+
+If any provision of this document is held by a court of competent jurisdiction to be invalid, void, or unenforceable, the remaining provisions shall nevertheless continue in full force without being impaired or invalidated in any way.
+
+18. Failure to Enforce
+
+The failure of either party to enforce at any time, or for any period of time, the provisions hereof shall not be construed to be a waiver of such provisions or of the right of such party to enforce each and every such provision.
+
+19. Dispute Resolution
+
+The parties will engage in good faith negotiations to resolve the dispute for a period of ten (10) business days after written notice of the dispute or issue is provided by one party to the other. Within such ten (10) business days, representatives from each party will engage in negotiations to resolve the dispute, and such individuals will meet in person, via videoconference or via telephone and attempt to informally resolve the dispute or issues. If those persons are unable to resolve the dispute within such ten (10) business days, then unless the parties have mutually agreed to extend the negotiation period, a party may exercise its rights available to such party under this Agreement or otherwise.
+
+20. Arbitration
+
+Any dispute, controversy or claim arising out of or relating to this Agreement, including the formation, interpretation, breach or termination thereof, including whether the claims asserted are arbitrable, which has not been resolved via the process laid out in Dispute resolution will then be referred to and finally determined by arbitration in accordance with the American Arbitration Association. The arbitral tribunal shall be composed of one arbitrator. The place of arbitration shall be Austin, Texas. The arbitral procedure shall be conducted in the English language. Judgment upon the award rendered by the arbitrator(s) may be entered in any court having jurisdiction thereof.
+
+21. Governing Law
+
+These Terms shall be construed in accordance with the laws of the State of Texas without reward to its conflict of laws rules. You expressly agree that the exclusive jurisdiction for any claim or action arising out of or relating to these Terms or your use of the Stoplight shall be filed only in the state or federal courts located in Travis County, Texas, and you further agree and submit to the exercise of personal jurisdiction of such courts for the purpose of litigating any such claim or action.
+
+## Stoplight Subscription Agreement
+
+TO THE EXTENT CUSTOMER IS PURCHASING A STOPLIGHT SUBSCRIPTION, BY CHECKING THE "I ACCEPT" BOX IN THE PURCHASE FLOW, YOU AND ANY ENTITY THAT YOU REPRESENT ("CUSTOMER") ARE UNCONDITIONALLY CONSENTING TO BE BOUND BY AND ARE BECOMING A PARTY TO THESE STOPLIGHT SUBSCRIPTION TERMS ("AGREEMENT") AS OF THE DATE OF CUSTOMER'S FIRST DOWNLOAD OF THE LICENSED MATERIALS (THE "EFFECTIVE DATE"). CUSTOMER'S CONTINUED USE OF THE SOFTWARE APPLICATION AND OTHER MATERIALS PROVIDED BY STOPLIGHT, INC. ("STOPLIGHT"),  AS SPECIFIED IN THE APPLICABLE ORDER FORM OR QUOTE ("LICENSED MATERIALS") ("STOPLIGHT") SHALL ALSO CONSTITUTE ASSENT TO THE TERMS OF THIS AGREEMENT. IF CUSTOMER DOES NOT UNCONDITIONALLY AGREE TO ALL OF THE TERMS OF THIS AGREEMENT, CLICK THE "CANCEL" BUTTON AND THE DOWNLOAD AND INSTALLATION PROCESS WILL NOT CONTINUE. IF THESE TERMS ARE CONSIDERED AN OFFER, ACCEPTANCE IS EXPRESSLY LIMITED TO THESE TERMS. IF YOU ARE EXECUTING THIS AGREEMENT ON BEHALF OF AN ORGANIZATION, YOU REPRESENT THAT YOU HAVE AUTHORITY TO DO SO.
+
+1. LICENSE AND SUPPORT
 
 1.1. Subject to the terms and conditions of this Agreement, Stoplight hereby grants to Customer and its Affiliates (as defined below) a limited, non-exclusive, non-transferable, non-sublicensable license for Customer's and its Affiliates' employees and contractors to (1) internally (a) for its internal use in connection with the development of Customer's and/or its Affiliates' own software, and (b) by the number of internal users for which Customer has paid Stoplight; and (c) use the documentation, training materials or other materials supplied by Stoplight (the "Other Stoplight Materials").
 
@@ -35,7 +122,7 @@ TO THE EXTENT CUSTOMER IS PURCHASING A STOPLIGHT SUBSCRIPTION, BY CHECKING THE "
 
 1.2.1. Stoplight will use reasonable commercial efforts to respond to support questions by email. The number of support questions is not limited.
 
-## 2. RESTRICTIONS AND RESPONSIBILITIES
+2. RESTRICTIONS AND RESPONSIBILITIES
 
 2.1. Except as expressly authorized in Section 1.1, Customer will not, and will not permit any third party to: use the Licensed Materials for any purpose other than as specifically authorized in Section 1, or in such a manner that would enable any unlicensed person to access the Licensed Materials; use the Licensed Materials or any other Stoplight software for timesharing or service bureau purposes or for any purpose other than its and its Affiliates' own internal use (including without limitation, sublicensing, distributing, selling, reselling any of the foregoing); except as expressly permitted herein; use the Licensed Materials in connection with any high risk or strict liability activity (including, without limitation, space travel, firefighting, police operations, power plant operation, military operations, rescue operations, hospital and medical operations or the like); use the Licensed Materials or software other than in accordance with this Agreement and in compliance with all applicable laws and regulations (including but not limited to any privacy laws, and laws and regulations concerning intellectual property, consumer and child protection, obscenity or defamation); or use the Licensed Materials in any manner that (1) is harmful, fraudulent, deceptive, threatening, abusive, harassing, tortious, defamatory, vulgar, obscene, or libelous (including without limitation, accessing any computer, computer system, network, software, or data without authorization, breaching the security of another user or system, and/or attempting to circumvent any User authentication or security process), (2) impersonates any person or entity, including without limitation any employee or representative of Stoplight, or (3) contains a virus, trojan horse, worm, time bomb, unsolicited bulk, commercial, or "spam" message, or other harmful computer code, file, or program (including without limitation, password guessing programs, decoders, password gatherers, keystroke loggers, cracking tools, packet sniffers, and/or encryption circumvention programs).
 
@@ -43,7 +130,7 @@ TO THE EXTENT CUSTOMER IS PURCHASING A STOPLIGHT SUBSCRIPTION, BY CHECKING THE "
 
 2.3. Customer will be responsible for maintaining the security of Customer's account, passwords (including but not limited to administrative and User passwords) and files, and for all uses of Customer account with or without Customer's knowledge or consent.
 
-## 3. CONFIDENTIALITY
+3. CONFIDENTIALITY
 
 3.1. Each party (the "Receiving Party") understands that the other party (the "Disclosing Party") has disclosed or may disclose information relating to the Disclosing Party's technology or business (hereinafter referred to as "Proprietary Information" of the Disclosing Party). Without limiting the foregoing, the Licensed Materials are Stoplight Proprietary Information.
 
@@ -53,7 +140,7 @@ TO THE EXTENT CUSTOMER IS PURCHASING A STOPLIGHT SUBSCRIPTION, BY CHECKING THE "
 
 3.4. Both parties will have the right to disclose the existence of the relationship between the parties, but not the terms and conditions of this Agreement, unless such disclosure of the Agreement terms is approved in writing by both Parties prior to such disclosure, or is included in a filing required to be made by a party with a governmental authority (provided such party will use reasonable efforts to obtain confidential treatment or a protective order) or is made on a confidential basis as reasonably necessary to potential investors or acquirers. As of the Effective Date, this Section 3 shall supercede and replace in its entirety any prior confidentiality agreement the parties may have executed and which would apply otherwise apply to Proprietary Information.
 
-## 4. INTELLECTUAL PROPERTY RIGHTS
+4. INTELLECTUAL PROPERTY RIGHTS
 
 4.1. Except as expressly set forth herein, Stoplight alone (and its licensors, where applicable) will retain all intellectual property rights relating to the Licensed Materials and any suggestions, ideas, enhancement requests, feedback, code, or other recommendations provided by Customer, its Affiliates or any third party relating to the Licensed Materials, which are hereby assigned to Stoplight. This Agreement is not a sale and does not convey to Customer any rights of ownership in or related to the Licensed Materials, or any intellectual property rights.
 
@@ -63,7 +150,7 @@ TO THE EXTENT CUSTOMER IS PURCHASING A STOPLIGHT SUBSCRIPTION, BY CHECKING THE "
 
 4.4. Stoplight will defend, indemnify and hold Customer harmless from liability and other amounts paid or payable to unaffiliated third parties resulting from (i) the infringement or violation of any intellectual property or proprietary rights by the Licensed Materials or (ii) the violation of applicable law or regulation by Stoplight in performance of its obligations hereunder, provided Stoplight is promptly notified of any and all threats, claims and proceedings related thereto and given reasonable assistance and the opportunity to assume sole control over defense and settlement thereof. Subject to the foregoing, Customer may participate in the defense and/or settlement of any claim that is indemnifiable by Stoplight with counsel of its choosing at its own expense. The foregoing obligations do not apply with respect to portions or components of the Licensed Materials (i) not created by Stoplight, (ii) that are modified after delivery by Stoplight, (iii) combined with other products, processes or materials where the alleged infringement relates to such combination, (iv) where Customer continues allegedly infringing activity after being notified thereof or after being informed of modifications that would have avoided the alleged infringement, or (v) where Customer's use of the Licensed Materials is not strictly in accordance with this Agreement and all related documentation. Customer shall provide Stoplight prompt notice of any claim, reasonably cooperate in the defense and provide Stoplight with sole control over the defense, including the ability to settle any claim.
 
-## 5. PAYMENT OF FEES
+5. PAYMENT OF FEES
 
 5.1. Unless and until Stoplight and Customer have executed a quote document specifically referencing this Agreement with respect to amounts due on account of the Licensed Materials (a "Quote", which is hereby incorporated by reference, if applicable), and unless Customer's subscription to (and payment with respect to) the Licensed Materials has been made on Customer's behalf by a reseller, Customer will pay Stoplight the applicable fees as set forth at [https://stoplight.io/pricing/](https://stoplight.io/pricing/) (the "Pricing") for the Licensed Materials selected and/or used by Customer (the "Fees") without any right of set-off or deduction. On each anniversary of the Effective Date, Stoplight will invoice Customer (or its reseller, if applicable) with respect to any and all additional Customer Users of the Licensed Materials beyond those for whom Customer has pre-paid, as of such date (and for whom the Fees due pursuant to such invoice will be the then-current per-period User fee with respect to the period just ended, and the then current per-period User fee with respect to all subsequent periods, unless otherwise agreed in writing by both parties (collectively, a "True-Up")).
 
@@ -71,7 +158,7 @@ TO THE EXTENT CUSTOMER IS PURCHASING A STOPLIGHT SUBSCRIPTION, BY CHECKING THE "
 
 5.3. Any unpaid fees are subject to a finance charge of one percent (1.0%) per month, or the maximum permitted by law, whichever is lower, plus all expenses of collection, including reasonable attorneys' fees. Fees under this Agreement are exclusive of all taxes, including national, state or provincial and local use, sales, value-added, property and similar taxes, if any. Customer agrees to pay such taxes (excluding US taxes based on Stoplight's net income) unless Customer has provided Stoplight with a valid exemption certificate. In the case of any withholding requirements, Customer will pay any required withholding itself and will not reduce the amount paid to Stoplight on account thereof.
 
-## 6. TERM AND TERMINATION
+6. TERM AND TERMINATION
 
 6.1. This Agreement shall become effective as of the date purchased and shall remain in effect for the Term elected by Customer in the applicable order or quote and if none is identified, then for a Term of one year (1).  This Agreement shall renew for additional successive period of one (1) year, unless either Party provides at least thirty (30) days advance written notice of its intent not to renew.
 
@@ -81,26 +168,56 @@ TO THE EXTENT CUSTOMER IS PURCHASING A STOPLIGHT SUBSCRIPTION, BY CHECKING THE "
 
 6.4. Customer's rights to the Licensed Materials, and any licenses granted hereunder, shall terminate upon any termination of this Agreement. The following Sections will survive any termination of this Agreement: 2 through 6 (except for Section 4.3), and 8 through 11.
 
-## 7. WARRANTY; CUSTOMER SOFTWARE SECURITY
+7. WARRANTY; CUSTOMER SOFTWARE SECURITY
 
 Stoplight represents and warrants that (i) it has all rights and licenses necessary for it to perform its obligations hereunder, and (ii) it will not knowingly include, in any Stoplight software released to the public and provided to Customer hereunder, any computer code or other computer instructions, devices or techniques, including without limitation those known as disabling devices, trojans, or time bombs, that are intentionally designed to disrupt, disable, harm, infect, defraud, damage, or otherwise impede in any manner, the operation of a network, computer program or computer system or any component thereof, including its security or user data. If, at any time, Stoplight fails to comply with the warranty in this Section, Customer may promptly notify Stoplight in writing of any such noncompliance. Stoplight will, within thirty (30) days of receipt of such written notification, either correct the noncompliance or provide Customer with a plan for correcting the noncompliance. If the noncompliance is not corrected or if a reasonably acceptable plan for correcting them is not established during such period, Customer may terminate this Agreement as its sole and exclusive remedy for such noncompliance.
 
-## 8. WARRANTY DISCLAIMER
+8. WARRANTY DISCLAIMER
 
 EXCEPT AS EXPRESSLY STATED HEREIN, THE LICENSED MATERIALS, SOFTWARE AND STOPLIGHT PROPRIETARY INFORMATION AND ANYTHING PROVIDED IN CONNECTION WITH THIS AGREEMENT ARE PROVIDED "AS-IS," WITHOUT ANY WARRANTIES OF ANY KIND. STOPLIGHT AND ITS LICENSORS HEREBY DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, ALL IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT.
 
-## 9. LIMITATION OF LIABILITY
+9. LIMITATION OF LIABILITY
 
 EXCEPT WITH RESPECT TO BREACH(ES) OF SECTION 1.1 AND/OR 2.1, IN NO EVENT WILL EITHER PARTY OR THEIR LICENSORS BE LIABLE FOR ANY INDIRECT, PUNITIVE, INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES ARISING OUT OF OR IN ANY WAY CONNECTED WITH THE USE OF THE LICENSED MATERIALS OR ANYTHING PROVIDED IN CONNECTION WITH THIS AGREEMENT, ANY DELAY OR INABILITY TO USE THE LICENSED MATERIALS OR ANYTHING PROVIDED IN CONNECTION WITH THIS AGREEMENT OR OTHERWISE ARISING FROM THIS AGREEMENT, INCLUDING WITHOUT LIMITATION, LOSS OF REVENUE OR ANTICIPATED PROFITS OR LOST BUSINESS OR LOST SALES, WHETHER BASED IN CONTRACT, TORT (INCLUDING NEGLIGENCE), STRICT LIABILITY, OR OTHERWISE, EVEN IF SUCH PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF DAMAGES. EXCEPT WITH RESPECT TO BREACH(ES) OF SECTION 1.1 AND/OR 2.1, THE TOTAL LIABILITY OF EACH PARTY AND ITS LICENSORS, WHETHER BASED IN CONTRACT, TORT (INCLUDING NEGLIGENCE OR STRICT LIABILITY), OR OTHERWISE, WILL NOT EXCEED, IN THE AGGREGATE, THE GREATER OF (i) ONE THOUSAND DOLLARS ($1,000), OR (ii) THE FEES PAID TO STOPLIGHT HEREUNDER IN ONE YEAR PERIOD ENDING ON THE DATE THAT A CLAIM OR DEMAND IS FIRST ASSERTED. THE FOREGOING LIMITATIONS WILL APPLY NOTWITHSTANDING ANY FAILURE OF ESSENTIAL PURPOSE OF ANY LIMITED REMEDY.
 
-## 10. U.S. GOVERNMENT MATTERS
+10. U.S. GOVERNMENT MATTERS
 
 Notwithstanding anything else, Customer may not provide to any person or export or re-export or allow the export or re-export of the Licensed Materials or any software or anything related thereto or any direct product thereof (collectively "Controlled Subject Matter"), in violation of any restrictions, laws or regulations of the United States Department of Commerce, the United States Department of Treasury Office of Foreign Assets Control, or any other United States or foreign agency or authority. Without limiting the foregoing Customer acknowledges and agrees that the Controlled Subject Matter will not be used or transferred or otherwise exported or re-exported to countries as to which the United States maintains an embargo (collectively, "Embargoed Countries"), or to or by a national or resident thereof, or any person or entity on the U.S. Department of Treasury's List of Specially Designated Nationals or the U.S. Department of Commerce's Table of Denial Orders (collectively, "Designated Nationals"). The lists of Embargoed Countries and Designated Nationals are subject to change without notice. Use of the Licensed Materials is representation and warranty that the User is not located in, under the control of, or a national or resident of an Embargoed Country or Designated National. The Controlled Subject Matter may use or include encryption technology that is subject to licensing requirements under the U.S. Export Administration Regulations. As defined in FAR section 2.101, any software and documentation provided by Stoplight are "commercial items" and according to DFAR section 252.2277014(a)(1) and (5) are deemed to be "commercial computer software" and "commercial computer software documentation." Consistent with DFAR section 227.7202 and FAR section 12.212, any use modification, reproduction, release, performance, display, or disclosure of such commercial software or commercial software documentation by the U.S. Government will be governed solely by the terms of this Agreement and will be prohibited except to the extent expressly permitted by the terms of this Agreement.
 
-## 11. DATA PRIVACY
+11. DATA PRIVACY
 
 Customer shall ensure that any and all information or data, including without limitation, personal data, used by Customer in connection with the Agreement ("Customer Data") is collected, processed, transferred and used in full compliance with Applicable Data Protection Laws (as defined below) and that it has all obtained all necessary authorizations and consents from any data subjects to process Customer Data. Customer shall adopt and maintain appropriate organizational, technical and security measures prior to any such collection, processing or transfer in order to protect against unauthorized access to or use of Customer Data. Customer shall immediately inform Stoplight upon becoming aware of any breach within the meaning of Applicable Data Protection Law relating to Customer Data (a "Security Incident") and to cooperate with Stoplight in any investigation thereof and in the implementation of any measures reasonably required to be taken in response thereto. Customer will not submit any Customer Data that is subject to GDPR, as Stoplight is not GDPR compliant.  For purposes hereof: (a) "Applicable Data Protection Laws" means any applicable laws, statutes or regulations as may be amended, extended or re-enacted from time to time which relate to personal data, excluding GDPR.  and (b) "GDPR" means the Regulation (EU) 2016/679 of the European Parliament and of the Counsel of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation).
 
-## 12. MISCELLANEOUS
+12. MISCELLANEOUS
 
 If any provision of this Agreement is found to be unenforceable or invalid, that provision will be limited or eliminated to the minimum extent necessary so that this Agreement will otherwise remain in full force and effect and enforceable. This Agreement is not assignable, transferable or sublicensable by either party without the other party's prior written consent, not to be unreasonably withheld or delayed; provided that either party may transfer and/or assign this Agreement to a successor in the event of a sale of all or substantially all of its business or assets to which this Agreement relates. Both parties agree that this Agreement is the complete and exclusive statement of the mutual understanding of the parties and supersedes and cancels all previous written and oral agreements, communications and other understandings relating to the subject matter of this Agreement, and that all waivers and modifications must be in a writing signed or otherwise agreed to by each party, except as otherwise provided herein. No agency, partnership, joint venture, or employment is created as a result of this Agreement and neither party has any authority of any kind to bind the other in any respect whatsoever. In any action or proceeding to enforce rights under this Agreement, the prevailing party will be entitled to recover costs and attorneys' fees. All notices under this Agreement will be in writing and will be deemed to have been duly given when received, if personally delivered; when receipt is electronically confirmed, if transmitted by facsimile or e-mail; and upon receipt, if sent by certified or registered mail (return receipt requested), postage prepaid. Stoplight will not be liable for any loss resulting from a cause over which it does not have direct control. This Agreement will be governed by the laws of the State of Texas, U.S.A. without regard to its conflict of laws provisions. The federal and state courts sitting in Travis County, Texas, U.S.A. will have proper and exclusive jurisdiction and venue with respect to any disputes arising from or related to the subject matter of this Agreement.
+
+## DMCA Policy
+
+Stoplight Notice and Procedure for Making Claims of Copyright Infringement
+
+THE FOLLOWING INFORMATION IS PROVIDED EXCLUSIVELY FOR NOTIFYING THE SERVICE PROVIDERS REFERENCED BELOW THAT YOUR COPYRIGHTED MATERIAL MAY HAVE BEEN INFRINGED. ALL OTHER INQUIRIES, SUCH AS REQUESTS FOR TECHNICAL ASSISTANCE, REPORTS OF EMAIL ABUSE, AND PIRACY REPORTS, WILL NOT RECEIVE A RESPONSE THROUGH THIS PROCESS.
+
+Pursuant to the Digital Millennium Copyright Act, Title 17, United States Code, Section 501 et seq., copyright owners or their authorized agents may submit a complaint of alleged copyright infringement to STOPLIGHT if they have a good-faith belief that their protected works are being infringed. STOPLIGHT will respond to all such notifications that are sent to:
+Stoplight, Inc.
+1834 E Oltorf St Ste. 200
+Austin, TX 78741
+Attn: Legal Department
+Email: legal@stoplight.io
+
+To be effective, the notification must be a written communication that includes:
+
+- A physical or electronic signature of a person authorized to act on behalf of the owner of a right that is allegedly infringed;
+- Identification of the copyrighted work claimed to have been infringed, or, if multiple copyrighted works at a single Website are covered by a single notification, a representative list of such works at that Website;
+- Identification of the material that is claimed to be infringing or to be the subject of infringing activity and that is to be removed or access to which is to be disabled, and information reasonably sufficient to permit the service provider to locate the material;
+- Information reasonably sufficient to permit the service provider to contact the complaining party, such as an address, telephone number, and, if available, an electronic mail address at which the complaining party may be contacted;
+- A statement that the complaining party has a good-faith belief that use of the material in the manner complained of is not authorized by the copyright owner, its agent, or the law; and
+- A statement that the information in the notification is accurate, and under penalty of perjury, that the complaining party is authorized to act on behalf of the owner of an exclusive right that is allegedly infringed.
+Upon receipt of such notification, STOPLIGHT shall promptly investigate the matter, and, if appropriate, remove or disable access to the allegedly infringing material. After STOPLIGHT removes or disables access to such material, if such material was posted by a user of the Site, STOPLIGHT will notify the party that posted the material of its action. Such party may then provide STOPLIGHT's designated agent proper "counter-notification" stating his, her or its authority to post the allegedly infringing material, which STOPLIGHT will forward to the alleged copyright owner. STOPLIGHT will inform the alleged copyright owner that STOPLIGHT will repost the removed material or cease disabling access to it in ten to fourteen business days unless the alleged copyright owner sends a second notification to STOPLIGHT's designated agent stating that it has filed suit against the alleged infringer.
+An effective counter-notification must be sent to STOPLIGHT's designated agent, whose name and address are listed above. The notice must include the following information:
+- The counter-notifying party's physical or electronic signature;
+- Identification of the material that has been removed or disabled and the location where the material was before its removal or disablement;
+- A statement, under penalty of perjury, that the party has a good faith belief that the material was removed or disabled as a result of mistake or misidentification; and
+- The counter-notifying party's name, address, phone number, and a statement that the party consents to the jurisdiction of the federal court in its district, or if the subscriber is foreign, it consents to any jurisdiction where STOPLIGHT is subject to jurisdiction, and that the subscriber will accept service of process from the person who provided STOPLIGHT with notification or an agent of such a person.
+
+Revision Date: June 24, 2020
