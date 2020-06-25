@@ -226,8 +226,6 @@ meta:
     title: Stoplight
     username: '@stoplightio'
   url: 'https://stoplight.io'
-  canonical: >-
-    https://stoplight.io
 customers:
   images:
     - alt: EA

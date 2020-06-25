@@ -40,6 +40,7 @@ meta:
     Stoplight’s comprehensive and technical guide.
   robots: 'index, follow'
   title: OpenAPI Design Guide & OpenAPI Specification | Open API Spec Format
+  url: 'https://stoplight.io/api-design-guide/openapi/'
   twitter:
     title: OpenAPI Design Guide & OpenAPI Specification | Open API Spec Format
     image: /images/mark_light_bg.png

@@ -22,6 +22,7 @@ meta:
     documentation directly from your API specification for immediate online
     publication
   title: Instant API Documentation Generator | Generate API Documentation & Docs
+  url: 'https://stoplight.io/documentation/generator/'
   twitter:
     description: >-
       Our unique documentation tool allows you to easily generate API
