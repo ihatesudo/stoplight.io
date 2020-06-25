@@ -74,8 +74,10 @@ export const Enterprise: React.FunctionComponent<IEnterprise> = ({
                 <SimpleCard key={index} className="flex items-center w-1/3 p-8 pb-20 bg-white sm:w-full">
                   <SimpleCardTop className="flex items-center pb-4">
                     <Image src={subFeature?.image} className="flex items-center h-20 pb-5 " />
-                    <h2 className="pb-5 text-lg font-semibold uppercase text-grey-darker">{subFeature.category}</h2>
-                    <h3 className={cn('text-xl md:h-12', `text-${subFeature.titleColor || 'black'}`)}>
+                    <h2 className="pb-5 text-lg font-semibold text-center uppercase text-grey-darker">
+                      {subFeature.category}
+                    </h2>
+                    <h3 className={cn('text-xl  text-center md:h-12', `text-${subFeature.titleColor || 'black'}`)}>
                       {subFeature.title}
                     </h3>
                   </SimpleCardTop>
