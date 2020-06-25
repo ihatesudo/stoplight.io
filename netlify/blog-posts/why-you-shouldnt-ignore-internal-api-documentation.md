@@ -10,7 +10,6 @@ author: Adam DuVander
 title: Why You Shouldn't Ignore Internal API Documentation
 subtitle: Enable your teams to move faster and collaborate efficiently
 image: /images/whiteboard-collaboration.jpg
-color: black
 includeToc: true
 actionBar:
   ctas:
@@ -35,6 +34,7 @@ meta:
     title: Why You Shouldn't Ignore Internal API Documentation | Stoplight API Intersection
     image: /images/whiteboard-collaboration.jpg
 ---
+
 Your internal teams build and consume many web services. Some of these may be public APIs, such as BigCommerce for e-commerce or SendGrid for transactional email. The most enlightened development teams are [building microservices internally](https://stoplight.io/blog/designing-apis-for-microservices/). These reusable components can speed up development across an organization. In order to see these gains, your engineers and their business collaborators need to know what services are available.
 
 Great documentation allows your team to understand what’s possible with each API and get started quickly. It’s one important output of a much larger API design management process. When implemented, your internal API documentation provides immediate and long-term value to your team.
@@ -57,7 +57,7 @@ With plenty of public API examples, non-engineers are used to looking through do
 
 Your documentation will be judged internally based upon companies who have put a lot of effort into their public API developer experience. You may find an important [part of your API documentation is missing](https://stoplight.io/blog/missing-api-documentation/). Some of these are only needed once the API is built, but others can be generated while the API is in development.
 
-Your entire team can benefit from early access to your internal docs. Since APIs solve business problems, people with that business knowledge can provide important feedback. For example, a product manager may see that an endpoint does not return the data needed. Or a business development manager could recognize a partnership opportunity and begin the long work to arrange a fruitful integration. When documentation is created after your API is already built, it may be too late to make large changes.  
+Your entire team can benefit from early access to your internal docs. Since APIs solve business problems, people with that business knowledge can provide important feedback. For example, a product manager may see that an endpoint does not return the data needed. Or a business development manager could recognize a partnership opportunity and begin the long work to arrange a fruitful integration. When documentation is created after your API is already built, it may be too late to make large changes.
 
 ## Create an API Design Management Culture
 

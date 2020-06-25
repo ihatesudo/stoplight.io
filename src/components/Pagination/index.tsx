@@ -1,6 +1,5 @@
 import cn from 'classnames';
 import * as React from 'react';
-
 import { Container } from 'src/components/Container';
 import { Link } from 'src/components/Link';
 
@@ -31,8 +30,8 @@ export const PageItem = ({ to, content, active, disabled, className, color = 'bl
       disabled={disabled || active}
       className={cn(className, 'px-3 py-2 -ml-px border', {
         'cursor-not-allowed text-grey-dark bg-white border-grey-light': disabled,
-        [`cursor-default text-white bg-${color}-light border-${color}-light`]: !disabled && active,
-        [`cursor-pointer text-${color}-light bg-white border-grey-light`]: !disabled && !active,
+        [`cursor-default text-black bg-${color}-light border-${color}-light`]: !disabled && active,
+        [`cursor-pointer text-${color}-light bg-white border-grey-light hover:bg-${color}`]: !disabled && !active,
       })}
     >
       {content}

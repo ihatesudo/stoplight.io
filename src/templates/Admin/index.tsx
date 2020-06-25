@@ -2,7 +2,6 @@ import { ErrorBoundary } from '@stoplight/react-error-boundary';
 import CMS from 'netlify-cms-app';
 import cloudinary from 'netlify-cms-media-library-cloudinary';
 import React from 'react';
-
 import Settings from 'src/components/Settings';
 import { About } from 'src/templates/About';
 import { DemoFormLeft } from 'src/templates/DemoFormLeft';
@@ -12,14 +11,13 @@ import { Landing } from 'src/templates/Landing';
 import { List } from 'src/templates/Lists';
 import { Pricing } from 'src/templates/Pricing';
 import { Subpage } from 'src/templates/Subpage';
-import { Enterprise } from '../Enterprise';
-
-import { convertMarkdownToHTML } from '../../utils/markdown/index.js';
-
-import { config } from './config';
 
 // @ts-ignore
 import previewStyles from '!css-loader!./styles.css';
+
+import { convertMarkdownToHTML } from '../../utils/markdown/index.js';
+import { Enterprise } from '../Enterprise';
+import { config } from './config';
 
 CMS.registerPreviewStyle(previewStyles, { raw: true });
 CMS.registerMediaLibrary(cloudinary);
@@ -61,6 +59,7 @@ Object.keys(templates).forEach(collectionName => {
 
 export default () => {
   React.useEffect(() => {
+    // eslint-disable-next-line no-console
     console.log(`CMS [${process.env.NODE_ENV}]`, CMS, config);
 
     CMS.init({ config });

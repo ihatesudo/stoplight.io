@@ -9,7 +9,6 @@ subtitle: >-
   and running on NodeJS.
 pageName: Software Engineer
 image: /images/chianese_headshot.png
-color: red
 actionBar:
   enabled: false
 meta:

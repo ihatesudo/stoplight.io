@@ -7,14 +7,17 @@ relatedTags:
 publishedDate: 'Jan 23, 2019'
 title: Automatic API & REST API Documentation
 subtitle: Automate your API Documentation Workflow
-color: green
 tabs:
   - href: /documentation
     title: API Documentation
+  - href: /documentation/enterprise
+    title: Enteprise API Documentation
   - href: /documentation/beautiful
-    title: Beautiful API Documentation
-  - href: /blog
-    title: Stoplight Blog
+    title: Beautiful API Docs
+  - href: /documentation/automation
+    title: API Documentation Automation
+  - href: /documentation/generator
+    title: API Documentation Generator
 actionBar:
   enabled: false
 meta:

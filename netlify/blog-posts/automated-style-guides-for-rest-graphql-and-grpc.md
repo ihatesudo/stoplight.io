@@ -27,7 +27,6 @@ listSubtitle: >-
   folks implement a style guide, which beyond helping with consistent style to
   avoid new developers getting shouted at for "doing it wrong".
 image: /images/rules-regulations.png
-color: black
 includeToc: true
 actionBar:
   ctas: []
@@ -59,6 +58,7 @@ meta:
     image: /images/rules-regulations.png
     username: '@stoplightio'
 ---
+
 Ask 100 developers where a semicolon should go, and you'll either get 100 answers, or a all-on-all fist fight. To save this from happening at work, most folks implement a style guide, which beyond helping with consistent style to avoid new developers getting shouted at for "doing it wrong". Linters can advise best practices, shout about things which are technically allowed but likely to cause trouble, and shape the API of code as it's being written (snake_case that method!) This is always done for code, and is becoming increasingly popular for API descriptions.
 
 JavaScript users have [eslint](https://eslint.org/), PHP users have [PHP Code Sniffer](https://github.com/squizlabs/PHP_CodeSniffer), and Ruby has [rubocop](https://www.rubocop.org/en/stable/). These linters don't just check that the user is writing valid syntax. They check against existing sets of rules, sometimes written by a company, like the almost defacto-standard [eslint-airbnb](https://www.npmjs.com/package/eslint-config-airbnb). Sometimes the rules are made by standards bodies like PSR-12 by the [PHP-FIG](https://github.com/squizlabs/PHP_CodeSniffer/tree/master/src/Standards/PSR12), and the tools create a ruleset to match, like the [PSR-12 ruleset for CodeSniffer.
@@ -76,11 +76,11 @@ At [_API the Docs_](https://apithedocs.org/amsterdam-2019) I saw a talk from _Ke
 
 No developers can be blamed for any of this mess. API developers are busy, and the folks writing style guides are just trying to figure it out as they go along. This mess is an industry problem, but thankfully tools have popped up which can enforce these same style guide concepts through automation.
 
-* [api-linter](https://github.com/googleapis/api-linter) by Google
-* [graphql-doctor](https://github.com/cap-collectif/graphql-doctor) by [Cap Collectif
+- [api-linter](https://github.com/googleapis/api-linter) by Google
+- [graphql-doctor](https://github.com/cap-collectif/graphql-doctor) by [Cap Collectif
   ](https://cap-collectif.com/)
-* [graphql-schema-linter](https://github.com/cjoudrey/graphql-schema-linter) by [Christian Joudrey](https://twitter.com/cjoudrey)
-* [Spectral](https://stoplight.io/open-source/spectral/) by [Stoplight](https://stoplight.io/)
+- [graphql-schema-linter](https://github.com/cjoudrey/graphql-schema-linter) by [Christian Joudrey](https://twitter.com/cjoudrey)
+- [Spectral](https://stoplight.io/open-source/spectral/) by [Stoplight](https://stoplight.io/)
 
 Each one of these projects sets out to do relatively similar things, but for different types of API.
 
@@ -102,7 +102,7 @@ This one is a popular one. OpenAPI does not care how you capitalize your models,
 
 Let's take it a step further:
 
-![rules:   paths-kebab-case:     description: Should paths be kebab-case.     message: '{{property}} is not kebab-case: {{error}}'     severity: warn     recommended: true     given: $.paths[*]~     then:       function: pattern       functionOptions:         match: "^(\/[a-z0-9-{}]+)+$"](/images/one-step-further.png)
+![rules:   paths-kebab-case:     description: Should paths be kebab-case.     message: '{{property}} is not kebab-case: {{error}}'     severity: warn     recommended: true     given: $.paths[*]~     then:       function: pattern       functionOptions:         match: "^(/[a-z0-9-{}]+)+$"](/images/one-step-further.png)
 
 This rule is actually looking beyond the metadata of your API descriptions, and is looking at the actual API design itself. This is saying that the "paths" (endpoints) must be hyphenated, so **/recent-files** is good but **/recent_files** is not ok.
 
@@ -116,10 +116,10 @@ Done early enough, this will shape the actual API as it is being developed. If y
 
 Seeing as Spectral is a CLI/JS tool, enforcing this style guide can be done in all sorts of ways.
 
-* in [a git hook
+- in [a git hook
   ](https://stoplight.io/p/docs/gh/stoplightio/spectral/docs/guides/workflows.md#git-hooks)
-* in a JS test suite
-* on [continuous integration](https://stoplight.io/p/docs/gh/stoplightio/spectral/docs/guides/workflows.md#continuous-integration) to fail builds with errors
+- in a JS test suite
+- on [continuous integration](https://stoplight.io/p/docs/gh/stoplightio/spectral/docs/guides/workflows.md#continuous-integration) to fail builds with errors
 
 If you're using [Stoplight Studio](https://stoplight.io/studio/) then it's baked right into the editor, so people designing APIs just do it all correctly straight away. No need to alt tab away to the CLI or wait until a PR is made.
 
@@ -169,22 +169,22 @@ You can automate pretty much anything with this stuff, and I've been thinking a 
 
 ### Security
 
-* Ban HTTP Basic entirely
-* Make sure every endpoint has some sort of security (OAuth 2, API Key, but not both)
-* Every response should support **application/vnd.api+json** (JSON:API) not just plain-old JSON
-* ID's as integers let people [crawl your API](https://phil.tech/http/2015/09/03/auto-incrementing-to-destruction/) incredibly easily, switch to UUID
+- Ban HTTP Basic entirely
+- Make sure every endpoint has some sort of security (OAuth 2, API Key, but not both)
+- Every response should support **application/vnd.api+json** (JSON:API) not just plain-old JSON
+- ID's as integers let people [crawl your API](https://phil.tech/http/2015/09/03/auto-incrementing-to-destruction/) incredibly easily, switch to UUID
 
 ### Errors
 
-* Your 20X response seems to have errors in it, why do you hate your consumers
-* There are no URLs in your errors, how can anyone find out more information about what went wrong
-* Error format should be [RFC 7807](https://tools.ietf.org/html/rfc7807)
+- Your 20X response seems to have errors in it, why do you hate your consumers
+- There are no URLs in your errors, how can anyone find out more information about what went wrong
+- Error format should be [RFC 7807](https://tools.ietf.org/html/rfc7807)
 
 ### Versioning
 
-* Keep [version numbers out of the URL](https://apisyouwonthate.com/blog/api-versioning-has-no-right-way)
-* Version numbers in headers please
-* Ban all versioning and [demand evolution](https://apisyouwonthate.com/blog/api-evolution-for-rest-http-apis) (prepare for battle)
+- Keep [version numbers out of the URL](https://apisyouwonthate.com/blog/api-versioning-has-no-right-way)
+- Version numbers in headers please
+- Ban all versioning and [demand evolution](https://apisyouwonthate.com/blog/api-evolution-for-rest-http-apis) (prepare for battle)
 
 Many of these rules are HTTP API specific but you get the idea. Over time I'll be working on some of these and adding them to OpenAPI Contrib's [Style Guide](https://github.com/openapi-contrib/style-guide), and if you'd like to contribute I'll be happy to guide you through the process over on GitHub.
 

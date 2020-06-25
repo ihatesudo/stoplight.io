@@ -8,53 +8,82 @@ export const Mobile = () => {
   const [showMenu, setShowMenu] = React.useState(false);
 
   return (
-    <div className="hidden sm:flex flex-1 justify-end">
+    <div className="justify-end flex-1 hidden sm:flex">
       <div onClick={() => setShowMenu(!showMenu)}>
-        <div className={cn('cursor-pointer ml-3 text-white', { hidden: !showMenu })}>
+        <div className={cn('cursor-pointer ml-3 text-blue2', { hidden: !showMenu })}>
           <Icon icon={['fad', 'times']} size="2x" />
         </div>
 
-        <div className={cn('cursor-pointer ml-3 text-white', { hidden: showMenu })}>
+        <div className={cn('cursor-pointer ml-3 text-blue2', { hidden: showMenu })}>
           <Icon icon={['fad', 'bars']} size="2x" />
         </div>
       </div>
 
       {showMenu && (
-        <div className="fixed pin mt-16 z-50 flex flex-col overflow-y-auto">
+        <div className="fixed inset-0 z-50 flex flex-col mt-16 overflow-y-auto">
           <div className="relative m-4 bg-white rounded shadow-md" onClick={() => setShowMenu(false)}>
-            <div className="pt-10 pl-10 flex flex-wrap">
+            <div className="flex flex-wrap pt-10 pl-10">
               <Section
-                title="Products"
+                title="Use Cases"
                 links={[
                   {
-                    to: '/studio',
-                    title: 'Stoplight Studio',
+                    to: '/api-design/',
+                    title: 'Design',
                   },
                   {
-                    to: '/docs',
-                    title: 'Stoplight Docs',
+                    to: '/api-development/',
+                    title: 'Development',
                   },
                   {
-                    to: '/enterprise',
-                    title: 'Stoplight Enterprise',
+                    to: '/api-mocking/',
+                    title: 'Mocking',
+                  },
+                  {
+                    to: '/api-documentation/',
+                    title: 'Documentation',
+                  },
+                  {
+                    to: '/api-visibility/',
+                    title: 'Visibility',
+                  },
+                  {
+                    to: '/api-governance/',
+                    title: 'Governance',
+                  },
+                  {
+                    to: '/api-collaboration/',
+                    title: 'Collaboration',
                   },
                 ]}
               />
 
               <Section
-                title="Use Cases"
+                title="Learn"
                 links={[
                   {
-                    to: '/design',
-                    title: 'Design',
+                    to: '/enterprise',
+                    title: 'Enterprise',
                   },
                   {
-                    to: '/documentation',
-                    title: 'Documentation',
+                    to: '/pricing',
+                    title: 'Pricing',
                   },
                   {
-                    to: '/mocking',
-                    title: 'Mocking',
+                    to: '/blog',
+                    title: 'Blog',
+                  },
+                  {
+                    to: '/video',
+                    title: 'Videos',
+                  },
+                  {
+                    to: '/case-studies',
+                    title: 'Case Studies',
+                  },
+
+                  {
+                    to: 'https://meta.stoplight.io/docs/platform/a.getting-started.md',
+                    title: 'Read The Docs',
                   },
                 ]}
               />
@@ -90,35 +119,12 @@ export const Mobile = () => {
                   },
                 ]}
               />
-
-              <Section
-                title="Resources"
-                links={[
-                  {
-                    to: 'https://support.stoplight.io',
-                    title: 'Help Center',
-                  },
-                  {
-                    to: '/blog',
-                    title: 'Blog',
-                  },
-                  {
-                    to: 'https://community.stoplight.io',
-                    title: 'Forum',
-                  },
-                  {
-                    to: '/case-studies',
-                    title: 'Case Studies',
-                  },
-                  {
-                    to: '/video',
-                    title: 'Webinars',
-                  },
-                ]}
-              />
             </div>
 
-            <Link to="/demo" className="w-full p-4 bg-primary text-white block text-center font-bold mt-10">
+            <Link
+              to="/demo?utm_source=mobile_site&utm_medium=nav&utm_campaign=v2_launch"
+              className="block w-full p-4 mt-10 font-bold text-center text-white bg-primary"
+            >
               Book a Demo
             </Link>
           </div>
@@ -132,8 +138,8 @@ export const Mobile = () => {
 
 const Section = ({ title, links }) => {
   return (
-    <div className="flex-1 flex flex-col mr-10 mb-10" style={{ minWidth: 125 }}>
-      <div className="pb-2 uppercase font-bold text-grey-darker border-b">{title}</div>
+    <div className="flex flex-col flex-1 mb-10 mr-10" style={{ minWidth: 125 }}>
+      <div className="pb-2 font-bold uppercase border-b text-grey-darker">{title}</div>
 
       {links.map((link, key) => (
         <Link key={key} className="block mt-4 font-medium text-grey-darker" to={link.to}>

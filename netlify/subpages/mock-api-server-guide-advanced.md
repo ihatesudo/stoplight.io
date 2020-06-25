@@ -10,7 +10,6 @@ relatedTags:
 publishedDate: 2019-03-14T17:05:26.209Z
 title: 'Advanced Dummy Mock API Data Definition, Guide & Testing'
 subtitle: Learn how to generate dummy API data and stage a mock API server
-color: black
 tabs:
   - href: /mock-api-guide/basics/
     title: Mock Server Basics
@@ -30,6 +29,7 @@ meta:
   twitter:
     title: Dummy REST APIs For Testing | REST API Mock Data Definition & Tools Guide
     username: '@stoplightio'
+  url: https://stoplight.io/mock-api-guide/advanced/
 ---
 
 ## Generate Mock Data Definition
@@ -76,9 +76,7 @@ Install Prism on a public server for use cases that don’t require local data, 
 
 **[Stoplight Mocking](https://stoplight.io/mocking/)** provides hosted Prism servers based on OpenAPI documents imported into or created with our API design tool.
 
-![Stoplight dynamic mock endpoints](/images/dynamic-mocking.png 'Stoplight dynamic mock endpoints')
-
-If you have example responses in your OpenAPI definition, those will be used. But you can [force dynamic mocking](https://docs.stoplight.io/mocking/dynamic-mocking) to always generate the data based on your spec.
+If you have example responses in your OpenAPI definition, those will be used. But you can force dynamic mocking to always generate the data based on your spec.
 
 ## Stage a Mock REST API Server
 

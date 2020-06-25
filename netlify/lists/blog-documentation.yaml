@@ -2,7 +2,7 @@ path: /blog/api-documentation
 tag: blog-documentation
 title: API Documentation Blog Posts
 hero:
-  particles: true
+  particles: false
 tabs:
   - href: /blog
     title: Latest

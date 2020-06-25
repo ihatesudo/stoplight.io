@@ -1,9 +1,9 @@
+import get from 'lodash.get';
 import { makePageRoutes } from 'react-static/node';
 
 import { formatDate } from './dates';
 import { getFile, getFiles } from './files';
-import { NETLIFY_PATH, DEFAULT_PAGINATION_PAGE_SIZE, IS_PRODUCTION, RELATED_PAGES_LIMIT } from './settings';
-import get from 'lodash.get';
+import { DEFAULT_PAGINATION_PAGE_SIZE, NETLIFY_PATH, RELATED_PAGES_LIMIT } from './settings';
 
 export async function getRoutes() {
   let [
@@ -12,13 +12,13 @@ export async function getRoutes() {
     enterprise,
     pricing,
     forms = [],
-    demoForm,
-    careers = [],
+    demoForm = [],
 
     lists = [],
     authors = [],
 
     landings = [],
+    solutions = [],
     caseStudies = [],
     blogPosts = [],
     legalPages = [],
@@ -29,13 +29,13 @@ export async function getRoutes() {
     getFile(`${NETLIFY_PATH}/pages/enterprise.yaml`),
     getFile(`${NETLIFY_PATH}/pages/pricing.yaml`),
     getFiles(`${NETLIFY_PATH}/forms`),
-    getFile(`${NETLIFY_PATH}/demo-form/request-demo.yaml`),
-    getFiles(`${NETLIFY_PATH}/careers`),
+    getFiles(`${NETLIFY_PATH}/demo-form`),
 
     getFiles(`${NETLIFY_PATH}/lists`),
     getFiles(`${NETLIFY_PATH}/authors`),
 
     getFiles(`${NETLIFY_PATH}/landings`),
+    getFiles(`${NETLIFY_PATH}/solutions`),
     getFiles(`${NETLIFY_PATH}/case-studies`, ['.md']),
     getFiles(`${NETLIFY_PATH}/blog-posts`, ['.md'], { includeToc: true }),
     getFiles(`${NETLIFY_PATH}/legal-pages`, ['.md'], { includeToc: true }),
@@ -46,7 +46,7 @@ export async function getRoutes() {
   caseStudies = caseStudies.map(caseStudy => ({ ...caseStudy, backgroundSize: 'contain' }));
 
   // add author to pages and remove pages without a path
-  const allPages = [...landings, ...caseStudies, ...blogPosts, ...careers, ...forms, demoForm, ...other].filter(
+  const allPages = [...landings, ...solutions, ...caseStudies, ...blogPosts, ...forms, demoForm, ...other].filter(
     page => {
       if (page.path && !page.redirect) {
         const authorPage = authors.find(author => author.title === page.author);
@@ -61,7 +61,7 @@ export async function getRoutes() {
 
         return page.path;
       }
-    }
+    },
   );
 
   const routes = [
@@ -89,15 +89,16 @@ export async function getRoutes() {
       template: 'src/templates/Pricing',
       getData: () => pricing,
     },
-    {
-      path: '/start',
-      template: 'src/templates/Start',
-    },
-    {
-      path: '/demo',
-      template: 'src/templates/DemoFormLeft',
-      getData: () => demoForm,
-    },
+    // {
+    //   path: '/demo',
+    //   template: 'src/templates/DemoFormLeft',
+    //   getData: () => demoForm,
+    // },
+    // {
+    //   path: '/contact-us',
+    //   template: 'src/templates/DemoFormLeft',
+    //   getData: () => demoForm,
+    // },
     {
       path: '/_admin',
       template: 'src/templates/Admin',
@@ -108,12 +109,12 @@ export async function getRoutes() {
     ...createListRoutes('src/templates/Lists', lists, allPages),
     ...createListRoutes('src/templates/Lists', authors, allPages, authorProps),
     ...createRoutes('src/templates/Subpage', blogPosts, allPages, blogPostProps),
-    ...createRoutes('src/templates/Careers', careers, allPages),
 
     ...createRoutes('src/templates/Subpage', caseStudies, allPages, caseStudyProps),
     ...createRoutes('src/templates/Subpage', other, allPages),
     ...createRoutes('src/templates/Form', forms, allPages),
     ...createRoutes('src/templates/LegalPages', legalPages, allPages),
+    ...createRoutes('src/templates/DemoFormLeft', demoForm, allPages),
   ];
 
   return routes;
@@ -276,7 +277,7 @@ function createListRoutes(template, listPages, allPages, propFactory) {
               },
             }),
           }),
-        })
+        }),
       );
     }
   }
@@ -284,7 +285,7 @@ function createListRoutes(template, listPages, allPages, propFactory) {
   return routes;
 }
 
-function authorProps(props) {
+function authorProps() {
   return {
     hero: {
       aligned: 'left',
@@ -318,13 +319,15 @@ function blogPostProps(props) {
     },
     actionBar: {
       enabled: true,
-      text: 'Read how world’s leading API first companies are solving API Design Management at Scale.',
-      ctas: [
+      text:
+        (props.actionBar && props.actionBar.text) ||
+        'Read how world’s leading API first companies are solving API Design Management at Scale.',
+      ctas: (props.actionBar && props.actionBar.ctas) || [
         {
           title: 'Get the API Design Guide',
           type: 'submit',
           submit: {
-            button: { color: 'purple', title: 'Get the API Design Guide' },
+            button: { color: 'blue', title: 'Get the API Design Guide' },
             input: {
               type: 'email',
               placeholder: 'Your work email...',

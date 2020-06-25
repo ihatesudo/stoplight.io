@@ -56,7 +56,7 @@ title="API Lifecycle" style="box-shadow: none; background-color: transparent"/>
 
 Gartner defines the API development process as three major phases: Design, Build, and Run. Too often, teams will think of API development as only the build phase. It’s a natural misconception because that’s when the bulk of the code is written. However, that skips over the important design phase. There’s a lot more than code that goes into developing an API for the long term.
 
-As discussed in [testing across your API lifecycle](https://stoplight.io/blog/api-integration-testing/), there are three other important phases: Maintain, Support, and Update. While not necessarily sequential, every API will need these additional phases after it is pushed to production.
+As discussed in previous posts about testing across your API lifecycle, there are three other important phases: Maintain, Support, and Update. While not necessarily sequential, every API will need these additional phases after it is pushed to production.
 
 As you look to update an API, you end up back where any API development should start: with API design.
 

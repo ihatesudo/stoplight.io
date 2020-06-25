@@ -42,6 +42,7 @@ body {
  */
 
 h1 {
+  font-family: 'Poppins', sans-serif;
   font-size: 2em;
   margin: .67em 0;
 }
@@ -166,7 +167,7 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: inherit; /* 1 */
+  font-family: 'Poppins', sans-serif; /* 1 */
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
@@ -368,7 +369,7 @@ template {
 
 html {
   box-sizing: border-box; /* 1 */
-  font-family: sans-serif; /* 2 */
+  font-family: 'Poppins', sans-serif; /* 2 */
 }
 
 *,
@@ -5274,11 +5275,11 @@ table {
 }
 
 .font-sans {
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .font-serif {
-  font-family: Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
+  font-family: 'Inter', sans-serif;
 }
 
 .font-mono {
@@ -21701,7 +21702,7 @@ body {
   font-size: 13px; }
 
 body {
-  font-family: 'open sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 14px;
   color: #3f4a66;
   line-height: 1.5;
@@ -21712,6 +21713,7 @@ button {
   border-radius: 3px; }
 
 h1 {
+  font-family: 'Poppins', sans-serif;
   font-size: 30px; }
 
 a,
@@ -21894,7 +21896,7 @@ ul {
   box-sizing: border-box; }
 
 .markdown-body input {
-  font-family: inherit;
+  font-family: 'Inter', sans-serif;
   font-size: inherit;
   line-height: inherit;
   overflow: visible; }
@@ -22036,6 +22038,7 @@ ul {
 .markdown-body h4,
 .markdown-body h5,
 .markdown-body h6 {
+  font-family: 'Poppins', sans-serif;
   font-weight: bold;
   line-height: 1.25;
   position: relative; }

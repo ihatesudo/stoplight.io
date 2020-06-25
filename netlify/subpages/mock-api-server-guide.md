@@ -7,9 +7,9 @@ relatedTags:
   - mocking
   - blog-testing
 publishedDate: 2019-03-14T16:49:10.182Z
+author: ''
 title: Mock API Server Testing & API Mocking Guide
 subtitle: 'Learn how to use mock data to design, build, and test APIs'
-color: black
 tabs:
   - href: /mock-api-guide/basics
     title: Mock Server Basics
@@ -29,6 +29,7 @@ meta:
   twitter:
     title: Mock API Server Guide | Mock APIs Testing & API Mocking Guide Online
     username: '@stoplightio'
+  url: https://stoplight.io/mock-api-guide/basics
 ---
 
 The fastest way to understand what’s possible with an API is to send it requests and review the responses. During the initial design of an API, it can take weeks to have live calls available. You can develop against an API in parallel by [creating mock API servers](/mocking/server/) to return example results. Furthermore, you can create a better API by getting feedback sooner and iterating before writing code to serve a production API.
@@ -45,7 +46,7 @@ Often with internal projects, the API consumer (such as a front end developer th
 
 You can also use mock APIs to emulate APIs you don’t control. For example, you can use a local mock server to fake results from a public API when you aren’t connected to the Internet. Or, use mock data responses if live calls to an API would incur a charge from the provider.
 
-You might also [mock API calls for unit testing](/blog/the-fundamentals-of-http-api-unit-testing-2c55cd0c7634/). When your tests run with every deploy, you may not want to wait for dozens of live calls to an external API. A mock API server or library can return anticipated results so you can unit test the rest of your code. Keep in mind, you’ll want another method for ensuring that API responses meet expectations, such as [API contract testing](https://docs.stoplight.io/testing/leveraging-openapi/contract-testing).
+You might also mock API calls for unit testing. When your tests run with every deploy, you may not want to wait for dozens of live calls to an external API. A mock API server or library can return anticipated results so you can unit test the rest of your code. Keep in mind, you’ll want another method for ensuring that API responses meet expectations, such as API contract testing.
 
 ## Types of Mock APIs
 

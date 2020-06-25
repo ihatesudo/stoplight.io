@@ -19,6 +19,8 @@ export interface IFeature {
   isReversed?: boolean;
   titleColor?: string;
   isLast?: boolean;
+  overlayImage?: boolean;
+  isRound?: boolean;
 }
 
 export interface IFeatureSection extends ISection {
@@ -31,48 +33,66 @@ export interface IFeatureSection extends ISection {
 }
 
 export const Feature: React.FunctionComponent<IFeature> = props => {
-  const { title, titleURL, description, image, isReversed, titleColor, isLast } = props;
+  const { title, titleURL, description, image, isReversed, titleColor, isLast, overlayImage, isRound } = props;
 
   return (
     <div
       id={slugify(title)}
       key="content"
-      className={cn('flex items-center py-12 sm:pb-0', {
+      className={cn('Feature flex py-12 sm:pb-0', {
         'flex-row': !isReversed,
         'flex-row-reverse': isReversed,
       })}
     >
       <div
-        className={cn('flex flex-col flex-1 w-1/2 sm:w-100 sm:items-center sm:text-center', {
-          'pr-24 sm:pr-0': !isReversed,
-          'pl-18 sm:pl-0': isReversed,
+        className={cn('flex flex-col flex-1 w-1/3 sm:w-100 sm:items-center sm:text-center', {
+          'pr-16 sm:pr-0': !isReversed,
+          'pl-16 sm:pl-0': isReversed,
         })}
       >
-        <h2 className={cn('max-w-sm mb-10 text-3xl', `text-${titleColor || 'grey-darkest'}`)}>
+        <h2 className={cn('mb-10 text-4xl', `text-${titleColor || 'black'}`)}>
           {titleURL ? (
-            <Link to={titleURL} className={`text-${titleColor || 'grey-darkest'}`}>
+            <Link to={titleURL} className={`text-${titleColor || 'black'}`}>
               {title}
             </Link>
           ) : (
-              title
-            )}
+            title
+          )}
         </h2>
         <div
-          className={cn('mb-12 pb-12 sm:pb-0 max-w-md leading-loose text-lg', {
+          className={cn('mb-12 pb-12 sm:pb-0 max-w-md leading-loose text-xl', {
             'sm:mb-0': isLast,
           })}
           dangerouslySetInnerHTML={{ __html: description }}
         />
       </div>
-
-      <div className="relative flex-1 w-1/2 sm:hidden">
-        <Image
-          src={image}
-          className={cn('bg-center bg-cover bg-no-repeat h-128 w-128 rounded-full', { 'ml-auto': !isReversed })}
-          style={{ boxShadow: '0 0 4px rgba(0, 0, 0, 0.5)' }}
-          useDiv
-        />
-      </div>
+      {overlayImage ? (
+        <div className="relative w-1/2 -mr-10 sm:hidden">
+          <Image src="/images/studio/hero.png" className="mt-1 rounded-lg shadow-lg" />
+          <Image src="/images/studio/hero.png" className="relative -mt-64 -ml-16 rounded-lg shadow-lg" />
+        </div>
+      ) : (
+        <div className="relative w-1/2 sm:hidden">
+          {isRound ? (
+            <Image
+              src={image}
+              className={cn(' bg-no-repeat rounded-lg shadow-lg mt-1 bg-center bg-cover h-128 w-128 rounded-full', {
+                'ml-auto': !isReversed,
+              })}
+              style={{ boxShadow: '0 0 4px rgba(0, 0, 0, 0.5)' }}
+              useDiv
+            />
+          ) : (
+            <Image
+              src={image}
+              className={cn(' bg-no-repeat bg-contain ml-auto rounded-lg shadow-lg mt-1', {
+                'ml-auto': !isReversed,
+              })}
+              style={{ boxShadow: '0 0 4px rgba(0, 0, 0, 0.5)' }}
+            />
+          )}
+        </div>
+      )}
     </div>
   );
 };
@@ -83,13 +103,13 @@ export interface IFeatureStrip {
 
 export const FeatureStrip = ({ features }: IFeatureStrip) => {
   return (
-    <div className="py-4 overflow-auto text-white whitespace-no-wrap shadow bg-blue-darkest">
+    <div className="FeatureStrip py-4 overflow-auto text-black whitespace-no-wrap bg-black shadow">
       <div className="container flex flex-no-wrap items-center justify-around sm:justify-start">
         {features.map((feature, key) => (
           <a
             key={key}
             href={`#${slugify(feature.title)}`}
-            className="flex items-center justify-center px-4 py-2 font-semibold text-white rounded-lg hover:bg-lighten-50"
+            className="flex items-center justify-center px-4 py-2 text-lg font-normal text-white rounded-xl hover:bg-lighten-50"
           >
             <Icon className="text-lg" icon={['fad', 'check-circle']} />
             <div className="ml-3">{feature.shortName}</div>
@@ -114,12 +134,12 @@ export const FeatureSection: React.FunctionComponent<IFeatureSection> = ({
   }
 
   return (
-    <Section id="product" {...sectionProps} className="pb-32" noPadding>
+    <Section id="product" {...sectionProps} className="FeatureSection pb-32" noPadding>
       {(title || description) && (
         <Container title={title} className={cn(!buttons || !buttons.length ? 'py-32 border-b' : null)}>
           {description && (
             <div
-              className="flex max-w-lg mx-auto text-lg leading-loose text-center"
+              className="flex max-w-full mx-auto text-xl leading-loose text-center"
               dangerouslySetInnerHTML={{ __html: description }}
             />
           )}

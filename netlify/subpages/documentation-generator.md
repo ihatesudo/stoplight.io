@@ -3,18 +3,17 @@ path: /documentation/generator
 publishedDate: 2019-07-08T20:35:30.631Z
 title: API Documentation Generator & API Docs Generator Online
 subtitle: Generate API Documentation Instantly
-color: green
 tabs:
   - href: /documentation
     title: API Documentation
-  - href: /documentation/beautiful
-    title: Beautiful API Documentation
-  - href: /documentation/automation
-    title: API Documentation Automation
   - href: /documentation/enterprise
     title: Enteprise API Documentation
-  - href: /blog
-    title: Stoplight Blog
+  - href: /documentation/beautiful
+    title: Beautiful API Docs
+  - href: /documentation/automation
+    title: API Documentation Automation
+  - href: /documentation/generator
+    title: API Documentation Generator
 actionBar:
   enabled: false
 meta:

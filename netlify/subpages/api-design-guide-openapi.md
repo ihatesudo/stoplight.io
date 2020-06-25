@@ -8,7 +8,6 @@ relatedTags:
 publishedDate: 'Jan 23, 2019'
 title: OpenAPI Design Guide & OpenAPI Spec
 subtitle: Learn all there is about API Design through our comprehensive guide
-color: orange
 tabs:
   - href: /api-design-guide/basics
     title: API Design Basics
@@ -23,7 +22,7 @@ actionBar:
     - submit:
         button:
           title: Get the API Design Guide
-          color: purple
+          color: blue2
         formId: e6cb86b0-8b13-49b8-860a-0e717da5489d
         input:
           placeholder: Your work email...
@@ -31,6 +30,7 @@ actionBar:
       title: Get the API Design Guide
       type: submit
   enabled: 'true,'
+  centered: true
   text: >-
     Read how world’s leading API first companies are solving API Design
     Management at Scale.
@@ -82,4 +82,4 @@ There are good and bad things about both YAML and JSON. In addition to reading a
 
 ## Get Familiar With API Design
 
-Whether wrestling with data formats or spinning up mock servers, there are tools to improve your API design experience. Start from scratch or import an existing description, then start building and sharing with your team. Stoplight Studio - our free visual [OpenAPI Designer](/studio) provides a design-first suite of tools to help you build great APIs.
+Whether wrestling with data formats or spinning up mock servers, there are tools to improve your API design experience. Start from scratch or import an existing description, then start building and sharing with your team. Stoplight Studio - our free visual [OpenAPI Designer](/studio/) provides a design-first suite of tools to help you build great APIs.

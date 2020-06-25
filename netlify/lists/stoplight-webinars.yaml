@@ -2,14 +2,14 @@ path: /video
 tag: video
 title: Stoplight Video Content
 subtitle: Watch & Learn
+color: grey-lighter
 hero:
-  particles: true
   ctas:
     - title: Subscribe to Stoplight Webinars
       type: 'submit'
       submit:
         button:
-          color: purple
+          color: blue2
           title: Subscribe to Stoplight Webinars
         input:
           type: email
@@ -23,7 +23,7 @@ actionBar:
       type: 'submit'
       submit:
         button:
-          color: purple
+          color: blue2
           title: Subscribe
         input:
           type: email
@@ -37,5 +37,6 @@ meta:
   twitter:
     description: Watch & Learn
     title: Videos and Webinars | Stoplight
+    username: '@stoplightio'
 pagination:
   enabled: true

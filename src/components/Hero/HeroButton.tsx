@@ -16,7 +16,7 @@ export const HeroButton: React.FunctionComponent<IHeroButton> = ({ title, icon, 
     return null;
   }
 
-  const className = cn('flex items-center py-3 text-grey-darkest pl-4 pr-6 sm:m-3 mx-3 shadow-md bg-white rounded-md', {
+  const className = cn('flex items-center py-3 text-grey-darkest pl-4 pr-6 sm:m-3 mx-3 shadow-md rounded-md', {
     'hover:opacity-93 cursor-pointer': href,
     'cursor-default': !href,
   });
@@ -24,7 +24,7 @@ export const HeroButton: React.FunctionComponent<IHeroButton> = ({ title, icon, 
   const elems: JSX.Element[] = [];
 
   if (icon) {
-    elems.push(<Icon key="1" icon={icon} className={cn('mr-2 text-lg', `text-${color || 'green'}`)} />);
+    elems.push(<Icon key="1" icon={icon} className={cn('mr-2 text-lg', `text-${color || 'purple'}`)} />);
   }
 
   if (title) {

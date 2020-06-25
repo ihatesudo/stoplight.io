@@ -5,6 +5,7 @@ import { ActionBar, IActionBar } from '../ActionBar';
 import { Container } from '../Container';
 import { Icon } from '../Icon';
 import { Image } from '../Image';
+import { Link } from '../Link';
 import { Section } from '../Section';
 
 export interface ITestimonial {
@@ -14,6 +15,7 @@ export interface ITestimonial {
   company: string;
   role: string;
   className?: string;
+  href?: string;
 }
 
 export interface ITestimonials {
@@ -30,6 +32,7 @@ export const Testimonial: React.FunctionComponent<ITestimonial> = ({
   company,
   role,
   className,
+  href,
 }) => {
   return (
     <div className={cn(className, 'w-1/2 sm:w-full flex px-14 pb-20 sm:px-0 sm:px-10')}>
@@ -52,14 +55,22 @@ export const Testimonial: React.FunctionComponent<ITestimonial> = ({
           </div>
         )}
 
-        <div className="flex flex-col justify-center p-8 leading-normal">
-          <p className="flex-1 leading-loose text-grey-darker">{quote}</p>
+        <div className="flex flex-col justify-center p-8 text-lg leading-normal">
+          <p className="flex-1 leading-loose text-grey-darker md:flex-none md:h-64">{quote}</p>
 
-          <p className="mt-4 font-bold">
-            {author}
+          <p className="mt-4 font-semibold">{author}</p>
+          <p className="font-bold">
+            {role && `${role}`}
             {company && `, ${company}`}
-            {role && `, ${role}`}
           </p>
+          {href && (
+            <div>
+              <Link to={href} className="font-bold text-blue2">
+                Learn More
+                <Icon icon="arrow-right" className="ml-3" />
+              </Link>
+            </div>
+          )}
         </div>
       </div>
     </div>
@@ -77,25 +88,12 @@ export const Testimonials: React.FunctionComponent<ITestimonials> = ({
   }
 
   return (
-    <Section id="testimonials" noPadding className="pb-32">
-      <Container
-        title={title}
-        description={description}
-        chips={{
-          className: 'justify-center mb-10',
-          segments: [{ color: 'orange-light', length: 2 }, { color: 'orange-dark', length: 4 }, { color: 'orange' }],
-        }}
-      >
-        <div className="text-lg font-semibold text-center uppercase text-grey-dark">API First Companies Love Us</div>
-
-        <div className="flex flex-wrap mt-14">
-          {testimonials.map((testimonial, index) => {
-            return <Testimonial key={index} {...testimonial} />;
-          })}
-        </div>
-      </Container>
-
-      {actionBar && actionBar.enabled ? <ActionBar className="mt-16 sm:mt-12" {...actionBar} /> : null}
-    </Section>
+    <Container title={title} description={description}>
+      <div className="flex flex-wrap mt-14">
+        {testimonials.map((testimonial, index) => {
+          return <Testimonial key={index} {...testimonial} />;
+        })}
+      </div>
+    </Container>
   );
 };

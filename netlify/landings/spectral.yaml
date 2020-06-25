@@ -1,94 +1,158 @@
 path: /open-source/spectral
 title: Spectral - Open Source JSON/YAML Style Guide & Linter | Stoplight
-color: purple-darker
 hasSandbox: true
 relatedTags:
   - blog-design
 hero:
-  subtitle: Improve the quality of your API descriptions, Kubernetes config, GitHub Actions, or any other JSON/YAML data.
+  subtitle:
+    Improve the quality of your API descriptions, Kubernetes config, GitHub Actions, or any other JSON/YAML data.
   title: Spectral, an Open Source JSON/YAML Linter
-  particles: true
+  aligned: center
   ctas:
-    - color: green
+    - color: blue2
       href: 'https://github.com/stoplightio/spectral'
       title: GitHub
       icon: ['fab', 'github']
-    - color: indigo
+      large: true
+    - color: purple
       href: 'https://youtube.com/watch?v=IJtFI9mkZ8Y'
       title: Watch the Video
       icon: ['fad', 'video']
       type: video
+      large: true
     - color: indigo
-      href: 'https://stoplight.io/p/docs/gh/stoplightio/spectral'
+      href: 'https://meta.stoplight.io/docs/spectral/README.md'
       title: Read the Docs
       icon: ['fad', 'book-open']
-featureSection:
-  actionBar:
-    ctas:
-      - href: 'https://stoplight.io/p/docs/gh/stoplightio/spectral/docs/getting-started/installation.md'
-        title: Get Started with Spectral
-    enabled: true
-    text: Do you want feedback on your API descriptions right now?
-
+      large: true
+featureIconStrip:
+  icons:
+    - icon: 'check-circle'
+      color: blue2
+      title: Improve API Quality
+    - icon: 'eye'
+      color: indigo
+      title: Increase API Consistency
+    - icon: code
+      color: purple
+      title: CLI & JavaScript
+    - icon: paint-brush
+      color: blue
+      title: Stoplight Studio Integration
+features:
   title: Keep unwieldy JSON and YAML files under control
   description: >-
-    Spectral is an open source JSON/YAML linter, which allows you to create style guides for
-    your structured data; things like OpenAPI/AsyncAPI/RAML descriptions, Kubernetes config, 
-    GitHub Actions, you name it, Spectral can help you lint it. Go beyond making sure they are
-    "Technically Correct", make sure they are _useful_.
-
+    Spectral is an open source JSON/YAML linter, which allows you to create style guides for your structured data;
+    things like OpenAPI/AsyncAPI/RAML descriptions, Kubernetes config, GitHub Actions, you name it, Spectral can help
+    you lint it. Go beyond making sure they are "Technically Correct", make sure they are _useful_.
   features:
-    - description: >-
-        API description formats like the OpenAPI Specification are permissive and vague in many
-        ways. Beginner API designers can struggle to know what to do, and
-        experienced API designers can easily forget. It's easy to create valid description
-        documents that are not very useful. These documents might look broken in
-        documentation tools, or not provide enough validation keywords to be
-        useful for contract testing. <br><br>Spectral will point people towards the useful
-        stuff, making docs, mocks, and contract tests more useful than ever, which
-        in turn makes the APIs better.
-      image: /images/ruleset_yaml.png
+    - title: Improve the quality of your APIs and descriptions
       shortName: Improve API Quality
-      title: Improve the quality of your APIs and descriptions
-
-    - description: >-
-        Ask 100 API designers what makes a good API design and you'll get 101
-        answers, but all most developers really want is consistency. Using a
-        style guide can reduce decision making and improve consistency for all your teams.
-        <br><br>You can use the default style guides, extend it, or write one to match your
-        organization's style guide.
-      image: /images/errors_and_warnings.png
-      shortName: Increase Consistency
-      title: Reduce decision-making and promote consistent API descriptions
-
-    - description: >-
-        Spectral can be downloaded as a CLI binary for macOS, Linux or Windows, or
-        installed as a npm/Yarn package with a CLI and a JavaScript API. Bake it
-        into your existing tooling, run it in Continuous Integration, use it in
-        any workflow you like.
-      image: /images/spectral_cli.png
+      description: >-
+        API description formats like the OpenAPI Specification can be permissive and vague. Beginner API designers can
+        struggle to know what to do, and experienced API designers can easily forget. <br><br> It's easy to create valid
+        description documents that are not very useful, and end up looking broken in documentation tools, or not provide
+        enough validation keywords to be useful for contract testing.
+      image: /images/spectral/spectral_quality.png
+      ctas:
+        - color: blue2
+          href: https://stoplight.io/p/docs/gh/stoplightio/spectral/docs/getting-started/concepts.md
+          title: Learn More
+          type: arrow-link
+          rightIcon: arrow-right
+    - title: Reduce decision-making and promote consistent API descriptions
+      shortName: Increase API Consistency
+      description: >-
+        Ask 100 API designers what makes a good API design and you'll get 101 answers, but all most developers really
+        want is consistency. Using a style guide can reduce decision making and improve consistency for all your teams.
+        <br><br> You can use the default style guide, extend it, or create one to match your organization's style guide.
+      image: /images/spectral/errors_and_warnings.png
+      isReversed: true
+      ctas:
+        - color: blue2
+          href: https://stoplight.io/p/docs/gh/stoplightio/spectral/docs/getting-started/rulesets.md
+          title: Learn More
+          type: arrow-link
+          rightIcon: arrow-right
+    - title: Use CLI and JavaScript interfaces
+      description: >-
+        Spectral can be downloaded as a CLI binary for macOS, Linux or Windows, or installed as a npm/Yarn package with
+        a CLI and a JavaScript API. Bake it into your existing tooling, run it in Continuous Integration, use it in any
+        workflow you like.
+      image: /images/spectral/spectral_cli.png
       shortName: CLI & JavaScript
-      title: Use CLI and JavaScript interfaces
-
-    - description: >-
-        Want to create and edit API descriptions with a visual editor instead of
-        scratching YAML into a cave wall with a rock? Use Stoplight Studio, and
-        let Spectral give you feedback in real-time.
-      image: /images/studio_editor.png
+      ctas:
+        - color: blue2
+          href: https://stoplight.io/p/docs/gh/stoplightio/spectral/docs/guides/2-cli.md
+          title: Learn More
+          type: arrow-link
+          rightIcon: arrow-right
+    - title: Stoplight Studio Integration
+      description: >-
+        Want to create and edit API descriptions with a visual editor instead of scratching YAML into a cave wall with a
+        rock? Use Stoplight Studio, and let Spectral give you feedback in real-time.
+      image: /images/design/editor.png
       shortName: Stoplight Studio Integration
-      title: Stoplight Studio Integration
-
+      isReversed: true
+      ctas:
+        - color: blue2
+          href: https://stoplight.io/p/docs/gh/stoplightio/studio/docs/Design-and-Modeling/08-validation-style-guide.md
+          title: Learn More
+          type: arrow-link
+          rightIcon: arrow-right
+actionBar:
+  ctas:
+    - href: 'https://stoplight.io/p/docs/gh/stoplightio/spectral/docs/getting-started/installation.md'
+      title: Get Started with Spectral
+      color: blue2
+      large: true
+  centered: true
+  enabled: true
+  text: Do you want feedback on your API descriptions right now?
+solutionsNav:
+  title: Explore the API Design Lifecycle
+  icons:
+    - icon: 'pencil'
+      color: blue2
+      title: Design
+      href: /api-design/
+    - icon: code
+      color: lavender
+      title: Development
+      href: /api-development/
+    - icon: chart-network
+      color: blue
+      title: Visibility
+      href: /api-visibility/
+    - icon: server
+      color: indigo
+      title: Mocking
+      href: /api-mocking/
+    - icon: balance-scale
+      color: purple
+      title: Governance
+      href: /api-governance/
+    - icon: book-open
+      color: blue2
+      title: Documentation
+      href: /api-documentation/
+    - icon: user-friends
+      color: yellow
+      title: Collaboration
+      href: /api-collaboration/
 meta:
   description: >-
-    Spectral is an open source OpenAPI linter, which can tell you not just if
-    your API descriptions are valid, but if they are any good.
+    Spectral is an open source OpenAPI linter, which can tell you not just if your API descriptions are valid, but if
+    they are any good.
   favicon: /images/mark_light_bg.png
   image: /images/spectral_cli.png
+  url: 'https://stoplight.io/open-source/spectral'
   title: Spectral - Open Source API Description Linter | Stoplight
+  robots: 'index, follow'
   twitter:
     description: >-
-      Spectral is an open source OpenAPI linter, which can tell you not just if
-      your API descriptions are valid, but if they are any good.
+      Spectral is an open source OpenAPI linter, which can tell you not just if your API descriptions are valid, but if
+      they are any good.
     image: /images/spectral_cli.png
     title: Spectral - Open Source API Description Linter | Stoplight
     username: '@stoplightio'

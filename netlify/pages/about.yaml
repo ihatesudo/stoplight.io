@@ -1,19 +1,19 @@
 path: /about
+color: grey-lighter
 hero:
-  particles: true
   title: About Stoplight
   subtitle: Stoplight enables all stakeholders working with APIs to be more productive
-  ctas:
-    - color: accent
-      href: '/careers'
-      title: Join Our Team
 mission:
   title: Our Mission
-  description: We believe in a design-first approach to API development, so we created products that provide a means for design-first development.  Developing good design-first practices will minimize future costs, speed  up your time to market and lead to more consistent, higher quality  microservice and IoT applications.
+  description:
+    We believe in a design-first approach to API development, so we created products that provide a means for
+    design-first development.  Developing good design-first practices will minimize future costs, speed  up your time to
+    market and lead to more consistent, higher quality  microservice and IoT applications.
 coreValues:
   title: Our Core Values
-  description: At Stoplight, we ground ourselves around three guiding principles that unite us. We do our best work when
-    we’re empowered, collaborative, and moving forward with positive intent.
+  description:
+    At Stoplight, we ground ourselves around three guiding principles that unite us. We do our best work when we’re
+    empowered, collaborative, and moving forward with positive intent.
   values:
     - title: Be An Owner
       summary: >-
@@ -36,36 +36,32 @@ coreValues:
       iconStyle:
         '--fa-primary-color': 'blue'
         '--fa-secondary-color': 'blue'
-careers:
-  title: Careers
-  image: /images/team/careerdogs.jpg
-  description: >-
-    The Stoplight team is a talented and creative group (office pups included); united in our passion for creating best in class API tooling.
-    We're always looking for enthusiastic, curious, mission-driven individuals to join us as we power the world’s leading API first companies. Think you'd be a good fit?
-    Check out our [current open roles](https://stoplight.io/careers)!
+# careers:
+#   title: Careers
+#   image: /images/team/careerdogs.jpg
+#   isRound: true
+#   description: >-
+#     The Stoplight team is a talented and creative group (office pups included); united in our passion for creating best in class API tooling.
+#     We're always looking for enthusiastic, curious, mission-driven individuals to join us as we power the world’s leading API first companies. Think you'd be a good fit?
+#     Check out our [current open roles](https://stoplight.io/careers)!
 socialGood:
   title: Social Good
   image: /images/team/offset-earth-badge.png
   description: >-
-    At Stoplight, we believe the positive impact we can make on the world isn't limited to the API space.
-    That’s why we work with organizations like [Offset Earth](https://offset.earth/stoplightinc), [Urban Roots](https://urbanrootsatx.org/),
-    and [OSMI](https://osmihelp.org/). Check out our [Offset Earth Forest](https://offset.earth/stoplightinc)
-    to learn how we offset the carbon footprint of every Stoplight employee and became a climate positive workforce.
+    At Stoplight, we believe the positive impact we can make on the world isn't limited to the API space. That’s why we
+    work with organizations like [Offset Earth](https://offset.earth/stoplightinc), [Urban
+    Roots](https://urbanrootsatx.org/), and [OSMI](https://osmihelp.org/). Check out our [Offset Earth
+    Forest](https://offset.earth/stoplightinc) to learn how we offset the carbon footprint of every Stoplight employee
+    and became a climate positive workforce.
 team:
   title: Meet The Team
   description: >-
-    Headquartered in Austin, Texas, our team hails from across the US and Europe, and is united by our
-    passion for APIs. From skeeball champions to rock climbers, tough mudders to restaurateurs, each and
-    every member brings their own unique perspectives and experiences to the table. Thinking out of the
-    box is our purpose - the weirder the better - and challenging the status quo is our culture.
+    Headquartered in Austin, Texas, our team hails from across the US and Europe, and is united by our passion for APIs.
+    From skeeball champions to rock climbers, tough mudders to restaurateurs, each and every member brings their own
+    unique perspectives and experiences to the table. Thinking out of the box is our purpose - the weirder the better -
+    and challenging the status quo is our culture.
   image: /images/team/team.jpg
-  actionBar:
-    ctas:
-      - color: accent
-        href: '/careers'
-        title: Learn More
-    enabled: true
-    text: Want to join the team? We're hiring!
+
   members:
     - image: /images/team/nauman-ali-headshot.jpg
       name: Nauman Ali
@@ -138,7 +134,7 @@ team:
       role: Software Engineer
     - image: /images/dave-headshot.jpg
       name: Dave Roberts
-      role:  Customer Solutions
+      role: Customer Solutions
     - image: /images/tonia-roberts-headshot.jpg
       name: Tonia Roberts
       role: Head of Sales
@@ -176,21 +172,23 @@ businesses:
       company: Hudya
       image: /images/hudya_logo.png
       description: >-
-        Having all the tools to model, test, and document our API in one place,
-        and integrating it nicely along the entire CI/CD workflow process has
-        been extremely helpful for us.
+        Having all the tools to model, test, and document our API in one place, and integrating it nicely along the
+        entire CI/CD workflow process has been extremely helpful for us.
       role: Cloud Architect
     - author: Felix Sargent
       company: MediaMath
       image: /images/logo_MediaMath.png
       description: >-
-        Stoplight provides a clean user interface and enables an engineering team to develop a compliant API with minimal difficulty. Other tools don't provide the same details, guard rails, and error validation that Stoplight provides.
+        Stoplight provides a clean user interface and enables an engineering team to develop a compliant API with
+        minimal difficulty. Other tools don't provide the same details, guard rails, and error validation that Stoplight
+        provides.
       role: Director of Engineering
     - author: Tim Slagle
       company: Zoom
       image: /images/zoom_logo.png
       description: >-
-        Our team roughly saves 15-20 hours a week. It makes it quicker to write, and the review process is quicker as well because we can go in and everybody can see the edits. We're pretty impressed with Stoplight as a whole.
+        Our team roughly saves 15-20 hours a week. It makes it quicker to write, and the review process is quicker as
+        well because we can go in and everybody can see the edits. We're pretty impressed with Stoplight as a whole.
       role: Manager of Developer Advocacy
 press:
   title: In The Press
@@ -216,14 +214,14 @@ press:
       publication: AIthority
     - date: 'October, 2018'
       description: >-
-        Stoplight Lands $3.25M of Seed Funding to Lead Evolution of Enterprise
-        API Lifecycle Management
+        Stoplight Lands $3.25M of Seed Funding to Lead Evolution of Enterprise API Lifecycle Management
       href: >-
         https://venturebeat.com/2018/10/03/stoplight-lands-3-25m-of-seed-funding-to-lead-evolution-of-enterprise-api-lifecycle-management
       image: /images/logo_venturebeat.png
       publication: VentureBeat
   cta:
-    color: grey-darkest
+    color: blue2
+    large: true
     href: 'https://press.stoplight.io/company'
     title: More Press & Assets
 collage:
@@ -243,10 +241,17 @@ collage:
       src: /images/logo_socialstarts.png
 meta:
   description: >-
-    Find out all you need to know about Stoplight and it's talented and creative
-    team; united in their passion for creating best in class API tooling.
+    Find out all you need to know about Stoplight and it's talented and creative team; united in their passion for
+    creating best in class API tooling.
   favicon: /images/mark_light_bg.png
+  image: /images/team/team.jpg
+  robots: 'index, follow'
   title: Learn About Us | Stoplight
   twitter:
+    description:
+      Find out all you need to know about the talented and creative team at Stoplight; united in their passion for
+      creating best in class API tooling.
     title: Learn About Us | Stoplight
+    image: /images/team/team.jpg
     username: '@stoplightio'
+  url: 'https://stoplight.io/about/'

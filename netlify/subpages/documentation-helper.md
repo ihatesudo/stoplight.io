@@ -5,18 +5,13 @@ title: Helper API Documentation
 subtitle: >-
   Use Stoplight to provide comprehensive web API documentation to improve
   developer experience
-color: green
 tabs:
   - href: /api-documentation-guide/basics
     title: API Documentation Guide
+  - href: /documentation/helper
+    title: Helper API Docs
   - href: /api-documentation-guide/best-practices
-    title: API Documentation Best Practices
-  - href: 'https://docs.stoplight.io/documentation/design/theming'
-    title: Theming
-  - href: 'https://docs.stoplight.io/documentation/design/custom-css'
-    title: Custom CSS
-  - href: 'https://docs.stoplight.io/documentation/design/custom-js'
-    title: Custom Javascript
+    title: API Docs Best Practices
 actionBar:
   enabled: false
 meta:
@@ -41,7 +36,7 @@ Stoplight allows users to:
 - Expedite the process of documenting your API
 - Focus on content instead of design
 - Host documentation with Stoplight
-- [Connect your API specification](https://docs.stoplight.io/documentation/referencing-other-data-sources) to your documentation
+- Connect your API specification to your documentation
 - Create non-reference documentation, guides, and tutorials
 
 ## Documentation Editor

@@ -1,7 +1,7 @@
 export default {
   name: 'demoForm',
   label: 'Demo Form',
-  file: 'netlify/demo-form/request-demo.yaml',
+  file: 'netlify/demo-form',
   fields: [
     {
       name: 'hero',

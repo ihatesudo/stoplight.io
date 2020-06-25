@@ -4,14 +4,10 @@ publishedDate: 2019-11-06T17:07:57.640Z
 title: Instant API Mock Servers & Mocking Web Services
 subtitle: Build APIs and accelerate API development with instant mock servers
 tabs:
-  - href: /mocking/server
+  - href: /mocking/server/
     title: Instant Mock Servers
-  - href: /mocking
+  - href: /mocking/
     title: API Mocking
-  - href: 'https://docs.stoplight.io/mocking/introduction'
-    title: API Mocking Guide
-  - href: 'https://docs.stoplight.io/mocking/javascript-runtime'
-    title: Javascript Runtime
 actionBar:
   enabled: false
 meta:
@@ -28,6 +24,7 @@ meta:
     title: API Mock Server & Web Service | API Mocking Servers & Mock Web Services
     image: /images/prism_example.png
     username: '@stoplightio'
+  url: https://stoplight.io/mocking/server/
 ---
 
 ## Hosted Mock Server

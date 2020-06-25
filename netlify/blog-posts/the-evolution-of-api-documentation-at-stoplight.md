@@ -12,9 +12,6 @@ subtitle: >-
   How we are evolving documentation at Stoplight to be performant, accessible,
   portable, and integrated
 image: /images/evolution-of-api-documentation.jpeg
-color: purple-darker
-disqus:
-  enabled: true
 actionBar:
   enabled: false
 meta:
@@ -82,4 +79,4 @@ Check out these performance improvements comparing our first solution ([Classic]
 
 ## Next Steps
 
-Here at Stoplight we are always looking for innovative solutions to maintain a balance between aesthetics and functionality. We don’t want you to have to sacrifice [beautiful documentation](/platform/docs/) for speed and performance. We also don’t want the process of creating documentation to be time consuming and arduous. The changes we’ve made thus far have been our first foray into establishing that balance but this is just the beginning. We already have plans to speed up the process even further along with a multitude of new functions and services. I guess you will just have to wait and see!
+Here at Stoplight we are always looking for innovative solutions to maintain a balance between aesthetics and functionality. We don’t want you to have to sacrifice [beautiful documentation](/api-documentation/) for speed and performance. We also don’t want the process of creating documentation to be time consuming and arduous. The changes we’ve made thus far have been our first foray into establishing that balance but this is just the beginning. We already have plans to speed up the process even further along with a multitude of new functions and services. I guess you will just have to wait and see!

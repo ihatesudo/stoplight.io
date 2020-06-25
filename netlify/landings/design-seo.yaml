@@ -1,0 +1,127 @@
+path: /design
+title: OpenAPI Designer
+relatedTags:
+  - blog-design
+hero:
+  ctas:
+    - title: Get Started for Free
+      color: blue2
+      href: 'https://stoplight.io/welcome'
+    - title: Learn More About Design
+      color: blue
+      href: /api-design
+      icon:
+        - fad
+        - paint-brush
+  titleImage: /images/design/hero.svg
+  aligned: left
+  subtitle: >-
+    Build first-class APIs with a collaborative, powerful, visual editor that allows you to prototype and share your API
+    within minutes using Stoplight's API design tools.
+  title: REST API Design Tool For Planning & Modeling Software
+
+featureIconStrip:
+  icons:
+    - icon: fighter-jet
+      color: indigo
+      title: Quick to Start
+    - icon: paint-brush
+      color: purple
+      title: Powerful, Visual Editor
+    - icon: server
+      color: lavender
+      title: Integrated Mock Servers
+
+features:
+  title: OpenAPI Designer
+  description: >-
+    Start designing API in minutes using Stoplight's API designer and API  design tool. Use the [OpenAPI
+    Specification](/api-design-guide/openapi) (formerly known as Swagger) with Stoplight’s visual editor to [design
+    consistent and standardized REST APIs](/design/web/) for your organization. Without writing any code, model and
+    design APIs faster than ever while simultaneously getting feedback on your prototypes with our [hosted mock
+    servers](/mocking/).
+  features:
+    - description: >-
+        Get started quickly with [API design-first principles](/api-design-guide/basics/). Import an existing API or
+        start from scratch with a new API, zero coding required. The Visual Editor reduces time to get started on your
+        API design by providing an intuitive UI.
+      image: /images/design/preview.svg
+      shortName: Design First
+      title: Quick to Start
+      titleURL: /design/free
+    - description: >-
+        Design an API with speed and efficiency from scratch. Stoplight’s Visual Editor decreases the learning curve so
+        you don’t need to be an OpenAPI expert to create first-class API designs. Describe endpoints, headers, bodies,
+        multiple responses, query string parameters, shared models, and much more whilst designing APIs.
+      image: /images/design/editor.png
+      shortName: Visual Editor
+      title: 'Powerful, Visual Editor'
+      titleURL: /design/web
+      isReversed: true
+    - description: >-
+        Instantly [prototype and collaborate on your API design](/design/prototype/) with our integrated, hosted Mock
+        Servers, powered by Prism. Mock a single API, multiple APIs, or even just a few endpoints. Increase efficiency
+        by allowing your frontend teams to start implementation while the backend team develops the API.
+      image: /images/design/mock.svg
+      shortName: Mock Servers
+      title: 'Integrated Mock Servers'
+      titleURL: /design/prototype
+  #   - description: >-
+  #       Instantly share API prototypes, automated documentation, and hosted Mock
+  #       Servers. Invite teammates, partners, and API consumers to view and
+  #       collaborate on your API designs privately or publicly with Discussions.
+  #       With one click export and programmatic access, you can use and share
+  #       your specification document where ever you want.
+  #     image: /images/design_collaborate.png
+  #     shortName: Collaborative
+  #     title: Collaborative Design
+  #     titleURL: ''
+
+actionBar:
+  ctas:
+    - href: 'https://stoplight.io/welcome'
+      title: Get Started For Free
+      color: blue2
+  enabled: true
+  text: Ready to Start Designing APIs?
+solutionsNav:
+  title: Explore the API Design Lifecycle
+  icons:
+    - icon: 'pencil'
+      color: blue2
+      title: Design
+      href: /api-design
+    - icon: chart-network
+      color: lavender
+      title: Visibility
+      href: /api-visibility
+    - icon: balance-scale
+      color: purple
+      title: Governance
+      href: /api-governance
+    - icon: user-friends
+      color: yellow
+      title: Collaboration
+      href: /api-collaboration
+    - icon: server
+      color: indigo
+      title: Mocking
+      href: /api-mocking/
+    - icon: code
+      color: purple
+      title: Development
+      href: /api-development
+meta:
+  description: >-
+    Build first-class APIs with a collaborative, powerful, visual editor that allows you to prototype and share your API
+    within minutes
+  favicon: /images/mark_light_bg.png
+  image: /images/design_feature_3.png
+  title: REST API Design & Planning Tool | API Modeling & Designer API Tool Software
+  twitter:
+    description: >-
+      Build first-class APIs with a collaborative, powerful, visual editor that allows you to prototype and share your
+      API within minutes
+    image: /images/design_feature_3.png
+    title: REST API Design & Planning Tool | API Modeling & Designer API Tool Software
+    username: '@stoplightio'

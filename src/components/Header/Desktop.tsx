@@ -28,11 +28,17 @@ const DropdownItem = (item, index) => {
   );
 };
 
-const HeaderDropdown: React.FunctionComponent<IHeaderItem> = ({ width, title, links, content, className }) => {
-  if (!content && (!links || !links.length)) {
+const HeaderDropdown: React.FunctionComponent<IHeaderItem> = ({
+  width,
+  title,
+  links,
+  aboutLinks,
+  content,
+  className,
+}) => {
+  if (!content && (!links || !links.length) && (!aboutLinks || !aboutLinks.length)) {
     return null;
   }
-
   return (
     <Popup
       width={width}
@@ -42,7 +48,7 @@ const HeaderDropdown: React.FunctionComponent<IHeaderItem> = ({ width, title, li
         <div
           className={cn(
             className,
-            'flex select-none cursor-default text-white rounded-lg px-3 py-1 mx-3 hover:bg-lighten-50 opacity-85 relative',
+            'flex items-center select-none cursor-default text-black rounded-lg px-3 py-1 mx-3 hover:bg-lighten-50 opacity-85 relative',
             {
               'opacity-100 bg-lighten-50': isVisible,
             }
@@ -50,6 +56,7 @@ const HeaderDropdown: React.FunctionComponent<IHeaderItem> = ({ width, title, li
           {...attributes}
         >
           {title}
+          <Icon icon="angle-down" className="ml-2" />
 
           {isVisible && (
             <div className="HeaderPopover__caret text-grey-lighter">
@@ -61,6 +68,7 @@ const HeaderDropdown: React.FunctionComponent<IHeaderItem> = ({ width, title, li
       renderContent={() => (
         <div className="relative rounded-lg shadow-lg HeaderPopover bg-grey-lighter">
           {links && <div className="p-3">{links.map(DropdownItem)}</div>}
+          {aboutLinks && <div className="p-3">{aboutLinks.map(DropdownItem)}</div>}
           {content && content()}
         </div>
       )}
@@ -74,7 +82,7 @@ const HeaderButton: React.FunctionComponent<IHeaderItem> = ({ title, href, icon,
       key="2"
       to={href}
       className={cn(
-        'active-depress py-1 px-3 ml-6 flex items-center border rounded-lg text-white hover:text-white border-lighten-300 hover:border-lighten-500 bg-lighten-50 whitespace-no-wrap',
+        'active-depress px-5 py-2 md:px-4 md:py-2 ml-5 md:ml-2 font-medium flex items-center border rounded-lg text-white hover:text-white border-lighten-300 hover:border-lighten-500 bg-lighten-50 whitespace-no-wrap',
         className
       )}
     >
@@ -128,34 +136,6 @@ const ProductLink = ({
   );
 };
 
-const ProductLinks = () => {
-  return (
-    <div className="p-6">
-      <div className="ml-2 font-medium uppercase text-grey-darker">Collaborative API Design For Everyone</div>
-
-      <div className="flex mt-3">
-        <ProductLink
-          name="Stoplight Studio"
-          description="Next gen editor for OpenAPI, markdown, and JSON schema."
-          className="mr-2"
-          color="blue"
-          href="/studio"
-          tag="design"
-        />
-
-        <ProductLink
-          name="Stoplight Docs"
-          description="Beautiful free technical documentation in a single click."
-          className="ml-2"
-          color="green"
-          href="/docs"
-          tag="docs"
-        />
-      </div>
-    </div>
-  );
-};
-
 const OpenSourceLinks = () => {
   return (
     <div className="p-6">
@@ -163,19 +143,20 @@ const OpenSourceLinks = () => {
         <ProductLink
           name="Spectral"
           description="Create API style guides to increase API consistency and quality."
-          className="mr-2"
           color="blue"
           href="/open-source/spectral"
           icon={['fad', 'badge-check']}
+          tag="Validation"
         />
 
         <ProductLink
           name="Prism"
           description="Powerful mock servers, driven by your OpenAPI design documents."
-          className="ml-2"
-          color="green"
+          className="ml-4"
+          color="purple"
           href="/open-source/prism"
           icon={['fad', 'database']}
+          tag="Mocking"
         />
       </div>
     </div>
@@ -185,7 +166,8 @@ const OpenSourceLinks = () => {
 export const Desktop: React.FunctionComponent<{ items: IHeaderItem[]; unpinned: boolean }> = ({ items, unpinned }) => {
   if (!items || !items.length) return null;
 
-  const nonButtons = items.filter(i => !i.isButton);
+  const aboutMenu = items.filter(i => i.aboutLinks);
+  const nonButtons = items.filter(i => !i.isButton && i.title !== 'About');
   const buttons = items.filter(i => i.isButton);
 
   const nonButtonElems = nonButtons.map((item, index) => {
@@ -199,35 +181,58 @@ export const Desktop: React.FunctionComponent<{ items: IHeaderItem[]; unpinned: 
       <Link
         key={index}
         to={href}
-        className="px-3 py-1 mx-4 text-lg text-white rounded-lg opacity-85 hover:opacity-100 sm:hidden hover:text-white hover:bg-lighten-50"
+        className="px-3 py-1 mx-4 text-lg text-black rounded-lg opacity-85 hover:opacity-100 sm:hidden hover:text-black hover:bg-lighten-50"
       >
         {unpinned ? altTitle || title : title}
       </Link>
     );
   });
 
-  const buttonElems = buttons.map((item, index) => {
-    const { title, href, icon, altTitle, altBg } = item;
+  const aboutDropDown = aboutMenu.map((item, index) => {
+    const { title, href, aboutLinks, altTitle } = item;
 
+    if (aboutLinks && aboutLinks.length) {
+      return <HeaderDropdown key={index} className="text-lg sm:hidden" {...item} />;
+    }
+
+    return (
+      <Link
+        key={index}
+        to={href}
+        className="px-3 py-1 mx-4 text-lg text-white rounded-lg opacity-85 hover:opacity-100 sm:hidden hover:text-white hover:bg-lighten-50"
+      >
+        {unpinned ? altTitle || title : title}
+      </Link>
+    );
+  });
+  const buttonElems = buttons.map((item, index) => {
+    const { title, href, icon, altTitle, bg, outlined } = item;
     return (
       <HeaderButton
         key={index}
         title={unpinned ? altTitle || title : title}
         href={href}
         icon={icon}
-        className={cn('text-lg sm:hidden', {
-          [`bg-${altBg} ease-in`]: unpinned && altBg,
-        })}
+        className={cn(
+          'sm:hidden',
+          `border-blue2`,
+          `hover:border-blue2-dark`,
+          `focus:border-blue2-dark`,
+          `sm:w-full inline-flex justify-center items-center select-none border cursor-pointer`,
+          {
+            [`bg-${bg} hover:bg-blue2-dark text-white`]: !outlined,
+            [`text-blue2 hover:text-blue2-dark opacity-85 hover:opacity-100`]: outlined,
+          }
+        )}
       />
     );
   });
 
   return (
     <>
-      <HeaderDropdown title="Products" className="text-lg sm:hidden" content={() => <ProductLinks />} />
-      <HeaderDropdown title="Open Source" className="text-lg sm:hidden" content={() => <OpenSourceLinks />} />
-      {nonButtonElems}
       <div className="flex-1" />
+      {nonButtonElems}
+      <HeaderDropdown title="Open Source" className="text-lg sm:hidden" content={() => <OpenSourceLinks />} />
       {buttonElems}
     </>
   );

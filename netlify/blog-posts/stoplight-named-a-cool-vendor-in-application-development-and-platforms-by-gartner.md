@@ -16,11 +16,8 @@ subtitle: >-
   in Gartner’s “Cool Vendor in Application Development and Platforms” 2019
   report.
 image: /images/nicolas-tissot-335096-unsplash-1-.jpg
-color: blue
 tabs: []
 includeToc: false
-disqus:
-  enabled: true
 actionBar:
   ctas:
     - color: purple

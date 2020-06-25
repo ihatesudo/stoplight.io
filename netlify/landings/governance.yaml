@@ -1,0 +1,106 @@
+path: /api-governance
+title: API Governance
+relatedTags:
+  - blog-governance
+hero:
+  title: Consistent and Quality APIs at Scale
+  subtitle: >-
+    Govern APIs at scale with an always-in-sync, central repository of API designs, schemas, and documentation.
+  titleImage: '/images/governance/hero.svg'
+  aligned: left
+  ctas:
+    - color: blue2
+      href: https://stoplight.io/welcome
+      large: true
+      title: Get Started For Free
+    - color: blue2
+      href: /pricing
+      large: true
+      outlined: true
+      title: View Plans and Pricing
+featureIconStrip:
+  icons:
+    - icon: check-circle
+      color: purple
+      title: Style Guides
+    - icon: chart-network
+      color: lavender
+      title: Visualize Dependencies
+    - icon: search
+      color: indigo
+      title: API Discovery
+    - icon: star
+      color: blue2
+      title: Encourage Reuse
+features:
+  title: Implement API Governance with Agility
+  description: >-
+    Build an effective governance strategy that compliments your organization's current practices with a clear 
+    view of the current state of design and documentation.
+  features:
+    - title: Build Consistent APIs with Style Guides
+      shortName: Style Guides
+      description: >-
+        Deliver consistent API design and documentation across the organization by enforcing built-in or custom style guides. Setup flexible rules to ensure conformity without impeding progress.
+      image: /images/design/styleguides.svg
+    - title: Govern Across All APIs
+      shortName: API Discovery
+      description: >-
+        Make APIs that have long become lost in the organization available for developers to use and champions to govern, helping keep documentation up-to-date, avoid duplication, and remove inconsistencies.
+      image: /images/visibility/explorer.svg
+      isReversed: true
+    - title: Build Once. Avoid Duplicates.
+      shortName: Encourage Reuse
+      description: >-
+        Avoid reinventing the wheel. Star important API artifacts to enable easy discovery for reuse in future designs.
+      image: /images/visibility/star.svg
+actionBar:
+  ctas:
+    - color: blue2
+      href: https://stoplight.io/welcome
+      title: Get Started
+      large: true
+  enabled: true
+  centered: true
+  text: Start Building Consistent APIs.
+solutionsNav:
+  title: Explore the API Design Lifecycle
+  icons:
+    - icon: 'pencil'
+      color: blue2
+      title: Design
+      href: /api-design/
+    - icon: code
+      color: lavender
+      title: Development
+      href: /api-development/
+    - icon: chart-network
+      color: purple
+      title: Visibility
+      href: /api-visibility/
+    - icon: user-friends
+      color: yellow
+      title: Collaboration
+      href: /api-collaboration/
+    - icon: server
+      color: indigo
+      title: Mocking
+      href: /api-mocking/
+    - icon: book-open
+      color: blue2
+      title: Documentation
+      href: /api-documentation/
+meta:
+  description: >-
+    Govern APIs at scale with an always-in-sync, central repository of API designs, schemas, and documentation.
+  favicon: /images/mark_light_bg.png
+  image: /images/governance/hero.svg
+  title: API Governance for the Enterprise | Stoplight
+  robots: 'index, follow'
+  twitter:
+    description: >-
+      Govern APIs at scale with an always-in-sync, central repository of API designs, schemas, and documentation.
+    image: /images/governance/hero.svg
+    title: API Governance for the Enterprise | Stoplight
+    username: '@stoplightio'
+  url: 'https://stoplight.io/api-governance'

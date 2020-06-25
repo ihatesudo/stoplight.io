@@ -2,7 +2,7 @@ path: /blog/api-design
 tag: blog-design
 title: API Design Blog Posts
 hero:
-  particles: true
+  particles: false
 tabs:
   - href: /blog
     title: Latest

@@ -8,5 +8,5 @@ export interface ISimpleCardBody {
 
 export const SimpleCardBody: React.FunctionComponent<ISimpleCardBody> = ({ description, className }) => {
   if (!description) return null;
-  return <div className={cn(className, 'flex-1')} dangerouslySetInnerHTML={{ __html: description }} />;
+  return <div className={cn(className, 'flex-1 leading-relaxed')} dangerouslySetInnerHTML={{ __html: description }} />;
 };

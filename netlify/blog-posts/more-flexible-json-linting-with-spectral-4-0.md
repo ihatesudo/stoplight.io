@@ -11,12 +11,9 @@ author: Taylor Barnett
 title: More Flexible JSON Linting with Spectral 4.0
 subtitle: Ruleset improvements and more CLI focus provide a better experience
 image: /images/dayne-topkin-cxruh7pmmsu-unsplash.jpg
-color: purple-dark
 tabs:
   - {}
 includeToc: true
-disqus:
-  enabled: true
 actionBar:
   ctas:
     - color: purple

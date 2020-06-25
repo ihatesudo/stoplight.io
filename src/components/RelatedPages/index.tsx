@@ -1,6 +1,5 @@
 import cn from 'classnames';
 import * as React from 'react';
-
 import { Container } from 'src/components/Container';
 import { Image } from 'src/components/Image';
 import { Link } from 'src/components/Link';
@@ -25,14 +24,13 @@ export const ArticleCard: React.FunctionComponent<IRelatedPage> = ({
   listSubtitle,
   image,
   color = 'black',
-  publishedDate,
   tag,
   backgroundSize = 'cover',
 }) => {
   return (
     <Link
       to={href}
-      className="hover-scale flex flex-col shadow bg-white rounded-lg w-full h-full text-grey-darkest overflow-hidden"
+      className="flex flex-col w-full h-full overflow-hidden bg-white rounded-lg shadow hover:shadow-lg text-grey-darkest"
     >
       <Image
         src={image || ''}
@@ -40,16 +38,17 @@ export const ArticleCard: React.FunctionComponent<IRelatedPage> = ({
         size="sm"
         useDiv
       />
+
       <div className="flex flex-col flex-1 p-4 ">
-        <h3 className="mb-2">{title}</h3>
+        <h3 className="font-bold mt-5">{title}</h3>
 
-        <p className="flex-1 mb-4">{listSubtitle || subtitle}</p>
+        <p className="flex-1 mt-4">{listSubtitle || subtitle}</p>
 
-        <div className="flex text-sm text-grey-darker">
-          {publishedDate && <p>{publishedDate}</p>}
-
-          <div className="flex-1 text-right text-muted font-bold">{tag}</div>
-        </div>
+        {tag && (
+          <div className="flex text-sm text-grey-darker">
+            <div className="flex-1 font-bold text-right text-muted">{tag}</div>
+          </div>
+        )}
       </div>
     </Link>
   );
@@ -59,19 +58,12 @@ export const RelatedPages: React.FunctionComponent<{ pages: IRelatedPage[]; titl
   if (!pages || !pages.length) return null;
 
   return (
-    <Section id="related-pages" className="bg-grey-lightest" noPaddingT>
-      <Container
-        title={title || 'Related Articles'}
-        className="text-grey-darkest"
-        chips={{
-          className: 'justify-center mb-10',
-          segments: [{ color: 'green', length: 2 }, { color: 'green-lighter' }],
-        }}
-      >
-        <div className="flex justify-center flex-wrap -mb-12">
+    <Section id="related-pages" noPaddingT>
+      <Container title={title || 'Related Articles'} className="text-black">
+        <div className="flex flex-wrap justify-center -mb-12">
           {pages.map((page, key) => {
             return (
-              <div key={key} className="sm:w-full w-1/3 px-6 mb-12">
+              <div key={key} className="w-1/3 px-6 mb-12 sm:w-full">
                 <ArticleCard {...page} />
               </div>
             );

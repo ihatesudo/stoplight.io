@@ -2,7 +2,7 @@ path: /blog/featured
 tag: blog-featured
 title: Featured Blog Posts
 hero:
-  particles: true
+  particles: false
 tabs:
   - href: /blog
     title: Latest
@@ -20,11 +20,11 @@ tabs:
     title: Changelog
 actionBar:
   ctas:
-    - href: 'https://stoplight.io/demo/'
+    - href: '/demo/'
       title: Request a Demo
       outlined: true
       color: white
-    - href: 'https://stoplight.io/p/signup'
+    - href: 'https://stoplight.io/welcome/create'
       title: Create a Free Account
   enabled: true
 meta:

@@ -6,18 +6,25 @@
 /twitter https://twitter.com/stoplightio
 
 # Internal redirects
-/platform/prism /mocking/
-/platform/design /design/
-/platform/docs /documentation/ 
+/platform/prism /api-mocking/
+/platform/design /api-design/
+/platform/docs /api-documentation/ 
 /platform/scenarios/ /
-/api-designer /design/               
+/api-designer /api-design/               
 /prism/errors /p/docs/gh/stoplightio/prism/docs/guides/errors.md
 /prism /open-source/prism
 /spectral /open-source/spectral
+/enterprise-contact /demo/
+/hubs/ /api-documentation/
+/lp/documentation /api-documentation/
+/docs/ /api-documentation/
+/lp/design/ /api-design/
+/lp/mocking/ /api-mocking/
+/blog/new-stoplight-docs-a-stoplight-api-raml-1-0-5x-faster-api-docs-b90cfcfff517 /
 
 /blog/changelog/ /blog/
-/testing/ /mocking/
-/testing/enterprise/ /mocking/
+/testing/ /api-mocking/
+/testing/enterprise/ /api-mocking/
 
 # until we have an open-source landing page
 /open-source /

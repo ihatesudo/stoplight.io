@@ -15,7 +15,6 @@ title: API Design-First vs Code First
 subtitle: >-
   With API descriptions rising in popularity, the main question I hear folks asking about is "API Design-first" or "code-first". This is a bit of a misleading question because these are not two unique things, there are a few variants.
 image: /images/workflow2.png
-color: black
 includeToc: true
 actionBar:
   ctas: []
@@ -72,7 +71,7 @@ Multiple tools exist for this. In some strictly typed languages the annotation t
 
 Languages with annotations as a first class feature generally support this a bit better, like Java. They have a multitude of annotation systems which can give you syntax errors if you write rubbish in there.
 
-``` java
+```java
 class UserController {
   @OpenApi(
       path = "/users",
@@ -130,7 +129,7 @@ One of multiple falsehoods here is the idea that there is a design phase, then y
 
 Regardless of whether devs write the API code by hand or generate it from API descriptions, there is no end to the design phase. Design is a circular life-cycle with a feedback loop which leads to new resources and endpoints, or new global versions, or just new properties. APIs evolve over time, and rolling out new functionality without gathering feedback from customers is always a bad idea, not just in the initial design phase.
 
-I have seen some success from folks at [Meetup](https://www.meetup.com/)  using "immutable services", where they generate routes, controllers, data models, docker config, even all the Kubernetes setup, all from OpenAPI, then they just slap in a bit of business logic in the empty gaps and hit deploy. What happens when they need to make changes to the contract? That'll be a brand new service. No change allowed. Plan things well enough you don't need to tweak em for ages, then deprecate and replace them if change is required. Immutable services are not a common way to do things, and require a huge amount of discipline to get right.
+I have seen some success from folks at [Meetup](https://www.meetup.com/) using "immutable services", where they generate routes, controllers, data models, docker config, even all the Kubernetes setup, all from OpenAPI, then they just slap in a bit of business logic in the empty gaps and hit deploy. What happens when they need to make changes to the contract? That'll be a brand new service. No change allowed. Plan things well enough you don't need to tweak em for ages, then deprecate and replace them if change is required. Immutable services are not a common way to do things, and require a huge amount of discipline to get right.
 
 For everyone else, evolution is more common, because even folks using major global versions for their API will make backwards compatible changes as they go (new endpoints, etc.) Tooling which asks you to "Import" OpenAPI then go on from there without it is condemning you to a design-less future for new functionality, even if they offer an Export OpenAPI feature (which many don't).
 

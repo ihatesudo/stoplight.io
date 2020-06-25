@@ -10,9 +10,6 @@ author: Robert Wallach
 title: Want People to Use Your API Documentation? 5 Expert Tips
 subtitle: ' 5 tips and tricks to help make your API documentation more reliable, accessible, and comprehensive'
 image: /images/want-people-to-use-docs.jpeg
-color: grey
-disqus:
-  enabled: true
 actionBar:
   ctas:
     - color: purple
@@ -43,7 +40,7 @@ In many cases, API documentation seems to be written for a machine rather than a
 
 ### **2. Power your API documentation using your API spec**
 
-Documentation often gets out of sync with the latest versions of an API. APIs are constantly changing which means your API Documentation must be updated too. This can cause a disconnect if you have separate teams that manage the design and the documentation. To solve this, you can [power your documentation](https://docs.stoplight.io/documentation/introduction) using your API specification. By connecting the two, you can automatically generate human readable documentation for all of your API’s inputs and outputs. This finally allows you to confidently make changes to your spec and know your documentation will be automatically updated without any extra effort or collaboration.
+Documentation often gets out of sync with the latest versions of an API. APIs are constantly changing which means your API Documentation must be updated too. This can cause a disconnect if you have separate teams that manage the design and the documentation. To solve this, you can power your documentation using your API specification. By connecting the two, you can automatically generate human readable documentation for all of your API’s inputs and outputs. This finally allows you to confidently make changes to your spec and know your documentation will be automatically updated without any extra effort or collaboration.
 
 ### **3. Know the varying needs of API documentation consumers**
 
@@ -65,4 +62,4 @@ Many API documentation tools will format docs to have a familiar look while also
 
 Documenting all the ways to use your API can be pretty overwhelming. It’s important to start with the major use cases with the expectation that you’ll be adding more as you go on. Before you start, make a list of critical inputs that consumers will need. This will likely include an article about authentication such as how to acquire and use an API key. Publish your API documentation with as much detail as you can at launch. Remember that as your API grows, so should your documentation.
 
-_P.S. We also wrote a Technical Writers Playbook for the Stoplight Platform that you can check out [here](https://docs.stoplight.io/platform/playbooks/technical-writer)._
+

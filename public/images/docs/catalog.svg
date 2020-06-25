@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="694px" height="413px" viewBox="0 0 694 413" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 20</title>
+    <defs>
+        <filter x="-1.2%" y="-0.9%" width="102.4%" height="101.8%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.862745098   0 0 0 0 0.862745098   0 0 0 0 0.862745098  0 0 0 1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Use-Cases-/-API-Documentation" transform="translate(-42.000000, -2833.000000)">
+            <g id="Group-20" transform="translate(44.000000, 2835.000000)">
+                <g id="Group-17" transform="translate(334.000000, 236.000000)">
+                    <rect id="Rectangle" stroke="#979797" fill="#293742" x="0" y="0" width="357" height="47" rx="8"></rect>
+                    <text id="Visibility:-Private" font-family="SFProText-Semibold, SF Pro Text" font-size="12" font-weight="500" fill="#FFFFFF">
+                        <tspan x="14" y="19">Visibility: Private</tspan>
+                    </text>
+                    <text id="Only-users-who-are-g" font-family="SFProText-Medium, SF Pro Text" font-size="11" font-weight="400" fill="#FFFFFF">
+                        <tspan x="14" y="36">Only users who are granted direct access can view this project</tspan>
+                    </text>
+                </g>
+                <g id="Group-18" transform="translate(334.000000, 290.000000)">
+                    <rect id="Rectangle-Copy-2" stroke="#979797" fill="#293742" x="0" y="0" width="316" height="47" rx="8"></rect>
+                    <text id="Visibility:-Internal" font-family="SFProText-Semibold, SF Pro Text" font-size="12" font-weight="500" fill="#FFFFFF">
+                        <tspan x="14" y="19">Visibility: Internal</tspan>
+                    </text>
+                    <text id="Only-members-of-this" font-family="SFProText-Medium, SF Pro Text" font-size="11" font-weight="400" fill="#FFFFFF">
+                        <tspan x="14" y="36">Only members of this workspace can view this project</tspan>
+                    </text>
+                </g>
+                <g id="Group-19">
+                    <g id="Nav-bar" filter="url(#filter-1)">
+                        <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="334" height="409"></rect>
+                        <g id="Group-9" transform="translate(35.000000, 27.000000)">
+                            <g id="Group-7" fill-rule="nonzero">
+                                <text id="My-Workspace" font-family="SFProText-Medium, SF Pro Text" font-size="18" font-weight="400" line-spacing="27" fill="#10161A">
+                                    <tspan x="0" y="17">My Workspace</tspan>
+                                </text>
+                                <g id="fa-solid:chevron-down" transform="translate(143.000000, 7.000000)">
+                                    <g id="Icon" transform="translate(0.000000, 3.000000)" fill="#293742">
+                                        <path d="M5.2565957,6.68591406 L0.322105469,1.75139844 C0.0841191406,1.51341211 0.0841191406,1.12757617 0.322105469,0.889615234 L0.897634766,0.314085937 C1.13521484,0.0765058594 1.52026367,0.0760488281 1.75840234,0.313070312 L5.6875,4.22375977 L9.61657227,0.313070312 C9.85471094,0.0760488281 10.2397598,0.0765058594 10.4773398,0.314085937 L11.0528691,0.889615234 C11.2908555,1.12760156 11.2908555,1.5134375 11.0528691,1.75139844 L6.1184043,6.68591406 C5.88041797,6.923875 5.49458203,6.923875 5.2565957,6.68591406 Z" id="Icon-Path"></path>
+                                    </g>
+                                    <rect id="ViewBox" x="0" y="0" width="11.375" height="13"></rect>
+                                </g>
+                            </g>
+                            <g id="Group-8" transform="translate(256.542302, 0.961165)">
+                                <circle id="Oval" fill="#805AD5" cx="13.9805825" cy="13.9805825" r="13.9805825"></circle>
+                                <g id="fa-solid:plus" transform="translate(8.457698, 7.038835)" fill-rule="nonzero">
+                                    <g id="Icon" fill="#FFFFFF">
+                                        <path d="M10.5625,5.28125 L6.90625,5.28125 L6.90625,1.625 C6.90625,1.17634766 6.54240234,0.8125 6.09375,0.8125 L5.28125,0.8125 C4.83259766,0.8125 4.46875,1.17634766 4.46875,1.625 L4.46875,5.28125 L0.8125,5.28125 C0.363847656,5.28125 0,5.64509766 0,6.09375 L0,6.90625 C0,7.35490234 0.363847656,7.71875 0.8125,7.71875 L4.46875,7.71875 L4.46875,11.375 C4.46875,11.8236523 4.83259766,12.1875 5.28125,12.1875 L6.09375,12.1875 C6.54240234,12.1875 6.90625,11.8236523 6.90625,11.375 L6.90625,7.71875 L10.5625,7.71875 C11.0111523,7.71875 11.375,7.35490234 11.375,6.90625 L11.375,6.09375 C11.375,5.64509766 11.0111523,5.28125 10.5625,5.28125 Z" id="Icon-Path"></path>
+                                    </g>
+                                    <rect id="ViewBox" x="0" y="0" width="11.375" height="13"></rect>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="Group-10" transform="translate(28.000000, 90.000000)">
+                            <text id="Home" fill-rule="nonzero" font-family="SFProText-Medium, SF Pro Text" font-size="16" font-weight="400" fill="#000000">
+                                <tspan x="48" y="21">Home</tspan>
+                            </text>
+                            <g id="Group-6" fill="#7A7C7E">
+                                <circle id="Oval-Copy-3" opacity="0.2" cx="16" cy="16" r="16"></circle>
+                                <text id="home" font-family="FontAwesome5Pro-Solid, Font Awesome 5 Pro" font-size="16" font-weight="700">
+                                    <tspan x="7" y="22">home</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <g id="Group-12" transform="translate(28.000000, 147.000000)">
+                            <g id="Group-11">
+                                <text id="Explore" fill-rule="nonzero" font-family="SFProText-Medium, SF Pro Text" font-size="16" font-weight="400" fill="#000000">
+                                    <tspan x="48" y="21">Explore</tspan>
+                                </text>
+                                <g id="Group-5" fill="#7A7C7E">
+                                    <circle id="Oval" opacity="0.2" cx="16" cy="16" r="16"></circle>
+                                    <text id="chart-network" font-family="FontAwesome5Pro-Solid, Font Awesome 5 Pro" font-size="16" font-weight="700">
+                                        <tspan x="6" y="22">chart-network</tspan>
+                                    </text>
+                                </g>
+                            </g>
+                            <text id="shield-alt-copy" opacity="0.5" font-family="FontAwesome5Pro-Regular, Font Awesome 5 Pro" font-size="13" font-weight="normal" fill="#10161A">
+                                <tspan x="269" y="20">shield-alt</tspan>
+                            </text>
+                            <text id="shield-alt-copy" opacity="0.5" font-family="FontAwesome5Pro-Regular, Font Awesome 5 Pro" font-size="13" font-weight="normal" fill="#10161A">
+                                <tspan x="269" y="170">shield-alt</tspan>
+                            </text>
+                        </g>
+                        <g id="Group-13" transform="translate(28.000000, 242.000000)">
+                            <text id="Payments-API" fill-rule="nonzero" font-family="SFProText-Medium, SF Pro Text" font-size="16" font-weight="400" fill="#060606">
+                                <tspan x="48" y="22">Payments API</tspan>
+                            </text>
+                            <g id="Group-4" fill="#2BC137">
+                                <circle id="Oval-Copy" opacity="0.2" cx="16" cy="16" r="16"></circle>
+                                <text id="globe-americas" font-family="FontAwesome5Pro-Solid, Font Awesome 5 Pro" font-size="16" font-weight="700">
+                                    <tspan x="8" y="22">globe-americas</tspan>
+                                </text>
+                            </g>
+                            <text id="lock" opacity="0.5" font-family="FontAwesome5Pro-Regular, Font Awesome 5 Pro" font-size="13" font-weight="normal" fill="#10161A">
+                                <tspan x="269" y="21">lock</tspan>
+                            </text>
+                        </g>
+                        <g id="Group-14" transform="translate(28.000000, 298.000000)">
+                            <text id="Checkout-API" fill-rule="nonzero" font-family="SFProText-Medium, SF Pro Text" font-size="16" font-weight="400" fill="#060606">
+                                <tspan x="48" y="21">Checkout API</tspan>
+                            </text>
+                            <g id="Group-3">
+                                <circle id="Oval-Copy-4" fill-opacity="0.2" fill="#BC48CB" cx="16" cy="16" r="16"></circle>
+                                <g id="fa-solid:graduation-cap" transform="translate(7.000000, 8.000000)" fill-rule="nonzero">
+                                    <g id="Icon" transform="translate(0.000000, 1.978205)" fill="#BC48CB">
+                                        <path d="M19.2361878,2.75712304 L10.6143055,0.108183079 C10.1444819,-0.0361640579 9.63756687,-0.0361640579 9.16805231,0.108183079 L0.545860907,2.75712304 C-0.181747573,2.98059838 -0.181747573,3.94280959 0.545860907,4.16628492 L2.04898752,4.62807212 C1.71918367,5.03576778 1.51641767,5.53310085 1.49632653,6.07772538 C1.19866852,6.24834555 0.989102437,6.55620369 0.989102437,6.92371706 C0.989102437,7.25692094 1.16466812,7.53726967 1.41750743,7.71654448 L0.628389142,11.2674222 C0.55977016,11.5762076 0.794681989,11.8692292 1.11088567,11.8692292 L2.84521498,11.8692292 C3.16172776,11.8692292 3.39663959,11.5762076 3.32802061,11.2674222 L2.53890232,7.71654448 C2.79174163,7.53726967 2.96730731,7.25692094 2.96730731,6.92371706 C2.96730731,6.56609471 2.76732316,6.26689122 2.48326531,6.09318011 C2.50675649,5.62892015 2.74414107,5.21844264 3.12278185,4.95818506 L9.16774321,6.81553398 C9.44778284,6.90146225 9.9849891,7.00871805 10.6139964,6.81553398 L19.2361878,4.16659402 C19.9641054,3.94280959 19.9641054,2.98090747 19.2361878,2.75712304 Z M10.9045453,7.76105409 C10.0226986,8.03182088 9.27128988,7.88221914 8.87719437,7.76105409 L4.39470577,6.38403804 L3.95640975,9.89102437 C3.95640975,10.9836735 6.61338617,11.8692292 9.89102437,11.8692292 C13.1686626,11.8692292 15.825639,10.9836735 15.825639,9.89102437 L15.387343,6.38372895 L10.9045453,7.76105409 Z" id="Icon-Shape"></path>
+                                    </g>
+                                    <rect id="ViewBox" x="0" y="0" width="19.7820487" height="15.825639"></rect>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="Group-14" transform="translate(29.000000, 348.000000)">
+                            <text id="Public-API" fill-rule="nonzero" font-family="SFProText-Medium, SF Pro Text" font-size="16" font-weight="400" fill="#060606">
+                                <tspan x="49" y="21">Public API</tspan>
+                            </text>
+                            <g id="Group-3" fill="#805AD5" opacity="0.2">
+                                <circle id="Oval-Copy-4" cx="16" cy="16" r="16"></circle>
+                            </g>
+                        </g>
+                        <line x1="28" y1="217.994487" x2="106.89043" y2="218.00274" id="Line_35-Copy" stroke="#D8E1E8" stroke-width="3.99445215" stroke-linecap="round"></line>
+                    </g>
+                    <text id="book-open" font-family="FontAwesome5Pro-Solid, Font Awesome 5 Pro" font-size="16" font-weight="700" fill="#805AD5">
+                        <tspan x="36" y="371">book-open</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

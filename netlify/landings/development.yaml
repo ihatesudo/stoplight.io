@@ -1,0 +1,123 @@
+path: /api-development
+title: API Development
+relatedTags:
+  - blog-development
+hero:
+  title: Develop APIs with Confidence
+  subtitle: >-
+    Prototype and develop quality APIs by adopting a Design-First approach.
+  titleImage: '/images/development/hero.svg'
+  aligned: left
+  ctas:
+    - color: blue2
+      href: https://stoplight.io/welcome
+      large: true
+      title: Get Started For Free
+featureIconStrip:
+  icons:
+    - image: /images/integrations/openAPI.svg
+      title: API Design-First
+    - icon: grip-lines-vertical
+      color: purple
+      title: Parallel Development
+    - icon: check-double
+      color: indigo
+      title: Contract Testing
+    - icon: code
+      color: blue2
+      title: Code Samples
+    - image: /images/integrations/git.svg
+      title: Git Workflows
+features:
+  title: Increase Productivity with Contract-Driven Development
+  description: >-
+    Developers work best with clear requirements, increased autonomy, and streamlined 
+    communication. Optimize development across small and large teams by providing 
+    API developers with best-in-class API Design-First tooling.
+  features:
+    - title: Streamline Development with API Design-First
+      shortName: API Design-First
+      description: >-
+        Developers work faster with concrete requirements. Adopt an API-Design first approach easily with tooling that helps create and share designs. 
+      image: /images/design/editor.png
+    - title: Develop Simultaneously with Instant Mock Servers
+      shortName: Parallel Development
+      description: >-
+        Increase developer productivity and independence by enabling frontend and backend teams to work in parallel. 
+      image: /images/development/hostedmocks.svg
+      isReversed: true
+    - title: Validate Implementations
+      shortName: Contract Testing
+      description: >-
+        Automatically ensure correctness by validating against API designs using request and response validation.
+      image: /images/development/validation.svg
+    - title: Kickstart Development with Code Samples
+      shortName: Code Samples
+      description: >-
+        Reduce redundant work and help developers work faster with samples in popular languages.
+      image: /images/development/codesamples.svg
+      isReversed: true
+integrations:
+  title: Integrate with Tools that Developers Love
+  shortTitle: Git Workflows
+  description: >-
+    Built on top of Git with out of the box integrations with popular Git providers, Stoplight integrates seamlessly into existing development workflows.
+  images:
+    - alt: Azure DevOps
+      src: /images/integrations/azure.svg
+    - alt: GitHub
+      src: /images/integrations/github.svg
+    - alt: GitLab
+      src: /images/integrations/gitlab.svg
+    - alt: Bitbucket
+      src: /images/integrations/bitbucket.svg
+actionBar:
+  ctas:
+    - color: blue2
+      href: https://stoplight.io/welcome
+      title: Get Started
+      large: true
+  enabled: true
+  centered: true
+  text: Start Developing APIs Faster Today!
+solutionsNav:
+  title: Explore the API Design Lifecycle
+  icons:
+    - icon: 'pencil'
+      color: blue2
+      title: Design
+      href: /api-design
+    - icon: chart-network
+      color: lavender
+      title: Visibility
+      href: /api-visibility
+    - icon: balance-scale
+      color: purple
+      title: Governance
+      href: /api-governance
+    - icon: user-friends
+      color: yellow
+      title: Collaboration
+      href: /api-collaboration
+    - icon: server
+      color: indigo
+      title: Mocking
+      href: /api-mocking/
+    - icon: book-open
+      color: blue2
+      title: Documentation
+      href: /api-documentation
+meta:
+  description: >-
+    Prototype and develop quality APIs by easily adopting Design-First
+  favicon: /images/mark_light_bg.png
+  image: /images/development/hero.svg
+  title: API Development & Design Tool | Stoplight
+  robots: 'index, follow'
+  twitter:
+    description: >-
+      Prototype and develop quality APIs by easily adopting Design-First
+    image: /images/development/hero.svg
+    title: API Development & Design Tool | Stoplight
+    username: '@stoplightio'
+  url: 'https://stoplight.io/api-development'

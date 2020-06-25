@@ -10,11 +10,8 @@ author: Adam DuVander
 title: JSON Generator for Mock API Data
 subtitle: Create random JSON and host it on a mock server
 image: /images/mock-car.jpg
-color: green-light
 tabs:
   - {}
-disqus:
-  enabled: true
 actionBar:
   ctas:
     - color: purple
@@ -31,6 +28,8 @@ meta:
     title: 'Mock API Data Generator | Dummy JSON Data Generator For Mock API '
     image: /images/mock-car.jpg
 ---
+
+**_This blog post references a legacy product that is no longer accepting new users. To view Stoplight's current offering, head to the homepage._**
 
 With so many APIs using JSON responses, it’s become the common format to express data. It’s has a simple syntax, is human-readable, and can be efficiently parsed in modern languages. Typically, JSON is generated from existing data structures and databases. Yet, when sharing examples, [mocking APIs](https://stoplight.io/mocking/), or building documentation, you may find yourself creating a lot of JSON by hand. That’s when you’ll wish you could generate the data automatically using Dummy and Mock JSON API generators.
 
@@ -101,23 +100,17 @@ For something more ongoing, attached to mock servers, you’ll be better off sta
 
 A mock API server is useful during development and testing when live data is either unavailable or unreliable. Here, you’re looking to make a live API call and have it imitate a real API server by providing realistic responses to your requests. Standing up a mock server with static responses is trivial, but then the responses aren’t generated. Instead, use an OpenAPI description of your API (or import you Swagger file) and Stoplight to generate your mock servers.
 
-[Login to Stoplight](https://next.stoplight.io) and create or import an API. If you don’t already have an OpenAPI description, you’ll be able to export one from here. The format is widely embraced as a way to define what’s possible with an API in a shareable, machine-readable way. For teams designing APIs and microservices, OpenAPI documents are often the source of truth.
+Login to Stoplight and create or import an API. If you don’t already have an OpenAPI description, you’ll be able to export one from here. The format is widely embraced as a way to define what’s possible with an API in a shareable, machine-readable way. For teams designing APIs and microservices, OpenAPI documents are often the source of truth.
 
 If you’re starting from scratch, click the “+” by _Modeling_ to get started with a fresh OpenAPI document.
-
-![Create a model](/images/create-model.png)
 
 To emulate our earlier example, the first thing we need to do is create a User model. Click the “+” by _Models_ and fill in the key and title. Then, in the editor tab below, add four fields. In this case, the types are all strings. However, you can use validations to note the special types of strings for the email and birthdate fields.
 
 At this point, we have a model of the user object, but no way to retrieve it with the API. To do that, we need to add a path to our API. Click the “+” by _Paths_ and add a `/users` endpoint. You’ll need to create an operation ID, a unique string that Stoplight uses to reference this operation. Here I used `GET_users`.
 
-![Reference your model in responses](/images/reference-model.png)
-
 Scroll to the bottom of the path details and you’ll see an editor tab that looks similar to the one from the modeling section. For a return type, choose `array`, since we’ll be showing multiple users. For the array items type, choose `$ref` and for the target, you can select the model we previously created.
 
 Now we’ve successfully modeled both our data and the path. To mock the results, click the “+” next to _Servers_. Create an API and under connected specs add your OpenAPI document.
-
-![Use shared rules to set up your mock server](/images/mock-rules.png)
 
 Finally, you’ll need to create a new rule, select your API, and add shared before/after scenarios. This ensures the traffic for the mock server is connected to your API.
 
@@ -126,3 +119,5 @@ Now you can click _Home_ and Send Test Requests for your mock server to `/users`
 ## How Will You Use Your Mock Server?
 
 Now that you have a mock server connected to your OpenAPI or Swagger description, you can use it to make test calls. Share it with your co-workers or API consumers so you can get feedback before you build commit your API to code.
+
+**_This blog post references a legacy product that is no longer accepting new users. To view Stoplight's current offering, head to the homepage._**

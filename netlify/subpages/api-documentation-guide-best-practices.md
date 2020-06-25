@@ -9,7 +9,6 @@ publishedDate: 2019-02-11T18:06:16.962Z
 author: ''
 title: Writing Good API Documentation Guide & Documentation Best Practices
 subtitle: A comprehensive guide to API documentation best practices
-color: green
 tabs:
   - href: /api-documentation-guide/basics
     title: API Documentation Basics

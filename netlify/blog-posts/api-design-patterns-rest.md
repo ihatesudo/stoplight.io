@@ -86,7 +86,7 @@ Our [CRUD API Design Recommendations](https://stoplight.io/blog/crud-api-design/
 
 ## Support Use Cases with API Parameters
 
-Naive or simplistic API design can follow all the guidelines above and still not support the use cases that developers will need. It’s important to thoroughly understand how an API will be used and get feedback from collaborators, such as with [mock API servers](https://stoplight.io/mocking).
+Naive or simplistic API design can follow all the guidelines above and still not support the use cases that developers will need. It’s important to thoroughly understand how an API will be used and get feedback from collaborators, such as with [mock API servers](https://stoplight.io/mocking/).
 
 Often, when use cases are discovered after an API is built, engineers will create new endpoints to support these unearthed requirements. For example, your cookbook API may need to return only recipes from a specific category, or you want to show the recipes with the least prep time. Rather than create redundant endpoints, plan for smart parameters from the start.
 

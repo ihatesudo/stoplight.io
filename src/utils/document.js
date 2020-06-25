@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { IS_PRODUCTION, SITE_ROOT, PENDO_API_KEY, AMPLITUDE_API_KEY } from './settings';
+import { AMPLITUDE_API_KEY, IS_PRODUCTION, PENDO_API_KEY, SITE_ROOT } from './settings';
 
 function resolveMeta(defaultMeta = {}, meta = {}) {
   return {
@@ -72,16 +72,17 @@ export function Document({ Html, Head, Body, children, state }) {
                   o[m]=o[m]||function(){o._q[m===v[0]?'unshift':'push']([m].concat([].slice.call(arguments,0)));};})(v[w]);
                   y=e.createElement(n);y.async=!0;y.src='https://cdn.pendo.io/agent/static/'+apiKey+'/pendo.js';
                   z=e.getElementsByTagName(n)[0];z.parentNode.insertBefore(y,z);})(window,document,'script','pendo');
-                  
+
               pendo.initialize({
                 visitor: {},
                 account: {}
               });
           })('${PENDO_API_KEY}')`,
-            }}/>
+            }}
+          />
         )}
 
-        {AMPLITUDE_API_KEY &&
+        {AMPLITUDE_API_KEY && (
           <script
             type="text/javascript"
             dangerouslySetInnerHTML={{
@@ -109,13 +110,15 @@ export function Document({ Html, Head, Body, children, state }) {
               e=(!e||e.length===0?"$default_instance":e).toLowerCase()
               ;if(!n._iq.hasOwnProperty(e)){n._iq[e]={_q:[]};v(n._iq[e])}return n._iq[e]}
               ;e.amplitude=n})(window,document);
-              
+
               amplitude.getInstance().init("${AMPLITUDE_API_KEY}", null, {
                   saveEvents: true,
                   includeUtm: true,
                   includeReferrer: true
-              })`}}/>
-        }
+              })`,
+            }}
+          />
+        )}
 
         {!IS_PRODUCTION && (
           <script
@@ -170,7 +173,10 @@ export function Document({ Html, Head, Body, children, state }) {
         />
         <script src="https://kit.fontawesome.com/eb61f169e7.js" />
 
-        <script id="convertful-api" src="https://app.convertful.com/Convertful.js" data-owner="4983" async />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:ital,wght@0,400;0,600;0,700;0,800;1,600;1,700;1,800&display=swap"
+          rel="stylesheet"
+        ></link>
       </Head>
 
       <Body className="font-sans">

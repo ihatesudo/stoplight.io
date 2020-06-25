@@ -29,6 +29,7 @@ export interface IListItem {
 
 export interface IList {
   color: string;
+  heroColor?: string;
   title: string;
   subtitle: string;
   pageName?: string;
@@ -37,6 +38,7 @@ export interface IList {
   hero: Partial<IHero>;
   actionBar?: IActionBar;
   pagination?: IPagination;
+  particles?: boolean;
 }
 
 export const ListItem: React.FunctionComponent<IListItem> = ({
@@ -54,14 +56,14 @@ export const ListItem: React.FunctionComponent<IListItem> = ({
   return (
     <Link
       to={href}
-      className="block shadow hover:shadow-lg bg-white rounded-lg text-grey-darkest mb-12 overflow-hidden h-80"
+      className="block mb-12 overflow-hidden bg-white rounded-lg shadow hover:shadow-lg text-grey-darkest h-80"
     >
-      <article className="flex box h-full w-full items-center">
-        <div className="flex-1 flex flex-col h-full p-10 md:p-6">
-          <div className="flex-1 mb-2 flex flex-col relative overflow-hidden pr-16">
-            <div className="text-3xl font-bold mb-4">{title}</div>
+      <article className="flex items-center w-full h-full box">
+        <div className="flex flex-col flex-1 h-full p-10 md:p-6">
+          <div className="relative flex flex-col flex-1 pr-16 mb-2 overflow-hidden">
+            <div className="mb-4 text-3xl font-bold">{title}</div>
 
-            {(listSubtitle || subtitle) && <p className="leading-loose text-lg">{listSubtitle || subtitle}</p>}
+            {(listSubtitle || subtitle) && <p className="text-lg leading-loose">{listSubtitle || subtitle}</p>}
           </div>
 
           <div className="flex items-center">
@@ -69,7 +71,7 @@ export const ListItem: React.FunctionComponent<IListItem> = ({
               title={author ? 'Read' : 'Learn More'}
               shadow="none"
               rightIcon={['fad', 'arrow-right']}
-              color="green"
+              color="blue2"
             />
             <div className="flex-1" />
             {author && (
@@ -81,7 +83,7 @@ export const ListItem: React.FunctionComponent<IListItem> = ({
 
                 {author.image && (
                   <Image
-                    className="ml-4 rounded-full h-12 w-12 bg-cover shadow"
+                    className="w-12 h-12 ml-4 bg-cover rounded-full shadow"
                     src={author.image}
                     alt={author.name}
                     size="sm"
@@ -107,6 +109,7 @@ export const ListItem: React.FunctionComponent<IListItem> = ({
 
 export const List: React.FunctionComponent<IList> = ({
   color,
+  heroColor,
   title,
   subtitle,
   pageName,
@@ -117,13 +120,17 @@ export const List: React.FunctionComponent<IList> = ({
   pagination,
 }) => {
   return (
-    <Layout>
-      <Hero {...hero} bgColor={color} title={title} subtitle={subtitle} pageName={pageName} tabs={tabs} />
+    <Layout color="grey-lighter">
+      <Hero {...hero} bgColor={heroColor || color} title={title} subtitle={subtitle} pageName={pageName} tabs={tabs} />
 
-      <Section className="z-5 pt-24 md:pt-0" noPadding>
+      <Section className=" z-5 md:pt-0" noPadding>
         {items && items.length > 0 ? (
           <React.Fragment>
-            <div className="container">
+            <div
+              className={cn('container pt-20', {
+                [`bg-${color}`]: color,
+              })}
+            >
               {items.map((item, index) => (
                 <ListItem key={index} {...item} />
               ))}
@@ -133,13 +140,13 @@ export const List: React.FunctionComponent<IList> = ({
           </React.Fragment>
         ) : (
           <div className="container">
-            <div className="text-center p-12 sm:p-4 text-white opacity-75" />
+            <div className="p-12 text-center text-white opacity-75 sm:p-4" />
           </div>
         )}
       </Section>
 
       {actionBar && (
-        <div className="md:pb-24 pb-40 mt-32">
+        <div className="pb-40 mt-32 md:pb-24">
           <ActionBar {...actionBar} />
         </div>
       )}

@@ -13,9 +13,6 @@ subtitle: >-
   Avoiding oversimplification, writing good error messages, and having better
   word choice
 image: /images/writing-docs-part-two.jpeg
-color: blue
-disqus:
-  enabled: true
 actionBar:
   ctas:
     - color: purple
@@ -46,7 +43,7 @@ meta:
 
 _Photo by [rawpixel](https://www.pexels.com/photo/person-holding-type-writer-beside-teacup-and-saucer-on-table-1059110/) on [Pexels](https://www.pexels.com/)_
 
-_Welcome back for Part Two of Writing Documentation When You Aren’t A Technical Writer! In [Part One](/blog/writing-documentation-when-you-arent-a-technical-writer-part-one-ef08a09870d1), we discussed how to write documentation people actually read and how to avoid the common pitfalls caused by code samples in your documentation._
+_Welcome back for Part Two of Writing Documentation When You Aren’t A Technical Writer! In [Part One](/blog/writing-documentation-when-you-arent-a-technical-writer-part-one-ef08a09870d1/), we discussed how to write documentation people actually read and how to avoid the common pitfalls caused by code samples in your documentation._
 
 > In the fall of 2016, my teammate and I were tasked with the mission of improving my former company’s documentation and content. We spent a year working on all kinds of documentation — API references, guides, tutorials, and blog posts. I had been writing documentation off and on over the previous 5 years, but I wasn’t formally trained in technical writing. I was by no means inexperienced though, due to working on API documentation for projects and a startup and teaching Python Flask workshops towards the end of my computer science degree. This was the first time I had ever been able to focus on documentation, which allowed me to pursue my passion for helping people of all skill levels through technical documentation.
 > In that year, I learned a lot from the Write the Docs community, other API providers, and my own trials and errors. Last year, I spoke about it in a talk, “Things I Wish People Told Me About Writing Docs,” at the API Strategy and Practice Conference in Portland, OR. This multipart series is a survey of what I learned.
@@ -216,4 +213,4 @@ I recommend having these qualities considered when someone is reviewing your doc
 
 The reality is word choice is hard. There are no magical formulas for it. All of our users and use cases are different; what might work for one set of users might not work for another. If it were easy, we’d all have a lot better documentation. As Ruthie says to developers, “writing software is an exercise in naming things. Embrace it.” And if you are writing docs for something someone else created, “let the developer know when their names miss the mark.”
 
-_I hope some of these tips help you the next time you are writing documentation. I’d love to hear what tips you’ve learned over the years that were helpful to you in the comments below. Keep your eye out for part three coming out in September, and check out [part one from July](/blog/writing-documentation-when-you-arent-a-technical-writer-part-one-ef08a09870d1)._
+_I hope some of these tips help you the next time you are writing documentation. I’d love to hear what tips you’ve learned over the years that were helpful to you in the comments below. Keep your eye out for part three coming out in September, and check out [part one from July](/blog/writing-documentation-when-you-arent-a-technical-writer-part-one-ef08a09870d1/)._

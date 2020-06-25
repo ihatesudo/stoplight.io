@@ -2,7 +2,7 @@ path: /blog/api-testing
 tag: blog-testing
 title: API Testing Blog Posts
 hero:
-  particles: true
+  particles: false
 tabs:
   - href: /blog
     title: Latest

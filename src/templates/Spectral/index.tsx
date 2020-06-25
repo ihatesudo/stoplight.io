@@ -1,81 +1,79 @@
 import * as React from 'react';
-import NoSSR from 'react-no-ssr';
 import { withRouteData } from 'react-static';
+import { ActionBar, IActionBar } from 'src/components/ActionBar';
+import { Container } from 'src/components/Container';
+import { FeatureIconStrip, IFeatureIconStrip } from 'src/components/FeatureIconStrip';
+import { LandingHero } from 'src/components/Hero/LandingHero';
+import { ILargeCard, LargeCard } from 'src/components/LargeCard';
 
-import { ICollage } from '../../components/Collage';
-import { FeatureSection, FeatureStrip, IFeatureSection } from '../../components/FeatureSection';
-import { Hero, IHero } from '../../components/Hero';
-import { HubSpotForm, IHubSpotForm } from '../../components/HubSpotForm';
-import { IImageCallout } from '../../components/ImageCallout';
+import { IHero } from '../../components/Hero';
 import { Layout } from '../../components/Layout';
-import { IRelatedPage, RelatedPages } from '../../components/RelatedPages';
 import { Section } from '../../components/Section';
 
-const Sandbox = React.lazy(() => import('../../components/Sandbox'));
-
+// const Sandbox = React.lazy(() => import('../../components/Sandbox'));
+interface IFeatures {
+  title: string;
+  description: string;
+  features: ILargeCard[];
+}
 export interface ILanding {
   color: string;
   hero: IHero;
-  imageCallout: IImageCallout;
-  collage: ICollage;
-  featureSection: IFeatureSection;
-  hubspot: IHubSpotForm & { title?: string; description?: string };
-  relatedPages?: IRelatedPage[];
+  featureIconStrip?: IFeatureIconStrip;
+  features: IFeatures;
+  integrations: any;
+  actionBar?: IActionBar;
+  solutionsNav?: IFeatureIconStrip;
   hasSandbox?: boolean;
 }
 
 export const Landing: React.FunctionComponent<ILanding> = ({
   color,
   hero,
-  featureSection,
-  hubspot,
-  relatedPages,
+  features,
+  integrations,
+  featureIconStrip,
+  actionBar,
+  solutionsNav,
   hasSandbox,
+  ...sectionProps
 }) => {
   return (
     <Layout>
-      <Hero
-        bgColor={color}
-        {...hero}
-        containerClassName={hasSandbox ? 'pb-16' : ''}
-        bottomElem={
-          hasSandbox && (
-            <NoSSR>
-              <React.Suspense fallback={<div />}>
-                <Sandbox />
-              </React.Suspense>
-            </NoSSR>
-          )
-        }
-      />
-      <Section noPadding>
-        <FeatureStrip features={featureSection.features} />
-      </Section>
+      {hero && <LandingHero bgColor={color} {...hero} />}
+      {featureIconStrip && <FeatureIconStrip {...featureIconStrip} />}
+      {features && features.description && (
+        <Section id="features" noPadding>
+          <h2 className="p-0 text-3xl font-bold text-center text-black sm:mx-12 md:px-10">{features?.title}</h2>
 
-      <FeatureSection color={color} {...featureSection} />
+          <div
+            className="container max-w-2xl pt-5 text-xl leading-loose text-center opacity-75"
+            dangerouslySetInnerHTML={{ __html: features?.description }}
+          />
 
-      {hubspot && (
-        <Section key="hubspot" id="demo">
-          <div className="container flex items-center justify-center">
-            <div className="w-full">
-              {hubspot.title && <h2 className="text-3xl text-center">{hubspot.title}</h2>}
-
-              {hubspot.description && (
-                <div className="flex justify-center flex-wrap items-center pb-12 md:pb-12">
-                  <div
-                    className="font-default opacity-75 text-xl max-w-lg mt-4 md:mt-6 mx-auto text-center"
-                    dangerouslySetInnerHTML={{ __html: hubspot.description }}
-                  />
-                </div>
-              )}
-
-              <HubSpotForm className="p-16 md:p-4" portalId={hubspot.portalId} formId={hubspot.formId} />
-            </div>
-          </div>
+          {/* {hasSandbox && (
+            <div>
+              <h2 className="pb-10 text-5xl text-center text-black text-normal">Try it out</h2>
+              <div className="container shadow-lg">
+                <NoSSR>
+                  <React.Suspense fallback={<div />}>
+                    {/* <Sandbox /> */}
+          {/* </React.Suspense> */}
+          {/* </NoSSR> */}
+          {/* </div> */}
+          {/* </div> */}
+          {/* )} */}
+          <Container className="flex flex-wrap justify-center py-20 md:block md:w-full sm:p-0">
+            {features?.features && features?.features?.map((feature, index) => <LargeCard key={index} {...feature} />)}
+          </Container>
         </Section>
       )}
-
-      {relatedPages && relatedPages.length ? <RelatedPages pages={relatedPages} /> : null}
+      {actionBar && (
+        <Section id="action" {...sectionProps} noPadding>
+          <ActionBar {...actionBar} />
+        </Section>
+      )}
+      {solutionsNav && <FeatureIconStrip {...solutionsNav} />}
     </Layout>
   );
 };

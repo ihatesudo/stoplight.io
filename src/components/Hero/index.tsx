@@ -1,11 +1,11 @@
 import cn from 'classnames';
 import * as React from 'react';
-
 import { CallToAction, ICallToAction } from 'src/components/CallToAction';
 import { headerHeightClass } from 'src/components/Header';
 import { Image } from 'src/components/Image';
 import { Link } from 'src/components/Link';
 import { ITab, Tabs } from 'src/components/Tabs';
+
 import { HeroAuthor, IHeroAuthor } from './HeroAuthor';
 import { HeroImage, IHeroImage } from './HeroImage';
 
@@ -84,7 +84,7 @@ export const Hero: React.FunctionComponent<IHero> = ({
   subtitle,
   author,
   ctas,
-  bgColor = 'black',
+  bgColor = 'white',
   contentBgImage,
   greyBg,
   particles,
@@ -116,7 +116,6 @@ export const Hero: React.FunctionComponent<IHero> = ({
 
   const hasBottomContent = bottomElem || (heroTabs && heroTabs.length) || image;
   const skewOpts = skew && skewMap[skew];
-
   return (
     <React.Fragment>
       <div
@@ -132,7 +131,7 @@ export const Hero: React.FunctionComponent<IHero> = ({
         <div
           className={cn(
             containerClassName,
-            `container text-white flex flex-col pt-32 sm:pt-14 relative z-5 text-${aligned} relative`,
+            `container text-black flex flex-col pt-24 sm:pt-14 relative z-5 text-${aligned} relative`,
           )}
           style={contentBgImage ? { textShadow: `rgba(0, 0, 0, 0.6) 1px 1px 0px` } : undefined}
         >
@@ -145,34 +144,58 @@ export const Hero: React.FunctionComponent<IHero> = ({
               })}
             >
               {breadCrumbs && breadCrumbs.length ? (
-                <div className="text-white opacity-85 font-semibold mb-4 flex items-center">
+                <div
+                  className={cn('flex items-center mb-4 font-semibold text-white opacity-85', {
+                    'text-black': !titleImage,
+                  })}
+                >
                   {breadCrumbs.map((breadCrumb, index) => (
                     <React.Fragment key={index}>
-                      <Link className="text-white" to={breadCrumb.path}>
+                      <Link className={cn('text-white', { 'text-black': !image })} to={breadCrumb.path}>
                         {breadCrumb.title}
                       </Link>
-                      {index < breadCrumbs.length - 1 ? <span className="mx-2">></span> : null}
+                      {index < breadCrumbs.length - 1 ? (
+                        <span className={cn('text-white mx-2', { 'text-black': !image })}>{`>`}</span>
+                      ) : null}
                     </React.Fragment>
                   ))}
                 </div>
               ) : null}
 
-              {pageName && <div className="uppercase text-white opacity-85 font-semibold mb-4">{pageName}</div>}
+              {pageName && (
+                <div
+                  className={cn('mb-4 font-semibold text-white uppercase opacity-85', {
+                    'text-black': bgColor === 'white',
+                  })}
+                >
+                  {pageName}
+                </div>
+              )}
 
               <div className="flex">
                 <div className="flex-1">
-                  <h1 className="text-5xl md:text-4xl leading-tight">{title}</h1>
+                  <h1
+                    className={cn('text-5xl font-bold leading-tight sm:pr-0', {
+                      'pr-20': aligned === 'left',
+                      'text-black': bgColor === 'white',
+                      'text-white': author,
+                    })}
+                  >
+                    {title}
+                  </h1>
 
                   {subtitle && (
-                    <h2
-                      className={cn('font-default opacity-75 max-w-xl mt-4 md:mt-4', {
+                    <p
+                      className={cn('font-default text-xl max-w-xl leading-loose text-black mt-4 md:mt-4 sm:pr-0', {
                         'mx-auto': !aligned || aligned === 'center',
                         'ml-auto': aligned === 'right',
-                        'mr-auto sm:mx-auto': aligned === 'left',
+                        'mr-auto sm:mx-auto pr-20': aligned === 'left',
+                        'text-black': bgColor === 'white',
+                        'text-white': author,
                       })}
                     >
                       {subtitle}
-                    </h2>
+                    </p>
                   )}
 
                   {ctas && (
@@ -196,14 +219,14 @@ export const Hero: React.FunctionComponent<IHero> = ({
 
               {author && (
                 <div>
-                  <HeroAuthor className="mt-6 text-white opacity-85" {...author} />
+                  <HeroAuthor className={cn('mt-6 text-white opacity-85', { 'text-black': !image })} {...author} />
                 </div>
               )}
             </div>
 
             {titleImage && (
-              <div>
-                <Image style={{ height: 130 }} src={titleImage} />
+              <div className="w-2/3 pt-12 text-right sm:w-full md:mt-10">
+                <Image src={titleImage} />
               </div>
             )}
           </div>
@@ -211,20 +234,20 @@ export const Hero: React.FunctionComponent<IHero> = ({
 
         {bottomElem}
 
-        {image && <HeroImage {...image} className="relative z-5 mt-16" />}
+        {image && <HeroImage {...image} className="relative mt-16 z-5" />}
 
-        {heroTabs.length > 0 ? <Tabs tabs={heroTabs} className="pt-24" /> : null}
+        {heroTabs.length > 0 ? <Tabs tabs={heroTabs} className="pt-24 md:pb-12" /> : null}
 
         {contentBgImage ? (
           <div
-            className="absolute pin z-1 bg-cover bg-no-repeat border-b-4 border-darken-300"
+            className="absolute inset-0 bg-no-repeat bg-cover z-1"
             style={{
               backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${contentBgImage})`,
             }}
           />
         ) : (
           <div
-            className={cn('absolute pin overflow-hidden', {
+            className={cn('absolute inset-0 overflow-hidden', {
               'bg-grey-lightest': greyBg,
             })}
           >
@@ -233,7 +256,7 @@ export const Hero: React.FunctionComponent<IHero> = ({
               className={cn('absolute z-0 overflow-hidden', {
                 [`bg-${bgColor}`]: bgColor,
                 'shadow-inner-intense': skew === 'rounded',
-                'border-b-4 border-lighten-300': !hasBottomContent && !skew,
+                'border-lighten-300': !hasBottomContent && !skew,
               })}
               style={{
                 width: skew === 'rounded' ? '200%' : 'auto',
@@ -251,25 +274,28 @@ export const Hero: React.FunctionComponent<IHero> = ({
         )}
 
         {particles && (
-          <div className="absolute z-1 sm:hidden" style={{ left: 0, top: -25, right: 0, bottom: -100 }}>
+          <div className="Particles absolute z-1 sm:hidden" style={{ left: 0, top: 0, right: 0, bottom: 0 }}>
             {Particles && (
               <Particles
                 style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0 }}
                 params={{
-                  fps_limit: 15,
+                  fps_limit: 20,
                   retina_detect: true, // possible performance issues when true
                   particles: {
                     number: {
-                      value: 160,
+                      value: 80,
                       density: {
                         enable: false,
                       },
+                    },
+                    color: {
+                      value: '#0B6FCC',
                     },
                     size: {
                       value: 3,
                       random: true,
                       anim: {
-                        speed: 4,
+                        speed: 1,
                         size_min: 0.3,
                       },
                     },
@@ -278,7 +304,7 @@ export const Hero: React.FunctionComponent<IHero> = ({
                     },
                     move: {
                       random: true,
-                      speed: 1.2,
+                      speed: 0.2,
                       direction: 'top',
                       out_mode: 'out',
                     },

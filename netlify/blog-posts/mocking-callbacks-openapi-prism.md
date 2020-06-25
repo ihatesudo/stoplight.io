@@ -8,7 +8,7 @@ tags:
   - blog-general
   - blog-industry
 relatedTags:
-  - blog 
+  - blog
   - blog-design
   - blog-mocking
   - blog-featured
@@ -17,9 +17,8 @@ relatedTags:
 publishedDate: 2019-12-12
 author: Karol Maciaszek
 title: Mocking Callbacks with OpenAPI and Prism
-subtitle: What are callback, why use them, and how to set them up using OpenAPI and Prism. 
+subtitle: What are callback, why use them, and how to set them up using OpenAPI and Prism.
 image: /images/rotary-phone.jpg
-color: black
 includeToc: true
 actionBar:
   ctas:
@@ -165,21 +164,20 @@ Ok wait, that's quite a lot. Let me describe the important lines.
 
 ```yaml
 requestBody:
-        required: true
-        content:
-          application/json:
-            schema:
-              type: object
-              properties:
-                url:
-                  type: string
-                  format: uri
-                token:
-                  type: string
-              required:
-              - url
-              - token
-
+  required: true
+  content:
+    application/json:
+      schema:
+        type: object
+        properties:
+          url:
+            type: string
+            format: uri
+          token:
+            type: string
+        required:
+          - url
+          - token
 ```
 
 3. Next, `responses` section defines a single `202` response. `202` means 'Accepted' for further processing.
@@ -188,7 +186,7 @@ requestBody:
 
 ## OpenAPI specification of the client service (us!)
 
-``` yaml
+```yaml
 
 client.oas3.yaml
 
@@ -247,19 +245,19 @@ We've defined specifications of logistics service API and our API. It's time to 
 
 The following command will run `prism` instance for the logistics company on `4010` port.
 
-``` yaml
+```yaml
 prism mock -p 4010 logistics.oas3.yaml
 ```
 
 Now please open new console and run following command:
 
-``` yaml
+```yaml
 prism mock -p 4011 client.oas3.yaml
 ```
 
 Ready?
 
-``` yaml
+```yaml
 curl -v -H'Content-type: application/json' -d'{ "url": "http://localhost:4011/notify", "token": "dontpeek" }' http://127.0.0.1:4010/tracking/7352110771638879/subscribe
 ```
 
@@ -309,9 +307,9 @@ Congratulations, you've just mocked two services and forced them to talk to each
 
 ## That's fine, but why do I need Prism
 
-Testing callbacks may become complicated. You probably need to write some small tool which will imitate the caller service. Or call it "by hand" with *curl*. Or force the service to call you API and trust that it will actually do it.
+Testing callbacks may become complicated. You probably need to write some small tool which will imitate the caller service. Or call it "by hand" with _curl_. Or force the service to call you API and trust that it will actually do it.
 
-Still sounds fairly easy? Now imagine that your API changes over time. You need to maintain that tool but uou lost the *curl* command, and there is no documentation on how to quickly test the API. Oh, how familiar!
+Still sounds fairly easy? Now imagine that your API changes over time. You need to maintain that tool but uou lost the _curl_ command, and there is no documentation on how to quickly test the API. Oh, how familiar!
 
 But wait, you have an OpenAPI specification which is always kept up to date (because your boss tells you to do it) and Prism which can turn it into a fully functional imitation of any part of the API. Now you need neither secret commands nor non-documented tools.
 

@@ -10,11 +10,8 @@ author: Adam DuVander
 title: Take Your API Beyond Static Documentation
 subtitle: Three ways to make your documentation come alive
 image: /images/quino-al-121406-unsplash.jpg
-color: purple-darker
 tabs:
   - {}
-disqus:
-  enabled: true
 actionBar:
   ctas:
     - color: purple
@@ -44,7 +41,6 @@ Your documentation, even in a static format, has a couple simple goals:
 
 Interactive documentation provides a clear path to achieve both of these objectives. As the name implies, developers don’t merely _read_ your documentation. They provide input to it and inspect a response. Right from your API reference, they can declare parameters and make live calls to your API.
 
-![Send a test API request](/images/bigcommerce-test-request.png 'Send a test API request')
 
 With interactive documentation, you’re removing a major barrier to taking the next step with an API. With static documentation, a developer needs to bring API calls into a request utility or directly into code before they can fully understand what’s possible. Instead, they can see exactly what is possible without leaving their browser.
 
@@ -62,8 +58,6 @@ Along with every example request is everything you need to perform the request l
 
 Depending on your situation, it might not be feasible or necessary to automatically include usable credentials within your documentation. However, you can take a page from Stripe and look for ways to make your documentation equally copy-paste-able.
 
-![Automatic code generation](/images/npr-code-generation.png 'Automatic code generation')
-
 For example, include a form field to include an API key, or provide a token generation tool. Then populate the key or token into your example requests so they can be used quickly. No more `YOUR_KEY_HERE` stuff. Authentication is one of the biggest hurdles to using an API. You can maintain security while still making it easy for your approved developers to send their credentials.
 
 Stoplight’s [automated API documentation](https://stoplight.io/documentation/) provides copy-paste examples for your API in 11 programming languages and three command tools, all generated from your OpenAPI spec.
@@ -76,8 +70,6 @@ Documentation rarely becomes outdated on purpose. Most inaccuracies in API docum
 
 In order to keep your docs updated, [generate documentation from your OpenAPI spec](https://stoplight.io/documentation/generator/) whenever there are changes. Automation means you don’t need to worry about a mismatch between the API in production and the documentation developers use to access it. While the docs you output may still be static, the process of keeping them in sync takes you beyond typical documentation.
 
-![Stoplight scenarios](/images/stoplight-scenario-dashboard.png 'Stoplight scenarios')
-
-You’ll also gain other benefits by bringing your API into your existing integration processes. [API testing](https://docs.stoplight.io/testing/introduction) can catch errors and other weaknesses that go beyond the accuracy of your documentation. You can ensure responses match what is expected, run scenarios that go beyond simple endpoint monitoring, and get a report of your API testing coverage.
+You’ll also gain other benefits by bringing your API into your existing integration processes. [API testing](/blog/what-is-api-testing/) can catch errors and other weaknesses that go beyond the accuracy of your documentation. You can ensure responses match what is expected, run scenarios that go beyond simple endpoint monitoring, and get a report of your API testing coverage.
 
 Add this automation of your docs to interactive API calls and copy-paste samples, and you’ll transform your static documentation. They’ll be more accurate and useful not just today, but into the future.

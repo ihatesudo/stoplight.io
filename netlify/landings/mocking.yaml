@@ -1,82 +1,116 @@
-path: /mocking
-title: OpenAPI Mocking
-color: indigo
+path: /api-mocking
+title: API Mocking
 relatedTags:
   - blog-mocking
 hero:
-  subtitle: Build APIs and accelerate API development with instant mock servers
-  title: Mock HTTP API Server
+  title: Design Better and Develop Faster
+  subtitle: >-
+    Go to market faster with high quality APIs using instant mock servers.
+  titleImage: '/images/mocking/hero.svg'
+  aligned: left
   ctas:
-    - href: '/studio'
-      title: Try Out Mocking in Stoplight Studio
-      icon: ['fad', 'paint-brush']
-      rightIcon: ['fad', 'arrow-right']
-      color: green
-    - href: '/open-source/prism'
-      title: Prism Open Source Mock Server
-      icon: ['fad', 'database']
-      rightIcon: ['fad', 'arrow-right']
-      color: orange
-featureSection:
-  actionBar:
-    text: 'Ready to mock your API?'
-    enabled: true
-    ctas:
-      - href: '/studio'
-        title: Get Started with Stoplight Studio
+    - color: blue2
+      href: https://stoplight.io/welcome
+      large: true
+      title: Get Started For Free
+featureIconStrip:
+  icons:
+    - image: /images/integrations/openAPI.svg
+      title: OpenAPI Support
+    - icon: code
+      color: blue2
+      title: Early Feedback
+    - icon: server
+      color: indigo
+      title: Parallel Development
+    - icon: chart-network
+      color: lavender
+      title: Contract Testing
+    - icon: paint-brush
+      color: blue2
+      title: Dynamic Mocking
+features:
+  title: Bring API Designs to Life with Mocking
   description: >-
-    Mocking your API with [Stoplight Studio](/studio/) is your API design’s perfect companion.
-    Powered by [Prism](/prism), the instant [mock server](/mock-api-guide/basics/) routes
-    incoming requests to example responses or dynamically generates examples on
-    the fly based on your OpenAPI v2/v3 document (formerly known as Swagger).
+    Visualize and get feedback on your API designs before spending time on development. 
+    Let your frontend and backend teams develop in parallel with hosted mock servers. 
+    Stoplight complements your workflow by instantly creating mock servers from API descriptions.
   features:
-    - description: >-
-        Supercharge any OpenAPI Specification with [Stoplight Studio](/studio/) 
-        using our online Mock REST API server. Once you have created or imported 
-        your OpenAPI document, you have access to an instant mock server, which
-        automatically reloads when your document changes. A mock API simulates 
-        the behavior of a real API allowing collaboration and feedback on your
-        API design.
-      image: /images/mocking_instant.png
-      shortName: Instant Mocking
-      title: Instant Mock Server
-      titleURL: /mocking/server
-    - description: >-
-        With mocking, you can accelerate the development of new APIs. Teams can
-        work in tandem before the API is available through virtualization.
-        Stoplight’s mock servers can virtualize internal and external APIs
-        within your platform with dynamic responses generated from your JSON
-        Schema, which can be run locally or hosted with Stoplight (coming soon).
-      image: /images/prism_dynamic.png
-      shortName: Virtualization
-      title: Virtualization
-    - description: >-
-        Validates requests and responses against your OpenAPI document.
-        Simulates real server behavior by automatically validating incoming
-        request headers, query strings, and request bodies against your OpenAPI
-        document.
-      image: /images/mocking_validation.png
-      shortName: Request Validation
-      title: Automatic Request Validation
-    - description: >-
-        Need a specific examples or a dynamically generated examples? No problem!
-        You can customize responses to what fits for your API when mocking with Stoplight.
-      image: /images/mocking_example.png
-      shortName: Customizable
-      title: Customizable
-  title: OpenAPI Mocking
+    - title: Instantly Convert OpenAPI Documents to Mocks
+      shortName: OpenAPI Support
+      description: >-
+        Create mock servers from OpenAPI files automatically, with support for advanced OpenAPI features.
+      image: /images/design/mock.svg
+    - title: Get Early Feedback
+      shortName: Early Feedback
+      description: >-
+        Get feedback from consumers and stakeholders on API designs before development using interactive protoypes. This allows you to act on feedback and align stakeholders promptly, ensuring 
+        APIs fulfill consumer requirements and avoid unanticipated breaking changes later.
+      image: /images/mocking/feedback.svg
+      isReversed: true
+    - title: Develop Simultaneously with Hosted Mock Servers
+      shortName: Parallel Development
+      description: >-
+        Reduce time to market by letting Frontend and Backend teams develop simultaneously, without waiting for the development stage of the API to complete.
+      image: /images/development/hostedmocks.svg
+    - title: Validate and Test API Designs
+      shortName: Contract Testing
+      description: >-
+        Validate requests and responses against your OpenAPI file. Stoplight mocks simulate real server behavior by automatically validating incoming request headers, query strings, and request bodies against your OpenAPI description.
+      image: /images/development/validation.svg
+      isReversed: true
+    - title: Spin Up Life-like APIs with Dynamic Mocking
+      shortName: Dynamic Mocking
+      description: >-
+        Testing against the same data over and over again is not the best way to build a robust integration. Dynamic mocking leverages fake data to simulate real server behavior by responding dynamically to requests.
+      image: /images/mocking/dynamic.svg
+actionBar:
+  ctas:
+    - color: blue2
+      href: https://stoplight.io/welcome
+      title: Get Started
+      large: true
+  enabled: true
+  centered: true
+  text: Develop Faster with Hosted Mocks.
+solutionsNav:
+  title: Explore the API Design Lifecycle
+  icons:
+    - icon: 'pencil'
+      color: blue2
+      title: Design
+      href: /api-design
+    - icon: code
+      color: lavender
+      title: Development
+      href: /api-development
+    - icon: chart-network
+      color: indigo
+      title: Visibility
+      href: /api-visibility
+    - icon: user-friends
+      color: yellow
+      title: Collaboration
+      href: /api-collaboration
+    - icon: balance-scale
+      color: purple
+      title: Governance
+      href: /api-governance
+    - icon: book-open
+      color: blue2
+      title: Documentation
+      href: /api-documentation
 meta:
   description: >-
-    'Mocking your API with Stoplight Studio is your API design's perfect companion.
-
-    Powered by Prism, the mock server routes incoming requests to examples on the fly based on your OpenAPI v2/v3 document (formerly known as Swagger).'
+    Go to market faster with high quality APIs using instant mock servers.
   favicon: /images/mark_light_bg.png
-  title: Mock HTTP API Server & Service By Stoplight | Mock HTTP API Online
+  image: /images/mocking/hero.svg
+  title: Mocking | API Design & Planning Tool | Stoplight
+  robots: 'index, follow'
   twitter:
     description: >-
-      'Mocking your API with Stoplight Studio is your API design's perfect companion.
-
-      Powered by Prism, the mock server routes incoming requests to examples on the fly based on your OpenAPI v2/v3 document (formerly known as Swagger).'
-    image: /images/mocking_instant.png
-    title: Mock HTTP API Server & Service By Stoplight | Mock HTTP API Online
+      Go to market faster with high quality APIs using instant mock servers.
+    image: /images/mocking/hero.svg
+    title: Mocking | API Design & Planning Tool | Stoplight
     username: '@stoplightio'
+  url: 'https://stoplight.io/api-mocking/'

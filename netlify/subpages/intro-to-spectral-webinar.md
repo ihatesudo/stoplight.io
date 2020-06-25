@@ -8,7 +8,6 @@ publishedDate: 2019-07-23T18:13:46.002Z
 title: Linting API Descriptions with Spectral | Stoplight Webinar
 subtitle: 'An introduction to Spectral, an open source API description linter'
 image: /images/spectral-banner-white-background.png
-color: blue
 tabs:
   - {}
 includeToc: false
@@ -30,6 +29,7 @@ meta:
     title: Linting API Descriptions with Spectral | Stoplight Webinar
     image: /images/spectral-banner-white-background.png
     username: '@stoplightio'
+  url: https://stoplight.io/video/linting-api-descriptions-with-spectral
 ---
 
 <style>.markdown-body { max-width: 100% !important; } </style>

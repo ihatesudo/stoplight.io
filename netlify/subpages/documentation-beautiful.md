@@ -3,16 +3,17 @@ path: /documentation/beautiful
 publishedDate: 2019-02-15T16:50:25.630Z
 title: Beautiful Documentation & API Documentation Themes
 subtitle: API Documentation that makes an Impact
-color: green
 tabs:
-  - href: /api-documentation-guide/basics
-    title: API Documentation Guide
-  - href: /api-documentation-guide/best-practices
-    title: API Documentation Best Practices
-  - href: /blog/api-documentation
-    title: The Evolution of API Documentation at Stoplight
-  - href: 'https://community.stoplight.io/c/api-best-practices/documentation'
-    title: Documentation | Stoplight Community
+  - href: /documentation
+    title: API Documentation
+  - href: /documentation/enterprise
+    title: Enteprise API Documentation
+  - href: /documentation/beautiful
+    title: Beautiful API Docs
+  - href: /documentation/automation
+    title: API Documentation Automation
+  - href: /documentation/generator
+    title: API Documentation Generator
 actionBar:
   enabled: false
 meta:
@@ -42,7 +43,7 @@ A users experience with documentation can affect the learning process positively
 
 ## Stoplight Documentation
 
-[Stoplight Documentation](/documentation/#interactive-api-documentation) provides multiple methods for creating not only [beautiful API documentation](/documentation) but also reference material that appeals to your users. You can modify design concepts like API documentation format and API documentation theme to create unique [interactive API documentation](/documentation/#interactive-api-documentation). You can adjust your documentation design via [Theming](https://docs.stoplight.io/documentation/design/theming), [Custom CSS](https://docs.stoplight.io/documentation/design/custom-css), and [Custom Javascript](https://docs.stoplight.io/documentation/design/custom-js).
+[Stoplight Documentation](/documentation/#interactive-api-documentation) provides multiple methods for creating not only [beautiful API documentation](/documentation) but also reference material that appeals to your users. You can modify design concepts like API documentation format and API documentation theme to create unique [interactive API documentation](/documentation/#interactive-api-documentation). You can adjust your documentation design via Theming, Custom CSS, and Custom Javascript.
 
 ## Theming
 

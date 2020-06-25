@@ -13,9 +13,6 @@ author: Robert Wallach
 title: All Your Semantics Belong to Us
 subtitle: Where hacking words is a time honored tradition
 image: /images/semantics-belong-to-us.jpeg
-color: indigo
-disqus:
-  enabled: true
 actionBar:
   enabled: false
 meta:
@@ -31,9 +28,10 @@ meta:
     image: /images/semantics-belong-to-us.jpeg
     username: '@stoplightio'
 ---
-*Office Space, 1999*
 
-In the third installment of *I can REST when I’m Alive,* I will be discussing some of the interesting (and funny) linguistic twists that exist in the tech world. Having a Publishing background and a hereditary addiction to language, I couldn’t help but analyze my new industries language. I have compiled a list of some of the most intriguing, comedic, and bizarre terms I have run across thus far.
+_Office Space, 1999_
+
+In the third installment of _I can REST when I’m Alive,_ I will be discussing some of the interesting (and funny) linguistic twists that exist in the tech world. Having a Publishing background and a hereditary addiction to language, I couldn’t help but analyze my new industries language. I have compiled a list of some of the most intriguing, comedic, and bizarre terms I have run across thus far.
 
 ## Engineers and Developers
 
@@ -41,17 +39,17 @@ During my early days at Stoplight, it occurred to me that the term Engineer and 
 
 At the onset it felt off, as if it was applied without much thought, but after spending time with my fellow engineers and developers, I discovered some interesting similarities.
 
-* While a Structural Engineer works with physical objects, a Software Engineer works in the abstract and metaphysical. A Software Engineer may no longer have to deal with the physics of their product, but they still work in an environment governed by strict rules that need to be navigated.
+- While a Structural Engineer works with physical objects, a Software Engineer works in the abstract and metaphysical. A Software Engineer may no longer have to deal with the physics of their product, but they still work in an environment governed by strict rules that need to be navigated.
 
-![Computer Engineers don’t wear yellow hats or point at things with rolled up blueprints](https://cdn-images-1.medium.com/max/800/1*XJgMM76kHbhnndOscZrYDg.png)*Computer Engineers don’t wear yellow hats or point at things with rolled up blueprints*
+![Computer Engineers don’t wear yellow hats or point at things with rolled up blueprints](https://cdn-images-1.medium.com/max/800/1*XJgMM76kHbhnndOscZrYDg.png)_Computer Engineers don’t wear yellow hats or point at things with rolled up blueprints_
 
-* Land Developers, similarly, are involved in the modification of existing structures or the creation of new ones. Web Developers have moved on from vacant lots to domains. They take raw, undefined space, and create something new.
+- Land Developers, similarly, are involved in the modification of existing structures or the creation of new ones. Web Developers have moved on from vacant lots to domains. They take raw, undefined space, and create something new.
 
 The key to these terms was adopting the perception of a domain, local host, or any other undeveloped tech space as a vacant lot of sorts, where Developers and Engineers can plan and create.
 
 ## The Escape Key
 
-![In the end, Shift and Delete brought him down](https://cdn-images-1.medium.com/max/800/1*loRcJRQEzuOqPv7vwEughg.jpeg)*In the end, Shift and Delete brought him down*
+![In the end, Shift and Delete brought him down](https://cdn-images-1.medium.com/max/800/1*loRcJRQEzuOqPv7vwEughg.jpeg)_In the end, Shift and Delete brought him down_
 
 Described as a button that “[reminds the machine it has a human master](http://www.nytimes.com/2012/10/07/magazine/who-made-that-escape-key.html),” the escape key has been hiding out in the top left of your keyboard since 1960. Created by Bob Bemer, an IBM employee, the escape key was originally used to help him switch between different kinds of code.
 
@@ -59,11 +57,11 @@ Now it functions as an interrupter, a last resort for anyone wanting to get a co
 
 ## Hot Key
 
-![No longer lukewarm. The McDonalds coffee cup of keys](https://cdn-images-1.medium.com/max/800/1*H0QFfthMVagbCN_P9rRhPw.jpeg)*No longer lukewarm. The McDonalds coffee cup of keys*
+![No longer lukewarm. The McDonalds coffee cup of keys](https://cdn-images-1.medium.com/max/800/1*H0QFfthMVagbCN_P9rRhPw.jpeg)_No longer lukewarm. The McDonalds coffee cup of keys_
 
 ## Java/JavaScript
 
-![Gears sold separately](https://cdn-images-1.medium.com/max/800/1*nOyZAagww2aY_fVATpBF1Q.jpeg)*Gears sold separately*
+![Gears sold separately](https://cdn-images-1.medium.com/max/800/1*nOyZAagww2aY_fVATpBF1Q.jpeg)_Gears sold separately_
 
 Evidently the creators of one of the most widely used coding languages in the world decided to dedicate their creation to coffee. Apparently caffeine was to spot on. Also functions as an advisory: drink coffee while using.
 
@@ -75,7 +73,7 @@ Commonly attributed to Grace Hopper’s finding of an actual moth while working 
 
 ## Glitch
 
-![Fail](https://cdn-images-1.medium.com/max/800/1*z-w4ZFU1f772ZEAq7Siakw.gif)*Fail*
+![Fail](https://cdn-images-1.medium.com/max/800/1*z-w4ZFU1f772ZEAq7Siakw.gif)_Fail_
 
 Some attribute this little gem to the US Air Force for failed rocket experiments in 1965. Why glitch? Because they literally could not think of another word to explain an unexpected error that no one has figured out yet.
 
@@ -89,21 +87,21 @@ Like Atlas from Greek Myths and “The Weight” described by The Band. This ter
 
 ## Sandbox
 
-![More Yellow Hats and Blueprints Needed](https://cdn-images-1.medium.com/max/800/1*7SrHYKxpvOx-acVs0fXPCQ.jpeg)*More Yellow Hats and Blueprints Needed*
+![More Yellow Hats and Blueprints Needed](https://cdn-images-1.medium.com/max/800/1*7SrHYKxpvOx-acVs0fXPCQ.jpeg)_More Yellow Hats and Blueprints Needed_
 
 Defined as a testing environment for unverified code that removes the risk of harming the operating system or machine. A place where you can play around with new or untested code, this term functions on two levels:
 
-* As a cordoned off area of a playground often used for creation with easy forms of manipulation and revision ie building a sand castle and/or
+- As a cordoned off area of a playground often used for creation with easy forms of manipulation and revision ie building a sand castle and/or
 
-* The aforementioned area with the danger of obscurity allowing for the potential to find unwanted or discarded items (i.e. used band-aids).
+- The aforementioned area with the danger of obscurity allowing for the potential to find unwanted or discarded items (i.e. used band-aids).
 
 ## Spool
 
 A term referring to the process of Simultaneous Peripheral Operations On-Line. Spooling is essentially the process by which a computer hands off a task to a slower peripheral device. It brings to mind the moment before the stars start shooting past the screen during a science fiction movies “jump” to hyperspace.
 
-* “The battleship is right on us, let’s jump to hyperspace”
+- “The battleship is right on us, let’s jump to hyperspace”
 
-* “We have to wait for the FTL drive to spool up!”
+- “We have to wait for the FTL drive to spool up!”
 
 ## Daemon
 

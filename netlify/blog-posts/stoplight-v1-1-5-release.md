@@ -8,9 +8,6 @@ author: Robert Wallach
 title: Stoplight v1.1.5 Release
 subtitle: 'Platform, Studio, and Prism'
 image: /images/changelog-stock.jpg
-color: black
-disqus:
-  enabled: true
 actionBar:
   ctas:
     - color: purple

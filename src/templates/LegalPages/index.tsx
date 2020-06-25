@@ -1,8 +1,6 @@
-
 import cn from 'classnames';
 import * as React from 'react';
 import { withRouteData } from 'react-static';
-
 import { ActionBar, IActionBar } from 'src/components/ActionBar';
 import { Container } from 'src/components/Container';
 import { Hero, IHero, IHeroBreadCrumb } from 'src/components/Hero';
@@ -12,6 +10,7 @@ import { IInfo, Info } from 'src/components/Info';
 import { Section } from 'src/components/Section';
 import { ITab } from 'src/components/Tabs';
 import { convertMarkdownToHTML } from 'src/utils/markdown/index.js';
+
 import { Layout } from '../../components/Layout';
 
 export interface IPage {
@@ -40,7 +39,6 @@ export interface IPage {
  */
 
 export const Subpage: React.FunctionComponent<IPage> = ({
-  path,
   title,
   subtitle,
   pageName,
@@ -70,11 +68,6 @@ export const Subpage: React.FunctionComponent<IPage> = ({
     heroProps.author = { ...author, meta: publishedDate };
   }
 
-  let url = path;
-  if (typeof window !== 'undefined') {
-    url = window.location.origin + path;
-  }
-
   const html = convertMarkdownToHTML(body, { includeToc: !sidebar && includeToc });
 
   return (
@@ -101,8 +94,7 @@ export const Subpage: React.FunctionComponent<IPage> = ({
               </div>
             )}
 
-<div className={cn('markdown-body', className)} dangerouslySetInnerHTML={{ __html: html }} />
-
+            <div className={cn('markdown-body', className)} dangerouslySetInnerHTML={{ __html: html }} />
           </div>
         </Container>
       </Section>
@@ -112,7 +104,6 @@ export const Subpage: React.FunctionComponent<IPage> = ({
           <ActionBar className="my-24" {...actionBar} />
         </Section>
       )}
-
     </Layout>
   );
 };

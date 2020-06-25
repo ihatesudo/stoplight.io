@@ -2,7 +2,7 @@ path: /blog/general
 tag: blog-general
 title: General Blog Posts
 hero:
-  particles: true
+  particles: false
 tabs:
   - href: /blog
     title: Latest

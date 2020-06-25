@@ -1,10 +1,9 @@
-path: '/blog/author/nicholas-cassera '
+path: /blog/author/nicholas-cassera
 tag: author
 title: Nicholas Cassera
 subtitle: ' '
 pageName: Software Engineer
 image: /images/cassera_headshot.png
-color: green
 actionBar:
   enabled: false
 meta:

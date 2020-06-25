@@ -12,9 +12,6 @@ author: Robert Wallach
 title: 'Induced Logic Puzzles: Rhyme of the Ancient Engineer'
 subtitle: 'An Ode to Engineers '
 image: /images/logic-puzzles.jpeg
-color: blue
-disqus:
-  enabled: true
 actionBar:
   ctas:
     - color: purple

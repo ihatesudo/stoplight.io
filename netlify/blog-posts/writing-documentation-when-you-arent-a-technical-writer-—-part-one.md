@@ -14,9 +14,6 @@ subtitle: >-
   How do people actually read documentation and how to write documentation and
   code samples to maximize developer success
 image: /images/not-technical-writer-part-one.jpeg
-color: yellow
-disqus:
-  enabled: true
 actionBar:
   ctas:
     - color: purple
@@ -47,7 +44,7 @@ _Photo by [rawpixel](https://www.pexels.com/photo/red-and-black-typewriter-99772
 
 _In the fall of 2016, my teammate and I were tasked with the mission of improving my former company’s documentation and content. We spent a year working on all kinds of documentation — API references, guides, tutorials, and blog posts. I had been writing documentation off and on over the previous 5 years, but I wasn’t formally trained in technical writing. I was by no means inexperienced though, due to working on API documentation for projects and a startup and teaching Python Flask workshops towards the end of my computer science degree. This was the first time I had ever been able to focus on documentation, which allowed me to pursue my passion for helping people of all skill levels through technical documentation._
 
-_In that year, I learned a lot from the Write the Docs community, other API providers, and my own trials and errors. Last year, I spoke about it in a talk, “Things I Wish People Told Me About Writing Docs,” at the [API Strategy and Practice Conference](https://events.linuxfoundation.org/events/apistrat-2018/) in Portland, OR. This [multipart series](/blog/api-documentation) is a survey of what I learned._
+_In that year, I learned a lot from the Write the Docs community, other API providers, and my own trials and errors. Last year, I spoke about it in a talk, “Things I Wish People Told Me About Writing Docs,” at the [API Strategy and Practice Conference](https://events.linuxfoundation.org/events/apistrat-2018/) in Portland, OR. This [multipart series](/blog/api-documentation/) is a survey of what I learned._
 
 ## How do people actually read documentation?
 
@@ -153,4 +150,4 @@ Kelsey Hightower struggled to copy this code sample off of StackOverflow in a Go
 
 Did he do this intentionally? The world will never know. However, it represents the struggle of coders to copy large blocks of text on some documentation sites. Make sure the UI of your site makes it easy to copy large blocks of text. You can even break up those blocks to explain them in chunks making them more accessible to copy and understand.
 
-_I hope some of these tips help you the next time you are writing documentation. I’d love to hear what tips you’ve learned over the years that were helpful to you in the comments below. Update: Check out [Part Two](/blog/writing-documentation-when-you-arent-a-technical-writer-part-two-59997587cc2a) of the series!_
+_I hope some of these tips help you the next time you are writing documentation. I’d love to hear what tips you’ve learned over the years that were helpful to you in the comments below. Update: Check out [Part Two](/blog/writing-documentation-when-you-arent-a-technical-writer-part-two-59997587cc2a/) of the series!_

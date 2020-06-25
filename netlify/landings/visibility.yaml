@@ -1,0 +1,132 @@
+path: /api-visibility
+title: API Visibility
+relatedTags:
+  - blog-visibility
+hero:
+  title: Maintain a Central Source of Truth
+  subtitle: >-
+    Never lose sight of your internal and external APIs with a central repository for all your API design assets.
+  titleImage: '/images/visibility/hero.svg'
+  aligned: left
+  ctas:
+    - color: blue2
+      href: https://stoplight.io/welcome
+      large: true
+      title: Get Started For Free
+    - color: blue2
+      href: /pricing
+      large: true
+      outlined: true
+      title: View Plans and Pricing
+featureIconStrip:
+  icons:
+    - icon: list
+      color: green
+      title: API Catalog
+    - icon: code
+      color: purple
+      title: Search and Filter
+    - icon: user-lock
+      color: black
+      title: Roles and Permissions
+    - icon: chart-network
+      color: lavender
+      title: Visualize Dependencies
+    - icon: exchange-alt
+      color: blue2
+      title: Changelogs
+    - icon: star
+      color: indigo
+      title: Star to Reuse
+features:
+  title: Never Lose Sight of Your APIs Again
+  description: >-
+    As the number of APIs increase, it becomes difficult to track the services available to you and your team.
+    Aggregate all your API descriptions, schemas, and documentation in a central repository, laying the groundwork  for
+    deduplication, reuse, and governance.
+  features:
+    - title: Enable Discovery with a Central API Catalog
+      shortName: API Catalog
+      description: >-
+        Create a collection of up-to-date API design assets like OpenAPI descriptions, JSON Schemas, and Documentation
+        from your favorite VCS. Search, reuse, and govern APIs to help better align and inform stakeholders.
+      image: /images/visibility/explorer.svg
+    - title: Search and Filter API Artifacts
+      shortName: Search and Filter
+      description: >-
+        Navigate API artifacts at scale using powerful search and filters making it easy to find and share your APIs.
+      image: /images/visibility/search.svg
+      isReversed: true
+    - title: Personalized View for Every Role
+      shortName: Roles and Permissions
+      description: >-
+        Use flexible roles and permissions to manage access according to organization needs.
+      image: /images/docs/catalog.png
+    - title: Visualize Dependencies
+      shortName: Visualize Dependencies
+      description: >-
+        Avoid breaking changes and plan versions by tracking and visualizing inbound and outbound API dependencies.
+      image: /images/visibility/dependencies.svg
+      isReversed: true
+    - title: Track Changes
+      shortName: Changelogs
+      description: >-
+        Stay up to date with automatic changelogs for all your APIs. Inform stakeholders about changes proactively to
+        avoid out-of-date integrations.
+      image: /images/visibility/changelog.svg
+    - title: Star What's Important
+      shortName: Star to Reuse
+      description: >-
+        Star essential API designs and documentation to enable easy discovery across your workspace.
+      image: /images/visibility/star.svg
+      isReversed: true
+actionBar:
+  ctas:
+    - color: blue2
+      href: https://stoplight.io/welcome
+      title: Get Started
+      large: true
+  enabled: true
+  centered: true
+  text: Bring Visibility to your API Program.
+solutionsNav:
+  title: Explore the API Design Lifecycle
+  icons:
+    - icon: 'pencil'
+      color: blue2
+      title: Design
+      href: /api-design/
+    - icon: code
+      color: lavender
+      title: Development
+      href: /api-development/
+    - icon: balance-scale
+      color: purple
+      title: Governance
+      href: /api-governance/
+    - icon: user-friends
+      color: yellow
+      title: Collaboration
+      href: /api-collaboration/
+    - icon: server
+      color: indigo
+      title: Mocking
+      href: /api-mocking/
+    - icon: book-open
+      color: blue2
+      title: Documentation
+      href: /api-documentation/
+meta:
+  description: >-
+    Never lose sight of your internal and external APIs with a central repository for all your API design assets
+  favicon: /images/mark_light_bg.png
+  image: /images/visibility/hero.svg
+  title: API Visibility for the Enterprise | Stoplight
+  robots: 'index, follow'
+  twitter:
+    description: >-
+      Never lose sight of your internal and external APIs with a central repository for all your API design assets
+    image: /images/visibility/hero.svg
+    title: API Visibility for the Enterprise | Stoplight
+    username: '@stoplightio'
+  url: 'https://stoplight.io/api-visibility'

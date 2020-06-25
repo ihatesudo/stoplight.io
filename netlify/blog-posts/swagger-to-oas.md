@@ -12,10 +12,7 @@ author: Robert Wallach
 title: 'Swagger to OAS '
 subtitle: The Evolution of an API Specification
 image: /images/1_ezedkaglnrkx2vw-qv1rpw.jpeg
-color: green
 tabs: []
-disqus:
-  enabled: true
 actionBar:
   ctas: []
   enabled: false

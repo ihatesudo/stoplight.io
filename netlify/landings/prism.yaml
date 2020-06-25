@@ -1,87 +1,167 @@
 path: /open-source/prism
 title: Prism - Open-Source HTTP Mock & Proxy Server | Stoplight
-color: purple-darker
 relatedTags:
   - blog-mocking
 hero:
   subtitle: Accelerate API development with realistic mock servers, powered by OpenAPI documents.
   title: Prism, an Open-Source HTTP Mock & Proxy Server
-  particles: true
   ctas:
-    - color: green
+    - color: blue2
       href: 'https://github.com/stoplightio/prism'
       title: GitHub
+      large: true
       icon: ['fab', 'github']
-    - color: indigo
+    - color: purple
       href: 'https://youtube.com/watch?v=nZM26knV_ec'
       title: Watch the Video
       icon: ['fad', 'video']
       type: video
+      large: true
     - color: indigo
-      href: 'https://stoplight.io/p/docs/gh/stoplightio/prism'
+      href: 'https://meta.stoplight.io/docs/prism/README.md'
       title: Read the Docs
       icon: ['fad', 'book-open']
-featureSection:
-  actionBar:
-    ctas:
-      - href: 'https://stoplight.io/p/docs/gh/stoplightio/prism'
-        title: Get Started with Prism
-    enabled: true
-    text: Do you want to mock your API in minutes?
-
+      large: true
+featureIconStrip:
+  icons:
+    - icon: 'clock'
+      color: lavender
+      title: Quick Iterations
+    - icon: 'chart-area'
+      color: blue2
+      title: Dynamic Examples
+    - icon: eye
+      color: purple
+      title: Validation
+    - icon: phone
+      color: blue
+      title: Callbacks
+    - icon: server
+      color: indigo
+      title: Proxy
+features:
   title: Work with your API before you write any code
   description: >-
     Prism is an open-source HTTP mock server that can mimic your API's behavior as if you already built it. Mock HTTP servers are generated from your OpenAPI v2/v3 (formerly known as Swagger) documents.
   features:
     - description: >-
         The waterfall model does not work well for building APIs. Learning at the very end what your
-        potential consumers think about your software can be source of huge problems.
+        potential consumers think about your software can be a source of huge problems.
         With Prism you can move the feedback stage to the design phase of your API by
         providing a real server to use and play with.
-      image: /images/prism_mocking.png
+      image: /images/prism/prism_mocking.png
       shortName: Quick Iterations
       title: Quickly iterate on your API
-
+      ctas:
+        - color: blue2
+          href: https://stoplight.io/p/docs/gh/stoplightio/prism/docs/getting-started/02-concepts.md
+          title: Learn More
+          type: arrow-link
+          rightIcon: arrow-right
     - description: >-
         Static examples in mock APIs can bias the way you write the code and test the API.
         Prism can generate dynamic random examples based on your API description,
         so the examples are always valid.
-      image: /images/prism_dynamic.png
+      image: /images/prism/prism_dynamic.png
       shortName: Dynamic Examples
       title: Generate dynamic examples
-
+      isReversed: true
+      ctas:
+        - color: blue2
+          href: https://stoplight.io/p/docs/gh/stoplightio/prism/docs/guides/01-mocking.md#static-or-dynamic-generation
+          title: Learn More
+          type: arrow-link
+          rightIcon: arrow-right
     - description: >-
         Prism validates both request and response data. If you have an
         invalid example in the specification, Prism will let you know; if your request is not compliant with the rules
         of your API specification, Prism will return an error message. It will never yell to you, we promise.
-      image: /images/prism_validation.png
+      image: /images/prism/prism_validation.png
       shortName: Validation
       title: Validate input and output
-
+      ctas:
+        - color: blue2
+          href: https://stoplight.io/p/docs/gh/stoplightio/prism/docs/guides/02-request-validation.md
+          title: Learn More
+          type: arrow-link
+          rightIcon: arrow-right
     - description: >
         Requests and responses take care of a lot of API interactions, but what 
         about callbacks? OpenAPI v3.0 allows API designers to define callbacks, 
         and construct a URL to fire a payload at, so Prism will too. Notice HTTP
         callbacks coming in, allowing you to attempt to integrate them before the
         API has even been built.
-      image: /images/callbacks.jpg
+      image: /images/prism/prism_callback.png
       shortName: Callbacks
       title: Mocking Callbacks
-
+      isReversed: true
+      ctas:
+        - color: blue2
+          href: https://stoplight.io/p/docs/gh/stoplightio/prism/docs/guides/04-callbacks.md
+          title: Learn More
+          type: arrow-link
+          rightIcon: arrow-right
     - description: >
         Identify discrepancies between the OpenAPI document and target API to
         help frontend developers integrating with your API. The proxy can also
         be enabled in staging or any other pre-production environment, to ensure
         OpenAPI documents and code stay in sync.
-      image: /images/prism_science.jpg
+      image: /images/development/validation.svg
       shortName: Proxy
       title: Validation Proxy
-      
+      ctas:
+        - color: blue2
+          href: https://stoplight.io/p/docs/gh/stoplightio/prism/docs/guides/03-validation-proxy.md
+          title: Learn More
+          type: arrow-link
+          rightIcon: arrow-right
+actionBar:
+  ctas:
+    - href: 'https://meta.stoplight.io/docs/prism/README.md'
+      title: Get Started with Prism
+      color: blue2
+      large: true
+  centered: true
+  enabled: true
+  text: Ready to Mock Your API in Minutes?
+solutionsNav:
+  title: Explore the API Design Lifecycle
+  icons:
+    - icon: 'pencil'
+      color: blue2
+      title: Design
+      href: /api-design/
+    - icon: code
+      color: lavender
+      title: Development
+      href: /api-development/
+    - icon: chart-network
+      color: blue
+      title: Visibility
+      href: /api-visibility/
+    - icon: server
+      color: indigo
+      title: Mocking
+      href: /api-mocking/
+    - icon: balance-scale
+      color: purple
+      title: Governance
+      href: /api-governance/
+    - icon: book-open
+      color: blue2
+      title: Documentation
+      href: /api-documentation/
+    - icon: user-friends
+      color: yellow
+      title: Collaboration
+      href: /api-collaboration/
 meta:
   description: Accelerate API development with realistic mock servers powered by API descriptions
   favicon: /images/mark_light_bg.png
   image: /images/prism_example.png
+  url: 'https://stoplight.io/open-source/prism'
   title: Prism | Open-Source HTTP Mock and Proxy Server
+  robots: 'index, follow'
   twitter:
     description: Accelerate API development with realistic mock servers powered by API descriptions
     image: /images/prism_example.png

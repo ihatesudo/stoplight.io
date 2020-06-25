@@ -14,7 +14,6 @@ listSubtitle: >-
   External API documentation refers to customer-facing API docs, which are
   essential to communicating how to use your public APIs effectively with your
   customers.
-color: blue
 includeToc: true
 actionBar:
   ctas: []
@@ -35,6 +34,7 @@ meta:
     title: Enterprise External and Public API Documentation | Stoplight
     image: /images/documentation-team.jpg
     username: '@stoplightio'
+  url: https://stoplight.io/documentation/external-public-api-documentation
 ---
 External API documentation refers to customer-facing API docs, which in turn are an essential way to communicate with your customers how to use your public APIs effectively.
 

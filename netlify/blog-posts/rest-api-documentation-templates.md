@@ -10,10 +10,7 @@ author: Adam DuVander
 title: 'REST API Documentation Templates'
 subtitle: Streamlining The API Documentation Process
 image: /images/documentation-team.jpg
-color: black
 includeToc: true
-disqus:
-  enabled: true
 actionBar:
   ctas:
     - color: black
@@ -38,6 +35,7 @@ meta:
     title: 'REST API Documentation Templates | Stoplight API Intersection'
     image: /images/documentation-team.jpg
 ---
+
 Documentation can be time-consuming to create from scratch. In many cases, it’s an afterthought. You’ve already designed and built the API. Now you need to figure out how to tell others how to use it. Whether it’s internal or external API consumers, they’ll want to know about authentication, the endpoints, and what response data to expect. Once you collect all the information, then you need to figure out how to present it.
 
 Yet, we’ve all had at least one great experience with documentation, where everything you need is effortlessly communicated. In this post, we’ll outline a shortcut for documenting your API and provide templates you can use to create great docs for your REST API.

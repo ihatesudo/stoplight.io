@@ -10,12 +10,9 @@ author: Adam DuVander
 title: Enforce an API Style Guide in Your Organization
 subtitle: What to include and how to keep your APIs consistent
 image: /images/design-color-swatch.png
-color: black
 tabs:
   - {}
 includeToc: true
-disqus:
-  enabled: true
 actionBar:
   ctas:
     - color: purple

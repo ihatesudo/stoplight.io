@@ -6,7 +6,7 @@ import Highlight from './highlight';
 
 const BaseMarkdown = new MarkdownIt({
   html: true,
-  breaks: true,
+  breaks: false,
   linkify: true,
   typographer: true,
   highlight: (str, lang) => {

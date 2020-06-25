@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { withRouteData } from 'react-static';
-
 import { Container, IContainer } from 'src/components/Container';
+import { LandingHero } from 'src/components/Hero/LandingHero';
 import { SimpleCard } from 'src/components/SimpleCard';
 import { Author } from 'src/components/SimpleCard/Author';
 import { SimpleCardBody } from 'src/components/SimpleCard/SimpleCardBody';
@@ -12,11 +12,9 @@ import { SimpleCardTop } from 'src/components/SimpleCard/SimpleCardTop';
 import { ActionBar, IActionBar } from '../../components/ActionBar';
 import { Collage, ICollage } from '../../components/Collage';
 import { Feature } from '../../components/FeatureSection';
-import { Hero, IHero } from '../../components/Hero';
+import { IHero } from '../../components/Hero';
 import { Image } from '../../components/Image';
 import { Layout } from '../../components/Layout';
-
-import { Chips } from '../../components/Chip';
 import { IMember, Member } from '../../components/MemberCard';
 import { Section } from '../../components/Section';
 import { IValue, Value } from '../../components/Value';
@@ -27,7 +25,6 @@ export interface IAbout {
   mission: ISection;
   coreValues: ICoreValues;
   socialGood: ISection;
-  careers: ISection;
   team: ITeamSection;
   businesses: IBusinesses;
   press: IPressSection;
@@ -80,7 +77,6 @@ export const About: React.FunctionComponent<IAbout> = ({
   mission,
   coreValues,
   socialGood,
-  careers,
   team,
   press,
   businesses,
@@ -89,25 +85,25 @@ export const About: React.FunctionComponent<IAbout> = ({
 }) => {
   return (
     <Layout header={{ pinnedColor: 'black' }}>
-      <Hero key="hero" bgColor={color} title={hero.title} subtitle={hero.subtitle} ctas={hero.ctas} />
+      <LandingHero {...hero} />
 
-      <Section id="mission" noPaddingB>
-        <Container className="pb-32 border-b" title={mission.title}>
+      <Section id="mission" noPadding className="pt-20">
+        <Container className="pb-32 text-black" title={mission.title}>
           <div
-            className="flex max-w-lg mx-auto text-lg leading-loose text-center"
+            className="flex max-w-lg mx-auto text-lg leading-loose text-center text-black"
             dangerouslySetInnerHTML={{ __html: mission.description }}
           />
         </Container>
       </Section>
 
-      <Section id="core-values" noPaddingB>
-        <Container className="pb-32 border-b" title={coreValues.title}>
+      <Section id="core-values" noPadding>
+        <Container className="pb-32 text-black border-b" title={coreValues.title}>
           <div
-            className="flex max-w-lg mx-auto mb-20 text-lg leading-loose text-center"
+            className="flex max-w-lg mx-auto text-lg leading-loose text-center text-black"
             dangerouslySetInnerHTML={{ __html: coreValues.description }}
           />
 
-          <div className="flex flex-wrap justify-around">
+          <div className="flex flex-wrap justify-around text-black">
             {coreValues.values.map((value, index) => (
               <Value
                 key={index}
@@ -122,17 +118,15 @@ export const About: React.FunctionComponent<IAbout> = ({
       </Section>
 
       <Section id="social-good" noPaddingB>
-        <Container className="pb-32 border-b">
-          <Feature title={socialGood.title} description={socialGood.description} image={socialGood.image} />
-
-          <Feature title={careers.title} description={careers.description} image={careers.image} isReversed />
+        <Container className="pb-32 text-black border-b">
+          <Feature title={socialGood.title} description={socialGood.description} image={socialGood.image} isRound />
         </Container>
       </Section>
 
       <Section id="team">
-        <Container title={team.title}>
+        <Container className="text-black " title={team.title}>
           <div
-            className="flex max-w-lg mx-auto mb-20 text-lg leading-loose text-center"
+            className="flex max-w-lg mx-auto mb-20 text-lg leading-loose text-center text-black"
             dangerouslySetInnerHTML={{ __html: team.description }}
           />
           <Image
@@ -142,7 +136,7 @@ export const About: React.FunctionComponent<IAbout> = ({
             style={{ height: 500 }}
           />
 
-          <div className="flex flex-wrap sm:mt-32 sm:justify-around">
+          <div className="flex flex-wrap justify-center sm:mt-32 sm:justify-around">
             {team.members.map((member, index) => (
               <Member
                 key={index}
@@ -163,11 +157,11 @@ export const About: React.FunctionComponent<IAbout> = ({
       </Section>
 
       {press.articles && (
-        <Section id="press" {...sectionProps}>
-          <Container cta={press.cta} title={press.title}>
+        <Section id="press" {...sectionProps} noPaddingT>
+          <Container cta={press.cta} title={press.title} className="text-black">
             <div className="flex flex-wrap justify-center">
               {press.articles.map((article, index) => (
-                <div className="flex px-6 mb-6 text-grey-darker hover:bg-grey-lightest w-80">
+                <div key={index} className="flex w-64 px-3 mb-6 text-grey-darker hover:bg-grey-lightest">
                   <SimpleCard key={index} className="h-64 p-8 bg-white" href={article.href} hoverable>
                     <SimpleCardTop className="items-start pb-4">
                       <div className="flex justify-center">
@@ -190,20 +184,12 @@ export const About: React.FunctionComponent<IAbout> = ({
         </Section>
       )}
 
-      <Chips
-        segments={[
-          { color: 'blue', length: 3 },
-          { color: 'blue-lighter', length: 2 },
-        ]}
-        className="justify-center"
-      />
-
       {businesses.quotes && (
-        <Section id="businesses" {...sectionProps}>
-          <Container title={businesses.title}>
+        <Section id="businesses" {...sectionProps} noPadding>
+          <Container title={businesses.title} className="text-black">
             <div className="flex flex-wrap justify-between md:justify-center">
               {businesses.quotes.map((business, index) => (
-                <SimpleCard key={index} className="p-8 m-8 bg-white w-96" elevated>
+                <SimpleCard key={index} className="p-8 mx-3 my-8 bg-white w-80" elevated>
                   <SimpleCardTop className="p-2">
                     <div className="flex justify-center">
                       <Image
@@ -227,16 +213,7 @@ export const About: React.FunctionComponent<IAbout> = ({
         </Section>
       )}
 
-      <Chips
-        segments={[
-          { color: 'orange-dark', length: 1 },
-          { color: 'orange', length: 2 },
-          { color: 'orange-lighter', length: 3 },
-        ]}
-        className="justify-center"
-      />
-
-      <Collage id="investors" className="pb-64" {...collage} />
+      <Collage id="investors" className="pb-32" {...collage} />
     </Layout>
   );
 };

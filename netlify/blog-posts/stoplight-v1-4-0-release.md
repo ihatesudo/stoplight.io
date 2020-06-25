@@ -8,8 +8,6 @@ title: Stoplight v1.4.0 Release
 subtitle: Studio and Platform
 listSubtitle: October 31st Studio and Platform Releases | Stoplight API Intersection
 image: /images/changelog-stock.jpg
-color: black
-includeToc: true
 actionBar:
   ctas: []
   enabled: false
@@ -25,9 +23,8 @@ meta:
     title: Stoplight v1.4.0 Release | Stoplight API Intersection
     image: /images/changelog-stock.jpg
     username: '@stoplightio'
-disqus:
-  enabled: true
 ---
+
 ## Studio v1.4.0
 
 Stoplight Studio v1.4.0 is now available! Included in this release is removal of a previously-required directory structure and several bug fixes. Read more below.

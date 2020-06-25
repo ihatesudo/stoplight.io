@@ -105,6 +105,6 @@ Mauny again stressed the importance of security across all APIs, new and legacy.
 
 ## Manage API Design Across the Lifecycle
 
-As Mauny mentioned, there's a place for [testing at every stage](https://stoplight.io/blog/api-integration-testing/), whether it's from a security perspective, to confirm that APIs match their descriptions, or as a way to ensure consistency. 
+As Mauny mentioned, there's a place for testing at every stage, whether it's from a security perspective, to confirm that APIs match their descriptions, or as a way to ensure consistency.
 
 [Stoplight Studio](https://stoplight.io/studio/) is an API design management platform that connects to your existing Git repository of OpenAPI, Swagger documents, and other documentation. It also allows you to visually create OpenAPI documents and maintain consistency across dozens, hundreds, or thousands of APIs.

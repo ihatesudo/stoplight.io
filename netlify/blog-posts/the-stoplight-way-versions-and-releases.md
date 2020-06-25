@@ -10,9 +10,6 @@ author: Nicholas Cassera
 title: 'The Stoplight Way: Versions and Releases'
 subtitle: 'An integral part of any teams workflow, is version control'
 image: /images/versions-releases.jpeg
-color: indigo
-disqus:
-  enabled: true
 actionBar:
   ctas:
     - color: purple
@@ -49,16 +46,12 @@ Version control is extremely helpful internally but it is an excessive amount of
 
 We realize that different teams might be using our product in different ways, so we have two possible methods of version control in Stoplight that will cover most use cases.
 
-![Versions and Releases in Stoplight](https://cdn-images-1.medium.com/max/800/1*Ul-zwQZJ7iWcUD-KBxyy4w.png)_Versions and Releases in Stoplight_
-
 ### Mirror Release Method
 
-The first method is to mirror your product or APIs release cycle. The basic rule of thumb is when you release a new version of your API, you also release that [version](https://docs.stoplight.io/platform/versioning/versions) in Stoplight. This release flow is one-to-one with your API, and will usually result in a large number of released versions within Stoplight.
+The first method is to mirror your product or APIs release cycle. The basic rule of thumb is when you release a new version of your API, you also release that version in Stoplight. This release flow is one-to-one with your API, and will usually result in a large number of released versions within Stoplight.
 
 ### Documentation Driven Method
 
-The second method is designed for a documentation driven project. First, you describe the major versions of your API. Next, any time you want the changes reflected in your published documentation, you can [re-release those versions](https://docs.stoplight.io/platform/versioning/releases). This method allows you to continue making edits to your documentation, without needing to create a new version, or worry about your in-progress work being shown to readers.
-
-![Versions in your documentation Hub](https://cdn-images-1.medium.com/max/800/1*jaB_AIs8k3pd9nQZsu253Q.png)_Versions in your documentation Hub_
+The second method is designed for a documentation driven project. First, you describe the major versions of your API. Next, any time you want the changes reflected in your published documentation, you can re-release those versions. This method allows you to continue making edits to your documentation, without needing to create a new version, or worry about your in-progress work being shown to readers.
 
 Ultimately, we’ll be expanding the release system to more than just publishing. Our goal is to build and publish docs, run scenarios and provide coverage reports, and create mock servers with a single click. Automating these processes will cut down on valuable engineering time you can then use elsewhere.

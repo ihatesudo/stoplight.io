@@ -13,9 +13,6 @@ author: Robert Wallach
 title: The API Cornucopia
 subtitle: Defining and describing APIs and their ecosystem
 image: /images/yummee-chinese.jpeg
-color: blue
-disqus:
-  enabled: true
 actionBar:
   ctas:
     - color: purple

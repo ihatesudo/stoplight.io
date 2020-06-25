@@ -10,11 +10,8 @@ author: Adam DuVander
 title: Build a Python REST API Server for Quick Mocking
 subtitle: Use Flask or Falcon to serve API requests
 image: /images/python-snake.jpg
-color: black
 tabs:
   - {}
-disqus:
-  enabled: true
 actionBar:
   ctas:
     - color: purple
@@ -180,7 +177,6 @@ Both Flask and Falcon provide fast ways to prototype a REST API in Python. If yo
 
 You can use an open source command line utility like [Prism API Server](https://github.com/stoplightio/prism) to stage a mock API. It will consume your OpenAPI document to determine the endpoints, methods, and data supported by the API. Then it serves mock data and validates the API description.
 
-![Dynamic mock servers in Stoplight](/images/dynamic-mocking.png 'Dynamic mock servers in Stoplight')
 
 Stoplight also provides [hosted mock API servers](https://stoplight.io/mocking/) which connects Prism to your API design and testing process. It’s easy to make sample calls against your mock API right from the browser. Then you can share them with your team and even connect your server to the frontend before you write any backend code.
 

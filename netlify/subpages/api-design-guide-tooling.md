@@ -9,7 +9,6 @@ relatedTags:
 publishedDate: 'Jan 23, 2019'
 title: API Design Brings Powerful Tooling
 subtitle: Learn all there is about API Design through our comprehensive guide
-color: green
 tabs:
   - href: /api-design-guide/basics
     title: API Design Basics
@@ -24,7 +23,7 @@ actionBar:
     - submit:
         button:
           title: Get the API Design Guide
-          color: purple
+          color: blue2
         formId: e6cb86b0-8b13-49b8-860a-0e717da5489d
         input:
           placeholder: Your work email...
@@ -54,7 +53,6 @@ When you use OpenAPI to design your API, it becomes part of your workflow. That 
 
 Tooling built around the OpenAPI specification can help in the very early stages of design, throughout the life of an API, and even as you consider [versioning and deprecation](https://apisyouwonthate.com/blog/api-versioning-has-no-right-way/). We’ll cover and offer support on some of the common tools you might use with your API descriptions in this API design tooling guide, including the API description tool.
 
-![API Documentation](/images/documentation-design-guide.png)
 
 ## Generate API Documentation
 
@@ -81,8 +79,6 @@ Mocking API calls before they’re in production is a good idea. Once your API i
 Your OpenAPI definition describes exactly how your API can be used and what response to expect. During testing, you create scenarios for how your API is used, then run them to make sure you get the correct HTTP status code for the method used. If your OpenAPI document is a contact, testing makes sure you’ve built it true to the terms.
 
 Testing can be built into your CI/CD pipeline, so you always know that your tests are passing. Like other software testing, you can track coverage, ensuring that errors are unlikely to slip through. You can build fully customizable tests with built-in coverage reporting with Stoplight OpenAPI testing.
-
-![OAS Linting](/images/linting-design-guide.png 'Linting')
 
 ## Use Linting to Spot Errors
 

@@ -10,10 +10,7 @@ author: Kyle Lange
 title: 'OpenAPI and JSON Schema: When to Use Which'
 subtitle: Behind the divergence in data formats and how you can solve it
 image: /images/converging-car-lights.jpg
-color: black
 includeToc: true
-disqus:
-  enabled: true
 actionBar:
   ctas:
     - color: black
@@ -38,6 +35,7 @@ meta:
     title: 'OpenAPI and JSON Schema: When to Use Which | Stoplight API Intersection'
     image: /images/converging-car-lights.jpg
 ---
+
 OpenAPI v3.0 was a big step forward for the API design community. It expanded on and improved design-first processes and automation. It simplified definitions for more reusability, while supporting more security schemes. Among the largest additions were components. While these components improved upon previous JSON Schema support, OpenAPI v3.0 still leaves developers to cover for its incompatibilities.
 
 Many organizations have existing objects described by JSON Schema. The elephant in the room is that developers are running into a big problem: OpenAPI [still does not recognize and support some JSON Schema keywords](https://apisyouwonthate.com/blog/openapi-and-json-schema-divergence-part-1).
@@ -70,7 +68,7 @@ For more on complete API descriptions, see the Stoplight [API design guide to Op
 
 ## How to Use OpenAPI and JSON Schema Together
 
-Having looked at these formats separately, let’s journey forward to how and when you can use OpenAPI and a JSON Schema together.  Referenced here will be a lot of good work done by Stoplight’s Phil Sturgeon, who has some quick-fix ideas that will also help us understand the basics of how we can marry these powerful tools together.
+Having looked at these formats separately, let’s journey forward to how and when you can use OpenAPI and a JSON Schema together. Referenced here will be a lot of good work done by Stoplight’s Phil Sturgeon, who has some quick-fix ideas that will also help us understand the basics of how we can marry these powerful tools together.
 
 ### Keep Using JSON Schema
 
@@ -82,13 +80,13 @@ You’ll want to take your existing JSON Schema and convert it to one that inclu
 
 It’s not ideal to require an additional tool to maintain the harmony between JSON Schema and OpenAPI. That said, when later versions are compatible, it will be easier to reverse your fix.
 
-Using a simple [NPM package](https://github.com/openapi-community/json-schema-to-openapi-schema),  convert JSON Schema to OpenAPI Schema Objects. You’ll find a longer description of the conversions it makes in the above GitHub repo, but here’s a quick example with types and nullables:
+Using a simple [NPM package](https://github.com/openapi-community/json-schema-to-openapi-schema), convert JSON Schema to OpenAPI Schema Objects. You’ll find a longer description of the conversions it makes in the above GitHub repo, but here’s a quick example with types and nullables:
 
 ```javascript
 const toOpenApi = require('json-schema-to-openapi-schema');
 
 const schema = {
-  '$schema': 'http://json-schema.org/draft-04/schema#',
+  $schema: 'http://json-schema.org/draft-04/schema#',
   type: ['string', 'null'],
   format: 'date-time',
 };
@@ -116,10 +114,10 @@ OpenAPI v3.0 has continued to befuddle devs by being both a subset of JSON Schem
 
 In other words, the future still has divergence, but it’s getting closer. Here are JSON Schema 2019-09 keywords that still need support in OpenAPI v3.1, according to discussion within the pull request above:
 
-* nullable
-* discriminator
-* xml
-* example
+- nullable
+- discriminator
+- xml
+- example
 
 In addition, there are notes about the use of exclusiveMinimum and exclusiveMaximum. For a deeper dive, you can [read Phil’s article](https://phil.tech/2019/09/07/update-openapi-json-schema/) on the subject. He delves into the specific differences between the schema and spec. The big goal is to write standard JSON Schema in OpenAPI 3.1 **without** getting bizarre errors. No more workarounds or conversions.
 

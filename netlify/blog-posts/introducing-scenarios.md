@@ -9,8 +9,6 @@ publishedDate: 2017-02-09T00:05:29.244Z
 author: Stoplight
 title: Introducing Scenarios
 subtitle: 'The lean, mean, API testing machine'
-image: /images/introducing-scenarios.png
-color: black
 actionBar:
   ctas:
     - color: purple
@@ -21,11 +19,9 @@ meta:
   favicon: /images/mark_light_bg.png
   robots: 'index, follow'
   title: Introducing Scenarios | Stoplight API Intersection
-  image: /images/introducing-scenarios.png
   twitter:
     description: 'The lean, mean, API testing machine'
     title: Introducing Scenarios | Stoplight API Intersection
-    image: /images/introducing-scenarios.png
     username: '@stoplightio'
 ---
 
@@ -89,7 +85,7 @@ The testing module of the Stoplight app will be removed on March 15th. You are f
 
 Scenarios is actually the first product on our new v3 architecture. This architecture is much more robust, and allows for powerful features like local filesystem read/write for seamless interop with your existing workflows (whether it’s generating API specification from code, storing specs in Git, or using your favorite IDE to bulk edit specs every once and a while).
 
-**There will be no changes to existing users in the immediate future**. We are developing in tandem, and will be including next generation versions of  systems like mocking, modeling, and docs, in the product over the next few months.
+**There will be no changes to existing users in the immediate future**. We are developing in tandem, and will be including next generation versions of systems like mocking, modeling, and docs, in the product over the next few months.
 
 We are also working on an enterprise teams product, with enhanced Prism functionality — will share details soon (or please reach out to us in the meantime if this sounds interesting!).
 

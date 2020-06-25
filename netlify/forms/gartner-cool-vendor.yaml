@@ -1,10 +1,9 @@
 path: /gartner-cool-vendor
-title: Stoplight named a Gartner 2019 Cool Vendor
-titleImage: /images/gartner_cv_2019_rgb.png
-subtitle: >-
-  Stoplight named in Gartner’s prestigious  “Cool Vendor in Application
-  Development and Platforms” 2019 report.
-color: blue
+hero:
+  aligned: left
+  title: Stoplight named a Gartner 2019 Cool Vendor
+  titleImage: /images/gartner_cv_2019_rgb.png
+  subtitle: Stoplight named in Gartner’s prestigious  “Cool Vendor in Application Development and Platforms” 2019 report.
 hubspot:
   formId: e16f33d0-149f-4fe4-be2c-63ec29d9605e
   portalId: '4892910'
@@ -74,47 +73,56 @@ leftContent:
     or implied, with respect to this research, including any warranties of
     merchantability or fitness for a particular purpose</p>
 collage:
-  cta:
-    color: green
-    href: /case-studies
-    title: Read the Case Studies
+  title: TRUSTED BY LEADING API FIRST COMPANIES
   images:
-    - alt: EA
-      src: /images/ea.png
-    - alt: Arkea
-      src: /images/logo_arkea_transparent.png
-    - alt: Chargify
-      src: /images/chargify-new-logo.png
-    - alt: Deutsche Bank
-      src: /images/deutsche_bank.png
-    - alt: Sendgrid
-      src: /images/logo-sendgrid.png
-    - alt: Shopgate
-      src: /images/shopgate.png
-    - alt: Spotify
-      src: /images/spotify.png
-    - alt: TiVo
-      src: /images/tivo.png
-    - alt: Zendesk
-      src: /images/logo_zendesk.png
+    - src: /images/ea.png
+      alt: EA
+    - src: /images/logo_arkea_transparent.png
+      alt: Arkea
+    - src: /images/chargify-new-logo.png
+      alt: Chargify
+    - src: /images/deutsche_bank.png
+      alt: Deutsche Bank
+    - src: /images/logo-sendgrid.png
+      alt: Sendgrid
+    - src: /images/shopgate.png
+      alt: Shopgate
+    - src: /images/tivo.png
+      alt: TiVo
 testimonials:
-  title: 'Here is what some enterprise architects are saying:'
   testimonials:
-    - author: '- Software Architect'
+    - author: Tim Slagle
+      company: Zoom
+      image: /images/testimonials/tim_s.jpg
       quote: >-
-        We decided to go for Stoplight because we are convinced that the API
-        must be held by the business people (product owners). Before, they were
-        used to designing processes or UI screens. Now, the screens are made by
-        UX experts or by fintechs using our APIs. So, the product owners have to
-        design the API, it's an important change, not all of them are ready.
-        This is why a graphical tools is a good opportunity, perhaps the only
-        one, to involve them in the design of API.
-    - author: '- Enterprise Architect'
+        Our team roughly saves 15-20 hours a week. It makes it quicker to write, and the review process is quicker as well because we can go in and everybody can see the edits.  We're pretty impressed with Stoplight as a whole.
+      role: Manager of Developer Advocacy
+      # href: /case-studies/zoom-video/
+    - author: 'Carlos Lozano '
+      image: /images/carlos_testimonial.jpeg
       quote: >-
-        Stoplight addresses the needs of API Development holistically with a
-        strong emphasis on visual modelling and collaboration. It covers API
-        Prototyping, Mocking, Specification, Shared Schemas, Documentation,
-        Testing and Developer Portal generation - all customisable.
+        When it comes to specification markup and documentation, the order of
+        magnitude has gone from days to hours.
+      role: 'Senior Enterprise Architect, GFT Group'
+      # href: /case-studies/gft/
+    - author: John Vajda
+      image: /images/testimonials/john_vajda.jpeg
+      quote: >-
+        Stoplight has been a serious game changer for JumpCloud’s API development!
+        We love all the rich design, documentation and testing features, which has
+        enabled us to design awesome APIs for our customers.
+      role: 'Product Manager, JumpCloud'
+      # href: /case-studies
+    - author: Felix Sargent
+      company: MediaMath
+      image: /images/felix_s.jpg
+      quote: >-
+        Stoplight provides a clean user interface and enables an engineering
+        team to develop a compliant API with minimal difficulty. Other tools
+        don't provide the same details, guard rails, and error validation that
+        Stoplight provides.
+      role: Director of Engineering
+      # href: /case-studies/mediamath-video/
 actionBar:
   enabled: false
 meta:

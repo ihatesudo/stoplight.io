@@ -1,141 +1,190 @@
 import cn from 'classnames';
 import * as React from 'react';
 import { withRouteData, withSiteData } from 'react-static';
-
-import { IconName } from '@fortawesome/fontawesome-common-types';
-import { Chips } from 'src/components/Chip';
+import { Collage, ICollage } from 'src/components/Collage';
+import { IFeatureIconStrip } from 'src/components/FeatureIconStrip';
+import { LandingHero } from 'src/components/Hero/LandingHero';
 import { Icon } from 'src/components/Icon';
+import { IIntegrationsBar, IntegrationsBar } from 'src/components/IntegrationsBar';
+import { ILargeCard } from 'src/components/LargeCard';
+import { Link } from 'src/components/Link';
 import { SimpleCardBody } from 'src/components/SimpleCard/SimpleCardBody';
-import { SimpleCardBottom } from 'src/components/SimpleCard/SimpleCardBottom';
-import { SimpleCardTag } from 'src/components/SimpleCard/SimpleCardTag';
-import { SimpleCardTitle } from 'src/components/SimpleCard/SimpleCardTitle';
 import { SimpleCardTop } from 'src/components/SimpleCard/SimpleCardTop';
+
 import { ActionBar, IActionBar } from '../../components/ActionBar';
-import { Container, IContainer } from '../../components/Container';
-import { GartnerCoolVendor, IGartnerCoolVendor } from '../../components/GartnerCoolVendor';
-import { Hero, IHero } from '../../components/Hero';
+import { Container } from '../../components/Container';
+import { IHero } from '../../components/Hero';
 import { IImage, Image } from '../../components/Image';
 import { Layout } from '../../components/Layout';
-import { ISection, Section } from '../../components/Section';
+import { Section } from '../../components/Section';
 import { SimpleCard } from '../../components/SimpleCard';
+
+interface IFeatures {
+  title?: string;
+  description?: string;
+  features: ILargeCard[];
+}
 
 export interface IEnterprise {
   color: string;
-  customers: ICustomerSection;
   hero: IHero;
-  gartnerCoolVendor: IGartnerCoolVendor;
-  features: IFeature[];
-  caseStudies?: ICaseStudyCard[];
+  collage: ICollage;
+  subFeatures: IFeatures;
+  integrations: IIntegrationsBar;
+  featureIcons: IFeatureIconStrip;
+  growthNeeds: any;
+  security: any;
+  gartnerCoolVendor: any;
+  caseStudy: any;
+  support: any;
   actionBar?: IActionBar;
-}
-
-interface ICustomerSection extends ISection {
-  images: IImage[];
-  title?: IContainer['title'];
-  cta?: IContainer['cta'];
-  cardBg?: string;
-}
-
-interface ICaseStudyCard {
-  href: string;
-  company: string;
-  image: string;
-  tag: string;
-  description: string;
-  color: string;
-}
-
-interface IFeature {
-  name: string;
-  icon: IconName;
-  iconStyle: {
-    '--fa-primary-color': string;
-    '--fa-secondary-color': string;
-  };
-  description: string;
-  href?: string;
+  image: IImage;
 }
 
 export const Enterprise: React.FunctionComponent<IEnterprise> = ({
   color,
   hero,
-  caseStudies,
-  gartnerCoolVendor,
+  collage,
+  subFeatures,
+  integrations,
   actionBar,
-  features,
-  customers,
+  featureIcons,
+  growthNeeds,
+  security,
+  gartnerCoolVendor,
+  caseStudy,
+  support,
+  image,
   ...sectionProps
 }) => {
   return (
     <Layout>
-      <Hero bgColor={color} {...hero} aligned="center" image={hero.image && { ...hero.image, shadow: false }} />
-
-      {features && (
-        <Section id="features" className="pt-32 sm:pt-0" noPadding>
-          <Container className="flex flex-wrap justify-around">
-            {features.map((feature, index) => (
-              <SimpleCard key={index} className="items-center px-5 text-center w-80 mt-14 sm:pt-14">
-                <Icon icon={['fad', feature.icon]} className="text-center" size="3x" style={feature.iconStyle} />
-                <SimpleCardTop className="mt-5 text-xl font-bold text-grey-darkest">
-                  <SimpleCardTitle title={feature.name} />
-                </SimpleCardTop>
-                <SimpleCardBody
-                  className="my-2 font-medium leading-loose text-grey-dark"
-                  description={feature.description}
-                />
-              </SimpleCard>
-            ))}
-          </Container>
-        </Section>
-      )}
-
-      {caseStudies && (
-        <Section id="case-studies" {...sectionProps} noPaddingB>
-          <Chips
-            className="justify-center mb-10"
-            segments={[{ color: 'indigo-light', length: 2 }, { color: 'indigo-dark', length: 3 }, { color: 'indigo' }]}
+      {hero && <LandingHero bgColor={color} {...hero} />}
+      {collage && <Collage {...collage} />}
+      {subFeatures && subFeatures?.description && (
+        <Section id="enterprise-features" {...sectionProps} noPadding>
+          <h2 className="text-4xl text-center text-black text-semibold text-normal">{subFeatures?.title}</h2>
+          <div
+            className="container max-w-xl pt-10 text-xl text-center text-black"
+            dangerouslySetInnerHTML={{ __html: subFeatures?.description }}
           />
-          <div className="text-lg font-semibold text-center uppercase text-grey-dark">
-            Stoplight powers some of the world's leading API first companies
-          </div>
-          <Container className="flex flex-wrap justify-between md:justify-center mt-14">
-            {caseStudies.map((caseStudy, index) => (
-              <SimpleCard key={index} className="p-8 m-8 bg-white w-96 h-80" hoverable href={caseStudy.href}>
-                <SimpleCardTop>
-                  <div>
-                    <Image
-                      src={caseStudy.image}
-                      title={`${caseStudy.company} Logo`}
-                      alt={caseStudy.company}
-                      className="h-10"
-                    />
-                  </div>
-                </SimpleCardTop>
-                <SimpleCardBody description={caseStudy.description} className="mt-4 leading-loose text-grey-darker" />
-                <SimpleCardBottom className="flex items-center mt-6 mb-3 border-t">
-                  <div className="flex items-center flex-1 mt-8 text-blue">
-                    Read <Icon icon={['fad', 'arrow-right']} className="ml-3" />
-                  </div>
-
-                  <SimpleCardTag tag={caseStudy.tag} color={caseStudy.color} className="mt-8" />
-                </SimpleCardBottom>
-              </SimpleCard>
-            ))}
+          <Container className="flex flex-wrap justify-center pt-20 sm:w-full">
+            {subFeatures.features &&
+              subFeatures.features.map((subFeature, index) => (
+                <SimpleCard key={index} className="flex w-1/3 p-8 pb-20 bg-white sm:w-full sm:items-center">
+                  <SimpleCardTop className="flex items-start pb-4 sm:items-center">
+                    <Image src={subFeature?.image} className="flex items-center h-20 pb-5 sm:items-center" />
+                    <h2 className="pb-5 text-lg font-semibold uppercase text-grey-darker">{subFeature.category}</h2>
+                    <h3 className={cn('text-xl md:h-12', `text-${subFeature.titleColor || 'black'}`)}>
+                      {subFeature.title}
+                    </h3>
+                  </SimpleCardTop>
+                  <SimpleCardBody className="flex items-start pb-4 sm:text-center sm:items-center" {...subFeature} />
+                  <Link to={subFeature.href} className="font-semibold text-blue2 sm:pt-5">
+                    Learn More
+                    <Icon icon="arrow-right" className="ml-3" />
+                  </Link>
+                </SimpleCard>
+              ))}
           </Container>
-          <div className="container flex flex-wrap justify-between px-20 mt-10">
-            {customers.images.map((image, key) => (
-              <div key={key} className="py-8 sm:w-1/2 sm:p-6">
-                <Image className="h-8" src={image.src} title={`${image.alt} Logo`} alt={image.alt} />
-              </div>
-            ))}
+        </Section>
+      )}
+      {integrations && <IntegrationsBar {...integrations} className="bg-white" />}
+      {growthNeeds && (
+        <Section {...sectionProps} className="text-center text-white bg-black">
+          <h2 className="pb-16 text-4xl text-center text-white md:px-6 text-normal">{growthNeeds.title}</h2>
+          <div className="flex justify-center sm:flex-wrap">
+            <Image src="/images/enterprise/infinity.svg" alt="infinity" className="h-40 pb-16" />
+          </div>
+          <div
+            className="container max-w-lg pt-16 text-xl text-center"
+            dangerouslySetInnerHTML={{
+              __html:
+                'Expand your use without a cap on changelogs, projects or guests. Our pricing structure scales with your needs.',
+            }}
+          />
+        </Section>
+      )}
+      {security && (
+        <Section id={security.title}>
+          <h2 className="py-16 text-4xl text-center text-black text-normal md:px-6">{security.title}</h2>
+          <div className="flex justify-center sm:flex-wrap">
+            {security.images &&
+              security.images.map((image, index) => (
+                <div className="flex-row" key={index}>
+                  <div className="flex justify-center pb-16" key={index}>
+                    <Image src={image.src} className="h-32" size="sm" />
+                  </div>
+                  <div className="container pb-4 text-2xl text-center text-black text-semibold">
+                    <h4>{image.title}</h4>
+                  </div>
+                  <div className="container max-w-md text-xl text-center text-black">
+                    <p>{image.desc}</p>
+                  </div>
+                </div>
+              ))}
           </div>
         </Section>
       )}
-
-      {gartnerCoolVendor && <GartnerCoolVendor className="pt-32" noPadding {...gartnerCoolVendor} />}
-
+      {caseStudy && (
+        <Section id={caseStudy.company} className={cn('bg-black')}>
+          <div className="flex justify-center pb-10">
+            <Image src={caseStudy.image} className="h-24" size="sm" />
+          </div>
+          <div className="container max-w-xl pb-10 text-center">
+            <p className="text-xl text-white">{caseStudy.desc}</p>
+          </div>
+          <div className="container max-w-xl pb-16 text-xl text-center">
+            <p className="text-white">{caseStudy.name}</p>
+          </div>
+          <div className="flex justify-center">
+            <Image src={caseStudy.logo} className="h-12" size="sm" />
+          </div>
+        </Section>
+      )}
+      {support && (
+        <Section id={support.title}>
+          <h2 className="py-16 text-4xl text-center text-black text-normal">{support.title}</h2>
+          <div className="flex justify-center sm:flex-wrap">
+            {support.images &&
+              support.images.map((image, index) => (
+                <div className="flex-row" key={index}>
+                  <div className="flex justify-center pb-16" key={index}>
+                    <Image src={image.src} className="h-32" size="sm" />
+                  </div>
+                  <div className="container max-w-sm pb-4 text-2xl text-center text-black text-semibold">
+                    <h4>{image.title}</h4>
+                  </div>
+                </div>
+              ))}
+          </div>
+        </Section>
+      )}
+      {gartnerCoolVendor && (
+        <Section id={gartnerCoolVendor.title} noPadding>
+          <h2 className="py-16 text-4xl text-center text-black text-normal">{gartnerCoolVendor.title}</h2>
+          <div className="flex justify-center sm:flex-wrap">
+            {gartnerCoolVendor.images &&
+              gartnerCoolVendor.images.map((image, index) => (
+                <div className="px-12 sm:py-10" key={index}>
+                  <Image src={image.src} className="h-48" size="sm" />
+                </div>
+              ))}
+          </div>
+          <div
+            className="container w-2/3 pt-16 pb-10 text-xl text-center text-grey-darker "
+            dangerouslySetInnerHTML={{ __html: gartnerCoolVendor.description }}
+          />
+          <div className="container text-lg text-center text-black">
+            <Link to={gartnerCoolVendor.href} className="font-bold text-blue2">
+              Learn More
+              <Icon icon="arrow-right" className="ml-3" />
+            </Link>
+          </div>
+        </Section>
+      )}
       {actionBar && (
-        <Section>
+        <Section id="action" {...sectionProps}>
           <ActionBar {...actionBar} />
         </Section>
       )}

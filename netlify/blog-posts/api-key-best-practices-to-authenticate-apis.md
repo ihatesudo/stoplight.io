@@ -170,6 +170,6 @@ For example, here is the security section of Stripe's OpenAPI document, showing 
       type: http
 ```
 
-Ultimately, having a machine-readable API specification allows you to test the implementation against the specification throughout your API development lifecycle without extensive effort. We've written extensively about [API security in OpenAPI](https://stoplight.io/blog/api-security-in-openapi-b105ae725a08/) previously.
+Ultimately, having a machine-readable API specification allows you to test the implementation against the specification throughout your API development lifecycle without extensive effort.
 
 [Stoplight Studio](https://stoplight.io/studio/) makes it easy to design your API visually—including security definitions around any authentication—with OpenAPI.

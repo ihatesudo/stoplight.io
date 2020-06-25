@@ -1,90 +1,74 @@
 import * as React from 'react';
 import { withRouteData } from 'react-static';
+import { ActionBar, IActionBar } from 'src/components/ActionBar';
+import { FeatureIconStrip, IFeatureIconStrip } from 'src/components/FeatureIconStrip';
+import { LandingHero } from 'src/components/Hero/LandingHero';
+import { IntegrationsBar } from 'src/components/IntegrationsBar';
+import { ILargeCard, LargeCard } from 'src/components/LargeCard';
 
-import { Collage, ICollage } from '../../components/Collage';
 import { Container } from '../../components/Container';
-import { FeatureSection, FeatureStrip, IFeatureSection } from '../../components/FeatureSection';
-import { Hero, IHero } from '../../components/Hero';
-import { HubSpotForm, IHubSpotForm } from '../../components/HubSpotForm';
-import { IImageCallout, ImageCallout } from '../../components/ImageCallout';
+import { IHero } from '../../components/Hero';
 import { Layout } from '../../components/Layout';
-import { PricingCard } from '../../components/PricingCard';
-import { IRelatedPage, RelatedPages } from '../../components/RelatedPages';
 import { Section } from '../../components/Section';
 
-export interface ILanding {
+interface IFeatures {
+  title: string;
+  description: string;
+  features: ILargeCard[];
+}
+
+interface ILanding {
   color: string;
   hero: IHero;
-  imageCallout: IImageCallout;
-  collage: ICollage;
-  featureSection: IFeatureSection;
-  hubspot: IHubSpotForm & { title?: string; description?: string };
-  relatedPages?: IRelatedPage[];
-  pricingSection?: any;
+  featureIconStrip?: IFeatureIconStrip;
+  features: IFeatures;
+  integrations: any;
+  actionBar?: IActionBar;
+  solutionsNav?: IFeatureIconStrip;
 }
 
 export const Landing: React.FunctionComponent<ILanding> = ({
   color,
   hero,
-  imageCallout,
-  collage,
-  featureSection,
-  hubspot,
-  relatedPages,
-  pricingSection,
+  features,
+  integrations,
+  featureIconStrip,
+  actionBar,
+  solutionsNav,
+  ...sectionProps
 }) => {
   return (
     <Layout>
-      <Hero bgColor={color} {...hero} />
+      {hero && <LandingHero bgColor={color} {...hero} />}
+      {featureIconStrip && <FeatureIconStrip {...featureIconStrip} />}
+      {features && (
+        <Section id="features" noPadding>
+          {features.title && (
+            <h2 className="p-0 text-3xl font-bold text-center text-black sm:mx-12 md:px-10">{features?.title}</h2>
+          )}
 
-      <ImageCallout {...imageCallout} />
+          {features.description && (
+            <div
+              className="container max-w-2xl pt-5 text-xl leading-loose text-center opacity-75"
+              dangerouslySetInnerHTML={{ __html: features?.description }}
+            />
+          )}
 
-      {featureSection && (
-        <Section noPadding>
-          <FeatureStrip features={featureSection.features} />
-        </Section>
-      )}
-
-      {featureSection && (
-        <FeatureSection color={color} {...featureSection} />
-      )}
-
-      <Collage className="md:px-0 py-6 md:py-6" noPadding {...collage} />
-
-      {hubspot && (
-        <Section key="hubspot" id="demo">
-          <div className="container flex items-center justify-center">
-            <div className="w-full">
-              {hubspot.title && <h2 className="text-3xl text-center">{hubspot.title}</h2>}
-
-              {hubspot.description && (
-                <div className="flex justify-center flex-wrap items-center pb-12 md:pb-12">
-                  <div
-                    className="font-default opacity-75 text-xl max-w-lg mt-4 md:mt-6 mx-auto text-center"
-                    dangerouslySetInnerHTML={{ __html: hubspot.description }}
-                  />
-                </div>
-              )}
-
-              <HubSpotForm className="p-16 md:p-4" portalId={hubspot.portalId} formId={hubspot.formId} />
-            </div>
-          </div>
-        </Section>
-      )}
-
-      {pricingSection && (
-        <Section id="pricing">
-          <Container title={pricingSection.title}>
-            <div className="flex justify-around flex-wrap mt-12">
-              {pricingSection.cards.map((card, index) => (
-                <PricingCard key={index} {...card} />
-              ))}
-            </div>
+          <Container className="flex flex-wrap justify-center pt-20 md:block md:w-full sm:p-0">
+            {features?.features && features?.features?.map((feature, index) => <LargeCard key={index} {...feature} />)}
           </Container>
         </Section>
       )}
+      {integrations && <IntegrationsBar {...integrations} />}
 
-      {featureSection && relatedPages && relatedPages.length ? <RelatedPages pages={relatedPages} /> : null}
+      {actionBar && (
+        <Section id="action" {...sectionProps} noPaddingB>
+          <ActionBar {...actionBar} />
+        </Section>
+      )}
+      <Section id="solutions" {...sectionProps} noPadding>
+        {solutionsNav && <FeatureIconStrip {...solutionsNav} />}
+      </Section>
     </Layout>
   );
 };

@@ -11,11 +11,9 @@ title: Don’t Waste Your Time Building Fake APIs in Code
 subtitle: 'Compare OpenAPI mock servers to writing Java, PHP, and C#'
 listSubtitle: ''
 image: /images/countdown-clock.jpg
-color: black
 tabs:
   - {}
 includeToc: true
-disqus: {}
 actionBar:
   ctas:
     - color: purple
@@ -49,7 +47,7 @@ But first, here are a few brief reasons mocking saves you time and keeps your wo
    \
    This is a big advantage for both development teams because they can discover where the mock API doesn’t meet their combined needs. This fast feedback loop can make engineering teams much more efficient as they improve their processes and outcomes together.
 3. **You can also use a mock API for testing.**\
-   [API unit testing](https://stoplight.io/blog/the-fundamentals-of-http-api-unit-testing-2c55cd0c7634/) is a must for your production API. But it is also useful during development. Mock APIs are perfect for initial unit testing because they can get the ball rolling in helping developers think about:
+   API unit testin is a must for your production API. But it is also useful during development. Mock APIs are perfect for initial unit testing because they can get the ball rolling in helping developers think about:
 
    - breaking larger sets of logic into testable “units” right from the start
    - covering initially anticipated use cases
@@ -162,6 +160,6 @@ Once you have an OpenAPI document, you can generate a quick mock API using [Pris
 
 With that information, you can connect to Spotlight’s [hosted servers](https://stoplight.io/mocking/) and your mock API is ready for you to use over and over. You can now easily change the endpoints, methods, and data without having to write fake code and Prism will give you all the mock data you need to test and validate your API architecture.
 
-You can [set up a mock API server](https://docs.stoplight.io/mocking/setup-mock-server) to run locally, or have it automatically hosted. Hosting makes it easy to share the mock server with your front-end team, so they can use it to progress on their side of the build.
+You can set up a mock API server to run locally, or have it automatically hosted. Hosting makes it easy to share the mock server with your front-end team, so they can use it to progress on their side of the build.
 
 Your team will move faster and you can focus on writing the code that will make it to production.

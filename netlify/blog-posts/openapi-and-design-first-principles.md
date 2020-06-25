@@ -11,9 +11,6 @@ author: Lukas Rosenstock
 title: OpenAPI and Design-First Principles
 subtitle: Why API Design is critical and how the OpenAPI Specification can help
 image: /images/openapi-design-first.jpeg
-color: indigo
-disqus:
-  enabled: true
 actionBar:
   ctas:
     - color: purple
@@ -60,7 +57,7 @@ For even better collaboration, you can use SaaS products like [Stoplight](/), wh
 
 When the specification is complete, you can then generate a mock server. Thanks to this, frontend and backend development can happen independently, without teams waiting for each other. Backend engineers write the API server to specification and test it, or even leverage tools capable of generating server-side code stubs from OpenAPI to save time writing code. Simultaneously, the frontend developers can build their application and receive correct API responses from the mock server. To some extent, this approach can be considered the API equivalent of test-driven development (TDD), or contract-first development. There are multiple tools to run tests and build a mock server from OpenAPI.
 
-[Prism, a server and command line utility available from Stoplight](/platform/prism/), is capable of doing both.
+[Prism, a server and command line utility available from Stoplight](/api-mocking/), is capable of doing both.
 
 ## The Power of OpenAPI
 

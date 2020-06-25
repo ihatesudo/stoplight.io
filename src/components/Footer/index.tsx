@@ -44,7 +44,7 @@ export const Footer: React.FunctionComponent<IFooterProps> = ({ footer, bg = 'bl
 
   return (
     <footer
-      className={cn(`bg-${bg} py-12 z-5 relative`, {
+      className={cn(`bg-${bg} py-12 z-5 relative `, {
         'border-t-4 border-lighten-300': !noBorder,
       })}
     >
@@ -56,10 +56,10 @@ export const Footer: React.FunctionComponent<IFooterProps> = ({ footer, bg = 'bl
         </div>
 
         {columns && (
-          <div className="flex flex-wrap justify-between w-full py-8">
+          <div className="flex flex-wrap justify-between w-full py-8 sm:flex sm:flex-wrap sm:pt-10">
             {columns.map((column, index) => {
               return (
-                <div key={index}>
+                <div key={index} className="sm:flex sm:flex-col sm:mb-10 sm:mr-auto">
                   <div className="py-2 font-bold text-grey-light">{column.title}</div>
 
                   {column.links &&
@@ -79,7 +79,6 @@ export const Footer: React.FunctionComponent<IFooterProps> = ({ footer, bg = 'bl
             })}
           </div>
         )}
-
         <div className="flex flex-wrap justify-around w-full py-8">
           <Link className="block pr-4 text-grey" to="/">
             &copy; {new Date().getFullYear()} Stoplight
@@ -98,7 +97,7 @@ export const Footer: React.FunctionComponent<IFooterProps> = ({ footer, bg = 'bl
                   elems.unshift(
                     <span key={`${index}-sep`} className="mx-2">
                       |
-                    </span>,
+                    </span>
                   );
                 }
 

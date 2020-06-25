@@ -1,118 +1,157 @@
 title: Stoplight Enterprise
-color: black
+color: white
 path: /enterprise
 hero:
-  particles: true
-  image:
-    alt: Stoplight Enterprise Platform
-    src: /images/enterprise/hero.png
-  title: API Design Management at Scale
+  title: Build APIs at Scale
   subtitle: >-
-    The Stoplight Enterprise Platform increases the consistency, visibility, and quality of your internal and external APIs.
+    Stoplight Enterprise transforms API Development across your organization, leading to consistent, high-quality APIs.
+  titleImage: '/images/enterprise/hero.svg'
+  aligned: left
   ctas:
-    - title: Book a Demo
-      type: 'submit'
-      submit:
-        button:
-          color: purple
-          title: Book a Demo
-          href: '/demo/'
-        input:
-          type: email
-          placeholder: Your business email...
-        formId: 'a5fb939e-7da2-4a9e-9784-338f92a71e41'
-features:
-  - name: Explorer
-    description: The single source of truth for all your API related assets.
-    icon: 'chart-network'
-    iconStyle:
-      '--fa-primary-color': 'dodgerblue'
-      '--fa-secondary-color': 'limegreen'
-  - name: Design Libraries
-    description: Define standard representations of your primary domain objects for easy re-use.
-    icon: 'layer-group'
-    iconStyle:
-      '--fa-primary-color': 'orange'
-      '--fa-secondary-color': 'red'
-  - name: API Style Guides
-    description: Style guides increase API quality and consistency.
-    icon: 'pencil-ruler'
-    iconStyle:
-      '--fa-primary-color': 'skyblue'
-      '--fa-secondary-color': 'steelblue'
-  - name: Internal Docs
-    description: Technical docs for the entire company.
-    href:
-    icon: 'book'
-    iconStyle:
-      '--fa-primary-color': 'salmon'
-      '--fa-secondary-color': 'darksalmon'
-  - name: External Docs
-    description: Publish docs for your customers and external stakeholders.
-    icon: 'book-open'
-    iconStyle:
-      '--fa-primary-color': 'indianred'
-      '--fa-secondary-color': 'indianred'
-  - name: Git Integrations
-    description: Seamlessly integrates with Github, Bitbucket, and Gitlab.
-    icon: 'code-branch'
-    iconStyle:
-      '--fa-primary-color': 'dodgerblue'
-      '--fa-secondary-color': 'limegreen'
-  - name: SSO Integrations
-    description: Connect your identity provider.
-    icon: 'shield'
-    iconStyle:
-      '--fa-primary-color': 'tomato'
-      '--fa-secondary-color': 'tomato'
-  - name: On-Premise
-    description: Runs where you want - hybrid cloud or in your data center.
-    icon: 'server'
-    iconStyle:
-      '--fa-primary-color': 'slategray'
-      '--fa-secondary-color': 'slategray'
-caseStudies:
-  - company: Arkea
-    href: /case-studies/arkea
-    image: /images/logo_arkea_transparent.png
-    description: Arkéa has been involved in open banking for several years by providing white label banking services and saw PSD2 as an opportunity to extend their open banking features.
-    tag: Finance
-    color: orange
-  - company: Namely
-    href: /case-studies/namely
-    image: /images/logo_namely_transparent.png
-    description: Namely’s chief objective was to adopt API Design First principles. As they applied their new principle, they realized the importance of reliable, up to date, documentation.
-    tag: HR
-    color: indigo
-  - company: Appointment Plus
-    href: /case-studies/appointmentplus
-    image: /images/logo_appointmentplus_transparent.png
-    description: AppointmentPlus was managing multiple APIs built by different teams, at different times, with different strategies and intents.
-    tag: Tech
-    color: green
+    - color: black
+      href: /demo
+      large: true
+      title: Contact Sales
+collage:
+  images:
+    - src: /images/deutsche_bank.png
+      alt: Deutsche Bank
+    - alt: Chargify
+      src: /images/chargify-new-logo.png
+    - alt: Sendgrid
+      src: /images/logo-sendgrid.png
+    - alt: EA
+      src: /images/ea.png
+    - alt: TiVo
+      src: /images/tivo.png
+    - src: /images/logo_arkea_transparent.png
+      alt: Arkea
+    - src: /images/shopgate.png
+      alt: Shopgate
+  title: >-
+    Trusted By Leading API First Companies
+subFeatures:
+  title: Scale with Confidence
+  description: >-
+    Share and collect early feedback, track changes, manage dependencies, and create style guides across your organization's APIs.
+  features:
+    - category: Design
+      title: Scale API Design Efforts
+      description: >-
+        Adopt an API Design-First approach across multiple teams with tooling that fits seamlessly into your existing workflows.
+      href: /api-design/
+      image: /images/enterprise/design.svg
+    - category: Documentation
+      title: Consistent Developer Experience
+      description: >-
+        Generate beautiful interactive documentation to provide a consistent experience for all APIs.
+      href: /api-documentation/
+      image: /images/enterprise/documentation.svg
+      isReversed: true
+    - category: Mocking
+      title: Build Faster with Instant Mocks
+      description: >-
+        Use automatically generated mock servers to increase developer productivity.
+      href: /api-mocking/
+      image: /images/enterprise/mocking.svg
+    - category: Visibility
+      title: Navigate APIs at Scale
+      description: >-
+        Keep all your design aritfacts in a central repository. 
+        Make searching and navigating large number of APIs easy for your teams to promote reuse, consistency, and quality.
+      href: /api-visibility/
+      image: /images/enterprise/visibility.svg
+    - category: Collaboration
+      title: Involve All Stakeholders
+      description: >-
+        Provide company-wide visibility to your APIs with flexible roles and permissions depending on your organization's needs. 
+      href: /api-collaboration/
+      image: /images/enterprise/collaboration.svg
+    - category: Governance
+      title: Standardize Design Across All APIs
+      description: >-
+        Ensure consistency across your organization with automatic style guides.
+        Create flexible rules to ensure enforcement without drilling down too hard on existing practices.  
+      href: /api-governance/
+      image: /images/enterprise/governance.svg
+integrations:
+  title: Integrate with On-Premise Git Providers
+  description: >-
+    Connect with Git Providers behind your firewall. Collaborate on API designs and documentation in a central source of truth using Git (Not Git-Like), seamlessly fitting into existing workflows.
+  images:
+    - alt: Azure DevOps
+      src: /images/integrations/azure.svg
+    - alt: GitHub
+      src: /images/integrations/github.svg
+    - alt: GitLab
+      src: /images/integrations/gitlab.svg
+    - alt: Bitbucket
+      src: /images/integrations/bitbucket.svg
+growthNeeds:
+  title: Stoplight Enterprise Grows with your Needs
+  description: >-
+    Expand your use without a cap on changelogs, projects or guests. Our pricing structure scales with your needs.
+security:
+  title: Your Security and Compliance Needs Covered
+  images:
+    - alt: SSO
+      src: /images/enterprise/SSO.svg
+      desc: Stoplight Enterprise gives your business several layers of security to their accounts
+      title: SAML-based SSO
+    - alt: Single-Tenant
+      src: /images/enterprise/deployment.svg
+      desc: Dedicated Instance for increased data security needs
+      title: Single Tenant Deployment
+caseStudy:
+  company: zoom
+  name: Tim Slagle, Manager of Developer Advocacy
+  desc: Our team roughly saves 15-20 hours a week. It makes it quicker to write, and the review process is quicker as well because we can go in and everybody can see the edits. We're pretty impressed with Stoplight as a whole.
+  image: /images/testimonials/tim_slagle.png
+  logo: /images/zoom_logo.png
+support:
+  title: A Customer Experience You’ll Love
+  images:
+    - alt: Partner
+      src: /images/enterprise/partner.svg
+      desc: We help you understand the business value of design, and drive transformation from the inside out. Our close customer relationships help us shape the future of the product and tailor solutions for your needs.
+      title: Your API design partner now, and in the future
+    - alt: Support
+      src: /images/enterprise/support.svg
+      desc: Our friendly Customer Support and Experience team is on hand from day one to help brilliant companies like yours get up and running with the answers, training and resources you need.
+      title: Dedicated training and support for your teams
+    - alt: Pricing
+      src: /images/enterprise/pricing.svg
+      desc: Our product drops jaws, not our pricing. It doesn't matter if you're starting to grow your team or transforming your business, our pricing structure scales with your needs.
+      title: Understand the business value of design, and drive transformation
 gartnerCoolVendor:
-  cta:
-    href: '/gartner-cool-vendor/'
-    title: Learn More
-  title: Stoplight named a Gartner Cool Vendor
+  title: Gartner Cool Vendor
   description: >-
     Stoplight is cool because it enables enterprises to manage API Design at scale.
     Learn more about collaborative API Design in this Gartner report.
-  image: /images/gartner_cv_2019_rgb.png
+  href: /gartner-cool-vendor/
+  images:
+    - src: /images/enterprise/gartner.svg
+      alt: Gartner Cool Vendor
 actionBar:
   ctas:
-    - href: /demo
-      title: Book a Demo
+    - color: blue2
+      href: /demo
+      title: Contact Sales
+      large: true
   enabled: true
-  text: Ready to go API First with the Stoplight Enterprise Platform?
+  centered: true
+  text: Build Quality APIs Faster.
 meta:
   description: Increase the consistency, visibility, and quality of your internal and external APIs with the Stoplight Enterprise Platform.
   favicon: /images/mark_light_bg.png
   image: /images/enterprise/hero.png
-  src: /images/studio/hero.png
+  src: /images/enterprise/hero.png
   title: Enterprise - API Design Management at Scale | Stoplight
+  robots: 'index, follow'
   twitter:
     description: Increase the consistency, visibility, and quality of your internal and external APIs with the Stoplight Enterprise Platform.
     src: /images/enterprise/hero.png
+    image: /images/enterprise/hero.png
     title: Enterprise - API Design Management at Scale | Stoplight
     username: '@stoplightio'
+  url: 'https://stoplight.io/enterprise/'

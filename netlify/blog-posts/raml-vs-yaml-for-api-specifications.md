@@ -11,11 +11,8 @@ author: Adam DuVander
 title: RAML vs YAML for API Specifications
 subtitle: The similarities and differences of these two modeling languages
 image: /images/two-camels.png
-color: black
 tabs:
   - {}
-disqus:
-  enabled: true
 actionBar:
   ctas:
     - color: purple
@@ -116,8 +113,6 @@ paths:
 While this example is truncated, it gets across the simplicity and readability of YAML documents for OpenAPI. You can find complete examples in the [Initiative’s GitHub repo](https://github.com/OAI/OpenAPI-Specification/tree/master/examples/v3.0).
 
 YAML files are easy to create by hand with any text editor. However, most developers choose to use tools to create their OpenAPI documents. You may be able to generate YAML from existing API code, for example. Ideally, your organization has a [design-first API](https://stoplight.io/api-design-guide/basics/) practice. In this approach, you model the interface before writing the code that produces it.
-
-![](/images/api-design-modeling.png)
 
 Stoplight’s offers a [full toolkit for OpenAPI](https://stoplight.io/), including a visual builder. You can export OpenAPI documents from Stoplight—or import existing API definitions to get started.
 

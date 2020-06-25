@@ -13,7 +13,7 @@ export const Quote: React.FunctionComponent<IQuote> = ({ quote, author, role }) 
 
       {(author || role) && (
         <div className="font-bold">
-          <div className="pb-1 uppercase text-green">{author}</div>
+          <div className="pb-1 uppercase text-blue2">{author}</div>
           <div>{role}</div>
         </div>
       )}

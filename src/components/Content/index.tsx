@@ -25,25 +25,25 @@ export const Content: React.FunctionComponent<IContent> = ({ sidebar, includeToc
     <>
       {!sidebar && includeToc ? (
         <div
-          className="sticky flex flex-col items-end -mr-20 -mb-40 z-10 md:-mr-6 m-auto w-1/6 sm:-mb-48 sm:py-8"
-          style={{ top: isBannerShowing ? 140 : 80 }}
+          className="sticky z-10 flex flex-col items-end w-1/6 m-auto -mb-40 -mr-20 md:-mr-6 sm:-mb-48 sm:py-8"
+          style={{ top: isBannerShowing ? 140 : 80, marginRight: 0, marginTop: 76, marginBottom: -200 }}
         >
-          <div className="bg-grey-light p-4 rounded-lg shadow-md md:hidden">
-            <p className="text-sm font-bold ml-6">Design APIs 10x Faster</p>
+          <div className="p-4 bg-white border rounded-lg md:hidden">
+            <p className="text-sm font-bold">Design Quality APIs 10x Faster</p>
             <CallToAction
-              className="z-5 mt-4 bg-grey-lightest"
-              href="https://stoplight.io/studio/?utm_campaign=studio_blog"
-              title="Download Studio"
-              color="green"
-              icon="arrow-right"
+              className="mt-4 z-5 bg-grey-lightest"
+              href="https://stoplight.io/welcome/?utm_campaign=studio_blog"
+              title="Try Stoplight"
+              color="purple"
+              rightIcon="arrow-right"
               outlined
+              shadow="none"
             />
-            <p className="text-sm italic ml-8 mt-4">Free. Runs everywhere.</p>
           </div>
         </div>
       ) : null}
 
-      <div className={cn('markdown-body pt-10 md:mt-20', { 'has-banner': isBannerShowing })}>
+      <div className={cn('markdown-body pt-20 md:mt-20', { 'has-banner': isBannerShowing })}>
         <div
           className={cn(className, { 'm-auto': !sidebar && !includeToc })}
           dangerouslySetInnerHTML={{ __html: html }}

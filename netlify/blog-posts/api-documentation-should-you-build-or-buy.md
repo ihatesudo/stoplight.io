@@ -13,8 +13,6 @@ image: /images/barn-construction.jpg
 color: black
 tabs:
   - {}
-disqus:
-  enabled: true
 actionBar:
   ctas:
     - color: purple
@@ -63,8 +61,6 @@ The initial build is a milestone, not an end. As you make changes, you’ll need
 
 You’ll also have technical maintenance for any frameworks or libraries you used. Open source is ever-evolving, which means you need to keep moving with it. Update that JavaScript library you depend on. And make sure you have ways to discover or get reports of errors with your API reference site, just like you’d want with any other software.
 
-![](/images/documentation-design-guide.png)
-
 Paid tools, such as [Stoplight’s documentation](https://stoplight.io/documentation/), can generate beautiful references from OpenAPI documents. Using this approach, you create a machine-readable definition of your API, then automate its publication. You can then plug Stoplight into existing CI/CD tooling to help ensure it’s always up-to-date.
 
 ## You Need Many Kinds of Documentation
@@ -75,7 +71,6 @@ Reference documentation is very different from longer form content. Instead of s
 
 One approach is to treat reference documentation and other content separately. Guide and tutorial content flows are typically like other types of content workflows. Often, a company will have an existing content management system (CMS) that may work for longer form developer content. The API reference can then be hosted on a subdomain, for example. The downside of the fragmented approach is that it feels like separate sites to users. Worse, they frequently diverge from each other, with one being more updated than the other.
 
-![Stoplight hub pages for all kinds of documentation](/images/hubs-create-subpage.gif)
 
 There are three primary approaches to bringing all your documentation together in one place:
 
@@ -83,7 +78,7 @@ There are three primary approaches to bringing all your documentation together i
 2. Attempt to shoehorn all the content into your CMS
 3. Use a platform that supports multiple types
 
-The first two are some form of build. The third means adopting a tool like Stoplight to [create multiple types of documentation](https://docs.stoplight.io/documentation/getting-started/subpages).
+The first two are some form of build. The third means adopting a tool like Stoplight to [create multiple types of documentation](/api-documentation).
 
 ## You Need Personalization Within Your Docs
 
@@ -93,7 +88,7 @@ Stripe’s audience is broad and the entire company is impacted by their develop
 
 - **Separate portal and documentation functionality**. Developers expect settings and authentication details to be stored in a dashboard or portal. You can heavily interlink the two, or use some trickery to make them appear like a single site. This approach will give you personalization where you need it without the added burden of building everything yourself.
 - **Generate tokens for testing**. Authentication is often the biggest hurdle for developer adoption. If your API uses OAuth or another complex authentication scheme, build a small tool to generate easy copy-paste tokens. This small project will pay dividends in developer experience without requiring personalization across your entire documentation.
-- **Bring API testing functionality into your documentation**. Once developers have an API key or token, help them use it to make live calls from within the documentation. This sort of “try it out” functionality helps show what’s possible with custom input. It’s so powerful, it’s one of the standard Stoplight [documentation blocks](https://docs.stoplight.io/documentation/blocks).
+- **Bring API testing functionality into your documentation**. Once developers have an API key or token, help them use it to make live calls from within the documentation. This sort of “try it out” functionality helps show what’s possible with custom input. It’s so powerful, it’s one of the standard Stoplight documentation blocks.
 
 Only companies like Stripe should be building all of their developer experience in-house. Even when personalization is required, you can find a balance between what you build yourself from scratch and what you buy to build upon.
 

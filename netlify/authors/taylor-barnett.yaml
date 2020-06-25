@@ -2,16 +2,13 @@ path: /blog/author/taylor-barnett
 tag: author
 title: Taylor Barnett
 subtitle: >-
-  Taylor Barnett is the lead Community Engineer at Stoplight. At Stoplight, she
-  leads Community and Open Source and contributes to Product, Support, and
-  Content. She’s passionate about building great developer experiences with an
+  Taylor Barnett is a community engineer and developer relations expert.  She's passionate about building great developer experiences with an
   emphasis on empathy and inclusion within APIs, documentation, support, and
   other community-focused projects. She has spoken at conferences such as
-  O’Reilly OSCON, API Strategy & Practices, DevXcon, and various local meetups
+  O'Reilly OSCON, API Strategy & Practices, DevXcon, and various local meetups
   about APIs, developer experience, SDKs, and building developer communities.
-pageName: Community Engineer
+pageName: Contributing Writer
 image: /images/barnett_headshot.png
-color: purple-darker
 actionBar:
   enabled: false
 meta:
@@ -19,5 +16,5 @@ meta:
   title: Taylor Barnett | Stoplight
   twitter:
     title: Taylor Barnett | Stoplight
-    username: '@taylor_atx'
+    username: '@stoplightio'
 pagination: {}

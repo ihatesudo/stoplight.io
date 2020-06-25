@@ -1,8 +1,24 @@
 path: /video/subscribe
-title: Subscribe to Stoplight Webinars
-subtitle: Watch & Learn
 hero:
-  particles: true
+  title: Subscribe to Stoplight Webinars
+  subtitle: Watch & Learn
+collage:
+  title: TRUSTED BY LEADING API FIRST COMPANIES
+  images:
+    - src: /images/ea.png
+      alt: EA
+    - src: /images/logo_arkea_transparent.png
+      alt: Arkea
+    - src: /images/chargify-new-logo.png
+      alt: Chargify
+    - src: /images/deutsche_bank.png
+      alt: Deutsche Bank
+    - src: /images/logo-sendgrid.png
+      alt: Sendgrid
+    - src: /images/shopgate.png
+      alt: Shopgate
+    - src: /images/tivo.png
+      alt: TiVo
 hubspot:
   formId: 132b647a-f85f-4bc0-bb0a-a019e30ba90e
   portalId: '4892910'

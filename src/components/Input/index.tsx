@@ -1,3 +1,4 @@
+import cn from 'classnames';
 import * as React from 'react';
 
 export interface IInput {
@@ -8,11 +9,20 @@ export interface IInput {
   placeholder?: string;
   style?: object;
   autoFocus?: boolean;
+  centered?: boolean;
 }
 
 const style = { minWidth: '250px' };
 
-export const Input: React.FunctionComponent<IInput> = ({ type, placeholder, value, onChange, autoFocus, onEnter }) => {
+export const Input: React.FunctionComponent<IInput> = ({
+  type,
+  placeholder,
+  value,
+  centered,
+  onChange,
+  autoFocus,
+  onEnter,
+}) => {
   const handleChange = React.useCallback(e => onChange(e.target.value), [onChange]);
 
   const handleEnter = React.useCallback(
@@ -32,10 +42,15 @@ export const Input: React.FunctionComponent<IInput> = ({ type, placeholder, valu
       ref.current.focus();
     }
   }, [ref]);
-
   return (
     <input
-      className="px-3 py-2 leading-loose border rounded-lg shadow appearance-none sm:w-full text-grey-darker focus:outline-none focus:shadow-outline"
+      className={cn(
+        'px-3 leading-loose rounded-lg appearance-none sm:w-full text-grey-darker focus:outline-none focus:shadow-outline',
+        {
+          'border shadow': centered,
+          'rounded-r-none': !centered,
+        }
+      )}
       type={type}
       ref={ref}
       placeholder={placeholder}

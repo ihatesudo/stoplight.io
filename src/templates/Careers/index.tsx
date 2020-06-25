@@ -1,9 +1,10 @@
 import * as React from 'react';
 import { withRouteData } from 'react-static';
+import { LandingHero } from 'src/components/Hero/LandingHero';
 
 import { ActionBar, IActionBar } from '../../components/ActionBar';
 import { Container } from '../../components/Container';
-import { Hero, IHero } from '../../components/Hero';
+import { IHero } from '../../components/Hero';
 import { HubSpotForm, IHubSpotForm } from '../../components/HubSpotForm';
 import { Layout } from '../../components/Layout';
 import { IRelatedPage, RelatedPages } from '../../components/RelatedPages';
@@ -45,7 +46,7 @@ export const Career: React.FunctionComponent<ICareer> = ({
 
   return (
     <Layout>
-      <Hero {...heroProps} />
+      <LandingHero {...heroProps} />
 
       <Section noPadding>
         <Container className="relative z-20 flex py-24 md:flex-wrap-reverse">

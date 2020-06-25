@@ -8,7 +8,6 @@ subtitle: >-
   the Web from falling apart.
 pageName: Software Engineer
 image: /images/hilton_headshot.png
-color: indigo
 actionBar:
   enabled: false
 meta:

@@ -1,0 +1,115 @@
+path: /api-collaboration
+title: API Collaboration
+relatedTags:
+  - blog-collaboration
+hero:
+  title: Build APIs Together
+  subtitle: >-
+    Improve alignment and collaboration by bringing internal and external stakeholders together in a single platform.
+  titleImage: '/images/workspaces/hero.svg'
+  aligned: left
+  ctas:
+    - color: blue2
+      href: https://stoplight.io/welcome
+      large: true
+      title: Get Started For Free
+    - color: blue2
+      href: /pricing
+      large: true
+      outlined: true
+      title: View Plans and Pricing
+featureIconStrip:
+  icons:
+    - icon: user-lock
+      color: lavender
+      title: Roles and Permissions
+    - icon: user-check
+      color: purple
+      title: Guest Access
+    - icon: list
+      color: indigo
+      title: Public & Private Projects
+    - image: /images/integrations/openAPI.svg
+      title: Git Workflows
+features:
+  features:
+    - title: Collaborate Securely
+      shortName: Roles and Permissions
+      description: >-
+        Work seamlessly by bringing all internal and external stakeholders in a single place with flexible roles and permissions.
+      image: /images/workspaces/roles.svg
+    - title: Involve Partners
+      shortName: Guest Access
+      description: >-
+        Share with external partners and customers early in the development cycle. Only provide them access to specific projects using the Guest Role.
+      image: /images/workspaces/invites.png
+      isReversed: true
+    - title: Create Privately and Share Publicly
+      shortName: Public & Private Projects
+      description: >-
+        Work on your projects privately before sharing them within the organization or the world. It’s as simple as changing a setting.
+      image: /images/docs/catalog.png
+integrations:
+  title: Integrate Seamlessly with Git Workflows
+  shortTitle: Git Workflows
+  description: >-
+    Collaborate on API designs and documentation in a central source of truth on top of Git. Integrate seamlessly into your current development and collaboration workflow.
+  images:
+    - alt: Azure DevOps
+      src: /images/integrations/azure.svg
+    - alt: GitHub
+      src: /images/integrations/github.svg
+    - alt: GitLab
+      src: /images/integrations/gitlab.svg
+    - alt: Bitbucket
+      src: /images/integrations/bitbucket.svg
+actionBar:
+  ctas:
+    - color: blue2
+      href: https://stoplight.io/welcome
+      title: Get Started
+      large: true
+  enabled: true
+  centered: true
+  text: Develop Faster with Hosted Mocks.
+solutionsNav:
+  title: Explore the API Design Lifecycle
+  icons:
+    - icon: 'pencil'
+      color: blue2
+      title: Design
+      href: /api-design/
+    - icon: code
+      color: lavender
+      title: Development
+      href: /api-development/
+    - icon: chart-network
+      color: blue2
+      title: Visibility
+      href: /api-visibility/
+    - icon: server
+      color: indigo
+      title: Mocking
+      href: /api-mocking/
+    - icon: balance-scale
+      color: purple
+      title: Governance
+      href: /api-governance/
+    - icon: book-open
+      color: blue2
+      title: Documentation
+      href: /api-documentation/
+meta:
+  description: >-
+    Improve alignment and collaboration by bringing internal and external stakeholders together in a single API collaboration platform
+  favicon: /images/mark_light_bg.png
+  image: /images/workspaces/hero.svg
+  title: API Collaboration & API Design | Stoplight
+  robots: 'index, follow'
+  twitter:
+    description: >-
+      Improve alignment and collaboration by bringing internal and external stakeholders together in a single API collaboration platform
+    image: /images/workspaces/hero.svg
+    title: API Collaboration & API Design | Stoplight
+    username: '@stoplightio'
+  url: 'https://stoplight.io/api-collaboration'

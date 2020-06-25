@@ -14,7 +14,6 @@ color: black
 tabs:
   - {}
 includeToc: true
-disqus: {}
 actionBar:
   ctas:
     - color: purple
@@ -32,6 +31,8 @@ meta:
     image: /images/architect-designing.jpg
     username: '@stoplightio'
 ---
+
+**_This blog post references a legacy product that is no longer accepting new users. To view Stoplight's current offering, head to the homepage._**
 
 Engineering teams need to collaborate amongst themselves and across departments to create great software. The frontend team may not create the API, but they should have a say in what it can do. Similarly, product and other non-engineering roles may have the most knowledge of the requirements.
 
@@ -91,9 +92,7 @@ This sort of API design is best stored as an [OpenAPI document](https://stopligh
 
 ## Seek Feedback from Collaborators
 
-Now that you have a draft design of your new API, you’ll want to circulate it with colleagues or external developers who will use it. If you haven’t already created an OpenAPI document, you can [build one visually](https://next.stoplight.io/) in Stoplight, which also lets you share with your team. Alternatively, you can upload your API description to GitHub and use a pull request for discussion.
-
-![Collaborate during API design with comments](/images/discussions.gif)
+Now that you have a draft design of your new API, you’ll want to circulate it with colleagues or external developers who will use it. If you haven’t already created an OpenAPI document, you can [build one visually](https://stoplight.io/welcome) in Stoplight, which also lets you share with your team. Alternatively, you can upload your API description to GitHub and use a pull request for discussion.
 
 For example, a frontend engineer on this project may suggest more data about the employee along with a time off request. They want to show the employee’s name and total vacation days used so far.
 
@@ -106,7 +105,5 @@ There are plenty of areas for improvement in the API we’ve designed. When you 
 ## Build the API and Documentation
 
 After some back and forth on [API design](https://stoplight.io/design/), you’ll have a first version declared in your OpenAPI document. Now as you build your API, you’ll know exactly the endpoints to create. Better yet, you know the data that should be returned and you have an [API contract to test against](https://stoplight.io/blog/what-is-api-testing/). In other words, you’ll know whether your API works the way you intended.
-
-![Generate beautiful documentation from OpenAPI documents](/images/docs_header.png)
 
 You can also use your OpenAPI definition to generate an API reference (and [not just static documentation](https://stoplight.io/blog/beyond-static-documentation/), either). Now anyone who needs to use your vacation request API, they’ll be able to quickly understand what is possible and how to integrate it into their application.

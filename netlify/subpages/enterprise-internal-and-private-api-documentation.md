@@ -12,7 +12,6 @@ subtitle: >-
 listSubtitle: >-
   Internal API documentation enables you to share private API docs with
   colleagues throughout your organization.
-color: blue
 includeToc: true
 actionBar:
   ctas: []
@@ -30,6 +29,7 @@ meta:
       colleagues throughout your organization.
     title: Internal and Private Documentation for APIs | Stoplight
     username: '@stoplightio'
+  url: https://stoplight.io/documentation/internal-private-api-documentation
 ---
 Internal API documentation enables you to share private API docs with colleagues throughout your organization. Stoplight's enterprise internal API documentation tool can generate these documents automatically, enabling rapid sharing of your API prototype in a format that humans can easily read and understand.
 
@@ -39,10 +39,9 @@ Enterprise API internal docs enable discussion and comments that help to improve
 
 Internal/private API documentation is intended for internal use only. It can be auto-generated using Stoplight's internal API documentation tool, written and edited manually, and/or annotated by allowing users across your organization to add their own comments.
 
-At its best, internal API documentation is a way to put your enterprise API into plain and easy-to-understand words so that internal stakeholders can provide feedback, opinions and helpful suggestions to improve your enterprise API and make sure you are meeting the needs of your teams. 
+At its best, internal API documentation is a way to put your enterprise API into plain and easy-to-understand words so that internal stakeholders can provide feedback, opinions and helpful suggestions to improve your enterprise API and make sure you are meeting the needs of your teams.
 
 ## Internal Documentation vs Private APIs
-
 
 Internal API documentation is for internal use only. However, you may have internal documentation relating to an external or public API. This allows you to provide the API itself for public use by customers, suppliers and other external stakeholders, while keeping private internal documentation relating to its design or functionality.
 

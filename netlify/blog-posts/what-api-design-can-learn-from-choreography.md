@@ -10,11 +10,9 @@ author: Adam DuVander
 title: What API Design Can Learn from Choreography
 subtitle: Work collaboratively to get your API from rehearsal to production
 image: /images/choreography-stage.jpg
-color: black
 tabs:
   - {}
 includeToc: true
-disqus: {}
 actionBar:
   ctas:
     - color: purple
@@ -45,8 +43,6 @@ Frontend and backend teams are rarely in perfect step. Frequently, the team that
 
 Production API decisions are forever. You may end up supporting clients consuming that API for years. Thoughtless action could make API maintenance unbearable, but only if decisions are permanent. During the API design phase, much like Broadway rehearsals, you may try things that never make it to production.
 
-![Stoplight visual API builder](/images/design_header.png)
-
 For example, you can use a tool like Stoplight to model your responses. Then stub out endpoints and request structures. This way, you design your API outside of code, with very little overhead needed to make changes. Take your API beyond conceptual and then you’ll be more likely to know what needs to change.
 
 ## The API Design Collaboration Dance
@@ -62,8 +58,6 @@ Every team has its own way of handling collaboration, even if it’s not a forma
 
 There are probably almost as many approaches as there are dev teams. The tools you use will determine who feels welcome in the discussion. In some cases, it may determine who even has _access_ to the API design process.
 
-![Stoplight collaboration within the API designer](/images/design_collaborate.png)
-
 Stoplight includes full team support, so everyone has access to the latest API design thinking. You’re more likely to get feedback from product, business development, or other relevant teams if there’s a comfortable place to collaborate.
 
 A great Broadway show frequently includes actors, singers, and dancers. Similarly, you can call on diverse skill sets and roles to make your API successful.
@@ -73,7 +67,5 @@ A great Broadway show frequently includes actors, singers, and dancers. Similarl
 As you design an API, you figure out the use cases it needs to support and how it will enable them. You get feedback from those who will use it and make adjustments. At some point, you’re ready to go to production, much like a well-rehearsed Broadway show. A live API brings all the design work into reality.
 
 As API requests come into your production API, those consuming it should already know what to expect. Your design codifies the endpoints, request data, and responses of your API. You can use an OpenAPI document to communicate what’s possible with your API in a machine-readable way.
-
-![Stoplight's API testing compares against your design](/images/testing_header.png)
 
 To confirm that your API is performing like you expect, use contract testing. Run test scenarios against your API to ensure it works like expected. Just as a choreographer might confirm that the planned steps are completed, you’ll ensure your development matches your design.

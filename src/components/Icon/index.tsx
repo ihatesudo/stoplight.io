@@ -9,7 +9,7 @@ export type IconProp = IconName | IconTuple | IconLookup;
 export interface IIcon {
   icon: IconProp;
   className?: string;
-  size?: 'xs' | 'sm' | 'lg' | '2x' | '3x' | '5x' | '7x' | '10x';
+  size?: 'xs' | 'sm' | 'lg' | '2x' | '3x' |'4x' | '5x' | '7x' | '10x';
   style?: any;
 }
 

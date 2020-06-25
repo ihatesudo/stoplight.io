@@ -9,7 +9,6 @@ publishedDate: 2019-02-06T03:07:38.734Z
 author: ''
 title: Basic API Design Guide, Best Practices & Good Design Principles
 subtitle: Learn all there is about API Design through our comprehensive guide
-color: blue
 tabs:
   - href: /api-design-guide/basics
     title: API Design Basics
@@ -24,7 +23,7 @@ actionBar:
     - submit:
         button:
           title: Get the API Design Guide
-          color: purple
+          color: blue2
         formId: e6cb86b0-8b13-49b8-860a-0e717da5489d
         input:
           placeholder: Your work email...
@@ -78,7 +77,7 @@ Your API design requires a way to define how the API will be used. The future-th
 
 Now that you’ve chosen OpenAPI v3, you may be tempted to set that aside until after you build your API, and "write the docs later." While it’s useful to describe existing APIs, you can also create API descriptions before and during writing the code.
 
-When you design your API alongside a description, you always have the artifact to communicate what’s possible with your API. The [design-first approach](/blog/openapi-and-design-first-principles-96e7c4b2aec1) offers a single source of truth, readable by collaborators and machines alike.
+When you design your API alongside a description, you always have the artifact to communicate what’s possible with your API. The [design-first approach](/blog/openapi-and-design-first-principles-96e7c4b2aec1/) offers a single source of truth, readable by collaborators and machines alike.
 
 ### The Design-Second Oxymoron
 

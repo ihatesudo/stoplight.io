@@ -13,11 +13,8 @@ subtitle: >-
   An open source, flexible JSON linter with out of the box support for the
   OpenAPI Specification
 image: /images/sharon-mccutcheon-663633-unsplash.jpg
-color: green-light
 tabs:
   - {}
-disqus:
-  enabled: true
 actionBar:
   ctas:
     - color: purple

@@ -12,9 +12,6 @@ author: Robert Wallach
 title: '10,000 APIs Under the Sea'
 subtitle: 'An Exploration of API Directories '
 image: /images/apis-under-sea.jpeg
-color: indigo
-disqus:
-  enabled: true
 actionBar:
   enabled: false
 meta:
@@ -31,7 +28,7 @@ meta:
     username: '@stoplightio'
 ---
 
-*Katsushika Hokusai, Thirty-Six Views of Mount Fuji, The Great Wave Off the Coast of Kanagawa*
+_Katsushika Hokusai, Thirty-Six Views of Mount Fuji, The Great Wave Off the Coast of Kanagawa_
 
 Following my journey through APIs and the tech industry while working at [Stoplight](https://stoplight.io) it occurred to me that, while I do understand what an API is, I had no idea what the scope of the API ecosystem was. So I’ve compiled a list of some of the most popular API Directories (or Marketplaces) and an exploration of API Integration Platforms.
 
@@ -59,47 +56,47 @@ The granddaddy of all API Directories. ProgrammableWeb has consistently been one
 
 ### Size of Directory
 
-* 🌟🌟🌟🌟🌟
+- 🌟🌟🌟🌟🌟
 
-* Largest curated API Directory
+- Largest curated API Directory
 
 ### Filters
 
-* ⭐️⭐️⭐️
+- ⭐️⭐️⭐️
 
-* By API
+- By API
 
-* By Category
+- By Category
 
-* By Platform
+- By Platform
 
-* Most Recent
+- Most Recent
 
 ### Supporting Documentation
 
-* ⭐️⭐️⭐️⭐️
+- ⭐️⭐️⭐️⭐️
 
-* User contributed
+- User contributed
 
-* Trackable/Notification system
+- Trackable/Notification system
 
-* Summary
+- Summary
 
-* SDKs
+- SDKs
 
-* Articles
+- Articles
 
-* How to
+- How to
 
-* Sample Source Code
+- Sample Source Code
 
-* Libraries
+- Libraries
 
-* Developers
+- Developers
 
-* Followers
+- Followers
 
-* Comments
+- Comments
 
 ![](https://cdn-images-1.medium.com/max/800/1*cBlO5tgw9NVG3Tdqdq932w.png)
 
@@ -109,62 +106,63 @@ GitHub will always be a good option for finding anything in tech and that includ
 
 ### Size of Directory
 
-* 🌟🌟🌟🌟🌟
+- 🌟🌟🌟🌟🌟
 
-* Massive, unlimited
+- Massive, unlimited
 
 ### Filters
 
-* ⭐️⭐️
+- ⭐️⭐️
 
-* Stars
+- Stars
 
-* Notifications
+- Notifications
 
-* Tags
+- Tags
 
 ### Augments existing provider documentation
 
-* Depends on the creator
+- Depends on the creator
 
 ![](https://cdn-images-1.medium.com/max/800/1*asthqsGt3G-0qQdx1JhWWg.png)
 
 ### **[RapidAPI](https://rapidapi.com/)**
+
 > “You can’t build everything from scratch, and using APIs makes work a lot more efficient. But each API has a different format and authentication strategy. You have to speak a lot of different languages to use them all.” — Iddo Gino
 
 As of March 13, 2018, RapidAPI claims that [they process 400B API calls each month](https://techcrunch.com/2018/03/13/rapidapi-an-api-marketplace-that-processes-half-a-billion-api-calls-each-month-raises-9m-led-by-a16z/) which makes them one of the most used API directories available. RapidAPI differs from the other directories by providing a single standardized gateway that allows access to all the APIs they support.
 
 ### Size of Directory
 
-* ⭐️⭐️⭐️⭐️
+- ⭐️⭐️⭐️⭐️
 
-* 8,000 APIs
+- 8,000 APIs
 
-* 2017, Acquired Mashape Hub
+- 2017, Acquired Mashape Hub
 
 ### Filters
 
-* ⭐️⭐️⭐️⭐️
+- ⭐️⭐️⭐️⭐️
 
-* Categories
+- Categories
 
-* Health
+- Health
 
-* Installs
+- Installs
 
-* Ratings
+- Ratings
 
 ### Augments Existing Provider Documentation
 
-* ⭐️⭐️⭐️⭐️
+- ⭐️⭐️⭐️⭐️
 
-* Overview
+- Overview
 
-* List of Endpoints
+- List of Endpoints
 
-* Discussion Board
+- Discussion Board
 
-* Test Endpoints and Generate Code Snippets
+- Test Endpoints and Generate Code Snippets
 
 ## **Honorable Mentions**
 
@@ -174,31 +172,31 @@ APIs.guru could be considered the bedrock of API Discovery. An open-source, mach
 
 ### Size of Directory
 
-* ⭐️
+- ⭐️
 
-* Around 250 APIs
+- Around 250 APIs
 
 ### **[{API} Search](http://apis.io/)**
 
 ### Size of Directory
 
-* ⭐️⭐️⭐️
+- ⭐️⭐️⭐️
 
-* 1116
+- 1116
 
 ### Filters
 
-* ⭐️⭐️
+- ⭐️⭐️
 
-* Search
+- Search
 
-* Tags
+- Tags
 
 ### Augments (rather than replaces) existing provider documentation
 
-* ⭐️
+- ⭐️
 
-* Lacks any form of additional information
+- Lacks any form of additional information
 
 ## **API Integration Platforms**
 
@@ -212,33 +210,33 @@ Segment is not just an API Integration Platform but is still one of the most wid
 
 ### Size of Directory
 
-* ⭐️⭐️⭐️⭐️
+- ⭐️⭐️⭐️⭐️
 
-* ~200
+- ~200
 
 ### Filters
 
-* ⭐️⭐️⭐️
+- ⭐️⭐️⭐️
 
-* Categories
+- Categories
 
-* Search
+- Search
 
-* Popularity
+- Popularity
 
-* Date Added
+- Date Added
 
 ### Augments (rather than replaces) existing provider documentation
 
-* ⭐️
+- ⭐️
 
-* Summary
+- Summary
 
 ### Price
 
-* $0 — $2400
+- $0 — $2400
 
-* Custom plan focus, with resource based pricing
+- Custom plan focus, with resource based pricing
 
 ![](https://cdn-images-1.medium.com/max/800/1*4YXLLWOjQ01PnzRpChFMFQ.png)
 
@@ -248,33 +246,33 @@ The purest distillation of an API Integration Platform. They provide you with th
 
 ### Size of Directory
 
-* ⭐️⭐️⭐️
+- ⭐️⭐️⭐️
 
-* ~150
+- ~150
 
 ### Filters
 
-* ⭐️
+- ⭐️
 
-* Categories
+- Categories
 
 ### Augments (rather than replaces) existing provider documentation
 
-* ⭐️⭐️⭐️⭐️
+- ⭐️⭐️⭐️⭐️
 
-* Guides
+- Guides
 
-* References
+- References
 
-* Feedback
+- Feedback
 
-* Release notes
+- Release notes
 
 ### Price
 
-* $2995 — $11995 / month
+- $2995 — $11995 / month
 
-* Custom plans, additional elements, and variable components add to price
+- Custom plans, additional elements, and variable components add to price
 
 ![](https://cdn-images-1.medium.com/max/800/1*tyDAYX3c5WqEOuEyGZxWYg.png)
 
@@ -284,37 +282,37 @@ Zapier differs from the other integration platforms by focusing on non-technical
 
 ### Size of Directory
 
-* 🌟🌟🌟🌟🌟
+- 🌟🌟🌟🌟🌟
 
-* ~1000 Apps
+- ~1000 Apps
 
 ### Filters
 
-* ⭐️⭐️⭐️⭐️
+- ⭐️⭐️⭐️⭐️
 
-* Popularity
+- Popularity
 
-* Recently Added
+- Recently Added
 
-* Premium Content
+- Premium Content
 
-* Category
+- Category
 
 ### Augments (rather than replaces) existing provider documentation
 
-* ⭐️⭐️⭐️
+- ⭐️⭐️⭐️
 
-* Overview
+- Overview
 
-* Triggers
+- Triggers
 
-* Actions
+- Actions
 
-* Searches
+- Searches
 
 ### Price
 
-* $0 — $250 / month
+- $0 — $250 / month
 
 ## **Takeaways**
 

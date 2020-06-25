@@ -6,7 +6,6 @@ subtitle: 'What is API Management, how do you do it, and what are the benefits?'
 listSubtitle: >-
   API management refers to a range of tasks, and covers the entire lifecycle of
   an API, from planning through deployment to onboarding users.
-color: purple-lighter
 includeToc: true
 actionBar:
   ctas: []

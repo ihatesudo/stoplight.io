@@ -8,9 +8,6 @@ author: Robert Wallach
 title: Stoplight v1.1.0 Release
 subtitle: 'Path Parameters, Download Project, Spectral'
 image: /images/changelog-stock.jpg
-color: black
-disqus:
-  enabled: true
 actionBar:
   ctas:
     - color: purple
@@ -50,7 +47,7 @@ meta:
 - Version numbers have been added back to the sidebar [#69](https://github.com/stoplightio/studio/issues/69)
 - Encountered an error when canceling import for an API [#83](https://github.com/stoplightio/studio/issues/83)
 - No way to select multiple security schemas of the same type [#52](https://github.com/stoplightio/studio/issues/52)
-- Encountered invalid $ref Spectral errors for valid references [#56](https://github.com/stoplightio/studio/issues/56)
+- Encountered invalid \$ref Spectral errors for valid references [#56](https://github.com/stoplightio/studio/issues/56)
 - Deleted projects not always removed from recent projects list [#66](https://github.com/stoplightio/studio/issues/66)
 - Enums not created with the correct type[#59](https://github.com/stoplightio/studio/issues/59)
 - Unable to switch Studio projects properly [#89](https://github.com/stoplightio/studio/issues/89)

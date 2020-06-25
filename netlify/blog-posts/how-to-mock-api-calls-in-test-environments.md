@@ -10,7 +10,6 @@ author: Matt Groberg
 title: How to Mock API Calls in Test Environments
 subtitle: Comparing Jasmine and Jest for Node mock APIs
 image: /images/jasmine-jester.jpg
-color: black
 includeToc: true
 actionBar:
   ctas:
@@ -37,9 +36,10 @@ meta:
     image: /images/jasmine-jester.jpg
     username: '@stoplightio'
 ---
-Automated testing is a great way to ensure the quality of your software. It helps you identify what behaviors you expect to see, and gives you an explicit statement about what went wrong if you encounter a bug. These days, APIs are everywhere, but [integrating APIs into unit tests](https://stoplight.io/blog/the-fundamentals-of-http-api-unit-testing-2c55cd0c7634/) can be a little tricky. However, whether your API is still in development, or you are working on new features, testing expected behaviors systematically can save a lot of time and make it easier to identify problems. Developing mock API calls can help you use valuable unit tests, without the problems associated with calling a live API.
 
-Node.js offers several different automated testing environments for behavior-driven JavaScript, including two popular frameworks Jest and Jasmine, which we’ll be comparing in this post. First, we’ll talk about best practices for behavior driven development with an API.  Then we’ll go over how to set up and run tests for your API in Jasmine or Jest. Finally, we’ll compare the two frameworks to help you decide which is best for your needs.
+Automated testing is a great way to ensure the quality of your software. It helps you identify what behaviors you expect to see, and gives you an explicit statement about what went wrong if you encounter a bug. These days, APIs are everywhere, but integrating APIs into unit tests can be a little tricky. However, whether your API is still in development, or you are working on new features, testing expected behaviors systematically can save a lot of time and make it easier to identify problems. Developing mock API calls can help you use valuable unit tests, without the problems associated with calling a live API.
+
+Node.js offers several different automated testing environments for behavior-driven JavaScript, including two popular frameworks Jest and Jasmine, which we’ll be comparing in this post. First, we’ll talk about best practices for behavior driven development with an API. Then we’ll go over how to set up and run tests for your API in Jasmine or Jest. Finally, we’ll compare the two frameworks to help you decide which is best for your needs.
 
 ## Why Mock API Calls
 
@@ -50,38 +50,37 @@ For each of these steps, list an example of what the raw data for this request l
 
 1. Returns a 200 status with a users posts when requested
 
-* Request: {method:'get',body:{user:"Jack"}}
-* Response: {status:200,posts:posts:["I just bought some magic beans!"]}
+- Request: {method:'get',body:{user:"Jack"}}
+- Response: {status:200,posts:posts:["I just bought some magic beans!"]}
 
 In order to test these behaviors without going to a network, you should have this logic separate from your main routes. This way you can easily import the same functions your API depends on in your tests. You can create a function that processes a request object and returns a promise to simulate an asynchronous API call. It could look something like this:
 
 ```javascript
-
-  function simulateAsyncCall(request){
-    return new Promise((resolve,reject)=>{
-      setTimeout(()=>{
-        switch(request.method){
-	case 'get':
-	  const user=getUser(request)
-	  if(user){
-                resolve({status:200,posts:user.posts})
-	  } else {
-	    resolve({status:404, message:"Not Found"})
-	  }
-	break;
-	case 'post':
-	  if(passwordIsValid(request)){
-	  addToPosts(request)
-	  resolve({status:200,message:"Added Post"})
-	} else{
-	  resolve({status:401,message:"Unauthorized"})
-	}
-	break;
-	default :
-	  resolve({status:400, message:'Bad Request'})
-        }
-    },300)
-  })
+function simulateAsyncCall(request) {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      switch (request.method) {
+        case 'get':
+          const user = getUser(request);
+          if (user) {
+            resolve({ status: 200, posts: user.posts });
+          } else {
+            resolve({ status: 404, message: 'Not Found' });
+          }
+          break;
+        case 'post':
+          if (passwordIsValid(request)) {
+            addToPosts(request);
+            resolve({ status: 200, message: 'Added Post' });
+          } else {
+            resolve({ status: 401, message: 'Unauthorized' });
+          }
+          break;
+        default:
+          resolve({ status: 400, message: 'Bad Request' });
+      }
+    }, 300);
+  });
 }
 ```
 
@@ -97,7 +96,7 @@ When that is finished you can configure Jasmine using this command:
 
 This will create a spec-folder with a configuration file with some default settings. It’s important to remember that the test files we write should end in "spec.js"
 
-Finally, we will need to set up the test command in our package.json file.  Open this file and add a `test` key to the `scripts` object with the path to the jasmine module. It should look like this:
+Finally, we will need to set up the test command in our package.json file. Open this file and add a `test` key to the `scripts` object with the path to the jasmine module. It should look like this:
 
 ```json
 "scripts":{
@@ -108,13 +107,13 @@ Finally, we will need to set up the test command in our package.json file.  Open
 Let's make sure everything is set up right. Create a file in the `spec` folder named `my-first-spec.js` paste this in it:
 
 ```javascript
-describe("My Jasmine Setup", function(){
-  var a=true;
+describe('My Jasmine Setup', function() {
+  var a = true;
 
-  it("tests if the value of a is true", function(){
-    expect(a).toBe(true)
-  })
-})
+  it('tests if the value of a is true', function() {
+    expect(a).toBe(true);
+  });
+});
 ```
 
 You can run tests in the terminal by running the test script we put in our package.json:
@@ -146,18 +145,18 @@ describe("Mock API",()=>{
     },
     ]
   };
-  
+
   beforeEach(()=>{
     mockAPI= new MockAPI(mockDatabase)
   })
-  
+
   it("returns a 400 bad request status if the request is invalid",()=>{
     const mockApiCall=mockAPI.simulateAsyncCall({})
     return mockApiCall.then(response=>{
       expect(response.status).toBe(400)
     })
   })
-  
+
   describe("get requests",()=>{
     const validRequest={method:'get',body:{user:"Jack"}};
     const invalidRequest={method:'get',body:{user:"Tod"}};
@@ -177,11 +176,11 @@ describe("Mock API",()=>{
       })
     });
   })
-  
+
   describe("post requests",()=>{
     const validRequest={method:'post',body:{user:"Jill",password:'hill',post:"He broke his crown!"}}
     const invalidRequest={method:'post',body:{user:"Jill",password:'beanstock',post:"Jack is cool..."}}
-  
+
     it("returns a 401 unauthorized status if the wrong credentials are sent",()=>{
       const mockApiCall=mockAPI.simulateAsyncCall(invalidRequest)
       return mockApiCall.then(response=>{
@@ -230,23 +229,23 @@ And include a test command in your package.json file like this:
 
 Jest started as a fork of Jasmine, so you can do everything we described above and more. This basic pattern of a "describe" block, and an "it" block which contains one or more "expect" methods works the same in Jest.
 
-So far, we have been testing *deterministic* functions (which always have the same output for a given input). But what if our API depends on something that is outside of our control? For example, what if our API uses a third party login for authentication?
+So far, we have been testing _deterministic_ functions (which always have the same output for a given input). But what if our API depends on something that is outside of our control? For example, what if our API uses a third party login for authentication?
 
 Jest allows you to create mock functions which return predictable outcomes and include extra methods to track how the function is integrating with the API. Using the jest.fn method, we can make assertions like this:
 
 ```javascript
-describe("AJAX functions with Jest",()=>{
-	const mockUrl='/api/users';
-	const mockUsers=[{name:'jack',name:'jill'}];
-	const getUsers = jest.fn((url)=>mockUsers)
-	it("returns returns users from an api call",()=>{
-		expect(getUsers(mockUrl)).toBe(mockUsers)
-		console.log(getUsers)
-	})
-	it("called getUser with a mockUrl",()=>{
-		expect(getUsers).toHaveBeenCalledWith(mockUrl)
-	})
-})
+describe('AJAX functions with Jest', () => {
+  const mockUrl = '/api/users';
+  const mockUsers = [{ name: 'jack', name: 'jill' }];
+  const getUsers = jest.fn(url => mockUsers);
+  it('returns returns users from an api call', () => {
+    expect(getUsers(mockUrl)).toBe(mockUsers);
+    console.log(getUsers);
+  });
+  it('called getUser with a mockUrl', () => {
+    expect(getUsers).toHaveBeenCalledWith(mockUrl);
+  });
+});
 ```
 
 If you run this test and look at the console.log, you will notice that there are a lot of methods associated this mock function. These allow you to specifically define how the function is called, what it should return, and more.
@@ -254,7 +253,7 @@ If you run this test and look at the console.log, you will notice that there are
 You can also mock out entire modules (replacing their methods with jest mock functions) using `jest.mock()`. For example, you could import an HTTP library (such as axios) and set the return value of its `.get()` method like this:
 
 ```javascript
-const axios=require('axios');
+const axios = require('axios');
 jest.mock('axios');
 
 class Users {
@@ -262,9 +261,9 @@ class Users {
     return axios.get('/users.json').then(resp => resp.data);
   }
 }
-const mockUsers=[{name:'Jack'}]
-const mockResponse={data:mockUsers}
-axios.get.mockResolvedValue(mockResponse)
+const mockUsers = [{ name: 'Jack' }];
+const mockResponse = { data: mockUsers };
+axios.get.mockResolvedValue(mockResponse);
 
 return Users.all().then(data => expect(data).toEqual(users));
 ```

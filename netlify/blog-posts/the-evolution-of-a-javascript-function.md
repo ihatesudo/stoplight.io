@@ -10,11 +10,8 @@ author: William Hilton
 title: The Evolution of a JavaScript Function
 subtitle: ' A hypothetical (but realistic) example of how an ordinary JavaScript function can evolve over time'
 image: /images/evolution-javascript.jpeg
-color: purple
 tabs:
   - {}
-disqus:
-  enabled: true
 actionBar:
   enabled: false
 meta:

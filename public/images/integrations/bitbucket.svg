@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="64px" viewBox="0 0 70 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>bitbucket</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.043137 0 0 0 0 0.435294 0 0 0 0 0.800000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-Page" transform="translate(-913.000000, -3891.000000)">
+            <g filter="url(#filter-1)" id="bitbucket">
+                <g transform="translate(913.000000, 3891.000000)">
+                    <path d="M2.26327273,0.613590673 C1.02981818,0.596363636 0.0174545455,1.58545455 0,2.81890909 C0,2.94981818 0.00581818182,3.08072727 0.0290909091,3.20872727 L9.52145455,60.8407273 C9.76581818,62.2923636 11.0196364,63.3629091 12.4945455,63.3775799 L58.0363636,63.3775799 C59.1476364,63.3890909 60.096,62.5890909 60.2763636,61.4981818 L69.7890909,3.22909091 C69.9869091,2.01309091 69.1607273,0.864 67.9418182,0.666181818 C67.8109091,0.642909091 67.6829091,0.634181818 67.5549091,0.637090909 L2.26327273,0.613590673 Z M42.24,42.2632727 L27.7003636,42.2632727 L23.7672727,21.7134545 L45.7629091,21.7134545 L42.24,42.2632727 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

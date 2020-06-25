@@ -1,106 +1,143 @@
 hero:
-  particles: true
-  skew: rounded
+  title: Build Quality APIs Faster
   subtitle: >-
-    The API Design Management Platform powering the world's leading API first
-    companies.
-  title: The Best APIs Start with Stoplight
+    Supercharge your API lifecycle with best-in-class tooling that integrates seamlessly into your Git workflows.
+  titleImage: '/images/home/hero.png'
+  aligned: left
+  ctas:
+    - color: blue2
+      href: https://stoplight.io/welcome/create
+      large: true
+      title: Get Started For Free
+    # - color: blue2
+    #   href: https://stoplight.io/welcome
+    #   large: true
+    #   outlined: true
+    #   title: Watch How It Works
+    #   type: video
+    #   rightIcon: play-circle
 features:
-  - name: API Design
-    description: Quickly model your APIs using visual tools on top of open standards.
-    href: /design
-    icon: 'pencil-ruler'
-    iconStyle:
-      '--fa-primary-color': 'dodgerblue'
-      '--fa-secondary-color': 'limegreen'
-  - name: API Documentation
-    description: Increase customer adoption with beautiful, functional documentation.
-    href: /documentation
-    icon: 'book'
-    iconStyle:
-      '--fa-primary-color': 'tomato'
-      '--fa-secondary-color': 'tomato'
-  - name: API Mocking
-    description: Easily mock web services and run scenarios from the command line.
-    href: /mocking
-    icon: 'server'
-    iconStyle:
-      '--fa-primary-color': 'slategray'
-      '--fa-secondary-color': 'slategray'
-caseStudies:
-  - company: Arkea
-    href: /case-studies/arkea
-    image: /images/logo_arkea_transparent.png
-    description: Arkéa has been involved in open banking for several years by providing white label banking services and saw PSD2 as an opportunity to extend their open banking features.
-    tag: Finance
-    color: orange
-  - company: Namely
-    href: /case-studies/namely
-    image: /images/logo_namely_transparent.png
-    description: Namely’s chief objective was to adopt API Design First principles. As they applied their new principle, they realized the importance of reliable, up to date, documentation.
-    tag: HR
-    color: indigo
-  - company: Appointment Plus
-    href: /case-studies/appointmentplus
-    image: /images/logo_appointmentplus_transparent.png
-    description: AppointmentPlus was managing multiple APIs built by different teams, at different times, with different strategies and intents.
-    tag: Tech
-    color: green
-testimonials:
-  actionBar:
-    ctas:
-      - color: white
-        href: /demo
-        outlined: true
-        title: Book a Demo
-      - color: purple
-        href: /studio
-        title: Get Started
-    enabled: true
-    text: Getting started is easy. Be up and running in minutes.
-  testimonials:
-    - author: Felix Sargent
-      company: MediaMath
-      image: /images/felix_s.jpg
-      quote: >-
-        Stoplight provides a clean user interface and enables an engineering
-        team to develop a compliant API with minimal difficulty. Other tools
-        don't provide the same details, guard rails, and error validation that
-        Stoplight provides.
-      role: Director of Engineering
-    - author: Carlos Lozano
-      company: GFT Group
-      image: /images/carlos_testimonial.jpeg
-      quote: >-
-        When it comes to specification markup and documentation, the order of
-        magnitude has gone from days to hours.
-      role: Senior Enterprise Architect
-    - author: John Vajda
-      company: JumpCloud
-      image: /images/testimonials/john_vajda.jpeg
-      quote: >-
-        Stoplight has been a serious game changer for JumpCloud’s API
-        development! We love all the rich design, documentation and testing
-        features, which has enabled us to design awesome APIs for our customers.
-      role: Product Manager
-    - author: Tim Slagle
-      company: Zoom
-      image: /images/testimonials/tim_s.jpg
-      quote: >-
-        Our team roughly saves 15-20 hours a week. It makes it quicker to write, and the review process is quicker as well because we can go in and everybody can see the edits.  We're pretty impressed with Stoplight as a whole.
-      role: Manager of Developer Advocacy
+  title: Collaborative Design and Documentation for APIs
+  description: >-
+    Built with the modern API workflow in mind, Stoplight brings an intuitive interface and thoughtful features to power your complete API design lifecycle.
+  features:
+    - category: Design
+      title: Design APIs in Minutes with Stoplight Studio
+      description: >-
+        Empower technical and non-technical stakeholders to create and collaborate on API designs in OpenAPI
+        and JSON Schema using an intuitive user interface. Use instant [mock](/mocking/) servers to test out designs and get early feedback.
+      image: /images/home/studio.svg
+      ctas:
+        - color: blue2
+          href: https://stoplight.io/welcome
+          title: Start Designing
+          large: true
+    - category: Documentation
+      title: Create Beautiful Developer Experiences
+      description: >-
+        Drive API adoption by providing internal and external
+        developers with always up-to-date interactive [documentation](/documentation/), tutorials, and code samples.
+      image: /images/home/docs.svg
+      ctas:
+        - color: blue2
+          href: https://stoplight.io/welcome
+          title: Create API Docs
+          large: true
+      isReversed: true
+    - category:
+      title: Scale with Confidence
+      description: >-
+        Whether you work with a couple of APIs and collaborators, or you're managing a large API program,
+        we've made sharing APIs, tracking changes, managing dependencies, and creating style guides a breeze.
+        <br><br>
+        Just connect your Git repos, and we'll make sure things are always up to date.
+      image: /images/home/explorer.svg
+      ctas:
+        - color: blue2
+          href: https://stoplight.io/pricing
+          title: View Plans and Pricing
+          large: true
+subFeatures:
+  features:
+    - category: Visibility
+      title: Maintain a Central Source of Truth
+      description: >-
+        Promote reuse, consistency, and quality by navigating [API design](/design/) artifacts
+        across your organization in an easily searchable and manageable technical
+        knowledge base.
+      image: /images/home/visibility.svg
+      href: /api-visibility
+    - category: Collaboration
+      title: Promote Stakeholder Alignment
+      description: >-
+        Streamline your workflow by encouraging all stakeholders from business to engineering
+        to collaborate across the API design and development lifecycle.
+      image: /images/home/collaboration.svg
+      href: /api-collaboration
+      isReversed: true
+    - category: Governance
+      title: Adhere to Best Practices
+      description: >-
+        Design consistent APIs by automatically validating against predefined or custom style
+        guidelines within the API designer.
+      image: /images/home/governance.svg
+      href: /api-governance
+integrations:
+  title: Integrate With Ease
+  description: >-
+    Connect easily with Git providers to always stay on top of project changes. No awkward two-way sync,
+    work directly with repositories fitting comfortably into existing Git workflows.
+  images:
+    - alt: Azure DevOps
+      src: /images/integrations/azure.svg
+    - alt: GitHub
+      src: /images/integrations/github.svg
+    - alt: GitLab
+      src: /images/integrations/gitlab.svg
+    - alt: Bitbucket
+      src: /images/integrations/bitbucket.svg
+collage:
+  images:
+    - src: /images/deutsche_bank.png
+      alt: Deutsche Bank
+    - alt: Chargify
+      src: /images/chargify-new-logo.png
+    - alt: Sendgrid
+      src: /images/logo-sendgrid.png
+    - alt: EA
+      src: /images/ea.png
+    - alt: TiVo
+      src: /images/tivo.png
+    - src: /images/logo_arkea_transparent.png
+      alt: Arkea
+    - src: /images/shopgate.png
+      alt: Shopgate
+  title: >-
+    Trusted By Leading API First Companies
+actionBar:
+  ctas:
+    - color: blue2
+      href: https://stoplight.io/welcome
+      title: Get Started For Free
+      large: true
+  enabled: true
+  centered: true
+  text: Ready to Start Building Quality APIs?
 meta:
   description: >-
     Using Stoplight you can create OpenAPI descriptions, documentation, mock
     servers much faster than other API tools, with no specialized knowledge
     required in one centralized platform.
   favicon: /images/mark_light_bg.png
-  image: /images/studio/hero.png
+  image: /images/home/thumbnail.png
+  robots: 'index, follow'
   title: API Design Management | Designing APIs For Teams and Enterprise | Stoplight
   twitter:
     description: >-
       Using Stoplight you can create OpenAPI descriptions, documentation, mock
       servers much faster than other API tools, with no specialized knowledge
       required in one centralized platform.
-    image: /images/studio/hero.png
+    image: /images/home/thumbnail.png
     title: API Design Management | Designing APIs For Teams and Enterprise | Stoplight
+    username: '@stoplightio'
+  url: 'https://stoplight.io/'

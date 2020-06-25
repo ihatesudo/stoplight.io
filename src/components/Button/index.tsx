@@ -25,7 +25,7 @@ export interface IButton {
 export const Button: React.FunctionComponent<IButton> = ({
   className,
   color = 'purple',
-  shadow = 'md',
+  shadow = 'default',
   outlined,
   href,
   title,
@@ -48,15 +48,15 @@ export const Button: React.FunctionComponent<IButton> = ({
         `border-${color}`,
         `hover:border-${color}-dark`,
         `focus:border-${color}-dark`,
-        `font-bold sm:w-full rounded-lg inline-flex justify-center items-center select-none border cursor-pointer`,
+        `font-semibold sm:w-full rounded-lg inline-flex justify-center items-center select-none border cursor-pointer`,
         {
           'px-4 py-2': !large,
           'px-6 py-3': large,
           [`bg-${color} hover:bg-${color}-dark text-white`]: !outlined,
           [`text-${color} hover:text-${color}-dark opacity-85 hover:opacity-100`]: outlined,
-          [`shadow-${shadow}`]: shadow,
+          [`shadow${shadow === 'default' ? '' : `-${shadow}`}`]: shadow,
           'text-lg': large,
-        },
+        }
       )}
       onClick={onClick}
       to={href}

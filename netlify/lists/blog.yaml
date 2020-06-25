@@ -1,16 +1,15 @@
 title: Stoplight API Intersection Blog
 subtitle: >-
-    Musings on API design, testing, documentation, trends, and related technology.
+  Musings on API design, testing, documentation, trends, and related technology.
 path: /blog
 tag: blog
 hero:
-  particles: true
   ctas:
     - title: Subscribe to the Newsletter
       type: 'submit'
       submit:
         button:
-          color: purple
+          color: blue2
           title: Subscribe to the Newsletter
           href: '/blog/'
         input:
@@ -34,13 +33,14 @@ tabs:
     title: Changelog
 actionBar:
   enabled: true
+  centered: true
   text: Subscribe to the Stoplight API Intersection Newsletter
   ctas:
     - title: Subscribe to the Stoplight API Intersection Newsletter
       type: 'submit'
       submit:
         button:
-          color: purple
+          color: blue2
           title: Subscribe
           href: '/blog/'
         input:
@@ -49,9 +49,8 @@ actionBar:
         formId: 'e58e3212-f08a-42fe-bbaa-29a21c27a3f5'
 meta:
   description: >-
-    Find out all you need to know about API design, testing, mocking, and
-    documentation from the official Stoplight Blog, written by some of the best
-    minds in the business.
+    Find out all you need to know about API design, testing, mocking, and documentation from the official Stoplight
+    Blog, written by some of the best minds in the business.
   favicon: /images/mark_light_bg.png
   title: Latest Stoplight Blog Posts | Stoplight API Intersection
   twitter:

@@ -11,9 +11,10 @@ export interface ISubmit {
   input: IInput;
   formId: string;
   className?: string;
+  centered?: boolean;
 }
 
-export const Submit: React.FunctionComponent<ISubmit> = ({ button, className, input, formId }) => {
+export const Submit: React.FunctionComponent<ISubmit> = ({ button, className, input, formId, centered }) => {
   const { integrations } = useSiteData();
 
   let defaultValue = '';
@@ -42,10 +43,10 @@ export const Submit: React.FunctionComponent<ISubmit> = ({ button, className, in
 
   return (
     <div
-      className={cn(
-        className,
-        'flex flex-col items-center max-w-2xl sm:max-w-full sm:flex-col sm:justify-center sm:items-between'
-      )}
+      className={cn(className, '', {
+        'flex flex-col items-center max-w-2xl sm:max-w-full sm:flex-col sm:justify-center sm:items-between':
+          centered === true,
+      })}
     >
       {response.success ? (
         <div
@@ -55,11 +56,26 @@ export const Submit: React.FunctionComponent<ISubmit> = ({ button, className, in
           }}
         />
       ) : (
-        <div className="flex flex-col sm:flex-wrap sm:justify-center sm:py-4">
+        <div
+          className={cn('flex ', {
+            'flex-row border-2 border-blue2 rounded-xl sm:border-0': !centered,
+            'flex flex-col items-center max-w-2xl sm:max-w-full sm:flex-col sm:justify-center sm:items-between sm:flex-wrap sm:justify-center sm:py-4': centered,
+          })}
+        >
           <Input {...input} value={value} onChange={setValue} onEnter={handleSubmit} />
 
-          <div className="flex justify-center flex-1 pt-4 text-lg font-bold sm:justify-center sm:items-between sm:flex-wrap sm:py-2 sm:w-full sm:px-0">
-            <Button className="w-full" onClick={handleSubmit} {...button} title={button.title} loading={loading} />
+          <div
+            className={cn({
+              'flex justify-center flex-1 pt-4 text-lg font-bold sm:justify-center sm:items-between sm:flex-wrap sm:py-2 sm:w-full sm:px-0': centered,
+            })}
+          >
+            <Button
+              className={cn({ 'rounded-r-md rounded-l-none': !centered }, 'w-full')}
+              onClick={handleSubmit}
+              {...button}
+              title={button.title}
+              loading={loading}
+            />
           </div>
         </div>
       )}

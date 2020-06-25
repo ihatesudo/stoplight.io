@@ -48,7 +48,7 @@ export const ProductCard = ({
 
         <h2 className="mt-4">{title}</h2>
 
-        <div className="text-lg text-grey-darker leading-loose mt-4 flex-1">{description}</div>
+        <div className="text-lg text-black leading-loose mt-4 flex-1">{description}</div>
 
         <div className="sm:mt-6">
           <Button shadow="none" color={color} rightIcon={['fad', 'arrow-right']}>

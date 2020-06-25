@@ -9,14 +9,8 @@ publishedDate: 2018-05-14T22:20:35.562Z
 author: Robert Wallach
 title: "Stoplight \U0001F496 the OpenAPI Initiative"
 subtitle: 'Announcing our partnership with the OpenAPI Initiative '
-image: /images/openapi.jpeg
-color: green
-disqus:
-  enabled: true
-actionBar:
-  ctas:
-    - color: purple
-  enabled: false
+titleImage: /images/openapi.jpeg
+color: black
 meta:
   description: 'Announcing our partnership with the OpenAPI Initiative '
   url: https://stoplight.io/blog/stoplight--the-openapi-initiative-def9db056eaf/

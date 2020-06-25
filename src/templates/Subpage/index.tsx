@@ -1,7 +1,5 @@
-import { DiscussionEmbed } from 'disqus-react';
 import * as React from 'react';
 import { withRouteData } from 'react-static';
-
 import { ActionBar, IActionBar } from 'src/components/ActionBar';
 import { Container } from 'src/components/Container';
 import { Hero, IHero, IHeroBreadCrumb } from 'src/components/Hero';
@@ -12,6 +10,7 @@ import { IQuote, Quote } from 'src/components/Quote';
 import { IRelatedPage, RelatedPages } from 'src/components/RelatedPages';
 import { Section } from 'src/components/Section';
 import { ITab } from 'src/components/Tabs';
+
 import { Content } from '../../components/Content';
 import { Layout } from '../../components/Layout';
 
@@ -44,7 +43,6 @@ export interface IPage {
  */
 
 export const Subpage: React.FunctionComponent<IPage> = ({
-  path,
   title,
   subtitle,
   pageName,
@@ -57,7 +55,6 @@ export const Subpage: React.FunctionComponent<IPage> = ({
   sidebar,
   actionBar,
   relatedPages,
-  disqus,
   tabs,
   className,
   body,
@@ -76,15 +73,8 @@ export const Subpage: React.FunctionComponent<IPage> = ({
     heroProps.author = { ...author, meta: publishedDate };
   }
 
-  let url = path;
-  let showDisqus = disqus && disqus.enabled;
-  if (typeof window !== 'undefined') {
-    url = window.location.origin + path;
-    showDisqus = showDisqus && !/^\/_admin/.test(window.location.pathname);
-  }
-
   return (
-    <Layout>
+    <Layout color="grey-lighter">
       <Hero {...heroProps} tabs={tabs} />
 
       <Section noPadding>
@@ -119,25 +109,12 @@ export const Subpage: React.FunctionComponent<IPage> = ({
       </Section>
 
       {actionBar && (
-        <Section className="-mt-20">
-          <ActionBar className="my-24" {...actionBar} />
+        <Section noPadding>
+          <ActionBar className="my-24" {...actionBar} centered={true} />
         </Section>
       )}
 
       {relatedPages && relatedPages.length ? <RelatedPages pages={relatedPages} /> : null}
-
-      {showDisqus && (
-        <div className="container my-10">
-          <DiscussionEmbed
-            shortname="stoplight-io"
-            config={{
-              url,
-              identifier: url,
-              title,
-            }}
-          />
-        </div>
-      )}
     </Layout>
   );
 };

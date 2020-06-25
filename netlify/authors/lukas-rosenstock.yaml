@@ -12,7 +12,6 @@ subtitle: >-
   developer tools.
 pageName: Contributing Author
 image: /images/rosenstock_lukas.jpg
-color: green
 actionBar:
   enabled: false
 meta:

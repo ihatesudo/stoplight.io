@@ -3,10 +3,9 @@ tag: author
 title: Matt Groberg
 subtitle: >-
   Matt Groberg is a web developer with a background in botany. He creates interactive 
-  user interfaces for websites and apps using modern JavaScript frameworks. 
+  user interfaces for websites and apps using modern JavaScript frameworks.
 pageName: Writer
 image: /images/groberg-headshot.jpg
-color: black
 tabs:
   - {}
 actionBar:

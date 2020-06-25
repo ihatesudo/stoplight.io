@@ -1,198 +1,105 @@
 import cn from 'classnames';
 import * as React from 'react';
 import { withRouteData, withSiteData } from 'react-static';
-
+import { ActionBar, IActionBar } from 'src/components/ActionBar';
+import { Collage, ICollage } from 'src/components/Collage';
+import { IIntegrationsBar, IntegrationsBar } from 'src/components/IntegrationsBar';
+import { ILargeCard, LargeCard } from 'src/components/LargeCard';
+import { Link } from 'src/components/Link';
+import { SimpleCard } from 'src/components/SimpleCard';
 import { SimpleCardBody } from 'src/components/SimpleCard/SimpleCardBody';
-
-import { IconName } from '@fortawesome/fontawesome-common-types';
-import { Chips } from 'src/components/Chip';
-import { SimpleCardBottom } from 'src/components/SimpleCard/SimpleCardBottom';
-import { SimpleCardTag } from 'src/components/SimpleCard/SimpleCardTag';
-import { SimpleCardTitle } from 'src/components/SimpleCard/SimpleCardTitle';
 import { SimpleCardTop } from 'src/components/SimpleCard/SimpleCardTop';
-import { ITestimonials, Testimonials } from 'src/components/Testimonials';
-import { Container, IContainer } from '../../components/Container';
-import { Hero, IHero } from '../../components/Hero';
-import { Icon } from '../../components/Icon';
-import { IImage, Image } from '../../components/Image';
-import { Layout } from '../../components/Layout';
-import { ProductCard } from '../../components/ProductCard';
-import { ISection, Section } from '../../components/Section';
-import { SimpleCard } from '../../components/SimpleCard';
 
-export interface IHome {
+import { Container } from '../../components/Container';
+import { IHero } from '../../components/Hero';
+import { LandingHero } from '../../components/Hero/LandingHero';
+import { Icon } from '../../components/Icon';
+import { Image } from '../../components/Image';
+import { Layout } from '../../components/Layout';
+import { Section } from '../../components/Section';
+
+interface IFeatures {
+  title?: string;
+  description?: string;
+  features: ILargeCard[];
+}
+
+interface IHome {
   color: string;
   hero: IHero;
-  testimonials: ITestimonials;
-  features: IFeature[];
-  customers: ICustomerSection;
-  caseStudies?: ICaseStudyCard[];
-}
-
-interface ICustomerSection extends ISection {
-  images: IImage[];
-  title?: IContainer['title'];
-  cta?: IContainer['cta'];
-  cardBg?: string;
-}
-
-interface ICaseStudyCard {
-  href: string;
-  company: string;
-  image: string;
-  tag: string;
-  description: string;
-  color: string;
-}
-
-interface IFeature {
-  name: string;
-  icon: IconName;
-  iconStyle: {
-    '--fa-primary-color': string;
-    '--fa-secondary-color': string;
-  };
-  description: string;
-  href?: string;
+  collage: ICollage;
+  features: IFeatures;
+  subFeatures: IFeatures;
+  integrations: IIntegrationsBar;
+  actionBar?: IActionBar;
 }
 
 export const Home: React.FunctionComponent<IHome> = ({
   color,
   hero,
-  caseStudies,
-  testimonials,
   features,
-  customers,
+  subFeatures,
+  actionBar,
+  integrations,
+  collage,
   ...sectionProps
 }) => {
   return (
     <Layout>
-      <Hero bgColor={color} {...hero} bottomElem={<ProductCards className="pt-24 sm:pt-6" />} />
+      {hero && <LandingHero bgColor={color} {...hero} />}
 
-      {features && (
-        <Section id="features" className="pt-32" noPadding>
-          <Container
-            chips={{
-              className: 'justify-center mb-10',
-              segments: [{ color: 'blue-lighter', length: 2 }, { color: 'blue' }],
-            }}
-          >
-            <div className="text-lg font-semibold text-center uppercase text-grey-dark">
-              Quality APIs Don't Just Happen
-            </div>
+      {collage && <Collage {...collage} />}
 
-            {features && (
-              <div className="flex flex-wrap justify-around">
-                {features.map((feature, index) => (
-                  <SimpleCard
-                    key={index}
-                    className="items-center px-5 text-center w-80 mt-14 sm:pt-14"
-                    href={feature.href}
-                  >
-                    <Icon icon={['fad', feature.icon]} className="text-center" size="3x" style={feature.iconStyle} />
+      {features && features.description && (
+        <Section id="features" noPaddingT>
+          <h2 className="p-0 text-3xl font-bold text-center text-black sm:mx-12 md:px-10">{features?.title}</h2>
 
-                    <SimpleCardTop className="mt-5 text-xl font-bold text-grey-darkest">
-                      <SimpleCardTitle title={feature.name} />
-                    </SimpleCardTop>
-
-                    <SimpleCardBody
-                      className="my-2 font-medium leading-loose text-grey-dark"
-                      description={feature.description}
-                    />
-
-                    <SimpleCardBottom className="text-center">
-                      <div className="flex items-center flex-1 font-semibold text-blue">
-                        Learn More
-                        <Icon icon={['fad', 'arrow-right']} className="ml-3" />
-                      </div>
-                    </SimpleCardBottom>
-                  </SimpleCard>
-                ))}
-              </div>
-            )}
-          </Container>
-        </Section>
-      )}
-
-      {caseStudies && (
-        <Section id="case-studies" {...sectionProps}>
-          <Chips
-            className="justify-center mb-10"
-            segments={[{ color: 'indigo-light', length: 2 }, { color: 'indigo-dark', length: 3 }, { color: 'indigo' }]}
+          <div
+            className="container max-w-2xl pt-5 text-xl leading-loose text-center opacity-75"
+            dangerouslySetInnerHTML={{ __html: features?.description }}
           />
 
-          <div className="text-lg font-semibold text-center uppercase text-grey-dark">
-            Stoplight powers some of the world's leading API first companies
-          </div>
+          <Container className="flex flex-wrap justify-center pt-20 md:pt-12 sm:pt-4 md:block md:w-full sm:p-0">
+            {features?.features && features?.features?.map((feature, index) => <LargeCard key={index} {...feature} />)}
+          </Container>
 
-          <Container className="flex flex-wrap justify-between md:justify-center mt-14">
-            {caseStudies.map((caseStudy, index) => (
-              <SimpleCard key={index} className="p-8 m-8 bg-white w-96 h-80" hoverable href={caseStudy.href}>
-                <SimpleCardTop>
-                  <div>
-                    <Image
-                      src={caseStudy.image}
-                      title={`${caseStudy.company} Logo`}
-                      alt={caseStudy.company}
-                      className="h-10"
+          {subFeatures && (
+            <Container className="flex flex-wrap justify-center pt-20 sm:w-full">
+              {subFeatures.features &&
+                subFeatures.features.map((subFeature, index) => (
+                  <SimpleCard key={index} className="flex w-1/3 p-8 pb-20 bg-white sm:w-full sm:items-center">
+                    <SimpleCardTop className="flex items-start pb-4 sm:items-center">
+                      <Image src={subFeature?.image} className="flex items-center h-32 pb-5 sm:items-center" />
+
+                      <h2 className="pb-5 text-lg font-semibold uppercase text-accent">{subFeature.category}</h2>
+                      <h3 className={cn('text-xl md:h-12', `text-${subFeature.titleColor || 'black'}`)}>
+                        {subFeature.title}
+                      </h3>
+                    </SimpleCardTop>
+                    <SimpleCardBody
+                      className="flex items-start pb-4 sm:text-center sm:items-center SEO"
+                      {...subFeature}
                     />
-                  </div>
-                </SimpleCardTop>
-                <SimpleCardBody description={caseStudy.description} className="mt-4 leading-loose text-grey-darker" />
-                <SimpleCardBottom className="flex items-center mt-6 mb-3 border-t">
-                  <div className="flex items-center flex-1 mt-8 text-blue">
-                    Read <Icon icon={['fad', 'arrow-right']} className="ml-3" />
-                  </div>
-
-                  <SimpleCardTag tag={caseStudy.tag} color={caseStudy.color} className="mt-8" />
-                </SimpleCardBottom>
-              </SimpleCard>
-            ))}
-          </Container>
-
-          <Container className="flex flex-wrap justify-between px-20 mt-10">
-            {customers.images.map((image, key) => (
-              <div key={key} className="py-8 sm:w-1/2 sm:p-6">
-                <Image className="h-8" src={image.src} title={`${image.alt} Logo`} alt={image.alt} />
-              </div>
-            ))}
-          </Container>
+                    <Link to={subFeature.href} className="font-semibold text-blue2 sm:pt-5">
+                      Learn More
+                      <Icon icon="arrow-right" className="ml-3" />
+                    </Link>
+                  </SimpleCard>
+                ))}
+            </Container>
+          )}
         </Section>
       )}
 
-      <Testimonials {...testimonials} />
+      {integrations && <IntegrationsBar {...integrations} />}
+
+      {actionBar && (
+        <Section id="action" {...sectionProps}>
+          <ActionBar {...actionBar} />
+        </Section>
+      )}
     </Layout>
   );
 };
 
 export default withSiteData(withRouteData(Home));
-
-const ProductCards = ({ className }: { className?: string }) => {
-  return (
-    <div className={cn(className, 'container relative z-5 flex justify-between text-left sm:flex-col sm:items-center')}>
-      <ProductCard
-        tag="design"
-        name="Stoplight Studio"
-        title="Next gen editor for API design & technical docs"
-        description="Stoplight Studio turns you into an API Design superhero. Create OpenAPI 10x faster, with no prior knowledge and fewer mistakes."
-        color="blue"
-        icon={['fad', 'paint-brush-alt']}
-        className="w-1/2 mx-3 bg-white bg-grey-lightest sm:w-full sm:mb-6"
-        href="/studio"
-        image="/images/studio-glimpse.png"
-      />
-
-      <ProductCard
-        tag="scale"
-        name="Stoplight Enterprise"
-        title="API design management at scale"
-        description="The Stoplight Platform increases consistency, visibility, and quality across your internal and external APIs."
-        color="orange"
-        icon={['fad', 'chart-network']}
-        className="w-1/2 mx-3 bg-white sm:w-full"
-        href="/enterprise"
-        image="/images/platform-glimpse.png"
-      />
-    </div>
-  );
-};
