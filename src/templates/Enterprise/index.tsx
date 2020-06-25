@@ -60,7 +60,7 @@ export const Enterprise: React.FunctionComponent<IEnterprise> = ({
   return (
     <Layout>
       {hero && <LandingHero bgColor={color} {...hero} />}
-      {collage && <Collage {...collage} />}
+
       {subFeatures && subFeatures?.description && (
         <Section id="enterprise-features" {...sectionProps} noPadding>
           <h2 className="text-4xl text-center text-black text-semibold text-normal">{subFeatures?.title}</h2>
@@ -71,15 +71,15 @@ export const Enterprise: React.FunctionComponent<IEnterprise> = ({
           <Container className="flex flex-wrap justify-center pt-20 sm:w-full">
             {subFeatures.features &&
               subFeatures.features.map((subFeature, index) => (
-                <SimpleCard key={index} className="flex w-1/3 p-8 pb-20 bg-white sm:w-full sm:items-center">
-                  <SimpleCardTop className="flex items-start pb-4 sm:items-center">
-                    <Image src={subFeature?.image} className="flex items-center h-20 pb-5 sm:items-center" />
+                <SimpleCard key={index} className="flex items-center w-1/3 p-8 pb-20 bg-white sm:w-full">
+                  <SimpleCardTop className="flex items-center pb-4">
+                    <Image src={subFeature?.image} className="flex items-center h-20 pb-5 " />
                     <h2 className="pb-5 text-lg font-semibold uppercase text-grey-darker">{subFeature.category}</h2>
                     <h3 className={cn('text-xl md:h-12', `text-${subFeature.titleColor || 'black'}`)}>
                       {subFeature.title}
                     </h3>
                   </SimpleCardTop>
-                  <SimpleCardBody className="flex items-start pb-4 sm:text-center sm:items-center" {...subFeature} />
+                  <SimpleCardBody className="flex pb-4 text-center " {...subFeature} />
                   <Link to={subFeature.href} className="font-semibold text-blue2 sm:pt-5">
                     Learn More
                     <Icon icon="arrow-right" className="ml-3" />
@@ -183,8 +183,9 @@ export const Enterprise: React.FunctionComponent<IEnterprise> = ({
           </div>
         </Section>
       )}
+      {collage && <Collage {...collage} />}
       {actionBar && (
-        <Section id="action" {...sectionProps}>
+        <Section id="action" {...sectionProps} noPaddingT>
           <ActionBar {...actionBar} />
         </Section>
       )}
