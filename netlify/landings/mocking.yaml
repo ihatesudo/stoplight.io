@@ -17,13 +17,13 @@ featureIconStrip:
   icons:
     - image: /images/integrations/openAPI.svg
       title: OpenAPI Support
-    - icon: code
+    - icon: clock
       color: blue2
       title: Early Feedback
     - icon: server
       color: indigo
       title: Parallel Development
-    - icon: chart-network
+    - icon: check-double
       color: lavender
       title: Contract Testing
     - icon: paint-brush

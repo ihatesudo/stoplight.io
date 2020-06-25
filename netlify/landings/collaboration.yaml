@@ -29,7 +29,7 @@ featureIconStrip:
     - icon: list
       color: indigo
       title: Public & Private Projects
-    - image: /images/integrations/openAPI.svg
+    - image: /images/integrations/git.svg
       title: Git Workflows
 features:
   features:

@@ -23,7 +23,7 @@ featureIconStrip:
     - icon: list
       color: green
       title: API Catalog
-    - icon: code
+    - icon: search
       color: purple
       title: Search and Filter
     - icon: user-lock
