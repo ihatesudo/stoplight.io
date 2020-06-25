@@ -23,7 +23,7 @@ export const Link: React.FunctionComponent<ILink> = ({ to, children, disabled, d
 
     if (href.includes('/welcome/') || /^http/.test(href)) {
       return (
-        <a {...props} href={href} download={download} target="_blank" rel="noopener noreferrer">
+        <a {...props} href={href} download={download}>
           {children}
         </a>
       );
